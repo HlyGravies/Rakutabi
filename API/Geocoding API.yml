@@ -1,0 +1,93 @@
+results:
+  - address_components:
+      - long_name: '1'
+        short_name: '1'
+        types:
+          - premise
+      - long_name: '1'
+        short_name: '1'
+        types:
+          - political
+          - sublocality
+          - sublocality_level_4
+      - long_name: Ōsakajō
+        short_name: Ōsakajō
+        types:
+          - political
+          - sublocality
+          - sublocality_level_2
+      - long_name: Chuo Ward
+        short_name: Chuo Ward
+        types:
+          - political
+          - sublocality
+          - sublocality_level_1
+      - long_name: Osaka
+        short_name: Osaka
+        types:
+          - locality
+          - political
+      - long_name: Osaka
+        short_name: Osaka
+        types:
+          - administrative_area_level_1
+          - political
+      - long_name: Japan
+        short_name: JP
+        types:
+          - country
+          - political
+      - long_name: '540-0002'
+        short_name: '540-0002'
+        types:
+          - postal_code
+    formatted_address: 1-1 Ōsakajō, Chuo Ward, Osaka, 540-0002, Japan
+    geometry:
+      location: #Dùng 2 giá trị dưới
+        lat: 34.6872571
+        lng: 135.5258546
+      location_type: ROOFTOP
+      viewport:
+        northeast:
+          lat: 34.6894695
+          lng: 135.5338807
+        southwest:
+          lat: 34.6837999
+          lng: 135.5209817
+    navigation_points: # Các điểm được tính toán để điều hướng
+      - location:
+          latitude: 34.6837999
+          longitude: 135.5336153
+        restricted_travel_modes:
+          - WALK # Ví dụ: Hạn chế đi bộ qua điểm này
+      - location:
+          latitude: 34.6856055
+          longitude: 135.5209899
+        restricted_travel_modes:
+          - WALK
+      - location:
+          latitude: 34.6873153
+          longitude: 135.533876
+        restricted_travel_modes:
+          - WALK
+      - location:
+          latitude: 34.6894663
+          longitude: 135.5226224
+        restricted_travel_modes:
+          - WALK
+      - location:
+          latitude: 34.6869384
+          longitude: 135.5259804
+        restricted_travel_modes:
+          - DRIVE # Ví dụ: Hạn chế lái xe qua điểm này
+    place_id: ChIJ_TooXM3gAGARQR6hXH3QAQ8 #Dùng cái này
+    plus_code:
+      compound_code: MGPG+W8 Osaka, Japan
+      global_code: 8Q6QMGPG+W8
+    types:
+      - establishment
+      - museum
+      - point_of_interest
+      - tourist_attraction
+html_attributions: []
+status: OK

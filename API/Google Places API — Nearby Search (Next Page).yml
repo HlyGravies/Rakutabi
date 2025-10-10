@@ -1,0 +1,82 @@
+html_attributions: []
+results:
+  # Kết quả 1: Chionin Temple (Chùa)
+  - business_status: OPERATIONAL
+    geometry:
+      location:
+        lat: 35.0051988
+        lng: 135.7833827
+      viewport:
+        northeast:
+          lat: 35.00740575
+          lng: 135.7850331
+        southwest:
+          lat: 35.00342195
+          lng: 135.7784315
+    icon: 'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/worship_dharma-71.png'
+    icon_background_color: '#7B9EB0'
+    icon_mask_base_uri: 'https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet'
+    name: Chionin Temple
+    opening_hours:
+      open_now: true
+    photos:
+      - height: 9000
+        html_attributions:
+          - '<a href="https://maps.google.com/maps/contrib/113515396796669318671">Mark Reeves</a>'
+        photo_reference: AciIO2eqYKNDty7LVrmR4lpIdNGGjQKihXtbOY2v-P4TSiJVSvf7cXFWcmnY5--fFZbk_EXDzcqj4HWZZJpIuxlO2SjeMi-65FZsrUhmyt2Fr7rC-nuSp9TfJK2iCphzVxhemaPW3Ue_VMqWg7bM-9jHvSt-7KPdwYlhuE9l6d11MPeq7lGKjOybWXDtuMJXaOEMKI8EuqfVU3IbG6TLj4iZ8ZfUWyKkxzZi5yQSakBHavyl1e21Mly6s0FY126oR-gws5n9b8XwN981g-SxsRP744tFy4jZp0w_5oZjB09kcP5t5P6lY7htXsYHOpzufOZIcq6h-MVE6fssLXZnwm7_UgvvjaBLn4689MOsna3i0qVHiGW1LSh1KqUADgEXBXxcWScDavWjy9eWtNS5x-uUYGJA9WLCdh8qfzwRQaO0XvykSMTLmi-snwcddfsmoj7qJIRx7pH6JxBJykWXLuGe2S0KLLgfcLjnkARARAlPRzWcDMEGzzwDkR6mijqftLFc5P2ldUatPTfUEKFoMfIsh54RP3paTXA53M7TUP15keOz24SbgNNH_YQWTijzvwcgxV-xNQi8or31j3bDSq4v_7TAcbVPKqZfgKiRCObkxoSXB3YKtp-Fr3TiFd-7k3GfppVlyw
+        width: 12000
+    place_id: ChIJuYNCQdwIAWARfPnq0Ktzk2A
+    plus_code:
+      compound_code: 2Q4M+39 Kyoto, Japan
+      global_code: 8Q7Q2Q4M+39
+    rating: 4.5
+    reference: ChIJuYNCQdwIAWARfPnq0Ktzk2A
+    scope: GOOGLE
+    types:
+      - tourist_attraction
+      - place_of_worship
+      - point_of_interest
+      - establishment
+    user_ratings_total: 7413
+    vicinity: 400 Rinkachō, Higashiyama Ward, Kyoto
+  # Kết quả 2: Nidec Kyoto Tower (Tháp/Địa danh)
+  - business_status: OPERATIONAL
+    geometry:
+      location:
+        lat: 34.9875205
+        lng: 135.7592518
+      viewport:
+        northeast:
+          lat: 34.9888764302915
+          lng: 135.7604708802915
+        southwest:
+          lat: 34.9861784697085
+          lng: 135.7577729197085
+    icon: 'https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png'
+    icon_background_color: '#7B9EB0'
+    icon_mask_base_uri: 'https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet'
+    name: Nidec Kyoto Tower
+    opening_hours:
+      open_now: false # Lưu ý: Địa điểm này đang đóng cửa tại thời điểm tìm kiếm
+    photos:
+      - height: 4000
+        html_attributions:
+          - '<a href="https://maps.google.com/maps/contrib/103111493375668886750">Kevin Ko</a>'
+        photo_reference: AciIO2dOfjg3hAQmGJQM-0ZMZpGpEY6kLE7aV1qsmkkgI4rwk-HZNVXKcDp3mYpWsOcSCq6bIGxK4fb30ed_VF794aD0mps7QYXxGxnbhNWUc4K69FLJ1yxH1cb6uKeWssGIyZbDFxfsMkNYbPcfKve-QNmqbsW6BzkWHuO5bIHSW58Isfcas8h2MXMFxoak92NXG1P2NGV_tHSrH4huetT-bckkGKO_9P105E_2Zunx5m1Ze5NoJXbDlbejwzISTKXPpYD2P-lePJCSNu-j-Xz8FnA-E4oyocVjXvFFBUVgm6Y2th3UxVQoo-FsTTJDzQEbMIk0MyQJbsbJBwhdm50UffvX87vfwi240LoCt7KulkaWX3tN3OpvgGMSLDTnGkykP_5A1YjOug0RRI0dAFoM4mRl4Avq0qTn-fsswifD2hvk4RQcNI7q21p9Rmg2oXf1L2y1sVzIvET9O_hz2_7MT4Iwj_ttuZlcLi2CJiGDZEUpfgYkyaRs7hpOH4FwKhLZAnlZ99XAZENl4Ww2T9l_y9o56Bf9WK59qJihRbo28jOw7DCHDHA8qVf105M3u_ASlO8i6CjXb_kp6T8FNMgvjwcW5CiVsZUj9cl3soNRBToaBDDDRmIzX-GgooWo1ocUhl7wKw
+        width: 3000
+    place_id: ChIJd9pWqK8IAWAR1L-X_-4WKew
+    plus_code:
+      compound_code: XQQ5+2P Kyoto, Japan
+      global_code: 8Q6QXQQ5+2P
+    rating: 4.2
+    reference: ChIJd9pWqK8IAWAR1L-X_-4WKew
+    scope: GOOGLE
+    types:
+      - tourist_attraction
+      - point_of_interest
+      - store
+      - establishment
+    user_ratings_total: 16668
+    vicinity: ニデック京都タワー 展望室 ３階, 烏丸通七条下る, ７２１−１ Higashishiokōjichō, KyotoShimogyo Ward
+
+status: OK

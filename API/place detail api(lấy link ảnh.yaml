@@ -1,0 +1,49 @@
+html_attributions: []
+result:
+  formatted_address: 1-1 Ōsakajō, Chuo Ward, Osaka, 540-0002, Nhật Bản
+  geometry:
+    location: #
+      lat: 34.6872571
+      lng: 135.5258546
+    viewport:
+      northeast:
+        lat: 34.6894695
+        lng: 135.5338807
+      southwest:
+        lat: 34.6837999
+        lng: 135.5209817
+  name: Thành Osaka
+  opening_hours: #
+    open_now: true
+    periods:
+      - close:
+          day: 0
+          time: '1800'
+        open:
+          day: 0
+          time: '0900'
+      - close:
+          day: 1
+          time: '1800'
+        open:
+          day: 1
+          time: '0900' # Lược bớt còn 2 mục
+    weekday_text:
+      - 'Thứ Hai: 09:00–18:00'
+      - 'Thứ Ba: 09:00–18:00' # Lược bớt còn 2 mục
+  photos:
+    - height: 3000
+      html_attributions:
+        - '<a href="https://maps.google.com/maps/contrib/117522619897236283384">Jolly YEN (Jolly)</a>'
+      #
+      photo_reference: 'AciIO2dbS3UANab0S4OAnFLky5aSjEudtfXoOKtL6kE6HYcH4wqutNt_OnhFbk9PJk6Q_al1TCZGFEdtZBwUUiSpJaC9xNcotoE3xQKJET8r0Y7SaABXGfRRf1vBXqOCtM1_QxmetutJsVHr0q1DZWV8DdyOdgfjzHiXIflV-hPbzrVvc-qIcPw7vudNPXPkNWsBX5EcPOFHcee_kmHqY7d-KrFLLLK6WTDe4XN3y9NgqrCHF_CY17NkMh21KYv9rCM_eGko2qrFPqKkT9oiKOwOXJF5zJE1WMicsTSu-jBtAtIFXiyTzPyDX0xlEYZ30SP5QyllWFgDI2OMjDn4vSI7_fNy7SI84SEkUxw9inVla0HA18NJ1kHbQAMyGFqjwezk-VrftqrGx6q_9VpB3j0vCdMqejxhkK5eaJaVJuhaC6U'
+      width: 4000
+    - height: 3072
+      html_attributions:
+        - '<a href="https://maps.google.com/maps/contrib/100407231284913650397">hagure kozaru</a>'
+      #
+      photo_reference: 'AciIO2eLzMOPNprv4NeULM9ebbnBQeDxXpztC-WuzAskap9UPFWyj8WHL28dx7wsIkoCH9upzXx9aTDr_MOZ06FAZTpOJWzQa-MPAsGV2DHzI9sIS5JOAd6YTaHzqLpHGsh3wX7xvk64Xw1-zB36ALqlc9SYoVE7fVeGNyLcyh72tA5k0TF-zlsdzkgFl7LM25Ld5Wo07xTE7Fiiw9rrjB-xL3H-pIzeiSt-bpiaQoeNbAEwq08txKptzE7UkFb7E0zQl2F00YCQxjFcLrOB78CsCxpBzShQusJWLXBN7VDkEE7rS42ol7aZm6Gco2lEeYfd8ZemSupmeFhjcBAVHMArZsH2qgyQViJ_Y_yajxa0fiyG-Ug9IFlM3Wyl57PtzxcxwU1ZP7L6w9lkEfMSlBNSBnaTVgd7b_N63pCa-yJG8FbuxBOQaBSxxk81UqIb__u-'
+      width: 4096
+  rating: 4.4 #
+  website: 'https://www.osakacastle.net/'
+status: OK

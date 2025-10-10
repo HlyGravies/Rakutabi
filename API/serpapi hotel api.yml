@@ -1,0 +1,296 @@
+---
+search_metadata:
+  id: 68e853b0d6eb72761d690c1a
+  status: Success
+  json_endpoint: https://serpapi.com/searches/4742aad11fb6fa50/68e853b0d6eb72761d690c1a.json
+  created_at: '2025-10-10T00:30:40.083Z'
+  processed_at: '2025-10-10T00:30:40.084Z'
+  google_hotels_url: https://www.google.com/_/TravelFrontendUi/data/batchexecute?rpcids=AtySUc&source-path=/travel/search&hl=en&gl=jp&rt=c&soc-app=162&soc-platform=1&soc-device=1
+  raw_html_file: https://serpapi.com/searches/4742aad11fb6fa50/68e853b0d6eb72761d690c1a.html
+  prettify_html_file: https://serpapi.com/searches/4742aad11fb6fa50/68e853b0d6eb72761d690c1a.prettify
+  total_time_taken:
+    float: 1.713568925857544
+search_parameters:
+  engine: google_hotels
+  q: Hilton Tokyo #
+  gl: jp
+  hl: en
+  currency: JPY #
+  check_in_date: '2025-10-10' #
+  check_out_date: '2025-10-12' #
+  adults: 2 #
+  children: 0
+search_information:
+  total_results: 6
+brands:
+- id: 33
+  name: Accor Live Limitless
+  children:
+  - id: 8
+    name: Fairmont Hotels and Resorts
+  - id: 103
+    name: Ibis Styles
+  - id: 91
+    name: Mercure
+  - id: 90
+    name: Pullman Hotels and Resorts
+- id: 356
+  name: APA Group
+  children:
+  - id: 357
+    name: APA Hotels
+properties:
+- type: hotel
+  name: Hilton Tokyo
+  description: Polished quarters in a contemporary lodging offering dining & bars,
+    plus an indoor pool.
+  link: https://www.hilton.com/en/hotels/tyohitw-hilton-tokyo/?SEO_id=GMB-APAC-TW-TYOHITW
+  property_token: ChgIjo7PyfHrmKSFARoLL2cvMTIwdnlfeWsQAQ
+  serpapi_property_details_link: https://serpapi.com/search.json?adults=2&check_in_date=2025-10-10&check_out_date=2025-10-12&children=0&currency=JPY&engine=google_hotels&gl=jp&hl=en&property_token=ChgIjo7PyfHrmKSFARoLL2cvMTIwdnlfeWsQAQ&q=Hilton+Tokyo
+  gps_coordinates: #
+    latitude: 35.6925835
+    longitude: 139.6911889
+  check_in_time: 3:00 PM #
+  check_out_time: 11:00 AM #
+  rate_per_night: #
+    lowest: "¥66,671"
+    extracted_lowest: 66671
+    before_taxes_fees: "¥53,877" #
+    extracted_before_taxes_fees: 53877
+  total_rate: #
+    lowest: "¥133,341" #
+    extracted_lowest: 133341
+    before_taxes_fees: "¥107,754" #
+    extracted_before_taxes_fees: 107754
+  nearby_places: #
+  - name: Tokyo Metropolitan Government Building
+    transportations:
+    - type: Walking
+      duration: 6 min
+  - name: Nishi-shinjuku Sta.
+    transportations:
+    - type: Walking
+      duration: 4 min
+  - name: Haneda Airport
+    transportations:
+    - type: Taxi
+      duration: 31 min
+    - type: Public transport
+      duration: 1 hr 3 min
+  - name: Musashino Mori Diner Shinjuku Central Park
+    transportations:
+    - type: Walking
+      duration: 4 min
+  hotel_class: 5-star hotel
+  extracted_hotel_class: 5
+  images: #
+  - thumbnail: https://lh3.googleusercontent.com/p/AF1QipM9BWt3zCSaMk0HYajX21jifYxu7151awwyTphq=s287-w287-h192-n-k-no-v1
+    original_image: https://lh5.googleusercontent.com/p/AF1QipM9BWt3zCSaMk0HYajX21jifYxu7151awwyTphq=s10000
+  - thumbnail: https://lh5.googleusercontent.com/proxy/p3j5v46TCsMTan7UxgSx6vn97nOeiuhbhuCMS4ljEEIixzNj5BH9Li3fmnbH_jPmP8zH0z4lfcM6z_sk5GXaSIGGX5GG0Sc4GBiocuhiAO3lH4i-88kAVKWFhqNMcwWosgAQp3kJ-EU8lkDauxr-yTe_s6EfTg=s287-w287-h192-n-k-no-v1
+    original_image: https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/3/0/179/631/425/89245585_4K_O.jpg
+  - thumbnail: https://lh3.googleusercontent.com/p/AF1QipMEB8go144ncuexC1LF2oBIM52iNWvk5pp8g9A0=s287-w287-h192-n-k-no-v1
+    original_image: https://lh5.googleusercontent.com/p/AF1QipMEB8go144ncuexC1LF2oBIM52iNWvk5pp8g9A0=s10000
+  - thumbnail: https://lh3.googleusercontent.com/p/AF1QipPk167LN4eYutoHSsscEXG0LUF66M-kOuHr1HVA=s287-w287-h192-n-k-no-v1
+    original_image: https://lh5.googleusercontent.com/p/AF1QipPk167LN4eYutoHSsscEXG0LUF66M-kOuHr1HVA=s10000
+  - thumbnail: https://lh3.googleusercontent.com/p/AF1QipOzWgeBL0-q91jOXZqf81RQ7npTExK1R8WH97cd=s287-w287-h192-n-k-no-v1
+    original_image: https://lh5.googleusercontent.com/p/AF1QipOzWgeBL0-q91jOXZqf81RQ7npTExK1R8WH97cd=s10000
+  - thumbnail: https://lh3.googleusercontent.com/p/AF1QipNg_XDg6HlqUJCYyVvvQMhV9hv7cFf7aLbTPEnK=s287-w287-h192-n-k-no-v1
+    original_image: https://lh5.googleusercontent.com/p/AF1QipNg_XDg6HlqUJCYyVvvQMhV9hv7cFf7aLbTPEnK=s10000
+  - thumbnail: https://lh3.googleusercontent.com/p/AF1QipPWKlP3zuQAjt9kEh1UdULhvbcEBzOt2NkR4TRT=s287-w287-h192-n-k-no-v1
+    original_image: https://lh5.googleusercontent.com/p/AF1QipPWKlP3zuQAjt9kEh1UdULhvbcEBzOt2NkR4TRT=s10000
+  - thumbnail: https://lh3.googleusercontent.com/p/AF1QipP0nsbPLAcRCw3v9Tq7QcO06gxpkzwPo4SCEZxI=s287-w287-h192-n-k-no-v1
+    original_image: https://lh5.googleusercontent.com/p/AF1QipP0nsbPLAcRCw3v9Tq7QcO06gxpkzwPo4SCEZxI=s10000
+  - thumbnail: https://lh3.googleusercontent.com/p/AF1QipPgHyEj7anuzjhFvtm0HDjZ_JM-SS3ivQnOVtRR=s287-w287-h192-n-k-no-v1
+    original_image: https://lh5.googleusercontent.com/p/AF1QipPgHyEj7anuzjhFvtm0HDjZ_JM-SS3ivQnOVtRR=s10000
+  overall_rating: 4.3 #
+  reviews: 8898 #
+  ratings: #
+  - stars: 5
+    count: 4751
+  - stars: 4
+    count: 2624
+  - stars: 3
+    count: 1055
+  - stars: 2
+    count: 225
+  - stars: 1
+    count: 243
+  location_rating: 4.5
+  reviews_breakdown: #
+  - name: Service
+    description: Service
+    total_mentioned: 1223
+    positive: 1037
+    negative: 123
+    neutral: 63
+  - name: Breakfast
+    description: Breakfast
+    total_mentioned: 489
+    positive: 413
+    negative: 49
+    neutral: 27
+  - name: Bar
+    description: Bar or lounge
+    total_mentioned: 385
+    positive: 274
+    negative: 54
+    neutral: 57
+  - name: Property
+    description: Property
+    total_mentioned: 1078
+    positive: 872
+    negative: 110
+    neutral: 96
+  - name: Location
+    description: Location
+    total_mentioned: 856
+    positive: 713
+    negative: 42
+    neutral: 101
+  - name: Dining
+    description: Food and Beverage
+    total_mentioned: 407
+    positive: 299
+    negative: 57
+    neutral: 51
+  amenities: #
+  - Sauna
+  - Transfer
+  - Wi-Fi ($)
+  - Parking ($)
+  - Indoor pool
+  - Fitness center
+  - Bar
+  - Restaurant
+  - Accessible
+  - Kid-friendly
+  eco_certified: true
+- type: hotel
+  name: Hilton Tokyo Odaiba
+  description: Elegant quarters in a posh lodging with bay views & dining, plus an
+    indoor pool & rooftop hot tubs.
+  link: https://www.hilton.com/en/hotels/tyotohi-hilton-tokyo-odaiba/?SEO_id=GMB-APAC-HI-TYOTOHI
+  property_token: ChgI-raEkoe95vCcARoLL2cvMTIxNTZwbTMQAQ
+  serpapi_property_details_link: https://serpapi.com/search.json?adults=2&check_in_date=2025-10-10&check_out_date=2025-10-12&children=0&currency=JPY&engine=google_hotels&gl=jp&hl=en&property_token=ChgI-raEkoe95vCcARoLL2cvMTIxNTZwbTMQAQ&q=Hilton+Tokyo
+  gps_coordinates:
+    latitude: 35.626410799999995
+    longitude: 139.7706744
+  check_in_time: 3:00 PM
+  check_out_time: 12:00 PM
+  rate_per_night:
+    lowest: "¥55,953"
+    extracted_lowest: 55953
+    before_taxes_fees: "¥50,866"
+    extracted_before_taxes_fees: 50866
+  total_rate:
+    lowest: "¥111,906"
+    extracted_lowest: 111906
+    before_taxes_fees: "¥101,732"
+    extracted_before_taxes_fees: 101732
+  deal: 21% less than usual
+  deal_description: Deal
+  nearby_places:
+  - name: The National Museum of Emerging Science and Innovation Japan (Miraikan)
+    transportations:
+    - type: Public transport
+      duration: 4 min
+  - name: Daiba Station
+    transportations:
+    - type: Walking
+      duration: 4 min
+  - name: Haneda Airport
+    transportations:
+    - type: Taxi
+      duration: 16 min
+    - type: Public transport
+      duration: 18 min
+  - name: H.B.GRILLアクアシティお台場店
+    transportations:
+    - type: Walking
+      duration: 4 min
+  hotel_class: 5-star hotel
+  extracted_hotel_class: 5
+  images:
+  - thumbnail: https://lh3.googleusercontent.com/p/AF1QipO9IEgYGjoP8o-H3Twnmj4OTLm61SqKxVkjFyR2=s287-w287-h192-n-k-no-v1
+    original_image: https://lh5.googleusercontent.com/p/AF1QipO9IEgYGjoP8o-H3Twnmj4OTLm61SqKxVkjFyR2=s10000
+  - thumbnail: https://lh3.googleusercontent.com/gps-cs-s/AC9h4npkjwEvMz2BR5JYMphfJWCaK34RjS3H7iOvkWD1CcHtwkJ0MvQdzACh33GQ6nQlhWpdH1CQNV6XusclCokXVHqXkPo3E_FtEYDsC-4QzeGT5j9283Uep7aIZNNS7Y0FUiRoMck=s287-w287-h192-n-k-no-v1
+    original_image: https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIDLk8n9Jg=s10000
+  - thumbnail: https://lh5.googleusercontent.com/proxy/ABKXnRhtNd_geWwaR-NCX01stefHwM3kbJGfClnzrXKHvhdI3--2Ftz1UA_GVyrwNKGrAjfTzCGsguLzvYy9b9L0Ie7G3jYtCBtWu7cu-l2YpFQP-JaSI1jAwJdYYGvA_8izP2M-zZmpMV9AIMZB4wHPzDH5YYg=s287-w287-h192-n-k-no-v1
+    original_image: https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/4/0/16/996/66/1128704cdmssabrevfm_img_pho_000_nc__338938_Restaurant___J.jpg
+  - thumbnail: https://lh5.googleusercontent.com/proxy/RchisGLWVZKMBDtqYeGLo8cXsUN0eQ8ubwCJ5pw931-chk3zqdTsyRwSOBQFi0Ul804sHP4jUzcCQStcsJyjMh45tXxLrAiYYASWnGnNVeD-hxTIUTrlTfJ1NH1tyfhxT0R-SzlUqDK2kr-KO49y1Z9SV_RV6A=s287-w287-h192-n-k-no-v1
+    original_image: https://d2hyz2bfif3cr8.cloudfront.net/imageRepo/7/0/155/103/891/74146291_4K_O.jpg
+  - thumbnail: https://lh3.googleusercontent.com/gps-cs-s/AC9h4nrQ73iYmAoK--XxcHwerVuDFZqOoYfgpI48PrqxynaAR52a3mU7TP9-r6zSmWeRUVGwJMH7Z2_P2gC38ve5DLlxE-_slmMbxEjKREeR_nR0AuJC_H6Zq3R7mKQPZb9UKsNl1F4=s287-w287-h192-n-k-no-v1
+    original_image: https://lh5.googleusercontent.com/p/CIHM0ogKEICAgIC60pmNJg=s10000
+  - thumbnail: https://lh3.googleusercontent.com/p/AF1QipPd5guvS54OWIDtB2L_WNa9TqpBl7ROtsj-c2CX=s287-w287-h192-n-k-no-v1
+    original_image: https://lh5.googleusercontent.com/p/AF1QipPd5guvS54OWIDtB2L_WNa9TqpBl7ROtsj-c2CX=s10000
+  - thumbnail: https://lh3.googleusercontent.com/p/AF1QipMpCqI0HxkCd_CEb0-CnkQXVrtvqfkTEZhKYPFT=s287-w287-h192-n-k-no-v1
+    original_image: https://lh5.googleusercontent.com/p/AF1QipMpCqI0HxkCd_CEb0-CnkQXVrtvqfkTEZhKYPFT=s10000
+  - thumbnail: https://lh3.googleusercontent.com/p/AF1QipPP9K6GvH4DlZsQg403Q8W-aQz62L-RWgDHwkJh=s287-w287-h192-n-k-no-v1
+    original_image: https://lh5.googleusercontent.com/p/AF1QipPP9K6GvH4DlZsQg403Q8W-aQz62L-RWgDHwkJh=s10000
+  - thumbnail: https://lh3.googleusercontent.com/p/AF1QipOsswzx2G37YcBq-Jj1Q_6AhNk-yPsh3nHGAlcD=s287-w287-h192-n-k-no-v1
+    original_image: https://lh5.googleusercontent.com/p/AF1QipOsswzx2G37YcBq-Jj1Q_6AhNk-yPsh3nHGAlcD=s10000
+  overall_rating: 4.2
+  reviews: 7321
+  ratings:
+  - stars: 5
+    count: 3702
+  - stars: 4
+    count: 2245
+  - stars: 3
+    count: 901
+  - stars: 2
+    count: 201
+  - stars: 1
+    count: 272
+  location_rating: 4.6
+  reviews_breakdown:
+  - name: Nature
+    description: Nature and outdoor activities
+    total_mentioned: 141
+    positive: 137
+    negative: 3
+    neutral: 1
+  - name: Fitness
+    description: Fitness
+    total_mentioned: 152
+    positive: 75
+    negative: 57
+    neutral: 20
+  - name: Service
+    description: Service
+    total_mentioned: 656
+    positive: 473
+    negative: 135
+    neutral: 48
+  - name: Room
+    description: Room amenities
+    total_mentioned: 503
+    positive: 388
+    negative: 76
+    neutral: 39
+  - name: Breakfast
+    description: Breakfast
+    total_mentioned: 269
+    positive: 186
+    negative: 58
+    neutral: 25
+  - name: Location
+    description: Location
+    total_mentioned: 534
+    positive: 436
+    negative: 35
+    neutral: 63
+  amenities:
+  - Sauna
+  - Transfer
+  - Wi-Fi ($)
+  - Parking ($)
+  - Indoor pool
+  - Pet-friendly
+  - Fitness center
+  - Bar
+  - Restaurant
+  - Kitchen in some rooms
+  - Accessible
+  - Kid-friendly
+  eco_certified: true

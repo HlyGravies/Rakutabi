@@ -1,0 +1,77 @@
+html_attributions: []
+next_page_token: AciIO2dPnL1M1FFnUHeDFgEYvcWa_Or878BWGRqrnv3cBu51VamyM093_ENwO0rF5tCaIOH_SUynhehHL38NTYJ2VTjNYEYcItg7uLkjwaFbzrFurl3hr-7wIWku4uQ7SWKzjt0DzzINRSHgNidqICGT_13LEFX_ZjFZO_PwL5bkXrECKIZMupLMEfbtQe888yYBoXdvJoRtCET5IB7ra10wP1AzCOVGfL8LpEt_qi_E6SGK71q2YMsDLkHQ9Kmg5RX3ugVBk4GpvSbZM6BYzdLklhE2uJb2jgBsh_ShkL4qBkWupVWvVzx7c-7P4hk2QfbRY0HgmYSeaDmxSbZqZZQMdSKxVtMHBDYN_679Y19myhTsmlu88MizDRWsPoaAsAM1FUcfYOwv45S2mBxhE4BPLQaxKRUfO_MlYYXO9vstKnGi1o2UFJxk
+results:
+  - business_status: OPERATIONAL
+    geometry:
+      location: #Dùng 2 giá trị này
+        lat: 34.6956294
+        lng: 135.4982976
+      viewport:
+        northeast:
+          lat: 34.6969592802915
+          lng: 135.4995661802915
+        southwest:
+          lat: 34.6942613197085
+          lng: 135.4968682197085
+    icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+    icon_background_color: '#909CE1'
+    icon_mask_base_uri: https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet
+    name: ANAクラウンプラザホテル大阪
+    photos:
+      - height: 1365
+        html_attributions:
+        #Link trên map
+          - <a href="https://maps.google.com/maps/contrib/105297007944311336878">ANA Crowne Plaza Osaka by IHG</a> 
+        #Đường dẫn ảnh
+        photo_reference: AciIO2ejdW5UXjp6m-VzCCfTDGgqr2oTvWkLyYnhnbJyanmra-cMeLlJlHg4shfV04hR6qdXYynYHql-1s1IeRL48RexonE17gp56vgtTlrAdGZDm32RKX5pqnxkBPQlbS5xbM-z1UKHW4YzLaWBbfLFpag-T3jRhLUu0KtPJQR6fWF_KcOsIpQ2l4Gx96LBDad7bRM0q_n9V8yRYSZtFdxZqneD0bz-rmlDJ-gqxs8X-bUCIJ97trqdh64PTnwfFn2Uk64rB7gKy757NUT0Sw-mvAAlxwdub05DR3ZPcWnvyIEq0bqwwX3608i_lP8yi6xd_8ndqqZ0aVE 
+        width: 2048    
+    place_id: ChIJP_i1be7mAGAROk8NomTDVsw #Dùng cái này
+    plus_code:
+      compound_code: MFWX+78 日本、大阪府大阪市
+      global_code: 8Q6QMFWX+78
+    rating: 4 #Rating
+    reference: ChIJP_i1be7mAGAROk8NomTDVsw
+    scope: GOOGLE
+    types:
+      - lodging
+      - point_of_interest
+      - establishment
+    user_ratings_total: 4292 #số lượt đánh giá
+    vicinity: 大阪市北区堂島浜１丁目３−１
+  - business_status: OPERATIONAL
+    geometry:
+      location:
+        lat: 34.6998245
+        lng: 135.4959532
+      viewport:
+        northeast:
+          lat: 34.7013103302915
+          lng: 135.4971715302915
+        southwest:
+          lat: 34.6986123697085
+          lng: 135.4944735697085
+    icon: https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png
+    icon_background_color: '#909CE1'
+    icon_mask_base_uri: https://maps.gstatic.com/mapfiles/place_api/icons/v2/hotel_pinlet
+    name: ヒルトン大阪
+    photos:
+      - height: 1666
+        html_attributions:
+          - <a href="https://maps.google.com/maps/contrib/111741496411493499624">Hilton Osaka</a>
+        photo_reference: AciIO2f3zfR7JWqEPaerXPglVNZ-aSkMmfJCGtpePcuk8FXDUncAGS97pCDe-kQvIFOZ4XoNGCkLC3NLIf6PgRAeV24W0cdMJJhWhm_f-e7OBLyBbNh4ZsyTKG0Q4ok-guc7iSSR5XeE7dMTMxN1BX0--lH_BGfX4SgNSdKmOgD5Mn64lY1fULW_Hkf9cZwfj3B6WjxeHazdTsurcYXvubWIywFVM1DVsjU93HxXjaDx106i37K6PmuPv3JAxncgho41Gi7SnghsFfyBaqPSPsUedCDcYLFCnso6R-wd0n4exniDPArYgqzPLmsDNd0oD3Zlmc43b-9C6fA
+        width: 2500
+    place_id: ChIJXUg-SY3mAGARGoOwO1U017E
+    plus_code:
+      compound_code: MFXW+W9 日本、大阪府大阪市
+      global_code: 8Q6QMFXW+W9
+    rating: 4.2
+    reference: ChIJXUg-SY3mAGARGoOwO1U017E
+    scope: GOOGLE
+    types:
+      - spa
+      - lodging
+      - point_of_interest
+      - establishment
+    user_ratings_total: 5799
+    vicinity: 大阪市北区梅田１丁目８−８
+status: OK

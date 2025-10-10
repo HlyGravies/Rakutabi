@@ -1,0 +1,37 @@
+html_attributions: []
+result:
+  name: 大阪城
+  rating: 4.4
+  reviews:
+    - author_name: YUMIN #
+      author_url: https://www.google.com/maps/contrib/115454765439125886763/reviews
+      language: ja
+      original_language: ja
+      profile_photo_url: https://lh3.googleusercontent.com/a-/ALV-UjXVk_erEu8Lz5Uv5HOl0lREWMQmf-r3a_nnmOpnobVX4xQysA8mqA=s128-c0x00000000-cc-rp-mo-ba6
+      rating: 5 #
+      relative_time_description: 2 週間前 # 
+      #
+      text: 大阪観光で行きたかった場所が大坂城🏯最寄りの大坂城公園駅から結構遠いですが、途中にお土産屋さんや飲食店があるので寄り道しながら15分くらいで着きました。当日チケットを購入するまでにも20分程かかりました。
+            入場して階段とエレベーターが選べますが､急な階段なのでほとんどの人がエレベーターで5階まで上がるようです。5階からは最上階の8階まで階段のみになっています。展望台から見える大阪市の街並みやお堀、公園の木々の景色は大変素晴らしかったです！
+      time: 1758727667 #thời gian tính từ 1/1/1970
+      translated: false 
+    - author_name: Seiichi Hoshi
+      author_url: https://www.google.com/maps/contrib/104612441592359183160/reviews
+      language: ja
+      original_language: ja
+      profile_photo_url: https://lh3.googleusercontent.com/a/ACg8ocJbVz-8d068PYy5R9d72mJtsb_7rjIJtsJDrMgHmMszuyzQAg=s128-c0x00000000-cc-rp-mo-ba8
+      rating: 4
+      relative_time_description: 1 週間前
+      text: 大阪観光の定番大阪城。
+        入館料は大人1名1200円です。
+        お城の内部は資料館になっており、天守閣の最上階からは大阪周辺の雄大な景色が見られます。
+        世界的に有名なお城ということもあり、大勢の観光客の方が来訪していました。
+        チケット購入は事前の QR 決済がおすすめ。
+        当日販売のチケット売り場は長蛇の列になっています。
+        また隣接する豊臣石垣館。
+        こちらは大阪城のチケットを提示すれば見学可能。
+        最近発見された豊臣時代の石垣を実際に見学することが出来ます。　こちらもおすすめです。
+      time: 1759072792
+      translated: false
+  user_ratings_total: 87108 #số lượng đánh giá
+status: OK
