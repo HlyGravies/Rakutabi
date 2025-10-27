@@ -1,0 +1,141 @@
+import requests
+import json
+import os
+import datetime
+import re
+import time  # <-- Thêm thư viện 'time' để "ngủ"
+
+# --- THAY ĐỔI CÁC GIÁ TRỊ NÀY ---
+API_KEY = "AIzaSyAmbdRFOMwNlwiUD-LEwTvvJ6Twb0JlpmU" 
+
+# Thông số tìm kiếm
+# Vị trí (location) là BẮT BUỘC cho Nearby Search (lat,lng)
+# Lấy ví dụ từ Geocoding cho Tokyo Tower:
+LOCATION = "35.6585805,139.7454329" 
+RADIUS = 1500  # Bán kính 1500 mét
+KEYWORD_TO_SEARCH = "restaurant" # Từ khóa tìm kiếm
+# Bạn cũng có thể dùng 'type' thay 'keyword', ví dụ: type = "restaurant"
+
+# Đường dẫn đến thư mục bạn muốn lưu file
+OUTPUT_DIR = "/Users/quannguyen/チーム制作/Rakutabi/json/Google Places API — Nearby Search"
+# ------------------------------------
+
+# ===== TỰ ĐỘNG TẠO TÊN FILE =====
+now = datetime.datetime.now()
+timestamp = now.strftime("%Y%m%d_%H%M%S")
+safe_keyword = re.sub(r'[^\w\-_.]', '_', KEYWORD_TO_SEARCH)
+
+FILENAME = f"NearbySearch_{safe_keyword}_{LOCATION}_{timestamp}.json"
+OUTPUT_FILENAME = os.path.join(OUTPUT_DIR, FILENAME)
+# ==================================
+
+# URL của Nearby Search API
+endpoint_url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json"
+
+# Danh sách để gộp TẤT CẢ kết quả
+all_results = []
+
+# Các tham số (parameters) cho API call LẦN ĐẦU TIÊN
+params = {
+    'location': LOCATION,
+    'radius': RADIUS,
+    'keyword': KEYWORD_TO_SEARCH,
+    'language': 'ja',
+    'key': API_KEY
+    # 'type': 'restaurant' # Có thể dùng thay cho 'keyword'
+}
+
+page_count = 1
+print(f"Đang tìm kiếm: '{KEYWORD_TO_SEARCH}' gần '{LOCATION}'...")
+print(f"Sẽ lưu tất cả kết quả vào: '{OUTPUT_FILENAME}'")
+
+try:
+    while True:
+        print(f"Đang lấy dữ liệu trang {page_count}...")
+        
+        # Gửi request GET đến API
+        response = requests.get(endpoint_url, params=params)
+        
+        if response.status_code != 200:
+            print(f"Request thất bại, Status Code: {response.status_code}")
+            print(f"Response: {response.text}")
+            break # Dừng vòng lặp nếu lỗi HTTP
+
+        data = response.json()
+
+        # Kiểm tra trạng thái từ chính API của Google
+        if data['status'] == 'OK':
+            # Thêm kết quả của trang này vào danh sách tổng
+            all_results.extend(data['results'])
+            print(f"Đã lấy {len(data['results'])} kết quả (Tổng: {len(all_results)})")
+
+            # Kiểm tra xem có trang tiếp theo (next_page_token) không
+            next_page_token = data.get('next_page_token')
+
+            if next_page_token:
+                page_count += 1
+                print("Còn trang tiếp theo, đợi 2 giây để token được kích hoạt...")
+                
+                # *** QUAN TRỌNG ***
+                # Phải đợi vài giây trước khi dùng next_page_token
+                time.sleep(2) 
+                
+                # Cập nhật params cho LẦN LẶP TIẾP THEO
+                # Chỉ cần pagetoken và key
+                params = {
+                    'pagetoken': next_page_token,
+                    'key': API_KEY
+                }
+            else:
+                # Không còn trang nào nữa
+                print("Đã lấy tất cả kết quả.")
+                break # Dừng vòng lặp 'while True'
+
+        elif data['status'] == 'ZERO_RESULTS':
+            print("Không tìm thấy kết quả nào.")
+            break
+        
+        else:
+            # Các lỗi khác như INVALID_REQUEST, OVER_QUERY_LIMIT...
+            print(f"Lỗi từ API Google: {data['status']}")
+            if 'error_message' in data:
+                print(f"Chi tiết: {data['error_message']}")
+            break
+
+except requests.exceptions.RequestException as e:
+    # Lỗi nếu không kết nối được mạng
+    print(f"Lỗi kết nối: {e}")
+
+# ===== LƯU FILE SAU KHI VÒNG LẶP KẾT THÚC =====
+
+if all_results:
+    print(f"\nTổng cộng {len(all_results)} kết quả. Đang lưu vào file...")
+
+    # Tạo thư mục (và các thư mục cha) nếu nó chưa tồn tại
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    
+    # Tạo một dictionary cuối cùng để lưu
+    # Giữ cấu trúc giống API nhưng gộp 'results'
+    final_data_to_save = {
+        'search_parameters': {
+            'location': LOCATION,
+            'radius': RADIUS,
+            'keyword': KEYWORD_TO_SEARCH
+        },
+        'status': 'OK_MERGED_ALL_PAGES',
+        'results_count': len(all_results),
+        'results': all_results
+    }
+
+    try:
+        # Ghi file
+        with open(OUTPUT_FILENAME, 'w', encoding='utf-8') as json_file:
+            json.dump(final_data_to_save, json_file, indent=4, ensure_ascii=False)
+        
+        print(f"Đã lưu thành công file gộp vào: '{OUTPUT_FILENAME}'")
+    
+    except IOError as e:
+        print(f"Lỗi khi ghi file: {e}")
+        
+else:
+    print("\nKhông có kết quả nào để lưu.")

@@ -1,0 +1,119 @@
+{
+    "results": [
+        {
+            "address_components": [
+                {
+                    "long_name": "８",
+                    "short_name": "８",
+                    "types": [
+                        "premise"
+                    ]
+                },
+                {
+                    "long_name": "２",
+                    "short_name": "２",
+                    "types": [
+                        "political",
+                        "sublocality",
+                        "sublocality_level_4"
+                    ]
+                },
+                {
+                    "long_name": "４丁目",
+                    "short_name": "４丁目",
+                    "types": [
+                        "political",
+                        "sublocality",
+                        "sublocality_level_3"
+                    ]
+                },
+                {
+                    "long_name": "芝公園",
+                    "short_name": "芝公園",
+                    "types": [
+                        "political",
+                        "sublocality",
+                        "sublocality_level_2"
+                    ]
+                },
+                {
+                    "long_name": "港区",
+                    "short_name": "港区",
+                    "types": [
+                        "locality",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "東京都",
+                    "short_name": "東京都",
+                    "types": [
+                        "administrative_area_level_1",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "日本",
+                    "short_name": "JP",
+                    "types": [
+                        "country",
+                        "political"
+                    ]
+                },
+                {
+                    "long_name": "105-0011",
+                    "short_name": "105-0011",
+                    "types": [
+                        "postal_code"
+                    ]
+                }
+            ],
+            "formatted_address": "日本、〒105-0011 東京都港区芝公園４丁目２−８",
+            "geometry": {
+                "location": {
+                    "lat": 35.6585805,
+                    "lng": 139.7454329
+                },
+                "location_type": "ROOFTOP",
+                "viewport": {
+                    "northeast": {
+                        "lat": 35.6603155302915,
+                        "lng": 139.7469706802915
+                    },
+                    "southwest": {
+                        "lat": 35.6576175697085,
+                        "lng": 139.7442727197085
+                    }
+                }
+            },
+            "navigation_points": [
+                {
+                    "location": {
+                        "latitude": 35.6586125,
+                        "longitude": 139.7462577
+                    }
+                },
+                {
+                    "location": {
+                        "latitude": 35.6592703,
+                        "longitude": 139.7449835
+                    }
+                }
+            ],
+            "place_id": "ChIJCewJkL2LGGAR3Qmk0vCTGkg",
+            "plus_code": {
+                "compound_code": "MP5W+C5 日本、東京都港区",
+                "global_code": "8Q7XMP5W+C5"
+            },
+            "types": [
+                "art_gallery",
+                "establishment",
+                "landmark",
+                "point_of_interest",
+                "shopping_mall",
+                "tourist_attraction"
+            ]
+        }
+    ],
+    "status": "OK"
+}
