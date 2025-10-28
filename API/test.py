@@ -29,20 +29,191 @@ PLACE_DETAILS_FIELDS = [
     "rating",        
     "reviews",       # (Của bạn đã có)
     "user_ratings_total", 
-    "price_level"    
+    "price_level",
+    "photos"    
 ]
 # Chuyển thành string để truyền vào API
 FIELDS_STRING = ",".join(PLACE_DETAILS_FIELDS)
 # -------------------------
 
 # 🧠 Bước 1: "Bản đồ" ánh xạ
+# 🧠 "Bản đồ" ánh xạ đầy đủ (Full Preference Map)
+# Ánh xạ ID sở thích của bạn tới chiến lược gọi Google Places API
 preference_to_api_map = {
+    # === 観光・探索 (Tham quan) ===
+    "pref_landmark": {"type": "tourist_attraction", "keyword": "名所 ランドマーク"},
+    "pref_shrine": {"type": "tourist_attraction", "keyword": "神社仏閣"},
+    "pref_historical": {"type": "tourist_attraction", "keyword": "歴史的建造物 史跡"},
+    "pref_viewpoint": {"type": "tourist_attraction", "keyword": "展望台 ビュースポット"},
+    "pref_pilgrimage": {"type": "tourist_attraction", "keyword": "聖地巡礼"},
+    "pref_tower": {"type": "tourist_attraction", "keyword": "タワー 高層ビル"},
+    "pref_hidden_gem": {"type": "tourist_attraction", "keyword": "穴場スポット"},
+    "pref_free_spot": {"strategy": "FILTER_BY_PRICE_LEVEL", "notes": "Lọc địa điểm có price_level=0 hoặc không có"},
+    "pref_museum_art": {"type": "art_gallery"},
+    "pref_museum_history": {"type": "museum"},
+
+    # === リラックス・休憩 (Thư giãn) ===
+    "pref_cafe": {"type": "cafe"},
+    "pref_kissaten": {"type": "cafe", "keyword": "喫茶店 レトロ"},
+    "pref_park": {"type": "park"},
+    "pref_garden": {"type": "park", "keyword": "庭園"},
+    "pref_waterside": {"type": "park", "keyword": "水辺 川 湖"},
+    "pref_footbath": {"type": "spa", "keyword": "足湯"},
+    "pref_library": {"type": "library"},
+    "pref_net_cafe": {"type": "cafe", "keyword": "漫画喫茶 ネットカフェ"},
+    "pref_sento": {"type": "spa"}, # 'spa' là type đúng cho sento/onsen
+    "pref_massage": {"type": "spa", "keyword": "マッサージ"},
+
+    # === 癒し・ヒーリング (Chữa lành) ===
+    "pref_nature_walk": {"type": "park", "keyword": "森林浴 自然散策"},
+    "pref_botanical_garden": {"type": "zoo", "keyword": "植物園"}, # Thường bị gộp vào 'zoo' hoặc 'park'
+    "pref_aroma": {"type": "spa", "keyword": "アロマ お香"},
+    "pref_spa_este": {"type": "spa", "keyword": "スパ エステ"},
+    "pref_yoga": {"type": "gym", "keyword": "ヨガ"},
+    "pref_quiet_shrine": {"type": "tourist_attraction", "keyword": "静か 神社"},
+    "pref_animal_cafe": {"type": "cafe", "keyword": "動物カフェ"},
+    "pref_music_classic": {"type": "tourist_attraction", "keyword": "音楽鑑賞 クラシック"},
+    "pref_planetarium": {"type": "museum", "keyword": "プラネタリウム"},
+
+    # === グルメ・食事 (Ẩm thực) ===
+    "pref_street_food": {"type": "meal_takeaway", "keyword": "食べ歩き"},
+    "pref_local_gourmet": {"type": "restaurant", "keyword": "B級グルメ ご当地グルメ"},
+    "pref_set_meal": {"type": "restaurant", "keyword": "ローカル食堂 定食屋"},
+    "pref_sweets": {"type": "cafe", "keyword": "スイーツ デザート"},
+    "pref_bakery": {"type": "bakery"},
     "pref_ramen": {"type": "restaurant", "keyword": "ラーメン"},
-    "pref_park": {"type": "park", "keyword": ""},
-    "pref_museum_art": {"type": "art_gallery", "keyword": ""},
-    "pref_cafe": {"type": "cafe", "keyword": ""},
-    "pref_sento": {"type": "spa", "keyword": ""},
-    "pref_late_night": {"strategy": "FILTER_BY_OPENING_HOURS"}
+    "pref_sushi": {"type": "restaurant", "keyword": "寿司"},
+    "pref_ethnic": {"type": "restaurant", "keyword": "エスニック料理"},
+    "pref_izakaya": {"type": "bar", "keyword": "居酒屋 立ち飲み"},
+    "pref_allyoucan": {"type": "restaurant", "keyword": "食べ放題 飲み放題"},
+    "pref_late_night": {"strategy": "FILTER_BY_OPENING_HOURS", "notes": "Lọc địa điểm open_now vào ban đêm"},
+
+    # === 散策・街歩き (Dạo phố) ===
+    "pref_alley": {"type": "tourist_attraction", "keyword": "路地裏 横丁"},
+    "pref_architecture": {"type": "tourist_attraction", "keyword": "建築巡り"},
+    "pref_shotengai": {"type": "shopping_mall", "keyword": "商店街"},
+    "pref_slope_stairs": {"type": "tourist_attraction", "keyword": "坂道 階段"},
+    "pref_market": {"type": "store", "keyword": "市場 マーケット"},
+    "pref_window_shopping": {"type": "shopping_mall"},
+    "pref_riverside": {"type": "park", "keyword": "川沿い 海辺 散歩"},
+    "pref_night_walk": {"strategy": "LOGIC_ONLY", "notes": "Đây là 1 route, không phải 1 địa điểm"},
+
+    # === 学び・体験 (Học hỏi) ===
+    "pref_art_gallery": {"type": "art_gallery"},
+    "pref_museum": {"type": "museum"},
+    "pref_aquarium_zoo": {"type": ["aquarium", "zoo"]}, # Xử lý đặc biệt: gọi 2 API
+    "pref_workshop": {"type": "tourist_attraction", "keyword": "ワークショップ 文化体験"},
+    "pref_crafts": {"type": "store", "keyword": "伝統工芸"},
+    "pref_factory_tour": {"type": "tourist_attraction", "keyword": "工場見学"},
+    "pref_cinema": {"type": "movie_theater"},
+    "pref_theater_live": {"type": "night_club", "keyword": "劇場 ライブハウス"},
+    "pref_seminar": {"type": "university", "keyword": "講演 セミナー"},
+
+    # === ショッピング (Mua sắm) ===
+    "pref_souvenir": {"type": "store", "keyword": "お土産"},
+    "pref_zakka": {"type": "store", "keyword": "雑貨屋"},
+    "pref_select_shop": {"type": "clothing_store", "keyword": "セレクトショップ"},
+    "pref_used_clothes": {"type": "clothing_store", "keyword": "古着屋"},
+    "pref_department_store": {"type": "department_store"},
+    "pref_drugstore": {"type": "drugstore"},
+    "pref_100yen_shop": {"type": "store", "keyword": "100円ショップ"},
+    "pref_local_supermarket": {"type": "supermarket"},
+    "pref_electronics": {"type": "electronics_store"},
+    "pref_antique": {"type": "store", "keyword": "骨董品 アンティーク"},
+
+    # === 写真・SNS映え (Chụp ảnh) ===
+    "pref_sns_hotspot": {"type": "tourist_attraction", "keyword": "SNSで話題 スポット"},
+    "pref_stylish_cafe": {"type": "cafe", "keyword": "おしゃれ カフェ"},
+    "pref_cute_sweets": {"type": "cafe", "keyword": "可愛い スイーツ"},
+    "pref_street_art": {"type": "tourist_attraction", "keyword": "壁画 ストリートアート"},
+    "pref_arch_photo": {"type": "tourist_attraction", "keyword": "印象的な建築"},
+    "pref_night_view": {"type": "tourist_attraction", "keyword": "夜景 ライトアップ"},
+    "pref_retro_spot": {"type": "tourist_attraction", "keyword": "レトロ ノスタルジック"},
+    "pref_scenic_view": {"type": "tourist_attraction", "keyword": "絶景 風景"},
+
+    # === 自然・風景 (Thiên nhiên) ===
+    "pref_park_green": {"type": "park"},
+    "pref_garden_jp": {"type": "park", "keyword": "日本庭園"},
+    "pref_waterside_walk": {"type": "park", "keyword": "水辺"},
+    "pref_viewpoint_high": {"type": "tourist_attraction", "keyword": "高台 展望"},
+    "pref_botanical": {"type": "zoo", "keyword": "植物園"},
+    "pref_seasonal_flower": {"type": "park", "keyword": "季節の花 桜 紅葉"},
+    "pref_hiking_light": {"type": "park", "keyword": "ハイキング"},
+
+    # === 気分転換 (Xả stress) ===
+    "pref_good_view": {"type": "tourist_attraction", "keyword": "景色の良い場所"},
+    "pref_quiet_cafe": {"type": "cafe", "keyword": "静か カフェ"},
+    "pref_park_walk": {"type": "park"},
+    "pref_karaoke": {"type": "night_club", "keyword": "カラオケ"},
+    "pref_game_center": {"type": "amusement_park", "keyword": "ゲームセンター"},
+    "pref_batting_center": {"type": "tourist_attraction", "keyword": "バッティングセンター"},
+    "pref_bookstore": {"type": "book_store"},
+
+    # === ローカル体験 (Trải nghiệm) ===
+    "pref_local_market": {"type": "store", "keyword": "地元の市場"},
+    "pref_old_shotengai": {"type": "shopping_mall", "keyword": "昔ながらの商店街"},
+    "pref_local_super": {"type": "supermarket"},
+    "pref_public_bath": {"type": "spa", "keyword": "銭湯"},
+    "pref_yokocho": {"type": "bar", "keyword": "横丁 飲み屋街"},
+    "pref_local_diner": {"type": "restaurant", "keyword": "ローカル食堂"},
+    "pref_local_event": {"strategy": "LOGIC_ONLY", "notes": "Cần 1 API khác về sự kiện"},
+
+    # === トレンド (Bắt trend) ===
+    "pref_sns_trending": {"type": "point_of_interest", "keyword": "SNS 話題"},
+    "pref_new_open": {"type": "point_of_interest", "keyword": "新オープン"},
+    "pref_trending_gourmet": {"type": "restaurant", "keyword": "流行 グルメ"},
+    "pref_popup_store": {"type": "store", "keyword": "ポップアップストア"},
+    "pref_collab_cafe": {"type": "cafe", "keyword": "コラボカフェ"},
+
+    # === アクティブ (Năng động) ===
+    "pref_walking": {"strategy": "LOGIC_ONLY", "notes": "Là 1 route"},
+    "pref_rental_cycle": {"type": "bicycle_store", "keyword": "レンタサイクル"},
+    "pref_bouldering": {"type": "gym", "keyword": "ボルダリング"},
+    "pref_game_arcade": {"type": "amusement_park", "keyword": "ゲームセンター"},
+    "pref_sports_watch": {"type": "stadium"},
+    "pref_pool": {"type": "gym", "keyword": "プール"},
+
+    # === 自分にご褒美 (Tự thưởng) ===
+    "pref_luxury_sweets": {"type": "cafe", "keyword": "高級 スイーツ パフェ"}, # Lọc thêm price_level
+    "pref_good_lunch": {"type": "restaurant", "keyword": "高級 ランチ"}, # Lọc thêm price_level
+    "pref_spa_treatment": {"type": "spa", "keyword": "スパ エステ"},
+    "pref_brand_shopping": {"type": "department_store", "keyword": "ブランド"},
+    "pref_hotel_lounge": {"type": "lodging", "keyword": "ホテル ラウンジ"},
+    "pref_luxury_goods": {"type": "store", "keyword": "高級 雑貨"},
+
+    # === 深掘り・マニアック (Chuyên sâu) ===
+    "pref_specialty_store": {"type": "store", "keyword": "専門店"},
+    "pref_used_bookstore": {"type": "book_store", "keyword": "古書店 古本"},
+    "pref_record_store": {"type": "store", "keyword": "レコード店"},
+    "pref_theme_cafe": {"type": "cafe", "keyword": "テーマカフェ"},
+    "pref_unique_spot": {"type": "tourist_attraction", "keyword": "珍スポット"},
+    "pref_mini_theater": {"type": "movie_theater", "keyword": "ミニシアター"},
+    "pref_architecture_niche": {"type": "tourist_attraction", "keyword": "マニアック 建築"},
+
+    # === 時間調整 (Giết thời gian) ===
+    "pref_station_cafe": {"type": "cafe", "keyword": "駅近"},
+    "pref_bookstore_browse": {"type": "book_store"},
+    "pref_100yen_drugstore": {"type": ["store", "drugstore"], "keyword": "100円ショップ"}, # Xử lý đặc biệt
+    "pref_station_building": {"type": "shopping_mall", "keyword": "駅ビル"},
+    "pref_fast_food": {"type": "restaurant", "keyword": "ファストフード"},
+    "pref_arcade": {"type": "amusement_park", "keyword": "ゲームセンター"},
+
+    # === 無料・節約 (Tiết kiệm) ===
+    "pref_free_observatory": {"type": "tourist_attraction", "keyword": "無料 展望台"},
+    "pref_free_museum": {"type": "museum", "keyword": "無料"},
+    "pref_public_facility": {"type": ["library", "park"]}, # Xử lý đặc biệt
+    "pref_park_large": {"type": "park"},
+    "pref_free_samples": {"strategy": "LOGIC_ONLY", "notes": "Không thể tìm bằng API"},
+    "pref_window_shopping_main": {"type": "shopping_mall"},
+
+    # === 夜の楽しみ (Ban đêm) ===
+    "pref_night_view_spot": {"type": "tourist_attraction", "keyword": "夜景"},
+    "pref_bar": {"type": "bar"},
+    "pref_izakaya_hopping": {"type": "bar", "keyword": "居酒屋 はしご酒"},
+    "pref_night_cafe": {"type": "cafe", "keyword": "夜カフェ"}, # Lọc thêm opening_hours
+    "pref_live_house_club": {"type": "night_club"},
+    "pref_light_up": {"type": "tourist_attraction", "keyword": "ライトアップ イルミネーション"},
+    "pref_night_bowling": {"type": "bowling_alley"},
 }
 
 # ⚙️ Bước 2: Worker cho Phase 1 (NearbySearch)
