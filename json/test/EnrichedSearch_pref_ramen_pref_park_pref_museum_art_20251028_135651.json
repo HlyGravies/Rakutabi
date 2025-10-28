@@ -2,7 +2,7 @@
     {
         "business_status": "OPERATIONAL",
         "geometry": {
-            "location": { //
+            "location": { 
                 "lat": 34.7859852, 
                 "lng": 135.6288741
             },
@@ -145,7 +145,7 @@
                     }
                 }
             ],
-            "weekday_text": [//
+            "weekday_text": [
                 "月曜日: 11時30分～15時00分, 18時00分～23時00分",
                 "火曜日: 11時30分～15時00分, 18時00分～23時00分",
                 "水曜日: 定休日",
@@ -161,7 +161,6 @@
                 "html_attributions": [
                     "<a href=\"https://maps.google.com/maps/contrib/109041671049354582911\">のべおかん延岡市情報サイト</a>"
                 ],
-                //
                 "photo_reference": "AWn5SU55CqoJaeFBUWsS7mlOuwtuyRNqfyasifwrIPUbeSHGHiYNV7zgNFnYNr_jylDHMfopOiJ9GnfxJW_7LpdsiEBR6o-C6hsH8P7ue66AUrEP9iubuccdqRBHOs898iR9K4y5GufbKEyukH5t4c5i1uKulDDiFg_6BtfYJ6R4DL1wCK6szLXYpJZzoLvhdZhBhWxm_v1UKy0je6CezNnXM92rCeocF-8fINnBZVhEuqXOo6TYHNqbBV7kt2XF1jkRfesRBqZv5utcOlIHumm9QpzUf8QwSDOyIezf9HeatgXUlCnh2KX1EHsGcr06Zijd8sWajas9m-o-fpSiw0EBpkXTGVDF5ZTovlLZrTjTPK58KZoCOIc7vy760P8HXtsOViMJTY6wClHcOTOh7vaAT-1FasXsr1OFju8pqn4YI0M", 
                 "width": 1080
             },
@@ -238,22 +237,22 @@
                 "width": 1284
             }
         ],
-        "place_id": "ChIJvUS6cIMdAWAR7DYDvp-KRWs", //
+        "place_id": "ChIJvUS6cIMdAWAR7DYDvp-KRWs",
         "plus_code": {
             "compound_code": "QJPH+9G 寝屋川市、大阪府",
             "global_code": "8Q6QQJPH+9G"
         },
-        "price_level": 2, //
-        "rating": 4.2, //
+        "price_level": 2,
+        "rating": 4.2,
         "reference": "ChIJvUS6cIMdAWAR7DYDvp-KRWs",
         "scope": "GOOGLE",
-        "types": [ //
+        "types": [
             "restaurant",
             "food",
             "point_of_interest",
             "establishment"
         ],
-        "user_ratings_total": 176,//
+        "user_ratings_total": 176,
         "vicinity": "寝屋川市香里新町１２−１１",
         "reviews": [
             {
@@ -264,7 +263,6 @@
                 "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjU1mNkLhWceyWmjeo8kjDhLNBGObKpa0LcxJwNvvGpkdAu2rW6b=s128-c0x00000000-cc-rp-mo-ba6",
                 "rating": 4,
                 "relative_time_description": "3 か月前",
-                //
                 "text": "香里園駅から徒歩3分の場所にある麺屋Kawakami（香里園店）は、カウンター中心のモダンで落ち着いた空間が魅力。メニューは絞られており、「黄金鶏塩ラーメン」と「中華そば」、季節限定の「梅冷やしそば」などが楽しめます。\n\n本日は中華そばと梅冷やしそばを注文しました\n一部全粒粉入りの細麺は適度なコシと香りがあり、柔らかいチャーシュー、メンマ、ネギとの相性も抜群でした\n梅冷やしそばはこの暑い夏にピッタリなさっぱりな味わいに加え麺の弾力が良く美味しかったです😋\n明るく清潔な店内に、スタッフの方もとても感じが良かったです\n\n平日はランチ、週末（金・土）は深夜まで営業しているので、お仕事帰りや飲みの〆にもぴったり。無駄をそぎ落としたおしゃれな雰囲気と、丁寧に仕上げられた一杯が、日常にほんの少しの贅沢をくれます😁",
                 "time": 1753178865,
                 "translated": false
