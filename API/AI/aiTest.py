@@ -43,6 +43,8 @@ Nhiệm vụ:
 - Gợi ý phương tiện phù hợp: đi bộ, tàu, hoặc xe máy/ô tô.
 - Thêm mô tả ngắn gọn và lý do chọn mỗi địa điểm.
 - Tổng thời gian khoảng 3-6 tiếng.
+- Giá trị photo_references thì phải trả về tất cả dưới, chứ không phải mỗi một giá trị đầu tiên
+- Không được lặp lại địa điểm, ví dụ: địa điểm 3 và 4 không đc trùng lặp
 - Ngôn ngữ của phần mô tả là tiếng Nhật
 Kết quả trả về dưới dạng JSON để dùng trực tiếp cho Google Maps API.
 
@@ -60,7 +62,8 @@ Cấu trúc JSON:
       "info": "string",
       "distance_text": "string",
       "duration_text": "string",
-      "transport_mode": "string"
+      "transport_mode": "string",
+      "photo_references":"string"
     }}
   ],
   "summary": "string"
@@ -94,7 +97,9 @@ generation_config = {
                         "info": {"type": "string"},
                         "distance_text": {"type": "string"},
                         "duration_text": {"type": "string"},
-                        "transport_mode": {"type": "string"}
+                        "transport_mode": {"type": "string"},
+                        "photo_references": {"type": "string"}
+                        
                     },
                     "required": [
                         "order", "name", "activity", "location",

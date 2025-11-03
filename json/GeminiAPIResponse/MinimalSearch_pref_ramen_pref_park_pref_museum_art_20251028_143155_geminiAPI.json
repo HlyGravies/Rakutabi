@@ -1,60 +1,64 @@
 {
-    "plan_title": "大阪グルメミニ旅行：ラーメンとカフェ巡り",
-    "theme": "ラーメン、カフェ",
+    "plan_title": "大阪グルメミニトリップ",
+    "theme": "大阪の食文化を体験する",
     "estimated_duration_hours": 5.5,
     "waypoints": [
         {
             "order": 1,
-            "name": "麺道しゅはり 伊丹店",
-            "activity": "昼食",
+            "name": "神戸牛A5ヘレステーキらーめん",
+            "activity": "ランチ",
             "location": {
-                "lat": 34.7832275,
-                "lng": 135.3984564
+                "lat": 34.667875,
+                "lng": 135.5032307
             },
-            "info": "ラーメンEXPOでグランプリを受賞した人気店で、豚骨ラーメンがおすすめです。学生さんやお子様連れは替え玉が無料なのも嬉しいポイントです。",
-            "distance_text": "14.1 km",
-            "duration_text": "25 分",
-            "transport_mode": "車"
+            "info": "A5ランク神戸牛ヘレステーキとラーメンのセットは絶品です。目の前で調理されるステーキは柔らかく、口の中でとろけるような味わいです。ラーメンスープは牛骨ベースであっさりしており、ステーキとの相性も抜群です。",
+            "distance_text": "徒歩約20分",
+            "duration_text": "約20分",
+            "transport_mode": "徒歩",
+            "photo_references": "AWn5SU7lFIDW1mqnaYzhakuOf8okhUHIS4w_N4KffKs8nnx67u9cGOe2HI51PNDLjuWLsbBkT7H8C1OeFyTu3GXC6K6oGhyXm2GC22UEvQrB1oiAlV1Q-TvRO_BA3POMXuGbleLau9W_F2X3Z_K7kc_G2OFXYPwUIMjrCnMiVtrtZ85WzvBwOmsowuSbBqHYmKm35wEx0ZfulYg-jMWSy6QHtOUdQWh5XtkcmukX_WY6pC3NjHa1TFK9OY24kWGpCJ5LstgQToMCRj2UC2JYMSuc__xcmyQFI30N6sCfLibMZVo-_A,AWn5SU5Or1dNbJUO-rEXFz_w8jeWr72Stm0dKV6hH2rCm8E7YdKrw4LWgt6LPvEZdtao3DRjYoBvOPDJkXkgUi2dkGzDxL5rDEXmMKcJ20qfS4je1RDk0TL9qOIsP4MMxdR0DJm453V1XWJKPiPlYavDMud9sSbe06m9_uZUlGUNLOnGd_C_zTv9new4EXx7SifX6dwY6H3Ac3oG1bWK7sChdwPIg1QL9N5jvI2HaZAvUh3vY2u_asJI20fkfltyzL5X7phtMsNAEiOgMBfTZw9l1jb-47dqGeWmFaabcmGUYDczRw,AWn5SU77ioc88kq20S6P7Quvfwv09lq_jP1fSdEipy0Z4lIoBcsXSnh-zlQ54R2Z4hzu_X8dab3Gn7QnGSnz3s0s15wH8BstVejqBZi4uCpQsLpLoShiF5B6qTulC10DBiJ9FmZXQRAEzZmIpVQrzd6us560WC0FxG6FuH4jnt64K24ZiSnobbLTe4EkFXdOfoy6mZq0Izv3br7DYkrc5qaKs79pdtzRMxAnDPD1AGWrjTcxs38vMdjDthvQqCpooyCgFEIaZteyygMi_waU25otj5T7HsVtIaTQRpOS4W35doj5IZFcawLq14eVhfx5nskbElnymfpl1UjVpMbbvxW-Jy095CUlTmEK72JdaAUiLTdWwu3ePfg3w1iD95_tmpGfNGa6zEEs_Vn71cWD6gfo5Qia_FCOjtTE0s_EB7lZ62_ZAOqbFJsGuoXkmuOOwg,AWn5SU5CF1ZTnHVWbQuLfRmwE8V5vviZ30wZvZY8oLZePMfGITOLIFRWxj98LN0Sq_rnFIhWwyCVhKbyF2DQJ_nEaafuYm_zMaHkdAb3g_ehDOTWVVa9Ia3pim8XUGL-2OipNdx7VSvzdit2uTORbYtKoD9BChPvQ5U-6ElWcxMgALdDdjjuv_Hq8aA3XjXqPu31hytcfBJKfV84JNWp1SMnPY0A7pU56qe14BwtLd-n0fSLJGdB8hIlYXEDYfWuDtTLisRhC4kXRnLBkHkFepP6YWfC1EYi3CYEUdUE6hxkc9dJtwlbQKzcTAIBc3omJC8Il6QXDqNzdGUyiFje-QASs5N_dtPAzs7ZrGoqY3_87qtEg5rFEqkzsqQFpYiQTkqd3wF8s9kRMFEZ6vXF7n0TdxGbWPLHc78njulTEpitKSYOJWVE0szi0uHGE9pxvw,AWn5SU4ktqIBQxX2iyMGs_hCgxU4rmphj2u_yRxFzYmcErvxh9-QdSSiOd2ZaS0mP2cGHudqwH4jSIC1UjMyccbZrO-Ka2WqfYjn8jQvfZdVFyBUiWujo9AjGCTKfBKiz1dO8km4RAOuXIEHrMawhRI9-GyO-cjwCCv1g1VLdrmK1EuEMgCf3_DhqGMc27nchM8epTSHH5BzyxQKWVbNrQmyxY4aciv1ppwmSj0PbzSJxmG-oPONbbMjrUTBuB4BuIFfDVIeNWM3E3a3RIX4M5VyLDCt5wmAkWK--pllwvwZcQ2KD3QNG-99WGJ9B7EYqd8tlBHrrL8Ag6EQiwXc06jdZOM9nUwfzbyBf2p878-1cEIpH1IuUM3-xLJZtQRBLoJzXcNRSFWuLUn6XpAdViXlk6aNiTQ8IBZfFPeXxisLiiQ8JRXq_13y7MeB5q1mfA,AWn5SU7DWQXsLrNynb-iz7wbhc0GummbgBykilp5upQ4W56Uwlvpz8T6zuKqoUptxg54P8eyM_3V6sSplIRByGxiqvUhl4fHw9GXCKOd-eejNmTvHPf_pjS5g-2L13q1M4MHFJR_rBCKjaRPwWIq7TmLCal6UDX-6BD6QmzgBtnYty8eaml_dJG0k1XvtX06pMAAlWmNv4KtOA5VN61_gXz8qTlnEEduLt3-hNR10MBrhK3Uc5rif6Si_dt1eu-uyT97UbuRfqzNHD_9FzHmuX36vqKDcOlhjak7_qu1GVcf0pWeAA,AWn5SU6HadZqcbTLiRH7xEOuQR145QWlnrd3VgDzsqKLUJMuBm7P3ZfFnjro2-3uHX3e5gLnjhoqKSlgZzFA2ZXv9UDwwM-YOJ7nTe_r3-jOJon4BbjoEpY2Dv628h586_PxuO0dGD4MSqLl1cRRLQ4kiLIYlgc9doT-acPmeHaarFO03DaeZcz5xFJ4yaUk4qKqI937Ga-6XSy4QzyhPrIPk7FRT_Tn7VLujsTSH2JNfulU2TlMJIo4cewNOKsU3dTZjYkFA91e0QMRIl_EkfYypOwNnbxa_bC6Hx5okeXby1YIJg,AWn5SU4tvf-MoEHXUR6D5HrG-EnLD5P7OqHToKBkomLrWgt_hfReVe0A3ysTAhWGLiXlJTQw2KFP-bzVztc9QG2AfyhywoCy606tExS3YPReb1fiNSeLMzmxpJX9qnyJW4kEbYCK9Zr3SyRKQUKdKBX9kMs9Wecw6BZFajEYT27kfEUyqjV8L9tuEY89n2w0PMRTHSrqq1dV1t2xZtjQ0_4AEl9Eqk1F_s3X7G6lzN0rCcRqIQVGqcLX_L2j3U8nN5z90UoUsdzKGWD8n3fnK8cIzz3F5Dze0tn938zur0Yus9seNFYR-JBOiId9TpA0NAHJ21W7AIMAtOOUcI_pUJqDMIL5ALxRLXLSUsQnB4MrpcHsaPHozWxWjYM6V2HcklUruPiz2ZvtFMVJpBIujvqFlY48QVNL1blMKCntnhOsBIV2-A,AWn5SU5efcSEiUVuIdnn7lhBsmij-2b8HXJ6FvvN-k7F6z327orlH_wunqJPa5dXZT_K1M4A6o0wjidpMETGTEL5PeL_2O_BF7tS3NRfTiJAgie-6JwRxigEdPEEBE5tVsJRsSeFaod3715kSw1xCup7ErKK0sCdOOm40Q04qL8bA9qsiWgOFWQT2iKhN1fQRQtVitSGjYN592EUcFet0EcClynXtJlNJopO27gzwyjTzXRLnD65si1DdrKdLPLNXOSwGpR5qED-pZC62ydxAPNoSuNnVbHpZCmdrIF-OE7fUMu471voCXCdq7eMrK-accfj3Xco8o7eXJF95OvQsf6hpdlTh-NfMrGHcN3_-ShADgxXWmIS_GB0s78bJGPNPzyZe6Q0JhNsQniQ-pTjA5vEguOyUDnzZ6dL72l_e__5sB2Exho,AWn5SU4j2htAZaqK0U2ZbuDs2ia4HRePc14s0FRuhemCLK23j_HuHYF8Xsb9QZJ5O9k4gD_iTik1nN21QPGl0d46rrR_bYdyGXLXxb9Kgk4sKa-lPS-gTbcqGDpGA8pAM8IOEkfSocq_IGTDJ3hdNywnHt2RnTudEjCw2_UT4I1hsqHpum9e9D5fWVgqZMRWEoTlelfnSipoo6EqUI5rrjxv_4Ey-GcCT0Oi4VhUXGkZMZGp4wZbR-g5uuziBvQ2hUyRN94VpHEmCFWXza0H6_NBrnJMQUCvJgTE5BbtJWlJa32Ezc3lhXkQI2iAnotKBZ4hYJWuVdeXQAZOJef07uFQcwB5iFMTDz_uEpi3kSoUF-x2lzjl7MmomcMiXKaDgRn6GQfqkqe-wf_PGlt6GEMfqZTE_oP3EvaEIUNxB87V9sohC45pijy_2PnMagcv4Ia"
         },
         {
             "order": 2,
-            "name": "大阪城",
+            "name": "道頓堀",
             "activity": "観光",
             "location": {
-                "lat": 34.6872571,
-                "lng": 135.5
+                "lat": 34.669572,
+                "lng": 135.501699
             },
-            "info": "大阪のシンボルである大阪城を観光します。歴史的な建造物を見学したり、公園を散策したりできます。",
-            "distance_text": "15.1 km",
-            "duration_text": "30 分",
-            "transport_mode": "車"
+            "info": "大阪の代表的な観光地、道頓堀を散策します。グリコの看板やかに道楽など、大阪らしい風景が楽しめます。たこ焼きやお好み焼きなど、食べ歩きグルメも充実しています。",
+            "distance_text": "徒歩約5分",
+            "duration_text": "約1時間30分",
+            "transport_mode": "徒歩",
+            "photo_references": "null"
         },
         {
             "order": 3,
             "name": "本町製麺所 中華そば工房",
-            "activity": "カフェ/休憩",
+            "activity": "カフェ/軽食",
             "location": {
                 "lat": 34.6817207,
                 "lng": 135.5081192
             },
-            "info": "大阪の食通に愛され、格式高いビブグルマンにも選出された店で、日本の食文化への深い敬意を感じさせる、非常に独創的で個性的な体験を提示しています。",
-            "distance_text": "2.0 km",
-            "duration_text": "5 分",
-            "transport_mode": "車"
+            "info": "船場センタービルにあるラーメン店です。名物の中華そばは、魚介系の出汁が効いた上品な味わいで、山椒の風味がアクセントになっています。落ち着いた雰囲気の中で、美味しいラーメンを味わいましょう。",
+            "distance_text": "電車と徒歩で約20分",
+            "duration_text": "約20分",
+            "transport_mode": "電車/徒歩",
+            "photo_references": "AWn5SU6BJA4XVaUh2_biVOX-2umwUhl4fJZqaaCYkMhlElOpR4iHis4JcosK2kvUwXKQw7w6OtaGbxZ4_MYsOwDSGDQksTMJKX2nQ2FYtdFDJqmK07FZuCpcvCUms0upTk04z5FDaH2DJ1BeL7zggOhd1ycurypQHeFoP0ZjLRYo3wyyezc1bqe8pcY6jRCiV6xAUaPmtT6RwKyWF79HDhhnT3wyUbB2yhnx4GE8cnd2KlKaGkmqumL71prBhQhNRqJi9pqjTCBq5A3iW8mDqNLnjx3_KKF5RHMl1n7Iw7QJjcypRQ,AWn5SU5Q-9DlRrZzK6oAZvbTIqW1Gy5tFA4ifIDV8liV7fphr19EcL6yu2s7Fchk0167C8P9axXC1dCK4KSU8dvr00Cq5ZkgfReawM8hpAzwkyxvkHlT48kDhGk_QUIPXmsCcqYxoYJBsV1WVG_CBjyNHVLHqat2Z0SjWLjsLhbuIH20jWFtVz8CkwnIUiqE0AEHKrBBR3dOuHB_P5Bw2OZYxmGhkL5RRlLd597uicMht8T48AkXVVYznaXBoIHmbWsOQDAz7QG2hlcixNuOLFb_pIuzLbdmcol7PfvxdU8nakDFeg,AWn5SU6BPqYpcxpD3tU2heNUB6oUotYOlcd0_xAYJ0-XVNISlFfo_fu-UljK4hmE0wz01N6Wh4nHFg_dFWkd1rmagvWdl4XRFdkQrKR96ci8Y2g9DtxSdmZrC30VQz6WReZj4onfAcGOLqT_dxK7QqPQPjvCfczQxQUxebQiYEvsCU3zaj89vlNchXTwSdeXFOqeAgyZJQsCtYBPmewW48rX6WAHzZpK9p0PuZBeT88COJPqKt_-3rlroj6MxR4RheADogih_JFY-F0aSLw6D8j1U0-1EtUGZSFZ2pppRoBnsqfk3z7USU9V0tnk_n8KThBwyCBpzVTYzkCgCPmrXpAQuo7xnHXOcyRTquVGAJKxROyaJzTSFUNb3npJ-ppAl-tvSreECwV7qNP9HYlj1Hf1qxmGQCDju_ZbpBl6Yy29Ksc-mc5nWtyZWzu8Rs9gReJv,AWn5SU5_Y0kJlnnnfqFIAKkf9YCKv4AYZzvxpFESBnJASc6llF79quMNTwCNsPVnen6YsUnSD5JN4TkqYZB6lsW3zAVNp7Sfy1r6MoJJcWCpIMtWy3Nn6lqyaXiZF6sQPIcP2mCYfancg637emGgYkQ5hzL2Vf-OfeKZqjYgKc_BuUn_3UU6WD0PF4D-XhgF27ifT0HjVHdA39iW-Tj8jO9Ax-AgObww7blFHbszAozlaqnH6IFMZTGltAo0_XbQl-Zc0E8dHwQ01SjkgUJ1DaEpSIZEe6JINLlf9J37RqUiS9Us-HjH-Q17U680oFI7GyQEJE4gDKTmlsKcnCDKjTPkcM9JlO-W9ONRNxTGSXSZtVNb1TM2j9qSYGLok7sH8-TonGTuNjeO7EXYTnDxFfqLcwe8JHvdji7Fh3uCrNJ6C8HWgjc,AWn5SU4IfI0iYp1fVhE_kuBS9WUFL28IiPiiicbPuRAoDwWEFtuFgKhP4I4UNbnd4SHJkuJkjWzK-uGmlU5-mEVk3tV6HMb0-AICTGVy1-1LcGAkbhwjFyCzYWBxVffk0bOIF8X2bY2USo4eYHCiQD9sxG1ZDz_H-wzSHQrB6Z2u49SL66C_a7OMaHOaZXG33WAXAdIVkONd1TcRTaAnr5e9NJGfRAIXf4-gYBfM1RBzEcM2PPGplgLSL9BO267HfaDKSfMiE8imvKmdH7GIl66P8DvDmbgTXEWWoK5theLO5fVWARuqNe_DJZg6FT0rVhdJHkaDE_lqoY2KbcQCFDF0TH7Ne2Z5gckqxquAQRozOFF5PoIb_-czzxfOY5s9IRjlviAA6M6EkYuGEMgSENdNwBs_84xQ-uKmuukfXC3WgbB0q2gRWsH2HGJIx8TiIdsk,AWn5SU7xkC0ngm1Ork6jGCrk9FLsSWJlFVmeHdHoMAenKbkVyZuIOxZRnco_l75DhuyASjNUxANoKZTvOTAWGBUYKiHr2reHXD3xmK4jQXWw2OZlsLCZmAJv3NjQkraCcPYGLJ1ZF_EHFErONQTcza-FuhR9IEfY0zGi3KW5HuXkYD5uEXLUwYiDFQbZ6S-53wG7GaxB8jJmPZHg6dn_L6-sKiuIGzDBUtEWVNH2UZ9HKgr_UWDjc3IfsGPJOXXxmd5XJSxnsJf7uTIU_2b_JQtQkr9JrcMWFjIYCoXLFYhaSWwh2C-ezrTj13b2kwBE-xMBSGswxuKErK9PjYqv8YTjw8rTdxRyW6yDIs41_og2Y8ZP1N76SX2dQwTFsFotQTRHTt54s1qX4RBeDFqt_FeAW5sZfe1ln_QT1zPoC12Ctm1_IqUu,AWn5SU7Twrr1_pGnlWrjXisPNbfYc-ohx_p5stDqqgcsiYQh3ArdTNvMjq7bA1Cy4-7wO5TjpDEQrqIkI5yiXZ73khIJTLmoJ30ouSGm_wG2W_z3x7IAro2m2Tq2XfQrqE-Wo_jFFigfy5dUESpnMdHUTmRthuDboBGKeQGU5iy--w_4GjjXztjVrCuWDr0QF_S4zox-lZ380oGpHhqhhptaoQOiOZRysykZfenNM3BxS08IgkLBxP7FWizwmS9--mZIAqjb2XSYowk8PBjpCcqe_DbmC7tu0tJYZKZ4h5RAxE2JY7mNY04EOoM_FYlVvn7NhdJ0srcrPnYBbMWmnN6YdqkoJ2puBsmcbITAPI4Cv4W_LQxS7hN1BVn-YNTH2BIgwmvZIvVj1Ptn5gNwNQDppF3JJxJG6jj0ivCmfo8lHWm-KNK1,AWn5SU6ZFQPGLS2Hw0IvUIfO2sgy9rvqrmgDrF4t6BujsFMCFqAmHqb-hShWo8v4xTa-ACy4oeB-gIeDbaZ7_-XIzNvn9Z5eNi2owAmZH_kfwswE79X9Me2U8VJKhh0mITnAuLy7To0asWV889zp9uj622W8sVXYYHdfpgFNaYLBXHSRvsamDCZT42ONXTfHwyedv_yfmlEmgwaBFbz3-GlzBl0K8KPol3MNSAWvKVISibnrmmEh8Q0CWA74UztFHMkBGhsWeuemYE59OvEf-3-p6vd_AkpJ9Ocqp2mrTTe1bOUH5ceUzKRoAHivwy3XBKI44gvizBB8Gg2cICUTm3u8yFJRW6wb1qBxTZ0kBKIRb5MWsSTH8fIrl2H7xZu36y0QX50eUWvvcvXYi4qfV8hNJA-A0V5IJOHbzSRS9WBHP6qmCA"
         },
         {
             "order": 4,
-            "name": "どうとんぼり神座 心斎橋長堀店",
-            "activity": "軽食",
+            "name": "なんば",
+            "activity": "お土産/周辺散策",
             "location": {
-                "lat": 34.6748295,
-                "lng": 135.501165
+                "lat": 34.668842,
+                "lng": 135.500875
             },
-            "info": "あっさりしながらも深いコクのあるスープが特徴の人気ラーメン店です！野菜たっぷりの優しい味わいで、女性客にも人気。アクセス便利で、買い物帰りにも立ち寄りやすい立地です。",
-            "distance_text": "1.0 km",
-            "duration_text": "15 分",
-            "transport_mode": "徒歩"
+            "info": "大阪のお土産を買ったり、周辺を散策します。たこ焼きやお好み焼きなど、大阪ならではのグルメも楽しめます。",
+            "distance_text": "電車と徒歩で約15分",
+            "duration_text": "約1時間30分",
+            "transport_mode": "電車/徒歩",
+            "photo_references": "null"
         }
     ],
-    "summary": "大阪で美味しいラーメンとカフェを楽しむ3時間のミニ旅行です。美味しいラーメンを味わい、大阪城を観光し、カフェでゆっくり休憩できます。最後に、軽食をとってホテルに戻ります。"
+    "summary": "このプランは、大阪の食文化を体験するためのミニトリップです。神戸牛A5ヘレステーキらーめんから始まり、道頓堀の散策、本町製麺所 中華そば工房での軽食、そしてなんばでのショッピングや散策で締めくくります。大阪ならではのグルメを堪能し、思い出に残る旅にしましょう。"
 }

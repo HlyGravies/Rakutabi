@@ -24,17 +24,17 @@
             height: 100%; width: 100%;
         }
         
-        /* CSS cho nội dung bên trái (Giữ nguyên) */
+        /* CSS CỘT TRÁI (Giữ nguyên) */
         .trip-header { padding: 20px 25px; border-bottom: 1px solid #eee; }
         .trip-header h1 { margin: 0 0 5px 0; font-size: 1.5em; color: #333; }
         .trip-header p { margin: 0; font-size: 0.9em; color: #666; }
         .waypoints-list { padding: 0; margin: 0; }
         .waypoint-item {
             display: flex; padding: 20px 25px; border-bottom: 1px solid #eee;
-            align-items: flex-start; cursor: pointer; /* <-- MỚI: Thêm con trỏ */
-            transition: background-color 0.2s; /* <-- MỚI: Hiệu ứng hover */
+            align-items: flex-start; cursor: pointer;
+            transition: background-color 0.2s;
         }
-        .waypoint-item:hover { /* <-- MỚI: Highlight khi hover */
+        .waypoint-item:hover {
             background-color: #f9f9f9;
         }
         .waypoint-order {
@@ -48,6 +48,56 @@
             display: inline-block; margin-bottom: 10px;
         }
         .waypoint-details .info { margin: 0; font-size: 0.95em; line-height: 1.5; color: #555; }
+
+        /* CSS CHO PHOTO GALLERY (Giữ nguyên) */
+        .photo-gallery {
+            margin-top: 15px;
+            display: flex;
+            flex-wrap: wrap; 
+            gap: 8px; 
+        }
+        .thumbnail-img {
+            width: 80px; 
+            height: 80px;
+            object-fit: cover; 
+            border-radius: 5px;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .thumbnail-img:hover {
+            opacity: 0.8;
+        }
+
+        /* CSS CHO LIGHTBOX (Giữ nguyên) */
+        .lightbox-overlay {
+            display: none; 
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.85);
+            overflow: auto; 
+        }
+        .lightbox-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: block;
+            max-width: 90vw; 
+            max-height: 90vh; 
+        }
+        .lightbox-close {
+            position: absolute;
+            top: 15px;
+            right: 35px;
+            color: #f1f1f1;
+            font-size: 40px;
+            font-weight: bold;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
@@ -60,40 +110,65 @@
         </div>
     </div>
 
+    <div id="lightbox" class="lightbox-overlay">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
     <script>
-        // --- 1. DỮ LIỆU KẾ HOẠCH (Giữ nguyên) ---
-        const planData = {
-            "plan_title": "大阪グルメミニ旅行：ラーメンとカフェ巡り",
-            "theme": "ラーメン、カフェ",
-            "estimated_duration_hours": 5.5,
-            "waypoints": [
-                { "order": 1, "name": "麺道しゅはり 伊丹店", "activity": "昼食", "location": { "lat": 34.7832275, "lng": 135.3984564 }, "info": "ラーメンEXPOでグランプリを受賞した人気店...", "transport_mode": "車" },
-                { "order": 2, "name": "大阪城", "activity": "観光", "location": { "lat": 34.6872571, "lng": 135.5 }, "info": "大阪のシンボルである大阪城を観光します...", "transport_mode": "車" },
-                { "order": 3, "name": "本町製麺所 中華そば工房", "activity": "カフェ/休憩", "location": { "lat": 34.6817207, "lng": 135.5081192 }, "info": "大阪の食通に愛され、格式高いビブグルマンにも選出された店...", "transport_mode": "車" },
-                { "order": 4, "name": "どうとんぼり神座 心斎橋長堀店", "activity": "軽食", "location": { "lat": 34.6748295, "lng": 135.501165 }, "info": "あっさりしながらも深いコクのあるスープが特徴...", "transport_mode": "徒歩" }
-            ],
-            "summary": "大阪で美味しいラーメンとカフェを楽しむ3時間のミニ旅行です..."
-        };
+        // --- 0. Đặt API Key của mày ở đây ---
+        // T đã dùng key mày cung cấp, nhưng hãy đảm bảo nó đúng
+        const API_KEY = "AIzaSyAmbdRFOMwNlwiUD-LEwTvvJ6Twb0JlpmU"; 
 
-        // --- 2. BIẾN TOÀN CỤC CHO BẢN ĐỒ ---
-        let map; // <-- MỚI
-        let markers = []; // <-- MỚI: Mảng để chứa các marker
-        let infowindow; // <-- MỚI: Cửa sổ thông tin chung
+        // --- 1. BIẾN TOÀN CỤC ---
+        let planData; // Biến này sẽ chứa dữ liệu sau khi fetch
+        let map; 
+        let markers = []; 
+        let infowindow;
+        let lightbox;
+        let lightboxImg;
+        let lightboxClose;
 
-        // --- 3. HÀM ĐỔ DỮ LIỆU CỘT TRÁI (Giữ nguyên) ---
+        // --- 2. TẢI DỮ LIỆU TỪ FILE JSON ---
+        const jsonFilePath = "../json/GeminiAPIResponse/MinimalSearch_pref_ramen_pref_park_pref_museum_art_20251028_143155_geminiAPI.json";
+
+        fetch(jsonFilePath)
+            .then(response => {
+                if (!response.ok) { // Thêm kiểm tra lỗi 404
+                    throw new Error(`HTTP error! status: ${response.status} - Không tìm thấy file.`);
+                }
+                return response.json();
+            })
+            .then(data => {
+                planData = data; // Gán dữ liệu vào biến
+
+                // *** SỬA LỖI Ở ĐÂY ***
+                // Chỉ chạy 2 hàm này SAU KHI đã fetch data thành công
+                populateLeftPanel(); 
+                loadGoogleMapsScript();
+            })
+            .catch(error => {
+                console.error("Lỗi tải file JSON:", error);
+                document.body.innerHTML = `<h1>Lỗi: Không tải được file JSON</h1><p>${error.message}</p><p>Đường dẫn: ${jsonFilePath}</p>`;
+            });
+
+        
+        // --- 3. HÀM ĐỔ DỮ LIỆU CỘT TRÁI ---
         function populateLeftPanel() {
             const panel = document.getElementById('left-panel');
             let content = '';
+            
             content += `<div class="trip-header"><h1>${planData.plan_title}</h1><p>${planData.summary}</p></div>`;
             content += '<div class="waypoints-list">';
-            planData.waypoints.forEach(wp => {
+            planData.waypoints.forEach((wp, i) => {
                 content += `
-                    <div class="waypoint-item">
+                    <div class="waypoint-item" data-marker-index="${i}">
                         <div class="waypoint-order">${wp.order}</div>
                         <div class="waypoint-details">
                             <span class="activity">${wp.activity}</span>
                             <h3>${wp.name}</h3>
                             <p class="info">${wp.info}</p>
+                            ${createPhotoGallery(wp.photo_references)} 
                         </div>
                     </div>
                 `;
@@ -102,86 +177,133 @@
             panel.innerHTML = content;
         }
 
-        // --- 4. HÀM KHỞI TẠO BẢN ĐỒ (Cập nhật) ---
+        // --- 3.5. HÀM TẠO GALLERY (Tự ẩn ảnh lỗi) ---
+        function createPhotoGallery(references) {
+            if (!references) return ''; 
+
+            const refArray = references.split(',').slice(0, 5);
+            let galleryHTML = '<div class="photo-gallery">';
+            
+            refArray.forEach(ref => {
+                if (ref) { 
+                    const thumbnailUrl = `https://maps.googleapis.com/maps/api/place/photo?maxwidth=100&photoreference=${ref}&key=${API_KEY}`;
+                    galleryHTML += `
+                        <img src="${thumbnailUrl}" 
+                             class="thumbnail-img" 
+                             data-photoref="${ref}" 
+                             alt="Ảnh địa điểm"
+                             onerror="this.style.display='none'"> 
+                    `;
+                }
+            });
+            
+            galleryHTML += '</div>';
+            return galleryHTML;
+        }
+
+        // --- 4. HÀM INIT MAP ---
         function initMap() {
             const directionsService = new google.maps.DirectionsService();
             const directionsRenderer = new google.maps.DirectionsRenderer({
-                suppressMarkers: true // <-- MỚI: Tắt marker A, B, C, D mặc định
+                suppressMarkers: true 
             });
             
             const firstLocation = planData.waypoints[0].location;
-
-            map = new google.maps.Map(document.getElementById("map"), { // <-- MỚI: Gán vào biến global
-                zoom: 12,
-                center: firstLocation
+            map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 12, center: firstLocation
             });
-
             directionsRenderer.setMap(map);
-            infowindow = new google.maps.InfoWindow(); // <-- MỚI: Khởi tạo InfoWindow
+            infowindow = new google.maps.InfoWindow();
 
-            // --- MỚI: Thêm các marker tùy chỉnh ---
+            initLightbox();
             addMarkers();
-
-            // --- MỚI: Thêm tương tác cho cột trái ---
-            addPanelListeners();
-            
-            // --- Vẽ đường đi (như cũ) ---
+            addPanelListeners(); 
             calculateAndDisplayRoute(directionsService, directionsRenderer);
         }
 
-        // --- 5. HÀM MỚI: THÊM MARKERS TÙY CHỈNH ---
+        // --- 5. HÀM INIT LIGHTBOX ---
+        function initLightbox() {
+            lightbox = document.getElementById('lightbox');
+            lightboxImg = document.getElementById('lightbox-img');
+            lightboxClose = document.querySelector('.lightbox-close');
+
+            lightboxClose.addEventListener('click', () => {
+                lightbox.style.display = 'none';
+            });
+            
+            lightbox.addEventListener('click', (e) => {
+                if (e.target === lightbox) { 
+                    lightbox.style.display = 'none';
+                }
+            });
+        }
+        
+        // --- 6. HÀM ADD MARKERS ---
         function addMarkers() {
             planData.waypoints.forEach((wp, i) => {
                 const marker = new google.maps.Marker({
                     position: wp.location,
                     map: map,
-                    label: (i + 1).toString(), // Đánh số 1, 2, 3, 4
+                    label: (i + 1).toString(),
                     title: wp.name
                 });
-
-                // Event: Click vào marker -> Mở InfoWindow
                 marker.addListener('click', () => {
-                    const content = `
-                        <div style="max-width: 200px;">
-                            <strong style="font-size: 1.1em;">${wp.name}</strong>
-                            <p style="font-size: 0.9em; margin-top: 5px;">Hoạt động: ${wp.activity}</p>
-                        </div>`;
+                    const content = `<div style="max-width: 200px;"><strong style="font-size: 1.1em;">${wp.name}</strong><p style="font-size: 0.9em; margin-top: 5px;">Hoạt động: ${wp.activity}</p></div>`;
                     infowindow.setContent(content);
                     infowindow.open(map, marker);
                 });
+                markers.push(marker);
 
-                markers.push(marker); // Lưu marker vào mảng
+                if (i === 3 && wp.location.lat === planData.waypoints[2].location.lat) {
+                     marker.setOptions({
+                         optimized: false, 
+                         position: {lat: wp.location.lat + 0.0001, lng: wp.location.lng}
+                     });
+                }
             });
         }
 
-        // --- 6. HÀM MỚI: THÊM TƯƠNG TÁC 2 CHIỀU ---
+        // --- 7. HÀM ADD PANEL LISTENERS ---
         function addPanelListeners() {
             const items = document.querySelectorAll('.waypoint-item');
-            
-            items.forEach((item, i) => {
-                const marker = markers[i]; // Lấy marker tương ứng
-
-                // Event: Hover vào text -> Marker nảy lên
-                item.addEventListener('mouseover', () => {
-                    marker.setAnimation(google.maps.Animation.BOUNCE);
-                });
+            items.forEach((item) => {
+                const index = parseInt(item.dataset.markerIndex, 10);
+                if (isNaN(index) || !markers[index]) return; 
                 
-                // Event: Rời chuột khỏi text -> Marker ngừng nảy
+                const marker = markers[index];
+
+                item.addEventListener('mouseover', (e) => {
+                    if (!e.target.classList.contains('thumbnail-img')) {
+                         marker.setAnimation(google.maps.Animation.BOUNCE);
+                    }
+                });
                 item.addEventListener('mouseout', () => {
                     marker.setAnimation(null);
                 });
-                
-                // Event: Click vào text -> Kích hoạt event click của marker
-                item.addEventListener('click', () => {
-                    google.maps.event.trigger(marker, 'click');
-                    // Tùy chọn: Tự động di chuyển bản đồ tới marker
-                    map.panTo(marker.getPosition());
-                    map.setZoom(15); // Zoom vào
+                item.addEventListener('click', (e) => {
+                    if (!e.target.classList.contains('thumbnail-img')) {
+                        google.maps.event.trigger(marker, 'click');
+                        map.panTo(marker.getPosition());
+                        map.setZoom(15);
+                    }
+                });
+            });
+
+            const thumbnails = document.querySelectorAll('.thumbnail-img');
+            thumbnails.forEach(thumb => {
+                thumb.addEventListener('click', (e) => {
+                    e.stopPropagation(); 
+                    
+                    const photoRef = thumb.dataset.photoref;
+                    const largePhotoUrl = `https://maps.googleapis.com/maps/api/place/photo?maxwidth=1600&photoreference=${photoRef}&key=${API_KEY}`;
+                    
+                    lightboxImg.src = largePhotoUrl; 
+                    lightbox.style.display = 'block'; 
                 });
             });
         }
-
-        // --- 7. HÀM VẼ ĐƯỜNG ĐI (Giữ nguyên) ---
+        
+        // --- 8. HÀM VẼ ĐƯỜNG ĐI ---
         function calculateAndDisplayRoute(directionsService, directionsRenderer) {
             const waypts = [];
             for (let i = 1; i < planData.waypoints.length - 1; i++) {
@@ -195,9 +317,9 @@
             const transportMode = hasDriving ? 'DRIVING' : 'WALKING';
 
             directionsService.route({
-                origin: planData.waypoints[0].location,
-                destination: planData.waypoints[planData.waypoints.length - 1].location,
-                waypoints: waypts,
+                origin: planData.waypoints[0].location, 
+                destination: planData.waypoints[planData.waypoints.length - 1].location, 
+                waypoints: waypts, 
                 optimizeWaypoints: false, 
                 travelMode: google.maps.TravelMode[transportMode]
             })
@@ -206,13 +328,19 @@
             })
             .catch((e) => window.alert("Yêu cầu chỉ đường thất bại: " + e));
         }
-
-        // --- 8. CHẠY CÁC HÀM ---
-        populateLeftPanel(); 
         
+        // --- 9. HÀM TẢI GOOGLE SCRIPT (Chỉ định nghĩa) ---
+        // (Hàm này sẽ được gọi từ .then() của fetch)
+        function loadGoogleMapsScript() {
+            const script = document.createElement('script');
+            script.src = `https://maps.googleapis.com/maps/api/js?key=${API_KEY}&callback=initMap&libraries=places`;
+            script.async = true;
+            document.head.appendChild(script);
+        }
+
+        // *** KHÔNG GỌI BẤT CỨ HÀM NÀO Ở ĐÂY ***
+        // (Vì chúng đã được gọi bên trong `fetch.then()` ở trên)
+
     </script>
-    <script async
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAmbdRFOMwNlwiUD-LEwTvvJ6Twb0JlpmU&callback=initMap">
-    </script>
-    </body>
+</body>
 </html>
