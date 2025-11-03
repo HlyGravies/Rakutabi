@@ -1,0 +1,47 @@
+{
+    "plan_title": "Ẩm thực địa phương quanh ga Umeda",
+    "theme": "Khám phá ẩm thực Osaka",
+    "estimated_duration_hours": 4,
+    "waypoints": [
+        {
+            "order": 1,
+            "name": "Kobe Beef Steak Ramen Kissho",
+            "activity": "Ăn trưa",
+            "location": {
+                "lat": 34.667875,
+                "lng": 135.5032307
+            },
+            "info": "Thưởng thức món ramen thịt bò Kobe A5 nổi tiếng. Giá hơi cao nhưng đáng để trải nghiệm.",
+            "distance_text": "Khoảng 2.5 km",
+            "duration_text": "5-10 phút",
+            "transport_mode": "tàu"
+        },
+        {
+            "order": 2,
+            "name": "Dotonbori",
+            "activity": "Tham quan",
+            "location": {
+                "lat": 34.6703543,
+                "lng": 135.5041068
+            },
+            "info": "Đi bộ dọc Dotonbori, ngắm cảnh và chụp ảnh với biểu tượng Glico Running Man.",
+            "distance_text": "Khoảng 500m",
+            "duration_text": "5-10 phút",
+            "transport_mode": "đi bộ"
+        },
+        {
+            "order": 3,
+            "name": "Motsukoshi Chubo Hommachi",
+            "activity": "Ăn nhẹ",
+            "location": {
+                "lat": 34.6817207,
+                "lng": 135.5081192
+            },
+            "info": "Thưởng thức mì soba trứ danh. Giá cả phải chăng, hương vị đặc biệt.",
+            "distance_text": "1.5 km",
+            "duration_text": "15-20 phút",
+            "transport_mode": "đi bộ"
+        }
+    ],
+    "summary": "Chuyến đi ngắn tập trung vào ẩm thực, bắt đầu với ramen thịt bò Kobe, tham quan Dotonbori và kết thúc với mì soba. Tổng thời gian khoảng 4 tiếng."
+}
