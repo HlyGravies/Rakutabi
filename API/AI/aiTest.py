@@ -1,14 +1,28 @@
 import os
-import json 
+import json
 from dotenv import load_dotenv
 import google.generativeai as genai
+from pathlib import Path  # <-- Thêm thư viện này
 
-# --- Load API key --- 
+# --- Load API key ---
 load_dotenv()
 genai.configure(api_key=os.environ["GEMINI_API_KEY"])
 
-# --- Load dữ liệu địa điểm --- 
-with open(r"json\test\MinimalSearch_pref_ramen_pref_park_pref_museum_art_20251028_143155.json", "r", encoding="utf-8") as f:
+# --- 1. ĐỊNH NGHĨA ĐƯỜNG DẪN ---
+# Chỉ cần thay đổi file input ở đây
+input_file_path = Path(r"json/test/MinimalSearch_pref_ramen_pref_park_pref_museum_art_20251028_143155.json")
+
+# Đường dẫn output sẽ tự động được tạo
+output_dir = Path("json/GeminiAPIResponse")
+output_file_name = f"{input_file_path.stem}_geminiAPI.json"
+output_file_path = output_dir / output_file_name
+
+# --- 2. TỰ ĐỘNG TẠO THƯ MỤC OUTPUT (nếu chưa có) ---
+output_dir.mkdir(parents=True, exist_ok=True)
+
+# --- Load dữ liệu địa điểm ---
+print(f"Đang đọc file input: {input_file_path}")
+with open(input_file_path, "r", encoding="utf-8") as f:
     places_data = json.load(f)
 
 
@@ -29,7 +43,7 @@ Nhiệm vụ:
 - Gợi ý phương tiện phù hợp: đi bộ, tàu, hoặc xe máy/ô tô.
 - Thêm mô tả ngắn gọn và lý do chọn mỗi địa điểm.
 - Tổng thời gian khoảng 3-6 tiếng.
-
+- Ngôn ngữ của phần mô tả là tiếng Nhật
 Kết quả trả về dưới dạng JSON để dùng trực tiếp cho Google Maps API.
 
 Cấu trúc JSON:
@@ -97,20 +111,24 @@ generation_config = {
     }
 }
 
-# --- Tạo model --- 
+# --- Tạo model ---
 model = genai.GenerativeModel(
     model_name="gemini-2.0-flash",
     generation_config=generation_config
 )
 
-# --- Gọi AI --- 
+# --- Gọi AI ---
+print("Đang gọi Gemini API để tạo kế hoạch...")
 response = model.generate_content(
-    f"{prompt}\n\nDữ liệu địa điểm:\n{json.dumps(places_data[:15], ensure_ascii=False)}" 
+    f"{prompt}\n\nDữ liệu địa điểm:\n{json.dumps(places_data[:15], ensure_ascii=False)}"
 )
 
 # response.text là JSON string
 result_json = json.loads(response.text)
 
-# Ghi vào file riêng
-with open(r"json\output_gemini.json", "w", encoding="utf-8") as f:
+# --- Ghi vào file riêng ---
+with open(output_file_path, "w", encoding="utf-8") as f:
     json.dump(result_json, f, ensure_ascii=False, indent=4)
+
+print(f"\n--- HOÀN THÀNH ---")
+print(f"Đã lưu kế hoạch vào file:\n{output_file_path.absolute()}")

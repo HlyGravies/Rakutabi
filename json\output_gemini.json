@@ -1,0 +1,60 @@
+{
+    "plan_title": "Ẩm thực Osaka: Ramen & Cafe",
+    "theme": "Ẩm thực",
+    "estimated_duration_hours": 4.0,
+    "waypoints": [
+        {
+            "order": 1,
+            "name": "本町製麺所 中華そば工房",
+            "activity": "Ăn trưa",
+            "location": {
+                "lat": 34.6817207,
+                "lng": 135.5081192
+            },
+            "info": "Thưởng thức mì Ramen trứ danh tại Honmachi Seimenjo, quán ăn đạt giải thưởng Michelin Bib Gourmand. Nổi tiếng với nước dùng cá đậm đà và sợi mì dai ngon.",
+            "distance_text": "Khoảng 1.0 km",
+            "duration_text": "5 phút",
+            "transport_mode": "Đi bộ"
+        },
+        {
+            "order": 2,
+            "name": "大阪城",
+            "activity": "Tham quan",
+            "location": {
+                "lat": 34.6872571,
+                "lng": 135.526
+            },
+            "info": "Đi bộ đến Lâu đài Osaka (khoảng 15 phút). Dành khoảng 2 giờ để khám phá lâu đài tráng lệ, tìm hiểu lịch sử và chiêm ngưỡng kiến trúc độc đáo. Bạn có thể leo lên đỉnh tháp lâu đài để ngắm toàn cảnh thành phố.",
+            "distance_text": "Khoảng 2.0 km",
+            "duration_text": "15 phút",
+            "transport_mode": "Đi bộ"
+        },
+        {
+            "order": 3,
+            "name": "喫茶店リリー",
+            "activity": "Uống cafe",
+            "location": {
+                "lat": 34.6850526,
+                "lng": 135.5161721
+            },
+            "info": "Di chuyển đến quán cafe gần đó (khoảng 10 phút đi bộ). Thưởng thức một tách cafe và bánh ngọt tại một quán cafe địa phương để thư giãn và nạp năng lượng.",
+            "distance_text": "Khoảng 1.2 km",
+            "duration_text": "10 phút",
+            "transport_mode": "Đi bộ"
+        },
+        {
+            "order": 4,
+            "name": "麺屋 猿のすけ",
+            "activity": "Ăn tối",
+            "location": {
+                "lat": 34.6703543,
+                "lng": 135.5041068
+            },
+            "info": "Kết thúc chuyến đi bằng bữa tối tại Ramen Sarunosuke, một quán ramen được đánh giá cao với nhiều loại mì ramen ngon. Thử món súp gà miso nổi tiếng của họ.",
+            "distance_text": "Khoảng 2km",
+            "duration_text": "20 phút",
+            "transport_mode": "Đi bộ"
+        }
+    ],
+    "summary": "Một chuyến đi ngắn tập trung vào ẩm thực Osaka, đặc biệt là mì ramen. Bắt đầu với bữa trưa tại một nhà hàng ramen nổi tiếng, sau đó là chuyến thăm mang tính lịch sử đến Lâu đài Osaka và kết thúc bằng một bữa tối ngon miệng tại nhà hàng ramen được đánh giá cao."
+}
