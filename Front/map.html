@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kế Hoạch Mini Trip: {planData.plan_title}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* CSS CƠ BẢN */
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        /* 1. CONTAINER CHÍNH (dùng Flexbox) */
+        .main-container {
+            display: flex;
+            width: 100vw; /* 100% chiều rộng màn hình */
+            height: 100vh; /* 100% chiều cao màn hình */
+        }
+
+        /* 2. CỘT BÊN TRÁI (Lộ trình text) */
+        .left-panel {
+            flex-basis: 40%; /* Chiếm 40% chiều rộng */
+            height: 100vh;
+            overflow-y: auto; /* Cho phép cuộn nếu nội dung dài */
+            background-color: #ffffff;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+            z-index: 10;
+        }
+
+        /* 3. CỘT BÊN PHẢI (Bản đồ) */
+        .right-panel {
+            flex-basis: 60%; /* Chiếm 60% chiều rộng */
+            height: 100vh;
+        }
+
+        /* Div chứa bản đồ bên trong cột phải */
+        #map {
+            height: 100%;
+            width: 100%;
+        }
+        
+        /* CSS cho nội dung bên trái */
+        .trip-header {
+            padding: 20px 25px;
+            border-bottom: 1px solid #eee;
+        }
+        .trip-header h1 {
+            margin: 0 0 5px 0;
+            font-size: 1.5em;
+            color: #333;
+        }
+        .trip-header p {
+            margin: 0;
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        .waypoints-list {
+            padding: 0;
+            margin: 0;
+        }
+        .waypoint-item {
+            display: flex;
+            padding: 20px 25px;
+            border-bottom: 1px solid #eee;
+            align-items: flex-start;
+        }
+        .waypoint-item:last-child {
+            border-bottom: none;
+        }
+        .waypoint-order {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #007bff;
+            margin-right: 20px;
+            padding-top: 5px;
+        }
+        .waypoint-details h3 {
+            margin: 0 0 8px 0;
+            font-size: 1.1em;
+            color: #111;
+        }
+        .waypoint-details .activity {
+            font-size: 0.85em;
+            font-weight: 600;
+            color: #888;
+            background-color: #f0f0f0;
+            padding: 3px 8px;
+            border-radius: 4px;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+        .waypoint-details .info {
+            margin: 0;
+            font-size: 0.95em;
+            line-height: 1.5;
+            color: #555;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="main-container">
+        
+        <div class="left-panel" id="left-panel">
+            </div>
+
+        <div class="right-panel">
+            <div id="map"></div>
+        </div>
+
+    </div>
+
+    <script>
+        // --- 1. DỮ LIỆU KẾ HOẠCH TỪ JSON ---
+        const planData = {
+            "plan_title": "大阪グルメミニ旅行：ラーメンとカフェ巡り",
+            "theme": "ラーメン、カフェ",
+            "estimated_duration_hours": 5.5,
+            "waypoints": [
+                {
+                    "order": 1,
+                    "name": "麺道しゅはり 伊丹店",
+                    "activity": "昼食",
+                    "location": { "lat": 34.7832275, "lng": 135.3984564 },
+                    "info": "ラーメンEXPOでグランプリを受賞した人気店で、豚骨ラーメンがおすすめです。学生さんやお子様連れは替え玉が無料なのも嬉しいポイントです。",
+                    "transport_mode": "車"
+                },
+                {
+                    "order": 2,
+                    "name": "大阪城",
+                    "activity": "観光",
+                    "location": { "lat": 34.6872571, "lng": 135.5 },
+                    "info": "大阪のシンボルである大阪城を観光します。歴史的な建造物を見学したり、公園を散策したりできます。",
+                    "transport_mode": "車"
+                },
+                {
+                    "order": 3,
+                    "name": "本町製麺所 中華そば工房",
+                    "activity": "カフェ/休憩",
+                    "location": { "lat": 34.6817207, "lng": 135.5081192 },
+                    "info": "大阪の食通に愛され、格式高いビブグルマンにも選出された店で、日本の食文化への深い敬意を感じさせる、非常に独創的で個性的な体験を提示しています。",
+                    "transport_mode": "車"
+                },
+                {
+                    "order": 4,
+                    "name": "どうとんぼり神座 心斎橋長堀店",
+                    "activity": "軽食",
+                    "location": { "lat": 34.6748295, "lng": 135.501165 },
+                    "info": "あっさりしながらも深いコクのあるスープが特徴の人気ラーメン店です！野菜たっぷりの優しい味わいで、女性客にも人気。アクセス便利で、買い物帰りにも立ち寄りやすい立地です。",
+                    "transport_mode": "徒歩"
+                }
+            ],
+            "summary": "大阪で美味しいラーメンとカフェを楽しむ3時間のミニ旅行です。美味しいラーメンを味わい、大阪城を観光し、カフェでゆっくり休憩できます。最後に、軽食をとってホテルに戻ります。"
+        };
+
+        // --- 2. HÀM MỚI: ĐỔ DỮ LIỆU VÀO CỘT TRÁI ---
+        function populateLeftPanel() {
+            const panel = document.getElementById('left-panel');
+            let content = '';
+
+            // Phần Header
+            content += `
+                <div class="trip-header">
+                    <h1>${planData.plan_title}</h1>
+                    <p>${planData.summary}</p>
+                </div>
+            `;
+
+            // Phần danh sách Waypoints
+            content += '<div class="waypoints-list">';
+            planData.waypoints.forEach(wp => {
+                content += `
+                    <div class="waypoint-item">
+                        <div class="waypoint-order">${wp.order}</div>
+                        <div class="waypoint-details">
+                            <span class="activity">${wp.activity}</span>
+                            <h3>${wp.name}</h3>
+                            <p class="info">${wp.info}</p>
+                        </div>
+                    </div>
+                `;
+            });
+            content += '</div>';
+
+            panel.innerHTML = content;
+        }
+
+        // --- 3. HÀM KHỞI TẠO BẢN ĐỒ (như cũ) ---
+        function initMap() {
+            const directionsService = new google.maps.DirectionsService();
+            const directionsRenderer = new google.maps.DirectionsRenderer();
+            
+            const firstLocation = planData.waypoints[0].location;
+
+            const map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 12,
+                center: firstLocation
+            });
+
+            directionsRenderer.setMap(map);
+
+            calculateAndDisplayRoute(directionsService, directionsRenderer);
+        }
+
+        function calculateAndDisplayRoute(directionsService, directionsRenderer) {
+            const waypts = [];
+            for (let i = 1; i < planData.waypoints.length - 1; i++) {
+                waypts.push({
+                    location: planData.waypoints[i].location,
+                    stopover: true,
+                });
+            }
+            
+            // Lấy phương tiện di chuyển chính (ưu tiên LÁI XE nếu có)
+            const hasDriving = planData.waypoints.some(wp => wp.transport_mode === '車');
+            const transportMode = hasDriving ? 'DRIVING' : 'WALKING';
+
+            directionsService.route({
+                origin: planData.waypoints[0].location,
+                destination: planData.waypoints[planData.waypoints.length - 1].location,
+                waypoints: waypts,
+                optimizeWaypoints: false, // TẮT optimize để giữ đúng thứ tự 1, 2, 3, 4
+                travelMode: google.maps.TravelMode[transportMode]
+            })
+            .then((response) => {
+                directionsRenderer.setDirections(response);
+            })
+            .catch((e) => window.alert("Yêu cầu chỉ đường thất bại: " + e));
+        }
+
+        // --- 4. CHẠY CÁC HÀM ---
+        
+        // Chạy hàm này ngay lập tức để load text
+        populateLeftPanel(); 
+        
+        // Hàm initMap sẽ được Google API gọi sau khi script tải xong
+    </script>
+    <script async
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAmbdRFOMwNlwiUD-LEwTvvJ6Twb0JlpmU&callback=initMap">
+    </script>
+    </body>
+</html>
