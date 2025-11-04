@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phân cấp hành chính Nhật Bản</title>
+    <!-- Tích hợp Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tích hợp Font Awesome để có icon đẹp hơn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        /* Tùy chỉnh thanh cuộn để đẹp hơn */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #f1f1f1; }
+        ::-webkit-scrollbar-thumb { background: #888; border-radius: 10px; }
+        ::-webkit-scrollbar-thumb:hover { background: #555; }
+        body { font-family: 'Inter', sans-serif; }
+        .custom-select-wrapper { position: relative; }
+        .custom-select-wrapper::after {
+            content: '\f078'; /* Font Awesome chevron-down icon */
+            font-family: 'Font Awesome 6 Free';
+            font-weight: 900;
+            position: absolute;
+            right: 1rem;
+            top: 50%;
+            transform: translateY(-50%);
+            pointer-events: none;
+            color: #9CA3AF;
+        }
+        select { -webkit-appearance: none; -moz-appearance: none; appearance: none; }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800 min-h-screen flex items-center justify-center p-4">
+
+    <div class="container mx-auto max-w-4xl w-full bg-white rounded-2xl shadow-2xl p-6 sm:p-8">
+        
+        <header class="text-center mb-8">
+            <h1 class="text-3xl sm:text-4xl font-bold text-gray-900 mb-2">Hệ thống phân cấp hành chính Nhật Bản</h1>
+            <p class="text-gray-600">Chọn một mục từ danh sách bên dưới để xem các cấp phụ thuộc.</p>
+        </header>
+
+        <main class="space-y-6">
+            <div id="loadingSpinner" class="flex justify-center items-center py-10">
+                <i class="fas fa-spinner fa-spin fa-3x text-blue-500"></i>
+            </div>
+            
+            <div id="dropdownContainer" class="hidden space-y-4">
+                <div class="level-container" data-level="1">
+                    <label for="level1" class="block text-sm font-medium text-gray-700 mb-1">Cấp 1: Tỉnh / Đô thị</label>
+                    <div class="custom-select-wrapper">
+                        <select id="level1" class="w-full p-3 border border-gray-300 rounded-lg bg-gray-50 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition duration-150"></select>
+                    </div>
+                </div>
+                <div class="level-container hidden" data-level="2">
+                    <label for="level2" class="block text-sm font-medium text-gray-700 mb-1">Cấp 2</label>
+                    <div class="custom-select-wrapper">
+                         <select id="level2" class="w-full p-3 border border-gray-300 rounded-lg bg-gray-50 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition duration-150"></select>
+                    </div>
+                </div>
+                <div class="level-container hidden" data-level="3">
+                    <label for="level3" class="block text-sm font-medium text-gray-700 mb-1">Cấp 3</label>
+                    <div class="custom-select-wrapper">
+                        <select id="level3" class="w-full p-3 border border-gray-300 rounded-lg bg-gray-50 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition duration-150"></select>
+                    </div>
+                </div>
+                <div class="level-container hidden" data-level="4">
+                    <label for="level4" class="block text-sm font-medium text-gray-700 mb-1">Cấp 4</label>
+                     <div class="custom-select-wrapper">
+                        <select id="level4" class="w-full p-3 border border-gray-300 rounded-lg bg-gray-50 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition duration-150"></select>
+                    </div>
+                </div>
+            </div>
+
+            <div id="details" class="bg-blue-50 border-l-4 border-blue-500 text-blue-800 p-6 rounded-lg mt-8 min-h-[100px] transition-opacity duration-300 opacity-0"></div>
+        </main>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const dropdowns = {
+                level1: document.getElementById('level1'),
+                level2: document.getElementById('level2'),
+                level3: document.getElementById('level3'),
+                level4: document.getElementById('level4'),
+            };
+            const detailsDiv = document.getElementById('details');
+            const loadingSpinner = document.getElementById('loadingSpinner');
+            const dropdownContainer = document.getElementById('dropdownContainer');
+
+            let allData = [];
+
+            async function loadAndParseData() {
+                try {
+                    const response = await fetch('0-all.tsv?v=' + new Date().getTime());
+                    if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+                    
+                    const tsvText = await response.text();
+                    const lines = tsvText.trim().split('\n');
+                    const headers = lines[0].split('\t').map(h => h.trim());
+
+                    allData = lines.slice(1).map(line => {
+                        const values = line.split('\t');
+                        const obj = {};
+                        headers.forEach((header, index) => {
+                            obj[header] = values[index] ? values[index].trim() : '';
+                        });
+                        return obj;
+                    });
+                    
+                    initialize();
+                } catch (error) {
+                    console.error("Lỗi khi tải hoặc phân tích dữ liệu:", error);
+                    detailsDiv.innerHTML = `<p class="font-bold text-red-600">Không thể tải dữ liệu. Vui lòng chạy trang này qua một máy chủ web cục bộ và đảm bảo tệp '0-all.tsv' nằm đúng vị trí.</p>`;
+                    detailsDiv.classList.remove('opacity-0');
+                    loadingSpinner.style.display = 'none';
+                }
+            }
+
+            function initialize() {
+                const level1Data = allData.filter(item => item.level === '1');
+                populateDropdown(dropdowns.level1, level1Data);
+                resetDetails();
+                loadingSpinner.style.display = 'none';
+                dropdownContainer.classList.remove('hidden');
+                setupEventListeners();
+            }
+            
+            function populateDropdown(selectElement, items) {
+                selectElement.innerHTML = '<option value="">-- Chọn một mục --</option>';
+                const parentContainer = selectElement.parentElement.parentElement;
+
+                if (!items || items.length === 0) {
+                    selectElement.disabled = true;
+                    parentContainer.classList.add('hidden');
+                    return;
+                }
+                
+                // *** PHẦN SỬA LỖI QUAN TRỌNG NHẤT ***
+                // 1. Tạo một Map để đảm bảo chỉ có các mã duy nhất.
+                const uniqueItemsMap = new Map();
+                items.forEach(item => {
+                    if (!uniqueItemsMap.has(item.code)) {
+                        uniqueItemsMap.set(item.code, item);
+                    }
+                });
+
+                // 2. Chuyển Map trở lại thành một mảng và thêm vào dropdown.
+                const uniqueItems = Array.from(uniqueItemsMap.values());
+                
+                uniqueItems.forEach(item => {
+                    const optionText = `${item['full-ja']} (${item['full-en']})`;
+                    const option = new Option(optionText, item.code);
+                    selectElement.add(option);
+                });
+                
+                selectElement.disabled = false;
+                parentContainer.classList.remove('hidden');
+            }
+            
+            function setupEventListeners() {
+                Object.values(dropdowns).forEach((select, index) => {
+                    select.addEventListener('change', (e) => handleSelection(index + 1, e.target.value));
+                });
+            }
+
+            function handleSelection(level, selectedCode) {
+                for (let i = level + 1; i <= 4; i++) resetDropdown(`level${i}`);
+
+                const selectedItem = allData.find(item => item.code === selectedCode);
+                displayDetails(selectedItem);
+
+                if (!selectedCode || level >= 4) return;
+
+                let children = [];
+
+                if (level === 1) {
+                    const prefCode = selectedCode.substring(0, 2);
+                    // Lấy tất cả các đơn vị Cấp 2 trực thuộc tỉnh
+                    children = allData.filter(item => item.level === '2' && item.pref === prefCode);
+                } 
+                else if (level === 2) {
+                    // Kiểm tra xem cấp 2 có phải là 市 không
+                    const isCity = selectedItem['full-ja'].endsWith('市');
+
+                    if (isCity) {
+                        // Nếu là 市, lấy luôn các 区 (level 4) trực thuộc city đó
+                        // Một số file ghi 区 ở level 3, một số ở level 4 -> lọc cả hai
+                        children = allData.filter(item => 
+                            (item.level === '3' || item.level === '4') &&
+                            (item.psub === selectedCode || item.muni === selectedCode)
+                        );
+                    } else {
+                        // Nếu là tỉnh thường hoặc 郡, lấy các mục cấp 3 thông thường
+                        children = allData.filter(item =>
+                            item.level === '3' &&
+                            (item.psub === selectedCode || item.county === selectedCode || item.subpref === selectedCode)
+                        );
+                    }
+                } 
+                else if (level === 3) {
+                    // Lấy tất cả các đơn vị Cấp 4 (quận/phường) là con của mục đã chọn
+                    children = allData.filter(item => item.level === '4' && item.muni === selectedCode);
+                }
+
+                if (children.length > 0) {
+                    populateDropdown(dropdowns[`level${level + 1}`], children);
+                }
+            }
+
+            function resetDropdown(levelId) {
+                const selectElement = dropdowns[levelId];
+                if (selectElement) {
+                    selectElement.innerHTML = '';
+                    selectElement.disabled = true;
+                    selectElement.parentElement.parentElement.classList.add('hidden');
+                }
+            }
+            
+            function resetDetails() {
+                detailsDiv.innerHTML = `<p class="font-semibold">Vui lòng chọn một đơn vị hành chính để xem thông tin chi tiết.</p>`;
+                detailsDiv.classList.remove('opacity-0');
+            }
+            
+            function displayDetails(item) {
+                detailsDiv.classList.add('opacity-0');
+                if (!item) {
+                    resetDetails();
+                    return;
+                }
+                
+                const detailsHtml = `
+                    <h3 class="text-xl font-bold mb-3">${item['full-ja']} (${item['full-en']})</h3>
+                    <div class="grid grid-cols-2 sm:grid-cols-3 gap-2 text-sm">
+                        <p><strong class="font-semibold">Mã:</strong> ${item.code}</p>
+                        <p><strong class="font-semibold">Cấp độ:</strong> ${item.level}</p>
+                        <p><strong class="font-semibold">Loại:</strong> ${item.type}</p>
+                        <p><strong class="font-semibold">Hiragana:</strong> ${item['full-ja-hira']}</p>
+                        <p><strong class="font-semibold">Tên rút gọn:</strong> ${item['base-ja']}</p>
+                        <p><strong class="font-semibold">Mã tỉnh:</strong> ${item.pref}</p>
+                    </div>
+                `;
+                
+                setTimeout(() => {
+                    detailsDiv.innerHTML = detailsHtml;
+                    detailsDiv.classList.remove('opacity-0');
+                }, 150);
+            }
+
+            loadAndParseData();
+        });
+    </script>
+</body>
+</html>
+
