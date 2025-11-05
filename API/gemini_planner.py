@@ -10,19 +10,17 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 # --- Load API key (Chỉ chạy 1 lần khi module được import) ---
 try:
-    load_dotenv()
-    api_key = os.environ.get("GEMINI_API_KEY")
-    if not api_key:
-        logging.warning("GEMINI_API_KEY không tìm thấy trong .env. Đang thử biến môi trường...")
-        api_key = os.environ.get("GEMINI_API_KEY")
+    # load_dotenv() # <-- Bạn có thể comment (thêm dấu #) hoặc xóa dòng này
     
-    if api_key:
+    # Gán key trực tiếp
+    api_key = "AIzaSyDY_7Ivm9O6m2vfrTFGTqjWf9VzmZjc6W4" # <--- THAY THẾ BẰNG DÒNG NÀY
+    
+    if api_key: # Vẫn giữ lại để kiểm tra xem key có bị rỗng hay không
         genai.configure(api_key=api_key)
-        logging.info("Đã cấu hình Gemini API Key.")
+        logging.info("Đã cấu hình Gemini API Key (từ code trực tiếp).")
     else:
-        logging.error("Không thể tìm thấy GEMINI_API_KEY. Vui lòng kiểm tra file .env hoặc biến môi trường.")
-        # Bạn có thể muốn raise Exception ở đây nếu API key là bắt buộc
-        # raise ValueError("Không tìm thấy GEMINI_API_KEY")
+        logging.error("Không thể tìm thấy GEMINI_API_KEY. Vui lòng kiểm tra code.")
+        # ...
 
 except Exception as e:
     logging.error(f"Lỗi khi cấu hình .env hoặc Gemini: {e}")
@@ -163,7 +161,7 @@ Cấu trúc JSON:
     # --- 4. GỌI MODEL ---
     try:
         model = genai.GenerativeModel(
-            model_name="gemini-1.5-flash", # Nâng cấp lên 1.5-flash cho nhanh và tốt
+            model_name="gemini-2.0-flash", # Nâng cấp lên 1.5-flash cho nhanh và tốt
             generation_config=generation_config
         )
 

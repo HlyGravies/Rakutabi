@@ -1,0 +1,42 @@
+[
+    {
+        "place_id": "ChIJN5X_p83nAGARqNAvKzI3ENI",
+        "location": {
+            "lat": 34.6937378,
+            "lng": 135.5021651
+        },
+        "types": [
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "rating": 4.5,
+        "user_ratings_total": 5000,
+        "name": "Ichiran Ramen Umeda",
+        "photo_references": [
+            "ref1_ABC",
+            "ref2_XYZ"
+        ]
+    },
+    {
+        "place_id": "ChIJexdJkNDnAGAR_P9Vn1hGkPY",
+        "location": {
+            "lat": 34.685361,
+            "lng": 135.526225
+        },
+        "types": [
+            "park",
+            "tourist_attraction",
+            "point_of_interest",
+            "establishment"
+        ],
+        "rating": 4.4,
+        "user_ratings_total": 12000,
+        "name": "Osaka Castle Park",
+        "photo_references": [
+            "ref3_123",
+            "ref4_456"
+        ]
+    }
+]

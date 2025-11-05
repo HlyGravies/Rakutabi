@@ -98,7 +98,7 @@
         let lightboxClose;
 
         // --- 2. TẢI DỮ LIỆU TỪ FILE JSON ---
-        const jsonFilePath = "../json/GeminiAPIResponse/MinimalSearch_pref_ramen_pref_park_pref_museum_art_20251028_143155_geminiAPI.json";
+        const jsonFilePath = "../json/GeminiAPIResponse/MinimalSearch_pref_cafe_pref_sento_pref_bookstore_20251105_151058_geminiAPI.json";
 
         fetch(jsonFilePath)
             .then(response => {
@@ -174,13 +174,24 @@
         }
 
         // --- 3.5. HÀM TẠO GALLERY (Thiết kế lại với Tailwind) ---
+        // --- 3.5. HÀM TẠO GALLERY (ĐÃ SỬA LỖI) ---
         function createPhotoGallery(references) {
-            if (!references) return ''; 
+            // "references" BÂY GIỜ LÀ MỘT MẢNG (ARRAY), không phải string
 
-            const refArray = references.split(',').slice(0, 5); // Giới hạn 5 ảnh
+            // 1. Kiểm tra xem nó có phải là mảng hợp lệ không
+            if (!Array.isArray(references) || references.length === 0) {
+                return ''; // Trả về rỗng nếu không có ảnh hoặc không phải mảng
+            }
+
+            // 2. Nó đã là một mảng, KHÔNG CẦN DÙNG .split() nữa.
+            //    Chỉ cần .slice() để lấy 5 ảnh đầu tiên.
+            const refArray = references.slice(0, 5); 
+            
             let galleryHTML = '<div class="photo-gallery mt-4 flex flex-wrap gap-2">';
             
+            // 3. Vòng lặp
             refArray.forEach(ref => {
+                // "ref" bây giờ là một string (ví dụ: "ảnh_ref_1")
                 if (ref) { 
                     const thumbnailUrl = `https://maps.googleapis.com/maps/api/place/photo?maxwidth=200&photoreference=${ref}&key=${API_KEY}`;
                     galleryHTML += `

@@ -1,0 +1,72 @@
+{
+    "plan_title": "渋谷満喫ミニトリップ：グルメとアートを巡る",
+    "theme": "グルメ、アート、カフェ",
+    "estimated_duration_hours": 4.5,
+    "waypoints": [
+        {
+            "order": 1,
+            "name": "セルリアンタワー東急ホテル",
+            "activity": "ランチ",
+            "location": {
+                "lat": 35.6564093,
+                "lng": 139.6993541
+            },
+            "info": "美味しいランチを楽しみます。特に和食レストランの釜炊きご飯は絶品です。渋谷の景色を眺めながら優雅な時間を過ごせます。",
+            "distance_text": "0 m",
+            "duration_text": "1 分",
+            "transport_mode": "徒歩",
+            "photo_references": [
+                "AWn5SU7D2VI_LDfrzJqkhV3Oo1GdLdvDvvw7JVVcEYQxAZ9NWiD4T-wfiw46hJO8hk6QvwB0rEMCJEr8DfBgeLK_MtIzqSGYX3c5Yf0t6pVZrtNSdMu-GpoSB7yu8y65BNZJdm75EJr-D7hcEFXzGiEoXaiVlVVYOPtqTLhGyPql2TnkFudL-ibYYtmgYEhSk3w3vHmEbWZNLbbuxBa5oOC50nNjWyE81cClJfS8uCLKd5mooRYr-xTAH9jFPb4-VDvR4aSYHMvNSg6F9xv9n-Pl89QWwNC-9e4-CVILbm1Dqt79UQ",
+                "AWn5SU6aY58VsQxvY8D8rbWPGqe77tCFqNyOe6187Y9dAKldb6N_GOZJDY4JRFV2qD1iYNikgWUKDuah01scvCxxQWGu1tzyWnHAZPT-iPTMiVuMW8SPAKCzPpxgAUbSxcWNJ3OU66OxTg-bEe2QtEVvdlr55qkEBdntsYKVt3bSxVCndlrKKhSlJVUM2gBta1TsT2FcR_VpbjerZitB89kDu2YgjtBANkrOGdLoblDsCRdO_9qF82Usm5Y02aXWtdNsbQM8FEmiHL4TcZSvp7sZvG1Dbe9N-5BMuOwQ_A8hhTxDwg",
+                "AWn5SU5DpL3raauUaDY7wVH_orVyU7C1t7bAGDqmqzLasLIrHUFpyXYIRHsH_RJj5OKr9CQYUoHMbyxv93fA_FDek6KyeNNHpemCHSCTAa0-ztofTd7A9v-6XYjABppArCtll7PuGoPfDRhOAqd2b3fdrxnne8Wp6ORqqPO9loJq984fE3z44sWedRU67AWhR9edfVG-TbGJHeRr5wYcIR54W8UfwPqJaSOftxSy8bs0_7Etf7x-p2rcNqVSuyFlxwzOKg-R0_JlpHhz6wgZm2cYWJGs6uHN26OjslQqw4hDDSC8ew",
+                "AWn5SU5-A5jMCgRyp__weyCs5ZM_NlfSZU_nsHQg9lAt3T7c0pBxY2Scff5FZDe64RL2YuZclm587RVJm_sz2vGy854bQ8aqd4tprsx7wTTiGeOg9jo44IzyPE-RACYrlfTvOzFP9sHwzPSY0Jyhp1QMWw4gckrsPhmICsAS6iB7Av25R8BiXqPRRh6zdg0eJpX0IuDzgyUBjurFPLGbJcdUGnJesCKuDPP_8JPM7j6yUWiG-_lP34JpexRp-AIMqjuwcknPV350LS2Soy5YtC0pcY1dWMxI64wIWkxQZ_5b1Y1qbQ",
+                "AWn5SU4aCwOzwL20J4d9udUU0bCVWluEqp9-vZx3S6FZIy_qfsjMYEy_MiMKk2Y0CRe0zqLsPi6vrHzc35BUZnH5joAJljy4x0_-64i_k9r0hJJ5zKwvQXsEKFHEHntZKF2KgeSK24WXLvM0VjiQv3azP21In4LICdtDDN9qnP4TtN1uF_AcVBeJKzAh6y1nAfhhxCVX-e0JdkLcc6visXMhOp_pt6lFD9XoFhjt2euVSrG9aDPeZcrRoW_QFw8z1BAY1QAHaBKpRd9eRnCLkMo53p-zgeLNjYvn2jLFbiWD_i9fn9A2MQyOa3YiQ4WFcxc2kLwal2sWfioqe0w4R3322w0LrxYigY0VK_Qm9IOk358zBhtSLydY4igOJO0yPxYQrFspZ_Nke-WIeB9wOGmoiAHltDYVKD6gtkQ3QQ",
+                "AWn5SU5deySTD6VjmxI-QtwPtCTXeLrNYJvmZjWxLXeTijlbZo2SCkadFsgw5uLivdieIHWr8DOBrOg32KZeunU9DR8nfFXtm3yjeX_1bZKGbjiyeYBQ4I5N5R2OMX6Ue3b4a9Qa1XY61EGdv_N8guFH9A5FlBX6kQAT9GzG2xpW2jJZ1vUcAdLzy3jSu2IZQrjJCSKBZg5Dyn760Mhy6Zt8K0T9MiWAxdzdamYgU83u7wv9VpQ1uc_1fqf-swGox1FeWrgiZm5WlRqIdGOe_zx7-Go2p3xYaRlHsYp3ymIEUuexkA",
+                "AWn5SU5Q8OYlRQsoyVvu0amONd9Lu9koP-MjHp3IdRCJpMYoHa7Tu0DSh0cwxq2_CNUnvbWJklKzEpgkhRr-WxhvohWurH9C14PJHDAkRbVilwJT_97Y5zqOG9_WkguYhQhr96l1FJnIZUNL7jjpeg8rGUlJCftneU6Fs3zb6Uua7sYvsiIkUidyaBEyJU91MYJh4ebjTcpGa6C-47V5GL2_2SXwaVSowc6he6bQnt-JKf6sFQl2PYvg-dJg_B6UAQzO2b_kWYWjCL_jCR-5hDPjgXpsXgWCM6Z_7kA3COzjq4OJJQ",
+                "AWn5SU6ogfCNtHs9ahOmZ4VkJAjCGwAF7Z-SE4e5Vh7N_po3nYtWX1R1IH8IBic6RuuinZReHdJ4vesz-IuuSaZ9F5VcNLygH0Bubjn0v2_jCBeFJxptJu1F6CK3nSW9bYSxxCi_ODtsWzzP9IGpYpSNY_YDP-6bdM9XQS1BKuninFuJZtSCet0GYTBIGDfxPZ_JNqQ8sspn_4ZVPyX0sraZdbcmBNdqV3ga5795kkG3DOn_h2olPL-nZMdh9vaW-1xvkp2BwZ7P6P32pJkVPdzlfo2-sa5abqM4NCnlDDCpAjUNqg",
+                "AWn5SU5qI4XZ33UMqYQqP75qnAttBz1M1XzYeRMGRuYS3jekyoY0p8iZSSJG6AMz1IkzmYfBNNSdybWCBMOpH9JK8QQOyHFkg4dbCQ_ZUTlnCuPi0UwmtTTHl46wJpBdALXkAPYio3DxzTvEp8AET3S19LZoBonOvGVPRH-1S9m_SgtD3odqAzmr_pjFUfoBRkNSs5aWmMuINnIdckHzmRBVjpwuiS7kQBwJtMwxC3cTaJAkkVQLYmHowX_Ue3OYYx_B0TLw3jLxDDByNX2SKseJgCzmA7FiBVku_lqsAkMXbzjY_w",
+                "AWn5SU5EMt9IJRQggsHnkbVvFomvQaY7WZK1cUEngdnkKyMSc1urgsqXBfFsajzzmdvPKm5NnDJtqedTqfgD-zS2Ty4lQarGwkKEfUyMjLT1WX9AXEiz7yPzu_kxAPoRfh7O2qj05LDN7eNly90fb0rltXwT8bnTeR9Ro7jg_EyHtPU8mJL5k63-ogcOWKi7rP9crJD5v8N2-a3FoMFjpL7gM2_UwbYsJhxCPHNghpQiM9xx-7nC800IzEy9ULp8F8IJvtnlG3Ed28TgfCZQ1slVsoSrY8PkGZ_wXILgg02PQ1wztw"
+            ]
+        },
+        {
+            "order": 2,
+            "name": "Bunkamura",
+            "activity": "アート鑑賞",
+            "location": {
+                "lat": 35.6609334,
+                "lng": 139.6987428
+            },
+            "info": "セルリアンタワーから徒歩でBunkamuraへ移動（約10分）。展覧会を鑑賞し、アートに触れる時間。",
+            "distance_text": "300 m",
+            "duration_text": "4 分",
+            "transport_mode": "徒歩",
+            "photo_references": []
+        },
+        {
+            "order": 3,
+            "name": "スターバックスコーヒー 新宿エルタワー店",
+            "activity": "カフェ",
+            "location": {
+                "lat": 35.6922806,
+                "lng": 139.6974213
+            },
+            "info": "Bunkamuraから電車で新宿へ（約20分）。新宿エルタワー店で休憩。窓からの景色を楽しみながら、コーヒーを味わいます。",
+            "distance_text": "3.8 km",
+            "duration_text": "15 分",
+            "transport_mode": "電車",
+            "photo_references": [
+                "AWn5SU6KmHu0qGxVPGhocuaTW3u4qc9rnkQvtnIZ9ocqAZbqw7scsYOJo6ETkl2ADwg0OVJIbQtOneO1i20afo9F-kKD8oMk0tWiUCrDr-sANEwpQKn-UPR8cSayvASp0yRlrn3x35O2-1-pOWeLAy5VN4WxYWI8IsT3N-cMtSftOnBenDZsri_tcfRz9xtkh4KEZwTXsUkE6OF8EFmzQqiKS-NYYtg8UMihmkutxFIECoKUyFBDcDS0589h5QtBdz1BYHVJl8aJQQ9nrs24sWPtIVr8R8lBTON7HYz8dcgRh3DPIpL8I-LqD_vf4x-HDSXJO8F8FwGWPF3Cmc3K8EJmOHCkzzC2AMsAXonxK0SMTYw8V3ULkcs0SyDcHeNOIwsxxFwQwKO1xVioFbXGXVTV4tMZbcEUyWUjayUnv-_3jbxKY_j4",
+                "AWn5SU6_v4AnHPhy5VGi_D9Q3N0zpDkfzvrPPCxZzDMqoHVmn9j2Sr0REo8v8zAZaIAqkN1wQDmuCuQ5q61VZ5SxTV_19CBji7rBCEMqQXOUtwgjxw0CYY14QEaMwGwk8iJyrLtycALmM0B5gqp8gB0dNmAS_pYdNf3s9Jn2n0KBbfiOUFvL5aXHEplAwYeyn0AHzrD1mfsGYAYakWgsOWiiaGkX7ARlYrfhoyIxqjy2aD2Jeiz69IL_bvM489dLu06iw7Mw-rMZ0-UxAfS36rXoIK91QQ66F3FkzAwn0QGdmf9WZJz4R9gNr1gEUW7sAzeptz2JURAvQUaF7E-kM6CszwTv9eS8nNhTBqzOlgn1Wggq-5OCrIlwC5fXpuU_-yiid4dQcRh_Ol85boXiuahwuY40Si0AALQPUE-zkbWWLpNEOA",
+                "AWn5SU5f0iSeTKaPflOajlYop-gxCbEFZJlYL10dHK7Mlz9XBYh4ie5Cb-PDN2AwbniJVQvdgd87DQ1IHQELkFzBmA9ZCTstW6kxDnR1sI1zGUt4K4jy1k63UZHHwonatoaClKs7DaDihUOxrUMZ3zigW2IRx9C6TNphKDVJIXAOgr8Z3Iroj9pa9bNw2-NOOpNQpXz/xES8pK8cJBmdRy6FER9lXo-VrWUQG67H1KVDADiyOcTTTbC_eLcEhrR-VQgxDAcHSlmsb_FImBFL7f0JywTq7woFZQxSuIdK-zpLAIXhoXzFY9SiNH5_kKZiKpDzY64pVi-y8IVGh7jEbpGmuFcZ7VSH_yXzCLoSPqH65fnGb1THhNRPlrVivMwxWS6sa3eRx69Pkg9LqL76BvLkf-Bn5YkuHg3JiAFScv1IhxK9dKg",
+                "AWn5SU4CiQOFO97vHcqk9b2OkOyrrr9ktGDreF_asHQcybsn_NsObZIWDCTPvE_9isNWeuUUHW9JwQ10DbYHPb5DKEcoF9QXCxqOf3ZS9V3fKP_bOSZ4HfK_zcgpexO6b1D8A5AdtqmXS8_6SZihY2P5Ge6rd0j1hs1OoC-KEmsUgeb39qnnQRXAJxEmFfRmXv4pObuF9BjpQ3IhkUHVFQVqf38d6_IL2KOVKwe1kKdvp_gVuay5YVv4pvfVgWOtccHf_02WTqr9geZXAEZ_k5KeyDNYEehIrJBLpwfStkWwsKbRl5kiyTekD0_PeNgFHbWdKOqB8jLHTYz_Y8KKk1mTrXn3Yty8qW7qs24QtBcUtetf9gITOkiI4uYLJdIrHQJ_IJhdeakEbeIEtIIWTi7qVgViZhtyDUPmwvsvloT5LPGTgw",
+                "AWn5SU4w_OQwu2zIsozki8Dnml68VZok4NYzIhSPY2v88Qsim7V9YBwAlabbQGLcQcGXhH0zlKARYFiclgWxEJSoNg07chCFXRKRFmqKxdcOsgl29GsZznbEoEoXFVCbr6ogFY4fjoKyiOYlxTM2jeohTCNuQMpYITK7m1X2TioNK7PLy/Hsu7kUfY7zBa6EaeKHK7I_YIKsqwTUGzbhwY45CEtc744npdzzPffC7lFz5Wdy6Kusja_Y_IrEUlTfEdrdP6kQX2D9TOBJLiphyVAVL2ETLvPqaLqKmrG-EQKr36AxVhtbQJfGjyU1ZOvi88hHeOPLALo6v5W1pd0V4YdzwYZK2SSKUzCVVbZBsl8k_YfzvZPUelsAzP9yN5Dj8y22lvVzlXbggd8BBOZf4Ix9_RRwaMH2q0ilb6OIfuKadw-CjA",
+                "AWn5SU5ebrgNT7BBbS8Aoy9Qg7ipEXHyvyq4kMMQQg9u-C5DpqWVRXk1wyxRNRbXH9xLrAeytArxky4NGKQ5qqGzM11VnOEwiec0drCbUMBX-mfJItug2zq267QKLqOOpxyb9DoZHMqgdan25EuvK5pCDv28uGwpFUZ9NoIUlVSD3bCwOD4KjCoZJj6yqbQMq_Xo7tvzrXobEeTsfCZsNtIB6dX6TUOoecyzOrIShnjEt9VybC7r2ippyz-2MIhLpTgDe4I-hI6KnA0x6uJAMBYjYqYWTUQvsb4jiJ-I_PcvlcSCnev-Y0vgcmhHNIgl3rKJU-08SASYjW1wtVT1ks9MQQinLdRSkW3NyJFRW5F-KyfTV5J-sstxPTsXzTbhiMa2xYmSJ_KZyezdwHHkfTUWXWwObER3kkO5-NyGc91D1UwekxkN",
+                "AWn5SU5JJTqwSaJ7Aclr2VGAaPrFB0fvPcptIlczkZ740KV8sr2ojmn5WgJ7f85Y0KGAYU7vH2bjDAkwB81eGpVtbw_5IwjLEQDQSotn6LqOrGpGi7WiE-q0S4TyVrhJKDxT9p3iIIVldBis79svoA-9D__fS5WwFX9PgVUvA2468-QEoZCd580RBEhy1oQtPUqMqt1up-S9eSR7aVFeamBn13sc63xwFhC41CvOTqMwIMEtn0PVOeVNkUlF0jquFUNpvAIqM6g34zyvEpdiGgMHxEDo7jnjvrV7Y2_PcfU5zb0PIus62pVEhmyHwhA61AX_YSGUl_rYGArq8txjyDp9Rbz29tBjiGuYTJcKY9alo6YCTyjzBGT3dPNF1ECEEkkDNjuoWSYe65ggG-Oa2kYwO2-58cNCNmpQ7w4df2Y_YVM",
+                "AWn5SU5jtC16Y40p4YGakumhMUQGnUju4domDxwDchTbVz4ouNgUoLtYc7uHBfbg0fwbTAve9kR5qOQiRLOGKgUUbuHwYRs78sUMcV3TxgSrBagJeEAezQ_n2I6NNEsb1R6yP9H7zvHC4sPg_UjVdJkpcoFycESQob0ZMIf62tk2zTXLDcr19nbaYRDeRw96OKsX8SVnI-SwAb1REkz6gZ8vZLeIzC9wS31YZICaSuPWbHS_qrRw7x759_Vn5Zer9vIrcB1dSFEQhG5VZQYB11y692sm5gA-0S9zudyNTDjUPUAS7dtwocNXSrAscNVt6sgQ5MtDgo1PpiA4pNMM5J1fP98Ewy5rRuJvp6_o9yWxOtIt3fQNy_vNMnZO-R2K6UECKN640pXz9smgc0MtN9YNz7lMsJzoRc_5ZU3_28DyR2ETYbY",
+                "AWn5SU5W8rgzOL6opB31V1Xzw7_OCklWV1uO5kcsd2UgbPjV71AKpUs_4MubeJonrUEaR-j_DxlotkH0Ua09CXC5CQGM0K28cWl03dmZGtkgHDscNDCollXbKK333fGQGBWwKIb6GLvt-QwT-eaEa5wGaLktsamQe4Q3udLrP4IYDSO7A9521yLncHLWAs3cDVhqsrO9b8Zyt6d5qfkeG7qK-4WUs_r9WZjY7j1M5FVBv1-ttdebDF1u7iN64NPLFib7pAXFVcoYi5H8LMjAd1LncqzJptYht2zdP4zoVJr10H8BhJxjL2U50EZD1SsEtEoRyQKNbwOKCyrSLv35ISlMl393IWUal5hR5itZs056xczYOmv_TFYBh9U9DYDgvghmleC9BD8j083cez39F2NIAtVD9OODftzDfJK1IQAgdi6QXg",
+                "AWn5SU5ROd0gTmIRUs1JT21UUrmnf84zZOSFZw1RUyr6wtf_Op3fpVpkfByP93-flpeSVBSDeTQBxlOgftfhqEFmP-5jishWzpT6JAmkz7sH3PJtr-1-mCnLB5k-CjDccEw3BrbY1_d2CG6lNcXj85GAWtS7wRkRB97dtC3DbrLBSmpDuY4xLZcap63GdRLiG-mngNFcFfOjKENxWhys4m0WwvRM8mDQ9dsv5lG3Ojdno0df02saI-rJLjh3_DeA_Z5sF2mxtBE26q0p0KrRA3Hy9jo9APNt_Di0fXOPBYqgWqwIJkj_0K7tMWTPRWCyuKHhpcPvOa5MvnHpeerX21E6gQxmW5b_avr7VJ2B0g3sZ8fNhLMR_RJY_0K87F9aI7dNe1EYq6RTh7bcHSEM1MfeVqHL51nVAvObYqWKjwBtJBmUcP8"
+            ]
+        }
+    ],
+    "summary": "渋谷駅周辺を巡る約4.5時間のミニトリップです。美味しいランチ、アート鑑賞、カフェでの休憩を通して、渋谷の魅力を満喫しましょう。主な移動手段は徒歩と電車です。"
+}
