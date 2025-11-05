@@ -12,7 +12,7 @@ API_KEY = "AIzaSyAmbdRFOMwNlwiUD-LEwTvvJ6Twb0JlpmU" # ⚠️ Hãy giữ bí mậ
 # 📍 Cấu hình đường dẫn lưu file:
 # Tạo một thư mục 'json_output' ngay bên cạnh file .py này
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-OUTPUT_DIR = os.path.join(BASE_DIR, "../json/GeminiAPIResponse")
+OUTPUT_DIR = os.path.join(BASE_DIR, "../json/GoogleMapAPIResponse")
 
 # ⚠️ BƯỚC 1: CẬP NHẬT DANH SÁCH FIELDS
 PLACE_DETAILS_FIELDS = [
