@@ -338,7 +338,6 @@ def find_and_enrich_places(selected_ids, location, radius, fields_to_request_str
     
     return final_merged_list, logic_filters
 
-# 🌟 HÀM MỚI ĐỂ GỌI TỪ BÊN NGOÀI 🌟
 def run_search_and_save(user_choices, user_location, user_radius):
     """
     Hàm chính để chạy toàn bộ quy trình: tìm kiếm, làm giàu dữ liệu, lọc và lưu file.
@@ -362,51 +361,75 @@ def run_search_and_save(user_choices, user_location, user_radius):
     
     # --- BƯỚC 2: LỌC KẾT QUẢ CUỐI CÙNG ---
     
-    print(f"Đang lọc {len(full_data_places)} kết quả để chỉ giữ lại các trường mong muốn...")
+    # === THAY ĐỔI CHÍNH BẮT ĐẦU TỪ ĐÂY ===
+    
+    # Định nghĩa mức rating tối thiểu bạn muốn
+    MINIMUM_RATING = 3.0 
+    
+    print(f"Đang lọc {len(full_data_places)} kết quả (chỉ giữ lại địa điểm có rating > {MINIMUM_RATING})...")
     minimal_results_list = []
     
     if full_data_places:
         for place in full_data_places:
-            minimal_place = {}
-
-            minimal_place['place_id'] = place.get('place_id')
-
-            if 'geometry' in place and 'location' in place['geometry']:
-                minimal_place['location'] = place['geometry']['location']
-
-            minimal_place['types'] = place.get('types', [])
-            minimal_place['rating'] = place.get('rating')
-            minimal_place['user_ratings_total'] = place.get('user_ratings_total')
-            minimal_place['price_level'] = place.get('price_level')
-
-            if 'opening_hours' in place and 'weekday_text' in place['opening_hours']:
-                minimal_place['weekday_text'] = place['opening_hours']['weekday_text']
-
-            if 'photos' in place and place['photos']:
-                minimal_place['photo_references'] = [
-                    photo.get('photo_reference') for photo in place['photos'] 
-                    if photo.get('photo_reference')
-                ]
-
-            if 'reviews' in place and place['reviews']:
-                minimal_place['review_texts'] = [
-                    review.get('text') for review in place['reviews'] 
-                    if review.get('text')
-                ]
             
-            minimal_results_list.append(minimal_place)
+            # Lấy rating của địa điểm
+            rating = place.get('rating')
+            
+            # BỘ LỌC:
+            # 1. Rating không được None
+            # 2. Rating phải là số (int hoặc float)
+            # 3. Rating phải lớn hơn MINIMUM_RATING
+            if rating is not None and isinstance(rating, (int, float)) and rating > MINIMUM_RATING:
+                
+                # Nếu qua được bộ lọc, mới "sơ chế" và thêm vào danh sách
+                minimal_place = {}
+
+                minimal_place['place_id'] = place.get('place_id')
+
+                if 'geometry' in place and 'location' in place['geometry']:
+                    minimal_place['location'] = place['geometry']['location']
+
+                minimal_place['types'] = place.get('types', [])
+                minimal_place['rating'] = place.get('rating') # Giữ lại rating để kiểm tra
+                minimal_place['user_ratings_total'] = place.get('user_ratings_total')
+                minimal_place['price_level'] = place.get('price_level')
+
+                if 'opening_hours' in place and 'weekday_text' in place['opening_hours']:
+                    minimal_place['weekday_text'] = place['opening_hours']['weekday_text']
+
+                if 'photos' in place and place['photos']:
+                    minimal_place['photo_references'] = [
+                        photo.get('photo_reference') for photo in place['photos'] 
+                        if photo.get('photo_reference')
+                    ]
+
+                if 'reviews' in place and place['reviews']:
+                    minimal_place['review_texts'] = [
+                        review.get('text') for review in place['reviews'] 
+                        if review.get('text')
+                    ]
+                
+                minimal_results_list.append(minimal_place)
+            
+            # else: (Nếu rating < 4.0 hoặc không có, địa điểm sẽ bị bỏ qua)
+            #   pass
+
+    # === KẾT THÚC THAY ĐỔI ===
     
     # --- PHẦN LƯU FILE ---
     if minimal_results_list:
         now = datetime.datetime.now()
         timestamp = now.strftime("%Y%m%d_%H%M%S")
         safe_prefs = "_".join(user_choices)
-        FILENAME = f"MinimalSearch_{safe_prefs}_{timestamp}.json"
+        
+        # Thêm ghi chú vào tên file để bạn biết nó đã được lọc
+        FILENAME = f"MinimalSearch_RatingGT{MINIMUM_RATING}_{safe_prefs}_{timestamp}.json"
         
         # Sử dụng OUTPUT_DIR đã định nghĩa ở trên
         OUTPUT_FILENAME = os.path.join(OUTPUT_DIR, FILENAME) 
 
-        print(f"\nĐang lưu {len(minimal_results_list)} kết quả (đã lọc) vào: {OUTPUT_FILENAME}...")
+        print(f"\nTìm thấy {len(minimal_results_list)} địa điểm phù hợp (rating > {MINIMUM_RATING}).")
+        print(f"Đang lưu vào: {OUTPUT_FILENAME}...")
         
         try:
             os.makedirs(OUTPUT_DIR, exist_ok=True) # Tự động tạo thư mục nếu chưa có
@@ -422,7 +445,7 @@ def run_search_and_save(user_choices, user_location, user_radius):
             return None # Trả về None nếu lưu lỗi
             
     else:
-        print("\nKhông có kết quả nào để lưu.")
+        print(f"\nKhông có kết quả nào (với rating > {MINIMUM_RATING}) để lưu.")
         return None # Trả về None nếu không có kết quả
 
 
@@ -436,7 +459,7 @@ if __name__ == "__main__":
     DEFAULT_RADIUS = 30000                     # Bán kính hardcode cũ
     DEFAULT_CHOICES = ['pref_ramen', 'pref_park', 'pref_museum_art']
     
-    # Gọi hàm chính
+    # Gọi hàm chính (đã được cập nhật)
     saved_file_path = run_search_and_save(
         DEFAULT_CHOICES, 
         DEFAULT_LOCATION, 

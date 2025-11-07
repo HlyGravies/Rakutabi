@@ -17,12 +17,12 @@ logging.info("--- BẮT ĐẦU CHƯƠG TRÌNH CHÍNH (main_runner.py) ---")
 # --- 1. CẤU HÌNH ĐẦU VÀO CỦA BẠN ---
 
 # Định nghĩa vị trí dưới dạng dictionary (để dùng cho Gemini)
-NEW_USER_LOCATION_DICT = {"lat": 35.689487, "lng": 139.691711} # Ví dụ: Ga Tokyo
+NEW_USER_LOCATION_DICT = {"lat": 21.0278, "lng": 105.8342}
 
 # Tự động tạo chuỗi string (để dùng cho Google Maps API)
 NEW_USER_LOCATION_STRING = f"{NEW_USER_LOCATION_DICT['lat']},{NEW_USER_LOCATION_DICT['lng']}"
 
-NEW_USER_RADIUS = 10000                      # Bán kính 10km
+NEW_USER_RADIUS = 5000                      # Bán kính 10km
 USER_PREFERENCES = ['pref_cafe', 'pref_sento', 'pref_bookstore']
 
 # Biến thời gian MỚI mà bạn yêu cầu

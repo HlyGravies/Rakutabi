@@ -1,0 +1,313 @@
+[
+    {
+        "plan_title": "Hành trình Văn hóa & Cà phê Hà Nội",
+        "theme": "Khám phá ẩm thực, văn hóa đọc và cà phê truyền thống",
+        "estimated_duration_hours": 4.4,
+        "waypoints": [
+            {
+                "place_id": "ChIJjYqdcZarNTERacQiFGpjQ2E",
+                "order": 1,
+                "name": "Nhà hàng Ẩm thực Đường Phố",
+                "activity": "Bữa trưa với các món ăn đường phố truyền thống của Hà Nội trong không gian hiện đại và sôi động.",
+                "location": {
+                    "lat": 21.0290414,
+                    "lng": 105.8460013
+                },
+                "info": "このレストランでは、モダンな雰囲気の中で伝統的なハノイのストリートフードを楽しめます。",
+                "distance_text": "1.3 km",
+                "duration_text": "4 分",
+                "transport_mode": "タクシー",
+                "photo_references": [
+                    "AWn5SU4LcuL37my4N6tog6T5HOOum-bL9bd93QqOE-xD2XKTndneY2mrHsE8AawwWbMqqsvPjVLL8XdEg-SNx6a93iTRCiNOyrzUej5KxF1G5MQHa5k_DuuAGsDoJnhMdbgXMZN4z__m03OCRSahii6z5xrmIRMt8mBGqIeWvHO1_oF1X9ENDkK02KXXuh9Uy3RyoHM6ilBOIBN2zuyuPkTU5wdJ1y9xErDE1cwJC6QNIfCdS931QgHSsMG4Sob4XReF4CYA6WhUBnuEUP5o1nih5A7bvIcVRESBt4x40OO_ghUJHg",
+                    "AWn5SU7An31voy90EGQCvam1dbI-4zo8Ik6v5uHHWNWT2pPQ6ZN-ZPM8ScrggRoj9t8Ib4UV4tRCZb87qVF0H7NbZ3kRWz_rKD5m4fYZdKvyZmtEV5u58dRL2tmKY4kqJ-gymtNILU04PFceSfLFS1ay0qc6NnhZo198Cadr67UbWSxs8GF1T1_8n1K_MheENyDIbe1TAVChJeLYZJm0cyMk8O3tRxjfqiqukYDXXsC6gOoIhdU8Qo93mBVbguNCXK2q701J_yWzul9dXjsK29dk0H9BIDBAZgohR2gG2_V5LVfApA",
+                    "AWn5SU6a5-KtH2-a1tk9GtvERqlDgvmHgh3u0mYS8YIc84hoh2xcSfdMZL6jrOKIXxQeoIOxQoftp7pANvXrZDOOvVN98W_QMsn8QEsBPRFSXz3DxLyZp9W772M2evqpOBaV3m8qcecqsOH-J57jrGfdr_dD8rajMT2_kbGYwmpigD4WBi2FeVDnB6XGGfzo--DFD4mqdlkd4byWqb-DX1wOhGg-GS3nI-F9SCns02XAGclC9rztM7yBxFKVhrEVHzX_iRtsWL6fWSrCpHBqhZpWB2vSkIxbSHicVRV5yZQ_oK_rV3vj_Sjg4N-jDRroIP28PLgKuyLfumUZjvX2tfsfmGp8WW9y9DTTq8eNp_YrMIXeAdsRsiwJqW6Zy9E5wEvEoHoX11O5IChOQRBJeKqGryVcQwaPbe0nqjXaUEyQhhnlzdjj48RPQTKlUZ7kIHMS",
+                    "AWn5SU7DhF4uPhkL2mP9Lvur4MmQdudt9DbdLXh8Wi5acKRDFWs0rgC5ZdPZxiot5QVuFbNYSSduXmtoYK0PUJqEbS2rDjrZiqIk2Dxu6g6CMGl60VEVcMDnD8JliwNhXVft16i7sQNJ6MFfBG7fcLDnHBjWwDxyIreRozzXrL6ITxWH1vc6kbhTiQObWdhdSzwCdkQtPdZnwaJoabnKRpX2OOlZR1jRCV5AY50WHB9-uGMRmSZE5vXzFXZ_68kP8i-p_i1LufJVQhOq_r7lNg2QGSmxOwNe-pLnw67VyOpwJd7rog",
+                    "AWn5SU5cubqssKF-5R_kGWMwlZObZZMCncINj8WOuOwN4XpHCsy7HCBJLTi_YfsKU0K_6mo5yAVerzflyRtBvPhpbHnXBRIkdQ1E9OIevzf1FTsa0i2GzcB7OEue94IT_rQUK0PiL-8tNJRozCFETa5opjjWr8kN_rJguVpMhGSmkLhQfS16QBrUaTDpb9TfjUEAs3aaiRMmJCzIClPIEsKzJAt9MzsvMza09Ll2okdibEwtbZiLbidjYL_a8IRXsw2cAuue-VVjmPaVvmTT6sTf4Jjq54J3YahBdkKp7NCe3dSK99NoKRaj0btKR0qhR3ZthX4pAqia-9jnE2cj82smP20r363N54hnUGMt9_go4g1y5M4DafkiKb29s7Cp-pq8NJFHECNOC2TXquHlVq5WCuHSOhHy4C3VNv1wstY2nyCqpcTe0mRr56xLNQjfyB71",
+                    "AWn5SU50-lR88koEj3Ofq49dySdzGOlMukmf9cIzEB-EjOGIcEDY6aO-0LzwUjQGGs3bKl2KgXEzpfm9K8lXi1pwSa9ObFm4saLx7iCiGh_4_hPsxTnQ_ojc9TYEK4s4uci1SZxJxINCVG42oj2xTz0SLzhCJILlo89lRgAOy0WWpgLXmO3UyaBdtSnlEsqf9wsUyd3VbFLFZfwkmcy15MLlo30yNWWkBd9m04mL7x72ZzZBWW2z6p_gXrs2uA-M1EMB3KLwhZTW1xGzZ0kT4-3Ni9nGUjeDjBvnFM23c_xtv-yS5GTXgtL5xfeVHoawlK-3K0lLae963IrFm4rNnw0IrbbJCZpV4n1WqE6GY5FnArP9PQZ_iYM6rCaJTCFvH6TmMMTA9hPLz-iPRd5l9ZCc_bMm3zjZ9R_ZKL6MxBbGSl80EbII",
+                    "AWn5SU5JIA15tyLfA7Y2ay5_a114gU8zYMXXVM_O-yk7Py8Slbn2hGlCn4r9wbRKQMacCkf0BtPRceJYSD2sTYFlJER7ADsDe7-uhMAofxOW2CV1uA1ofGjbDFqqPwTQVBBM9qNFSN3HNGCP6OSBzMEr6mEHQSHan2pcF73iGEZb8ewkd_TTf8tfqrRltdruCbisULWHXQsVt5yZWlJUgecy1b1CtMFsGO62XTwNp4XQzGk4cbPIe7nC4KQwBcSDCtp4SJTrvbUOZnyF_o0AHcNTBjzbOMv1ELtUuFTjNdxEfBMTMj9E7pSlxHasKm4VIbRqaVGfBSu_7tYYbv84xYfZXXdHwAMmUnJMUxCsEdNqBiiMEbbEARaMXH3IYlTYiGxkXhcYayE-8Gdgcx0aiT0lGbiB1WuzeM_KUlmO10WrJKWPATwmhMK95gpxCCQC2vXx",
+                    "AWn5SU666ch4R6Ld6PdSJVdbg4POvzbPp8NM1VqjtLraDOQJ8px0VazRrPtzGnHRiFSzO_2nPOcsXrBxqmmPJt6wLGteMcO9cEshS38Os2dMI9Ma0Z09x_s51cjlxiGD9wvDiZ2JaXqeBzidJI02vv9ZIO2hHiwlS1KZnGBFNx3JyA3XTBWznusG2NhOCs7blnHwYOhK3OSZtEwGZ19gL1WwNzzIS_Xdq7I7ln9HOHYmkDp7qtZtxoxY7TFnlgg983eyuVFstOJXh6C2-VeMI5lD6QdnG-9y6uP6k4ue0V_76qpwra1Mz-YOccvJzWvdKiPLtrb5McOUvIRS8DnyzsdrB4e1nzcWv4Qn1a8ElTvyXXDH9Ua_uBAEbcAJp51QL5wUZ41WZ_hmW6uYacFFFQYzGBqjRvIT7mbMlX2wFhKzjXcmB2JxSIXn_9T7-M-oSPmT",
+                    "AWn5SU6RtvMVpdj7mu0-0x1os_SJOJUUNi7S1hGySYEPWy18dlFdLw-IYhdOZz_NlzWBS5GKDhYSpmzBq7PhXiiw7dUnP7TYx8KoiS7MOo4H_VffR4VOzZF-4Jqcv27-h8_O9aCqn5YbS1FLrYryI2-_jKFJ617zIXhWRpvtjYJM6lntRbaPgjNRtmOYO1sXdLiTNOkVW63FfeyRsM5T4h9C4GHhpY0xEMXiJ6PzWeMvMFM5V7wp_NKfLRBAmQh1H1ofg8SH0chyq2gXtiaTqLMg5rZjZBerjkWtnIENz7JN7XkXyt3fPaT8DiEv9Ptv2bYC86ekGnqPg3Z2nM7WsfH6iH7s1-sKlG48M4Y650QV5Kr6iCiReL6YOe3oMlyB3aqjdZKU0amOr11i71hTMIil053TA7-gEBVzq7Y5P3T_PpI",
+                    "AWn5SU6DxIbDrsR5KVOsUOqDhmm0dn8vEwcrVLBJvOJpKk7BQBBctOheJRzzhZYk1xKWdw2i-64wgRfYau6BZ5h44jH7DgZOp355cvMscwLEnCWoHici_-EH3t3GmBM1J4Kg1xZM26PJRxxmeByMopI9zYkRiiCbvFsJtdMyevp-dTthqQvMvdLiQhWm1OYpmsRern1mwn9f-FOBMOr7O9u_84-i2yGhowSB5USKhaQaQdAQM-XMRHpWEoaQLcPMrvEvNKQnoTx7G17rhwzKQFfqUTDLYSmCyJNY7GX7derwOxJEuqlx9Sgrq3DZC-SaTCh3dkxi-04cMV5UkcyDHjQED7jtAoM7ddJ6E8yWtgcxBdcD5FB6NH4yNs4WVQt65OwRA2HqOa8Ue7p-mllEZsryYNWW-hQ0ddGIHgMQVEQL3vKU8A"
+                ],
+                "review_texts": [
+                    "店内の雰囲気、インテリアなどがとても可愛かった！1階も可愛いけど、2階の窓がある席がおすすめです🤭\nドリンクはスムージーを頼みました🍹",
+                    "古い建物をリサイクルしていて、雰囲気あります。\n英語通じます。\nハンバーガー200k やや高め。\nパクチーが入ったここのハンバーガーはまあまあ美味しいです。肉肉しい味はたまに食べてもいいかもしれません。\nトイレは綺麗ですが、ティッシュ流せません。\nビールもう少し安くして欲しい。。",
+                    "ハノイ大教会から徒歩約10分。ハンボン通りから1本横道に入った静かな通りにあり、バイクの喧騒も聞こえずとても良い雰囲気です。欧米人が多かったです。チョコレートオレンジケーキが本当に美味しい！ベトナムコーヒーやエッグコーヒー飲めます。パスタやサラダなど、すごいボリュームで美味しいです。",
+                    "セロリとリンゴのフレッシュジュースがとても美味しかった！！セロリのほろ苦さとさっぱり感にりんごの甘さが絶妙でした。又飲みたいです。",
+                    "旧市街の少し奥まったところにある日本に有ってもめっちゃ流行りそうなカフェです。\nお値段はベトナムにしてはお高いですが、ボリュームたっぷり(写メブレてサンドウィッチ載せれませんでした)でかなり満足になります。"
+                ]
+            },
+            {
+                "place_id": "ChIJiW8xZwCrNTERSvyQ3bKUXMo",
+                "order": 2,
+                "name": "Hiệu sách Hồi Ức",
+                "activity": "Thăm quan hiệu sách với kiến trúc độc đáo, khám phá những cuốn sách hay và không gian yên tĩnh.",
+                "location": {
+                    "lat": 21.0283931,
+                    "lng": 105.8378919
+                },
+                "info": "ユニークな建築の書店で、興味深い本を見つけたり、静かな空間で時間を過ごしたりできます。",
+                "distance_text": "0.9 km",
+                "duration_text": "13 分",
+                "transport_mode": "徒歩",
+                "photo_references": [
+                    "AWn5SU5xVy4s3mQ32ln_fO22Lxwkinoi4Rrg0CzD1_VU-iafJuh70yt5XJ93102gRR69R2A02lgsoplZeX9x822KArTxKx5M4Z-Et1uWuoYGJm7dXe6hHVXLq3tca7iSifTmaKNWszto-wYd4F7mHN001BvUNeAXN-mVB6mFs8hWkezkZuA0SlGgAFu8y6wTdikAggUd4M91Ku-_oU0XWmfV4MaIQetQVBkKCUsALBurwOo58bUwIHNhiF7tEFHEEQIqMnWIGI7Ear_-yBtL42FD36fmvgvMUKDrQ7_-I1RQgcxuBPsokFsve5GYT7kbBhXtBG25POcj92S_DDOqbyGveV0-6qDJaGUkvgkUpCeAIBfTio7aPQcRwRzO23UhB2mD3eZs8RO7fHoXhzSjQvTCSHnn9FXVAbkkfrDAnscm2bxI84WA",
+                    "AWn5SU5GPbNb3mYpMNEbnwSwiXmVRm_06H9AAdK2ZDs-rSktlHuO8UJhS-XoDldPfFAsE7dNmE7JYVqyhgZ7lUkVT3Ossthr-ABDtIOBaRAYkEOL--Qe-4MW94dVbmOCFNPfrNFTLy5-r1mLWlC3PeHdGbp2JHcAWS7jc5WiM5itGyRhoE0y8bk-slzHf6esA6bCw3ezqg-0NpvN3sfVUbL7GdD3AlhpJincif9pkdK4jUBQv8NmDpBO4hQciNiY6-4SVcpy7nGq-llmxw1u14BwFLgHCP_eQepBIU9N0ndSc6AmweoEjrxhXEYM5405ogDOk6Xd4cmJWDAkCOiHvVSQqyMdSSFdVbgmpaHLft4sLDBMQKlscw50DK2nuAHZQn5G9DsCD1SM8YKmbwm8TGNkZFwBxYcHeOvtc98YqJf3pUo7ivQ",
+                    "AWn5SU4W0o2Bn9rn-CGMOmBBnzXaTMCjmoexNLhesW-Dvn-wnya-OxEAgztaSRYAKJ5SZw0xiLe2gvbne82lDgFZq32o9MT-xJ1Y91aNLbFS-PksYS-7Hj1G2uqhYdV9eU-sPwJkl2-eQx4r0oz4i-FGKPypzJQYVvC92x7y8ymsOIAGNWrAUIGL92UA-aQvtab8hjxs1mIKVhEhAkF2UTVL6C7tWBdSoAawOHiGeM1JkYT0_RbNJQxS8ItO6hwjPWnTQMp9j3b9-tv60KPK1BkVz2eCVq42T9Gux0cN-hTxpBeWIEPpmVh01gmALjJAVGKIJX4rWiyrZZFNRej8jdJJqwlEhrAHjVyLMRad9vAPn3ctzVSCuF0CfXuIvbX3MK16q1913BdGJPWXg2tpOzorfqLdMtzQs338Ng-i0-5X95QTs0J7",
+                    "AWn5SU7OznBnRlbI3VAN_NbS796_styWuVluzj4VBjTyMRgnboqXkWxyMoESYiZOTz-uARl-emC-P2WLdxgMq398lBFDgNnGA19eZgVzoaXSmaqvaFUUkRbD-20RSKpWuqa5FT_u6LVeTBp52ScPpjdsgu98FyjGm-RuERls5f9qxa2oEY1aD8QYvnQXuH3vTcmxfVP7ZGLGJ8WRb_1vzk_Dxb5m13Lzo8i-JDO97jR4JGVqligYjaCdAlc2EXZP15k2rukZkK94s-P-W_tD8gvRtsS5Pd9kvRHSJLali_JjoezvUQg51p5ujPMuwFOWEIhdXkSqT3pMfFNxtoUgsOP9oFzTiyuJXE89WX4H9raVz_gej-m6y6hYjG4N03UR7i6vNTTFEB1xiiXPV3DUY1188_h5XC29nL6N9otM_NbWh1-ozHxy",
+                    "AWn5SU6GXkFkIExJ8O-Pb-yhNErCgcOtTBEwV7HDn0IPq3hxbqWv2Zb4dzz25mTtV_HLMYr9JcVQmEFePGsMHxNOPAGAQ5Zc1Fk2wrs3ffR5LGQHuqjR7-KKueqrVisdBw1KFuc7LaxOxPWDlOPEMhMWXd9BmTgaExFZnBYXxeGDLyQYgPLBCRvGokKrFvXbIcueTIluh0Ij_gohw_V3aRaODr1K9mofmE3jdYdoccKH-HWWDVE-5if1WOu9GO183Q2M--2jo2QTg7Mzem3vUYCJ9PH86kCJeEpu_S-Oo6HkjU1GNPJDBCC4-tzgcDWvEyZb-sKwvuKdnXYJiEf1Bh73OnZ60DLwZeklW5K2feFT9m9CyDw9G4QZ9hJMHgGDmqEH45vO6DVxsBlanHYpqvUb_va_HuvhNyiJutbq0h4D6rM",
+                    "AWn5SU4rrkQAk9Ls1NK3DjGPt4V8TplQk3SPWhHR76pq5_fq66n8MMnPeXqWvOUyFe1s1v2BfWUc7Qhxd3mYcSOgpdXEYqVXFq4qcbJoa_Qk78PyIWnAVYUm6haBbh7NBikpXD1Bn3VMgqFBfOvHp2bqCuNpp2hsCs09VW7K0hVh4a02gl6fac14gWHokV5RwjnOR0H-5bY2KDZelU8YbvDRZfiGUfuFvOyJw3SD_A4Alj5LaBDmPMASKL_qM7KnTBm1Fq0dHMW34DTtI3yKcUS2OILfVsQH6ZmMqIQ9yoJn_TXXqDzI2VzgnTt2h27a6g4xoVJ4OeRkqqx5h55ZA0x0gAPypBCf9xgAw5vlIlq78YLZYkAWNxukNOJyBBI6o7Ko9uKxYaVnZKywkUfQD11GTU6GbOwd2q5z-4Vs8bMGGTlmH1c",
+                    "AWn5SU5Us47-mDWcrXjrBFDeHppEhIqmmiSA4R-zH35FXi3Pia3TsIE9Qz_wmNUoBLQQgDvff8tsDDW9tpeumsJnHhyiGrbw2oTXxDUi4Xt_G5rYmge5fqMY3B14Rp9rHkRngspQKSxNet8iDBslkPoXNkcODCYtXGfdmalXH9bCRzWG5_9eezRUcBKf2zaQBQUWmUPhOTlO7leCPvbGF0kp5UbLkuavEtIx1zk9BOMyo6I8lJFFFCOHz2E6Dfjz8h6nFRNJJn47KCbObyvBYDIaKBWKYK_DWsGFZ1bRGjIgUTtHNxa1co8w3g5vVLkBpDFIczn4sxfo8h0YRcSIyAHlCezHNBvB7wVZSMEjN0_VnDAytqw64WUlSKu4m_grawzMY7f2Uv1lIto--KK7RmQfSNBGWwC61OTTdSJTspRVRAHPVS5n",
+                    "AWn5SU5FwR0wcMZRAgPu6zgfmdy3T_RypumxwUZnnvogOHzwx31Pfds1Aieh6ranWu7rn_gDOfpsqVRDTKR8CWtwVlIErEvGgqOOywfP_IhwUxz4_DTiefz7o4jmioTT4Wk2IKZcxYRdNshXQ1asTOvHQdNh50SOEE7ikOAoLBdLsudXoRf24o-NQi2H4iWgYBdqFFq5QP_ZpCTW54LcmEVFtcNTjtS9In_vl4iI4Ovxeus2KM83ddLkrmsqrmuZTZSKzSke-6ElG5XKC4dxXrPQf6dFyddiir0y2WYa-IE58_ox3GtH-LtrTcT0-75X3n9my6QxImDJDXQwVgnH8t8h5ZdN165KIpWFGRNQuvytBzfQQ3tGason1ieiZ8aU2L4utRhx7Lck17McPUbrEN2DfpsbyQaqdpncDUKB96Zrhe4",
+                    "AWn5SU7iDZaGaRZJyXENn7a7pGQN2iqjS_aXeb9lw-Lx31VwxNtvwL8lmMK9a4NX7803D3SBV4f9mTcuegnIkvA_IsfQFHs_4S7acsHZQFkqEyMVD_M5vfe5hZHdPz3itmeT_Oe3tJ_Gz6GLgqB0RqpezT3pVxwk61M9i6y12oIbIyZVVCJIaHCnpU8F6COhKGkBc9wFYeYW3tRQv0iKKoVxpjFRbfYVPVy24WfoZkPxycpUPFE2kzDVEEuHFtO8gx7JIk1j5sE7CrgV0veVxVVXAjX1op_JwcZ8H_RWCGAWtiUPwQs47zv6Lgke9r5e6IWZRAnGCLw_z_yFDoSvYSOcToUEXv7zFLRjmYsut3227pNcRyr0-njB1q9byBsQhutiXpW3kDjtvkTpFxtFJ3YfWRjG4vE_RcpbEPznqoSVda1ofg",
+                    "AWn5SU6ZKrRleK0fwrm8azbI5T-zkIV7jyqW8S89KcVhcKHQxaHjwjJCMUgN5s_iKunNgc4JX8OBP8G1kuaTCbkMhKx9jpvonY9kP5KGaQKJMQMhdzF4uc0Ch-xQbzZx5t-xkOfsihdsh7XIKnk4U8k1ZlTQ9sPn2kjypbTL7r835Db2Hv_GfkxWV4hyaDcXeF5CGOITw2EdiHSnGDVepueWm2w3DWFxVVi7zbP3sE4jXAtWaeR2ro4bict6RjJkf83PIjH1yH-AoLCV_8DmnFTq_CsSBkAq0V7SWBgiEuXkGrNQvLssCyXlHZ4Zp2KEJD3W8LsKNVWa36XFzRG614mRfQIc-rwz_DwswSsz6KcfUNjzeX3Q_n_kBRaXybLtI7WsNbwlda3PZruTklyV6G--g4TJtpc43-w6ylyVo1PCzG2DWV1w"
+                ],
+                "review_texts": [
+                    "熱心なスタッフ、清潔な書店、買い物にとても便利、豊富な商品",
+                    "書店は美しく、清潔で、必要な本がたくさんあり、良いです。ぜひ訪れて体験する価値があります！",
+                    "美しい書店、豊富な書籍。熱心なスタッフ",
+                    "書店は非常にプロフェッショナルで、フレンドリー、そして非常に親切です。",
+                    "クールで素晴らしい、必須の本がたくさん"
+                ]
+            },
+            {
+                "place_id": "ChIJ216Mx56rNTERC8eeOE5xhfk",
+                "order": 3,
+                "name": "Quán cà phê Thư Giãn",
+                "activity": "Thưởng thức cà phê chiều tại một quán cà phê yên tĩnh, ngắm nhìn phố phường Hà Nội.",
+                "location": {
+                    "lat": 21.0280434,
+                    "lng": 105.833999
+                },
+                "info": "静かなカフェで午後のコーヒーを楽しみ、ハノイの街並みを眺めてリラックスしてください。",
+                "distance_text": "0.4 km",
+                "duration_text": "6 分",
+                "transport_mode": "徒歩",
+                "photo_references": [
+                    "AWn5SU4eEPiSoZv4x-RF93xRD0YqDujAKopx-vO0vGCvPzfNntOKjyYJ5dslKbrc4b6cWoC4f5ZXKWgEEnv_4ZFzjxrkoNKZaeshrBg3_pPP3WZj0eKqS6tRD26Q9zy-MhMnuicX4cc5ezjcsVrslWF7r_7jMZ8KdXYF5lYBkVL1N28uxbODk8GRZvOTXg4YyVPXg6MGqdsOuRLniksisVBa-zgDPmFB5DzZlcSJ53bLpvuDlsq2iRmzXywAYdGDl-XOrMkkoGN5lJF9ciWvM-QRSvGEBEFELjVcenSJYjcRQ9Y7PBCSULPWybfKahauM-rZ6_1UFoqyElsDdavcSDsMSPaVi9roUyT-M9UFSverYxJ1i4BKEnBncLPlFkHKa6XKUDPH6qnexZ8tCRgsuCw6pvI3Hl5T6zGdIx9tj_6ervilGqPY",
+                    "AWn5SU5AjaTYv3QPU6jZk0DJbolmzSkFKi4ZW5LgldU_zuMW_nFZ6IaNqgYfMMUcgwlLjsthMmk7O3xLqNzeGmY0IXag4oSwfPRwoL40ilDyVcjz5wkdoflHdSFZkWR_7uG0XXTHZ1N4ZJ97AHqJvioNMoCwblQu5PwZ0jfeVOlhfWuXbwKRc21lNTNgLxwT_8Z67x5L5ZjMI1iMMMzAB7Pf-FvCV-rkxcL1XONWelxJzUougjohirEpynALt6acq7pwDG843JWykAO6Y-Bp8SZFocLONtY5ZINvZ0eL18m3GJ-NaHSDpr3bQ9p3UBMUiLtXvGhANDJ7TbKOCXUjTZ1oZS4i-XANsY-SOjzzUJWbgVdbWM8guEZ75bYdomnjk98frdE3qc6P_OGpkw6NO7pHv50GY95JnTI_NFkBQc1H88xFA4dgb-X-j9pOBQRE8Uv9",
+                    "AWn5SU6ko_QMmjSTW4Ayo1N5hjLeMgKBNsC5XYafJRZeIvkopcqFOcNawlOhIAiS4mivCatL7LvxkGITW2z5SY9tffqnp644Bd7uoTuctk9xe0g9vOgt9o1n5dg8G5EsVdU7udtEatBJ-RF3KqSYonp6ubmGVsFHxdYQhtPq47ZM5OCT0Y9rWm34SyIsPOR8oMJBkQ12sOWgOUjzZ0vpiBPP_9iCZZNmpmp8O248IYk8hmeqHl6g_z_EdJKtYrPnMAH67_zDIBTApxiyGJGZZPeIG03uZKBW5ozFva-CD3rAelj4f2wC9TPGRouWQ6TnU4FCW2W_Mnx3eM6RYj3tr5S8ulPtNbs6XFPSAZZrY8BzNQVdQi88RIIcolGLNl3jFQbroRQkDQjF6Rymmc21jDt6F6KddvaUm4rltM6JFZO8aaUYUA",
+                    "AWn5SU5W1YVG3FgfvZUKIQ4fnOYA6wMKiZOFKHePEmb2sRqseV9mxL5FHRzlL9ktd4pZfUf52ZpyD-QCSiztlXmlxPC8VMIFqe-Qbol2LfKrzEN10ZMYGM1pBhkrHolKWuc81nCCMjGyEA1lGTWlhMaodpcFq0pySKRZYzGQXNjEt7HZZW7H2axl8bzuu-nl3405_fJq5uqKZF2HPikvJwsDPZSx24sbmSFEH_FNPtrmaAgL_7KC1iIdKvOVTXqdmQBY-UfZXbAbWEpkVbDJPyRPk8o5Pjr_gEw9YHgaen4YBgCYsTfv8XiGjVtA4yRkhG9n9dO5Xpk9HWgQDIoaJBkJZgrZn-mym-NRb1j6BKv1WZrSg1BJO8tzFjNMIjVoJxu-_wlp1MxtI9X1a9YsTy9T3ELPE6om6asVcorqDQJcMJoQ_Q",
+                    "AWn5SU5rtjYU6_E_iCWhDqsanr_HYlgy1-qSdkWZNSAEPvruOhc6U5xU-Ho0WfTRJlXwN4A0xvAQW8Oe_w8-9uFJFNzuPCGFujLX67GSNPs29l8QJEuhKcJT-A5qUUZK9yI2oSPAt-vf4tIHDjPSl25JPHFN6PWbSnz3ri3aN0ci3pak4QiVTNV8POhVN30jlcVizuCZsfPQXu6HvUfYCmBOpyhik3S-Qecmq92pww2A7jVOyMT1ycQJHLO547qAGjPpn29cqWTciaEfDKKsb7BK0aHBXwFrv1ZHRMBzGg21djiN9UYI7n9qDnqOKRrP8YFKPB2nScYcIlC0BIG2Gn8gKA8EtQcbr7lOTyUsAb0dU6lpM6NNwenlgIVxqtKOeL0u-zjl514KAU12OmfM14FWmd4AOWtSUXZWeZ1H7vqmSfiQy_vql_N7cnUEa_H-CwgP",
+                    "AWn5SU5d4IUUfZYbt5g2EFiuwN2O6G_p5YwlCP8JfZA0uOrXa0x14GA9uc53Pz0uA0y63LScoINC4XH-pEbQo8bFGEQ8hfGmvBJ2eNAgX0Zt6dkqvPweAFaIrZwEoXz5pGvLbboQC9Hqphp_CAam2KvXB6GnQ3-Q92sGLhjnmat45etIkWttDBiGlGqrwUJjh-msyXFwe3JzqjMEfPKJh-d_3kNziAELQXRQ0IXRaA6_H4f9V3DFssx7sYcmZDeobw8u0zLgR3zYs0cgd0PqXuy15rgP0NXx4TuZDXRm-EBGVxNegRg1Ueg9FEv76ftComgnslqxxfszeU3tgjNORq0C0y4QT0fJ5RJivOFH5CQEsaunKD0bG78CK-BXCpfbmIqTUklrf73CNdOAKiiB7Bu01mG2G5FbAuD8YJBJPHpI038GCIyi",
+                    "AWn5SU6y7g6Xb2KlXa_86OgrPQEPD4ht1tFXPp-2qUNdhFIYavgMtaIV19G8AaeRWoB7sJKdDRTqsQXixHqjcVDytIFReqN2kaC-7W7ZaOcee1zZGDr-lNTrMwT53_4e_aiCgZWdSF437cN2XvN9S5cBQ1NHaoCRxA7yaIrPgwsxoWHXiAaTHoCNvl7D0gTbJ2JyAoZZgdHhEh_DQKP9zsHpZPps4RfChbiiI0-2c15GEQ6dwCBrP5ADtT1uPMHldFix5enCI0VULDtJ8WaQbV2wsTlOsq6_BTxLfT9Oee9L-6EcrhCC0Qqtv83WHAHh-fIpVYYmaJQcfDIXGm3Hytk35YoSiVnGKTVd2Anmaod-mQkyJQAeZVnABcTUd9vqxl5JAbdobxuz1oG5qF5zuQ2AWeI0Ekcfu64ae9kNoC4q_3p-n_DxI5Mo8T4Dqu54jg",
+                    "AWn5SU6B4ex4FXHmcLkyCMF571l2btT2QqSf7pGFG1ybKJTVSV21n9GktP076-WOkE1KqXq9RsWdYPCYrCBiRmks1MzqrD537s8pra8EeLrZvYFWU5mec3nS2RX7j-zptAC3L0UycVxDLmQzt8B6Khu93l0Nw0aSPxuTtPxEkH7bZHmcz500-WhRmYgVg7Wbk3dYvQuCEBLdVvI18E4EzD_lA7VnkKaWAU4whL61Y35J5DF-WGkBqAIgCLZ8wU1tli3Cn8y4WDrrcCFRi0WdiyX3wk2JmX9PHA5SQuSgLaO8HqaS8ODQyf9w94kM615uy5QMjxQX79fOLekMt4bHO-FyCiUybK3gmFUdCF1DS0JYjMeFWVKXj0Fu_-igEi_3tBPefwgPxar5I3VwhOWIJtE4XS5i5KYRpICi6P_I_KiShDhetykU",
+                    "AWn5SU4sLzu_W_kZ501Xvc4WoUkJ6QtffuCVvp4i6QtIn_IHyMvBK5eW9dvGy-6VJdWDv9nN0e4G0Z83fevMiTY5AVEcSnbK17arf2agRj0xtmrMA6mQGt5O4hge1-XZrT6dfp5LHtDWmNLw7Uyxt0sjz_ux4_fGqP2ZHQkezgZA12mXYp8MC7_1EbW9DL8TeI8_Em0aOzU3UlvNh5sg8Gh6RCaerTqkuJq5ZDjP9ISqMXKgwkDvvmqJTmGp65SVNbzg3rj5IU36L9T-_TKOw_UjtN7Nfsnu9WIQ1dPDT7V9T6nr8SS50hn9QIxOG_HMqF7bfQ2p0uBSX3eL0Lf2flZaSlyU4VuJYJrWgKmltFDMv7-Zh_AwbgiytV0D2RGCeqtrdvKw7UTRrDCrTPNo-y7a3T3Dvt7A7gbBV1Qir78wWnzEgkI",
+                    "AWn5SU7cyxwuR-e8IQE71V6quVkMgQh2Nj-d54Ygr0G03v-IHWecHnmaa8Ku7WjGvNi1H7kYvyyFuNjGHMNvjc83Y7qvdEUNqdB5bvgP5crABnVB8wLFxVZgiwAl2tjJJG755HWnxqpUC8IIc9d8N0kgCRqKawo6vSzmBJmHhsfPYubH6ShuVtsa1A2ToR96lku7mtYcd1i91qP_HaVjlVLdofnVzd2PgWHKB8Dd1Wj0D_6MreYsM5eBVyiNWsRRSirSEEKpYio0Hihq9wvkTIAFfFgnGRojVToTsUucBNAgEqoN33Tqu1vQ9zc9zBJqnmdXJv35LXaU8LfI6Jf16CkPBrrWOgQh0EvSmxaarUHYaUyT4eZCX_j3-0Qz-7iIU1YPePmZ04XMAAX5TZ9NpRBiNDH0GYC-EVU5RwXl3lxm78mJGTzr"
+                ],
+                "review_texts": [
+                    "広々とした開放的な空間で、バイクの駐輪場もあります。デザートは美味しくてユニークです。",
+                    "レストランは交差点と信号機のすぐそばにあるので、とても簡単に見つかります。通りの向かい側でフォー「リー・クオック・スー」を食べたので、デザートにちょうど良いタイミングでここに来ました。紫もち米ヨーグルト、黒豆の甘いスープ、そしてもう一つ甘いスープ（ヒックス🥲だったと思います）の3品を注文しました。甘いスープはまあまあでしたが、特に特別なものではありませんでした。正面は駐車スペースとして広く、扇風機があり、角にはエアコンも付いています。",
+                    "蓮茶はつまらない。蓮の実は悪くないんだけど、お茶は砂糖水みたいに甘い。蓮茶ってどこでもあんな感じなのは知ってるけど、これは甘すぎる。機会があれば他の料理も試してレビューしたい。\n店内は広々としていて、席もたくさんあります。\nお店は正面にあって、駐車場もあります。",
+                    "墳墓を見て出出したりしてコーヒーやバンミルグ他の家族も紅茶とバンミをさせて食べましたが、バンミ本当においしいです。普通の半米とはちょっと変わりますよね美味しいです。",
+                    "この店はメインロード沿いにあり、屋内と屋外の両方の席があります。夕方に到着した時には屋内席はすでに満席だったので、屋外に座りました。デザートメニューは種類豊富で手頃な価格で、注文もすぐに用意されます。ただ、価格は控えめなので、量は少なめです。多くの人は、2、3種類以上のデザートを注文して、色々な種類を試してみるのが狙いのようです。私が試したデザートの中には、味が控えめなものもあり、もう少し甘いものを想像していましたが、全体的には悪くないお店です。"
+                ]
+            }
+        ],
+        "summary": "Kế hoạch này đưa bạn qua một hành trình ẩm thực đường phố tại Hà Nội, sau đó là một buổi chiều yên bình tại hiệu sách độc đáo và kết thúc bằng ly cà phê thư giãn ngắm cảnh phố phường."
+    },
+    {
+        "plan_title": "Hành trình Thư giãn & Hiện đại Hà Nội",
+        "theme": "Trải nghiệm ẩm thực phong cách, thư giãn tại spa và thưởng thức cà phê hiện đại.",
+        "estimated_duration_hours": 4.2,
+        "waypoints": [
+            {
+                "place_id": "ChIJORcGYcCrNTER9pKMHVN7CdE",
+                "order": 1,
+                "name": "Nhà hàng Fusion Mới",
+                "activity": "Thưởng thức bữa trưa với các món ăn fusion sáng tạo trong không gian sang trọng và hiện đại.",
+                "location": {
+                    "lat": 21.0329965,
+                    "lng": 105.8521542
+                },
+                "info": "エレガントでモダンな空間で、クリエイティブなフュージョン料理のランチをお楽しみください。",
+                "distance_text": "2.1 km",
+                "duration_text": "6 分",
+                "transport_mode": "タクシー",
+                "photo_references": [
+                    "AWn5SU7ICP2dT19WwejtwPwmbBonC9tO4CaOAb8x5EGyiYUdaDvcVU94qsuPlfZYYmtJlp_NQ9IZr6uMaEYE5toU998C_FU9XqFAeGQ8yVuC4CIC9cjGWTUzV9F-xhpwOTUzYsU-qXqZs364rzqsVMTFFd37_ogdLUx8tr3IH78NCx4aKhXRxDdyayGsd49VsQJJ8NTiTpAgUIztBwj9ozODFTCe6QsAbQJ5c8uZDDjpYHR5xvABqiMyOzlrw6etREFfc_157IaE2jz9ehPNf6lyKsZ2SKGjt6nxmiHdbd18sJVc_A",
+                    "AWn5SU6wQPuGTWoJpLlvCESSKov69WCHR52ZJBtxWIkjXvui9fDZtDKw9xsQojW7rUvZqQFz92otw1O2AUzuXIXTK8Po5X4bLo4qzbD80LpA0CTip_jgOTn_ai8HbX8DKpbWndzlNgu0OdqKHYnFz5WPVjZTQX-QJsfNTPJvCgRRZwOdSmgykVfMU2VGbdybDuoPPqL4eNWVeJXuJAUJ6V7E-0PQW2cW2FAbguVHa2Yj92gk5vm6wUGr2Pi8KWVALmYQhtKkwpHOnEPpbQCuvIa5oactcefCcKaT3RA01VczOyRa3A",
+                    "AWn5SU4QzhleThYsr2yZ3svw_wA96hGYNOHhTnSv0-pyGX5rg-DHQoEwN8KkA-VoaXs6-Cw-TwNEijMn5qCZEIByA2uyQ0Ze7dTZwkFfTehilpEa5vWgZG-mee77ldHaNHKaUyB4K3fvpjBiq-yArsyv6x9QgWi5THtNI0aPDTC67KtH0JOeWnjj1OR38cD0AI1gErV9UXVm1rzDbx6OB8wAM-yXp6NcH__Uvu2nbC_Mjm1-0D1b5OorVvqkm1XuHuGKw4SPCGiqfRx-F1DwMQj_OWx-0KcKJfixDqXsdGdQ9FN7xg",
+                    "AWn5SU7IeD1BLa6uHieyDThRnkRUAxus4rxoigublppHAPyIQaJBsfHKIQIqVXvVI6s_LfS_JxfjBwbBdk0Uys21iWlGpGsGKgiC-Pu3BWIaOv0AXsShDDDweOobqc7nG0k_ofdJtYt_Jc7RNx-xdw5jJUXlzbLQ8BxDpomKm8rjfnLj73BX4aCECYKkmpX8bdtlP7SN5EaMjNY4xGADoxEevtE-SwoZDuTsDiqnhPMFmKkI4LL7VHCDfp-m7DSgt8uxmkJwO7mBP4v6Mu-PW5iCkQP9KJlIK-oGDum9f-5oqOs5WGrfD_BzmP6p1EdTbBkaVIw9a0ocSga2kCd3KQslsfG8kWNk8lDQWkMux4AgfVvhSNehEEkaUP2qzQYBev2Smyb127ZqKH6Vjg9eB5q9wxZBiZ3iEp84wDgOgc_VEiJ5IYKd",
+                    "AWn5SU7KrOqhYzeHz2gqfJETjyKlJWCUbgqt1PgNNvzL8eATdlQh5aH9VoUoqWyBA8VF9Erp2MrZMAaHzM0p8Hzi-VofK47uUFlMgW3ZZQ-uipe_Y9_HG9MRE3hOO-f2uLz5zNvx2tk-MbIYM1A_WSHDOmi9yD5YEB6OVQaGTYdH0UPODfLJyzfW6s4udOUJV-dw3-4QbZCSSGdevTqz_ADzOuhiwdTg9aznZB8PMz9bezwcpBQolWK03FQvO4LBmHFQBr02lMotxwcdQDDbtVQKTStrqHK22hZxSh_HLHEesek7TQ",
+                    "AWn5SU7un_2UBWxAi8BitFyW3ehavNgQAYH7HFVHgBpI4P8KvdOyPCvhYs23wJiwIUJKLdfBd6zkPA2LckSq8nC9To98WAwXJRfISw0U0QdT1NnP8quE3lkhWR801RUo33Lh8yOl1bIHTHKjxAkcWVGFx2wQbtzasrqxse0l6LZOTMBGwTrByfyxrgFCsit2Ezqk3Tyz4C7-7-joQ0QsqrXOHn0LRf2r6ldJ7-33NEqNrsEhAoAk1JrEhdsFY5rvtzOCVndWUzBB70t8BuPe8fM79rxw1j4Og7FlEK2p1bx1JvpkLA",
+                    "AWn5SU45qg5QIuM-RqIXPIiGkvXo8_-FW2dMRWMq5omnwfqFQ1he6EoglHoE4NpSab5Z_TnnXzqmoTJbYTrfbU05kuL1Rt7ezHpf7Mh_JnoXBUTvK1XkwIGXFjO94dVxoReDzrg01M1hzNmC3TjnExiXXAiwVfbKJoCm-ISkucjj_jsxhMT8OwYRlNusqGPnPAOkRGRvjQ7P04NL_wZJQleYVgfKVSrqjxDqDhRbHsS-PNsuGRfCaSZeiwAmaFbzUota2tV44iAk3nzvUCOrfdZUWm5ZE42ncKkjJ-Phw83w5WrURQ",
+                    "AWn5SU5OiefOc0Luig6XRaQsmANN7pIHEj-2w1168-aX62SxXbl8Vo4llIZsE43AstI_rd6Fp9AYeQPhCeBcUaDJmx9j2ORV3t34kXQ-VhU6kQVYCf-44d4mJVWAm0JXX9r6L-t8d4AIIx4MVJ4yB5VjzNflwGHuiXRFfaqjnq_gpN3NDRcEFXWLO-ijVhY4ukd6lVadLgSAabv1xibC-DhaGapF_q-jM7tHPtSTUhaKn00xlSj-Iqe979WxgPp8gD_aclbaomkmnkic5i4hJzGvKPTZ3C-Z5I3iwnye7vVPY0v6Aw",
+                    "AWn5SU5bsawLVvF-ANHYjpclW1Z-6uWsxt4GHAJp7yg3s-3kXhEWf6raXSHv_jNWjsm19vhHrnRfBB8d2b_xqkx_7olG3W7vhLRWYUzvnnzYJ9onoLBxSzjDXIs_RFVVuqP-Z5Jc1jJ3dUZ4fLhtAlP_jeVPXgCf-QQMwOvaGfFfbVKr2usqmdKVSLlPB4ry-JlrIBI0cEDZLi3_TXnv53Jg-7fqW0pqZ6R4EI87LxFulHJwgrgv1AdkmBWQBOwPBErlfAkcxTkf9PGjR5IgDfNu_T0DXgcoqQ5dxSIHc9m6qB0Ugw",
+                    "AWn5SU6E5_vEwAaBPCeAB4hrV4nek3n6CIopW5zQmWoWotFwFFRqo8cqtRp3cQms1mUgcJRQqICBBF06PU-ogg2O0H9TeI3cOU7yxSEh5aXQk9T9TPF3TBPNKlj1fZ6aX3tY1eYAMXAhjf8jxx6JyVdnZFN_4c0IN0O_RzruvdQTnQyduKT41G8qxZS-COo6S9vOWJ0-zAL9UYcCXbNM6Es57BlgZOTupmJr7NT2aYX5TAt-4PM7vgJ7E_1F9n5b180jhiaDGxFTNnYEsvth_yUlUeVVdbsfHYgvDOAuUie_KXO3PA"
+                ],
+                "review_texts": [
+                    "とてもおすすめできるホテルです。部屋も綺麗でスタッフさん達もとても親切で快適に過ごすことができました！市街地散策にも出かけやすい立地でよかったです。また利用したいと思えるホテルでした！",
+                    "とても旅行者に優しく清潔でいいホテルでした！アニメの話題などで気さくに話しかけてくれるためそこの点も嬉しかったポイントです！",
+                    "観光しやすいし、ご飯もおいしく、スタッフさんの対応も素敵でした。また泊まりたいなと思いました。",
+                    "とても対応が素晴らしく、最終日まで楽しめました。ツアーの予約も可能で良かったです。",
+                    "ホアンキエム湖もホテルの12階のレストランや13階のSkybar、10階のプールからも一望できます。朝食ビュッフェもベトナム料理の他にも毎日バリエーションが豊かで美味しかったです。\nスタッフ全員がフレンドリーでした。スパも最高です！ぜひお勧めのホテルです。"
+                ]
+            },
+            {
+                "place_id": "ChIJzW_FZr-rNTERdv8dtxTjYtg",
+                "order": 2,
+                "name": "Oasis Spa & Massage",
+                "activity": "Trải nghiệm liệu trình thư giãn tại một spa có đánh giá cao, giúp tái tạo năng lượng sau bữa trưa.",
+                "location": {
+                    "lat": 21.0307321,
+                    "lng": 105.8418543
+                },
+                "info": "高評価のスパでリフレッシュするトリートメントを体験し、ランチ後にエネルギーを再チャージしましょう。",
+                "distance_text": "1.2 km",
+                "duration_text": "4 分",
+                "transport_mode": "タクシー",
+                "photo_references": [
+                    "AWn5SU6c59Y9-kIdY9mStITnfXTA-juAyYDsH9n89ZNkKXFNrQWCJwzow41yxW96_uCAQ6mXs90_bG9_yggFxGsTVdTkoyJXtG-MscCJjE7bZQg6bnXP1HTbs62KkNgfi1XW4_G2KVusJMaiXwWMG2ajnqY20OLTuDZ4LoHSGjhWPWrICZ2t1xrgWfD0-lWomknm06ef831Z1W6YI03nEpJoBwgy26CdYg7U54VJ0yauA385c0zxo4oaAKMFdNLvBY-T_zQOsEn-iPkCWJP3tyHPVqLHHBJRxCXqXvS3-IQjGx1wsg",
+                    "AWn5SU5bfmRGEDugHSpkmB0VzuIp4MzNl4dlKs8Ewz11kyVCGavf-2-pPAkAmqs7-HLpTD_diEIqDGQXIlKKX8pACa3e8ZI55256azbbyVixF0AQUTc0fHft42xtG2vG-lpKFQNbSNv9nGj4s7C4hR2lJj3WAR-N_QZGNQUI7P-wnif4YLCiNqX4WA1CkPDtSUwkrLcc7SgN7oSSqpkpLZMt8-DK2x1BTAgeaAWl3Az6rYfWxdpYuRw49ylLXrRjQZG_cK1ethBJzlXEUa9sGBJCGmUodbJAVmWZQitDYUv31dhCvg",
+                    "AWn5SU4l0OnguSxhfPeu2af6EosWhXKypPC7pkyeCbq2greud0Y7W2g-aPTkojKEWCNRStax2NNZhxcN6-lH0pZjhN_p5rM1HwG5Z_m5BzvF9fXnCnaI1gwZU0mmGGJv3pyonYvYcXBmbAjF92o6EA7L4hdTZ5Wb4BTOMIa7kq3AVD0mK5cQ9HnhHBzqTp-1FCJ9Mn7ZsFhbfrbRMRIJnF-Rd28hcoadyHqSqevjV2LwVI7Y5pd3Ojcq47I1SVXAij_5iAoNF5sUBJiHu-IgjVKvY3pc6Uu2PbmT-P_ooOMABg28AA",
+                    "AWn5SU5aUOZbjGWfpjdQ0X0hUwlHa5smn-7VT9i6wYC_p_6-LbLWnWItdTcj7PrLbaAK_M34YUCbZoNxqmSjpIvAwqvRoXnNLDz7F81YI58dGEdWrqKHmI8DlH_28tXPbEkFg8CEIeRMMQkbrCwWUx8xigCLtgbCDUDGtgcp-Pa7Xm0lx6YQsJP69ozBvU3nG9DpjjMfNcOWg7KIP0A3mJfGzYkpL_9nuwLMa8uj1ZWU0tmt5LInAJLn2SgJPMH74PpAUvzXhyAE-4NEgr47IUMh994qj0b2VM7jbqXaCx-T8hvuDQ",
+                    "AWn5SU6XSZTcVQcaB6wPU100dyMHPQUOCCNt7RnnpPYRQrQJueMA6TiUeKGlwJ4IoaEhWz358lVL381F-EJ2-xAO0QxAStes23RN7fCpZY3l14rK5Nd9NHWZUCDeLjvH0C_cb-Jkbg_1LRKW6TMWq_HYZN7e7So43b4KT_U183LuIrBE1bFoQ-79ngEtYqG8ulhodD7GWrX-zBedeywL8U1GwVJQi2chVx44l8Ma-RGRBloCM_vGXRNgMxHfyawvqk55CYM2Hv395JEw4Db0WRaNiIt4qAAWMMmM9p0VUrfN9XzKoA",
+                    "AWn5SU6GSnqqSNR-YZRI9yn77Bjx1O_rKe0sua1aE3XN_kF9rJxEEPW0VPswBM8aPOtGdyPFw-phPw_z2JtgwvO96i0mbOcR4w2peIAUsKKov-G226pyilBThtBBghdMgSr2N9vB7dpnt1l2aFHSUkYNWGFy0eUb8eV6C4_6NSBA0rjChDwdARul6S8VoPN1FRoe6EbVaHYCzxfa3JwboQZfz0yDNfNaiJ5L5JlYtcxFxoahlHLmCnw2GIy05QIKKZwAOM9VQ7XMwnR0luxpYwgbL31ZwwD3YSDcV6dEOsQY3fZXWg",
+                    "AWn5SU4YksBO3RHMhtCqGJ4I_xDYIWtl_0mLB0Tc0tlJbojkmBF0QBeiQ5S8hJ5_e94dkHNK0owLfJrtnpJ1FT06BydLosEd21AVkxjWP87O-CGxVbZpd5f16kOmxCTcEZpCPESUV-4M1_sifLxdchXAvM8WBDaNtRup6jxE-n_6MeLHtqCG69tzFEhYjGIoas7EpXdZ_ofNV-JePHRhEPU-ns0VQk759gwdRM7Ky-i_UCNdfqC2vfCUp8rC9NTAVBz9mSgZB6hH9o5qyRqCPuHMftLK-b_3x6_1SZYVVgSoC9hTog",
+                    "AWn5SU79G9oPxYC86hy7tB-Z6LhLVL7fO64Cq-VKZlzqmjcbzb7suREhD6e9AtvA3qP0TgvqsJ79WY91QfpFW4dGi5kOtqx99aGQSn5b3BdRWLozKjRjjJiKunPFpwLSMFzGPDEW0p4YYQ-CwJxU9AUhfdfnfQk8YV8rNZCWDSDRYA-IjsMUaVHK3jl-gKFNUFtOaIkfgZKpGqm2GUsWEZxoGndNo6Lhg70uCnvmsK7p736iOxnstN4kyJMS2q6Fx4K63VT9-Ax06tX9LpJcbFzcvziI2GNIAaWtk6zTlqgOyN7GvQ",
+                    "AWn5SU7t2B5BBWzaJzL1TbayjXcspTzjg1z_hpRk0gNB0SGVXn_b_5UBaUjYBlUrNH4w8lQA6BWNdUwcAq4DOd0O_5j-HDFzJuU9Yzl4SIbAItT6e6yT-hYJn_yIlOYAklg9VFyRKG4PEkxiNbQar_TpqrQSL3nkajZSMXWuxM6JNFYsffrEr6lsw3WdnwsPVzvgPNryYxeH5V_qjzEyZYpzEzcwE4gqZd54PAMZV2JsYo6OJ_a6t_Il75IuD4S2QJbJttvHWQG3XqnznkfjysRqSKoMu2pphaSWKwa_oPJakmHHa81cwiFbCp26Bx1Jhu-AGHN4Dsjd7k6cZUjEr_jal8LEutUYX4c_e8J924DzVt9VGDF4ZU1K1DGIiv4RkToEUMhalKVWKmQnqH0DJFgpOji0moRrknEvUToHHH8K2jafvQ",
+                    "AWn5SU59yYz_L2PR9b8AUEB_6WmjNE-eQ0KdaRHQa-g17tLTtOfFkI2k0V0bwoNRe5xZHxCPR9naQgUSlZ5-RntKyTCtRh7h7WNGwFPs6BBjTHyUQx_Wkxme8n_pKKSchcNgdFaoTMRC8KG9MJk5zwm-IXxydybTGET7Bjr67SFkRPZ0u7VqgEHTPXlDeR2t5zXhjl8hbCKySaKP5Tcs_SxPOpM_oc0BcNULJakQOwV81_cKDn1-gi4QCn67zHT3YQ5Iryl9bgs_VXsVo7C0Pgzt8b0x04L8rAjLPtD1eVvZMudTkQ"
+                ],
+                "review_texts": [
+                    "あったかい手で、レモングラスの香りのオイルでマッサージされて寝落ちしました。\n足、背中、ヘッド&肩をお願いしました。\n\n旅の疲れが癒やされた。\n\n1時から4時のハッピーアワーをお勧めされていきました。\n30%オフでしたよー😍\n\nありがとう",
+                    "場所を探していた時、地図上ではこの場所は良さそうに見えましたが、ロビーで受付の男性スタッフとスパ担当の女性スタッフの態度が悪かったことがすぐに分かりました。退屈そうで、元気がなく、笑顔もなく、厳しい口調で話し、明らかに、お客様を温かく歓迎する雰囲気作りを分かっていません。\n\n私は既にマッサージを受けに来たばかりで、ただマッサージを受けたかっただけだったので、彼らの不快なやり取りは気にせずそのまま進みました。施術が終わる前に料金を取られ、お客様を温かく迎え入れ、親切で、リラックスさせるような話し方を知らないようです。\n\n妙に急かされているように感じ、お茶を出してくれたり、施術前に少し座らせてくれたりすることすらありませんでした。このスパが地下にあるのも本当に残念です。何となく工事中だったり、何かが行き当たりばったりで、良いスパ体験をするための意図が欠けているように感じました。他の多くの店ではマッサージ前に足湯をしてくれますが、ここの店では足湯をしてくれません。料金もここほど高くありません。\n\nマッサージ自体は十分良かったですが（頭、首、肩をマッサージしてもらいました）、スパ体験全体をより良くするための細かい配慮が欠けています。さらに、ロビーの受付スタッフは入店時や退店時に挨拶すらしてくれません。",
+                    "本格的なベトナムスパ体験をお探しなら、ホットストーンスパを強くお勧めします。トリートメントは驚くほどリラックスでき、優しいタッチで緊張がほぐれました。スタッフは経験豊富で、細やかな配慮が行き届いており、痛みのある箇所にも丁寧に対応し、施術中ずっと快適な状態を保ってくれました。\n\n本当に若返ったような体験でした。また必ず来ます！",
+                    "エッセンシア・スパでフォンさんに全身マッサージをしていただきました。9日間のサイクリングと飛行機の旅でこわばった首、背中、脚の凝りをすっかりほぐしてくれました。スパトリートメントの最後には、心地よい頭と首のマッサージがあり、まさに完璧な締めくくりでした。とてもおすすめです！",
+                    "2日間で2回行きましたが、マッサージは本当にリラックスできました！（スウェーデン式とフットマッサージ）。どちらも圧力がちょうど良く、スタッフもとても親切でした。数日後に3回目の来店を予定しています！"
+                ]
+            },
+            {
+                "place_id": "ChIJ6WMsg5KrNTERY8QX3_aDOYE",
+                "order": 3,
+                "name": "Quán cà phê Tầng Thượng",
+                "activity": "Uống cà phê và ngắm nhìn toàn cảnh thành phố từ một quán cà phê trên tầng thượng với không gian mở.",
+                "location": {
+                    "lat": 21.0318,
+                    "lng": 105.8413217
+                },
+                "info": "開放的な屋上カフェでコーヒーを飲みながら、街のパノラマビューをお楽しみください。",
+                "distance_text": "0.1 km",
+                "duration_text": "2 分",
+                "transport_mode": "徒歩",
+                "photo_references": [
+                    "AWn5SU7mdeOInjHLokbzBY5sp5Nf0C-t6xRux07MnxHxLbQdILJcSWWMx_k33uAdCLulhK4agWMSqnnUf2IqJz5eRXR8DHsfY9CnQNUtB1SNQHNU_-6dAZu5qnCe8EnmWf1Egv6ZvY7Ly1tteEsK-ZvCej3g5pdh1llBVGAwI_BX2GWUU6nQABOtF8OkrF_KUw6-yWsDHfMit6vKHCIpObI0mIt1JfjStQqxO_P1kLnufKGXx3IJhYKieV-6MkMdHAFmo40sZiU5FECqT3Kx9lRvk6XbeoSGwT3TD1ofo9ZL-paAPg",
+                    "AWn5SU4LcSrnf1VCjIHCZMyDTLIx4yKmyGC2f0mXY6ngWWZ2_d4P1icJC0T6U3QJ5DXAal429umgfXjfY27MENvimvW-5H88y1jRksMdTB5K6ZUXTkKYwUYcyUC1JkFQL4r5fbleSX-EWFH9B7FBOqZIXydbxmcIs6xY7JfoYdXjcz9TlkI0NBQeNd5qZ0SQbEZPJX2GRrhjwkW0K5Pd2bbZ15yzWq0mA8YLzRWhpW9hNbe2wFTCsQrjF3m6L7PXAdsKGVWp8rjkRJYMK8DqTfRC73xwg_I1c80exXCvSOb4PPPy4w",
+                    "AWn5SU7GChpZDl0JfRFuZ4R7pZMx6Zg0ZR41hURea27b_sNAu83LVcc9STNEKhWeamueUkQwbHMEQ85TOuypEt2WQfDdW56PAwwzOgE-JFQDPUsaMXgyH57GoXCtHiyDWt2y9TODOIkARIbJxmv9pcd38XSxE-HuibGHh9YdmS9Q1NwDCrYbxa-QSulQ4K52p-OHyIulQXjZcswqCqRGaidnRiasGTZg0PyaOQYUE1meq8Ov3DQWgUlpA3snub81LGENhcbvH5KM2Wk1vW7whY9mziibhcqw7u13rSbM53fqevqvJRz8uNWpqcsZkM8Vlvz-BNcsvFPvQHnZ8jXoxuuareHgo9EQ0xK2FTTr55a9afVtVF354PXqmppSsP80aoos-Og3_PfGE_WvD6gifdd0M1biLKlJrufSC9lw0FfAdOgIpUE",
+                    "AWn5SU6JLUi0y98PivZtLB9wlGXLQfapy6UmgUa9VdDUFhcSFw849eN-Hg7CDVdAfz-xbwNoQu10nHKXctwXLLBBQbvqfgJmad8lrs_NQg4svn_CU-iAdm1gT2v9tKKjdq67gH9wZGeezyzshLMekzyTL5c_otD0g1At1flAY3E7d5k-Qe1zwoJFFbcvr87m716bDFACK9fy4PtR0i5FiyKnKbTWlqwiRvy9zuSjy4TAd_SEqxOPPw-Ce4JqEavcbrUHfkK6Q2iVh7c4stl3OpGg4hQTCUdjQGh3Q5Hz8xpJBgTCQlRooF6dSdhtvSrQNEd1BW8OwiIP3a2mVj0hP24M4d53NUMu6331HQIJqMbxW47swq0cKPminZSxQ8wNQ3jLN7Hz8PqZDV42y4ofVD30eHuUcYoslDvk9lzfayfNxJ3nZj5e8moMMp50psP0ww",
+                    "AWn5SU6KEwJhduMHYhS4xgUA6396CYQg9NN10qpxy1bZi1Bv1_VU4Yf3xDySMRWnTcoVzn3P4kpwfVqL98voP9h9sn2mVjcs19SoSTHb4T_rqWfc6k2vA3HpdTJnjpyD1BV2fymhPG3R1MatQdXVy23V20Yv_ihwdAP2e5yCgdEJ7lYa9wqhz_dgyff1_6QUjmq0RW45oXCCHJ04QQawVdgN1WamodgtcngBl6VBnJDi5kLyXw_DpJWu4osQLP32cxggDtPGrESixTg9AsMrmRFU6tLYNhEpHPS-tNE4U76njsMxUAoXozrN5ULIlpQs4BvDWdiQuHe9duu4IrrwxOBlS6NCFvlE5L04B-Ul8xh0mK3KkOUmtMn22Fod4sK_g3kX3vCvlmkpDIFWLGI1lFOO64onYp8XSzc0e_pzLgM1rggDJ7uosjwxSDPHL24nIO-M",
+                    "AWn5SU5JQo4Ho_2V8iy0RS_J3zUwlXACMSzjD_fyv3ewkaKaB8J_Q2urRiUcl08fnk3r2m62iskNavAkL9hCjeKHXD9Ob7pji8-xqDbfqOmzXrS-PmnRfNxM4MhzOola4UcBB3PHOhhNPyBZYUtk7a4prxnj4fqjeSm8uPOjvItMWGeDFohuoBnJSqpCOn80hgV5EwAF-MsdhteZLsdOp7h6_1hEGeDJxsQjfAUmr4BlndA7Dv3XHMvGHmSLt8nuhgtHZY8ld_Ba02YJaNP-eJip3P8xDimUSOBPRGIu2A9swULm1LMIjej8xALnDC0fM9mpVq0w-Uio9Ueh3oIIGBblRTeGJJzDyVQ7M20J92DBlp1aY804el_ZPzIiN8pvpiiFGFsleI3RVvIzI3AN7_fIG5PjXu0pm28A-tkk3XeOfhXM2-gPdW-HDyvE1LJwF0bE",
+                    "AWn5SU52z7QG_L4anlmOc2lARszi2FNGJowsrXkvivDdiJabA0k2k7QE9pzoFBCYAhbPSEWWNbeoJe3ZCAqr0R-2-o52gobJimYHXPevDh_TS5lV9Ga-LCWRCzYhpIxGYjjFCfBoBkAgexszVrISNNHYuD_ww-9oyA6Nm6P5PlrE9dIhI4Us02ibOgYXD3oZKhYP5F8c04ieZnGJoRSwrwHFA4vjd07be9vS2rviqICqaeCD0mUWwC_yK1fCzXY-w8FzlX4U-VnRkuFT5nd4_HaS62z3KjBaw9Al0Z1SWnIEJSNXlA",
+                    "AWn5SU47FgRzXLzwLLaAQMON-RPdqw_4RtVnnWuWtHlcEiHlXfyGuXSYxcMLfNSFNb_Z-anW7DoJG9dzMTiDSdVjJW8luPljSybbCC9SVbXESvTtgkvhXzusH0gjUla2pjyIVtKKPFastQrF_4DBLQfxsVoPTsdPZhD4mJoP6GzW7SUmfLp4h-XNOzvXDvNquAyp3meq43zA4mVLtTTiIk8twRqrbwLY2inymoUrOq3f6D93dOqRbV6rWyB3Gt99IziudMfKtvMgiEQdFA9ml8_5wJEDwHCFBYPmia0h1uxVXG1F89ixFln4tp-GyGr1EpASeVRKGzboFyzSU5EdoYMhj_SnGd81pCp8wPZy_TE-qtvPdPI_tKuZpsh9yqDsLOqdysA4G01nF-7-bWt6A3akVA6CU6gI_x6WlnHA2XDZMbyt9IfPcOuQZRUsJ5GEXlNT",
+                    "AWn5SU6n1F83PR5u-Z8FkAte8Ff6R-tNQKmZsrqWjWUsbzL_71ctN-vJlcVMjACivR1ZKHhSFUAMjCdyyPORyoSrdAu0pWa6p1FVgOrx5emLD9dWrKTrJZ9tDETY1nO611pZsuKClCGv1wRAb0HJMdJsx6RjYl9mb1OSD3Hd8pulLjROCcjzKLth7OzbPHVndZqP9L_jehQTIpH5CzBbpA6gPtQjV1C4Z7-9PrDvHrmSXGb_f4VZ-bJCzHydM_G7amp8Dag1nKeM3GmU4H5AulZ_EMkxU_E8IGh9GUFvE5qSgco-lA",
+                    "AWn5SU4i_tQsn0fhxAcGBfr4k9ZgKOeMCPLUOnp9qDN7w0KWyEU-_tD3ayM1yaZRWiarCZgm-FIwiKdW13jyrVS7PO2DgXOuK5MQM7fVibD2VPEikZuUz42vUES5oEiJRNDIljXy713WlCIH0fgzkyt_SPl_EQ64IgraFZd3QtSewpDctQtasArh8Y6oJ4cyttDZQlvrGLpUzoVrE2AtrvrTLbD4bzt9CGlUb2mqH98JX-0ajWEo9ZPha8c6mYpu5GbHhMhjV34pcTHlBMPp_3Lw5xP_JP0riV6d7-v-ZU6vm1e9ST-zIht1IT7z4GWCNmUCQRl5_k35CZ-OMmui_OttjHzfv8Q6J48PWQa3RXacrOlkdEaeTTjWt_iU6V_XN-G-3Hq-z5AhfSe85-ubs6Y43MtMhqU2ThQSLbw9mKJtS_bdluXdBNktY1uJ_K9ugs8X"
+                ],
+                "review_texts": [
+                    "美味しいコーヒー、居心地の良い静かな空間。読書や仕事に最適です。唯一の欠点は、夜間と日曜日は営業していないことです。",
+                    "静かな路地にひっそりと佇む小さなカフェ。仕事前の朝の行きつけの場所です。ミニマルでありながら温かみがあり、毎日新鮮な花が飾られ、落ち着いた雰囲気です。\n\nオーナーはいつも丁寧で気配りがあり、店内を常に清潔で居心地の良い空間に保ってくれます。私のお気に入りのドリンクはラテとカプチーノ。手早く、安定感があり、いつも満足感があります。\n\nシンプルで静かで、まさに理想の場所です。",
+                    "ハノイの地元のコーヒーショップ。リーズナブルな価格で美味しいコーヒーが楽しめます。",
+                    "Airbnbのすぐ外にある、可愛らしい小さなコーヒーショップ。美味しいロブスタコーヒーとアラビカコーヒー。夫はベトナムコーヒー、私はロングブラックを注文しましたが、どちらも美味しかったです。ミルクの種類がもっとあればよかったです。",
+                    "ちょっと人里離れた、居心地の良いコーヒーショップ。若い男性が愛情と情熱を込めて経営しています。美味しいコーヒーと、ゆったりとくつろいだひとときや一日の始まりにぴったりの静かな空間です。"
+                ]
+            }
+        ],
+        "summary": "Kế hoạch này mang đến sự kết hợp hoàn hảo giữa ẩm thực tinh tế, thư giãn tại spa cao cấp và khoảnh khắc thưởng thức cà phê với tầm nhìn đẹp từ trên cao."
+    },
+    {
+        "plan_title": "Hành trình Thanh bình & Độc đáo Hà Nội",
+        "theme": "Thưởng thức bữa trưa nhẹ nhàng, khám phá sách và tận hưởng không gian cà phê ấm cúng.",
+        "estimated_duration_hours": 4.4,
+        "waypoints": [
+            {
+                "place_id": "ChIJE1XVC5WrNTERu6xnIePqtso",
+                "order": 1,
+                "name": "Quán cà phê & Bữa trưa Yên Bình",
+                "activity": "Bữa trưa nhẹ nhàng với các món ăn tươi ngon và thức uống tại một quán cà phê yên tĩnh, được đánh giá cao.",
+                "location": {
+                    "lat": 21.0291834,
+                    "lng": 105.8501873
+                },
+                "info": "高評価の静かなカフェで、新鮮な料理と飲み物で軽めのランチをお楽しみください。",
+                "distance_text": "1.8 km",
+                "duration_text": "5 分",
+                "transport_mode": "タクシー",
+                "photo_references": [
+                    "AWn5SU4pye2MCDMsXtIy7mt_0XfvfiSCdYDufJNB3X2v7-oAl3rW0OXsDMASOkRim-TKJIns-eh80Ms2rqMpDIQP2jz1IRTVH4Nkh265TYQG3Gr7JDVa2xspVWfByA-HHxeedRECZvKYermEMEMR28WHP8ARuo3ueoN89GIg_tlDNxQ690w7ZQFAGmP6opTOos_yuy2QgHC3J_BnW_TQmjdDRs_fWq21N5uuCCv9pErgDuYviH60xmEAg3iqj3s2auHpMJ4dNV8fwJv9dpoko2hIyf0xBQfjYzIrqIBsCJdYGsIXyx2gi6IL-7ajpmenFj8WgfVkTiyEYjkdVEnBhLHClrJ8FccU0jq9iKFhdHNJ_JL5bvYv2AZZcy6TboTlIoyK_wmohXdxbaF-3Vy2xyvLBcbJSYpGWwi3OLdEk9YZqyLL1Q",
+                    "AWn5SU5fNOITbEBLmVNpoBpn4xoCxmCBlytqbZR8TCnSHriPZ-GR4SrKXtEmqnqyetgSbbkPsqxUon6NQEh6LfQqTXO0-DBC0Ip3BX9Yzr0buR7xPU944hcLS4RgY-vZJONavF9_hLwJwsCISy2UI2uBbagM6GVc6pIZA-ihzYC-NfIApxm4aDQy7EFULr4zns9PhTPye3MAZBFX83cMWp25jEptUpdaD1iTeGmHqMvloMYcHqtMyV4IM72JMniSLjvXtCr5dEf_DkHK1tpW1xTdjsB3ccm8eHaZ3MvCnYOWp3Supwo1jRF0c3Ah_o9lsF3US-Rz8n8jeL8JhnBmK5Qr09ZC-izEP1lkanV5WMhF4BbQmJ1OEYcuq9qoZf89MaSFr3ssC63Nftpb_1vsjv9tO8bBhyWSBDG8A5yG-UfkEQJu-8Hy",
+                    "AWn5SU6KvL-SRUpnUhYx7MXP_MBRCuJa3gHdu2jY1LEHrLnpUNV6AJs99R3TZ9uJ9R3EulqbLFS9qArMQEaWrPgcxnyK28Vkh_p2QN73y3Tj2g98eVaoIk5RKGxdkSE8r8oYv3p5YktmKq_g5cZnUZFoFiLuDOysAT-qN_6kWATYGOpPKyBWlJlTfo-6RSsvNkR3tLIiHvVTyrPRfkB6pU3zHOUtvaGAs5CplWx-oq65Pz5mKNZd7dDFrEBJfNZ5x3bFyQEgBlzrsQwW4EfOSRrKIwZgY3P4mns_qqYhJJCXM4LvfEYDdRq4h6HW1b4kOWfSj24agvnVdkfEFlDkDJtvjG-4nEZxXDcR3xRnIvN05FrnG4IACydcBM0aWzitbbHggVS1leLkWQgMtmRo9-5VEEkdHCZZ8GtZJGmIEuOTkOK7tg",
+                    "AWn5SU7VvCalgSgKNwa4zvG0kcaJxZ6_HLVeiGkk7-qrgIbD9rJZzlPBUfhyd5RVxAQmwv26FPgvG4kiFbFpL0X5tLCdBlnRWeOrL8of13EhkrYPgLw73GAkTimejNdIY-hw07YP6pVF-FjMsXtZXfypkqTKcMMATluy_CX2yfylvlDexSLjW5sXpPC0O6Cd6sDgnjZ-TEQkkRKWY3WDW_v1PD9KjSVsYr8XwRA958ufiwZhfcsUI3HC9Hy7ap0SWxfr0iLf5DwDiiaXix7GA0Mh26iw4FjDIPz13LzzZYtCi9HVQkxTA80Iyx_s3OQvxrfyCGsEj4mUtUgz2z5Gh1DtF564ISRxvdaNWKeN4U7AZduyJqkmj_MWyf1v8WwOICOq81FfWi4gu_A2lhWfYEbqm9VmxaSE0k59H1PbnkBg9_G9JQ",
+                    "AWn5SU4UyOpD8cnSBjUkib440BtLxs3nvqyYVG_HovQeNPmebbbSP53kalUDquKulsq6z1MbWkVRu15RS4hfUOsOYJe5bsZnl0elyAVAq9mNLLP3uwTnoK_KQLl9Wz7y2r4mpNsey0C0UqtiSoH3-yFE6BF6Hk2exRoR-Gb2QFXxRG0mFtSh8QNH0X-dfy8rLeVsP41RzMGFxrpJSVfjlGvJ9JF2J74M0aup7IiNJAhHix9DVWXc8yxN6ZJvBy0eLSAWZ3orU1k0JOm_0DqlVb5QKQGb2B4b8tQ6faSi1VJeXTdjbhOhSZBgSEfpI8z7yQDfG0xSCNmYyY87wrYoBenvhchcEMnECBF7LnMURdk3fI1d8Lz5Vl54ScapPImwiNx50ED5bmYgouTwaOKGWGpo0BtoztyQwia7srmC-g4ttD18TN3juuIDznPOevraqt3C",
+                    "AWn5SU6ESC6cVrKjRCq3n9ys7z3VFM8uzCbLol1HkrJ_YEwfQ_WBbeAiuSzzc6nXZ1NQa9bqwQXaHBmFM4OZyqiux78aodz1qFaGw1Ao0qn-7I3eVzK8gsy9Wksb1Ybl8eX80nVQ2SJn7oc-NW7FDTmu9hsZfquY4tU3UldDAsS9DXhpxQocYLYnm-kUjLctP_0HP4BPEl7h6bCtEKa6-BMNRM6KLyZDnlQEgusmpcQnsPpoI0SheYbh9m1rS6IEhUVo5ewFKzLK7ZXFeZM27K6voKOZHQnMfvwfRjwF5FphtLK9OzhWJ0lnkfMXhYMSIInL8bUkoMycGaU5htZSOh1O26vr-279O_Ax3mhgwBAEE87kSNHWPmVaDBUMqfmq2FCpq3D54dw7-FIS9GcgxmDZOvzR80ahvDOLZfn6ZTgCNwnT2Auh"
+                ],
+                "review_texts": []
+            },
+            {
+                "place_id": "ChIJ568LQOurNTERu6m0t2HdPEo",
+                "order": 2,
+                "name": "Thư Quán Cổ",
+                "activity": "Đắm mình vào thế giới sách tại một thư quán có không gian cổ kính, tìm kiếm những ấn phẩm độc đáo.",
+                "location": {
+                    "lat": 21.0258648,
+                    "lng": 105.8537104
+                },
+                "info": "趣のある書斎で本の世界に浸り、ユニークな出版物を見つけてください。",
+                "distance_text": "0.5 km",
+                "duration_text": "8 分",
+                "transport_mode": "徒歩",
+                "photo_references": [
+                    "AWn5SU7GPhEF76P90DGYaOxNP3TsdYDwwGLn8lP6wAL490M37v-UX0pmMGlLj48Lprnkz2mWKznsoOsYptb-_KkEUEd28FlW4ujGXN9lPXZdxamag6A_Q3peEQ6yInxU4l6wLMSjl0RR6TQg7Y-NxCQ15idU-i-lYQE7z5VxyQyDg3HL2SUKq7o3aCR5rQLzPbOqX6f7au7S_Krwl1hMML2NvYXdxpaVy2LTgo2leX2-WjksCQ-MI4Frrofj7E26ptCw2f6CsI0tQHXFk7fzmVlNs7MUL384bBtl9HlTL_W6B8Qw2aDz6V1eeysjH_9pLFK7z0xEX0fu3UtmnKawodiyHiGk3CD65NeDSY5Y09h5xgBh5vc9f6qsnMCxK02BHAnV5NuiRA2n2cUNzR5n1B7kfTVp70ctCd3M6f67MQE3jSHXEg",
+                    "AWn5SU6hLGJjBDX3DHBe6hrT_lahgLAyWk_8Pq0gsuZL5wZiIs_tmV1ecoN6fxsp0VqVP2O1BDFmTcy4AQkqzUosK_FbTL5txPQRMgbexXvct5HMxmHCk0qYUzcB5Pq9H3YmlOtoARtUCZjtwP9p9aqn6dfdKVPK4NpLAkp56zaGsmgjBwwjKmm7y0FHuxBVTkzfw7MxZ9T0cni0EUuamKCyaUQPamv2SmZTd7FWXMh2TuqEVvdBUELYXTrnC7eJ2P3zvJllww7Qw0IjtYmPMGBTMvSSxJqJwke_dcv9s1qciyhJAcm0lz-Joax6Z7MVA4RzoJNR86Z1QAjFfWgRw7mqtHD2sIkGy1aZDtlV-pWnBVVf38GhWfZSmzefGDhGswozKYjEEJwRFJp5YUeLOMW00Hai6UeseAb_42jec6HvRfxjS1pu",
+                    "AWn5SU7j3MGYNhADh-_ESLZpisoRbJGyhkLqmEssEcnmoQqoUnrJJBXOGvVI2_2bGzWrVF8vONxnppJssg7W9z1cEo4kGWZF7S1iC-NXEQDSX6NJxkRx_3pFtSmusaIya9DExN2YwRwJ5BS5EjJl_ddY2kFhw2AmJ-3cBz6NwNFuN6zDezFx5CHhDm6GOQq7tOwIueGcWmhk2M1RRrpcvZ4c7mhUZuE-gEosA_0EbA0QUPM3tt_-70dhFWHXmd3wAEcdNEAIzPCS0hjQj3xU3Z-NIsJshgDXdHxuraTb9If2OY-z2ivwUuAd_AfLdP8JjsV5UeY1V7pgTQCLkw5rXVwUOe0PPF5RVDxBaXyLSPaSRROOPXEfOJ17dXQsKkJKGE76Fv25hWN99nksCbyto4SH39Jcvn0P_mAiRZzCdid9TK0dKVY9",
+                    "AWn5SU5tHW5Wlly-qPrjsg3JugGCv2udTnBwXy6fB15sYy9XWRM0UPm6SVUmJMsXPi0AOf8HToQcC8JQ-wsd9ZQQM8NUmWUcH6PLasCT5aphXcNwsMtE06usxfG1YlnNyKkOwS3lhpmx4pxHmyEFjxVOkpsWYMRNhM1CzIl98-7EECrC_surmuA_zqsf1IdFQklYVFUVWu_NvcvxXnzZkcVLLBn2admGQMpk-gTuTIZkQxsTuqKP62C1zlkBvUlehPSFoER51781V_UVSFGbcKCluBEtHGk__NAJDjA22dRhKIt_NfgqT13Z3ZbCjzQtRp7Uo938RbG9dZpGKkklOASNDCb9Mqcrky6cPclJIj79Vo55e100Xh0S8h6NRwZatwMQfYX5AWGPkMHWUuSrLc9hiHTLRWzhnbQE88jiGjy78nM",
+                    "AWn5SU7bK11osCtR3vkcHQmEHsQ3q-qC_2f7v8-8VjPEMu7rSsxNcID7JruIDCJPJZabivzKEPprvaTj4I-fFL_YzCUH3isovZJsV27j_ymcyLjZJB8KZ8QcQrO2NmJUWaE5Uac3syFRmIhdMrskM2aDiQ6tHZC_kpQKxts4UpYE4V3MHg_QNatsNjtHJ3GfTJ2eJfY7rFLotmDdCu8C0KA1d-xhF95QOIYZm7TWjjDk08gKEwvzhwmkSwxXaSBCL8WykbKKRcZGp3X1w-Tg17KgNfcCiq_I2-bwh-YuVlhKmGOwFZoXCixh1LOyvF07jO8qNEzBQUERZXy-ll4Zr0b9vlgDItn3oBbZ4orArLCaiZZEEwmDX5Y7egUyt1_5fAOovJnxFFl0dP55u0PbkQcb6nvftwV_-PN9aoZb8EqKIMHncpWp",
+                    "AWn5SU6c3TFg3Yv02DtL1LHw6oVgTsSNyyUZEmahHXJGkZcThFYDAigKZOOWQwyCbOoI37lz42_tYygjpUrjP92ertMi55yZz8UrGgdOIO9XXfNeaCAJnPrXk4sZ1x5hsU0t8f31Z84Npd8WFAWDMq-P0xeGd5dL1Dj9oBmOWUoVE3MUoQY9bQAnaAQqpb6D0BliR6BUOciRmdc2-gRftdotZKvpZs2b3wZ-jICgcXwQGizzNK_A2rADBvYvsJrrpRov8lhfbiy-luLDSFMJvXFnMS73bDFNtzqRO29cNhe-ZKU1eD3HIB9bGnDSgxPcqlP2mPq3SA27QTDa3cLTKmInVTjIlIxWq9FPwnmA26pjC-eubckQtlcLNsMV8hQoDufraFFCOgufP9Mmb4lezQrD0YJd8gMxtOmwYV08fAORk6Q",
+                    "AWn5SU7bIaRUWzzZMQV8NncisPZtFIqWG5T_TuBVBxeT9tvQxRRx5xXkGMn8RxK-aLdWGxuoFbbkHOUTkChp2P1aNLpzlzG9JoRf74PsR7K8bBsfVCRLkUlqCba2xMJvYNY6AeY9L6afNnokVQlROx2hcKYuwhL070dAqZ1jRISlvBWA3x38-2hkSdrE8HqjLVZG0yej6Y1lpVL291G28Hu8qhHzhzjMtabcU7RSGsi_kaF7j7S9piplS-clwX0iJkGsN9o-J1up0bBA9TwxCzsSWpuxR9LQZ5rzTeGItthOujRGJPYRv_koUeVu9UIZRqPQvpO8A-Z9Ph-ru7KPZbkHLOym0KwRKKzhS3OhEzG57CEpZ08in8fUN2G0eFho9bgDlkgERAcz83Dsp934ixuXQxFF4-RliROr7gsJvZ6eFve3hw",
+                    "AWn5SU5a7qYF2Ek_uzj-lffISZ7Hfm75gCvEhOJcrUJhW4hchp1SyqByp-f1jvEBHnOyQuD042O4tPcZGQ1WGLt1E6IgcsmANjWNSs-866Zrxz2SmXS7uzXxHxL6q0-JfM_9WztICz1WDYaDBAGAgCzVnTj-XYPynwqoS5Dnad0DFFmjTnruk6sqhoxNfFYTh60u_3QBaL97RWkgqh-qFWEJEZ9qEpTkb8r9xm_bA26oVaovi_9bxqp7priWaKc-P2n8C-JzkGTTx-1kE9kkq0Iow8nLaYjRKDVfa4HynE8PWO0Auln9SPbpYy3GVxrXtrUTFjw9bQtk8PlmNkPa95s4A34gSQ9YjMSgdrvz5SS85JNskN_AbDxcqUqYwFZCxQXbdVqcYlWXwkxRPJxuChw_DRcC8PjElU0nOix-v_dulMugjA",
+                    "AWn5SU4_UbLo4rpIFYWa0Ca4SUKhCAE3jGJ80AKEQg8vDOaAhxafWJYfeXOW4IUqdWrPDOrvRNsYQLeqdkKTJIw8Bpex1kePMqysoS1j6Anj_xXnhUR8fLkMtheqb3_BwtiDf8Xk87XfWiow_I39-C9wy7NtjNBZBAPMixTfUe-fuGp8k8IpvuKRzWMThqYGdu-w8aI1l397uAm26Z6eLDIpehJpiezcO97D4fdac83EnWobbbNHJC4ll3HZY6LW98FjD3w2RCtrP1Lo16nG5R5whsbPvtwaVQ9_GujqM-Jf7pryRXPYI9zvlxqI8hj8hKo9vmKY77KwFc32dqzWg8RYsh2HdrWFfVQvtnbEkVG9VeeaTGM4crTAd1FtXKE_JJI3sOMKAQ3OJG-z8z2K6sD8cqF5DtkKEqGtddn202HYp3yD8qdT",
+                    "AWn5SU5B6NepXiB1n-Wa-yFq4A7dKixOzsD7vk898A0ukC4swVz0aqaa3PD3mkf6RUdc3ykxSa4UNL6qnI54GMGSWYQY_kqhW1Bxm8a0pS1luPW3vu1kvUWOh0n9aVnU3Fw6FxkWbzOrSuNfv6zKtgfbPCyh8nGtybabgCMNaOwLn77jJZX4bSd_2hRKbXUYLu9VqoVAYU9KZZF3lJ84Dfa9ywWiyAo3WIocoWyAmXYDwI-n5Wa1m0zhYbK4Pud59GsPataenj4el1LvX9N7MSTckvECHPi4Vx2xfIoSCOcbc5H3IwUwmvQcEEkImksZ8kLo6jrmgvmL902dfw0Yzdey8q1Al37R30m4F09Ai37XeKejkFVh0tnqtEPjS5Uciv-GqzGwJDA4e3FgxdfV7pGTiTaACp0OG96llwRLhV_e2QOAUuG0"
+                ],
+                "review_texts": [
+                    "nhiều đầu sách cho trẻ em, sách bây giờ in quá đẹp. Không như ngày xưa, toàn dùng lại sách cũ. MÌnh nhớ còn đi viết thư gửi Chaien, Nobita. Có đầu sách mới là háo hức đứng trước cổng trường đợi chị gái tan học về, để lấy truyện đọc.\n\nLỊch sử của Nxb Kim Đồng:\n\nSau khi thành lập vào năm 1945, chính phủ Việt Nam Dân chủ Cộng hòa đã quan tâm đến việc chăm sóc và giáo dục thiếu niên - nhi đồng Việt Nam và xem văn học và nghệ thuật là khâu quan trọng trong các phương tiện giáo dục thế hệ thanh thiếu nhi.\nTrong những năm 1945 - 1946, các loại sách như \"Gương chiến đấu\" của Hội Văn hóa Cứu quốc và của Nhà xuất bản Cứu Quốc (cơ quan Mặt trận Việt Minh) đã được xuất bản tại Hà Nội. Năm 1948, \"Tủ sách Kim Đồng\", \"Hoa kháng chiến\" do Hội Văn nghệ, Đoàn Thanh niên Lao động và Hội Phụ nữ Việt Nam cùng phối hợp xuất bản ở chiến khu Việt Bắc. Tuy không in được nhiều, phát hành chưa rộng rãi nhưng đã có những đóng góp bước đầu cho văn học thiếu nhi Việt Nam.\nSau năm 1954, \"Tủ sách Kim Đồng\" được tiếp tục xuất bản do Nhà xuất bản Thanh Niên (thuộc Trung ương Đoàn Thanh niên Lao động Việt Nam) phụ trách.\nTại Đại hội Văn nghệ toàn quốc Việt Nam lần thứ II (tháng 2 năm 1957) đã đề ra nhiệm vụ sáng tác và xuất bản sách phục vụ thiếu nhi. Từ đó đã tiến hành bàn bạc và chuẩn bị cho sự ra đời một Nhà xuất bản sách cho thiếu nhi Việt Nam.\nNgày 16 tháng 3 năm 1957, tại trụ sở Hội Văn nghệ Việt Nam, Trung ương Đoàn Thanh niên Lao động, Hội Nhà văn và Bộ Giáo dục gồm 12 thành viên đặt nền móng cho Nhà xuất bản là: Hồ Trúc, Cao Ngọc Thọ, Hồ Thiện Ngôn, Lưu Hữu Phước, Tô Hoài, Nguyễn Huy Tưởng, Nguyễn Xuân Sanh, Phan Huỳnh Điểu, Xuân Tửu, Phạm Hổ, Thy Thy Tống Ngọc, Nguyễn Văn Phú đã họp phiên đầu tiên để bàn việc thành lập một Nhà xuất bản sách cho thiếu nhi.\nNgày thành lập chính thức của Nhà xuất bản Kim Đồng là ngày 17 tháng 6 năm 1957. Cái tên \"Kim Đồng\" được lấy theo đề xuất của nhà văn Tô Hoài: kế thừa Tủ sách Kim Đồng đã xuất bản trong kháng chiến chống Pháp. Kim Đồng vốn là hình ảnh một em bé người dân tộc Nùng tham gia kháng chiến chống Pháp.",
+                    "ドアを開けると、幼少期が一気に戻ってきます。あらゆる種類の漫画がきれいに整理され、楽しい方法で分類されています。子供の頃の雰囲気、明るい白基調、とてもリラックスできる、私のように物語を買うつもりがなくても、立ち寄りたくなる",
+                    "この書店はホアンキエム湖の真ん中、書籍街にあります。ディンレーにゆっくり行くたびに、ここに立ち寄って漫画本を買います。本の種類も豊富で、キムドン書店の価格は手頃です。",
+                    "花は外に向かって咲き、\n生涯にわたる才能、悲劇的な運命。",
+                    "ここで買うと、定価より少し割引されることが多いです。本はきちんと分類されていて、エアコンも効いています。"
+                ]
+            },
+            {
+                "place_id": "ChIJtWAqmJWrNTERrJatdhT9y-0",
+                "order": 3,
+                "name": "Cafe Góc Phố",
+                "activity": "Thưởng thức cà phê chiều tại một quán cà phê ấm cúng, nổi tiếng với không gian gần gũi và đồ uống chất lượng.",
+                "location": {
+                    "lat": 21.0295075,
+                    "lng": 105.8489029
+                },
+                "info": "居心地の良いカフェで午後のコーヒーを楽しみ、親しみやすい雰囲気と質の高いドリンクで知られています。",
+                "distance_text": "0.7 km",
+                "duration_text": "10 分",
+                "transport_mode": "徒歩",
+                "photo_references": [
+                    "AWn5SU5y1gZkuW209Z1JV3B3QAZJRdy1uCimcc2Ps9Hr1fCDp9iNgQMGH6rgcTy27AP8WuQspzWzU8D4Pq3d-HSRVJ1hPEAUZqFKeAjFzAucFKRH9Y_81wz-0_h3hVzEE8ZSzFqD-XeXRUWOVVWG8bBm8j6IajIeGErCmUMiM4S57ZFzGRhp1laQpl44w-MLG1RzaY8n2rFo8pR0aCQf1idFXqDb90YvaanKxE4WBj6h6pBqds8o2xCuP4_rrM_ljltSyMKtsWwTbX7z6sRXtwx89ONff9l8xuAeM1T0t8QsMmyOhA",
+                    "AWn5SU6B1CfkWxtpnk4GUxs8imi-ohadPcVQ7AJfZGLZYzXN0x8NgJVzs193m32gAVUufNfQNBZ_k6kw_x2Hl0XnXP2Dh0DpHtTWyJ_DPFoOmYPvB0h-59wYcMBmIayiCuhCbbun7JRKS2ylQJ1kbLCzKEzn-qSUT-yJthZlICXbOviRkKPhEQgYVetqD-jv9gKjKpKDzAnGVLH9r27PX5F58tPXX1QIeqquLoHYqbxzdq-jZ5jcomyckNEWsxwhkNoPT203XD7JoTJaeLYmREXMkjYcD9f4ac02-GBUkGcn6F61xw",
+                    "AWn5SU4X204ScFaFY4HyYvNlHexN0TN2KU5hVXLL1TGmtwVmvlOjwe0FePnaFJiNPkzEy0gRqF1jAdpPWa6_HFRu3i8t19elqLiVXZ8V0Ird78sljzAVYFNM84YSx16ZURWGW6jkrD9txTenkVLaFUJf25HSVk0aBbYZG8XbbaGOb7wqGeIOcs4Q7hSRTHXcWJ4sYzDbulkyTPK5pdX0nr0euNtC7GpGR-3lQaxfoRwyKthaiI0yL8VFbz_eXz4gJO7Q2KLpDAtNt3_oec6S6tq-SKSssTa12Bglwo7_SrUXRd2piQ",
+                    "AWn5SU6bqjyvEdh_OoL6X-TgNjthYd1ikcoywpYq7dq4Q-CH7INGYJ_C6HleQ_3sXgTeyBN6szsj3yHCs0pdJcTlh_TrvybJdL6spgVOhORLFI9wSSdMbE3cPrtXmqTuV-BZqHjqxuHC2PMpgNjzUTL1Lk-i-frlTyN4KOqLWlPBoPZSs4hQHJhhcKuGYNOCg2jn8jRHpRhAXDKal2lWdMk4IorP9l76qHJbAgOB6I_6F6xL68EDUbBuda9BpnMxu6uJwqZGhmyCnUrZtB3A62zUzXEQXvayVDVuEAHfw8o5qe88fg",
+                    "AWn5SU4ZaOoHx9FgzoUmO3yCvQzIxmYdGecc_Cepyb1c-qP4Ea0_eoc6nMJLvuHmOMikpDPrB3HPIraNxU6AcISq2BxCibaeNfSeM8iUdWg83NQzvisnhFA-JiEARTjY4taAlPTr64uWC4BRLFxsNYZQq9JxZlR0YDtHZYasQ3bPQWNdDzwnR6-hJg2_DLNXjpmA9WhycV-AkfYZzveoVzx3aF4Meo5y9go5OiZI-BUJaqn5me5hGJi4wBomUnag4iOvxVI1hJa_P_kqoN5VxML0Ld0-I_U-puEdRnHIrbZc7WZaJQ",
+                    "AWn5SU6UABGclEu9hqC4heA4vO2B5OdR_AkYNRW_GPap6pwKAow0lBo-LvXHPY7cmSQmh0z1rqNduVB6G4Ngq37e-PNu7rPQKXQvOcasyY9A6mv58MSP7MsMfdp__B7Fatw24pmAOi8Qa9gBtD9ul_k-eYXmjgb5NcdoNtT-giPh-tlziS4zLtzUv4eslarZ2UVhOlFy1weylSoB_IPn-KhCZ3CSZo1niRbkixRV7xAXC0Kb05C0YmMxwXqWqgaIdG7kAfT4Xp76BXcBDic63_E5rjp7y3njdpeoyzQLBkykrlHTzg",
+                    "AWn5SU6qHYXR4DRPiyDN9zLVvBW9gkCbmpI8gVB1meNf7TUrguxmA2p-m9A8jjkH4Kpsox_0AEIF66FIbYWTdW5GyGlAUfV0AigLMZuTRFrN0tgW72DGLSAAcUQ2xAo8kqg0oaUvHexo4hNKyqKRM7VffAyVyt_YAly0i3Yi8e4LRyx25kll1tC9NMjgFb18q59MW_A5MOT1cz6cCkVQytXsoZsYBKQxWb_2XC31Xh4xYN6_e4fXrdfE948-VjFkh0tn_NLMVjWzQA-8vMIIVHgh8A5nFgExy7_rZ5c20EjbCRIpBw",
+                    "AWn5SU4sd8yAw_p_y-Py4BRMudGKf-FLj9BOssjSl2yZe01GiNnMqwvugXJaxRlbTG4T0QSo_aaCQ70HOwth3TXTykLySDDl8Jdycxka0VZOgP0yTfphH7x0KBlqrbQz9E7T4iVTEBnizz7i5VnqfR3iwBPDxSwunIr0my0XLtwLobjRopv5C4WG8H-hbQYB-gppdNY3L0BbEAX25EcZeQuvpTKwetCsPh-3edNdZ5E2mIzAFDZKEBq8NEZ0XpyXwwkuFLN9hQjCmzsER66SETWB8HkKKKXgwUGMv4IWNO-lNu9kIg",
+                    "AWn5SU535n6gnOqOIF0ee1U7YHv8NRkFIyq5nRQ-qErNF_CqcvbZojlPftMZyloTXb33AUEvBeLnNraUsrMPryotAeXVpLFUU_UrHDxHuRPoFZcBHGeF4QVJOPfTLSLw7liBQdfb0tv2cdaXnoHvgd3Z7K7cmXwbtVyXHEFPzUCLAPiAEzpPQB7DvBQLkqPrNT4enbGqQRevbaUvpb_oBAvtZoOlp448GwqwCIk_Z3avhe-JljlNxUX1eHDEhi8VFJJgTY7CdUaRfdcsNgCu8tEB15zcKLVicPefS45hoa5ih2_2ZA",
+                    "AWn5SU70kHE1CEQcn00uos2T1KOvyW0UBeHMiAbNovR9o2br4GCt1DYFSyZswZnST9akEV0Pysd314tEyb1Bi2ePR0ogPQOU18_7r8abE5S3v3WHiChU1jBBldRrVDm-iDcVRXC8CeVyZrzm0khmlq9a5xC2LerR1IDAFyF-3uiPIgR4V7UQuzuz-rfWRU-LHOmUWJWw8R1CxTnSOuXrENU9ZnpTLt0d3cVWND8g1sW0ljIXh1IiH5SuxNH4BhNTKHjfsrLJgTdF9myBpnqsdmJ4aviUcS3EE5PYp8tn5HUPBANFlQ"
+                ],
+                "review_texts": [
+                    "ダブルベッドのツインのお部屋に泊まりました。ベッドが大きいので、荷物を広げるスペースが若干狭かったですが、大きな問題はありませんでした。お部屋は水回りも含めとても清潔で虫などもおらずシャワーもお湯がちゃんと出ました。料金も安いですし寝るだけの目的だったので、大満足です。また早朝の出発にもかかわらずご主人がわざわざ起きて入口を開けてくださり有り難かったです。夜は旧市街の喧騒が12時くらいまで聞こえて、少しうるさく感じましたが、まず快適に過ごせました。ちなみに泊まったツインの部屋は窓がありませんでした。",
+                    "家族でトリプルルームを利用しました。\n部屋は搭載画像の通りで広く清潔でベッドのマットレスも快適でした。\nトイレも清潔でシャワーも問題無くアメニティはタオル、シャンプー、歯ブラシ、石鹸があります。\n朝食はとても美味しくメインがオーダー方式で飲み物、サラダ、バナナがフリーでした。\nもちろんフロントスタッフの対応はとてもフレンドリーでよいです。\nこんなにコスパが高いホテルは他に無いと思います。次のハノイ旅行もこのホテルを予約します。",
+                    "旧市街の路地にあるきれいなホステル。エレベーターが無いので最上階の部屋になると移動がちょっと面倒。客層も安定し静かでちゃんとした人が多い。",
+                    "2022年10月訪問。小さな女の子が一生懸命説明してくれました。値段以上にスタッフの対応もいいですし男女混合ですが空間も広いので得した気分になりました。タオル、シャンプー、ボディソープはあります。歯ブラシはなし。",
+                    "安くて観光地も近くてめちゃ美味しくて文句ないです！"
+                ]
+            }
+        ],
+        "summary": "Kế hoạch này phù hợp cho những ai muốn có một buổi chiều nhẹ nhàng, từ bữa trưa thanh đạm, khám phá tri thức tại thư quán cổ điển đến thưởng thức cà phê tại một góc phố ấm áp."
+    }
+]
