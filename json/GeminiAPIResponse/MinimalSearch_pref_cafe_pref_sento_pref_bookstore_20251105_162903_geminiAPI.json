@@ -1,0 +1,212 @@
+[
+    {
+        "plan_title": "渋谷定番満喫コース",
+        "theme": "渋谷のランドマークとカフェ巡り",
+        "estimated_duration_hours": 4.5,
+        "waypoints": [
+            {
+                "order": 1,
+                "name": "渋谷エクセルホテル東急",
+                "activity": "ランチ",
+                "location": {
+                    "lat": 35.6585773,
+                    "lng": 139.6998213
+                },
+                "info": "渋谷のスクランブル交差点を見下ろせる絶好のロケーション。ランチも楽しめます。",
+                "distance_text": "徒歩0分",
+                "duration_text": "1.5時間",
+                "transport_mode": "walk",
+                "photo_references": [
+                    "AWn5SU5xJBPb9GMi9liLuVfppOjlWw0dYpD9_ukklwuQRLqEZ0b76NkJT7CUvYx2v5Cotq1Md8ydGyI2lx1wF-Q2PetJF1xshfQiiIjrvp0oAOrBdjm4vboo4rxPYDHzMh4S50DnNdzU9tuwKG3T5RAviQ7waVxRxb3hR2UTS0ikx1cqsRL-rH0h8XoVRHxu7x9BaPN2O5Vq5iBE94F4MIbcSyTdoK6SkTo9qgtABpj0AIBvWFT-enX3kj0emU2m0dt5iP7WsK8M5TTRDhXIc9vYiehWcu0Ol8SXv60WXFdt2kAnXg",
+                    "AWn5SU5U90i8QfxMNNB-Msua9dX8WYqD8Bt9Jr6POcCPp3TO-yJ6rTiqiq2RGmevI13mQ3xlujWIMNcMKxYHHu4CGCRyP9ZNs6-gMNfSnSC14d2WWUmmwAmebuo8245TvSdpLmj8gaVr5_3gXDQ29KfZV6zaAKtnKbeQpXLTBqHmgoJwvqzKimLJGFF9mzljuswCHh0fS3wCtLFIdbuSPwmEPC3veKEKlx4zKgV5dPQGbOCeVZETKqpfpYWft7vb2IIAOhCZGHsf6A1Oc20hKKTYMds4BPPVpSUI8MbW6UxozClZew",
+                    "AWn5SU4Ml2PqhYtQjc58I51c7-aPyw_Pl60_1LBffs15YZDf9B604ZPpR5O_BJLMw4xb09yaxvKN9zgKzD_ZbXLbZPKYc414lPQIh8i97jYzDkOkeMExv_cU-0puD83nv6piS-tAda0uNE8X0cnA4zPlGN-bmh3eRbC_GNsNWRF2d3ZJMFzaD3m4Owcb93yvRb90zGItfR5qfiiVFRm35opPkkzfsAoVcy87rhEqtYVCGKOLdbj9OXdMRXwUZwfPdhdJvGyG0TYbI-o7aElOdfWCIiuXlq1QreJA6LSKGtot1l4bCA",
+                    "AWn5SU7uaYHnrctD-XGeBy1viMphn_4UL7PpDJ_9PntIva4DcAbtcUvtNsuRKR1UcWV51YxwBMyKlRwoVnqBL-nhLDjDl7yjIJ_HQW6lM51toCDCXNrN_nEsjmL3bn1iQK1jjH9_DoUc2KcqZg1T6iHdZ3ENr-X2F1L0KCTmLJGBy-ZBQKX4snICLyH9hBTzidMWiWPjU7rLrTdnxiG7tXcrQoHzIz3B7dERaKslytRJ0U-75ghXbO4ua9jwIyuFkMfbrLoL3Y4yxbr8-x7xyKFJME1Lp0d4x20I3arpGYMmC_3OSQ",
+                    "AWn5SU7_deF2aFOy9DEeUuwhCOf9IyjLeYrrXc08Aj57K54lVPYbMgSCnzBt_DjD31g4zsgdA1q1-9pQ8Otx2Ugnwu5uR97Go0Hw1-fBHHl5nEDQw_-BuDSwbp43kGx3NcYChIEuoej8yTtSE4KBLcvS0RIkyRZKMim745ETBMILy9A6RweEgxkuWw4JPxet3RiwQ5JTQHFh3QYBUb4TgoZlSwOFOCLRiWL4yOHaEltpqQ4P7nQ__-6O2qa9IjsiYk3sCOD4EE0CxG-ZDKDgfsvIjcZj_dMjG-U2Wc-RmZlm4oXKrg",
+                    "AWn5SU4eldqtZ8FZSPN_b_vsxV1Fz6MynINkGL9CqaOfGS3TfL5Y4B4khAjH5Z8q-qanqaXlfosU3KQIoElc1BQ1Loe-jHYIH4-yYGhnxQbYNtYLqdJRKffZm3ncYc414lPQIh8i97jYzDkOkeMExv_cU-0puD83nv6piS-tAda0uNE8X0cnA4zPlGN-bmh3eRbC_GNsNWRF2d3ZJMFzaD3m4Owcb93yvRb90zGItfR5qfiiVFRm35opPkkzfsAoVcy87rhEqtYVCGKOLdbj9OXdMRXwUZwfPdhdJvGyG0TYbI-o7aElOdfWCIiuXlq1QreJA6LSKGtot1l4bCA",
+                    "AWn5SU4xUZQwjr02LASNUTltRQLm7-hbegq86LkXQuqdh0VquSh3LUPjUgMHlNGZrDOGWGK81ELnUe4vUVFkBuK3MMvF4Tw6qx0_nX96Gu3YDHCMqwAmL_gUCLfE9xs-vDtf7A0XYso84rZVjlXiUQDZCjh9uMTRcI8ZSNW3TAly_-F7uO3V8DoUc2KcqZg1T6iHdZ3ENr-X2F1L0KCTmLJGBy-ZBQKX4snICLyH9hBTzidMWiWPjU7rLrTdnxiG7tXcrQoHzIz3B7dERaKslytRJ0U-75ghXbO4ua9jwIyuFkMfbrLoL3Y4yxbr8-x7xyKFJME1Lp0d4x20I3arpGYMmC_3OSQ",
+                    "AWn5SU4X1KJo0tW6VF2nn-MSggUVUZu_9AL1N5MB-0rGEAd5eFg-7uPefAz3BSN74VYZYQLKzv69CUze9sa3FMmde4XWTAQtnmp528neorRPYseaikPl8Tjioo_ofy-IDU96UjZw6hLflJgqvQFYDhptTOpE58v5viF-zVLiTHVyPs3Bd9Lvy9V3R7YvzAgR-MOgy-_HDMWDgwT8q0GSdnue2JlL98em15HUjUPt1R8D1r6ghwtSDTkCD_iNOfek09uYdN4sJKvvnjYE1mEvMHnS2T_Grhhn7_xA77YH10jY0aFk-g",
+                    "AWn5SU4oAfOenVaJTWBQOBqrsifkPkJi3tNo_fnn0LSG1DPlxbqtj_Xho_tVEcWoah0Jxq_Fx7oBabXev6gUUcvW8Z62Bm_s_2PE42-0XOynPXyu8VzcD1z89EnQ0dbhZuO-TxXVtRvr6KrK2XHuJIaMpb-Iqx35nHcG4eStW44z_xBfxd3BgPgfP5WuUOd37KBNQ-5L0bdC2Ra--lWRaSzk64qaQW6mVFOWRjmI5Ut9SuEYsQz-a0X2AEQPoN4h6bZYqj_ACQhzsjRn10VzvDYVxGRR3iUs-uVvnXfyx1sPkoDGGw",
+                    "AWn5SU5UfyOuhlauKs5_wS8xY_M3WHvWxe8Y5-pj--mjd3dtv47KaKNlUnzACSXrWaaBDVp8WNZ1gtrkQAVl5NmtqNb10SgkNYczV0VYxC3vyOiFfbK4Dxfk8B8YNYkmuJjErlhzuWVQmbmJ6Lj1rCyPHXppkDIJaz9Wk13da2JC-lTu4oMnQX5FBi7XVt8j7_7YE1XiuGO5PwBSEMTfStUGifrAppIh4qlJQ-7Z3HPNs9Q-ddXbP7kVPPnzEBmQoVl5WM39sgY-WKAiGmN7xNS7eoKYxvmckJhS3T2UX7jwrtACEw"
+                ]
+            },
+            {
+                "order": 2,
+                "name": "スターバックスコーヒー 新宿エルタワー店",
+                "activity": "カフェ",
+                "location": {
+                    "lat": 35.6922806,
+                    "lng": 139.6974213
+                },
+                "info": "窓からの眺めが良く、休憩に最適。コーヒーと軽食を楽しめます。",
+                "distance_text": "約2.5km",
+                "duration_text": "0.5時間",
+                "transport_mode": "subway",
+                "photo_references": [
+                    "AWn5SU7f2USNUcnGscKkITimcTt6Q47jSGYFy10hV9xWSdfCcwYSZTkbiF2BCCLIBDtxDbd6RzIk7JQX7eTuvNqxQ1WodLCqayIFx5KEZ05ym-BTJ-orruEq1jjH9_DoUc2KcqZg1T6iHdZ3ENr-X2F1L0KCTmLJGBy-ZBQKX4snICLyH9hBTzidMWiWPjU7rLrTdnxiG7tXcrQoHzIz3B7dERaKslytRJ0U-75ghXbO4ua9jwIyuFkMfbrLoL3Y4yxbr8-x7xyKFJME1Lp0d4x20I3arpGYMmC_3OSQ",
+                    "AWn5SU4h5YAN0H88xpLyIXO0YsEzZYSj_0jlkEPTwkGFCbeXa8ZhsqbKXa5KcREfBBLJqIBG2U7e_azy90kg__i2YemYMAf8gKAifNvbuXyR3u5nBRtC8XD9ZpD0BURMH-hDel3aoD1kGx5aEX8TprvcEG1_qR_t1_fZOXf9XpliHW9eFbpFdNqTntdbDlCQ6NrZ4rwTcixsht5KFjA7Fthig8DEmHQ56eHL0SjbC4Ith-y0O0ePUSSCTD5sTy1YvKjK3yLewJRQRDG5UK4bILEb56juRB8mOmm7tkNvWZrKjvnHWKmiVo49O9AXBeKJ1p5PYv77GwgEWGgLLf9zqA_Yr7VbRUHW1gpYoBb_gV53XSwGm4i7Yep5eUd83Ud-NLPgCkbuwVEm0R6LI3IL01vSytCNf-teyCb3I571kU5TYderAQ",
+                    "AWn5SU7dvuJMSkvxepT6Cvm9cPUGZKGGa-OE1EwH8V6c_EQ-y7E5GvNlCGf-bS-_adXrZphdB3aeg5nwV0bx4ppv3_T0P_uCo_d3xTOxcIjEOqFODV67P1xLbhW2lKPdyYyY0V4zsgdA1q1-9pQ8Otx2Ugnwu5uR97Go0Hw1-fBHHl5nEDQw_-BuDSwbp43kGx3NcYChIEuoej8yTtSE4KBLcvS0RIkyRZKMim745ETBMILy9A6RweEgxkuWw4JPxet3RiwQ5JTQHFh3QYBUb4TgoZlSwOFOCLRiWL4yOHaEltpqQ4P7nQ__-6O2qa9IjsiYk3sCOD4EE0CxG-ZDKDgfsvIjcZj_dMjG-U2Wc-RmZlm4oXKrg",
+                    "AWn5SU6L9woDPbqfVf2p47huc-A_zXWUzacHpR2sg7fZGSEF9hZGoYoCPpXRXtGJxFXrCTqNBSPmoDicnaT_WHqs0t6-Qg5V7yZl4ATMfQ0e5K-OZWrzmRyNvFwEUQSKU_afYM-AyGgeFF4sNMGRV9Gl8eNB8CV6pnNUwuJ-Sg1rnaug3VbRtH2tWUPAn5_dGTOyC-WBfW858BRsSHEkCey4OvxssKjRd6bvvSka3aies5OEOsb3GOS3Wa4fMIdaEwXauXM6-wtT9_AVODmEHRv1r4OCvs8FTAGJ5enDRBkCg",
+                    "AWn5SU6TM3zB2AC2T6vYFsfeFAFucr6jQCPDeiLHRoRi6ieX_s8XcKuiE3fGGu6fS9ZJQSwk7RPmBCS6sw_qYu04onT2sEKpjY35AJeVt8HhiRdubsKMU3atm9ek_SVbWCTobZzr60A-L9m6lJi__WFW3CkxkmYO2-VfF9QNrxKXnpCvmymZk0Q73OFVME8Dnvgn-CiAcZK798NDeVHIcP1qDHo2y294u91Uk9_foIPHvCy9W29hLKqjiu9scqG4tIIjhSN4Fv7Xy79p6SU6LtU-iac-7mWJnFrX6eWJkf8QwbkYzIaQrDA9hCoXL4KFP522wHgFOBBt4XY-Kib_uP-QI2oZfNdUOvmTqQh6z5g8bZ9rl3GE7rTm2V8aO_ZTHa5NW_Kpf-whQRaEqSplQF0o8j"
+                ]
+            },
+            {
+                "order": 3,
+                "name": "セルリアンタワー東急ホテル (ラウンジ)",
+                "activity": "カフェ・休憩",
+                "location": {
+                    "lat": 35.6564093,
+                    "lng": 139.6993541
+                },
+                "info": "高層階からの眺めを楽しみながら、優雅なティータイムを。",
+                "distance_text": "約1km",
+                "duration_text": "1.5時間",
+                "transport_mode": "walk",
+                "photo_references": [
+                    "AWn5SU7FgZlLZg444-h5hC9yffBaS9WvTqWy8Q-nPGEYRPhJVz7muGfTqkziPuHj23bNiyaVNdCDBwKhOu02sNvNPy7CLHUWQ0jYIgd1HRoGWbFSjbUW8Ub4gIpEJXyga4ZSKdUTJ8ATtnaB8-r1eYXcZ2GAvk5hJ-twskEUduwantiFeeZmUAvXF-QGxQA",
+                    "AWn5SU6j_fX7kqlwGitBWTy-F4xOmwZovzK20k0uFcEnBBZgTodldgxgmGFdf9VMS3SBjLlXfkkLEq22lQZpD3ssQSwAyeS5MXpdDCIoF7QRQ1h-MF-0yDWsr2oCINbc2MNtbWsqu5zFfEnePFIrD3oovyzhyFr9R2tgMWnYmzW6nYNA8mI4b32iEPWdw4hymR-brQtrcc1bvuxv-nX9m0NnjMIjljwh8eB-mqyaCSRH8-ZHnJ6o9sdzFuDGg6LRyfhRD6V4R6LeednJEty3T6NMok9caDbMIvb9DijPk9HBHHWfLg",
+                    "AWn5SU4ho2NX5g9qWwd_8PQdpeyy6OeDQAVi7lgqdhTKPdMP66F7D4dxqJhdx5U6KvCHIK5bGZGQa12UrPfm-PLKTn2rdWpMe7tWVrO-CDf4RyCsUrj6fYWh2ym3BRtC8zaAKtnKbeQpXLTBqHmgoJwvqzKimLJGFF9mzljuswCHh0fS3wCtLFIdbuSPwmEPC3veKEKlx4zKgV5dPQGbOCeVZETKqpfpYWft7vb2IIAOhCZGHsf6A1Oc20hKKTYMds4BPPVpSUI8MbW6UxozClZew",
+                    "AWn5SU6j_fX7kqlwGitBWTy-F4xOmwZovzK20k0uFcEnBBZgTodldgxgmGFdf9VMS3SBjLlXfkkLEq22lQZpD3ssQSwAyeS5MXpdDCIoF7QRQ1h-MF-0yDWsr2oCINbc2MNtbWsqu5zFfEnePFIrD3oovyzhyFr9R2tgMWnYmzW6nYNA8mI4b32iEPWdw4hymR-brQtrcc1bvuxv-nX9m0NnjMIjljwh8eB-mqyaCSRH8-ZHnJ6o9sdzFuDGg6LRyfhRD6V4R6LeednJEty3T6NMok9caDbMIvb9DijPk9HBHHWfLg"
+                ]
+            }
+        ],
+        "summary": "渋谷の象徴であるスクランブル交差点を眺めながらランチを楽しみ、その後は高層階からの景色が美しいホテルラウンジで優雅なティータイムを過ごす、渋谷を満喫できるプランです。"
+    },
+    {
+        "plan_title": "東京駅周辺グルメ＆散策プラン",
+        "theme": "歴史とモダンが交差する東京駅エリア",
+        "estimated_duration_hours": 4.0,
+        "waypoints": [
+            {
+                "order": 1,
+                "name": "VIRON 丸の内店",
+                "activity": "ランチ",
+                "location": {
+                    "lat": 35.6786617,
+                    "lng": 139.7651715
+                },
+                "info": "パリの雰囲気を味わえる人気のパン屋さん。美味しいパンと料理でランチ。",
+                "distance_text": "約3.7km",
+                "duration_text": "1.5時間",
+                "transport_mode": "subway",
+                "photo_references": [
+                    "AWn5SU4i_6OBcaaX6XeUvqKoI0mdiBZ0IWJEM7BYd5P1I_nvJsG6kNVdclWSzT2pyzlorr-s0KzV9KjzLMljKDa--2b7jh3hDazbEatHoxPed32GVh8g_9wsatMlp8th-aM2jPi8bn7phfuHq3UklzGy9yZqsMxM-bvdb2QR426tshHMhjchP4Gzl2Iw1CZU44eAjswXm4z4M_6xrhAhOOCmwoSL_izTsJVkQh2oNUxfAH4BPxhZYO77XyU2YgvK2nQI3V0NalDqnymG1LPeI8wHV8jv5BB_4J27r_x2gTIqq03q2I2cGqtffxyF9MlEV1_xkM47c9R6UO6vujC7I24vc6k_7VcQYZoE7CP4jdKMtnLJZYFOo_GFNmF1c3w3fCnqjbyQAbBbTGkhlgaIbX9ZmNEK1_wFV0untbyOjhXStx_z27M",
+                    "AWn5SU4aEwiTQdQvUaStYgX0Ah_snA-qc6iITRjEj1mMB8JgKdnxO2EzIEp69gU3_dsR5cnwG-vicPSFjgnrR0E4dFQG53DuG8Ms8qrMOYJA3ups9BmD5cjLuvp6zMTM_zg4nj4QAKBXOZcgt00pBGusVmOoRtuhgWDCy_9LDVyiHjpV0btaJovYUEOxniyAKt_p8J61N4RDxHvvMqsn_GypkI3HQ2RVkZM3LCOXAv7bx8yO-Qqb_TbsX4O_xLycD7QGwuaoQY8zV78tefNq1PXbpf340-nEvDcHEbd7PIZS0qRq8lJ7gu7yTOl5VerJghjstmN-oHpgE3jwnQtXtWM6Lco3BmKwN7aKqIB5Xtp5lUJWzJXJiVayJyxZNLUUM-a9d_lmoWLXs5SJQgGBdqVFbE7Z9EBSCFUS39g5O3vhEOmqJnMpi9mbmHkptdMXp9pH",
+                    "AWn5SU6HmcqpO5fs-LEf-kiLHkoYVa7QSTgPP7F2KHsk22e87liS8QyrMfKaI-UGeiA_C0iAkLk9IJXFPfINq_plVV28KjDNmDk7pHfEhCaKR2MnopBxNgtTxZneqRXjxR0ol7YxwBMyKlRwoVnqBL-nhLDjDl7yjIJ_HQW6lM51toCDCXNrN_nEsjmL3bn1iQK1jjH9_DoUc2KcqZg1T6iHdZ3ENr-X2F1L0KCTmLJGBy-ZBQKX4snICLyH9hBTzidMWiWPjU7rLrTdnxiG7tXcrQoHzIz3B7dERaKslytRJ0U-75ghXbO4ua9jwIyuFkMfbrLoL3Y4yxbr8-x7xyKFJME1Lp0d4x20I3arpGYMmC_3OSQ",
+                    "AWn5SU46QLlxNsMMn7ikGrBhCgtIxtgI_L1vb5ri9AZ5dN-RDN_qYw287Rgw3TZhdMOQQEX7ITLh8gDNdMjfO9WZvAmNdo4j56UDcnpb3EpaXAjFAH0ZhV5D_Pf34M-dMjNv9qMaG4V1eG-3z5ou1F-eiML0Xvea8axcvzgXYzZvX72mAWBrNDch7wNzBB1SBS_9iBO4Ef4vz1cynGQpGxyUnDbtSGGPKezRILTkeEmY0cO2mq8KAKLcsYX0DNJ6Ou7phTEK3oGu3UDKYMnQmISe7xa5wTDlUZyH4ef4vNIdksj_yhWZBGlExktEgV-eXh6-CZURtHCozfo_PgQoIzADjpVB-2nhSLsN14h8v_UV9wKOpWPwQPVZeXJin2IZC701kqkqP4LqSKRhGe_betICE-3fPpqTrBZ0kUJ6eDaFrPV_WTrc9Ur_T5S7LzhpPCxisidLWSyD4VIuvttDh3hKTL5dNlzZ4tG52jzwimjjMSFUCjHNmmqZRgzmPVbX1C5yR8bvtU1MdxHUr1IyMbOgvGz92JPSxo4LLcOUt6TatO2vigskZ3hHRfYuMEgxRTjCbZkhcrTlILYpqOJDUOEXccpN2v1wZlDtHYM9zz2rJiaUdpTBoV"
+                ]
+            },
+            {
+                "order": 2,
+                "name": "椿屋珈琲 新宿茶寮",
+                "activity": "カフェ",
+                "location": {
+                    "lat": 35.6697806,
+                    "lng": 139.7687303
+                },
+                "info": "大正ロマン風の落ち着いた空間で、こだわりのコーヒーとスイーツを。",
+                "distance_text": "約3.5km",
+                "duration_text": "1.5時間",
+                "transport_mode": "subway",
+                "photo_references": [
+                    "AWn5SU5JXfJBfLgJjWQMvIrlZ2A8lbBee10K31nVjYSdblFggjR8LLZJ3oilZ6TfiLUiKsnerDTS8rGq98T3i5VMD0wgI_LAteeeQ0sIPVhyJMZqDBrB9BGCIY4icsiACK4j8M0MFxl-ryDcSnnJYMKLjiXsHiCUZ9EEq5XjqpEqeIURpgzgF9TDCHOTsrCHeO2ChLHuvneyBPukzoSgTcU8a30I4B94G_Oh2VDFaah83egsFup_veMkxFDZAzj2558BIMeOqtSzHB4yK_EydfllkZ7e0ELy-_lf_zg8r6YelNjaRQ",
+                    "AWn5SU7skjw9CcK5CPu0bnHGEUEOd9qAOSpCBiSOc445BP0KCd0L-fbukB_xZ_SgkC9q1Hk3RyLFZn3cfqg9HKfaA0_ogaSSc-yVCWHq63XdKq5TruhpwVTeuHGFLljCT2nWUfjIgwZ05mO8nkAGvBKFwCP0Bcmq9dDGiAoS7KAfgMKpIR2IjCnn2FZKUFhH7n8rNGAnTbgdU4SoOZCS66t5TkCoFpr1Of4C09OtMKr6sJDfvirE23ZOjOSa3VG-dXAjRgi2Svx9uZmxvbdQLuHCp0J2_Rgkkg8ON12FzXoVMyCH2Shse4YaAKPX4POZBcpVQKtm7vXKhV86PELxlyiYexbyhPpeDADlj5p8pnrgjr8DDy_-JfYpMsXVcLCEcetTgJui7CeYqtO_LNxJRy5pv2UUWuBI4kxLhPj3iJH0Nj223Q",
+                    "AWn5SU6lFPkkJoTloF0_dHkg4tI5mf1r82CcDdYb5obILsX5-4keKvIJf7qZhivxdAv-OcRt8ClX8KlqIemVGLcjwagqbCb8RrDwq0fn9Y5HmIdhp0txVvIXYbHxteKY8ZaowKp0zyRmn5NdjM6Kzp0Sci91HILxJkd3aJSoedq2pbbXoP4gW-wBM_lvvO5ezT3lNMGB9O3dE5OWWwi8gRbz7RbBP0I2CsWF0TtNY1jc61tolF4uVzx_T8tqKzMJbuWnztutjWknC85wbxOMH6nR-6tTAi_BrsS_RxuDBUWVsQu_OH5iYlWkdI_JO9YuWctDE08_no6A7kdi1g2ijVdutP61qucrqtrpdrWHXchjbIrWhTOMC73rLrTdnxiG7tXcrQoHzIz3B7dERaKslytRJ0U-75ghXbO4ua9jwIyuFkMfbrLoL3Y4yxbr8-x7xyKFJME1Lp0d4x20I3arpGYMmC_3OSQ",
+                    "AWn5SU46QLlxNsMMn7ikGrBhCgtIxtgI_L1vb5ri9AZ5dN-RDN_qYw287Rgw3TZhdMOQQEX7ITLh8gDNdMjfO9WZvAmNdo4j56UDcnpb3EpaXAjFAH0ZhV5D_Pf34M-dMjNv9qMaG4V1eG-3z5ou1F-eiML0Xvea8axcvzgXYzZvX72mAWBrNDch7wNzBB1SBS_9iBO4Ef4vz1cynGQpGxyUnDbtSGGPKezRILTkeEmY0cO2mq8KAKLcsYX0DNJ6Ou7phTEK3oGu3UDKYMnQmISe7xa5wTDlUZyH4ef4vNIdksj_yhWZBGlExktEgV-eXh6-CZURtHCozfo_PgQoIzADjpVB-2nhSLsN14h8v_UV9wKOpWPwQPVZeXJin2IZC701kqkqP4LqSKRhGe_betICE-3fPpqTrBZ0kUJ6eDaFrPV_WTrc9Ur_T5S7LzhpPCxisidLWSyD4VIuvttDh3hKTL5dNlzZ4tG52jzwimjjMSFUCjHNmmqZRgzmPVbX1C5yR8bvtU1MdxHUr1IyMbOgvGz92JPSxo4LLcOUt6TatO2vigskZ3hHRfYuMEgxRTjCbZkhcrTlILYpqOJDUOEXccpN2v1wZlDtHYM9zz2rJiaUdpTBoV"
+                ]
+            }
+        ],
+        "summary": "東京駅丸の内エリアの美しい建築を眺めながら、パリの雰囲気漂うカフェでランチ。その後は新宿に移動し、大正ロマンを感じる喫茶店でゆったりとした午後のひとときを過ごす、都会的な一日プランです。"
+    },
+    {
+        "plan_title": "神保町・御茶ノ水文化体験プラン",
+        "theme": "知的好奇心を刺激する街歩き",
+        "estimated_duration_hours": 4.2,
+        "waypoints": [
+            {
+                "order": 1,
+                "name": "サクラカフェ神保町",
+                "activity": "ランチ",
+                "location": {
+                    "lat": 35.694959,
+                    "lng": 139.756455
+                },
+                "info": "国際色豊かな雰囲気のカフェ。多国籍料理を楽しめます。",
+                "distance_text": "約5km",
+                "duration_text": "1.5時間",
+                "transport_mode": "subway",
+                "photo_references": [
+                    "AWn5SU4OaS-yQCtnOHaLPdDHp55ahmLrlpp4wrfBIdsyo-WK_NBhcIWtMpxMEJomm2k4oy0zCT7x6zp1sGzlHVm1aY7rotwXkKoSqJBsx36npsF2zFNRRTrOrHMHR2vWe5Ou3eYgvrb8i9QBJ-3b4189mKxOf375bOJQSrzVjteqBEZrjpsI3H8kaaWtZcoGTSKOt6ewDKjDl7yjIJ_HQW6lM51toCDCXNrN_nEsjmL3bn1iQK1jjH9_DoUc2KcqZg1T6iHdZ3ENr-X2F1L0KCTmLJGBy-ZBQKX4snICLyH9hBTzidMWiWPjU7rLrTdnxiG7tXcrQoHzIz3B7dERaKslytRJ0U-75ghXbO4ua9jwIyuFkMfbrLoL3Y4yxbr8-x7xyKFJME1Lp0d4x20I3arpGYMmC_3OSQ",
+                    "AWn5SU4umNu0ZinYJEQQuwKfJWxpSm6dq-IwZ_DmH9OZXt_ShWJctwv24qfX_dIHdGN9UunMxPc04Gy0JMtU72HRSG7lrxYXutASPp_1dIJaFzLWweDNLisLKPVmSkid7FLMHPEmNcipqQktALgnHO_tU1Zixr5vaLcywilvdMG7g6IuBhpg_gp9uMi9A4OrKJQI3j32FCQrN7r1iDSOTYquHZqKSilWmMCQSgvbXbrBL2iKF91lP15eEcCvsXJa_nd1jLb9ZPP0jxzk-k96gVK_y6y-ad6wYCTwnFeFCpR6U3MzFA",
+                    "AWn5SU4lEYwBTjXA2V1QUBssBFt9RFb5ykcqSlBVXdHEDS3HlJqaUaTDq8roE9vER1_L1SUvSN5QoBQE091wenXnl9V7XVCzJ5vnrxMEYgyXWKletit1iBjRyuLXlB1R42cjVxN-QSHPYffYXjedhWuMAnlokx0BUsZ4W-_SQLtscsq6Zq_zIv8OJHXRwSqCCYv61VDrBp5N9Mqu29nQPrANuI4Msj5xsF_Rg597bM5picLP6-k1974G2xfZcNz8rPxb2gEczhE6QkorauShtrlcm8rrqH8rznUm8tAMyLQL2iHHWw",
+                    "AWn5SU7pVJYgAyqMAUnxqYd0GBQ6DBz9-KsvbpuNXmli5dc96OZWkdfOUrMn8pHOu5FC1xOgbimseAQs3pY9Y80yrADFfGuEm5aK5RsqFFspx1eGodaP1syJ-jhreSy-vbi5EQO5DqtZt_l3o6BHE34nLWvlDSKgZ8aTIE4XMoDzUO0YkHlzmkM256hiOCHpSxxr58tyXb5Hlfo8JdQnpNeRw2JHN0kmHYmfy5hj-L-fS7HDalGmQa8keiTIu65eAYDH5B9BDMuJL_xEkceBu4ZAkJ47oNV-1KEOR9e14_pzQ1Mva29YSBVW5N5r2J7zg"
+                ]
+            },
+            {
+                "order": 2,
+                "name": "椿屋珈琲店 上野茶寮",
+                "activity": "カフェ",
+                "location": {
+                    "lat": 35.7113673,
+                    "lng": 139.7754358
+                },
+                "info": "大正ロマンを感じさせるレトロな空間で、こだわりのコーヒーとスイーツを。",
+                "distance_text": "約2.8km",
+                "duration_text": "1.5時間",
+                "transport_mode": "subway",
+                "photo_references": [
+                    "AWn5SU6-dmHkyXN-_TUKOY2du1XW6NmMoGRTAwg2mP9PFxWdL-ZCEVtUDOVcYuXcD7BO0IXFC9v0yy7Qb46PQJBmijUyR7wUEERPrODvpbCwdgNex6nKqPBMWCAHRWdLR92uhfs6ip9xkiL78sci-KxXAc-Eits_8X_l9uzMJpXRJPfGwEiFwWlnQ7BUj4StYvX0eDdXvCzCYCod11NzspUqHzxUGuMK8SAigGqYZYIVJfSDb_ib_YL-Q1WI1dFBiLIcUdFBPHkLNGz0L6lFCo2Z0fSzZQu5h9yK80aKkqJ54EHzQMMxTXBRKr7rz4QQuct95PJp67iI7I6BE-7jDlEmoGNoS0JZO448NsTNVghs-Eca7Prh2_9fg5WS4UaUEM-WwfSkYrr-mybsjToPlHCUNwf0d79a1KFJo95x-PXrqBUaRhle5uhQv1iZfNGaOYpq17K3ZpTp3o-bSDxRLqrHIs_mXCaQ8Iq9dkHYSm56hGh9a2MFRDx6BUwyVk1",
+                    "AWn5SU5PSYVMH21a5HKAUy300v_8oY8M2IHnTra_i12DDfBtqRqYe6wPCVGkyQOUzLfDSsiMrRPuoHcfpwaiO_zANpbGZH4R6PSANPMBuSdjcBB4XP2zoQxQ17NKB673lr6B8N54IanlMD22Peo3b6w4bFx-HNcF5YaSkXhEcHnauVLtdtrRmjrzXBPkn47tvoDBLqLRZmy8FovD1QyTh6zqdTAAbZMjHxiNz4AeS6qoIWN4gVArCweXG9CBzvwx3iYjh1BYZchxs0EO4nJl3WFbrSl5I4a5HmFIDLBGIHDYkxKUwQ",
+                    "AWn5SU7p_I3rNsF16Q3ySB4ob1W-UwUEgfprkXKCJnT5EfrrWgsjdvlpBzI0GHJ1-xmr_7Jkewuh1F79GvzcdAya6OGwo_iRfNlH4Xe-W1Pa3U_Jzbdz2s547ohZYcQ4Fz6okSp-Z_-T3pS0LHoq9QCFAQTBbAPfV26VabCv2XFDPOV_aHzfPNLoPkAbkPUJPt_P8z7aIp_Q3540-SNRdFZ0S1R2DqkvZlccBJagFEj-9NZ_BYTljqDY6zbza3pX-aNET3NrW8SdyykTjcXK2DrEY1YZ_hzKHnzsj38r2sCM3UuADgplpxjRMsIrB7vHcHmNGwNowoCsoAdwm6r39VSLtQYn3kPh75GElWqWuVvM3q6y9t77y4FOP5da08KZjgGFcwZ6sIpzN3yrsLj3d1TvWkfj6Iq6JAUkFBHJCknIOqP0nN8hVdk-0q0iaadhT8ll",
+                    "AWn5SU7tQt-HmSlDv348GEZg27mSZ-2LVEoWYMVwJQotba7NKgKCCrIQTNbTb8VE2FS8B6cKldReTmbkM9uBd_k4os0kJXRnJsUp-bD88ykPW0dmy5H4TLPBjmoTKSULPMo-7EAnpDN25GOfIxn7U53MXTfJ17ijlRFwpWj4wq0OJTqR9BI9-O6aMSZR3u9jRibVstO_pPeHUSM-4HTLx8kGN89hp5am0-qXDTaIGVJMrSK50jBjEzpcWz_OLLBsls6L-DPOfXatWbzmfMAi6LeDU4cS3XnF6fmAkEwtj6Tt6Q7JDdjreSVCTgWrqHRmIqYGfERDLGPCeJtP7NmnSL8UqHdvwH5VuqxSVndDXZUrU3PYzEDs1Sse5hkQjeC1TNco_bP_6fQChgQXFA4Q1cTOQ2adyj5uLFjK0LQTovopSgztMk2H"
+                ]
+            }
+        ],
+        "summary": "神保町の古書店街を散策し、知的好奇心を刺激した後は、上野のレトロなカフェで落ち着いた時間を過ごす、文化と癒しのミックスプランです。"
+    },
+    {
+        "plan_title": "新宿トレンドカフェ巡り",
+        "theme": "最新スイーツとシティビュー",
+        "estimated_duration_hours": 4.8,
+        "waypoints": [
+            {
+                "order": 1,
+                "name": "パセラリゾーツ新宿店",
+                "activity": "ランチ＆カフェ",
+                "location": {
+                    "lat": 35.69371460000001,
+                    "lng": 139.7021264
+                },
+                "info": "バリ島リゾート風の店内で、名物ハニトーや軽食を楽しめます。",
+                "distance_text": "約2km",
+                "duration_text": "1.5時間",
+                "transport_mode": "subway",
+                "photo_references": [
+                    "AWn5SU53vYariEfQjiyHji6Xxe_pueK3OEN0mqXhFLE7V4a6evmM8XeCGDKRyY9hAZDTCnCTwjACOGCHc3M8STIX1ZEkLqhoK4Sp0i2Q4Fln-XvxxljlbJIAH-l6JKnMiLfoRwf8vmNzcygclMzqr_M_37SkuBJQ6eDA7tj1QeexULX03vZDajcbDcoBLq3TsOfg3RuUb-DMFjN6vA8wPgMP-kDIkk_joIfUyUQGilyEshvoLYPJqs9ovbmE376_NohYaNMxhFB6UilHYW5yrHK",
+                    "AWn5SU5Oh5cWoktOfFgI6rr4y-ngGpP-9yq6PtYfhcPBZWOMa4BPVoDhweyOTpT7VysphJt-ywWAN-y35ATvyyPjhHm-lTOMsDLfoDwitSLIheUZagLUp34pyl5CHSDP3f7-9Ep86j9XymZXTwARhYCUnqB5QDJ5zGn7DWDl4bFx-HNcF5YaSkXhEcHnauVLtdtrRmjrzXBPkn47tvoDBLqLRZmy8FovD1QyTh6zqdTAAbZMjHxiNz4AeS6qoIWN4gVArCweXG9CBzvwx3iYjh1BYZchxs0EO4nJl3WFbrSl5I4a5HmFIDLBGIHDYkxKUwQ",
+                    "AWn5SU7k4AQ3BPBoELVZLHIfCymAYLIAil1uxSoIxS-dT8b1xJ4c2jXEkEVPc7QtpT8kwXzitONSC939diG_W33LKC2PFs2PedZXvCwDl5Qw9yS4hHNDI-DJ6DqnmA2J9CXwu4fQEyO8PmVVC1LeI6-eWbshMJedAysCmbhmJDyD_3BmOQY7wi5GFEA-EZaxx0grmNsTSW-W5IvD_vcYnKYP56-hfRjeS1-3XfzdYp5sWry3XaKWCjnf7lPNUwNe8JEZYDC3XGpK3EpMQKEu5KGv59rsB3cdgFrq4FA5Kyyipsb3a05i5Fvmcm0747uO6AeFqHDK72Xj1a3H6Q3fI_l7IOyygyirErqvTltHUQsZntDRSqVEyURDicrFnSnpRKKL77h43XvUdFlARYHfJ-nqCqI8_lo47KBVoyxSryf_5bArr354clfpJ8AQZcLZ9yo8",
+                    "AWn5SU5kRjCPijKwqaz80YwZ74ChWTe97CsRQhC5I06J8cDTajma8YeMy46WqWSLT-ImYQKBtUcUvW_73-KQn_YW-OnaZhz0yF9qGtS0tQ8KvYt4FbXH9d6rXFFZbSTZ7OZYgqDPmwe4EkohBy9VH2JoCPaKTm8k44TsGp4tESTUqqOqlJe0Z3R9XRBfQC4gT6ZQXaYTcq3OX7i7wuDCnDUXHViSb4ftRBGiVu3RhQ4BSWHn2p3zfmQpvs4AU_513aMbslmbKvFW7eQCtwjiBs0jzMKA17LiAmxJgx_4t8bDtmuwuA9gMCnJUzCVmfuGOSCN7MuYWLBUOmy2nzQfbCXzSIAcJ6bCMfZISS8ZI-YzStNZ4Pwg--Nwffea5QP1v7x5DP05lFV_eECDxZ0CMaFDCNRM0Cs0wofT0BzQrNbIn_s5imes"
+                ]
+            },
+            {
+                "order": 2,
+                "name": "椿屋珈琲 新宿茶寮",
+                "activity": "カフェ",
+                "location": {
+                    "lat": 35.6697806,
+                    "lng": 139.7687303
+                },
+                "info": "大正ロマン風の落ち着いた空間で、こだわりのコーヒーとスイーツを。",
+                "distance_text": "約2.2km",
+                "duration_text": "1.5時間",
+                "transport_mode": "subway",
+                "photo_references": [
+                    "AWn5SU5JXfJBfLgJjWQMvIrlZ2A8lbBee10K31nVjYSdblFggjR8LLZJ3oilZ6TfiLUiKsnerDTS8rGq98T3i5VMD0wgI_LAteeeQ0sIPVhyJMZqDBrB9BGCIY4icsiACK4j8M0MFxl-ryDcSnnJYMKLjiXsHiCUZ9EEq5XjqpEqeIURpgzgF9TDCHOTsrCHeO2ChLHuvneyBPukzoSgTcU8a30I4B94G_Oh2VDFaah83egsFup_veMkxFDZAzj2558BIMeOqtSzHB4yK_EydfllkZ7e0ELy-_lf_zg8r6YelNjaRQ",
+                    "AWn5SU7skjw9CcK5CPu0bnHGEUEOd9qAOSpCBiSOc445BP0KCd0L-fbukB_xZ_SgkC9q1Hk3RyLFZn3cfqg9HKfaA0_ogaSSc-yVCWHq63XdKq5TruhpwVTeuHGFLljCT2nWUfjIgwZ05mO8nkAGvBKFwCP0Bcmq9dDGiAoS7KAfgMKpIR2IjCnn2FZKUFhH7n8rNGAnTbgdU4SoOZCS66t5TkCoFpr1Of4C09OtMKr6sJDfvirE23ZOjOSa3VG-dXAjRgi2Svx9uZmxvbdQLuHCp0J2_Rgkkg8ON12FzXoVMyCH2Shse4YaAKPX4POZBcpVQKtm7vXKhV86PELxlyiYexbyhPpeDADlj5p8pnrgjr8DDy_-JfYpMsXVcLCEcetTgJui7CeYqtO_LNxJRy5pv2UUWuBI4kxLhPj3iJH0Nj223Q",
+                    "AWn5SU6lFPkkJoTloF0_dHkg4tI5mf1r82CcDdYb5obILsX5-4keKvIJf7qZhivxdAv-OcRt8ClX8KlqIemVGLcjwagqbCb8RrDwq0fn9Y5HmIdhp0txVvIXYbHxteKY8ZaowKp0zyRmn5NdjM6Kzp0Sci91HILxJkd3aJSoedq2pbbXoP4gW-wBM_lvvO5ezT3lNMGB9O3dE5OWWwi8gRbz7RbBP0I2CsWF0TtNY1jc61tolF4uVzx_T8tqKzMJbuWnztutjWknC85wbxOMH6nR-6tTAi_BrsS_RxuDBUWVsQu_OH5iYlWkdI_JO9YuWctDE08_no6A7kdi1g2ijVdutP61qucrqtrpdrWHXchjbIrWhTOMC73rLrTdnxiG7tXcrQoHzIz3B7dERaKslytRJ0U-75ghXbO4ua9jwIyuFkMfbrLoL3Y4yxbr8-x7xyKFJME1Lp0d4x20I3arpGYMmC_3OSQ",
+                    "AWn5SU46QLlxNsMMn7ikGrBhCgtIxtgI_L1vb5ri9AZ5dN-RDN_qYw287Rgw3TZhdMOQQEX7ITLh8gDNdMjfO9WZvAmNdo4j56UDcnpb3EpaXAjFAH0ZhV5D_Pf34M-dMjNv9qMaG4V1eG-3z5ou1F-eiML0Xvea8axcvzgXYzZvX72mAWBrNDch7wNzBB1SBS_9iBO4Ef4vz1cynGQpGxyUnDbtSGGPKezRILTkeEmY0cO2mq8KAKLcsYX0DNJ6Ou7phTEK3oGu3UDKYMnQmISe7xa5wTDlUZyH4ef4vNIdksj_yhWZBGlExktEgV-eXh6-CZURtHCozfo_PgQoIzADjpVB-2nhSLsN14h8v_UV9wKOpWPwQPVZeXJin2IZC701kqkqP4LqSKRhGe_betICE-3fPpqTrBZ0kUJ6eDaFrPV_WTrc9Ur_T5S7LzhpPCxisidLWSyD4VIuvttDh3hKTL5dNlzZ4tG52jzwimjjMSFUCjHNmmqZRgzmPVbX1C5yR8bvtU1MdxHUr1IyMbOgvGz92JPSxo4LLcOUt6TatO2vigskZ3hHRfYuMEgxRTjCbZkhcrTlILYpqOJDUOEXccpN2v1wZlDtHYM9zz2rJiaUdpTBoV"
+                ]
+            }
+        ],
+        "summary": "賑やかな新宿で、テーマ性のあるカフェでランチを楽しみ、その後は落ち着いた雰囲気の喫茶店で午後のひとときを過ごす、トレンドと癒しを両立したプランです。"
+    }
+]

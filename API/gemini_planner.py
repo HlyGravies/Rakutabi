@@ -29,7 +29,7 @@ except Exception as e:
 
 def create_trip_plan_from_file(places_input_filepath: str, user_location_dict: dict, requested_duration_text: str):
     """
-    Tạo kế hoạch du lịch từ file JSON địa điểm, vị trí người dùng, và thời gian mong muốn.
+    Tạo 3 kế hoạch du lịch từ file JSON địa điểm, vị trí người dùng, và thời gian mong muốn.
     Trả về đường dẫn file kế hoạch (str) nếu thành công, ngược lại trả về None.
     """
     
@@ -60,7 +60,7 @@ def create_trip_plan_from_file(places_input_filepath: str, user_location_dict: d
         logging.error(f"Lỗi khi đọc file hoặc xử lý đường dẫn: {e}")
         return None
 
-    # --- 2. ĐỊNH NGHĨA PROMPT (với tham số) ---
+    # --- 2. ĐỊNH NGHĨA PROMPT (Đã cập nhật ví dụ JSON) ---
     
     # Sử dụng f-string để truyền biến dễ dàng hơn
     prompt = f"""
@@ -70,7 +70,7 @@ Người dùng hiện ở vị trí {user_location_dict}.
 Dữ liệu địa điểm (nhà hàng, công viên, viện bảo tàng, quán cafe, điểm du lịch) được cung cấp bên dưới.
 
 Nhiệm vụ:
-- Tạo **1 kế hoạch mini trip** với tổng thời gian là: **{requested_duration_text}**.
+- Tạo ** 3 kế hoạch mini trip khác nhau** với tổng thời gian mỗi kế hoạch là: **{requested_duration_text}**.
 - Lên lịch có trình tự hợp lý như: 
   ăn → tham quan → cafe/đi dạo → ăn nhẹ hoặc quay về gần chỗ nghỉ.
 - Ưu tiên chọn địa điểm có đánh giá tốt (rating >= 3.0).
@@ -80,105 +80,128 @@ Nhiệm vụ:
 - Không được lặp lại địa điểm, ví dụ: địa điểm 3 và 4 không đc trùng lặp
 - Ngôn ngữ của phần mô tả là tiếng Nhật.
 - Với mỗi địa điểm, hãy trả về **TẤT CẢ** giá trị trong `photo_references` (nếu có).
-
+- Mỗi lộ trình phải hoàn toàn khác nhau, và phần photo_references phải lấy từ data được chuyển lên nếu có, chứ không được để là ref1_ABC hay ref2_XYZ.
 Kết quả trả về dưới dạng JSON để dùng trực tiếp cho Google Maps API.
 
-Cấu trúc JSON:
-{{
-  "plan_title": "string",
-  "theme": "string",
-  "estimated_duration_hours": "number",
-  "waypoints": [
-    {{
-      "order": "integer",
-      "name": "string",
-      "activity": "string",
-      "location": {{ "lat": "number", "lng": "number" }},
-      "info": "string",
-      "distance_text": "string",
-      "duration_text": "string",
-      "transport_mode": "string",
-      "photo_references": ["string", "string", ...]
-    }}
-  ],
-  "summary": "string"
-}}
+Cấu trúc JSON (Lưu ý: Đây là một DANH SÁCH (array) chứa 3 kế hoạch):
+[
+  {{
+    "plan_title": "string (Tiêu đề kế hoạch 1)",
+    "theme": "string (Chủ đề kế hoạch 1)",
+    "estimated_duration_hours": "number",
+    "waypoints": [
+      {{
+        "order": "integer",
+        "name": "string",
+        "activity": "string",
+        "location": {{ "lat": "number", "lng": "number" }},
+        "info": "string",
+        "distance_text": "string",
+        "duration_text": "string",
+        "transport_mode": "string",
+        "photo_references": ["string", "string", ...]
+      }}
+    ],
+    "summary": "string"
+  }},
+  {{
+    "plan_title": "string (Tiêu đề kế hoạch 2)",
+    "theme": "string (Chủ đề kế hoạch 2)",
+    ... (cấu trúc tương tự kế hoạch 1) ...
+  }},
+  {{
+    "plan_title": "string (Tiêu đề kế hoạch 3)",
+    "theme": "string (Chủ đề kế hoạch 3)",
+    ... (cấu trúc tương tự kế hoạch 1) ...
+  }}
+]
 """
 
-    # --- 3. ĐỊNH NGHĨA CẤU HÌNH GENERATION ---
+    # --- 3. ĐỊNH NGHĨA CẤU HÌNH GENERATION (Đã cập nhật schema) ---
+    
+    # Tách schema của MỘT kế hoạch ra để cho dễ đọc
+    single_plan_schema = {
+        "type": "object",
+        "properties": {
+            "plan_title": {"type": "string"},
+            "theme": {"type": "string"},
+            "estimated_duration_hours": {"type": "number"},
+            "waypoints": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "order": {"type": "integer"},
+                        "name": {"type": "string"},
+                        "activity": {"type": "string"},
+                        "location": {
+                            "type": "object",
+                            "properties": {
+                                "lat": {"type": "number"},
+                                "lng": {"type": "number"}
+                            },
+                            "required": ["lat", "lng"]
+                        },
+                        "info": {"type": "string"},
+                        "distance_text": {"type": "string"},
+                        "duration_text": {"type": "string"},
+                        "transport_mode": {"type": "string"},
+                        "photo_references": {
+                            "type": "array",
+                            "items": {"type": "string"}
+                        }
+                    },
+                    "required": [
+                        "order", "name", "activity", "location",
+                        "info", "distance_text", "duration_text", "transport_mode",
+                        "photo_references"
+                    ]
+                }
+            },
+            "summary": {"type": "string"}
+        },
+        "required": [
+            "plan_title", "theme", "estimated_duration_hours",
+            "waypoints", "summary"
+        ]
+    }
+
     generation_config = {
         "response_mime_type": "application/json",
         "response_schema": {
-            "type": "object",
-            "properties": {
-                "plan_title": {"type": "string"},
-                "theme": {"type": "string"},
-                "estimated_duration_hours": {"type": "number"},
-                "waypoints": {
-                    "type": "array",
-                    "items": {
-                        "type": "object",
-                        "properties": {
-                            "order": {"type": "integer"},
-                            "name": {"type": "string"},
-                            "activity": {"type": "string"},
-                            "location": {
-                                "type": "object",
-                                "properties": {
-                                    "lat": {"type": "number"},
-                                    "lng": {"type": "number"}
-                                },
-                                "required": ["lat", "lng"]
-                            },
-                            "info": {"type": "string"},
-                            "distance_text": {"type": "string"},
-                            "duration_text": {"type": "string"},
-                            "transport_mode": {"type": "string"},
-                            # === SỬA LỖI QUAN TRỌNG ===
-                            # Input của bạn là 1 danh sách, nên output cũng phải là danh sách
-                            "photo_references": {
-                                "type": "array",
-                                "items": {"type": "string"}
-                            }
-                            # === KẾT THÚC SỬA LỖI ===
-                        },
-                        "required": [
-                            "order", "name", "activity", "location",
-                            "info", "distance_text", "duration_text", "transport_mode",
-                            "photo_references" # Thêm vào đây để đảm bảo AI luôn trả về
-                        ]
-                    }
-                },
-                "summary": {"type": "string"}
-            },
-            "required": [
-                "plan_title", "theme", "estimated_duration_hours",
-                "waypoints", "summary"
-            ]
+            # === THAY ĐỔI CHÍNH ===
+            # Schema giờ là một ARRAY (danh sách)
+            "type": "array",
+            # "items" định nghĩa cấu trúc của mỗi phần tử trong array
+            # chính là schema của 1 kế hoạch mà bạn đã định nghĩa
+            "items": single_plan_schema
+            # === KẾT THÚC THAY ĐỔI ===
         }
     }
 
     # --- 4. GỌI MODEL ---
     try:
         model = genai.GenerativeModel(
-            model_name="gemini-2.0-flash", # Nâng cấp lên 1.5-flash cho nhanh và tốt
+            model_name="gemini-2.5-flash-lite", # Nâng cấp lên 1.5-flash cho nhanh và tốt
             generation_config=generation_config
         )
 
-        logging.info("Đang gọi Gemini API để tạo kế hoạch...")
+        logging.info("Đang gọi Gemini API để tạo 3 kế hoạch...")
         # Chỉ gửi 20 địa điểm đầu tiên để tiết kiệm token và tránh vượt quá giới hạn
         response = model.generate_content(
             f"{prompt}\n\nDữ liệu địa điểm:\n{json.dumps(places_data[:20], ensure_ascii=False)}"
         )
 
-        # response.text là JSON string
+        # response.text bây giờ là một JSON string của một ARRAY
+        # ví dụ: "[ {plan1}, {plan2}, {plan3} ]"
         result_json = json.loads(response.text)
 
         # --- 5. GHI FILE VÀ TRẢ VỀ ---
+        # Hàm json.dump hoàn toàn có thể ghi một list (array) vào file
         with open(output_file_path, "w", encoding="utf-8") as f:
             json.dump(result_json, f, ensure_ascii=False, indent=4)
 
-        logging.info(f"Đã lưu kế hoạch vào file: {output_file_path.absolute()}")
+        logging.info(f"Đã lưu 3 kế hoạch vào file: {output_file_path.absolute()}")
         
         # Trả về đường dẫn tuyệt đối của file đã lưu
         return str(output_file_path.absolute())
@@ -188,7 +211,6 @@ Cấu trúc JSON:
         if "response" in locals():
             logging.error(f"Phản hồi lỗi từ API (nếu có): {response.prompt_feedback}")
         return None
-
 # --- 6. KHỐI __main__ ĐỂ TEST ---
 # (Chỉ chạy khi bạn chạy trực tiếp file gemini_planner.py)
 if __name__ == "__main__":

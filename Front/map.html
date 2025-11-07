@@ -4,20 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MiniTrip</title>
-    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Inter Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
-        /* Noto Sans JPをInterより優先的に適用 */
         body, html {
             font-family: 'Inter', 'Noto Sans JP', sans-serif;
             height: 100%;
             margin: 0;
             padding: 0;
-            overflow: hidden; /* Ngăn cuộn toàn bộ trang */
+            overflow: hidden; 
         }
         #map {
             height: 100%;
@@ -35,7 +32,7 @@
             height: 100%;
             background-color: rgba(0, 0, 0, 0.85);
             overflow: auto; 
-            backdrop-filter: blur(8px); /* Thêm hiệu ứng blur */
+            backdrop-filter: blur(8px);
         }
         .lightbox-content {
             position: absolute;
@@ -45,7 +42,7 @@
             display: block;
             max-width: 90vw; 
             max-height: 90vh; 
-            border-radius: 12px; /* Bo góc ảnh */
+            border-radius: 12px;
             box-shadow: 0 10px 30px rgba(0,0,0,0.4);
         }
         .lightbox-close {
@@ -66,19 +63,23 @@
 <body class="bg-gray-50 text-gray-800">
 
     <div class="main-container flex w-full h-screen">
-        <!-- Bảng điều khiển bên trái (Lộ trình) -->
         <div class="left-panel w-full md:w-2/5 lg:w-1/3 h-full overflow-y-auto bg-white shadow-lg z-10">
-            <div id="left-panel-content">
-                <!-- Nội dung sẽ được chèn bằng JavaScript -->
+            <div class="p-5 border-b sticky top-0 bg-white z-20">
+                <a href="minitrip_input.html" id="backButton" class="inline-flex items-center px-3 py-1.5 border border-gray-300 text-sm font-medium rounded-lg text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-orange-500 transition duration-200">
+                    <svg class="-ml-1 mr-2 h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M12.79 5.23a.75.75 0 010 1.06L9.06 10l3.73 3.71a.75.75 0 11-1.06 1.06l-4.25-4.25a.75.75 0 010-1.06l4.25-4.25a.75.75 0 011.06 0z" clip-rule="evenodd" />
+                    </svg>
+                    新しい検索
+                </a>
             </div>
+            <div id="left-panel-content">
+                </div>
         </div>
-        <!-- Bảng điều khiển bên phải (Bản đồ) -->
         <div class="right-panel hidden md:block flex-grow h-full">
             <div id="map"></div>
         </div>
     </div>
 
-    <!-- Lightbox (Giữ nguyên) -->
     <div id="lightbox" class="lightbox-overlay">
         <span class="lightbox-close">&times;</span>
         <img class="lightbox-content" id="lightbox-img">
@@ -89,16 +90,23 @@
         const API_KEY = "AIzaSyAmbdRFOMwNlwiUD-LEwTvvJ6Twb0JlpmU"; 
 
         // --- 1. BIẾN TOÀN CỤC ---
-        let planData;
+        let planData; // BÂY GIỜ LÀ MỘT MẢNG (ARRAY) CÁC KẾ HOẠCH
         let map; 
-        let markers = []; 
+        let markers = []; // Sẽ chứa TẤT CẢ marker từ TẤT CẢ kế hoạch
         let infowindow;
         let lightbox;
         let lightboxImg;
         let lightboxClose;
 
+        let directionsService;
+        
+        // === THAY ĐỔI: Dùng mảng để chứa các renderer ===
+        let routeRenderers = []; 
+
+        const planColors = ['#EA580C', '#3B82F6', '#10B981', '#F59E0B', '#6366F1']; // Cam, Xanh, Lá, Vàng, Tím
+
         // --- 2. TẢI DỮ LIỆU TỪ FILE JSON ---
-        const jsonFilePath = "../json/GeminiAPIResponse/MinimalSearch_pref_cafe_pref_sento_pref_bookstore_20251105_151058_geminiAPI.json";
+        const jsonFilePath = "../json/GeminiAPIResponse/MinimalSearch_pref_cafe_pref_sento_pref_bookstore_20251105_162903_geminiAPI.json";
 
         fetch(jsonFilePath)
             .then(response => {
@@ -108,9 +116,12 @@
                 return response.json();
             })
             .then(data => {
-                planData = data;
+                if (!Array.isArray(data) || data.length === 0) {
+                     throw new Error("Dữ liệu JSON không phải là một mảng hoặc bị rỗng.");
+                }
+                planData = data; 
                 populateLeftPanel(); 
-                loadGoogleMapsScript(); // Tải script sau khi có dữ liệu
+                loadGoogleMapsScript(); 
             })
             .catch(error => {
                 console.error("Lỗi tải file JSON:", error);
@@ -123,75 +134,66 @@
             });
 
         
-        // --- 3. HÀM ĐỔ DỮ LIỆU CỘT TRÁI (Thiết kế lại với Tailwind) ---
+        // --- 3. HÀM ĐỔ DỮ LIỆU CỘT TRÁI (Giữ nguyên) ---
         function populateLeftPanel() {
             const panel = document.getElementById('left-panel-content');
             let content = '';
             
-            // Header với nút Quay Lại
-            content += `
-                <div class="trip-header p-5 border-b sticky top-0 bg-white z-10">
-                    <!-- Nút Quay Lại -->
-                    <a href="minitrip_input.html" id="backButton" class="mb-4 inline-flex items-center px-3 py-1.5 border border-gray-300 text-sm font-medium rounded-lg text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-orange-500 transition duration-200">
-                        <svg class="-ml-1 mr-2 h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd" d="M12.79 5.23a.75.75 0 010 1.06L9.06 10l3.73 3.71a.75.75 0 11-1.06 1.06l-4.25-4.25a.75.75 0 010-1.06l4.25-4.25a.75.75 0 011.06 0z" clip-rule="evenodd" />
-                        </svg>
-                        新しい検索
-                    </a>
-                    <!-- Tiêu đề -->
-                    <h1 class="text-3xl font-bold text-gray-900">${planData.plan_title}</h1>
-                    <p class="text-base text-gray-600 mt-2">${planData.summary}</p>
-                </div>
-            `;
-            
-            // Danh sách địa điểm
-            content += '<div class="waypoints-list divide-y divide-gray-200">';
-            planData.waypoints.forEach((wp, i) => {
-                let activityColor = 'bg-orange-100 text-orange-700'; // Màu cam mặc định
-                if (wp.activity.includes("サプライズ") || wp.activity.includes("おまかせ")) {
-                    activityColor = 'bg-purple-100 text-purple-700'; // Màu tím cho bất ngờ
-                }
+            planData.forEach((plan, planIndex) => {
+                const planColor = planColors[planIndex % planColors.length];
 
                 content += `
-                    <div class="waypoint-item p-5 cursor-pointer transition duration-200 hover:bg-orange-50" data-marker-index="${i}">
-                        <div class="flex items-start">
-                            <!-- Số thứ tự -->
-                            <div class="waypoint-order text-xl font-bold text-orange-600 mr-4 pt-1">${wp.order}</div>
-                            <!-- Chi tiết -->
-                            <div class="waypoint-details flex-1">
-                                <span class="activity text-xs font-semibold ${activityColor} rounded-full px-3 py-1 inline-block mb-3">${wp.activity}</span>
-                                <h3 class="text-lg font-semibold text-gray-800 mb-2">${wp.name}</h3>
-                                <p class="info text-sm text-gray-600 leading-relaxed">${wp.info}</p>
-                                <!-- Gallery Ảnh -->
-                                ${createPhotoGallery(wp.photo_references)} 
+                    <details class="plan-dropdown border-b border-gray-200" data-plan-index="${planIndex}">
+                        <summary class="plan-summary p-5 cursor-pointer hover:bg-gray-100 transition duration-200 flex justify-between items-center" style="border-left: 5px solid ${planColor};">
+                            <div>
+                                <h2 class="text-xl font-bold text-gray-900">${plan.plan_title}</h2>
+                                <p class="text-sm text-gray-600 mt-1">${plan.summary}</p>
+                            </div>
+                            <svg class="w-5 h-5 text-gray-500 transform transition-transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+                            </svg>
+                        </summary>
+
+                        <div class="waypoints-list divide-y divide-gray-200 bg-gray-50">
+                `;
+                
+                plan.waypoints.forEach((wp, waypointIndex) => {
+                    let activityColor = 'bg-orange-100 text-orange-700';
+                    if (wp.activity.includes("サプライズ") || wp.activity.includes("おまかせ")) {
+                        activityColor = 'bg-purple-100 text-purple-700';
+                    }
+
+                    content += `
+                        <div class="waypoint-item p-5 cursor-pointer transition duration-200 hover:bg-orange-50" 
+                             data-plan-index="${planIndex}" 
+                             data-waypoint-index="${waypointIndex}">
+                            <div class="flex items-start">
+                                <div class="waypoint-order text-xl font-bold mr-4 pt-1" style="color: ${planColor};">${wp.order}</div>
+                                <div class="waypoint-details flex-1">
+                                    <span class="activity text-xs font-semibold ${activityColor} rounded-full px-3 py-1 inline-block mb-3">${wp.activity}</span>
+                                    <h3 class="text-lg font-semibold text-gray-800 mb-2">${wp.name}</h3>
+                                    <p class="info text-sm text-gray-600 leading-relaxed">${wp.info}</p>
+                                    ${createPhotoGallery(wp.photo_references)} 
+                                </div>
                             </div>
                         </div>
-                    </div>
-                `;
+                    `;
+                });
+
+                content += '</div></details>'; 
             });
-            content += '</div>';
+
             panel.innerHTML = content;
         }
 
-        // --- 3.5. HÀM TẠO GALLERY (Thiết kế lại với Tailwind) ---
-        // --- 3.5. HÀM TẠO GALLERY (ĐÃ SỬA LỖI) ---
+        // --- 3.5. HÀM TẠO GALLERY (Giữ nguyên) ---
         function createPhotoGallery(references) {
-            // "references" BÂY GIỜ LÀ MỘT MẢNG (ARRAY), không phải string
-
-            // 1. Kiểm tra xem nó có phải là mảng hợp lệ không
             if (!Array.isArray(references) || references.length === 0) {
-                return ''; // Trả về rỗng nếu không có ảnh hoặc không phải mảng
+                return ''; 
             }
-
-            // 2. Nó đã là một mảng, KHÔNG CẦN DÙNG .split() nữa.
-            //    Chỉ cần .slice() để lấy 5 ảnh đầu tiên.
             const refArray = references.slice(0, 5); 
-            
             let galleryHTML = '<div class="photo-gallery mt-4 flex flex-wrap gap-2">';
-            
-            // 3. Vòng lặp
             refArray.forEach(ref => {
-                // "ref" bây giờ là một string (ví dụ: "ảnh_ref_1")
                 if (ref) { 
                     const thumbnailUrl = `https://maps.googleapis.com/maps/api/place/photo?maxwidth=200&photoreference=${ref}&key=${API_KEY}`;
                     galleryHTML += `
@@ -203,24 +205,16 @@
                     `;
                 }
             });
-            
             galleryHTML += '</div>';
             return galleryHTML;
         }
 
-        // --- 4. HÀM INIT MAP ---
+        // --- 4. HÀM INIT MAP (ĐÃ SỬA) ---
         function initMap() {
-            const directionsService = new google.maps.DirectionsService();
-            const directionsRenderer = new google.maps.DirectionsRenderer({
-                suppressMarkers: true, // Tắt marker A, B, C, D
-                polylineOptions: {
-                    strokeColor: '#EA580C', // Màu cam
-                    strokeWeight: 5,
-                    strokeOpacity: 0.8
-                }
-            });
+            directionsService = new google.maps.DirectionsService();
             
-            const firstLocation = planData.waypoints[0].location;
+            const firstLocation = planData[0].waypoints[0].location;
+            
             map = new google.maps.Map(document.getElementById("map"), {
                 zoom: 12,
                 center: firstLocation,
@@ -228,13 +222,15 @@
                 streetViewControl: false,
                 fullscreenControl: false
             });
-            directionsRenderer.setMap(map);
+            
             infowindow = new google.maps.InfoWindow();
 
             initLightbox();
-            addMarkers();
+            addMarkers(); 
             addPanelListeners(); 
-            calculateAndDisplayRoute(directionsService, directionsRenderer);
+            
+            // === THAY ĐỔI MỚI: Gọi hàm tạo sẵn các đường đi ===
+            createAllRouteRenderers(); 
         }
 
         // --- 5. HÀM INIT LIGHTBOX (Giữ nguyên) ---
@@ -254,64 +250,71 @@
             });
         }
         
-        // --- 6. HÀM ADD MARKERS (Thiết kế lại marker) ---
+        // --- 6. HÀM ADD MARKERS (Giữ nguyên) ---
         function addMarkers() {
-            planData.waypoints.forEach((wp, i) => {
-                // Xác định màu marker
-                let markerColor = '#EA580C'; // Mặc định màu cam
-                if (wp.activity.includes("サプライズ") || wp.activity.includes("おまかせ")) {
-                    markerColor = '#9333EA'; // Màu tím cho bất ngờ
-                }
+            markers = []; 
+            const bounds = new google.maps.LatLngBounds(); 
 
-                const marker = new google.maps.Marker({
-                    position: wp.location,
-                    map: map,
-                    label: {
-                        text: (i + 1).toString(),
-                        color: 'white',
-                        fontWeight: 'bold'
-                    },
-                    title: wp.name,
-                    icon: {
-                        path: google.maps.SymbolPath.CIRCLE,
-                        scale: 12,
-                        fillColor: markerColor,
-                        fillOpacity: 1,
-                        strokeWeight: 2,
-                        strokeColor: 'white'
+            planData.forEach((plan, planIndex) => {
+                const planColor = planColors[planIndex % planColors.length];
+
+                plan.waypoints.forEach((wp, waypointIndex) => {
+                    let markerColor = planColor; 
+                    if (wp.activity.includes("サプライズ") || wp.activity.includes("おまかせ")) {
+                        markerColor = '#9333EA'; 
                     }
-                });
 
-                // Thêm sự kiện click
-                marker.addListener('click', () => {
-                    const content = `
-                        <div style="max-width: 220px; padding: 5px; font-family: 'Inter', sans-serif;">
-                            <strong style="font-size: 1.1em; color: #1f2937;">${wp.name}</strong>
-                            <p style="font-size: 0.9em; margin-top: 5px; color: #4b5563;">${wp.info}</p>
-                        </div>`;
-                    infowindow.setContent(content);
-                    infowindow.open(map, marker);
-                });
-                markers.push(marker);
+                    const marker = new google.maps.Marker({
+                        position: wp.location,
+                        map: map,
+                        label: {
+                            text: (waypointIndex + 1).toString(),
+                            color: 'white',
+                            fontWeight: 'bold'
+                        },
+                        title: wp.name,
+                        icon: {
+                            path: google.maps.SymbolPath.CIRCLE,
+                            scale: 12,
+                            fillColor: markerColor,
+                            fillOpacity: 1,
+                            strokeWeight: 2,
+                            strokeColor: 'white'
+                        },
+                        planIndex: planIndex,
+                        waypointIndex: waypointIndex
+                    });
 
-                // Xử lý marker trùng lặp (Giữ nguyên)
-                if (i === 3 && wp.location.lat === planData.waypoints[2].location.lat) {
-                     marker.setOptions({
-                         optimized: false, 
-                         position: {lat: wp.location.lat + 0.0001, lng: wp.location.lng}
-                     });
-                }
+                    marker.addListener('click', () => {
+                        const content = `
+                            <div style="max-width: 220px; padding: 5px; font-family: 'Inter', sans-serif;">
+                                <strong style="font-size: 1.1em; color: #1f2937;">${wp.name}</strong>
+                                <p style="font-size: 0.9em; margin-top: 5px; color: #4b5563;">${wp.info}</p>
+                            </div>`;
+                        infowindow.setContent(content);
+                        infowindow.open(map, marker);
+                    });
+                    
+                    markers.push(marker); 
+                    bounds.extend(wp.location); 
+                });
             });
+
+            map.fitBounds(bounds); 
         }
 
-        // --- 7. HÀM ADD PANEL LISTENERS (Giữ nguyên) ---
+        // --- 7. HÀM ADD PANEL LISTENERS (ĐÃ SỬA) ---
         function addPanelListeners() {
+            // === Listener cho các ĐỊA ĐIỂM (WAYPOINT) ===
             const items = document.querySelectorAll('.waypoint-item');
             items.forEach((item) => {
-                const index = parseInt(item.dataset.markerIndex, 10);
-                if (isNaN(index) || !markers[index]) return; 
+                const planIndex = parseInt(item.dataset.planIndex, 10);
+                const waypointIndex = parseInt(item.dataset.waypointIndex, 10);
                 
-                const marker = markers[index];
+                if (isNaN(planIndex) || isNaN(waypointIndex)) return; 
+                
+                const marker = markers.find(m => m.planIndex === planIndex && m.waypointIndex === waypointIndex);
+                if (!marker) return; 
 
                 item.addEventListener('mouseover', (e) => {
                     if (!e.target.classList.contains('thumbnail-img')) {
@@ -323,13 +326,14 @@
                 });
                 item.addEventListener('click', (e) => {
                     if (!e.target.classList.contains('thumbnail-img')) {
-                        google.maps.event.trigger(marker, 'click');
+                        google.maps.event.trigger(marker, 'click'); 
                         map.panTo(marker.getPosition());
-                        map.setZoom(16); // Zoom sát hơn
+                        map.setZoom(16); 
                     }
                 });
             });
 
+            // === Listener cho các ẢNH (THUMBNAIL) === (Giữ nguyên)
             const thumbnails = document.querySelectorAll('.thumbnail-img');
             thumbnails.forEach(thumb => {
                 thumb.addEventListener('click', (e) => {
@@ -342,32 +346,80 @@
                     lightbox.style.display = 'block'; 
                 });
             });
+
+            // === THAY ĐỔI: Listener cho DROPDOWN (THẺ <DETAILS>) ===
+            // Sử dụng sự kiện 'toggle' chuẩn
+            const allDropdowns = document.querySelectorAll('.plan-dropdown');
+            
+            allDropdowns.forEach(detailsElement => {
+                detailsElement.addEventListener('toggle', (event) => {
+                    const planIndex = parseInt(detailsElement.dataset.planIndex, 10);
+                    
+                    // Đảm bảo renderer đã tồn tại trong mảng
+                    if (!routeRenderers[planIndex]) return; 
+
+                    // Lấy renderer tương ứng
+                    const renderer = routeRenderers[planIndex];
+
+                    if (detailsElement.open) {
+                        // === DROPDOWN ĐƯỢC MỞ ===
+                        renderer.setMap(map); // Hiển thị đường đi
+                    } else {
+                        // === DROPDOWN BỊ ĐÓNG ===
+                        renderer.setMap(null); // Ẩn đường đi
+                    }
+                });
+            });
         }
         
-        // --- 8. HÀM VẼ ĐƯỜNG ĐI (Giữ nguyên) ---
-        function calculateAndDisplayRoute(directionsService, directionsRenderer) {
-            const waypts = [];
-            for (let i = 1; i < planData.waypoints.length - 1; i++) {
-                waypts.push({
-                    location: planData.waypoints[i].location,
-                    stopover: true,
-                });
-            }
-            
-            const hasDriving = planData.waypoints.some(wp => wp.transport_mode === '車');
-            const transportMode = hasDriving ? 'DRIVING' : 'WALKING';
+        // --- 8. HÀM MỚI: TẠO SẴN TẤT CẢ ĐƯỜNG ĐI (THAY THẾ HÀM CŨ) ---
+        function createAllRouteRenderers() {
+            routeRenderers = []; // Xóa mảng cũ
 
-            directionsService.route({
-                origin: planData.waypoints[0].location, 
-                destination: planData.waypoints[planData.waypoints.length - 1].location, 
-                waypoints: waypts, 
-                optimizeWaypoints: false, 
-                travelMode: google.maps.TravelMode[transportMode]
-            })
-            .then((response) => {
-                directionsRenderer.setDirections(response);
-            })
-            .catch((e) => window.alert("Yêu cầu chỉ đường thất bại: " + e));
+            planData.forEach((plan, planIndex) => {
+                const planColor = planColors[planIndex % planColors.length];
+
+                // 1. Tạo một renderer MỚI cho kế hoạch này
+                const newRenderer = new google.maps.DirectionsRenderer({
+                    suppressMarkers: true,
+                    polylineOptions: {
+                        strokeColor: planColor,
+                        strokeWeight: 5,
+                        strokeOpacity: 0.8
+                    }
+                });
+
+                // 2. Ban đầu, ẩn nó đi
+                newRenderer.setMap(null);
+
+                // 3. Tính toán đường đi
+                const waypts = [];
+                for (let i = 1; i < plan.waypoints.length - 1; i++) {
+                    waypts.push({
+                        location: plan.waypoints[i].location,
+                        stopover: true,
+                    });
+                }
+                
+                const hasDriving = plan.waypoints.some(wp => wp.transport_mode === '車');
+                const transportMode = hasDriving ? 'DRIVING' : 'WALKING';
+
+                directionsService.route({
+                    origin: plan.waypoints[0].location, 
+                    destination: plan.waypoints[plan.waypoints.length - 1].location, 
+                    waypoints: waypts, 
+                    optimizeWaypoints: false, 
+                    travelMode: google.maps.TravelMode[transportMode]
+                })
+                .then((response) => {
+                    // 4. Gán dữ liệu đường đi cho renderer
+                    newRenderer.setDirections(response); 
+                })
+                .catch((e) => console.warn("Lỗi tính đường đi cho plan " + planIndex + ": " + e)); 
+
+                // 5. Lưu renderer này vào mảng
+                routeRenderers[planIndex] = newRenderer;
+            });
         }
         
         // --- 9. HÀM TẢI GOOGLE SCRIPT ---
@@ -378,7 +430,6 @@
                 script.async = true;
                 document.head.appendChild(script);
             } else {
-                // Nếu script đã được tải (ví dụ: do lỗi fetch json)
                 initMap();
             }
         }
@@ -386,4 +437,3 @@
     </script>
 </body>
 </html>
-
