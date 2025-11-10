@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiniTrip - Kế hoạch mới</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Inter & Noto Sans JP Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', 'Noto Sans JP', sans-serif;
+            background-color: #f9fafb; /* bg-gray-50 */
+        }
+        /* Checkbox màu cam */
+        .form-check {
+            accent-color: #F97316; /* orange-600 */
+        }
+        /* Tùy chỉnh mũi tên của <details> */
+        details summary {
+            list-style: none; /* Xóa mũi tên mặc định */
+            position: relative;
+        }
+        details summary::-webkit-details-marker {
+            display: none;
+        }
+        details summary::after {
+            content: '+'; /* Ký tự khi đóng */
+            font-family: 'Inter';
+            font-weight: 700;
+            font-size: 1.5em;
+            color: #fb923c; /* orange-400 */
+            position: absolute;
+            right: 1.5rem;
+            top: 50%;
+            transform: translateY(-50%);
+            transition: transform 0.2s;
+        }
+        details[open] summary::after {
+            content: '−'; /* Ký tự khi mở */
+            transform: translateY(-50%) rotate(180deg);
+        }
+        details[open] summary {
+            background-color: #fff7ed; /* orange-50 */
+        }
+        
+        /* CSS cho Google Autocomplete Dropdown (quan trọng) */
+        .pac-container {
+            z-index: 9999 !important;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            border: none;
+        }
+        .pac-item {
+            padding: 10px;
+            font-size: 1rem;
+            border-top: 1px solid #f3f4f6; /* bg-gray-100 */
+        }
+        .pac-item:first-child {
+            border-top: none;
+        }
+        .pac-item-query {
+            font-weight: 600;
+            color: #1f2937; /* text-gray-800 */
+        }
+        .pac-matched {
+            font-weight: 700;
+            color: #ea580c; /* text-orange-600 */
+        }
+        .pac-icon {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 
+      Đây là nơi bạn paste dữ liệu JSON của mình.
+      Việc này giúp JS có thể đọc ngay lập tức mà không cần fetch.
+    -->
+    <script id="preferences-data" type="application/json">
+    [
+      {
+        "id": "purpose_tourism",
+        "name_jp": "観光・探索",
+        "description_jp": "定番の場所や、その土地ならではのスポットを訪れたい。",
+        "preferences": [
+          { "id": "pref_landmark", "name_jp": "名所・ランドマーク" },
+          { "id": "pref_shrine", "name_jp": "神社仏閣" },
+          { "id": "pref_historical", "name_jp": "歴史的建造物・史跡" },
+          { "id": "pref_viewpoint", "name_jp": "展望台・ビュースポット" },
+          { "id": "pref_pilgrimage", "name_jp": "聖地巡礼（アニメ・ドラマ）" },
+          { "id": "pref_tower", "name_jp": "タワー・高層ビル" },
+          { "id": "pref_hidden_gem", "name_jp": "穴場スポット" },
+          { "id": "pref_free_spot", "name_jp": "無料観光スポット" },
+          { "id": "pref_museum_art", "name_jp": "美術館" },
+          { "id": "pref_museum_history", "name_jp": "博物館" }
+        ]
+      },
+      {
+        "id": "purpose_relax",
+        "name_jp": "リラックス・休憩",
+        "description_jp": "少しの間、ゆっくり休みたい。静かな場所で過ごしたい。",
+        "preferences": [
+          { "id": "pref_cafe", "name_jp": "カフェ" },
+          { "id": "pref_kissaten", "name_jp": "喫茶店（レトロ）" },
+          { "id": "pref_park", "name_jp": "公園・緑地" },
+          { "id": "pref_garden", "name_jp": "庭園" },
+          { "id": "pref_waterside", "name_jp": "水辺（川・海・湖）" },
+          { "id": "pref_footbath", "name_jp": "足湯" },
+          { "id": "pref_library", "name_jp": "図書館" },
+          { "id": "pref_net_cafe", "name_jp": "漫画喫茶・ネットカフェ" },
+          { "id": "pref_sento", "name_jp": "スーパー銭湯・日帰り温泉" },
+          { "id": "pref_massage", "name_jp": "マッサージ・リラクゼーション" }
+        ]
+      },
+      {
+        "id": "purpose_healing",
+        "name_jp": "癒し・ヒーリング",
+        "description_jp": "心身ともにリフレッシュしたい。五感で癒されたい。",
+        "preferences": [
+          { "id": "pref_nature_walk", "name_jp": "森林浴・自然散策" },
+          { "id": "pref_botanical_garden", "name_jp": "植物園" },
+          { "id": "pref_aroma", "name_jp": "アロマ・お香" },
+          { "id": "pref_spa_este", "name_jp": "スパ・エステ" },
+          { "id": "pref_yoga", "name_jp": "瞑想・ヨガスタジオ" },
+          { "id": "pref_quiet_shrine", "name_jp": "静かな神社仏閣" },
+          { "id": "pref_animal_cafe", "name_jp": "動物カフェ" },
+          { "id": "pref_music_classic", "name_jp": "音楽鑑賞（クラシック・ジャズ）" },
+          { "id": "pref_planetarium", "name_jp": "プラネタリウム" }
+        ]
+      },
+      {
+        "id": "purpose_gourmet",
+        "name_jp": "グルメ・食事",
+        "description_jp": "美味しいものを食べたい。食事をメインにしたい。",
+        "preferences": [
+          { "id": "pref_street_food", "name_jp": "食べ歩き" },
+          { "id": "pref_local_gourmet", "name_jp": "B級・ご当地グルメ" },
+          { "id": "pref_set_meal", "name_jp": "ローカル食堂・定食屋" },
+          { "id": "pref_sweets", "name_jp": "スイーツ・デザート" },
+          { "id": "pref_bakery", "name_jp": "パン屋・ベーカリー" },
+          { "id": "pref_ramen", "name_jp": "ラーメン" },
+          { "id": "pref_sushi", "name_jp": "寿司" },
+          { "id": "pref_ethnic", "name_jp": "エスニック料理" },
+          { "id": "pref_izakaya", "name_jp": "居酒屋・立ち飲み" },
+          { "id": "pref_allyoucan", "name_jp": "食べ放題・飲み放題" },
+          { "id": "pref_late_night", "name_jp": "深夜営業グルメ" }
+        ]
+      },
+      {
+        "id": "purpose_stroll",
+        "name_jp": "散策・街歩き",
+        "description_jp": "あてもなく歩きながら、街の雰囲気を感じたい。",
+        "preferences": [
+          { "id": "pref_alley", "name_jp": "路地裏・横丁" },
+          { "id": "pref_architecture", "name_jp": "建築巡り" },
+          { "id": "pref_shotengai", "name_jp": "昔ながらの商店街" },
+          { "id": "pref_slope_stairs", "name_jp": "坂道・階段" },
+          { "id": "pref_market", "name_jp": "市場（マーケット）" },
+          { "id": "pref_window_shopping", "name_jp": "ウィンドウショッピング" },
+          { "id": "pref_riverside", "name_jp": "川沿い・海辺の散歩" },
+          { "id": "pref_night_walk", "name_jp": "夜の散歩" }
+        ]
+      },
+      {
+        "id": "purpose_learn_experience",
+        "name_jp": "学び・体験",
+        "description_jp": "何かを新しく知りたい、文化や芸術に触れたい。",
+        "preferences": [
+          { "id": "pref_art_gallery", "name_jp": "美術館・ギャラリー" },
+          { "id": "pref_museum", "name_jp": "博物館・科学館" },
+          { "id": "pref_aquarium_zoo", "name_jp": "水族館・動物園" },
+          { "id": "pref_workshop", "name_jp": "ワークショップ・文化体験" },
+          { "id": "pref_crafts", "name_jp": "伝統工芸" },
+          { "id": "pref_factory_tour", "name_jp": "工場見学" },
+          { "id": "pref_cinema", "name_jp": "映画館（ミニシアター）" },
+          { "id": "pref_theater_live", "name_jp": "劇場・ライブハウス" },
+          { "id": "pref_seminar", "name_jp": "講演・セミナー" }
+        ]
+      },
+      {
+        "id": "purpose_shopping",
+        "name_jp": "ショッピング",
+        "description_jp": "お土産を探したい、買い物をしたい。",
+        "preferences": [
+          { "id": "pref_souvenir", "name_jp": "お土産" },
+          { "id": "pref_zakka", "name_jp": "雑貨屋" },
+          { "id": "pref_select_shop", "name_jp": "セレクトショップ" },
+          { "id": "pref_used_clothes", "name_jp": "古着屋" },
+          { "id": "pref_department_store", "name_jp": "デパート・商業施設" },
+          { "id": "pref_drugstore", "name_jp": "ドラッグストア" },
+          { "id": "pref_100yen_shop", "name_jp": "100円ショップ" },
+          { "id": "pref_local_supermarket", "name_jp": "地元のスーパー" },
+          { "id": "pref_electronics", "name_jp": "家電量販店" },
+          { "id": "pref_antique", "name_jp": "骨董品・アンティーク" }
+        ]
+      },
+      {
+        "id": "purpose_photo",
+        "name_jp": "写真・SNS映え",
+        "description_jp": "素敵な写真、SNSで共有したくなる写真を撮りたい。",
+        "preferences": [
+          { "id": "pref_sns_hotspot", "name_jp": "SNSで話題のスポット" },
+          { "id": "pref_stylish_cafe", "name_jp": "おしゃれなカフェ" },
+          { "id": "pref_cute_sweets", "name_jp": "可愛いスイーツ" },
+          { "id": "pref_street_art", "name_jp": "壁画・ストリートアート" },
+          { "id": "pref_arch_photo", "name_jp": "印象的な建築" },
+          { "id": "pref_night_view", "name_jp": "夜景・ライトアップ" },
+          { "id": "pref_retro_spot", "name_jp": "レトロ・ノスタルジックな風景" },
+          { "id": "pref_scenic_view", "name_jp": "絶景・風景" }
+        ]
+      },
+      {
+        "id": "purpose_nature",
+        "name_jp": "自然・風景",
+        "description_jp": "緑や水辺、良い景色を見てリフレッシュしたい。",
+        "preferences": [
+          { "id": "pref_park_green", "name_jp": "公園・緑地" },
+          { "id": "pref_garden_jp", "name_jp": "日本庭園" },
+          { "id": "pref_waterside_walk", "name_jp": "水辺（川・海・湖）" },
+          { "id": "pref_viewpoint_high", "name_jp": "高台・展望スポット" },
+          { "id": "pref_botanical", "name_jp": "植物園" },
+          { "id": "pref_seasonal_flower", "name_jp": "季節の花（桜・紅葉など）" },
+          { "id": "pref_hiking_light", "name_jp": "軽いハイキング・登山" }
+        ]
+      },
+      {
+        "id": "purpose_mood_change",
+        "name_jp": "気分転換",
+        "description_jp": "ちょっとした時間で、気分をスッキリさせたい。",
+        "preferences": [
+          { "id": "pref_good_view", "name_jp": "景色の良い場所" },
+          { "id": "pref_quiet_cafe", "name_jp": "静かなカフェ" },
+          { "id": "pref_park_walk", "name_jp": "公園で散歩" },
+          { "id": "pref_karaoke", "name_jp": "カラオケ（1人OK）" },
+          { "id": "pref_game_center", "name_jp": "ゲームセンター" },
+          { "id": "pref_batting_center", "name_jp": "バッティングセンター" },
+          { "id": "pref_bookstore", "name_jp": "本屋で立ち読み" }
+        ]
+      },
+      {
+        "id": "purpose_local_experience",
+        "name_jp": "ローカル体験",
+        "description_jp": "地元の人々の日常や文化に触れたい。",
+        "preferences": [
+          { "id": "pref_local_market", "name_jp": "地元の市場" },
+          { "id": "pref_old_shotengai", "name_jp": "昔ながらの商店街" },
+          { "id": "pref_local_super", "name_jp": "地元のスーパー" },
+          { "id": "pref_public_bath", "name_jp": "銭湯" },
+          { "id": "pref_yokocho", "name_jp": "横丁・飲み屋街" },
+          { "id": "pref_local_diner", "name_jp": "ローカル食堂" },
+          { "id": "pref_local_event", "name_jp": "地域のお祭り・イベント" }
+        ]
+      },
+      {
+        "id": "purpose_trend",
+        "name_jp": "トレンド",
+        "description_jp": "今、流行っている場所やモノをチェックしたい。",
+        "preferences": [
+          { "id": "pref_sns_trending", "name_jp": "SNSで話題の店" },
+          { "id": "pref_new_open", "name_jp": "新オープンの店" },
+          { "id": "pref_trending_gourmet", "name_jp": "流行のグルメ" },
+          { "id": "pref_popup_store", "name_jp": "ポップアップストア" },
+          { "id": "pref_collab_cafe", "name_jp": "コラボカフェ" }
+        ]
+      },
+      {
+        "id": "purpose_active",
+        "name_jp": "アクティブ",
+        "description_jp": "少し体を動かしたい、活気のある場所に行きたい。",
+        "preferences": [
+          { "id": "pref_walking", "name_jp": "ウォーキング" },
+          { "id": "pref_rental_cycle", "name_jp": "レンタサイクル" },
+          { "id": "pref_bouldering", "name_jp": "ボルダリング" },
+          { "id": "pref_game_arcade", "name_jp": "ゲームセンター" },
+          { "id": "pref_sports_watch", "name_jp": "スポーツ観戦" },
+          { "id": "pref_pool", "name_jp": "公共プール" }
+        ]
+      },
+      {
+        "id": "purpose_reward",
+        "name_jp": "自分にご褒美",
+        "description_jp": "いつもより少し贅沢な時間を過ごしたい。",
+        "preferences": [
+          { "id": "pref_luxury_sweets", "name_jp": "高級スイーツ・パフェ" },
+          { "id": "pref_good_lunch", "name_jp": "ちょっと良いランチ・ディナー" },
+          { "id": "pref_spa_treatment", "name_jp": "スパ・エステ" },
+          { "id": "pref_brand_shopping", "name_jp": "ブランドショッピング" },
+          { "id": "pref_hotel_lounge", "name_jp": "ホテルのラウンジ" },
+          { "id": "pref_luxury_goods", "name_jp": "高級雑貨・小物" }
+        ]
+      },
+      {
+        "id": "purpose_niche",
+        "name_jp": "深掘り・マニアック",
+        "description_jp": "自分の趣味や、専門的な分野を深く探求したい。",
+        "preferences": [
+          { "id": "pref_specialty_store", "name_jp": "専門店（模型、カメラ、文具など）" },
+          { "id": "pref_used_bookstore", "name_jp": "古書店" },
+          { "id": "pref_record_store", "name_jp": "レコード店" },
+          { "id": "pref_theme_cafe", "name_jp": "テーマカフェ（動物、メイド、鉄道など）" },
+          { "id": "pref_unique_spot", "name_jp": "珍スポット" },
+          { "id": "pref_mini_theater", "name_jp": "ミニシアター（単館系映画館）" },
+          { "id": "pref_architecture_niche", "name_jp": "マニアックな建築" }
+        ]
+      },
+      {
+        "id": "purpose_kill_time",
+        "name_jp": "時間調整",
+        "description_jp": "次の予定まで、サクッと時間を潰したい。",
+        "preferences": [
+          { "id": "pref_station_cafe", "name_jp": "駅近カフェ" },
+          { "id": "pref_bookstore_browse", "name_jp": "本屋・書店" },
+          { "id": "pref_100yen_drugstore", "name_jp": "100円ショップ・ドラッグストア" },
+          { "id": "pref_station_building", "name_jp": "駅ビル・駅ナカ施設" },
+          { "id": "pref_fast_food", "name_jp": "ファストフード" },
+          { "id": "pref_arcade", "name_jp": "ゲームセンター" }
+        ]
+      },
+      {
+        "id":"purpose_budget",
+        "name_jp": "無料・節約",
+        "description_jp": "お金をかけずに楽しみたい。",
+        "preferences": [
+          { "id": "pref_free_observatory", "name_jp": "無料展望台" },
+          { "id": "pref_free_museum", "name_jp": "無料の博物館・資料館" },
+          { "id": "pref_public_facility", "name_jp": "公共施設（図書館、広場）" },
+          { "id": "pref_park_large", "name_jp": "大きな公園" },
+          { "id": "pref_free_samples", "name_jp": "試食・試飲" },
+          { "id": "pref_window_shopping_main", "name_jp": "ウィンドウショッピング" }
+        ]
+      },
+      {
+        "id": "purpose_nightlife",
+        "name_jp": "夜の楽しみ",
+        "description_jp": "夜の時間帯ならではの体験がしたい。",
+        "preferences": [
+          { "id": "pref_night_view_spot", "name_jp": "夜景スポット" },
+          { "id": "pref_bar", "name_jp": "バー" },
+          { "id": "pref_izakaya_hopping", "name_jp": "居酒屋・はしご酒" },
+          { "id": "pref_night_cafe", "name_jp": "夜カフェ" },
+          { "id": "pref_live_house_club", "name_jp": "ライブハウス・クラブ" },
+          { "id": "pref_light_up", "name_jp": "ライトアップ・イルミネーション" },
+          { "id": "pref_night_bowling", "name_jp": "夜のボーリング・カラオケ" }
+        ]
+      },
+      {
+        "id": "purpose_surprise",
+        "name_jp": "サプライズ・おまかせ",
+        "description_jp": "AIにすべて任せて、ワクワクする体験がしたい。",
+        "preferences": []
+      }
+    ]
+    </script>
+
+
+    <div class="container mx-auto px-4 py-8 md:py-16 min-h-screen flex items-center justify-center">
+        
+        <!-- Thay đổi: Thẻ Card rộng hơn, max-w-3xl -->
+        <div class="bg-white p-6 sm:p-8 md:p-10 rounded-2xl shadow-lg w-full max-w-3xl">
+            
+            <!-- Header (Giữ nguyên style) -->
+            <div class="text-center mb-8">
+                <h1 class="text-3xl md:text-4xl font-bold text-orange-600 mb-2">MiniTrip</h1>
+                <p class="text-lg md:text-xl text-gray-600 mb-4">“すきま時間”を、最高に楽しく。</p>
+                <h2 class="text-2xl font-semibold text-gray-700">プランを作成</h2>
+            </div>
+
+            <!-- Form chính -->
+            <form id="mainForm" class="space-y-8">
+
+                <!-- 1. PHẦN 1: CHỌN ĐỊA ĐIỂM -->
+                <fieldset class="border border-gray-300 rounded-lg p-6">
+                    <legend class="text-xl font-semibold text-gray-700 px-2">
+                        <span class="text-orange-600">1.</span> どこから？
+                    </legend>
+                    
+                    <div class="space-y-4 mt-4">
+                        <div>
+                            <label for="location-input" class="block text-sm font-semibold text-gray-700 mb-2">場所の名前で検索 (例: 東京駅)</label>
+                            <input type="text" id="location-input"
+                                   class="w-full px-4 py-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition duration-200"
+                                   placeholder="駅、ランドマーク、または住所...">
+                        </div>
+                        
+                        <!-- Dấu gạch "hoặc" -->
+                        <div class="relative">
+                            <div class="absolute inset-0 flex items-center" aria-hidden="true">
+                                <div class="w-full border-t border-gray-300"></div>
+                            </div>
+                            <div class="relative flex justify-center">
+                                <span class="relative px-2 bg-white text-sm text-gray-500">または</span>
+                            </div>
+                        </div>
+
+                        <!-- Nút Vị trí hiện tại -->
+                        <div>
+                            <button type="button" id="current-location-btn"
+                                    class="w-full flex items-center justify-center py-3 px-4 border border-gray-300 rounded-lg shadow-sm bg-white hover:bg-gray-50 text-gray-700 font-medium transition duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500">
+                                <svg class="w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                                  <path fill-rule="evenodd" d="M9.69 18.933l.003.001C9.89 19.02 10 19 10 19s.11.02.308-.066l.002-.001.006-.003.018-.008.051-.023c.27-.124.56-.29.827-.498l.005-.004.014-.01.034-.028.066-.056c.204-.174.39-.36.551-.557l.004-.005.01-.012.019-.024.033-.04.05-.064.07-.09.087-.112.162-.21.21-.273.21-.275.163-.215.056-.075.042-.057.025-.034l.017-.023a9.718 9.718 0 002.508-2.585l.042-.06.03-.046.016-.026.008-.013.004-.006c.41-.646.723-1.33 1.01-2.046l.002-.006.003-.008.001-.002A9.954 9.954 0 0010 2C4.477 2 0 6.477 0 12s4.477 10 10 10a9.954 9.954 0 007.502-3.629l.001-.002.003-.007.002-.006c.287-.716.599-1.4.01-2.046l.004-.006.008-.013.016-.026.03-.046.042-.06a9.718 9.718 0 002.508-2.585l.017-.023.025-.034.042-.057.056-.075.163-.215.21-.275.21-.273.162-.21.087-.112.07-.09.05-.064.033-.04.019-.024.01-.012.004-.005c.162-.197.347-.383.551-.557l.066-.056.034-.028.014-.01.005-.004c.268-.208.557-.374.827-.498l.051-.023.018-.008.006-.003zM10 8a4 4 0 100 8 4 4 0 000-8z" clip-rule="evenodd" />
+                                </svg>
+                                現在地を利用する
+                            </button>
+                            <p id="location-status" class="text-sm text-center text-gray-500 mt-2 h-5"></p>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <!-- 2. PHẦN 2: CHỌN SỞ THÍCH -->
+                <fieldset class="border border-gray-300 rounded-lg p-6">
+                    <legend class="text-xl font-semibold text-gray-700 px-2">
+                        <span class="text-orange-600">2.</span> どんな気分？
+                    </legend>
+                    
+                    <!-- Container cho các mục <details> (JS sẽ đổ vào đây) -->
+                    <div id="preferences-container" class="space-y-2 mt-4 max-h-96 overflow-y-auto pr-2">
+                        <!-- JS sẽ tự động tạo nội dung ở đây -->
+                    </div>
+                </fieldset>
+
+                <!-- 
+                  3. PHẦN 3: (MỚI) CHỌN THỜI GIAN
+                -->
+                <fieldset class="border border-gray-300 rounded-lg p-6">
+                    <legend class="text-xl font-semibold text-gray-700 px-2">
+                        <span class="text-orange-600">3.</span> どのくらい？
+                    </legend>
+                    
+                    <div class="space-y-4 mt-4">
+                        <div>
+                            <label for="trip-duration" class="block text-sm font-semibold text-gray-700 mb-2">時間の説明 (例: 約3時間)</label>
+                            <input type="text" id="trip-duration"
+                                   class="w-full px-4 py-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition duration-200"
+                                   value="khoảng 4-5 tiếng, bao gồm 1 bữa ăn trưa và 1 buổi cafe chiều" required>
+                        </div>
+                    </div>
+                </fieldset>
+                
+
+                <!-- 4. PHẦN 4: NÚT GỬI -->
+                <div class="pt-4">
+                    <button type="submit" id="submit-button"
+                            class="w-full bg-orange-600 text-white text-lg font-bold py-3 px-6 rounded-lg shadow-md hover:bg-orange-700 focus:outline-none focus:ring-4 focus:ring-orange-500 focus:ring-opacity-50 transition duration-300 ease-in-out transform hover:-translate-y-0.5">
+                        プランを作成する
+                    </button>
+                </div>
+            </form>
+
+            <!-- Vùng hiển thị lỗi -->
+            <div id="error-message" class="mt-6 text-center text-red-600 font-semibold hidden"></div>
+
+        </div>
+    </div>
+
+
+    <!-- 
+      JavaScript
+    -->
+    <script>
+        // ⚠️ THAY KEY CỦA BẠN VÀO ĐÂY
+        const GOOGLE_MAPS_API_KEY = "AIzaSyAmbdRFOMwNlwiUD-LEwTvvJ6Twb0JlpmU";
+
+        // Biến toàn cục để lưu tọa độ
+        let selectedLat = null;
+        let selectedLng = null;
+
+        /**
+         * 1. Khởi tạo Google Places Autocomplete
+         */
+        function initAutocomplete() {
+            const input = document.getElementById('location-input');
+            const options = {
+                fields: ["geometry", "name"],
+                types: ["geocode"],
+            };
+            const autocomplete = new google.maps.places.Autocomplete(input, options);
+
+            autocomplete.addListener('place_changed', () => {
+                const place = autocomplete.getPlace();
+                if (!place.geometry || !place.geometry.location) {
+                    console.log("Không tìm thấy tọa độ cho địa điểm này.");
+                    return;
+                }
+                
+                selectedLat = place.geometry.location.lat();
+                selectedLng = place.geometry.location.lng();
+                
+                updateLocationStatus(`設定完了: ${place.name}`, 'green');
+                console.log(`Đã chọn địa điểm: ${place.name} (${selectedLat}, ${selectedLng})`);
+            });
+        }
+
+        /**
+         * 2. Lấy vị trí hiện tại
+         */
+        function handleCurrentLocation() {
+            const btn = document.getElementById('current-location-btn');
+            btn.disabled = true;
+            updateLocationStatus('座標を取得中...', 'orange');
+            
+            if ('geolocation' in navigator) {
+                navigator.geolocation.getCurrentPosition(
+                    (position) => {
+                        selectedLat = position.coords.latitude;
+                        selectedLng = position.coords.longitude;
+                        
+                        document.getElementById('location-input').value = '現在地 (座標)';
+                        updateLocationStatus('現在地の座標を取得しました！', 'green');
+                        console.log(`Đã lấy vị trí hiện tại: (${selectedLat}, ${selectedLng})`);
+                        btn.disabled = false;
+                    },
+                    (error) => {
+                        console.error("Lỗi Geolocation:", error);
+                        let msg = "エラーが発生しました。";
+                        if (error.code === 1) msg = "位置情報の取得が拒否されました。";
+                        if (error.code === 2) msg = "位置情報が取得できませんでした。";
+                        if (error.code === 3) msg = "タイムアウトしました。";
+                        updateLocationStatus(msg, 'red');
+                        btn.disabled = false;
+                    },
+                    { enableHighAccuracy: true, timeout: 10000, maximumAge: 0 }
+                );
+            } else {
+                updateLocationStatus('お使いのブラウザは位置情報に対応していません。', 'red');
+                btn.disabled = false;
+            }
+        }
+        
+        /**
+         * 3. Hiển thị thông báo trạng thái vị trí
+         */
+        function updateLocationStatus(message, color) {
+            const statusEl = document.getElementById('location-status');
+            statusEl.textContent = message;
+            statusEl.className = `text-sm text-center mt-2 h-5 text-${color}-600`;
+        }
+
+        /**
+         * 4. Render danh sách sở thích từ JSON
+         */
+        function renderPreferences() {
+            try {
+                const data = JSON.parse(document.getElementById('preferences-data').textContent);
+                const container = document.getElementById('preferences-container');
+                let html = '';
+
+                data.forEach(purpose => {
+                    html += `
+                        <details class="border rounded-lg overflow-hidden transition-all duration-300 bg-white shadow-sm">
+                            <summary class="p-4 cursor-pointer hover:bg-gray-50 flex justify-between items-center">
+                                <div>
+                                    <h3 class="font-semibold text-lg text-gray-800">${purpose.name_jp}</h3>
+                                    <p class="text-sm text-gray-500">${purpose.description_jp}</p>
+                                </div>
+                            </summary>
+                            <div class="p-4 bg-gray-50 border-t border-gray-200 grid grid-cols-2 gap-x-4 gap-y-2">
+                    `;
+                    
+                    if (purpose.preferences.length > 0) {
+                        purpose.preferences.forEach(pref => {
+                            html += `
+                                <label for="${pref.id}" class="flex items-center space-x-2 p-2 rounded-md hover:bg-orange-100 cursor-pointer">
+                                    <input type="checkbox" id="${pref.id}" name="preferences" value="${pref.id}" class="form-check h-4 w-4">
+                                    <span class="text-sm text-gray-700">${pref.name_jp}</span>
+                                </label>
+                            `;
+                        });
+                    } else {
+                        // Trường hợp đặc biệt "Surprise"
+                         html += `
+                            <label for="${purpose.id}" class="flex items-center space-x-2 p-2 rounded-md hover:bg-orange-100 cursor-pointer col-span-2">
+                                <input type="checkbox" id="${purpose.id}" name="preferences" value="${purpose.id}" class="form-check h-4 w-4">
+                                <span class="text-sm text-gray-700">AIにおまかせする</span>
+                            </label>
+                        `;
+                    }
+
+                    html += `</div></details>`;
+                });
+                
+                container.innerHTML = html;
+                
+                // Mở sẵn mục đầu tiên (Du lịch)
+                container.querySelector('details').open = true;
+
+            } catch (e) {
+                console.error("Lỗi khi render JSON:", e);
+                document.getElementById('preferences-container').innerHTML = 
+                    '<p class="text-red-600">Sở thích load lỗi. Vui lòng tải lại trang.</p>';
+            }
+        }
+
+
+        // === HÀM MỚI (POLLING) ===
+        /**
+         * 5. HÀM MỚI: Bắt đầu "Hỏi thăm" (Polling)
+         */
+        async function pollForJobStatus(job_id, errorDiv, submitButton) {
+            let running = true;
+            let attempts = 0;
+            const maxAttempts = 30; // Chờ tối đa 30 lần * 5 giây = 150 giây
+
+            while (running && attempts < maxAttempts) {
+                attempts++;
+                
+                try {
+                    // Chờ 5 giây trước khi "hỏi thăm"
+                    await new Promise(resolve => setTimeout(resolve, 5000));
+
+                    console.log(`Đang "hỏi thăm" trạng thái job: ${job_id} (Lần ${attempts})`);
+                    
+                    // SỬA: Dùng đường dẫn tương đối
+                    const response = await fetch(`/api/check-status?job_id=${job_id}`, {
+                        method: 'GET'
+                    });
+
+                    if (!response.ok) {
+                        throw new Error(`Server "hỏi thăm" lỗi: ${response.status}`);
+                    }
+
+                    const result = await response.json();
+                    
+                    if (!result.success) {
+                         throw new Error(result.error || "Lỗi không xác định khi kiểm tra status.");
+                    }
+
+                    // Xử lý kết quả "hỏi thăm"
+                    switch (result.data.status) {
+                        case 'complete':
+                            console.log("Job HOÀN THÀNH!", result.data);
+                            // SỬA: Dùng đường dẫn tương đối (route)
+                            const planUrl = result.data.planFile; // Đây là /json/Gemini...
+                            // Chuyển sang trang /map và truyền planFile qua URL
+                            window.location.href = `/map?planFile=${encodeURIComponent(planUrl)}`; 
+                            running = false; // Dừng vòng lặp
+                            break;
+                        case 'error':
+                            console.error("Job THẤT BẠI:", result.data.error);
+                            errorDiv.textContent = `Lỗi từ server: ${result.data.error}`;
+                            errorDiv.classList.remove('hidden');
+                            submitButton.disabled = false;
+                            submitButton.innerHTML = 'プランを作成する';
+                            running = false; // Dừng vòng lặp
+                            break;
+                        case 'running':
+                        default:
+                            console.log("Job vẫn đang chạy, chờ 5 giây nữa...");
+                            // Vòng lặp sẽ tự động tiếp tục
+                            break;
+                    }
+
+                } catch (error) {
+                    console.error("Lỗi khi 'hỏi thăm':", error);
+                    // Nếu lỗi (ví dụ: mất mạng), chúng ta cũng dừng lại
+                    errorDiv.textContent = `Lỗi kết nối khi "hỏi thăm": ${error.message}`;
+                    errorDiv.classList.remove('hidden');
+                    submitButton.disabled = false;
+                    submitButton.innerHTML = 'プランを作成する';
+                    running = false; 
+                }
+            }
+            
+            if (attempts >= maxAttempts) {
+                 console.error("Hết thời gian chờ (timeout) 150 giây.");
+                 errorDiv.textContent = "Server xử lý quá lâu, vui lòng thử lại.";
+                 errorDiv.classList.remove('hidden');
+                 submitButton.disabled = false;
+                 submitButton.innerHTML = 'プランを作成する';
+            }
+        }
+
+
+        /**
+         * 6. Xử lý Form Submit (Phiên bản "Polling")
+         */
+        function handleFormSubmit(event) {
+            event.preventDefault(); // Ngăn form gửi đi
+            const errorDiv = document.getElementById('error-message');
+            const submitButton = document.getElementById('submit-button');
+            errorDiv.classList.add('hidden'); 
+            
+            // 1. Lấy tất cả dữ liệu (Giữ nguyên)
+            const selectedPreferences = [];
+            document.querySelectorAll('input[name="preferences"]:checked').forEach(cb => {
+                selectedPreferences.push(cb.value);
+            });
+            const tripDuration = document.getElementById('trip-duration').value;
+
+            // 2. Kiểm tra (Validate) (Giữ nguyên)
+            if (selectedLat === null || selectedLng === null) {
+                errorDiv.textContent = '出発地を選んでください。（検索または現在地ボタン）';
+                errorDiv.classList.remove('hidden');
+                return;
+            }
+            if (selectedPreferences.length === 0) {
+                errorDiv.textContent = '興味のある項目を一つ以上選んでください。';
+                errorDiv.classList.remove('hidden');
+                return;
+            }
+            if (tripDuration.trim() === '') {
+                errorDiv.textContent = '旅行時間を入力してください。';
+                errorDiv.classList.remove('hidden');
+                return;
+            }
+
+            // 3. Chuẩn bị dữ liệu để gửi (Giữ nguyên)
+            const formData = {
+                location: {
+                    lat: selectedLat,
+                    lng: selectedLng
+                },
+                preferences: selectedPreferences,
+                duration: tripDuration
+            };
+            
+            console.log("--- DỮ LIỆU SẼ GỬI ĐẾN PYTHON (POST) ---");
+            console.log(JSON.stringify(formData, null, 2));
+
+            // 4. Vô hiệu hóa nút và hiển thị loading
+            submitButton.disabled = true;
+            submitButton.innerHTML = `
+                <svg class="animate-spin -ml-1 mr-3 h-5 w-5 text-white inline-block" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                  <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                  <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                </svg>
+                プランを作成中... (しばらくお待ちください)
+            `;
+            
+            // 5. ⚠️ GỌI BACKEND ĐỂ BẮT ĐẦU JOB (SỬA: Đường dẫn tương đối) ⚠️
+            fetch('/api/start-job', { // <-- SỬA: Bỏ http://127...
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(formData),
+            })
+            .then(response => {
+                if (response.status !== 202) { // 202 Accepted
+                    throw new Error(`Server không chấp nhận yêu cầu: ${response.status}`);
+                }
+                return response.json();
+            })
+            .then(data => {
+                if (data.success && data.job_id) {
+                    // 6. ⚠️ THÀNH CÔNG! BẮT ĐẦU "HỎI THĂM" ⚠️
+                    console.log("Job đã bắt đầu. Job ID:", data.job_id);
+                    pollForJobStatus(data.job_id, errorDiv, submitButton);
+                } else {
+                    throw new Error(data.error || "Lỗi không xác định khi bắt đầu job.");
+                }
+            })
+            .catch(error => {
+                // Xử lý lỗi (lỗi mạng, server crash, v.v.)
+                console.error("Lỗi khi gọi /api/start-job:", error);
+                errorDiv.textContent = `Lỗi: ${error.message}. Vui lòng thử lại.`;
+                errorDiv.classList.remove('hidden');
+                submitButton.disabled = false;
+                submitButton.innerHTML = 'プランを作成する';
+            });
+        }
+        
+        /**
+         * 7. Chạy các hàm khi DOM đã tải xong
+         */
+        document.addEventListener('DOMContentLoaded', () => {
+            // Render sở thích
+            renderPreferences();
+            
+            // Gắn listener cho nút Vị trí hiện tại
+            document.getElementById('current-location-btn').addEventListener('click', handleCurrentLocation);
+            
+            // Gắn listener cho Form
+            document.getElementById('mainForm').addEventListener('submit', handleFormSubmit);
+        });
+        
+    </script>
+    
+    <!-- Script Google Maps (phải tải sau cùng) -->
+    <!-- ⚠️ Thay 'YOUR_GOOGLE_MAPS_API_KEY_HERE' bằng key của bạn -->
+    <script async
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAmbdRFOMwNlwiUD-LEwTvvJ6Twb0JlpmU&libraries=places&callback=initAutocomplete">
+    </script>
+
+</body>
+</html>

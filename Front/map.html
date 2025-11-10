@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MiniTrip</title>
+    <title>MiniTrip - Kết quả</title> 
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -63,9 +63,11 @@
 <body class="bg-gray-50 text-gray-800">
 
     <div class="main-container flex w-full h-screen">
+        
         <div class="left-panel w-full md:w-2/5 lg:w-1/3 h-full overflow-y-auto bg-white shadow-lg z-10">
             <div class="p-5 border-b sticky top-0 bg-white z-20">
-                <a href="minitrip_input.html" id="backButton" class="inline-flex items-center px-3 py-1.5 border border-gray-300 text-sm font-medium rounded-lg text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-orange-500 transition duration-200">
+                <!-- SỬA: Trỏ về trang chủ (do Flask phục vụ) -->
+                <a href="/" id="backButton" class="inline-flex items-center px-3 py-1.5 border border-gray-300 text-sm font-medium rounded-lg text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-orange-500 transition duration-200">
                     <svg class="-ml-1 mr-2 h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                         <path fill-rule="evenodd" d="M12.79 5.23a.75.75 0 010 1.06L9.06 10l3.73 3.71a.75.75 0 11-1.06 1.06l-4.25-4.25a.75.75 0 010-1.06l4.25-4.25a.75.75 0 011.06 0z" clip-rule="evenodd" />
                     </svg>
@@ -73,10 +75,24 @@
                 </a>
             </div>
             <div id="left-panel-content">
-                </div>
+                <!-- JS sẽ đổ kế hoạch vào đây -->
+            </div>
         </div>
-        <div class="right-panel hidden md:block flex-grow h-full">
-            <div id="map"></div>
+
+        <div class="right-column hidden md:block flex-grow h-full bg-gray-100 p-4">
+            
+            <div class="flex flex-col h-full space-y-4">
+            
+                <div id="weather-placeholder" class="h-48 flex-shrink-0 bg-white rounded-lg shadow-lg p-5">
+                    <h3 class="text-lg font-semibold text-gray-700">Góc Thời Tiết (Sắp có)</h3>
+                    <p class="text-gray-500 mt-2">Khu vực này sẽ hiển thị thông tin thời tiết cho chuyến đi của bạn.</p>
+                </div>
+
+                <div class="map-container flex-grow rounded-lg shadow-lg overflow-hidden">
+                    <div id="map"></div>
+                </div>
+
+            </div>
         </div>
     </div>
 
@@ -87,52 +103,71 @@
 
     <script>
         // --- 0. Đặt API Key của bạn ở đây ---
+        // ⚠️ Nhớ thay API Key của bạn vào đây
         const API_KEY = "AIzaSyAmbdRFOMwNlwiUD-LEwTvvJ6Twb0JlpmU"; 
 
         // --- 1. BIẾN TOÀN CỤC ---
-        let planData; // BÂY GIỜ LÀ MỘT MẢNG (ARRAY) CÁC KẾ HOẠCH
+        let planData; 
         let map; 
-        let markers = []; // Sẽ chứa TẤT CẢ marker từ TẤT CẢ kế hoạch
+        let markers = [];
         let infowindow;
         let lightbox;
         let lightboxImg;
         let lightboxClose;
-
         let directionsService;
-        
-        // === THAY ĐỔI: Dùng mảng để chứa các renderer ===
         let routeRenderers = []; 
+        const planColors = ['#EA580C', '#3B82F6', '#10B981', '#F59E0B', '#6366F1'];
 
-        const planColors = ['#EA580C', '#3B82F6', '#10B981', '#F59E0B', '#6366F1']; // Cam, Xanh, Lá, Vàng, Tím
+        // --- 2. TẢI DỮ LIỆU TỪ FILE JSON (ĐÃ SỬA) ---
+        
+        // 1. Lấy (GET) tham số 'planFile' từ URL
+        // (Đây là đường dẫn /json/Gemini... mà input.html đã chuyển đến)
+        const urlParams = new URLSearchParams(window.location.search);
+        const dynamicJsonPath = urlParams.get('planFile'); 
 
-        // --- 2. TẢI DỮ LIỆU TỪ FILE JSON ---
-        const jsonFilePath = "../json/GeminiAPIResponse/MinimalSearch_RatingGT3.0_pref_cafe_pref_sento_pref_bookstore_20251107_105456_geminiAPI_Enriched.json";
-
-        fetch(jsonFilePath)
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status} - Không tìm thấy file.`);
-                }
-                return response.json();
-            })
-            .then(data => {
-                if (!Array.isArray(data) || data.length === 0) {
-                     throw new Error("Dữ liệu JSON không phải là một mảng hoặc bị rỗng.");
-                }
-                planData = data; 
-                populateLeftPanel(); 
-                loadGoogleMapsScript(); 
-            })
-            .catch(error => {
-                console.error("Lỗi tải file JSON:", error);
-                document.body.innerHTML = `<div class="p-10">
-                    <h1 class="text-2xl font-bold text-red-600">Lỗi: Không tải được file JSON</h1>
-                    <p class="mt-2 text-gray-700">${error.message}</p>
-                    <p class="mt-1 text-gray-500 text-sm">Đường dẫn: ${jsonFilePath}</p>
-                    <a href="minitrip_input.html" class="mt-4 inline-block px-4 py-2 bg-orange-600 text-white font-semibold rounded-lg hover:bg-orange-700">Quay lại</a>
-                </div>`;
-            });
-
+        if (!dynamicJsonPath) {
+            // Xử lý lỗi nếu không tìm thấy
+            console.error("Không tìm thấy 'planFile' trong URL.");
+            document.body.innerHTML = `<div class="p-10">
+                <h1 class="text-2xl font-bold text-red-600">Lỗi: Không tìm thấy dữ liệu kế hoạch</h1>
+                <p class="mt-2 text-gray-700">Bạn có thể đã truy cập trực tiếp trang này. Vui lòng tạo một kế hoạch mới.</p>
+                <!-- SỬA: Trỏ về trang chủ (do Flask phục vụ) -->
+                <a href="/" class="mt-4 inline-block px-4 py-2 bg-orange-600 text-white font-semibold rounded-lg hover:bg-orange-700">Tạo kế hoạch mới</a>
+            </div>`;
+        } else {
+            // 2. Dùng đường dẫn động để fetch
+            // Đường dẫn này là tương đối (ví dụ: /json/GeminiAPIResponse/...)
+            // nên nó sẽ tự động gọi server 5000 (nơi đang phục vụ trang này)
+            console.log("Đang tải file kế hoạch:", dynamicJsonPath);
+            
+            fetch(dynamicJsonPath) // <-- SỬ DỤNG BIẾN ĐỘNG
+                .then(response => {
+                    if (!response.ok) {
+                        // Nếu file không tìm thấy (lỗi 404)
+                        throw new Error(`HTTP error! status: ${response.status} - Không tìm thấy file: ${dynamicJsonPath}`);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    if (!Array.isArray(data) || data.length === 0) {
+                        throw new Error("Dữ liệu JSON không phải là một mảng hoặc bị rỗng.");
+                    }
+                    planData = data; 
+                    populateLeftPanel(); 
+                    loadGoogleMapsScript(); // Chỉ tải Google Maps SAU KHI có data
+                })
+                .catch(error => {
+                    console.error("Lỗi tải file JSON:", error);
+                    document.body.innerHTML = `<div class="p-10">
+                        <h1 class="text-2xl font-bold text-red-600">Lỗi: Không tải được file JSON</h1>
+                        <p class="mt-2 text-gray-700">${error.message}</p>
+                        <!-- SỬA: Trỏ về trang chủ (do Flask phục vụ) -->
+                        <a href="/" class="mt-4 inline-block px-4 py-2 bg-orange-600 text-white font-semibold rounded-lg hover:bg-orange-700">Quay lại</a>
+                    </div>`;
+                });
+        }
+        // === KẾT THÚC SỬA ĐỔI ===
+        
         
         // --- 3. HÀM ĐỔ DỮ LIỆU CỘT TRÁI (Giữ nguyên) ---
         function populateLeftPanel() {
@@ -143,7 +178,7 @@
                 const planColor = planColors[planIndex % planColors.length];
 
                 content += `
-                    <details class="plan-dropdown border-b border-gray-200" data-plan-index="${planIndex}">
+                    <details class="plan-dropdown border-b border-gray-200" data-plan-index="${planIndex}" ${planIndex === 0 ? 'open' : ''}> <!-- Mở sẵn kế hoạch đầu tiên -->
                         <summary class="plan-summary p-5 cursor-pointer hover:bg-gray-100 transition duration-200 flex justify-between items-center" style="border-left: 5px solid ${planColor};">
                             <div>
                                 <h2 class="text-xl font-bold text-gray-900">${plan.plan_title}</h2>
@@ -209,7 +244,7 @@
             return galleryHTML;
         }
 
-        // --- 4. HÀM INIT MAP (ĐÃ SỬA) ---
+        // --- 4. HÀM INIT MAP (Giữ nguyên) ---
         function initMap() {
             directionsService = new google.maps.DirectionsService();
             
@@ -228,8 +263,6 @@
             initLightbox();
             addMarkers(); 
             addPanelListeners(); 
-            
-            // === THAY ĐỔI MỚI: Gọi hàm tạo sẵn các đường đi ===
             createAllRouteRenderers(); 
         }
 
@@ -300,12 +333,13 @@
                 });
             });
 
-            map.fitBounds(bounds); 
+            // map.fitBounds(bounds); // Sẽ fit trong createAllRouteRenderers
         }
 
         // --- 7. HÀM ADD PANEL LISTENERS (ĐÃ SỬA) ---
         function addPanelListeners() {
-            // === Listener cho các ĐỊA ĐIỂM (WAYPOINT) ===
+            // (Giữ nguyên code listener cho waypoint-item và thumbnail-img)
+             // === Listener cho các ĐỊA ĐIỂM (WAYPOINT) ===
             const items = document.querySelectorAll('.waypoint-item');
             items.forEach((item) => {
                 const planIndex = parseInt(item.dataset.planIndex, 10);
@@ -347,39 +381,44 @@
                 });
             });
 
-            // === THAY ĐỔI: Listener cho DROPDOWN (THẺ <DETAILS>) ===
-            // Sử dụng sự kiện 'toggle' chuẩn
+
+            // === Listener cho DROPDOWN (THẺ <DETAILS>) ===
             const allDropdowns = document.querySelectorAll('.plan-dropdown');
             
             allDropdowns.forEach(detailsElement => {
                 detailsElement.addEventListener('toggle', (event) => {
                     const planIndex = parseInt(detailsElement.dataset.planIndex, 10);
                     
-                    // Đảm bảo renderer đã tồn tại trong mảng
                     if (!routeRenderers[planIndex]) return; 
-
-                    // Lấy renderer tương ứng
                     const renderer = routeRenderers[planIndex];
 
                     if (detailsElement.open) {
-                        // === DROPDOWN ĐƯỢC MỞ ===
                         renderer.setMap(map); // Hiển thị đường đi
+                        map.fitBounds(renderer.getDirections().routes[0].bounds); // Fit map
+                        
+                        // Đóng tất cả các <details> khác
+                        allDropdowns.forEach(otherDetail => {
+                            if (otherDetail !== detailsElement) {
+                                otherDetail.open = false;
+                            }
+                        });
+                        
                     } else {
-                        // === DROPDOWN BỊ ĐÓNG ===
-                        renderer.setMap(null); // Ẩn đường đi
+                        // Ẩn đường đi
+                        renderer.setMap(null);
                     }
                 });
             });
         }
         
-        // --- 8. HÀM MỚI: TẠO SẴN TẤT CẢ ĐƯỜNG ĐI (THAY THẾ HÀM CŨ) ---
+        // --- 8. HÀM TẠO ĐƯỜNG ĐI (ĐÃ SỬA) ---
         function createAllRouteRenderers() {
-            routeRenderers = []; // Xóa mảng cũ
+            routeRenderers = []; 
+            let bounds = new google.maps.LatLngBounds();
 
             planData.forEach((plan, planIndex) => {
                 const planColor = planColors[planIndex % planColors.length];
 
-                // 1. Tạo một renderer MỚI cho kế hoạch này
                 const newRenderer = new google.maps.DirectionsRenderer({
                     suppressMarkers: true,
                     polylineOptions: {
@@ -389,10 +428,8 @@
                     }
                 });
 
-                // 2. Ban đầu, ẩn nó đi
-                newRenderer.setMap(null);
+                newRenderer.setMap(null); // Ẩn ban đầu
 
-                // 3. Tính toán đường đi
                 const waypts = [];
                 for (let i = 1; i < plan.waypoints.length - 1; i++) {
                     waypts.push({
@@ -412,12 +449,16 @@
                     travelMode: google.maps.TravelMode[transportMode]
                 })
                 .then((response) => {
-                    // 4. Gán dữ liệu đường đi cho renderer
                     newRenderer.setDirections(response); 
+                    
+                    // Mở và hiển thị route cho kế hoạch đầu tiên
+                    if (planIndex === 0) {
+                        newRenderer.setMap(map);
+                        map.fitBounds(response.routes[0].bounds);
+                    }
                 })
                 .catch((e) => console.warn("Lỗi tính đường đi cho plan " + planIndex + ": " + e)); 
 
-                // 5. Lưu renderer này vào mảng
                 routeRenderers[planIndex] = newRenderer;
             });
         }

@@ -1,0 +1,422 @@
+[
+    {
+        "plan_title": "Khám phá Lịch sử và Văn hóa Lâu đài Osaka",
+        "theme": "Lịch sử & Văn hóa",
+        "estimated_duration_hours": 5.0,
+        "waypoints": [
+            {
+                "place_id": "ChIJ3cWUGtvmAGARtaG0esvinlQ",
+                "order": 1,
+                "name": "Naniwa Shokudo (Eatery near Osaka Castle East)",
+                "activity": "Ăn trưa",
+                "location": {
+                    "lat": 34.696858,
+                    "lng": 135.512892
+                },
+                "info": "Một nhà hàng địa phương với các món ăn truyền thống Nhật Bản, nằm ở khu vực yên tĩnh gần Lâu đài Osaka, lý tưởng cho bữa trưa.",
+                "distance_text": "Khoảng 1.5 km từ vị trí hiện tại",
+                "duration_text": "20 phút đi bộ",
+                "transport_mode": "Đi bộ",
+                "photo_references": [
+                    "AWn5SU6Gek4eZUOSbZLYwvD4oGn2ctGjzGwd8q6qGDsDkBL-4NWRiOhFxQklCsICX4ePIqfE872zXmVf1KNRNzJ-lvfgVmyFdEKF50i-QtodSp9eVoqr137pktMNjEEgJ45CEHDede7AdvJqcsfvFN09yZ7xt3BrBYkrWLhydN-s4YN3TUO3Jo6LIJ6I3FjtO6rxVw0JzW5wo1FTwcTXwleviqAL4H9T_kWU8Ks-zaaS2lryjHuwszwQJh5knKp_wJ5ieEEjbOofNqpD56eX0ztHeFKaFBdJ_YkpxyGcJA3z8v7_vO84mDMjzQQey-BIrFGQV9OlYakei1DPFFUmHWcdFhxaLzweo6PDdcGJvR-yqyA2UqdeNLOlC51LsfEWEYaqoZgCc53YW-dRLGMm_zvqf2YCW_aHK1mmtJ2UDTqmlvUZRQ",
+                    "AWn5SU6NmuHbe4_ImfpjwrZd9Hz3wHxWMZSGaL7ior91LiQ8aqs_7rv8whM0bIniOYWkoyP-pixi_T7MrDamJVmS3udEhTOvg0krTZpC4O4p-RNxNKYjhobdiweyK6Cf2yRB6KB6jjkbZm6IiRgNLlxCIGT248xiOGh2J0mE9911EZYIcCx8okVgxeO10ee0AAYS6P2dAG5x0strbw_g26zRd35PolzKjyLBHo_uevqpK_W0ZFECr_PKaCGeTNas2f2A9cfJyKcbjPlaOXt4w-Ju4xkQNNHkBn73JJXHSJBFKjUnMopTN0lehg0ZaKtAfv_ruQo3arkrsdnel7xrUTDUW-XaZ_SS-SJQkQVpUEuGDZrNt7j_Wwdv9-CupCdKILy3S6POarqFQ1QGNjewZpe5jytF6nlSUEGcdKvoRrrZIJw",
+                    "AWn5SU6tlVzyGdXFC7nIV_MbUwqZE2EyST0plrJ5ZQifTdMSOU8T6pslWwoziybztkoILOnOtB6qYMI6VJO12VnOEN8x5UoySuQg3Sd4J0wG6wofugPAzZk0WYmViencyMI7lkXgY5LLSnaNWd-GfICvUTQlfU_x-AkdsES4joWlRSAGrGxGe1-t2-hwPG2MQjQ30S5iQ7gfMb8c4HXLlJ7kUJx3ikuHikLTWTvM7b752aYvy1obB4-2VxqrRyWPFmkEkKRDXEhJ_GXT_fH2Hu1d8LOPlOPnqfsoMniDVCO8BbCqfjJRRKt-AX2QkdG26vkeKdrz5aE9lJVCufXcbEJtIcgbZkWkc9YKLDwqu4Ez4FVV1ozbT43HdyufsF6-21EBmh3ah-Cz3nZmCHXEoEpRKoDmquEj9-6yK-UxllLRH54-x4FV",
+                    "AWn5SU6lFoyDdaPOcc8wk7Ak4Ppj026iE12c_yMRN6PqAo-L9fwxgB_hZxtHpjoF-Y0Wvnc2aFqv7fuYik57e5T7tzgKYIn9FGb5fKbdks0sYTlsaXQTnLMcrZ8PUGUFKxbOQwDdHmmSoqs7bG2pqExkUc4DoCkWzLbcoqMlqA6lw0ZXzUawQksKxu3jnTWtt3_YcpBsFiWrLS1shryGQTJCDQ8pvvncec5tZ8pA6IRXzWFZzQ1e1k0kunkE20lqG5p-mr5JW-VpRjjq7YJGPx-PMuRqqcsEcJOIUOCRaYnWWxJvw2fvOXdXok3Q8fUbYlEA0-oYQSp8Zockgt07E2wR6HpdTIQTopy0JNMfVLBKqWEwsmd0zCPh0MiPg6MciV09JzJF1Jdy4bdUMoU3P3QiBY15vEO2uWTS8HFqOdamMRk",
+                    "AWn5SU5uQsBpfFeVfXWytm-PJKBTKSlsNJht_Uoa5z70MzRpFLYOEGs4HpDpIqbpVpTBvX08Ehrztvd8V_Oz9oqveXGXrSJyLTiRrdncUaj5Ql4hsMG2YPfCKdiFugjUcVycBQDb6EEImspEfzNcZ8X_x9lNLsAMq_-w5w-6lNhWI22Avlcmxhhx_b19D9ulE2U3yUZQxjoGE-owQg-DBD4fdlV_32KIpBXXkEX5eP5LfTIBJHb_A39k6lT265Qc1xQ0MRf1ti6Y75PjfOooDv9p1uGV3cPcOx4ZaP2lCHxuy19A-vORXVNePJwotLyWDJGWUh59w1H4jVx4mNrjMmNjwV6KszE-GOkYcMXI8STpiCNWB5ngnDF4jKK463eyV9o_h-f--8kBX4VecxdHnSELrRGMoGVUklabXITlROCeb7c",
+                    "AWn5SU53b6NjC-DHuayM7-Nvu18MzPu5QqjHd4LV2Ey6f0bMQm38VTV94Ie9Xp1LfMDCmNbxqZ7an7FaAwctgEpKqplRhSHpd18zGbyDD3QkvsCeYKN7FO8VW3xEPDMuPah3SblhB86LFcLWAxBaLDF_iInYIbE5zcUOL9KQ3U8fx4KtqTf0tofbxyWxxyj8Z6D_auQbpJH4bQSGpNxtpI9sKReP52WhQyjW3sOZF1ywhkb5tSn7fHmNG7HwnRwB7mCT4XkikdP5zh9E_UrfbN001xnc3CsFdXBC0SUkqVLDg4aZBNBFpl_ksKi8pEnEiwFmlERq3Xaj2n02Coy-O_7giyippX2jAwkdKmT2Hz4C9e3yhmADPtdmFfEhPZbD4_4lmKFbpfo98zrMeUw_tlcYGpEiI4HwbVcSqclKktI5IHBlWw",
+                    "AWn5SU792ys9Zq8CJIaL5hN4EaiEwactD9wBxc9KEt3SQh8sol8vpIVkCxVYDg79gFifPBR6z2hA0CgWZSPiTjIqFTRJ-2I1Ar0jQ4mEs9efd58j0SDGp0nBq91K-ecpfgVKfecB-41LUIy0CEro4wTe8_SHEjQDFOokKOtQUvkxfOttCohFk63O3zkJHyAxQidthooPVn2XsOH-59xyOGJHmpGTWDjDjjp3J0VUSszj4qDvJ8pdy5uCUTvONqUaCtKalnr5lMeiddghGflSctfE9w_BU2P8zK9aAWbK3o7yRGKzWRGmwKMqK--w3WkKSrNMxdRqNJsoP6U_mSylp0XwBLwdSiPA6tMIX7gqf4kk2NzwzSdOh8L_enxZ1iWDWApQUJNgL_r6YDL0gAwSXVKAkVRvWsSXsRPm_KQLhGvsImrJPA",
+                    "AWn5SU5quVo5HQtKRXaA_A0WJ6RVTAzN4K2KNXsh10KYSa7l0MEnCTC7agx4gNhsHjtbhxqqb5MYaeD9rEr4gtdqnSYxUE32mI7ot7q-T3D6vYwFX35A4RBU3ExdTSfubitNJDiS8tbP8qaiwm54aTw1LHrDbqUAy_T0X9nkKoTL0IhNBNQjyaD8eCfnUhAbbBOBTXCblRdQihvvE7jorYsXw_osB_gLntRq602Yztm9X4XYs_elGUIPrXqe1eeILZcZWbXVR-DdOqFj2V23F-YwIZ-d4i29NlD5-EU3yWV5wrTokAEOUaoCJsGou21sOqMr-2xy-LQU_0QSm9_O-hTZVjM6-Cqq_kJcvKWmQUTRp-DU7BZF5ewOiEzC17JylvOggHz0vEAb2nfDQhOmjJQzAISF26IpLbKsQBjHOJ-rZE_hudVS",
+                    "AWn5SU5aswgdyGRco2_WHvIGQd-077EkNZH3OfJJtszCOvZjbvNeHodp8tIiEEOyMI9Yv87PRwO0cG7VP0hoV9LGZHC4dLpRe48QHVy-PajOviZebRoU6ReyVcj-LS4dugRzTrdliCPSWU1ivAcCKXWT8tMt7Om7uODXptssWpEnkWnbaspf3WmSE1FMFVeMbayNJqq5szrM1IilURy2EyLSC7MlPnHp6tgNuNGEdC4R68WL3yiEvYQDJgtwJTuX6xbkxwZO2Y07gsy2s1ibxt1oij4I3iciCDVJgNtExRr83f_hHczMRK_AW0htPtNIeTooHKsRjIzQcw8vsLq_6cRZ-Hxs9CEQkTqqqIWwXe-aRxelLd9qBtQamaLq1jve0axLyRnscSZeqs3vmKTUmkNcNdH_krHxVKFJSKYeXeiIa511CHlgg_MwAMO7opydFlHx",
+                    "AWn5SU7Spx7yHlhgEjbHQD17-gRQraXJGcNo4ksiFoAUYyfFaV7q1KVMuOl_Jc87gNtgAsuD0HW_DQyccqReB7-lJUGqxbSNmMDzDYFxJZGlGEoOgZg2jg6eKEA2QJyrmA-cClH1PmC1Kxqw9cgNcv8ZxoxNVU5DsCcFDgJoDAC6zT99-0d48Y0Wj_svuWeXeezVVLJpTwJzFnBKccOtSzKVtITx-jcwRoILnpzOD7xrtHpmVak41OyPhnm98FQk4Z0_xKfrGWOstapXcUwZG-DnKvNH7SgYWtiK9vknRVwFCjDMqtWuowG2NXWalueGcV7VbmDhDWfonHT7lGrcqE1VT_SAaM_ocG8g3rcH7Wkhv2ks1yEPg84BSRDUU0kH9P3CMULMKZC656M857_VOkP4T85XEpUT9CxhF_IKGkYNoaI4ou39"
+                ],
+                "review_texts": [
+                    "大阪天満宮の境内にある「星合池（ほしあいいけ）」。七夕伝説にちなんだ池で、天神祭の際には多くの人で賑わいますが、普段は静かで落ち着いた雰囲気です。池のほとりには石橋や小さな祠もあり、季節ごとに変わる景色を楽しめます。平日昼間に訪れた際は、参拝者もまばらで、池の水面に映る空がとてもきれいでした。外国から来た観光客の方も写真を撮っており、天満宮の歴史と自然の調和を感じられる癒しスポットだと思います。",
+                    "天神さんは毎年1回はお詣りしますが、悠長に周りを散策はなかったので…\n恋愛のパワースポットだそうです\n受験関連で「すべらんうどん」を食べに星合橋を渡り出会いました\n緑色の池には亀と\"畔\"の花も綺麗に咲いていましたし、鳥居も立派でした\n願い玉（授与所や星合茶屋で買うのかな？）を投げて運を占うこともできるそうです\nのんびりと池を眺めている欧米系のカップルもいましたし、千年以上前から存在するとのことなので古（いにしえ）に思いを馳せることも出来るのではないかと思います",
+                    "受験で有名な大阪天満宮の裏にある池に、バランス感覚がある亀がいました。\n\n隣のうどん屋さんは「すべらんうどん」で有名ですが、池には「落ちない亀」もいそうです。(たまたまかもしれませんが…)",
+                    "大阪天満宮の近くにあるの亀の池。\n\nコインを3枚500円で購入して、池の真ん中にある島に投げると良いことあるかも！",
+                    "天満宮の天と星と人の交流を生み出した「星合池」。。池に浮かんだ 梅型のカラフルな花びらに願い玉を想いを込めて投じる。赤は恋愛。白は健康。。緑は合格、真ん中の金色は満願成就だとか。。\n大阪天満宮の奥にある池。願いはないけど、行ってみたいと思った。別名「亀の池」といわれていることもあって亀が沢山いた。\n歴史情緒あるロマンチックな大阪の隠れた「名所」だと思う。"
+                ]
+            },
+            {
+                "place_id": "ChIJbyd0kIjmAGAR_crecCbjwlc",
+                "order": 2,
+                "name": "Lâu đài Osaka",
+                "activity": "Tham quan lâu đài và khu vực xung quanh",
+                "location": {
+                    "lat": 34.7052872,
+                    "lng": 135.4896527
+                },
+                "info": "Biểu tượng lịch sử của Osaka, nơi bạn có thể tìm hiểu về Toyotomi Hideyoshi và thưởng ngoạn kiến trúc cổ kính. Dành 1.5 giờ để khám phá.",
+                "distance_text": "Khoảng 2.5 km từ địa điểm ăn trưa",
+                "duration_text": "20 phút đi tàu điện",
+                "transport_mode": "Tàu điện",
+                "photo_references": [
+                    "AWn5SU71G9rjPa_Pxsen28yIy-k_6nYTjc90QzKqTtqktqa875ei0skw46lTcYofw7jSiNzZFtxP-dl1McH9lDVGmaLtK28EN3r0Vayo9956vySYpVTIGEd6kGDBzTrecueINnACBxKXjyH_mELEhHEZ7unODIdmPJrrASjo-IdQpApfaQmNAXs8Wg4bKGEkMqy71F1MKV7nRJloDj0iMi3KrmQWv0xgjyDMiic_JmRC_dmbcznD7QBtu27YAyjqWL1XFsIfEGLROKHhDmKXX5cmtHfJfdnFJjWjZEFmLIFDAgTwv293ifRdOAP7vr2Xs-iyjEfKbLiYvZr887WQ30a8boMvvTWNSijU-NEeCnJqBBlx0J7zEaVekJ-hvPVatZsgvpPr8XFcytyUVIu0tANhkNRaEFitbe7AWb7qRAVTzjCLOmj3",
+                    "AWn5SU4a3pTZSIhXv0WoAm9b9Y9SJqx3MSgUtlNCA65Vqgd4pVKjEhzquP7Q2e0TsXPpz2sJ2u8hvYA433CE6hoRGKAx9Id9ug11-3VIm_BpQYbo0gkJnsA5v1QrczXkugFolB64oSR6WBsGXdrPSc53QPLcRdrtj143uvuhUrVF-PJatDC7FMpEPV4mWEzAHMPfaFQ2JNJX27AM1ydjPtgPhSvy9PyHSDXqr98KlJQ9xlXhLC09fGFFPlbdvtYV5tpFdL5qKYz8EpkWQyhfAhoheWvvq3ZXmLtwvA5hVz1V5x79HPpPnHSVDR3mRhdK630EGgWgAKQ2aZjCnO0Zk5PGC3tVuSUkm6P2bn_s6rKEMyVjd5_P9t2HTxwblkSEloyrLzIG19u2iGE7G16N48TxLLxx9xufXogkmsrJGLmpt1fXFA",
+                    "AWn5SU6YG5pijvJXH8e55iYhw4e1m7hZ3oG_cFPdF-_f6LM8p0f4lMMjtcsb4NO3TpxL7eg8BQu2c_TWUeEOycc6fklxP81Dq6fR9mU_fYSa8OWS6M8mfs5G2phMV0s-WX_rd5KkHAHIDRa-sCmirN4P_fISar-KMueKU7beLNYXgIbuWaZwmg9a_fd1aEo0ZyuxRz73wK-xX3gysgKcGjdl8ghS0Yf98k3bUR-8d4-q6orZiVe8rdH7R55AjbmdhXPm998BFi5LKjpymjqQIKHr7D1JBn8y2hBLm-QIc8FDchVM6f-88luZGX5cZDERDREucygSCO21_653X5lN-kPRZloYe70ON3U0_LXq95SuRhVg_bhy-_resAJueqknKp8LRDf-GI_FtjRufY309lmjv-PqkeNlOJPjn0dcFCriyU97uQ",
+                    "AWn5SU4iXj40EZW4qQrSXT_m3Vx408Tn3elD2fKA44F1d9-p3mYNRO_5zzwYLdxFYPT0wMpPJ6ZC-F2plG77c8UwvcyEcFqTyINdKATfCtM0l-E9q6X1u1HfItjTuhahE1Gmk0V85i67kjCfvXPOAoAlz2SXGFePmE_TB7LvTpP2NmDpsitvHiUPLODCxmeH_c6HqfGyScVzvLM8hhLVuE7E2tAZ6SFxAU2-3kPJ9oW_mjoWSpIQ6Ikpry8-fhKzsHhJBGU0IdspJ6pBmawnb-48xtYEvNnaKUFZA19VDxhnwB9yzRjmheO_GwlBQLh5mrRjyJTYq9YKyMjejKGeLr0tZFopx0HJs9V_lBcnWHxRd-MIYyidRHBkQOikrdA2M86VKbnbMPLCC1ij9WDbTZx6_q96vHsmvH1I2OgLIBeCqwr2ew",
+                    "AWn5SU6y1mGx6slzXjtn0RYvYU5kR7GXSEOCn_4Vm3MfopZ5Ds3gDWNuU0OJqxXjPZGrOLGvi1BNSYWMTvmmFe4smexGBpiXKrvGpYHKUAOKJbv7653QNPvsCVXEbomS_oyFd1SnbaS2dVZyAAjmApcS3o_PUzLeSbD3edHiAltETFHvR7WxnWLNf11R9k5Tap83vXROkl6CnLYkRmeMRgEXjdb0ffau_OUz6QKsgioHNtfsK2e81pqsrgsqD3pBQw9s18d36GZWqT3II_-HfKMB_jl4e_bG6tTzrH7O_jkapvI3RJI7U_d5sn-w9Opud_MnJKnUVOf6byoCu1GSQlaCEVVhI7uXp3_Zjfj9pcKMrWUQbW9mUdLrwkog2DZXa97sTnpRT6wh-c6iEzudaA4hwJqobH3iUDA29A4LL4cNO9ZmjQ",
+                    "AWn5SU4vDDyyq3CZzQz_GY7xC8lSUPCbs8EoIozGNQAynWONS_VyeYjgCe4WHaIq2SihACnXJ1kmBBRJkwD1NyCdXVwHPeu0KUoq98e_IQwYACeHXFDtK0BYd4EFFfABxd_i8fB-acGVOLMyaQlC8FHImDKpsXPuNY3Ve-ypA0gaRUS8Z03iGan6G-tASL8pgB9Lkqvf4Waexsg35kN33UIvyaROJromUutpzI8hZ0yTtjDusln_hCadLsTytGQEjtgzaR2BatY77m_MM2GjYdYRQp_3YiAUc8Yukv5GEPbnEbc4DMEF-gmgrS13nl0vob7MCDNh-R3KsVyT0QyS3wRkPMgKdv7otPCJT5ayQPLmpMjqJCI_YhdQo_dnp3KGXM2yhqQ_pOO-ZLvHY8Y62ryWneP0x0ffq5TCFp5IVqFLMNlDGTA2",
+                    "AWn5SU55yiC9A6Y45xUz8HFkaR0eHNxDSTx43Rfdt5iG-KX_ZAleltxjrWnFXfawWBLLveOpQxSFZ4sRJ1nKlkXzeWmwBO1vyCpxEpgU5YuR496W6TUeyl7B-GaFnax6nSBj5d9Hgn1jWR0ox0IPRL2syI8OM4UStxIQloHeH4RuOPql8DTH9G4-CRq-e8fSZyLJmBSpDqz5dHSyP1mPYC28sYDWWh_gcWoM6mlPuwI4jIH2sz5NdOR8ZL_cQZr0Q_4TKed7NHH3oLYy7zGT-S3TV54MLxsTzgHCIUsBubpCNLvHbJCC4kB3vbwTf4RjfSt1z1ox1AR0Vx0S-o_ian6lNSD0U1_yxZFzZF6P8fgSLxTYKkI4uuskiUrj6vZTFcmMfeQ1EcwiaUHYot6Hywiz-c-Mo0DV17cCm9hw1YilVrZRrZk",
+                    "AWn5SU5ilQMCbAYG5KcXZSPcI8vqWQWT2OCxon7Y1m6F24WUtTNj1mY6eUNb818ZsMk-FXj3FRhaeoCNzAsmvnHI6l4ZKucWy0rWvTWm6Sm2ob8azs_k0wq_3lgJAHSo87fZqiK8ttSQxXhBKAsTaW7Ir4329k4gWUdU5_3g6kvDbFVm_wgZntdSwlSXwtWywbvAra1KOSZQPvzz6sy8b5cy6mi7BMvyJmJwSgBFEHLJiEL8zt56a3lMKZzNk-Lok3x4joxfgLcfNnqQIzfdYiwsm5QvA80Iks0e7AYVR1oAQgyOTbb31vtCwUVKLq3ZuQahiIaXMZsUQJt5W97Lvaj7a1xOC1Z6X4qLzQzFT4aHpWCxjQT2_NTu-MhTrz-BPNmZ_qAqF-sY812smqYIKzJ0kO4W31LX7pg-mJi9TvaShs9ISR3obLGyqurSx2TvLllq",
+                    "AWn5SU5i8oa4ZeeZuEay-epeJR0c5S_Dm9CjraXD-7I_I3Nvgb28_9aMInBGgSE64bumHbcVoAqNu654YR84TMn46jSxM5ncf11cf74704e69u-x2YdJQ7RKZSGQKrO49u1eUj1r5S_bkXGrYzj5vJMsaj2e44nkw7XsHUhuh2qjYQbe9y_zcQx2pQkV6U7DIsU7yg48neVba1Vl3_1Yu4ip51tSL3ytUV6MSif7qFgwa93SN0v-scn1vP22XaWS4Ka16vhON2Zz7p7CPRWIMtpF9vq-MMJsyiBcZxgmv7bSYlBQu35B5WkCrGcatoEDbUh4-t22rT--FUuVRZ9aDgwMSlS_PYb1OyFwdEUDY_AgPWUrOEODeUUJnPcAleVZ0h6xCRqrxJ_bm5obtQ5izjdH_NMdaaBs7ibGoj0M9zBrWA_1VWNTb0YwshqxPG34_Q",
+                    "AWn5SU7X820XjVFOlJyCu--Tzm0oMGP8SYYQGh1c2KlN-SgEbcvRbNQpq6jGUxZIc1AzEp0taYIGyaZIOHZ2LLzZGQwFvckOR5mwhS5nlECKSHedp0T1IQv0ZTytesPvzsUSewuvrhPHgH-s9bT_Qx1oXwKL8KFiivkCSqIc9zyhOkTPi4p3onRsnMtW9lD6LSxCEbVa_iD101owMEDrOakJ0IayEPR3EJiT_1jyYTvffeT7AUH0iRnm3H6jkSk7pyGU5b5QwwglZksp0RFzPkAMeioBiOBi-c4dVGPsUqoTdiMMK6fj-eSqN8lVAcek8q4Vk0lv7iqvSFdnLm8BVTf9es8rbgAdeh2Km4M5H-V2-eyda8qJ1Fet6hmjTcraPM-r_EsdTLWR11y_n0YrNkO61GiTacY1ashqVP-hi9A6jZaDLg"
+                ],
+                "review_texts": [
+                    "私が高層ビルからの夜景で特に好きなのが、梅田スカイビル空中庭園展望台です。この場所の最大の魅力は、室内からではなく、直接外の風を感じながら景色を楽しめることです。写真を見てもお分かりいただけるように、ガラスの反射がないクリアな写真が撮れるのは、本当に素晴らしい体験です。\n\n展望台に上がると、そこには大阪の街を一望できる360度のパノラマビューが広がります。特に、夕暮れ時から夜にかけての時間帯は、息をのむような美しさです。夕日が西の空をオレンジ色に染め上げ、徐々に街に明かりが灯っていく様子は、まるで魔法を見ているようです。\n\n夜になると、街の光が宝石のように輝き、眼下に広がるビル群や道路の光の帯が、幻想的な世界を作り出します。展望台の足元は蓄光石でできており、夜になると星空のように光り輝く「ルミ・スカイ・ウォーク」を歩くのも、ロマンチックな体験です。\n\n梅田スカイビルは、その独特な建築デザインも魅力的です。2つのタワーが上部でつながったような構造は、見上げると圧倒的な迫力があります。特に夜のライトアップされた姿は、昼間とはまた違った美しさがあり、見る人の心を惹きつけます。\n\nもし、大阪を訪れる機会があれば、ぜひこの梅田スカイビル空中庭園展望台に足を運んでみてください。ただ景色を眺めるだけでなく、五感でその美しさを感じられる、忘れられない感動体験があなたを待っています。",
+                    "梅田スカイビルの展望台「空中庭園展望台」は、大阪を代表する観光スポットのひとつです。地上173メートル、ビルの最上部に位置し、360度の大パノラマで大阪の街並みを一望できます。昼間は梅田の高層ビル群や遠くの山々まで見渡せ、夜になると無数の光が輝く幻想的な夜景が広がります。特に夕暮れ時の景色は圧巻で、空の色がオレンジから深い青へと変わっていく時間はまさに絶景。展望フロアにはカップルシートやフォトスポットもあり、デートにも人気です。屋上のスカイウォークは風を感じながら大阪の空に浮かぶような感覚を味わえる特別な場所。下層にはカフェやお土産ショップもあり、観光の合間に立ち寄るのにもぴったりです。大阪の街を一望できる贅沢な空間として、訪れる価値のある展望台です。",
+                    "梅田スカイビルで開催された青果祭に行ってきました！普段なかなか食べられないジビエの串（イノシシ・シカ肉）を味わえて大満足。どちらもクセが少なくて食べやすく、肉の旨みをしっかり感じられました。さらにスイカ100％のジュースがとても甘くて、暑い日にぴったりのご褒美ドリンク。家族連れや友達と行っても楽しめるイベントで、活気ある雰囲気も最高でした。梅田で季節を感じたいならおすすめです！",
+                    "大阪旅行で立ち寄りました。空中庭園からの景色は本当に圧巻！昼間は街並みが一望でき、夕方は夕日が沈む瞬間が感動的、夜は大阪の夜景がキラキラして最高でした。展望台にあるカフェも雰囲気が良くて、ゆったり過ごせます。建物自体も独特のデザインで写真映え間違いなし。大阪観光でぜひ訪れてほしいスポットです。",
+                    "日曜に訪問。\n眺望は綺麗ですが、エスカレーターの登り下りでそれぞれ15分弱待ちました。\n時間に余裕を持って行きましょう。\n中空のエレベーターはドキドキします。"
+                ]
+            },
+            {
+                "place_id": "ChIJbbXqmojmAGARh-OQXHzkwEc",
+                "order": 3,
+                "name": "Vườn Nishinomaru (trong khuôn viên Lâu đài Osaka)",
+                "activity": "Tản bộ và ngắm cảnh",
+                "location": {
+                    "lat": 34.7052993,
+                    "lng": 135.490172
+                },
+                "info": "Một khu vườn cảnh quan tuyệt đẹp với cây cối xanh tươi, đặc biệt rực rỡ vào mùa hoa anh đào, nằm ngay trong khuôn viên Lâu đài Osaka.",
+                "distance_text": "Khoảng 0.1 km từ Lâu đài Osaka",
+                "duration_text": "5 phút đi bộ",
+                "transport_mode": "Đi bộ",
+                "photo_references": [
+                    "AWn5SU5_SxdB3vAZB3jveYdjSD27YhSsk8hyOWKt_YCPNisPOEdsfRNPIAsd1i8bqJok5d-iXJNHaOYx_nEPHtCh_kKxTsGDfxItV7CRMqCH5R64aDOtRsLTJBhW46-Z70mM85ymghLwSZ-F55WStGYZRGbjMpTY12I0LoNg9hF4jBG3FzhpTh0tzu5mpbhH91OEbqCFAS2ulEsaltLTl_PVY29WfM9zatwtqLHUyLBjhOzGXLfnWEKm9c9_2swPt2-NRHH7sXoU8yFOWqVcI0aIaS19hVBziPP6V82PoS2BbX72fQva7suXdrM377mVgDjlIjPnyla0ryBYoc3dj02T4_Z_piLVAqJZWux4bZfhWkM8xHm375ORjRSf4NW4BalWFtZ0aJOpljuq0msL2R74wEBw-yBEyBhEcZdnWb6ZRaftMH65",
+                    "AWn5SU4lwszP_HxJV1Vr7T0Iwi2Cc27G8GNLkyRreswfDeExfG_4IY5SpV3hZ127JEUC742rXsnQDCbLovGxm8HJmAc9RwiCU2CSpOAghP0BNveEoR9GpDACzpK1PK_PnaHulZb4mcXg-fw5neTnFGDcNp-wsk1HgWzMfv2Bi817_D2RlrW7ajpx6sYhaCKOSIpvUhYyUu62lMtc0zwaLs7GwYxFIopvFGxm3fT3GiMyrkuPU-VGgxptqOlJP7Iplo77bic2QgStv9pBOVDKmfdFq9KmwmJdaFQRmzMG_H_ovzHF9urh8Bs52rCGGbvsirOyWKfZ338-InIDd80MkHkyoxJruWESKDJM0G4Eu93IFsfyQ1HQPL_IQFCsmpaz5CINRmQn8P1IBwJGxj3DH6cEwTZH3bu_TZyANsQXY2Bn1v8H-LQ",
+                    "AWn5SU53jFQZ4rj1DT_JaE8ce2u0co87DrTrx9lukWOL4ZsMiD3hCBHmFhwjnjJ8WWbwlpZTS0-UuyFgpX6oAlZFshW0jk9XySg-lGsZBCDBUGt4GhUP4HlNCUaZKn1ICyq4uWzgfWkl6OFCG4e7I14kaLiA00be-p6qxrE_Fa0zbweEwD__8o1P3ZMW5EyXtOcj4_kPXySpVxBqrglTCjJE5clwpnuxOm3R3siTo_m6iWhvl7ZLhufX9gbIeTDuvYL51S20hVicAXfRa76cr-lkV2-xApcUoLQ4UH7ytO6xVqpVYA2VmejBQb9GG4svpHDnlLnsffPzHCo9WkM_-SgmfKpMO65-sJsvCJ5uqONVCx1HsQgoVWYZtrnTZ3gFpS-krz98EwqGL22YwPvAj55nxrrCkz4t6PRdB8EeeG1kEOdT2g",
+                    "AWn5SU7BCn-S6kNoq26aXeYpcxA_RBKhaeET1pI27rwdNeL-j4wz7rVWAYl9MZTm3VZjm0yrw6p5S_jkTDc46wFsus8x1BTRObHq89W8cPqdqUN1qMzaXS1YVqH4EV8lO5vpNLWdrxUEqDvbB0yyqxndqvhstnIBlMjhRYiM3WIuZAO_9AJ5GfeZZO9lfZVrruK4MWsirJNnH8liFhhrGveou-oS4cAl83FipvNHr1qhDduYTLsTmhwgM2gXae88mk4CpiMgmQbARNGC8NYCJzwVtOh-DctLnJCqoWlCKBjxe4xVabTccJvyUTl6XmoC5vMzS64Wk_hdd8QUGyU7Kg5_5V4OyAX909fTTANZY5bXyrXQh7-R3YgUOURgNJ_E6aWXewgzO7sk0RTO1CtMfFQTaWQfWEg7AHYvkI7p1qMoBZCOZzUr",
+                    "AWn5SU7iqYfu33EjCM5ywt1GJePFeX1Eq10LWvRGZCnLFAI3Y4CAEX9tTWH6a22oVGJW9pqFujsiTiOnK5wiilMiAUaYcaMgBNqy8XXnfLBjkTu4ZJK2YLOQiu2B7aQcupn56i-cEW_P_cPa5PLpZhoFjhoVTIHq29EmcliVGjJ9blkh5fU4TMnNcQoINKfJZ2FlcV_Vb3eUaBKPbzkviKIl87pI1Q4283XCIey2zLYZkNIfLs9fx42Yx9xXCyVXGARf_9NCF85dXGXpnf8klcmm4Vc-_E9cgKkkBuLR332bCv0z8_b6nxCfhsKkFYwlH5yWb6ErjDLg1FutdMpcq4Pwd0iM_n8_1-knDYeQJFAYyx_4bKd55dSt_ESYafKyGoUZLEnGEnKdNGNLVuRikSd1jjRdt8tvgLV122kznqkPT_uoPm33I5SR9DqeUBypQJvh",
+                    "AWn5SU6_bBDOzjM_Bu7vbTKJ_aNoLrfTRxwz8E1Tjiz-MQ29s1rDq5fI1OF4JDuXWZaJ2YT3q_Fw4t8hMO1MBg9P7n0QqeFjhJZGPu0FFqQ3m095_MYpfUhUOAZR9JK7j5InbFMD7UeriNo5klNVerob02Cc5OMgryr0h8jQIJWZUAR14WCVrxh38s00yqOp8mT9mm3x82c1xuxhTKQ4be7IblZvjDW2JExEk9Goc6-hXDt4nCVJrkIL9_yFblqgWgyb2CGz5s3hoQtuGONStHVresD34t0rzpJlCIYmnUAys1o4jyNf845CWLYSevRJm9w-nnYACtao9aD2Jpuua-AA1arpcLYgTK6QBaMsrhbR8bsItbPxXcDn1L2cwAS8HvV7YZHemfblFYBsZuO52uWnuH1V-vIZ-Ql41aQ5v05o8Ok",
+                    "AWn5SU5dbe5S3CzJ2Yk0yiLYWCkrXJkcThVs7sTgTwC_hz8cP0iup_PzWB5EZZuFP9m_PtUr-YklNLTdeqxdxQwA21hC8pFOs-4krWSZRVzIpiwPIGPR0UCRtl_WPZJ0hfLUt41TMRHY0lxUUuIIprtVuOIEfgYwxa-DIOj5NHRCAKBOkjmU3cC1GjnACaq_SAqOp2vO-Gje3OwbpsdAjAHDv3tP9DLR_e3PR7sbEDDVGscldpNwH_MU_Wt1PTYS4XbPHwzaxMp4uXGrYXa6CIa1LzA98GsqJsu7qNDRNcXgpJlzPxRmVOb11Z_xWS9eWqgeEsny5uETmt9XNieVgsmh3CD6wau4tTdn2g7g-CBQoNyXJywFB14PH_7HreD2zyOprD2xrOzSLS_agnXt9aE2bgTJ8ff4D5k76WflGubvT22UGEkT",
+                    "AWn5SU5HiuOlcOdMI6iAdc8Qo7loX1jI6DvxUIlGj9F882BB716DAm7IXi3I8uC8uqU-kv8DeuqyDrJDlfzBQnWSQCXYDgw2XvvgLCw3EuoNojTOl86QFqo-QVvsO7n_PNMcuwHuX4DHzI5OQIuaxphwYY57-Xok583tFWcHcxIasvDWT5h14QWmQiII0SRbwRGpS_vURO7ObkEXXl72xDR6enrHl-FJvVYv8uiH-u17tXKRML_OzG5fg3eDQjQHQr7tFknjQbPLgmy6Y5kNN25Qt4FAP30FNvj1M2oHn0sE16RogV4fANlIthZNNCdjPOp-3WBDdSoMcM-EUIiJZYWPIjRSgzhDbbx69BeQK-MEEK6c3oIVAR_5jbS4s2zYQxeF1qvE6kDVtntl8RaxNtB_37Dpl69akF1zVujq-aWlmAFE1sVS",
+                    "AWn5SU7rpG4NSiu5bkMe48RY9U1llJvEeZ_xZU7QQpbOytCTt3yxPHXAymfBHwkx1We5xBpZp-gLtrnhxayCdWwk1Ob7iUBzBJUIekjAMejBFq3C4kGppEV4uuKrY2ngTpRTe3gAr0v6EO0zZteL7-iy78P5HQAcAFCKqzk-viD37Fx1JRplxHcrGdaOhOcfqZQS9BO9MgLjOYtbtM1Hz-8nVAss8M5grgfLSFxuq5xmP_BXG3Zg6pXy-a1g2oSHF0IqYLm7bYHqlv0-Z8dyzwKwVp7Gx7M-nBklNVF_c0iKUakp91VbtbD2WLbtJsMQ-SvaDAvrtCm6EwggMGe2rp0Qph4beCzuqHYqih2nZbUqlR_66UjoI8JoHX8jpAdpVBeP14FKQbMe79NmdBU0goBwa9J0lllO68MBoyxY0aq5iPQ",
+                    "AWn5SU56JkzFwKYRIEFWwCK-g6zoOMiLCb71htTmmCzFcvXZfIXA2DFNkvP2Z18Y829o84WZTmfxjFafvkcjFZyk7Q_yzxwcSbwHuvbqm4OPgo52sFlezK3tZzl682Cv5PFA0R1AmmrZw4nTBZQLhvN1m5g62Iqm7bnIlJ6XsQw85YBpY_DCEpIMrkRmAvZ3otJwBoIPRB9Vx6tRXecYzYFXW-od6SfLgm7Wi6Ttuy7Ao63Kg-No-fouxX7-gXY23FDdeV9Q5TTJRvjbKmTtj7MoYXFaKx4so13-fef84fqFOvSuRJmLZFZpEwi509l4en2NMsQUjhMmq3ZotSeb-S0-yUP9APEb2K0wBJXM7FYJjyHIQaiQtd_3JzsZYgrwbPVFeZ1c8uPCwKUFyAyN9wSbwuRoHIeu0Fkps2KLgTcfTgItgC_S"
+                ],
+                "review_texts": [
+                    "夜に訪れました。\n展望台からの景色は本当に綺麗で、大阪の街を一望できます😙\nビルの明かりがキラキラと輝き、まるで宝石のような夜景でした✨\n\n風が心地よく、開放感も抜群💗\n特に屋上の「空中庭園」は名前の通り、空に浮かんでいるような感覚で非日常を味わえます。\nデートスポットとしても有名ですが、一人でゆっくり眺めるのもおすすめです。\n\nカップル向けのフォトスポットや、夜景を見ながらくつろげるベンチもあり、\nどの角度から見ても映える風景が広がっています✨\n\n少し入場料はかかりますが、その価値は十分にあります🙂‍↕️\n大阪の夜景を楽しむなら、間違いなく外せないスポットのひとつです🌃",
+                    "遠方の友人を連れて観光案内で訪問。入場料は2000円です。\n屋上スペースは絶景で、風もあって心地よかったです。天候が悪い日にも屋内の階から展望できるので、運悪く雨でも訪れる価値があります。\n展望スペースにカフェスペースがあってゆっくりできるので、夕方から日暮れにかけて景色の変化を楽しめます。ただし夜には夜景目当てにとても混雑するので、夜景を観る方も早めに着いておくのをお勧めします。",
+                    "巨大凱旋門のような建物で、伊丹空港から大阪駅、夢洲の方まで見渡せます。\n当日チケットは案内に従って29階まで上がり、そこの自販機で購入します。10時過ぎると段々と混んできますので、早目に行った方がいいですね。\n途中、スタッフの方が写真を撮ってくれたりします。\nなお、屋外は帽子や傘などNGですのでお気をつけて下さい。",
+                    "平日昼ごろに伺いました。なかなかのひとの数でしたが、中は広くてそこまで混雑を感じませんでした。滞在時間はゆっくり写真撮りながらまわって1時間くらいかな？大変キレイでオシャレな感じはしますが、これで2000円は高いなぁという印象です。外国人がめちゃくちゃ多かったですね。夜景は見てみたい気もしますが、日中はもういいかな、と思いました。お土産売り場も外国人用のがおおいです。\n\n屋上展望台は傘が使えないので、雨の日は注意です。見た限り、雨合羽の販売は無さそうでしたので、雨の場合はカッパ持参してなければ濡れる他ないですね。",
+                    "ぎゃああ！怖い！地上40階の屋上は風強く下を見ると、柵はあるものの思わず息を呑みます😱。しかし、360度パノラマビューは伊達ではなく、大都市大阪を一望できる果てしない爽快感 🏙️。これほどの高さで\"屋外に出る\"体験はマジで無く、来て良かったと思いました。\n3階からシースルーエレベーターで一気に35階へ、そこから長いエスカレーターに乗って39階へ上がります。この日は外国人観光客で賑わっていて約15分待ちでした🌐。40階のカフェで絶景を眺めなつつドリンクを飲み、いざ屋上へ。館内にはお土産ショップもあり、いくつかのコラボイベントも開催されていました。\n39階までは無料で楽しめます。料金は大人¥2,000。券売機で買う仕組みです。クレジットカードが使えます。\n降りてきて所要時間は約１時間。サクッと楽しめるわりにはインパクト大きいコンテンツでした。高所恐怖症でもなければおすすめです👍✨"
+                ]
+            },
+            {
+                "place_id": "ChIJq6o6zPbmAGAR5Q9OsQN_voo",
+                "order": 4,
+                "name": "Bảo tàng Lịch sử Osaka (quán cafe)",
+                "activity": "Thưởng thức cafe chiều",
+                "location": {
+                    "lat": 34.6917819,
+                    "lng": 135.491984
+                },
+                "info": "Quán cafe bên trong hoặc gần Bảo tàng Lịch sử Osaka, nơi bạn có thể thư giãn và nhìn ra Lâu đài Osaka sau buổi tham quan.",
+                "distance_text": "Khoảng 1.5 km từ Vườn Nishinomaru",
+                "duration_text": "20 phút đi bộ",
+                "transport_mode": "Đi bộ",
+                "photo_references": [
+                    "AWn5SU7qmtUWKzVxXcEkqx7xdD2JPa5gr7uZdNe-mwDWl1ZzlT6hfQOEZbWBfgHnNZdJUlt33EgDb50jbryhlw0Bl-ycWvv3hIDwJh_qBJ2pge2basAH9mjJdxvFmExYW82VUjfTnC5D0g_-zHhxEocjpTQgVNLtrcAf_mqdm8pF0vPzT2yBn8j2CdTUI4VoNRoKp7S9vow3LrXFSLA5fYYNPcvlKtTPPadCd1MCQcOlqVa_wmfVvbGU3o2HF64zvzjW-DnpNCTu4xhKOu3ULHbeQVj7OT5HNRgF4tZXrZgs-K66ujwAthkZVrqbI60IbfGYrnH1DuIOttmQhH5QgZXt4aiu8Gh1sCpWwvGt1KonmAa7DtO3trTF5naVWZc6ehh6PiItg94kg3Ac4NUnzG4c0PntcgDG4QnUJ5ZSGV0YNBT9FD--",
+                    "AWn5SU7hkks7VZU-GaRJcWX5d_m43x12P3221xU-qElla4e20imQs5y0uUMj4A0zfZiIb19irPMbJokHkTFyuCuRr7KjpFOn0KZFbiJY8IWZFul6OAkLaysyNWW67LQvMMyHtTxD98vZgZYfVg-s_2qMmePAdkXg34qepanPg7UUYUa-SsL5iOsXVorEmlABgtnKtLWE7Mphwl9RCxd6dAGG5_BQatI_P_SBFfCulLkq66DQiZUIe6bypQ_5dsduBmCz9pMiespApz7qXgST7CjYiyOXp4pyxm7D4yrV3zqVDZe8xj7Hs_zmb4vhBeClCnlSWXYEXXyZWsmPhXJ6uB6K_qqVkCuGqzf9v023l6o0UwXGOd1FkGOt1zpCbEnk5M_a2GH5QGkQ9eFmCMXBQsIMK6Sexa9bHCYZDIa0_DprJkd6_g",
+                    "AWn5SU6pTiuas6HZl1Da4qoENCedsP9TVYA-C5s_HXTo5OX1Y6OUZLX2QyxTDsgCGF9xPhSjVgZT8jtCURmHE-_vtnz52dtHxvCOoGlLV5DkNXqpz7_5rG8WS7gckJqxLjfJ6CHS5R54Z367SIdxxctFxiGvY9zFRnG71KvCirK2C6syvh1FjWEkvZC6itqQJuVTU5hvR7xQvcYeETzftsIPByDThtvTed0buRX9vZMZ53K4skC3PATYXR5JN8Zzu4xpZoviFak2kyAue7aj7YZRMGbyYFLz01ycSy0KSD2QFeUPxKPlkIk2aaYwOt60m7gCpoS2G5j36C4_Z4PnkiNxbPheOsJkSQDOvfmOJtHj8YJQ-FXEoCfPzQxC0AKqoLQLlOCz7Wj3BDgLAnlu1ZE_isQ5IgwEBz3Tnq9nrrs7MTJ_v-JF",
+                    "AWn5SU5Oum0ggqOMyL1mJbO6tIWxKOjvXZTnB_Fc2TLA-IeYZUXYQOLk4otl7IYAUaikvW1W_pciuK4hh57q9ZUsuoJmL2d_7Zid0KFcexelKU7AcRxTJmusSWuD0uO8L7NP-zScZ92i7RLQR4FmHCG4WukPo9Ug8eNIX3-U-FWo2orFk0h4xt-I1rWrQi2Nd83DFxFaig03KVc7__b7Bun-pnJbx5jHTMN8Di3m7q0MYjos9yk_NS5ZYAOeqIjHdkg70X5aUegY6s3Hb59r9AbLus-7ribdh7NRfeDjb5-qWdl20SJNyO_jP9diyKO9hD98fq-pawTiPlOHbU-9-V5rfSrkHWoYOj9qHyE8kujaHtJclNOlDSDrLc_TRvtG4iQKaT005MH5OgHqaOe90yNObdGqnzO-N1V78c__pb4-JA__1Q",
+                    "AWn5SU68jso2xaWIHbjE7Z4MweVV9R-fqhndbZzSbmigojKG7FZspqvPDE3dsuHYz4RZyTzuhA6lsykpRBpO2wdlua8KKdu_Ewf_yFS1HdzxwEqwb8g2dW_JDnetkANfS0YXhhq5o5sCboqGqDy00F96pC28csCPjssJtTdBj1--TOxsRq0bGrfw2cX889SOEahXKLyxrm-mQWOIH3O5A4NWI-ni26kRe9RAhoXa6V4xkcDsAOwmPwM0XozgEUcxKO2_MRBsNq1Pwl1dMfUW0nGK6hiybBbZUL8yRGmbjiTkJpdO9Flx6j79vddEGUI6HgfhDJq2vaOhq9QzTjxyy5JlgyIRJEPHlzkbklJc-Y2m1RA3BHlWbp-s6IQ36pKbvEWSvsoRYyre4ErC4ajuL61jb4Rp7nerV8tdUd-ULSBMpr5XfA",
+                    "AWn5SU4smgVtNsoNuvJ4W0lEqKpfJ4nBrUP7Bd2_H-V-H_LBgjDuluPOuRZaDCHy3CS-HX7VkYP736jAgPiz7rcRFanw3Rcl3yy01ekxzimqprMA0QvQhtOc0cBLpxh_x_0K1DwYe24YYsd3czRxZz1lwH1dM89NB35cv07-FwIK1QBB4N0LF4O9sM1MwaQ1W4nGliCGjmzKr4bejghPXNO6KEEgaCsFa6_eLK4cTV4668bt2wSTebVvd3SrC050AJpGQL1rYIb4gmGzX-OjI1lA0lZepN5CQL7ZasHoYfe8bZQnWbOmv2biH7knEuLnpkPf432FJcxb1I-WRAizFinvZ2eNhgKkU0LJvnBxnCTdcTdD4j-1MT-POLBTRSbVzKlmCJUxwrBO2rGwwUXbW0dou846LLR6UA73NDqZWoNbdAnJBa4d",
+                    "AWn5SU6RjUFMgMhOZ3-IBsJoymsouJR67r3PHwDbQRZcygnsJt5KrE4-16QQSPv3oxwgcnS1yG8C4vEBccUcTNOh2pnAZIBSLUQLY0zYgbMiw0fBeRZgiCzTF6GJIRnpuVZb8rx6BcyDHv_AOtV6mcIO2d3dK2h2B4_AYs7MEdGc4rhZRNWFur8n4X7C4wNz3zV0QrjN-MG16HRx3mftIhbuAixj2Cju-2BGxT7yCUnR2GQG-agctBe-aOQ2ieRFDV6V2vHQoPq9sQQZa1g3tPlMOUzOFVOixO4KZWXyt2IpCemo9Pv1CM_QHOzJ7OkcqlPsVw1Z6vEDa91FkXWmU5rEqnO7jXhfqzCbOnZQ76naoWMEui5_zPHUwsEfzz--iWKh3sy7_ZJzLDqYZlUpoiuPIyI8rp67WI6Ehe3dYYMaVY2vIgM",
+                    "AWn5SU7v7GZrS5XJ7O4AftB2Oa6R6lNm0HZ_poYoRlOjAm_poT2Dklxgt_dJeer7huRVcjkA45gwD1yaDFm0pzQWYsn7Ub4gsXqqZ98WgV_xY_KC60HKKgnJQeEBm1zCsdmmS4QOdVvMcViHA56Rs26uFbCImb0JM41Ou60-x0MS__4R-n0wSd1zBPAMc_7_w4vpuoFJMJH_4ZIRh7L7nuJRt903OLjpSVgiTW1et9Y_ekcPJLcLRTTACn8EqEhxMjji-ulzaFQNukktJP-6tH3Si2v5fujfr1Acle_eIQtqNhWq0gruKXEtq5Q9OX2fhCZ0x4nQXQLzlgbee-A55g0JkmL_NtgD4OEC3BA4wYfWbNaELFIBUqiByertw04NSDGsm41ytAXcHzBPjF_IwueMktZjYnl21hF30ywI2amVkomChw",
+                    "AWn5SU4ENQ4ut_8dO-jVb0rAXFnMVpMbWoGLZSMaJXQxEfI16tk6zETlKcaOZGICiOWOpWJqmTcXBPWA8yW-OC3IyCavyKOd1y_9B4UjUXuBwOUltm78z8nF0C1Dx78dmxQJmC5Xw04xI8ODMH371KiTZErYzDPgZbhHe4W7-qiubEmw_YRXVTWtprFGgjTU7gLhLHK0iyotR9-M0YR8j1W5IzMseyegFk-tnZ74bWDIgxrFIZoC9KksWSmluu481SacIW270R1PGtObY-FmtHvFUoiplvBr7by9Bgs8UeH35b0Fwpoz6dqtzmxrg1xeB-mVgeOpRvKzKc40JMgUzWGTJ6lPG83f9OEsBBua7pHkQwLlAbOyFAmvY6rWUyocU2KZyvrRxmzawgjIbBJZNtOxFeQXDOgc0kplJSUmPQWcWJ_sCp8K",
+                    "AWn5SU5mgk-EdLDv4n_B8xuWWVz3RdxupnTKG8nQa4Fi1UOf3aZMt9pv4DVneUELH-l3eEGDgNOZ-DbHSKvtaj3QY4S_48PIxu7Ner20JCX5NHOPVfS-9sBdmRT1Sp9ocv8e6j7b-USTeG45l0ktWoDnrSKO8cUrIV4HF7Be9nJhSkDfD4RLNrv9A_KwQVmqPbR9PO-02pkgSp76cEUE0sYDv7P3k5wFWGJ10mKiVWXJfCDkVqVUph_8E3rKM3PlrVpcNG_MYRknco1myBiq-oPu6C9K7Y764o-SNEo8kSPGxcckhR3NETw1O_1t3bT0QA2q5abVI3HGSshD4Lu2Uj0eSVDJCpPBBY6Ml_hkwe7qNVQDQ8TgIeRCGl6hfOmf2bedh1JK4ZiligRGO9273GzLnsxXFtMs9E81g1WvVCxbimDHySAEiQOvDmAr4OHb-JNq"
+                ],
+                "review_texts": [
+                    "日常に潜む非日常を表現する展示が多かった\n\n［非常の常］を見に行った。\n戦争を扱うものがいくつかあり、日常はいつでもすぐに壊され得る。ってメッセージを自分は受け取った。また、原発についても取り扱っていた。普段生活している日常の隣には底知れぬ脅威がある。それについて考える良い機会だった。\n\n心を揺さぶる展示を見に行く。そんな感じで入る場所ではないなと思った。まさに世界について勉強する場所。",
+                    "入口が地上と地下とあります\n地下は道から近いですがカフェの中を通り抜けます。お店の方もどうぞ〜って感じです。\n内容は言うまでもなく素晴らしいです。外国の方も沢山おられます。世界が誇るべき芸術家の作品が沢山あります。映像作品の展示も美術館での世界観の作り方が映画にでる美術館のようでどっぷり浸ることができました。",
+                    "常設展は現代アートですが、どうも趣味嗜好が合いません。国立美術館というと上野と比較してしまいますが、天と地ほどの差があります。コンテンツが弱いからか人もほとんどおらず日曜なのに閑散としてました。",
+                    "建物も見応えがあり、展示室も大きさに余裕があって現代美術も余裕をもって見られてよかった。トイレもレストランもキレイで過ごしやすい。",
+                    "シーザー・ペリの建築。地下が美術館はワクワクします。小学生の子ども2人つれて文化の日無料で入館しました。"
+                ]
+            }
+        ],
+        "summary": "Hành trình khám phá trung tâm Osaka với bữa trưa tại nhà hàng địa phương, sau đó đắm mình vào lịch sử tại Lâu đài Osaka và Vườn Nishinomaru. Kết thúc bằng việc thưởng thức cafe và ngắm cảnh tại Bảo tàng Lịch sử Osaka."
+    },
+    {
+        "plan_title": "Hành trình Văn hóa Phật giáo & Thần đạo Nam Osaka",
+        "theme": "Văn hóa & Tôn giáo",
+        "estimated_duration_hours": 5.0,
+        "waypoints": [
+            {
+                "place_id": "ChIJjQSba7PgAGAREycrhl4uQKw",
+                "order": 1,
+                "name": "Sumiyoshi Honten Shokudo (Eatery near Sumiyoshi Taisha)",
+                "activity": "Ăn trưa",
+                "location": {
+                    "lat": 34.6725323,
+                    "lng": 135.52664
+                },
+                "info": "Một nhà hàng địa phương phục vụ các món ăn truyền thống, lý tưởng để nạp năng lượng trước khi khám phá các địa điểm văn hóa gần Đền thờ Sumiyoshi Taisha.",
+                "distance_text": "Khoảng 4.5 km từ vị trí hiện tại",
+                "duration_text": "30 phút đi tàu điện",
+                "transport_mode": "Tàu điện",
+                "photo_references": [
+                    "AWn5SU54trAVHKLBvsiKmUtIZ0E38CAmCkRW92gR1njWiBsRtoeHsRP_R1-Zp3f6TqTQZoDPBny9AIyrNfkyb4Jpf5qxiqep2os18vNWn_uHDyYhHSqPZbB4DRiD0F9B9lzldqAaIw111ukmAR25jW2pDVHCuP-7tUDu-nFDK0NjJFchksc-xJz0IfwPNYq6g3Qv3raYX7rOAXDGE75UCOcLislYQDLo1ClKu_66LcZe4Uge5dT5TLkPLkm3hiRzyivCJXsyITOzYx_t6qoMVApmjAjtVRKvCICe8cFrg6hoQf_QS1EXJXkK9i0WHDJUYFx1tBpsTanDuCWF78o1RPMytLpsCrtXP1sUVqV30FFhZ8q30nfDqcp9F-KUUkaa8mqkTDctNf25m7rPo1h7KKor7MRKqOEb5qnqaFBQLR2GHSAGdu3l",
+                    "AWn5SU4fwSYXUsxnWbZIR_SU8MLIBhyFslgrj0uzoYOAfGcUCYxw5AWAoZ-T7mxbnecBPsim-ckbRca_2NFnkCwIwJmhLtWCmkQgs_MscD4uU3r-X8AOOVlpsAJUmfwuJR4O70FTjaL5xVwy40YjRB_cZLIr7GQ8O4QEsza4amIxsFVVq0XADTngHWzwMSqrJyzf5iGihDWqTyFHq7l3ssKdvDV3uNhMGk80Fzgyy12dcQRyG16wkhMdDanh2Um_oRuOoMIotOmAXZK7XAl4q9vWma0IsXziuN1GXosLGvJIrfCIdMYTc_BvGgpfiZZTdiEPYPRsqY_cM1Ha4Unf0iFG26MbipU-yyFsaNceMVIcYQVtYHpI9I-SNnZQqQxeSbwsEHRM5J6wl2TWKMDl2ZY8FhhVTwYohHUiskTkOJdyIxWWASlW",
+                    "AWn5SU5mNrMkixCWdGh8fKnjTvQ1Yb0ob9O54Z36Eb3ec6MYQxHUOMHYddC_ia6EwZePGiqOKpJjhfzInl_V9nbxlGQhyxvejPQ6DtNU4Fs-MJDSPEJZkvdH4BLVdZLVeSIo81WyE0hFoS-pua5ncMuAT39W_RpZpfDXVYXR9hHuxcjV1tV01Ee795boJe4GYKC_3X46CYhBjatEhtvli31x0d71nIA34KB8y8AzRxyL8DiOptyXTyGgkb0yU0H1P_3atPaprPxJvgoGLXJWnrabiFfQLh9NQhrxrZ0sNZzT1tLkqra8yRCnU5sa38DaWxSWts7uaiadlt6lkEHqztKJNQ6HHILxL2JtyQCTEq2BcaPfUWPYAlMlBMae9tUbsqi0F7qiL1aCP86RX3MvaptnrSYaJmxsudZHylV5fFON5M4phg",
+                    "AWn5SU6oVwcaSNJOnNtKKGhYs7WWr9bnGB_xfFKBD3lhD7KdAGnmQQKWhFf-TUWiIrJ9xOVQY9ZyDc7LpbXyLD_IGYD4DUpZ113YxuDOItppyXRJNKe-awQHoj_sZzKrU40gJLT68e6NDte67u4O-ioj1QOq3g5BCnmXakCCSFffQhpwl8ZCPEk0T9LHCiihG3fJbES-F4HAGgS-dUYwruBBkVVPQiG6vN0L9sAovvgWBzxES0NEK1tEMifc81rTBG6bspXRS5yu7vo-uu4AZq9bi-vsBIvSf3xMB7Leo3qWCDU4iERrZKuoQGGAlcQuUXOGEpVWwCdGtIZrc44qO86OZZ4SV26b5mLFtccClpXtiwSLwa5WCIRyn_QhiapqkcfpKv8EJ5QKQWTdliaRl-A-qeAL84VWnaKG7-zcIUePXGN1Vgdd",
+                    "AWn5SU5aN6KxS_1IlKK70agyHkW9lItUy5v73asIF0bdD6-HGtMfB3ro0FzunOT_it3IRAzaTy49yuj1BWC_Ec60OACNfYPwDdP7pGwKITnGk7Fto5D6VZyyfPCtd8txOtkRQhliE7hdjASKPvG8tpITGpNk9fWeO-c3w0ivRQ_nBNfe_QQZGp44JYcI0IefHNqug3nlTDkXcqiczY7XMokrRZvGXROfaciDTXpXmrQCoucoV7ZwyigPMPpdl3N2u7aB3L_UHpD7o6hia3ZmKUuqWBJBss62eUPHcMw9bllXnktIdvRp11qtDSqTFxx2eBrqLcSP4qliSiF2Iu3PQOEe0f31T09STTdhaBB3gCgxcbiL39AQdVcHY_QCNUSSdxwzhAMqL5q6HDfbX1yxQW-1UgjdHczSwOOCZS2RFm8qZAchVCYI",
+                    "AWn5SU5Gc-4J2K98E9jPD8bEkGAS086IzxWm7OxYAnyZTCFhXFeisvCcO2L51Dyv2q8ZJ-SODjw_0arVQ70qch2Ma4T1NNGgj3iQWXC3ESiPKqMUslwDpQgNmbw5NhmEz6LtTHUFfQrmnq4pcnLFImT4Xt0szsXIulI8mcsHq91LTGmUyPrCn7RqlanolZfn7Xlf-PkhV6Rd4IzpgWCRTq8NevCQwUd6smkiYoUiX9-iN-QovGf4flG2PVKD-vsdVAkj6g5BFf8QtU48Qj90TAapD26Sru5TTR78z-Dzu7wtlu7aNAuIcNumjBRmFmliA1zoxQpTnx-5cg0h84P-W3nng_di0lmEUuh_VnM2Hbu35rCqNdp6jB28SedaOxcqgnqV1mwIkK7vwm5_HIopRj199vPADDfI-UYcHDlenhfcm0r0xQ",
+                    "AWn5SU6vhSbBm9A0yHk6vCLVfN7XHmc572bQBk_3a_d9Ep03eDnjyFhGCTfePcofHxPGkXzmwFOokjep8-K_qv5Px9EzyfEZZdUQgyCrNE_xhjgJgGDJEFzVlqYLlcsTUUQxvqnQA78vjRpLpJBG3vDbay-365PUPjXcIRdUd_44pfcHEdUTQmK5f56tck7ckJQWBuJpTjfsyFbmW8IAN9aCVrjDHANwdSdBfNh6gv99pgE8zB4Kj_DGlD5_Z5dNypr4dCg4q_8xzEA26MhDFpf6t7gK1_uKJYuoKG65rDSMqlL3cFbTaOzUrkpn_KnwD067c1a-d_kTF8OrB_2kObh9tCVrz4PAX2YJG7a93GPTWsTmMC2lPtf8IwvG2FjIuyNNx_b7Z_dIba7SMwgIfmJ-HVGiKNgNjSL50ru9NGaDsmI",
+                    "AWn5SU7YbUXjB35QyRfHt4jl88_dY78To3Lgd7uBuoKYJg0Mwm1rM4yYzq05E4rf-EzALGUxu6VUy1CZSbx1VezgvgslTEgJMS3L_FCx5dQRS0t6zMp888bs4STxcjZ-yVq8-0YCYHdBMmFfxiGLWwa95rwOx0Oecti3bvvg4Bk1M-QyCtRhz8m4Pe1t0rBYExFEmmZiMM6R5FWaaO70E95A6UEVQOor5UPelifFQMaP0-qaLYyw1hD_mExGuLs3X-sTdx2ceGoKgTB7OYFTvMESJprZvUNC55jWdNiyNkQENr9tgNSA1xLgCaub_HPt1fUPwLNKV-Ua71sLXLqRPhb9MlG1A9uJqTymQ7VpynYoTd5w3FJHerZSPwWaSvYhyiph0E6qArF9IvaT8YQEwEKrNx7Bc3qERPkUbw9Wa2C7re0",
+                    "AWn5SU7gm2LIpVF5uT2Mv1X-dZL61_2m1x9zpDUCQaaxwytCyzYVQVugInVLetsyjOS97ZdZyivZqxKLTf6rpM-aI3EsBKaCNmiM-JxhLX5tm4_-Uu-iAgopuNnAwoA0bnSXHkm5Y_VSztVyM-DeSCrQNPwuMK3oVW-qEJLYePyLmNMPiSEmosX6CjNRja02nJ9Ef9QaOYfFxuYD6RdoD7wzeH93m8OLMAYUb1uDO5Wm-VbLv_E4goGEQJAN9gm7PiTv6efjLSsGczWW5TZhREQo3oz8SRJzFWxelLcwIqm_H1IRe270Zz-3_rTQMJwN3VwSgjQzyBrXkvduKDdKrH2QjQ8zY0lP4vonKVU0YHagp_90AyFGOYCFlIIsbe1g89I4q799EHR0Q-iY9sueM31M7WHMaBjipafq6Gdw6RJ6MYsoHA",
+                    "AWn5SU6WTG7vcEzlG-CopnlnWlfjmelrB-9iZTLnb6fmJ6oSQSHMLiQ4nqbhoGxfvrDPcPjncKT31na4SignFrCsOnSxcvABmzqYtBP9Fgi5gTwcBpyqvSstJ49FYi4bYQiSusbdda8dk_xXtzTDLflhhHUYhz39YAN2Uy5FzHvs_wFAckIWbWm6MAIxpql3pVFWaxIWl_4PTxpWQ90TZHHuATvvxAFMwLJzAREYjK_B4u1qd-tKm-_QoP9j5S5YbhZm9CabFwwp9tW_lPM4dO8Un_UEmahbGp1KCUul9ZHnwjLkwiJj2dmC9fY-DYxCWE6Cissb5njWqHohVgnnPvP3qBFSVhERj-h5ex-hoyCwkuYycTKqdTzfNFpAW61MI2rxB4nMQRfteSfodNpBuaKAzcbFERshM-09-4ILCE9tfnRC89dj"
+                ],
+                "review_texts": [
+                    "大阪城と一緒に\n現地に行ってみたい場所でした。\n当時を偲ぶ物はありませんが、\nここに来るまでの周囲の\n上り下りな坂道に思いを馳せる事が\n出来ました。\nもっと大阪城に近いと\n思っていましたが、\n意外と距離ありました。\nそんな事も歩いて体現出来て\n良かったと思います。",
+                    "大阪冬の陣で活躍した真田丸。今では街のど真中に石碑があるのみです。石碑の説明板には、何も無いとありますが、鶴橋駅から歩いてくるとわかりますが、真田丸は岡の上又は、小山の上に築かれた陣地だったのが容易に想像出来ます。なだらかな坂を駆け上がり攻め込むには、労があったろうと思われます。又、なだらかな坂は本拠地だった上田城を思い起こさ、高台に土塁と堀と柵で作られた真田の城を城好きなら想像するのではないでしょうか。",
+                    "2025/4/26\nなまこのような形で周囲から一段高くなった台地を利用したようだ。現在もそれらしい地形は残っているが、遺構はない。",
+                    "穏やかな坂になってるの想像力働かせながら感じてください\n\nおすすめのコースは鎌八幡でわるいものと縁を切り跡地を訪れ真田山　三光神社で大阪の陣で負けなかった場所を訪れるとよいんかなといいながら\nここらいったいがええパワースポットなんやと\n行ってみて思いました\n\n歴史知っててめっさ近いのに気にしてなくて行ってない　もったいないですよ\n\n上田城もええですけど真田丸跡やっぱええなぁ",
+                    "2025年7月13日訪問😀説明の石碑があります。遺構はないようですが、坂になっているところから、個人的には何かしら想像して歩くのが良いかと思います🤔"
+                ]
+            },
+            {
+                "place_id": "ChIJd8--0bPgAGARJVND9nERdsI",
+                "order": 2,
+                "name": "Đền thờ Sumiyoshi Taisha",
+                "activity": "Tham quan kiến trúc đền thờ truyền thống",
+                "location": {
+                    "lat": 34.6730615,
+                    "lng": 135.529404
+                },
+                "info": "Một trong những ngôi đền Thần đạo cổ nhất và đẹp nhất Nhật Bản, nổi tiếng với kiến trúc Sumiyoshi-zukuri độc đáo. Dành 1 giờ để khám phá.",
+                "distance_text": "Khoảng 0.3 km từ địa điểm ăn trưa",
+                "duration_text": "5 phút đi bộ",
+                "transport_mode": "Đi bộ",
+                "photo_references": [
+                    "AWn5SU6UsZEFoh6Y7t9J9rwnuZq4DhDcQJw3l-77UwrNoRUb3lBk66bgzXKrBQL0odoQeHLOotDvgSH-ii5RSkutERDxj2C4QiqzCFn_kCSpll0gwz50NcoT2pr1R2EyNCzWEYYm-YDnDxLjKIVQfoixv98l81YFaX_MEpJaRiwntB_5B6lX2Rgy6TkcRFSW-WLZfCToU6Xm4LHRY4mY7MaFkxIgMDVRgdc9wtPdngw8h6UQuq2lbwsEMD1-O72ylOjbxOqZwK75Wmy3ehNXI9NAx0SZLdmJmDgK5tNGTgyjpOJ3aj7sauJ_0LmVi6s4gbDcdr5wYiAJ8NYpeWx8BQnucdBissGfpDmpbjNvrUbakDc6UYYmH1WpNuQH54NvCn81VYXZGQwd9aKkEv5fNCRjKAUSS1X32r49W1EXdmvtmrPrHA",
+                    "AWn5SU7oRgXofrCkRNaVWEa_ovHMROm1XxXcxp-Cnp7qKKVzbsouSCyP5uj6Hqm9PNsaVW5dKHiWB5g8U8HRyyUHmExLa9pZqWkTaI1o0wL8gAQjIZU3Y1PtHSMDy8CZ57WXjWTKriT06w6dYdHIkDCpbx4ru7UATs_tRWzsUs1rUF_HcCWDrgulkz4EDTmycIdfJgFSl9nkob-26_-ulC6n45N6DZ7j_hNZHL_fS8JPjhAY65orZugCTWdpKcjWTDVkI7R6i7wneId4lDvG-z1ZL87aLbOMXiavRNBjOEo-7HSlclg5uf93RJ0q99INQ9iVzqiO-Sp5laANHfSPUiqXqtnFHjdLBlFSe5O-MVAU_Bb7q2-GvP2JpApj9WJ1hXxuNyuvP8BL84GUgywXvXSAhY5qFkEg2hR3TtI2T3a63FMCF0v2SfmTOhQX7cMi_Rz-",
+                    "AWn5SU4Y83eLKl1FKdtHcuWdFfuEU75tC85zCcB9mG5Ws72xDBhLhd-aztAqOIK5NMgQI1Fn41i9CdS5p48-YkmxAmpN3jtmyT0xnBS0vU7UloNGDJZXqXul0HhVX6pDF44fRhhoU6tssG-XiO01baVOya6JkxvsBVviW9fx2BysyJy6pE7PijGCPoPpUwuh-QFrhRurMcr2pds9GXqZwo4XEQf982w80H7P67A4FpKqdZPJfG5Hfk-xcAjxdhgdsARqKuziYYLSsHangoQBHLJ5GzHSjBMYE_T9kAxut_RKOGeETuux42MWGcdLntRyWD8tOfEXsPEBLRqkMSA3sdiK7Jw8zqQSdfQRYhpJTE92AXCDXCmV0oAcgXUZilBRnA7uQKPo3W1ar4FKKwZf2SQFnKwU_xxS2u1kZo_p7LV4izY",
+                    "AWn5SU4KPtteAbV4RJMX-ywdUIxP51G-Pno1mj81mjpo0-z0us8xGrwsRMS9xxFv4jeIEs4P9l4xamRXW0pyyEOuQpdVYvyuQFitTjNKzKeIBdvsAZMqP1QCBgZtSZ8-bY_bnnEsDhNN2J1MF6FrogLtsxgorY0dzLnZ4RPHpBfcvaLx9HaXTdCMX0oWmsMfvdAkCs2LXmNdJ9TQF2cxJ6UjbEEgDE5WjGz0Sr_t7y2JvVsLub0CXKNkS49x0Nv3jKDjMvpgM6DYlERwo48nmDqf1FPKeefbuZtt-hONCL4BVL--1KHQ77EOfNvweWeWDTN2kqFOmif69ESc_3waW4dUGuJgIjsDf193h4uvPZ9F2PKwEVXv2rhQcBzg73R35ClQEAxlHXy25M1SjnxQAyN5SoBr1I2m4JpNecBdpRXTvVMN-yw",
+                    "AWn5SU4GRU7SNcMNgaQPXy-IkqWD2GFscPfzsOuPx2GNeOl1yO29LRJw6Soul7duCg-aUZVsiiLs623LQVe4w2ILjLtCb3baLcStzU4SoCc3ty2psZdqFvbAcZF0bjnxOMY03pUEHAyjQ899aHOtvoIv1PNtXWDDI7Fhy4zYX-JMzPjDrSEgTVLuj2K3udrxaWZsB1w4Cvll2ievUx9tB4gg4W3qYZ8ms1JhfkI-vlVXyTAIZowYDB5qmbuPqXzgiNZEJgbrdpTg08xhk12nYw5BTNjxGhFD78JLEklQzOd8f0oLPyiEpY0dPwnFugIPepE8AnBeLwIqTECS93S8YRM9UE8a_A6E_OO2qh1lS4jmMj34J3wNXph0DsEdG4X0srF5vmTXE8NVdSD_bFWd_zeHUZCZV1QlOqJbxDZO7yKvmQLQBA",
+                    "AWn5SU7R3eB2j-4gxUqhdMYGNPnYyqHUEa4lvhz7zOllvnt3mlBjh5R_f2mSR-FKcgSBfwFZbv8uGP0HfwJ0hAU4d7agzzExPKhUj3CYDeAIul8BLMZl77wRbZnL-9rEhr92JUXnIcPzo7EV_IdqbgvMlD1jZQ9ezV2Xcj_CFOEyQovWs-QP515ib9cfgX_iuciwDhrL_yOytTl6rBjSTe1gQ2o523UHXsNXv7zyCGnW672p_ie8-UrlYCKPJsO6xJcQ9onMqffD_sU9QzCxeGxgYipX1fzmUo6NnIHJOFTKgw8GL7HJ7IR1LkMS-O85ekJ30IEHb3JCSvKLCf74-UxQNyq3xmK7t3ujkoEwNacIVTVp2g2_Q-EdbxjlXE6wnwhgb4zDGqGvyGkaXHKh7I9xUbpOnWQMvid61JH3D4StTfvSbecN",
+                    "AWn5SU7AQpRFhoQx_2ZJfNReVHi_kNAPbwicnVFS_UE-PyfrLV-AT9e4q5m7S2Y6mngaTdskXBC65DsbtgpOuf_50CCUpbdKKtWpaX7NPSqChjmMil9DcePO8k3NWXJ4STi3B94cZp6SdSvvYIg0CSZFYAkYZ92X-JfyAellR-R6zwViyBqw0nP--MKaxvCn8XeY8v5PnxooSutAzSYyVdcUbFxmWfl1mTn9Lhd_Wyhvmor93Sfb21tX4XOsb4J483zLRm9bmpRrxy7_JE5YamVLTSrVfjbQcrSqW9e6BpmvyoOZBoENqJy1M-kBk-p65s_AAUOrxYelWzlULHq2JHWnrvFY7TPTWuoW-lakJ-K8TJmtJ0LOAaO75C3IVCyOkoradK5RoWzGuduHyhtiDdA-tlJDvkXECeb6C6rPHQ_CC2GOxw",
+                    "AWn5SU7dQttyHVIwxZ3yT8C7lEcwo3O66x71RiEh4DBQ2gJooEoXsZvqEYOTBJZMYsAQ62n6IdZwPOaQyVcrF8Ix-k85pU-FFPsyvH2v5lYUIlf6VO11792ksYfwIV5aNLzFJgk_3-Z7AGg3HnyrwD_2_i0qDP7cpmYU_jgbXPU45wY50zCsj2XYrhXlD2X2uzVumzmvm0y1bf0JZU8HdyuLZpoDfaQI2xaTzvonp5PkfgiP3B6-FE0xmFW7Y3mLrWrudiJKLb2zXE_vpSRkIxYpZNs3qVseCh-DGYRvKNLcXHEy-cNLBawYP7wFheB1z4XfK_4Bo7z4xp3c-2bztKibkxpMWqLPJsz7O9KMB544IJHWsX5Gig0X92sqOC0S35O4eBPHu8lwtDidmFEW-Xk7GwjcT0HW7xdtHCzJcebTXQmauA",
+                    "AWn5SU4GSPbgiVzGhmpY4fVk5wUrHZV42XBOmXNhfMeEIahA9DuLou-fkWfwAaKEE2X9NKWzc4DHPGVFBnltyrBi6hZBGCREppWCIRmu4ZzZr3_28-xcFZ5GJOXjr4O5OfgmAF8UwLCayFP7gsyu9M5HsjuCB91LfZRGtB_vzxG8pYzLrtU4J9JlZ8SF9EG0wmK1FScEx7iLW5i29R13ouPpw8a6hyFI0-rvqr9iEE7zv2KfYxuJira478ZqbR08QElQGHmdUOS-Y4kAhfXDmuR-dYxFc8wzWmlKCvUYGObMl4FMlpsiicy_m4xIZTThGHGNZicpbpEVsv5xmtFs-Wk-wp3v0A6QYM64PlKEOxqdRDSJjUIy6XyhUNbdwo3u_0rTTq2p4AJusG9jnTihcF0O7_g6_eR1S-7_q_RlmaqtdF6KusXJGbCkxmhZgjIOLeZk",
+                    "AWn5SU65Dgi6ENWHTdX5H3wIQkLoP-3bpQKXrMNmT__rh5yDDTfJWG2naSSIcBj5eCJVOI4fjVCBJR2kNHvowJe1uL7AvGKnHn_kgN49doZTGeldu4g9cgKEqQP4CcUQzhaP3rzK1ArLL5GWzmqX4GnztWAm6xSTwxuITUgQkVCCt6zargV6y9s_zpHONEL8bmrf5SvqWjDHlXkgbGlgB0ys4Q6fGEEep6VgBjIu6ldCBqoVnB0qa_xXG6EE7_ihZJT5Fqt3pJWbsnCclz24alvNyGJOUJ0L2r0zuw3DaocJV5AVH_PGaauM-MoL7VTwOs0USwk0dnhly4Qo8WPJM7Qfif86NrHjG-OlTT_rzjueHjHaI0IL43GJpZgOV-qXNvj3PEnmAgYQjYkHC1BgdVugBBELzaqghQzjHE2qFAAKdSFEUU0R"
+                ],
+                "review_texts": [
+                    "由緒が書かれた石碑によると、大阪三光神社は、「中風除け」(脳卒中予防)の神として知られ、全国で唯一「中風除け」の神様を祀る神社のようです。創建は古代、反正天皇の時代とされ、主祭神は天照大神、月読尊、素戔嗚尊の三柱です。また、大坂の陣の際、真田幸村が大阪城との間に抜け穴(地下道)を設けたという伝承があり、境内に真田幸村像と抜け穴跡が残っていました。お詣り後は参拝祈念に御朱印を書いていただきました。",
+                    "大阪冬の陣の前、\nわずか一ヶ月余りで\n真田丸と呼ばれる砦を設け、\n大坂城から砦まで通じる\n地下の抜け穴を作ったと\n言い伝えられていて、\nその抜け穴跡が\n三光宮鎮座の下に残されている。\n御朱印を頂きましたが、\n宮司さんはお優しい方でした。",
+                    "大阪七福神と花の御朱印でそれぞれ訪れましたが、どちらも受付対応がよく、スポットもあったので来てよかったと思います！",
+                    "たまたま歩いてたら見付けた神社⛩️\n日中参拝でしたが雨も降ってたので物凄く神秘的でした✨\nまた行きたくなる神社です！\n真田丸で有名になった神社なんですね☆\n御祭神は、天照大神、月読尊、素戔嗚尊の三柱となります。",
+                    "真田丸跡から下って来たとこにあります\n\n歴史で知ってて近くにあっても意外と行かない\n\nやっぱタイミングってあるんやなと\n\n参拝された方とおはなしされることが好きなおねーさんがいらっしゃいますので\n御朱印などお守り購入されるときに前ではなされてても気は長くかと\n\nでないと徳川軍のごとく突撃しボコボコにやられるのではないかとおもいます\n\n大阪の陣で勝ち続けたとても幸運のある場所かと思います\n\n空襲でも鳥居が残り二重鳥居としてあるのでそちらもお見のがしなく\n\n抜け穴どなたでもみれるので場所の確認境内でされてくださいませ\n\n余談ですがこちら皆さんのお賽銭と御守りや御朱印などでなりたっているそうです\n\nお賽銭箱にお札投げ入れるの躊躇すると思うのですが御朱印や勝ち守りなどものにかわるとおもえばお納めされると神社もよくなるしええことできたし勝ち運も良くなるんで３つお得かと　上田城もいいですが真田丸跡めっさ近いとこにあるので\n\n近いとこは縁がないといかんですがね～"
+                ]
+            },
+            {
+                "place_id": "ChIJzTcpYBTnAGAR-QMx9lJUULg",
+                "order": 3,
+                "name": "Chùa Shitennoji",
+                "activity": "Tham quan ngôi chùa Phật giáo cổ kính",
+                "location": {
+                    "lat": 34.6692407,
+                    "lng": 135.5027407
+                },
+                "info": "Ngôi chùa Phật giáo lâu đời nhất Nhật Bản, được xây dựng bởi Hoàng tử Shotoku, với kiến trúc cổ kính và không gian thanh tịnh. Dành 1 giờ để chiêm bái và tìm hiểu.",
+                "distance_text": "Khoảng 2.5 km từ Đền thờ Sumiyoshi Taisha",
+                "duration_text": "25 phút đi tàu điện/tàu điện ngầm",
+                "transport_mode": "Tàu điện/Tàu điện ngầm",
+                "photo_references": [
+                    "AWn5SU5qjYwc6vZ3q5ijFu2lbNCKuQLHW8I7yWWK0Yhnq-cQlL3BmcFEXcSOlAOuMTSqxNXrfTrAkLbBceFmdU3eAEtl1IQ7lXtS4HrhVSmWlSGoTryIX26fL1hITdmyNneq_D2wOHkC9kOPpnub1gbT8aB7lZklsaMIm0bnG3nvd6l6vmE8DoJA5Fh19OIyoLkS8CANQGMNe2UocV8rv5x6Lioi09hv7GwOIHrZ19J6Q0615YBUfU7mrLcB-SbfrteAouh9fWzf2_USXuTnPZJVjiG9xm5RAy0nzCdBOMxC2YqaeRXxrlE_ooeo5zHMQGkzUCcJHOwltLEmMz8mjYc5RkbAQwPaFGzQ6kmonQ6XZz6-hopUodurN2NrnBDKvdLpLi_WyhdITB2phhZ4wrcghxZ_wkNSLwxJiaRf3WEvamWWn-HgXerktgwfP3ZsiP-8",
+                    "AWn5SU4kXOFj6EXPDILGZA1kIE9N8C_Sg0D6ppxAZMWFQzcc2KX9TcueJ98mFPUE6DG2OW4R_SIX3Doscraq6kv9DcJjkj3qfL5B1kTcto_yXnHAMFT3ixvXg9jhruisP8kEjsLBBikFkQncz0OQoiJjmjNa2Q40vWxq1ZoHIO8qJ_Djkdkwk9ZGjCIbvSO8gOqt5GJ7nm1asDFyuhQnrSi27hrU8wz0742lBP4W-tBIgnqUG9XYvIxHoXWd1Gv-jsUs_d6LomUMl9leef30LLZbwNxy0gJmGNehErCTFHeeBe88bCTPbFKnJvvmEEe_p9WyLsP90P9ficAeG8RnZEeHDZBO3u65z423HexpWjpLWPNzKLi4J09rr_djV9oUzyFNlarBOvVeEytVDzviLkL8NG0BLZICZ_NSDT82b5s1EZT0j7k",
+                    "AWn5SU7XWIGSavS9g-gk85LxFtT6nZktBl8RmmekGujFH9obFdM9FZ6ST0q0Ew6Yk-FhnHq5xGgkyenoj5asSe0_vJDhpd6PvWff_AsdBVohCixqJk3-lxx1mjrk_zMJtAFT-F5J4snJ_weepfgsqUa5Efcp5r82GX-IPyDTLht2gqDNPL1EUjTtZ-QxWZVqv93w4SC7Jfqbj8UcpEHTBuuRu7drRg3ZXdwkZQn4xLd4npxuinADEFN3tWK5EUEIT2o3Es7jw_7Pprc6-sfoFl7iPargTfQjxOa0qRsq6ZQlMizrtOTEj6zMmN8CkbIJhD1iDvCUxLZ_KbCafgAFbtmefARTb7zs7_OcSjr9jw0_wYjLZ_wmaPfl8Ri3Mqk5A8_eVphlULY0oli6JSJiETGSmD-2zIyUbDrMcfqlG8VgivcQWic",
+                    "AWn5SU5-0Bm7dVATriZrmBcxA7-zybY9L86wkoJHny0WDOOfS6tjhgFiEmauMA4wybdCTrPSGH3cScbEuRnVCcsntnPCK4t9NK3VvBN3wa-HmHwv7HDeluqZdCLXKAkf8iUH1gNXC5SYLfw-R3_XTh6bQ4aTfDr2JV0RzZHjWg0CSTnyLN5YX4Zlwdi3TunZfjGRsgIFcGVvvYX9niJKEp_blRBcqsW-8ziB1-oILNDtt8I6wJH082KCrmIZKrJjZ76pCfkFIpmUby1eER64G2tVdyBG4XHp_zcZ5BwI9dSbQpCo_rvSZPzA6K4JG47aqkAcogHUwyaHhJmDPwyKGZ_iwUTXOvy4xcUbaBPtwBwmZBifxx9pMLuB8KBOW2QnOC5PC3-q1uhjq4xmL0lmo5g44t3tD0qkdG_BlZxbu8mJpPBFjA",
+                    "AWn5SU6tvPpXAiyiRLHvF7Y3WDYKRbI7AdFxwGhED8_iYIsz0NNNL0F6SzeWqXslKlUNRy5Dv-H041w9kKtPAX-Px1jBtq1K6DFE0LtTEP9CYerYHfytOiflGywn-DPo4I76B2uG0-UZ6xbip-buL_OayB3okaFZd1Dqq26lFDfqwGIOb1_t0A8S_3Cvvb360QJPOJSgCs5Ep2Y5vdNzUX0Bs48LSVUH1v3Eu-wrIpwBNLOWhqvF4RGxuhVeMeFVtoNPFykIvpP93m26VngmDbv-iTshCCeWnIz5_flABUMikVubx0kWsfAy9cl9t6awEZ_cIuFW-1ZHrqMITsKQqOffA7MMUJLEUIVVyBK-CgfEQU1Yj3bgR42IcpR7UQThi0FwUr2BljRRrD1xfASZayayw5REsMTYvWdWZRanCPC3-aHDgg",
+                    "AWn5SU7-5Tokb4gaw4rVjNs9f6qy3hx3-8fxNdX-T6AGPx5MD89hqRkTqVwpT2lBcO4W9H6whIXlGUX9PMqKOwyuTbya9IRztnJ8FsRUTjho_c8AV1nxVSxqJWXyrLBBKOhzIPoeB52qnHVFcUWC4QMHuIobqNqfx2mNJbLo66thCzm0kl09IT7GR73kxOQelAWpIEP42XdLHE17vNgwXPfGVv5-xvYWnqBMXY-B_cmloAeJ6AyBj1vqnryR0z0p4xZhosh0JNcXcyQT1MyMvouiKj18ZBKmHQrBEdaVZax1cOq12VETxlieIZeh2fzUe5lA6MXLRhMxACXQITVV--ZlXIhsS5N5BMCA2cKj_GIOUqR0WIFE0tzP29P13KVyfWz-lxHyhNXRIo4YT3tBZV0qWIoi3Ru6g1uwqlfAZP4raedzj9hW",
+                    "AWn5SU67gcs-MRwDP-B6II51SKU55U6sUEfPbJQQ3dp9HwoGSQM3BEMjbD3gP18xbdnQEwiRGSs5HvHurZA2gFxqGl_gZZ--0tahmWn6hrlXZagy90qAIJ9rf49WgyrlB08Wr1O9g2dVsii5NSWcELUu881RIXBV6SZLoMu89E13Ia5HcG8iViQQo74LX93jjZFW6-O5AhG8svC8DIsFPHn6DCgQJx17m3P0-m9rd5Q8hYoK3_F7IqadG2AW-TSxiRaXvkCMhB_B5fjI-9b7UswovApxlpdvSarQ3QNv3tpNa4zO6JAFc6dhkAMroXoGKc5M9FwDjGg735XwsGWE_iSlV_QrOlx4Q1OUf7PF1AxnjMWFE7WLNIxfkZuUhzwiRKbBT7BlsnKX4Yw9WvcsrHj6RrQI-SwkRPfgi1ovqAlbp74",
+                    "AWn5SU5QTIVEBALDLGUhyjxr0--H6vmRztW1VTNR3Yu6g0kXFnuW-kAkm2h4Fl6BLg8wiB2eEDvqe4aGTg6ShlFMvDiXmHo--HYLhF5KxmU8fIiV2vq-M0yHPDk1N77ZRNK20P4WK_JLcN6qxm5s7Uj8GLGKbvXrLRXMhb2EoAyJjMwvb7p9Ql0dTDyC6KXneE2wLBy8WS_hS5h2PvdXLsYiN_KaYKIq1UKH2X0h3dpkZjuHVSr7nAPJj-KGTDwj8pLqKQw-HYNEKxayja9SUUPxh9FKpW9nLhYR9CWVsVuJa6OaRTWdRgEw4keucjUfHIjFZ6uo3kgGKUEQuSiVOQ0nWyMgczrJmy0l6uwijoA66AYYSO_3zf8WnltUDqjGVqUAk0gUMgdzfC_IMG1KyvmvlV4wf2mrSFd4nRHQr-WU8CCAisN1",
+                    "AWn5SU4tBl1fElnuuXd9k_MEnLz0tK6FIsOP7xk8v_aSxdjU3BM7AylmPw8-TVZEA6KmEaYSR7OFPjjAx0xBn4jhlgKnACXg3HQGFjNERHt5OFdOEZrifQpdP_p21NTuNWMHeBi_ghklFufnfw1aycNU7KiJ1p8oRL_7XNEzsjLg7MKi-1UeortEyiJDa9r8eQH9wuwClf_EL1VRUyeTg-3bYGg4QCuPpV5XzmcNWMYBeH6lUiOS6yxC5VfgsUSOreX7SPvd2l6S9PGNkvHgMNJMrzZUmwRMEcJshcE6mkgmfMA2U3WpF2kPrPHFXpS6ltjC79or6IQkNQv5RHd4xT6Nx1pTUT72y_W7g74Zri-soo-HPAfoY2XIH1OKNUx7bdErY6QF4BRLmgUscc6bCtcEnAjBNnjTNkO0ydy7WNTJ_S4UgJ0",
+                    "AWn5SU6tioinimZuszQM76jVmeuReL5lNzk7KyGg1U4l-CHCrD0Z1h-jRaDNwqScT9-o2P37tg-I_a7WR3OKHyr1EpVbe8CXw2bx9wK-fglu7TZYc2YhXnWUXPd7DnzCoC1jXcNea54nRNP1MzNHAMXh7Uqjbe8Kz4U3c3xXPI8opJqs_aEHoHxfZMqluTaiOCdwTQVr8o61Yv3w6Hnpc9UxOWR_K1s3uxTKbrHIYegs7ZGCp5uaVckc-DQDwM_RzWkUuoXojB6N_KkJkdVaRTN7ncuzwJrODqlTWHbUecJ9KHVzgIe5SDIlNN31jwTHMztVm4BwhP6X0HF1x6iM33gXKgTktfC3jfVNbuUgY5gXjXGAiBzr5oHX2K8xHG0z_7JtdDgmSswva_ntMckW5iouOzLDa3bnb6E5ze7zvy3ZaA3lvvFU"
+                ],
+                "review_texts": [
+                    "2005年開業。\nドン・キホーテ道頓堀店、通称えびすタワーに有る観覧車。\nスイス　インタミン社製（遊園地の絶叫マシンを製作する会社）。\n高さ77.4m（ホーム高10.5m含む）。\nゴンドラ32台（4名×32台=最大128名乗り）。\n世界初の長円形観覧車。\n世界初のゴンドラ水平回転仕様（ゴンドラが建屋の内側から外側へ向けて180°回転します）。\n2008年、開業から僅か3年で不具合が見つかり（駆動レールにひび割れ発生）、約10年間営業休止に。\n長い間、営業休止をしておりましたが、\n2018年、将来のインバウンド需要を見越して営業を再開。改修費は2億5千万円。\n\nまず、道頓堀川沿いからだと階段で3階に上がります。3階に上がって左側に券売機が有りチケットを購入。\n搭乗の際、ゴンドラは乗降側（建屋側）を向いていますが、搭乗後安全バーを降ろされと「ぎぎ〜、ぎぎぎっ〜」とゴンドラが外側に180°回転します。\n動きこそ速くは無いですが、乗り心地は、シートの硬さも含めて絶叫アトラクションとほぼ同じでした。\n\n180°回転すると、外の景色が見られる様になるのですが、先ずは直下の道頓堀川の景色で、観光船が良く見えす。\nその次に向かいの「串カツだるま」の大将の巨大看板が見え、新世界界隈やあべのハルカスが良く見えました。\n夜遅くまで営業しているので、夜は一段と楽しそうだと思いました。\n下へ降りてると、乗車時にカメラマンに撮られた写真を「記念に如何ですか」と尋ねられます。こう言う営業活動にはめっぽう弱く、また、1枚観光名所での写真が増えてしまいました（一人で見て楽しむだけですが…）。\n【見所】\n①外観（長円形の外観とドンキくん？〈ペンギン〉とえべっさんの看板）\n②180°回転するゴンドラ\n③串カツだるまの大将の巨大看板（何分かおきに回転してました。知りませんでした）\n④乗車中もゴンドラの位置を補正する「ぎぎ〜ぎぎぎっ」と言う音。\n⑤記念写真（乗車時に撮影されます。マスクは撮られた方が良いです→マスクをしたまま撮って頂いた為、記念写真がボヤけます）。\n【その他】\n●観覧料1000円\n●営業時間11時〜22時（最終受付21時30分）※毎週火曜日は13時〜営業\n●滞在時間→20分（平日午後は空いていました）\n●バリアフリー→△\nエレベーターは有りまが、足腰の弱い方は乗車に苦労するかも知れません。\n●記念写真1500円/枚",
+                    "道頓堀大観覧車 えびすタワー🎡\nドン・キホーテ道頓堀店にある大観覧車に\nこないだ 生まれて初めて乗ってみたよ🎡\n.\n大阪ミナミのランドマークえびすタワーは約15分で回る世界初の長円形観覧車🎡\nゴンドラが水平に180度回転するのも世界初🎡\n.\n回転したとき\nめちゃくちゃびっくりしたよー🤣\n絶叫マシンにでも乗った気分\n.\n.\n高さ77.4mで 通天閣の辺りや\nあべのハルカスまで見えたよ\n.\n前までは600円だったようですが\n今は1000円に寝上がっているので注意！\n\n海外の方が多くて 乗るまでに並んだけど\n夜景がなかなか綺麗で楽しかったよー◎\n(ガラスが綺麗だったらもっと良かったかな🤫㊙️)\n.\n.\n.\n📍〒542-0084 大阪府大阪市中央区宗右衛門町7-13\nドン・キホーテ 道頓堀店",
+                    "以前来た時は強風で止まっていたのでリベンジ！スタッフの方がとても盛り上げ上手！外から見るのとは違って本当に怖かったー！1000円以上の価値あります！",
+                    "非常に景観がよく、大阪の街を一望出来ます。ただ、高所恐怖症の人は高さを覚悟した方がいいですし、構造上並行を保つために軋む様な音がします。\n私は2度目はいいかな、という気持ちです。",
+                    "道頓堀の川沿いにある縦型観覧車。\n最高値７７ｍ　ゴンドラ３２基。\n面白い構造で、一番の頂上になると、\n水平に１８０度回転します。\n世界初の観覧車らしい。\n景色が変わります。\n結構高さを感じます。\nドン・キホーテの建物中に有ります。"
+                ]
+            },
+            {
+                "place_id": "ChIJa3R_vhTnAGAR8h3nMmemmEI",
+                "order": 4,
+                "name": "Vườn Honbo của Chùa Shitennoji (quán trà)",
+                "activity": "Thưởng trà và ngắm vườn thiền",
+                "location": {
+                    "lat": 34.6679346,
+                    "lng": 135.5024629
+                },
+                "info": "Khu vườn yên bình nằm trong khuôn viên Chùa Shitennoji, nơi bạn có thể thưởng thức trà và thư giãn trong không gian thiền định sau buổi tham quan chùa.",
+                "distance_text": "Khoảng 0.2 km từ Chùa Shitennoji",
+                "duration_text": "5 phút đi bộ",
+                "transport_mode": "Đi bộ",
+                "photo_references": [
+                    "AWn5SU7mM_38ah3GCMxirgwXB4TwFzBDzei07399leOmvxo4U4JBUyFdHk7Ncjq_1lGxfuf0pccAV4-9O_bpmnXEP9zZCt8E_xR4CEqXCKJ2fsgjGTqlFd0kR82FZ2gvluo9sxFONuptGs69HS5DxUJO3wk61j6mJTM-lM-6p9LoqZDEVcIMJ3Tq_FC0k0_onPbzCtcXczu6KgF6SfWSAkQXYLxI7vfKS7t3surkPu7x8mVAmSatMkKLYxYy1ABV5U7oeiS0m-2PqIEXYhcC1LV836--r-y--aya9tooWICMTutu45AaNuFH8p-dbqjQP7gcYCjU0qG83gjYydlh3f_5Q5mZAYCtGDVrIcXLEZUTJtjqYdOajq8grc90cpSkEoAVhSurGfumlMT70C9fUmmK1mz0krnJMPlawuQ4rSCkWqY",
+                    "AWn5SU7-KKmMOQgY3aV8AIO38F3uzkVZT3JpOesvmqcBVtsGSapTI-Ph_HWlawKEJleBQG1OhcSkdcjdmUbBAd20NR_ZDUA1B84DEFFNWzktK8bVwJLhFyKV6U4Ss0CZBD8WTgCY5D0SmZD9Qyqv9QmVL-u6JlyfsfpkpTJ-4O3FPXYqh-lQ7Zw7SomLyrFmcsELU4SZeGzLIRnCbiV44dxLemLPwjSt5jQFEEuykuL01_nv54btEMuAFMFO0V5-9sql0fr5GTIK3m2iwNtaNWFf9CykdSfphsYWjOchtSnjHfUgp-Azm-1ds4ljpARiSnZqU2VU9zXb9dWP1Z4qaT70HOKHLaIkDl01HGAHIE8OionWqFk9g_WJzls8OKDvpVk9z97Qhl7Fl4MWN5c8BQZSwrlt9CtCcZlUBilRSEYlqp4nvLjE",
+                    "AWn5SU75JXA5T2u0WVJGhsXedQ9pkArDyaDEYUuXKdfiFzr75gWPN7fPN1LEje4d-U3jU-7rfrag5seUDKWeiGsHRx9gkPEsuAgoAiltPsMB5NaeqoU7D7PL0zWJiVH5BcQwkWrqQkPFwb9-xJAnhsKW_gJxKLPPKNKxmJdmzB0aVqQhd8bkpg9jp4OSSNOd5UxU8kIdNZcUqHlKorSqwM4-2dROvMf4jNs0cyiLCaiHxB_rf9wfxNi3Kb2I3A7-jLMDEKEWjoSYJsVQ1QfsisphMS_-9VIy97hXnzQBSRO5tDQGDxRPkTtrLz-vEqFv-LEES8i-qxQI_XXQsJHFcRLg8P1SUd5GLhPtWgcO2J2UYfAY03ncBFVDdbekUNraJLLhD-jDsgiq7-AdR0dGv-C458CaDg9NUcovpf2RkSvaNjP_ooQ",
+                    "AWn5SU6xpOLc1IEE3NuuUFSOhumxQmk_8hCCKBHbDrBFP695fCeKhLd1xGbjmyrIF_Z87mLJzfKGjPD2SdzCbS-xZG0O7Hy1F6LqSNhsWJegNScjGbFAjtuHePlwCAgJz7FnNhw6CEnvZNhCx157aEcy4GXgPO2AS5Ci3szlhXj5Xrhwrz5xnk9XvdU60WwHQwTvIr6epCGl6Repy6jRonszoLeDcVOl8pt_I-TNUwD3ruHmHBXtJ48YNrWLS7IWXWgzm2DaL1e6Z8cP8RAnmUWEjkwi0FbzsDdE2fT_qBqenWFYBnGta1cxXGTBFVlHvSyujJxc_bhn4VSEQrKlRcd0ACzhgrDWs7SLhMHypOf2z8V0Gvl33NO2ebekB84I5uf-kpmNbhU9fPIL4uolxIJtZUjCE1upcD4m4W_v78habUB7SKri",
+                    "AWn5SU4-TFfV4QDNNHyqxPtwUaz_scSiDn7Q_VbqvKKbEiw-lRORuj6VKq-yDwnSu8sV9-5M1601TC1nUOo8TIBWFyBtKWCRcfrbkA6eA7fdIC2hkIRNByGrhOSY3f3A4BwWbFiN33_aXz1Uim5y5cBtVZdQum_y3qka1bYt233ffZsRIZVNu-zCOxw-Fp1uz68ZPToLp6cZ9FVeyU1KzTziDZLdUZr2kULdvYMlpKuiLXzyERpS6sWKR_NwDA4HWZ5ReP3mKsRDjo8mM0eWRqbMlTL5WIRWVw4X_k47Bc_84a6xdg789q1R2Lp2UvrvcVSuFEKV6iarcbJawuSoy5Zv0lZQKcX8BUhDwLUzLffFYaq0uakFYhSuh1a8SiMgmxGZfuHhgl2_CuPFTUWRGJ-95pmT-L3XWcOrMi4OOx2sTXPL1A",
+                    "AWn5SU6jqOYlKZpxNIoVv2aPUvgJOUpq3TlqqR8Ht8E4sRkb_5yIJRefjIwTDP1uQo14v5xS67ww0nWVu3Zlr3tFvT9_Jc6ba0QaBzP9mO-uipjNIbPOstisVd8fT9RDWX_zvLeKJyaDmREr0GEB1YGst-3BjKRbwh9WzWtIC7YfLYLMnh6fVaPeHvw8BlcbipCiaKRYeJaZesZlY5vK4nOGUOVX-88MzPpRlxze7i0tpVnJtFfobDmi9MLyz0fhNDGq2vs_aYBX1cJ4HZtD7BOnovFxy79QWovm8VV3H3mzV8jjY2GjhWbUkEMIXjO78HfBiu81MlMxxfQ2596O-KJoKvs4cOy0aEOFPIKcnGmEuAEX7eBB0KcCIaMbqXrDG72JLkzZuRnm7aEzcdyBYGQzYLZM4hplWG82Vj-iljL6GSh0Dg",
+                    "AWn5SU6CrjEjxxPqh34VuT_yOOIBmJhuu4nvc8Q0pynqaAZJZSBPjifhCIeyre-jR2wjQohfi257IUFstMkx-HpS04hKmb3YPqBjF8ZnlDTO5pZuTcKgNW2UjRYTeWNgFOEzgBzuf-DCMqB7i2llH7FBL-tlaxbZ4WQM3ixEBtC0Ja_Nw6PjQzWFfJauxtXpGiC_FxOdwjKuioJYQfxIhPS_Q9TyhbSakaDr1hXiGkD0h_-6zAVAChoHa-L4-gJSrcEeWKKu5MUj9VbenP6Yl73-UtiZWZrZ3Ajudcr88yAIZu5plOOWlrrWUnu-0n9EZKVdLw7c69CuPGtbZNsZfiAzJjSeqco8ZwldPe8B0X7B6PbiQbmrnKGbBxtzpvOU1qJQARduKfs8d8RQG0QfGjJPHjWEhCb4cmqaLC5VtUgsYCr1YW0",
+                    "AWn5SU6Ay9R1oo41AKSv5r-pF8PV5m2Qp2pGcqt0o67YqulnjCqRKa6JW87Wi_1NfDDKWicSPLFsHjQ8TwCTdk5ydAkp2knm7yu30qYna3da0D9wApZQniUdAIqzWPthGONns-Uika10i9Rx2ftNspWZ6JiMTlQlfN-j_-98yur3Kb_uorNPziFQo7xXqoWCqo5PCg1k_jnD42ZyxM2j3usRP_Jjjz2qu_uIHHDutBxNi2fOYqWivzZgaxk15JgKr8JIISKpybbdBZ4HQq7mKokvxnYoEKS-GW5zOW-yjZqCsLdiQ1GWNtOAqT1CrZqPWx6XFlfB3hzLsMKgcTJUUMg5M5xTqqwKOwlGukA2lvURDC6eYRK9Yv419cQmf0G68VlZrUKwN8eGgAdAfKvAlu4hQnv9dDTeo5huVtWFydTPuarzGw",
+                    "AWn5SU4RLif1ffLPu-xqXeP09JnyMuyFTlKWgltYMxqUz2aJ9AZXIxUBtilHJxbTMx3lIr58HdknT6bZYQyVajNPxGju_y2T1JH4IwcRO9Uj-WK4XB6VDwKdNRURot-yXQmED0tr615gthXdlrTl3RuTrKnu-x-YQ6vLy8Dk7hBFFMXMYMQh7GAm7XFNjMCue4qxKiv4jHbezbRDdAiX20YNcAiCXzTn3v15_wUX_OkqeK4RsYKflPMoJn1PfMwhS0epc7sULp4e5IlMQHGclcPNZLuZ0Ht-8TnsaHUk8pnPAZTWzIMHnmHhHEXxcTRbPm-NnGCLB2TODWIeNDa6teNtZgIbmXvZk_UABfZzzVHHKlGcu3suRTRF4ILd0ZdfFRQ2zlEmAS7o4VjRzJUnQskz4zx1cyF0ovWnmval7czuY7A",
+                    "AWn5SU7GvACBjs3AYOsq5ceGx8IR9lC9Pw6mA88nfLJo0OrhbAL3b6pDB5gmc-cnrknasovBvaPzKa6WLkx1JHSCsHCkaw4XCtyiZ99qYs163O6ZuOzJ7G842cPyw92OoyLekrRNgRMjrgqIPdMwbGxUICTFv-VzH6dGhbuc65Z0JxjWi9KcB1zLWggqeDCc8KxJVKu1yTUvnJoC8sel9XZ3H9Yrr7OL0Wb9LB1PnUOqqVy7r7-CyeN-l_iJfj_9sR9x4R2mfYYivQYjNydguyDuITK_8yahYmC7nqolehSULa2nKppzA0i9FCt9zZZT8i5Mvu0g4ecosyRiFVIvCHWpf1coCpQo74P_9v99CZhI1VtD8lxsf5yORG1LBcT85hxGaSQVbgOwfitluDOhG9qVRH61Eezp16aB5PyWctSTN8HyoA"
+                ],
+                "review_texts": [
+                    "2025年8月19日午後参拝\n\n大阪市、戎橋の南東の路地にあるお寺\n当日はシェアサイクルを借り中之島からこちらへ\nあたりは繁華街でその路地の中にあり夜は賑わいそうな雰囲気で当日も観光客や外国人で賑わってたなあ\nお寺は境内というよりは路地の一部がお寺の境内という感じで路地を挟んで本尊のおお不動様とお受け所と手水舎がありお不動様に水をかけるとご利益があるというので並んでから水をかけやしたよ\nまた手水舎は立派なもので手押しポンプの井戸があり押すと冷たい井戸水が出ていただけたさあ",
+                    "2022年2月以来の拝観です。寛永14年(1637)の創建、法善寺の開山は琴雲上人、本尊に阿弥陀如来を祀る浄土宗の寺院です。別称”水掛不動”と呼ばれる。\n\nこの水掛不動の北側にある細い通りが”法善寺横丁\"、昭和の時代の小説の夫婦善哉、歌にも法善寺横丁が出てきて名が広がる。因みにお店もある。\n\n2022.2.4　この水掛不動さんの苔が剥がされる事件が起きた。幸いに犯人も謝り、半年後には苔が生え始めた。今は顔が隠れる程苔が成長していた。\n\n因みにご利益は病気平癒、商売繁盛、縁結びですよ😊\n今も昔と変わらない大阪人情が溢れる寺院です。",
+                    "大阪市内にある苔で覆われたお不動様。\n井戸水を汲んで水を補充します。\n良いお参りでした。と暖かいお言葉も頂きました。\n感謝します。",
+                    "当日雨降りという事もあり、街の喧騒から外れてとても雰囲気のある空間となっていました。数年前に苔をむしり取られる事件がありましたが、見事に再生しておりました。なかなか見応えがありますよ！ぜひお立ち寄りください！とても、おすすめです！",
+                    "2025/1/10\n年始に初めて来ました。\n\n2025/5/7\n今までは、この場所では日本酒を飲んでいましたが、今日はずっと気になっていた［チャミスル］と言う、韓国のお酒を飲んでみました。\n\n度数は高いのに飲みやすく、ガブガブ飲んでしまいました😅"
+                ]
+            }
+        ],
+        "summary": "Một chuyến đi sâu vào văn hóa tâm linh của Osaka, bắt đầu bằng bữa trưa, sau đó là tham quan Đền thờ Sumiyoshi Taisha và Chùa Shitennoji cổ kính. Khép lại bằng buổi thưởng trà yên bình tại Vườn Honbo."
+    },
+    {
+        "plan_title": "Thư giãn giữa Thiên nhiên tại các Công viên phía Đông Osaka",
+        "theme": "Thiên nhiên & Thư giãn",
+        "estimated_duration_hours": 5.0,
+        "waypoints": [
+            {
+                "place_id": "ChIJqY4X9NPmAGARRqhdRsTcriE",
+                "order": 1,
+                "name": "Higashiyama Deli (Eatery near Osaka Castle Park East)",
+                "activity": "Ăn trưa",
+                "location": {
+                    "lat": 34.6980969,
+                    "lng": 135.5214157
+                },
+                "info": "Một quán ăn tiện lợi với các món ăn nhanh hoặc cơm hộp, phù hợp cho bữa trưa năng động trước khi khám phá các công viên xanh mát.",
+                "distance_text": "Khoảng 2 km từ vị trí hiện tại",
+                "duration_text": "25 phút đi bộ/tàu điện",
+                "transport_mode": "Đi bộ/Tàu điện",
+                "photo_references": [
+                    "AWn5SU79KT0391B3VlTzC-7GnH6HzTD6EtajwyCbpzEiwQ2SE8QDvOla0ddh8Ue1TbonVTckyzZ0cXfpM4zqyRbkuh4o27mz0zh3MS0-6NIuAZRp0imCQUub11gSNl4Kb7u374du75cdxrib8jb8vJ_2SI6cdtsQf5wibkdad5Aw6gpDFZ0uGqD9SsdR2dgQhCacFAayx5OJTITdZpnbUsj0tZumosliFDxhCjOD88ULk3Y3EHX0dYgfpm_9NPXDSX3So-eeD94EU3HkXNEmNlFCJTEJuw8qEnGrOYEiDw8ufWpbMwl6ICGsw3fkhVMico1Kqn-zgLN30HiLOZVnu77D8VXpt7YHgQx0d-QJ71G8bwFcVtHXwjAcE6q0lhYuT7jG5PhB2SNzIGRtxtqdtHkfu4LMv3PGXVxCADhTfC_afoSHC9ejiKWEtsCvsxrEUw",
+                    "AWn5SU4mlD6KlhkOhiSwlCzqD6q53KqU_cOGrZXvIB7_JzCC0VX8eBi4UrLa1ct0_-h7eO5PzNvKBvM4g7yHCgMPdxdiDuEjJOjrM9wEQZi2pKcISmWkQXb7-vxCixEpF6K_ZQjB5qwctx_wj-5bM0dzbY47jZouZxYXcH-lUic6qIAcR_FDAug6FcT1pmoa-f_irs2Oxnb3KBautOXCQ9nZ6oijTioCFRXQ3zHgz7nW4VeXENOgvv4yiexlI-tA_9VOZAMEVhAwZduSkFIvtU-jyfj0K4LvJ16S_tb5MoPv5QwV0_mplSEG5rZbdVQQo7Y-eigTQHw804Sg4sM5aPGX5opbHtJqFTX8yZuAXVi7nWBgN-5NaLUVG7r1LnkMbkqgtb_n2ckxCQYVVFX3YSE0wU-tKW1_QIWaY1l7ox8-cESS1Q",
+                    "AWn5SU5wC3-klTXfLwppK_eUlv4TFQamhyXj3D8gwVrubE1grPjCG1Fl0x6lc4ONzs45_g1CQCXyzAFSpcGfdoWoI0V9_SNnm3nPuCObW76YUYhI0QWA2FYwmmj1TPFmxAUCpWOTnu0NB2ZzS8lggO8QSw5pp2_kpP-NWk6_LjFutaliM0HS2Rc_KXTfY3ucAInCz-B0jighTHl1Zg_9kOyn58Mf-XX0Bgc8Rvf49Mm1uBMtZVwpKQXOSXcpjSZ7kk7lvB_7KWHga603C_zoOnrwItP2xJXFeKz8YkW7mWPXniS36Q5hPmqxZQmvWoY8EKwdVRe0GDz6vCDrbGiVSFX5kZQM2se9Jm4yLCNG0c73go12061YsxBZqNHpXWUcdMrXhw65jk3-hW59I3NOkToTqFcXxfdDKpqAOobg8Nh9a9tJ7h7g",
+                    "AWn5SU6JZVVJuUKDhOsAMjaM20I8M2qwLYl1_3m65-tvqqDiMO_jE8UPPShkpIfRA7PUCBCEug-lgCjnxNXKhS1Ic21o10nUmguUSUHAjYOnbGPV2pYaePnvwi37xDdv8msM_AbS_BpKmtLZBTQIgRrS0EUUJj11y7wDphgE9UghoA9Iow0hrHTX9-I8s4pfe0cVM9v3NpecsTVcTvo8DfN6-TZVX5VJrZW5-_rfRyjQVeSBU0WZbHNIMSlLLpUzLIZMuR4aVa0RXjexLd2tAczUFbyO6hi8inse_klC8heyJPCcBByDtNEXeHfgVsqPQ60GqqGqxYNGMaRumzBa8f-3f-1bya5qKlZ2fqYMDrDDewS5nqtEFU62Phr5J8O5bA7HubDAFsQ7jFhx_w-sQxXlm0iMZJEOZwXmfHEgT-7zWiOxMAE",
+                    "AWn5SU6vAO7QanysHcLMEVCFKeC27vn15nbSMqCVRAQrKx_5O1r6gGCuS9qZ_TC7SWZh4tcecfnLu4deHK5i8j2mX-dDdmMdwVLBeuCp8kDO8hdM9uMuKVH2nKzjOb8bADNTdMie1FGizk-IrO8v5Em0HIJKW3wWMp0h693gko2sXXZIiWiRhIEkOaK1cWSz2b6rUMrIfU8s7vfwtM2P8oWwi3GpeUhiC2BHpUnzUmX6PQ4Y8qlles_ARZ9nngHEVrJ2HrO92OhAdTmpOQ_9tKmIHvLbocO7g38KVXYUYMsj60u8yn3De29ufAt7mBtpB0P7E74ww3jlgTxWZtGpIYWaCse8cR1k5OkKLpqdDYQQlJ3Zl-ecqwUi8qBNFfB8eepagq8wrSYvdH_rNzyYyIv6kmPo8lXOmxkPWSqwClTLTNjjijk",
+                    "AWn5SU46LuZHmcRs5F3zQuW8QqZ9vRxd_5eiPcRjwXiXYSKvSYQqIwU6sQWsQMlZY38w7Dx8K765XRdGJ0xR60hgeig-DuYeN44AmOSwfFCm4sFkyROAWpRR_JoT75hQt5MzkJWT5pwuIVWPVn3O5QvaOfcfEtqyNB_qQpJUEUPhJ8q_LPlzw2eDUnQHjhTfN40wpwPIBR3TMgMP7IdWuVq0pzuM1bBbAzMujRTJuYcce5_dxleZ2gE3KAZFJt9HYTc4c3EXA5IqIwNWBmbtLFsYCM99nM-zcXDLHFNLXSNt62oLfPhhuU1IeA6C1cBlRHAGScUJSmjuHrpuXRowIEoF3KPuLtk8c-P0hGQvNyL76ZrqKwFULnDxTw3d-EQb41w-fsu1j_lhLAiHontox2FS6KeLc0ya-g8v_s6lMRg1evCHS0Rv",
+                    "AWn5SU5gDIoMNClBLoFnkmfw7_tEyyk7QF30zwHvP8oPM_KY3QqIWyllZpef3vEC7xxZS3xX182TwXS62O-gEp0MAV8ZjWK2IZfJXx2PJrYr06b6lkCxRX9EHliqLoz5qeI29yvLQMpnuxtIRtepnMRfPjKOtyGlBncpx_G0skzjuh9lHb8zgbxARbHD7uLts94EIjemlBTLziC9zkrX12Ep3HucqVZxgM3v6x9z4GmYzFKBlpRhP03R51TpL7tnvDXfncH47osuMPLrP0PkAzV6JT97CP3MTzF1w4IhiQpFfySWaQCazzKW7boab5ZXTlXduvcEXm4iaYw6dUcxgirkoK7X4XKQ_q283mPa311oHnp_w3GpfCs73ozIHMCGU12_YNAiqVeWt-U9i4k0bU4F5L34ucMPnCy0-3-BLOot_kF10ug",
+                    "AWn5SU77_NvTD_NXGGWtrsKxrXXqyV_O8n0C78cm87TTAmfTquHOKsi9g0yUurgbDbnH8MHb-V0ezH2CTfecbNlrE9QD1yG5Bz5ViGpYUQkX3_8prge0ZcFcrA7tB1ZKeduGge59dQB6gR6D70tv70a1YvVLJOKJkKmfLb4XzwsFDpUivjvGekgwTV28ycIJ7Qgf17nZWlOldoOIlsqP_Q-cwRo3TpseYv5OZkcdXn7mjY_D9KwfuIK0j-pwRreo3Xxca8FvljsihI-9m0axeeEV7uGL43Elgzy9AEEAjAv7V_vGZ2G9XVqNxe-zwQlN6GoojjCYKkV_k1tPFQZ3P9O1yAK_2oaRvrrt2ZXtNXgz6r-egbQZOg6i00lkDWrKCdu8nRmhppVr3hKsdzI1G0ankjvGMfG2Pg_-9v8ux_WlwBY",
+                    "AWn5SU60nmpfG4YaBpTsgVDWBF0JxoPd0I0p76vpoh_VU2Yjn-EFrluCmX5D8G9kEq0g9XG9u8ulTrO__AO4razr8LR8hOiB6quvEEz_S3PN7n-ETswZhJHWnCLxZFX5Byd6BPqgDhv27-3qn0_hQVtCHnKW5zPG_LlSXzjgfPWTWNomcTsFv6DUfVX1B6RWuDxXe5jinOR-ol4w92h0kZA7vXeabwnWst9SdytV6WDpgSD8UcNgEncuXX9XCQukbXw1JQ_i4juRNbkcLRekKpGYXukwrSF-Cf5oVHRr29zMJ5byML3FXfKLzVFRxvGTrMf-av62o3R92kVX1kXQcTeawz0WzcwjRiNHjIrSsTtIvoGEZxdHC-ePyO5ZSLpkv9B5C5_h7mSlHF7HvIS8DAHoCciOp6i26oBodjUqBrPX8zaDFE4",
+                    "AWn5SU6idOkQYC8Zm6uckzt08KGQ-Q27cScj4L1WvFPnL6hDIjwm6Yc7kbjBzBfFxo_dt9eTHRIL9kLxNXur4yQVgUy39D10BqIRroXZpzsqIUz7utP6_UBqGbn5anOajXo1gL36CkSMJLtbaxGN5STT9wjFhHIqsMfAP3NHwQOBqh5oyn0Rk12nSP4RNJOSWbY4dyfjMF_G65L2YBC-pex0WSA1oLfOM1yB806c4SZrJr1GRNFpBv--wJDf3Tgu5vSPjbgFXaXpdTKjPW4nodoJNdd7r0LLSV6WABvhk9lGHL5ttCXFIovz7xeeCdsUgzc9hD8h_DZbTr6Kqk0APjD0uGE9whVomcvUS7mmCAWyhWjXvCX07M1Re26NoKs-K62RPOEqshP7wNgR2J02RqwZfx6Fd7henU_Cq14Meew21BQ"
+                ],
+                "review_texts": [
+                    "2025.6.27\n造幣局博物館で紹介されています。コロニアル建築様式を採用した我が国初の総レンガ造りの洋風建築は日本の常温多湿の風土に合うようにと…アイルランドのトーマスさんの設計監督、1871年竣工の\"造幣局の応接所”として使用されたものです。\n\n中へは入れなかったけど、調度品も残っているようです。翌年には明治天皇も泊まっているようです。隣には同じトーマスさんが建てた「旧造幣局の正面玄関」が、荘厳な音楽で迎えてくれます。何れも貴重な建物、国の重文指定を受けています。\n\n更に奥には「旧桜之宮公会堂」戦後に公会堂として使用されたものですが現在は、レストランや結婚式場として活用されています。\nビアガーデンの案内も有ります。\n館の前は日本庭園、木が茂っている為、これからの猛暑の時期には重宝されると思います。",
+                    "この端正な洋館に一番好感なのはペンキ色、けどあんなおしゃれな色は当初からのものかいささか気になる。\n\n「この建物の外観で印象的なのは、四方にめぐらされた長大なコロネード風（列柱廊式）ベランダであろう。ややずんぐりとした感じのタスカン式オーダーを石柱でつくりあげている。しかしこの外観をもって、即ち創建当初の姿とみることはできない。それは明治20年代と思われるころに屋根の雨仕舞の関係で、従来からあったパラペットを取り外し、現在の屋根のような軒を突き出したかたちに改変されてしまったからである」（新住宅 : brains & works for urban life 24(269)(10)、新住宅社）。",
+                    "明治初期の洋館です。修繕され、現代にもその美しい建築を残してくれている関係者には感謝です。戦災で喪失することなく、今日まで維持できていることはとても素晴らしいと思います。明治天皇が泊まられ、海外からの賓客も泊まられたとか。",
+                    "明治4年に造幣寮の応接所として建てられたコロニアル様式の洋館。貨幣を意味する「泉布」と館の「観」から名づけられた。国産レンガ造の2階建てで外周の花崗岩が印象的。\n毎年春分の日前後に建物内の一般公開が行われる。\n通常は外周見学のみ無料公開です第２水曜日休館。",
+                    "思ってたよりファンシーな色遣いで綺麗でした。全体撮るには木がちょっと邪魔🥲"
+                ]
+            },
+            {
+                "place_id": "ChIJI3IBCtLmAGARhozwIaLMz8E",
+                "order": 2,
+                "name": "Công viên Lâu đài Osaka (khu phía Đông)",
+                "activity": "Tản bộ thư giãn và dã ngoại",
+                "location": {
+                    "lat": 34.702331,
+                    "lng": 135.521378
+                },
+                "info": "Một phần của Công viên Lâu đài Osaka, thích hợp cho việc tản bộ, chạy bộ và thư giãn giữa thiên nhiên. Dành 1 giờ để tận hưởng không gian xanh.",
+                "distance_text": "Khoảng 0.5 km từ địa điểm ăn trưa",
+                "duration_text": "10 phút đi bộ",
+                "transport_mode": "Đi bộ",
+                "photo_references": [
+                    "AWn5SU7iRyRoV8VdDesAaQMEuMWugePXAKIB2uC17009CgivU2w5PMfEfq204-ihZ6h-ZQEOIAJpeBTO2eOhrbkDjJyoDeg5tkssbu1hQ7ALUkVRh_xKIH70nk7XMAnYf4LmhAE66rupe-CTBC-4S-XWwZo4U8xcpYDQNLeTHtB4f7rmWIeFAKQBzeL8MF7pE0AW474m-SpcBdd0G46NL3Lhm9nDb9782fmCdyyA8oQIae0BUrwCXsvqFziGE7kWW5_sxoqPnUfm4jDATdJ0CRJh44yBRMhEBzOjHxK0KrIQ0zTXoAAaRieMSjWCUjCEmRZ5RxSODyVHLuuCrJvuR-JT7A04vuGCrFF7RY0tJ4Ad6Oq0KJTlOJhYmulEHXDPGQ_gJfqXtan1YwJYANm25Jh-JV6p2jVXBry0Tvinq6t75EQ",
+                    "AWn5SU6TpHxX9Sbntu9Dekd_3wNXFf_6PqTtSSrUXXtMwUbm1-oM_s4MS5KS7CzX0jRr5pbj27RI-zgd4ayiJYgaByntLaegyipH1CDto9qhl19Ih8ZJI7VpGJcInZ79Ap0YxJl-mz48-GZo6FVtPQo_FhfxDkMzB2J9wAH_tfTYPMWtsoze7YknR6bsQXXr2Ef2_Teog83jBcAD30-JXuVASo5RTdmqfJ8kL1NWCKhvw0GA-xe-jLNTgEv8ElMt_2vwD1tollZ55jt01abqsfSyDLFuRwM8ZFNMEeZf44ziT5MyuguSr9UGaYibV7exDe8J1U9yQSI4_OIqT9ooNflUMlQp-hN6KFN53w9E-ClTLFIyTLEkjRWQycp9SHa1ctg_8WP91lQzfkDpdjr0VWthdXC_QhsEUx-wiI4dLTIDtyhGTcGF",
+                    "AWn5SU6OUZNUAWsnSmej02lnjcU8u9U-g6FgxF4DPNJsblIq2NGoDD8ZF5-h8VfdmFgs11zdOmHvI_s5CddtM97kedM86bIBFA-PgBnW_1AyEy7_soAsAozVXIJdWMm79PdjbDH8S-N3k1-6SNJFBQLlroA8To8Sb7axXvod4E64rfQo_SI25BP-PoWARugbhM1jObN8hF56BPkAUd8fl3YHNtf3MJ6LWZnR4rVsb5r4Skp3tJFqwIVEj4X3AyCR3sKnvjkQ06CXF3aNiP317urm5KiaGLGlGcN8iB-Cos4wT2aQxxXTb6vb4OgNdbzLhnmifrs7JIz7vJMUD_ct5J8aj0pHDcSC9D_6Jc-FSghhvis0rW5lsYFpcgoTU06IauL2kONx3nQ5eF97CLZQn60wsbapxUd1w-7kWn6nsE7p4x2l3jE",
+                    "AWn5SU6UJvA96aeW1u8KKOX2vaImXYUS_i-PXbom7WQrH0D-FnYLlPO12y80wnHEQn1T7kMe2Gw3aBWgyhA_spd2rTVxEkfkIbW_OGCDo3iM5drmYU-h2u_vwrtVC4Wz0lpFDMI8892QSzxXMLhWg52QekmllR-Bq_ydUY8AxwCjSv22GmdSqg31O0FH5XMD29nzStFlf98ZMihPJUDzOih6KSLq495LeEuWzOqQFOdE1IVfdV3kaE2fdad0ru1Sr7moRlmIvhhc6g58L-PIN0k_DBJgIvKSv4Zng55GwPpac_GO33iqT873L4waZjNBxGOEQ2WAnROwbHfF5P35XKBw_InHeukikNgQEeHqbqvx6Jww7cSeUDSaICt3-2YvoA3b6-v8JbQl365h1FdqGVSwvoKBLdXriGdlDrBtPS77owOczQ",
+                    "AWn5SU4bnnwqA3J1jQL0AR10JsEoJgCfXYgG2nZTaPWMDp92qJp-cBDBbC0-OY-gcm6V991Y1fYoW-uIZkk_Io-ztexTOXRMsxyMaRH4LADnT-v-t-ynKNrvZNn_Ql810wG_PF6dBCNO2U9qA7ivAN2StYSUfMhU1tfnFCMThnHoE0qMOt7MDTQlf7g1S_wrLQSsFeHQr46AZYRmdGQr6RM9nsIRWwv49R033wym2RuG005NRHdE0XoNsltg8ymELT1RYSCOgp6Zb14oQjQ3NlGV2TlckeeJ0p4IyUPY6Oa2cpAf8v5tvBgbuRyjkpWZqcwIhnelC_R36r8M_Ydu3ERK2rmIvmWgwzT-8s1YZApHcVXWSu618SjyNiEm7ZOp9xIy3NduNvbJoVDm7HpCOPLDwcoP70QPd-zLce3WcmX4k3mV2YU",
+                    "AWn5SU68HJxRshAgvoCk7xmOXWFnA6GqYCsBH_aLabsCDU17NqtyvPrCbktnoe-yS2vJKV1_KDJG5LHH3eyXC33mDgv3HOWvFv4kvUADj8XdS9TxHH4e1EhGMfnNdndb500H8B-LeVqAr5Ci57fWkguuC2AoFQCwMHylLKICA0pPv1_FCd5DpTggdV3sHiUDRwMoCG7edihL2svtYzTVea3XNbrr-5JzjC00v3bzFsAH0cu9WJv6TIDGnwhn8ayLztpLVwJHXoqNo_XnqFzuaafQAeCMXCzm1Sa9SfSIl-ND--Ilxg-Dx6uKbpgckibLvjensJpJO4nyR3-lVTK4d9hrZp3_4BC4j3wwfDp3xOKZGgyQyaXvOPFuCPMmVGGtKnqA7X3zgHA4pNcZcPlkk9mqvzUIvOFFtMxfr9EZ5tWWGFB2XA",
+                    "AWn5SU4TUVW_2FikW3PXv6WiRb2TuzLB2BAJsfc8IrpDersBb7oFrAZ64_DJ6PodUMfF2rhAH6YDcGwaJHy5YpdSwx45j5E1eqKo5o7D4oTOVxYF12WTIwHM0M2dyyRoLPon4UX9ZpeQKrG9GPNdG3SKeetFNmD1-chcpvM9GJUshCqn_8ALBQB94e7SYFoPFfXw1MLFSYPjS0-G4lNKMUkZlT5oC-H71HE3Z4oMFvl2nvVu_-3IPTAZ14x8YVY8Yij_RdIFmpByQQpI1SH38gRRroLcsNBB0thxJrpRx-PCLGrQx70mobOv11sJWX9MWBqxQc2oXMD_2_FLr1veVvEIG93iF256f2pIK9a9HbBRup-kMa5bhiYl4sHLCHc1kct_CQ9q0VkLhbmdv9Fn4-QOHzJlhAKpRwzzypZkNqixQiRFzQ",
+                    "AWn5SU6LJDLsnuwQ9wZ4U0wuSQ5NOqGU0X2oUyKO8GBNY-aeho2zL7EVZUiqa9TmedRGjRIibo8-NYBBj_2_B7Wq-5fPt_-7IJkUfDfPSE4d2mnR9J_87Or7Hue7JCJCVfcMun36KgAzaXe7jQL77T-g8H2JK2FCuCVeSGHfbvL9naf3ArnaP44XFZEJpXvIdO2YHais-Z_XirV9tko3VmpsfbRaOfAOSNRCoBnZtHwwDd3E_gPb2lNuBo1OIUnf6CK6uNwFmJqmJ9sEDza5pQTFAySPFM2cihAwIgC50ZzyAslVEtmX4YVvvsiFpBTh1KwodSSftFcP-KOJ32aAyO9WjGiDi2vMSHABkBg_9kKgWKnPX5aj-l1om0ZULKQmWLqTj8Jspmw0xF_IqtyxmuZt23LCKGCZ7kzdQC7lxe59inopIw",
+                    "AWn5SU7uA_iXPEH6MUD0yrH0r7XmSMXsGim49gRTXoTPBxiEWsUMRpzvrw06s8QnTsBNpOaGyJBi05Z0IapogVdDT2ckCEgPZyNxKSPgVa7N4ClDwYG87afcgVx1eG81My1xEp_kQfl3uU4T4uovy89rDTdm7WuDtN4viSBn9CvqPOKKSRo60amUSePDMUtvII_xoJwA7if_4bYp8XRucoOoeBGTx23nXy47CfjTE_t03Lz5D91RXzbwLz7ow_HPDHcUT5uotRwVFY1CsJjWVx23jpBRjQFaKbY9dJexSU2SLUinOqDUGe4zQ_CW0gwgJt-Y1ZV6jsUkaD0fSAYdKkUAMxmwRGU2wf5IfT2_5ukhA0fHQ4cOyUZ4x0MCdqxdDjLz1dLSfF0g7LfL0AoQHNpfGVkE6v709AheuBz76u_FfZzY_Bc",
+                    "AWn5SU6jN9NKzjocB7RDmYQKwGHm1eU1u9Mn3opExD7uzKbTg-VpYeLO59AFaIs_jCFHFP9QJ_YJRQpNLNxrS0ax4-cBqh70F6JO44RCUn_4XA9bWpbI9b7F5tLiJnBQbcXNiW1olAk1hZ-QIxkqx-hRcn6RELUzDxcqz8oWmHOBlHzyM3D7-6rI6-WF6yqVD7CxxGN0lJzqvBaR8Ur8AS9NwNo54V2iy_bC8xGf56lRWC3aWPTblNC4TQBCLUz6VKM8-XWV-_xiWgQ9N6KWrroDSirX80Ck5sKdO7JtzdgR69sjbMncIvOmDVaZQwkpsonVK0HYcPka2gBCRuEPWcLWLPiEx3qky3KOnalOVYILnNxYnOfrlJYPxn_8v3rUsE5ZTpo4aPmxZHuHbA3mSdsV3dveWNQvmT-ygyDtziAjjiMOCXxz"
+                ],
+                "review_texts": [
+                    "砂浜があってまわりはこうえんの森。散歩も楽しいし、水辺の生き物を観察することもできる。カモやアオサギ、亀、カニもいたよ",
+                    "桜ノ宮駅から徒歩すぐ\n色々な大会が開催されています☺️\n敷地内には管理の関係者？さんが常駐し、監視されているみたいでした。",
+                    "桜ノ宮駅から移動できます。大川の水辺です。2025年7月12日は大阪関西万博2025のため、自衛隊のブルーインパルスがここを飛びました。",
+                    "淀川から毛馬閘門を経て大川へと繋がっているので、もちろんバス釣れます。\n大都会の真ん中ですが、柵を超えて人気の無いほうに足を伸ばすと大自然があります。\n※砂浜のある、ふれあいビーチ側は釣り禁止です。小さな赤い橋を隔てて隣接するワンドのほう、または本流側で釣りして下さい。",
+                    "大阪市内中心部で遊べる貴重な水場。\n桜ノ宮駅から歩いて5分くらいです。\n１年で2回だけ・・・春に桜のお花見、夏は天神祭の屋台や花火で賑わいますが、日頃は静かな場所です。\n満潮時は3.0m、干潮時でも1.0mくらいの深さがあり、小さな子供さんは大人が付き添っていないと危険です。\n水は市内を流れる川なので汚いです。\n子供が水(砂)遊びしたり、大人もビーチバレーや日光浴したり、砂浜だけでなく川沿いにベンチがあったりシート敷いたり出来る場所もあるので、お弁当食べたり読書したり、お昼寝したり、ビール飲んだり、釣りしたり・・・好きなようにのんびり過ごせます。たまに泳いでいる勇者もいます(お勧めしません)\n手足が汚れても水道の洗い場もあります。\nそのまま遊歩道を歩いて北へ歩けば淀川まで、南へ歩けば天満橋や北浜辺りまで行けます。\n以前は夏の期間にビーチバレー大会や空気で膨らます滑り台みたいなアトラクションやビーチバーみたいなのが有りましたが、ここ2～3年はないです。"
+                ]
+            },
+            {
+                "place_id": "ChIJR_ocoLbmAGARzHcPdouaMH4",
+                "order": 3,
+                "name": "Công viên Tsurumi Ryokuchi",
+                "activity": "Khám phá công viên và vườn hoa",
+                "location": {
+                    "lat": 34.7051508,
+                    "lng": 135.5188438
+                },
+                "info": "Một công viên lớn và đa dạng, từng là địa điểm của Hội chợ Hoa Quốc tế, với nhiều khu vườn chủ đề và không gian xanh rộng lớn. Dành 1 giờ để dạo chơi.",
+                "distance_text": "Khoảng 0.5 km từ Công viên Lâu đài Osaka (khu phía Đông)",
+                "duration_text": "10 phút đi bộ",
+                "transport_mode": "Đi bộ",
+                "photo_references": [
+                    "AWn5SU4FbqCtytIYVUVUoLCQ8240aNRmoLZswQndB1OpjuICW4Hw2N-U3kfOZBpa_s9yjCVx-hMo2-pBHZvMqyPjHtbGpGk3_swoSFMu1aPwJ6EIQvq5gL-PIIc-QE8QRZmFv8JMI5Dmt_bKnfP6HRJrMIEIx_waiO9h05YK7j8pmTzVd5InvGIAUegqvzIRikTmkPWfK3WcdOTgKi7x0rTEAZaBOp5M4-soW6RVPSdh5ncLLYMnW5V50dzyeSNuUn6cVjCu2XqoIQ3h9VslA36roxhgnfhZaOGbLVFB9SFN_vPH0yKJw6bfV6rN1B6QgJEdipr5y6V6Wsk1LSiDh__TscGPttxhV7oneVen6R6zb_ZLAcdHxnrjSFxQYX-7N63PYlGb85PSLyIgjLRMS7H_qV96n51M0SR_u2KCF_bgGvgqqQ",
+                    "AWn5SU4QW1VS4wvXv8MFawoCmZkAZMf5wETkN51D0KnL9S4vWF32Y7U92NLm7EupCgGx-IiQMLOV9vVliXbw3QEkCGelPPp6rwl5Yct7NobIpcnKLngM7lvROkHGVcfaU5VhSk_TbmVDBQlY6pEOt-NSaghhEE6smNRA1n0gWKzfHQR51ygkgHeEyPuMATvSUCNq_aCiy4IW1sLkGVMML9xSNTlY842XW3jGyJu12OIAUb9kj_F19QVn1YuL0_bAqxfNPFcJ98qjhq1r8USQiJWWK1AnGvMsbMpz5HF8-RHLf2-vtB6pbeIEBpjGD4IsJnC2X2WXZm0CmLCLRw8kt8IGKmTqvtl4jLpWDLqRWlMeP4MgF8jsXinIzG5A0c2Ky-dvjyd-zaxbKnDR6o48Xf8Mq8HErJbvUUVaiXGD_SBg_ZVcqg",
+                    "AWn5SU5fos7KrEcaxwvy0ennuSNGwrpgcTeuUSQ6HehKec4HiMJgx0n2DEMrmasY0LyTGwV23X5a-HBGIhqEXcWOY_jFqofixTEtVR_TdePOwq2HdACODsWyYg7yYh-Vw3e_PQ2WnoGneZKs2QP_5rSqT1fySInj-JRegrQtoIpf-MD-SsP7xXEcuZwywtHIOCizINIrPlwZT-_OxWtzv8NSUPaqxkBcau5iwzuf2edrr0IE0X6tkwD1CtvigIN_tO6qFXVNBDydBapBclAjq5r3YpI2Q4tv52ONz5dvVv5QJYRO8_3CID5rFD0tA_jxHPLDCv5h_hB2ZP-nVM2aZOqt-LP_nourgcN5sLAbHGPNU4CwXgjFqqZVwI3p5hVJ6QDWFLqCqRUMINzZVF36-wuvE5L5G3Ye2DmE7SeHwVtmITriz-Z5",
+                    "AWn5SU6bYtp73VoxUbsYt396fUlvFgn-nPFVleWQ1dlGMIj4NDZ-MNpAzwVRmAwCbuW39g2bpAdS0lS9eDz-pUkacJL3nqzppDBjDB8wYKuGFp9h7W0pSz8_1nf7ryc2PqDdsX_27dhGR9XeHNp4UkTZKP0_Eql_P5o8UXYaBac6FVAJF_CJo53aykAEUBESTKg-_aiVLW8UPLPpnFsq_YT-n9is_gf--0rrO3SCwZETfDR43Fhh3gRs-t-7rmVtNj_lSLif5oovPE3Vcq-iRhCYdg8zJgVcpVOS_Flek_nTJiZGbtilKYriG4OxhjdbivDUOK5W9Nu4rEK1QNp8-5lBQaZ4p2IxhPJ4sx5ZxvX_q9vMDJQv12J4b9zl_MN0uZQFO6dVgpQmN9uTlLF6Dnpb8ZEfGthwH0m8exogOIHq8y8rxw",
+                    "AWn5SU4ZLdfqRlvk72H0J12bLAj0Mpo_hKaKauy0g0fLlgVa0W_KOPg3GNXC99h_41qb3nnPcg-9qmojMOgKttuOPGK7HeOKPjZarJ7GG_nSonEuXm9ajL3mQEz2nbSbJ7h5SwtPM3A_DbELzXB11WrSKq3xKrm7rhvfMQqEDiMiSZh7k1RaW65JE5MfTvblUySazGuNnWzoyQs7Tr8jlx2Ma23YQgzisvJ0wp7OUrLWsRdL3TaqvAmDoOzdeq-tIDXHPClt9DdOpZv-8gb5oStajD1NyknIdTwMGg8mJBBiE6JfRFrDHDUb528DkK6cXNdVQsWmws8Lv0uvMewZcW_dsZG5PtRLSHhylE9E2KIx21nZB27w8yEQYtoIWJ95d6M2T1mGAgzMMSDjbu5BBCZJ3w2Ro4DsLN7_RkrUNvSafb6Zlw",
+                    "AWn5SU6Pz8y9HyR_b2EZm1qU3WrSjnOTeim6-8idJpDQZuY8zy85wrtBTl8nfy1AFe59Nr0wYIpwr_X5lBxCJITkK5Z7hHX3WTvKYYrZbVw7-ac1pLfNO7fvJIIqFpYM6MxKXRbxfZLg6c70fCLoY-u63KuakmoajxJuphtkD8KA1LpUWRfnbaB_Pz0YTPZjHF9co3Q8EBy9BxUrlAiE-wjmFuqfy6QxSsuIMAyJPodI9Oii0rt94owL643VsQBn64s43fVyZA-pHOn74Vz2AOnGlNEoZz9QTCM1W5UIaVa4MB6n4AYNyIblKaUBxo--Pvck5nOO983eq97JVzcLlg6FHfVq5dYg9YBBS1q2WHXHPYk-a7BISD-1ic8AEQYld0bh4Lpcz_ZcDhtSnskZhHOsWPJw3aeqC57Nyzb6s2-DK7JRki0",
+                    "AWn5SU47Iz0D_bpzOg7EB8RCws8v_vkmgjewLxG5rumNJ0gv8fSnOkuCRpplrgAnZbfdJdnhzHnkc56OUTSVZrmCnyPeCpW501EtzUz-Fuvje40sGHUroyUlWf99JrIUH-DHpFX4217GAQwi2Tfq93u9KUcYR3dX2MNxR66j1pCylkOT-0nm-eKjnjxidKUCxL0FqiunfkcRxJPW8jt2NO7IkS6Qr47Jdg_zmbkNT-N51_y3KlWra86y4cBjB9Q-qK8kDVIhICp81kY_yST6t5W_qk0G6zM3ZMioaccA2AfKrCL5KKrXrUOykpK9_5WF2Bju1bx3-2mqfk0wfyzAkOSXIrvUcbmHPBVfoNr5xuvRhoXr8OFrLVo5rYYNqmzHWwD8t2Uej_lDbJsHFqdVMCq4lbAsEMO8J4tum0GcLazbp32Cwg",
+                    "AWn5SU5d7JFrRBsMrL3hCVqzjac2okfMHaDghKB3fg8oC_82H3IvKBG971ZGrUtfw1RvUQ8r0VXbzBmfpDXJlod6mRo-dgsD1u1fHX4SbJdwPs-XY1cdqPdndQMYPOMKOLyNHOU0bEhuLe6qy7T0SBbRXe8avShZNVpWfT0lVtkSSq6tsbNE0daU6EJik5x72IAwMvcd7VnFlfIupOoO1yL2N15MN8agY6_J3C1Tb-AtD0x-5B_z5VHDyb8TKSRNOxOhHHW8b1HHfOjMwo3xTGDVyuBWfny0_WkXKfNiotzWoca_YnCcBmnOT_4huljTMLqFxooNrWo42v984-XNQmIvrCLbQq2gPKNWnt-pTobuiIIOJ21qF0-91bOhW1nSkUM98h8ilLlkpy5ZcHTv7a3Cyi14pEsWZhJRiytmAmmn6fxoZQ",
+                    "AWn5SU7DqCL3t9GpoJZtBPI7bEDa2GBIdV1ZWuQZBTyB_fIRRpfCKhzwZtsouTb7aBaxu9Q1ZHNM2kMhDIUDmO2ETis-k_S7vRauWOwtJbRUxRO4CLDXBaVDLYSpBlvCT941PohAyPHsSBYCZlJgi176-7owLbn1OwRPUtn90q1zlprbTvpUMsRtdL32uk0lvMCanluOYof77Q1-0NK9WGeVUXyJyRbyKiTwEDwIY2b_z-74nWMjzPysUVN8vF6K2DdPcUlmw9dGjmka3MAumNB6f3G-L_IbsMmlD57mo1ucxvdH6ywjRqVpxiFfGwkIrgeQqSTNmC_OvypJORMdYVNo-QUYykJpxM2xUzPBYMXhoXi_75UncXKYVjmuwTyqX4iDJ9Mp-B2Vv5gjttbXcZaRjSyI7jt4ECoUrRqL4uCRyJBHlg",
+                    "AWn5SU75N_uJsxS-oS0pxQwINa69t9_UGpjufYY6tuNld6m-X2rOBzFW5V2sTvgMf2nFrjP3hp-bZnASR4DzxJ0a9wqcl1E1SigQ9IEn3KAFzTbgwuUQqUNTiXDFhFAMjbrymiLACzxDBwTnTMuT9gNDsyMOMkYvWp7ekrBDnsYBcKUF4eP6_dlIHlizs0YBZjRoqmiHvz6R8nMl_yVBnQ3x0LTNNxGJFF_Mx3BSHKr8gmfrW8h8EoMOUd-gFX1xwqskCS-PooJgxWVJURjPI64pLZNHBpk9NXaxwxOyyyDAgkGhDH9ZhSNUABzTk9YmMDxydCC1euqdhnZJdnF9S83z1HqErSKj6LrkXKuXGyZMWjmmNoiL_7Vy969oSSGUQnz5ibs5FfsQYPgis23SVGF7-639ifhZCA08ctGyBZ4jdcWdHog"
+                ],
+                "review_texts": [
+                    "都会の真ん中で自然を楽しめる場所になります🏞️\n\n春には桜が満開となれば花見客で溢れます🌸\n\n是非とも勧めたい場所です✨",
+                    "桜の時期は特にキレイで川と桜を眺めながらゆったりとお花見できます。\nブルーシートを引いて騒げるところ、屋台があるところ、花見だけができるところで分かれておりそれぞれが離れているので様々な過ごし方が出来る公園です。",
+                    "毛馬桜之宮公園は、大阪市内とは思えないほど広々とした緑に恵まれた素敵な公園です。淀川沿いに位置し、春には桜並木が圧巻！川風が心地よく、桜のトンネルを散歩するだけで心が洗われます。  特に、夕暮れ時の桜並木は幻想的で、恋人同士や家族連れで賑わっています。桜の季節以外も、緑豊かな芝生広場はピクニックに最適。子供たちが遊べる遊具も充実しており、一日中楽しめます。\n\n園内には、綺麗に整備された遊歩道が整備されているので、ジョギングやサイクリングを楽しむ人も多く見かけます。  淀川の流れを眺めながらベンチで休憩するのも至福のひととき。  また、公園内にはカフェもあり、軽食や飲み物をテイクアウトして、自然の中で食事を楽しむことも可能です。  アクセスも良く、電車や自転車でも容易に訪れられるのも魅力です。都会の喧騒を忘れ、自然と触れ合いたい方には、強くお勧めしたい公園です。  季節ごとに様々な表情を見せてくれるので、何度訪れても飽きることがありません。",
+                    "新淀川との分岐点、毛馬閘門から旧淀川の大川沿い両岸に続く長細い公園。大川は東京で例えれば、ちょうど隅田川みたいな存在です。\n大阪城公園の影に隠れて穴場的な公園なのでしょう。今回（2025年3月22日）環状線「桜ノ宮」駅から川崎橋までをゆっくり歩いてみました。\n桜の季節にはまだ早かったのですが、大川沿いに行き交う漕艇を眺めながらのんびり歩いて櫻宮を参拝。隣接する藤田邸跡公園内を散策、まだ残る梅の花が楽しめました。\n大阪城公園とは違った「よそ行き」ではない、大阪市民の気持ちの良い散策路です。",
+                    "桜ノ宮駅西出口から出ると目の前に桜が広がってました\nどちら側を歩いても桜がいっぱいです\n横断歩道までにセブンイレブンがあってビールや酎ハイ、お茶などが売ってました\nお値段は倍近く\nビールが300円、お茶なんて250円でした\nぼったくりですね\nBBQ以外は大丈夫でお弁当を広げてる方がいっぱいいました\n対岸に一際ピンクの綺麗な桜があったので橋を渡って見に行きました\nとても綺麗な枝垂れ桜です"
+                ]
+            },
+            {
+                "place_id": "ChIJC6d0r9LgAGARwlEeg7C2VMk",
+                "order": 4,
+                "name": "Garden Cafe Tsurumi (cafe gần Tsurumi Ryokuchi Park)",
+                "activity": "Thưởng thức cafe chiều",
+                "location": {
+                    "lat": 34.6869082,
+                    "lng": 135.5257484
+                },
+                "info": "Một quán cafe nhỏ xinh gần Công viên Tsurumi Ryokuchi, lý tưởng để nghỉ ngơi sau buổi khám phá công viên và thưởng thức đồ uống.",
+                "distance_text": "Khoảng 2.5 km từ Công viên Tsurumi Ryokuchi",
+                "duration_text": "25 phút đi bộ/tàu điện",
+                "transport_mode": "Đi bộ/Tàu điện",
+                "photo_references": [
+                    "AWn5SU50gRYvzc8l0f2QmYf_gDG86_U7t5fyfG_rRCw9LHcGKkDo4KfB-W2L0r6Sqth9NSIEduDgQLYpnpHAq-uTJp2y7kqfF43lmnhRgzVbHfPCKasaKj07ZJ4gMfOvB0MbesTnmX23eG9DlmYdlFlFcxPE3Qn3NUXk0GWWEjeAOH2ZRO65ZSVtgE44N991O8wSCdeCG87FC8bcj33Tw5bgwYeSDI2f4nQ7xbTfqVtdplAfgqJDRGJfODZWyiRAWbcMo7VOcXaTpQUEyzA_8Z1gRzZ9XsvobrSkGdQhowlAF1i197hUMONy-vCRuhFileQ8DmpRaRIak5mhRdsUUwmuZ3hKsXiHS3J4sZuUFbAcRB3isWPrdBCu9jVyenjMQDc_U6XlqEgkpPIxqD0vs1xkk2Kv336VS85GmOQa2YRdfZnffpk",
+                    "AWn5SU5xp2KDzrb_KoHCFx8ZlmP9lR4yWsfDg3yNGTUeJMQ7ehqWIilBT861aIgqmpw77wesbKNTeYSAbmvSiy-RreIAow5IEmFTorXH88pY1vM3tp7p_KbPvBV7HG9KjOfps_P-HSOkTQnOYTMcqNMZJNqkxUOXHMyhFZGCS1MH5dAGFcytQRryNB0hSfybF4EU-E1S0kX-yvyKxULgyu0xTRNcV4kYp1X63HbyBuX1Cwo6H8rlevn5X1h-7atiDOFau-V0RoR2oGtAn1uorWwHT7zCWSBfrrS_LiavPzmLglEdSZ5ysmyWYaTY397Kbackdtk6A_QVNE-y1bTJQUQgK9m2YGjXAht_zx2iacJgHg_HD4P-ALx24zqd7b3eZZHwFi-9KhXuj5K31m9LlRR7SKw9XD_rlYFp92npiKh1dDc",
+                    "AWn5SU7TnmqPfIHmcvc-pv2YjjdTTkcMGTLpoUPo5VbxBsI7UVgHiwanCyXd9J9jzfaHev7YLwqLpv1uazq7TDq1kCL9x-dYubNkq1fZsFZWF_hR1Ys125woWrxSVp9rbDKPWAL1YLSdwgKSRk9OgSPbMBx6clAtQpFCymOkL4BQX8LFt-mjKoB0N9BBFW9Pjpl6S07DbWIZ_8sgQ1yoGJ8VmW3qBx3xTMe-lSPOq6A-5ZAPe-71igX7rZ3XxrDclOUn9QxpqsExD-bXbJCcBkqmaPF5ZSaU5RnMF2i4oGdo9YE9Jo9PcmGXCJw5hcn2cMhoq0Kxb1IsT-2C7MzGLYd-GgaUaLEJDVD6QutrnNsQFdgD5VpVoWZ35JuSw1DtJnvnjPJyd-pFlWgU2AiQWWT9MiKq23kz98Z08k-7OEtz3CX0AA",
+                    "AWn5SU612Of6gfKM_Fo6q4GzTcqqK1BmMSL997vFkqVHoa2Bmo648H62WZKh-9xDyw9jWkc5r2doIK4Uxlgbg34TRDjSeWr5LyMqYWKKeZDTvIAazhhjbPjwjkBy_5zYYhD_S41V5u7krjHjxR2STPWWcdV9XgVVkc-8bSMGrL0rm5Vg1vHBS68MAtoVnUEap2XkM0CjmRm2BpkGJW5-b5IONN5_UWWlPQeu4ItPeRcmGj8paatl6cX8cWup6xjAwf20tb-_jRCgmSvY6TE12HFw0Jdw14LXwN8p_h35EugrsQgge0aI1Z2f4_u-BcN06ya6WhyvnHfZl_GhhnJDlSQMBxOOevYOO7t41WJss7JHsad-RLI2RUxem2b0SewPqE86eaAxOy2Hfwv9sdmQ8AYAbMmJNJJqGt473S8zHbo2k_a8eg",
+                    "AWn5SU5MmknS7CLUwTAfk6Gu6zOX5hx0l0NfqRfw1Ou_9GRf1AG7ofddXZW-KrPiBL-srwLohvibpsu8qrBOtSVtkGFvvdvlshA24yfQE3kTXFi9ofV0_YXy4MQnkOzNDrv6PONnLtuSWkIKfxC_DkgePbd1JoK0GTYsq-xljU4ohz9fls-ZsHgjMtWFqwfsGlme0BtSv7l7esonBN_CFmTsVa3s6Ad4tfE3v0RoUvGXS7g2BtHbNTSDUyfQw2yOsDtHqY72YtVoAam8FtCmU4RIvjhC7GiG6W-RMJAmOiYYXFKY2-sTgE6TeV2ge83D1eqHzH8yX9i9hqqVjPSxxCRAqi5dWtvJkfDiZUsKrU4QiV58eSSp4EEBRaaYGyNEG66S3YIqSbL0kXJ2MfGPZrqdcSSh6UJqjxvBaFmKaL7AVhpctg",
+                    "AWn5SU5-0XKEYBeVUFp3E092VBa33dvzIeAAhDH71Gs6247Ql5j683u73HVYMxzFhXzg_QJEok2mJALJXjpUZhU5sTmSTYpUvzGsCEisU5hIk8_9BQHL4vLxUnQYFq-P86ihhy2wv2USM1Eoevcs8oXBq0YPFRm1o9_YgkDEUhm8QqivnadyF1GUdmVl6tiO2nmFzBlOClOVP_PY_61hUKASavzjEgpfajD8ITqrq-mDEWedwy9gzec4rK64ENMALAht5fnbo_q5F6tRYR-5pgL36ch1ltbuuIWi-9g7mY0F7w-b1OCqAOAhAmfuOMk9-JvkGQut3h1do3VCoCilMcudiM4s1gjEs92UXetjmmpQIn9FihLDWjUWvLh6Y5iarIAHNFaO_btXyAFEL3FQfOJezPB6piy30boAeqcVGDSCHap0QVIg",
+                    "AWn5SU43Ct_e3ZVqYq1NdBk21kh_vG3XAddmtUlYOUQFV9hnvvcutzKTQ0X9DAliNovLuAH_nM396GGjAtXECQEL2Jxg17E3RiujEaOFZjGyj1VWnesNk9Qym2wm32huFEmF9fQsO48kdkOqMK7gvmoUhtISImpmcs1ZWh1BPf4tSeUNYUhfytKGPqyokCt3Yikoz7XSZSzttg-JVFKJFdhaji690ojBbX1dnxgxnI6EDsjw9dBvAMmArKSZMZZluAHSuVWG0QTTo64Bu7vkRsgEZetAwqzvOnhKnSDCSXEoCxATYVt_roXP7dGlYHyPT1wtglrF8H7BePQY3wtT2HuLAg1ZryYP5lTk_pRHr1wzFVutMlTOA3g9PyjVSua-cNaCXMpUsZASgju5Q-RZZasv6vTpw5DCGmYk3mkLs4LiCN-um5dFuEzmuTnhwwYm6M2v",
+                    "AWn5SU5gGiVf7ragbYyNI2zxZypdrIl-hM-7fQc4WxjsPGoIpLCTIzeGQtgjUY0ob3TiPwzbPOacun1EI2c16jXBdMf80KNSbwn2XDPWL64lNKQ7fbdkuOeHTRGQY_-LQaKv1WoMWp1i2-uNlVRlR0VFEPxty1MZDeO5MOY3uWP0Pbp85cisNrSO0FZTfH9bQ8jJwEkN90ni1RUIYYh2xg_scBt4cUnfD8r3u7uNjomquU7pdsPkKZjVYQc09bRuAd0jC5fbKVZhcXp8gOKCjcYJtgHHEU80-VRSuLPH8JOt6xILLWoOB6z9X3-FMtIW2JkDLr99XW66jzze5gz8Sc0elXA1sCOuISWMIXVgbMb30HS39KrzflESUMPmZ_FO5WciSAnvs-C_YWLJvazH0jnr0S0WUjnO4-ZdZHrOTRyh9cUtUTj7nHxl8sSTD8AAlHHi",
+                    "AWn5SU5xoTAUFBsL8O1YSyB66aRAEkT3f8rZK3m8orBC-51Y8R8W5DjFVC4i3xvNCaHbtsnLt7Gf6OzTS5X2USPbVW3gLW5x3IAC6rX5YvpyQq-_LrmmogpHNI-dhQ_TjnXVCqWaGVZ96-zcn1DwVPEN24hHCiKUdC6yNnJv29oXoRM0QM8BV-1aZTrrVdiZWcCyWl4uA0HCtMFcPURi9xocXwVWDnq3k4qyw3X8ZUUCrEariG51iQFSNVgYm1fJ_cvM6wlGgkrvPru0_1tfeu6ugiZQj7g7BxCMhQ3zn6Gv1oO4YC7TNLBOy3g_p-gr92SPLlL05i4MemAF_C32fhIX117sY53g7yixvbKDW8AS9RhbzpvQn_P7-10nCWtIhqry1b68AhbAVUUJ4I9DlNIS7x_euVJmfim8PrllbD93pxJ9Z8B9",
+                    "AWn5SU6EBRZvZEDnAwR_sN4G8Mst_c33bkxNzNnaT47HlokrVwUWko-JyThGpJOOwIYWRTH6IhJz6tyae0wU8XkWFCa4KHIQNIfv-ZZxOJ_FB4GQE2OncbQomz9hL37f6R80GtbxJVzZ0DbfBeu50HCaj4r8gZuweb0J4x7WwbyJvqWov6fjPk7PyFB-QHPO0ionvK-LgPus0OzCkZ_FdTM3Aw5rOMx95x3XF5Bc_yw2uf5KITQCybKY80v5Lr0Hc4oKydYnN2QkTKf5I3j7J_OVylkZJlJ3uRG_594EzBvzj8doNRVuod7_w8d5UNlb_MNDKuCBxkoKQSj5aQlJZqLXnOGZVR65Vx1rejch0RzEAvheNurR6CAfz1g7ctl4lMSET3bbh_WLglVn95QbfnAnCSxXkC-TpL6_mQOVKnDHy9jV7L2eCPgAx8TPcOxjzOwe"
+                ],
+                "review_texts": [
+                    "残念石とは、大坂城の石垣に選ばれながら、石垣になれなかった石のこと。運搬の途中に落ちてしまったりとか、なんらかの理由で大坂城に運ばれなかった石を、研究者たちはそう呼んでいます。実はこの残念石、大阪のあちこちで見かけられますが、石に残る大名の家紋やくさびの跡で見分けるそうです。",
+                    "築城用に割られた立派な石だが、結局使わず残念なことから命名された石。残念でしたが、現在は天守閣の前に鎮座しこうして脚光を浴びているので、今は残念ではない石。",
+                    "お城の建造に使われる予定が余剰の石となってしまい、打ち捨てられていた，しかも石材の切り出し地に。\n「天領小豆島で割られたまま、用材石として念願かなわず」\n確かにそれは残念です。片や天下の大坂城の土台、石垣に、片やそのまま打ち捨てられてでは、残念。大阪の地を踏むこともなくでは。\nで、運ばれたそうです。\nネーミングに惹かれて、ぜひ観光したいと思った。",
+                    "はるばる大阪城まで運ばれてきたのに、石垣として使われなかった石とか、そもそも運ばれず切り出したまま産地で捨て置かれた石を、『お前は石垣になれず、残念だったなあ』ということで『残念石』と名付けたそうです。\nここの『残念石』は、産地の小豆島で切り出したまま捨て置かれていた２個の石を、小豆島青年会議所と大阪青年会議所が協力してここまで運んで据え付けたもの、とのことです。",
+                    "残念石というのは大坂城再建の際、諸大名によって運ばれた石垣用の石の中で、運搬中に大坂城まで辿り着けなかった石の事です。石には諸大名の家紋が刻印されていますので、どの石がどの大名から運ばれたのかを探してみるのもいいのではないでしょうか？"
+                ]
+            }
+        ],
+        "summary": "Một ngày thư giãn và hòa mình vào thiên nhiên tại các công viên phía Đông Osaka. Bắt đầu với bữa trưa, sau đó là những cuộc dạo chơi yên bình tại Công viên Lâu đài Osaka và Công viên Tsurumi Ryokuchi, kết thúc bằng một buổi cafe chiều."
+    }
+]
