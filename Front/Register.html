@@ -71,7 +71,7 @@
                 </div>
                 
                 <div class="pt-4">
-                    <button type="submit"
+                    <button type="submit" id="submit-button"
                             class="w-full bg-orange-600 text-white text-lg font-bold py-3 px-6 rounded-lg shadow-md hover:bg-orange-700 focus:outline-none focus:ring-4 focus:ring-orange-500 focus:ring-opacity-50 transition duration-300 ease-in-out transform hover:-translate-y-0.5">
                         登録する
                     </button>
@@ -101,61 +101,89 @@
                 </button>
             </div>
 
+            <!-- 9. LINK ĐÃ THAY ĐỔI: VỀ TRANG LOGIN -->
             <p class="mt-8 text-center text-sm text-gray-600">
                 すでにアカウントをお持ちですか？ 
-                <a href="login.html" class="font-medium text-orange-600 hover:text-orange-500">
+                <!-- SỬA: Dùng đường dẫn tương đối (route) -->
+                <a href="/login" class="font-medium text-orange-600 hover:text-orange-500">
                     ログイン
                 </a>
             </p>
 
-            <div id="results" class="mt-6 text-center hidden">
-                </div>
+            <!-- ローディング/結果表示エリア -->
+            <div id="results" class="mt-6 text-center h-5">
+                <!-- ここにメッセージを表示 -->
+            </div>
 
         </div>
     </div>
 
+    <!-- SỬA: SCRIPT ĐÃ THAY ĐỔI -->
     <script>
-        // フォーム送信時のダミー処理
-        document.getElementById('registerForm').addEventListener('submit', function(event) {
-            event.preventDefault(); // 実際の送信をキャンセル
+        document.getElementById('registerForm').addEventListener('submit', async function(event) {
+            event.preventDefault(); 
             
-            // 入力値を取得
             const nickname = document.getElementById('nickname').value;
             const email = document.getElementById('email').value;
             const password = document.getElementById('password').value;
             const password_confirm = document.getElementById('password_confirm').value;
             const terms = document.getElementById('terms').checked;
-
-            console.log('--- MiniTrip 新規登録試行 ---');
-            console.log('Nickname:', nickname);
-            console.log('Email:', email);
-            console.log('Password:', '••••••••');
-            console.log('Confirm:', '••••••••');
-            console.log('Terms:', terms);
             
             const resultsDiv = document.getElementById('results');
-            resultsDiv.classList.remove('hidden');
+            const submitButton = document.getElementById('submit-button');
+            resultsDiv.innerHTML = ''; // Xóa lỗi cũ
 
-            // Đơn giản: Kiểm tra mật khẩu khớp
+            // Kiểm tra mật khẩu khớp
             if (password !== password_confirm) {
                 resultsDiv.innerHTML = '<p class="text-lg text-red-600">パスワードが一致しません。</p>';
+                return;
+            }
+            // Kiểm tra điều khoản
+            if (!terms) {
+                resultsDiv.innerHTML = '<p class="text-lg text-red-600">利用規約に同意してください。</p>';
                 return;
             }
 
             // ローディング表示（ダミー）
             resultsDiv.innerHTML = '<p class="text-lg text-orange-600 animate-pulse">登録中です...</p>';
+            submitButton.disabled = true;
 
-            // ダミーの待機時間後、メッセージを変更
-            setTimeout(() => {
-                // 実際にはここで認証結果に基づいて処理を分岐します
-                resultsDiv.innerHTML = '<p class="text-lg text-green-600">登録しました！（これはデモです）</p>';
-                
-                // 成功した場合、ログインページにリダイレクト（例）
-                // setTimeout(() => {
-                //    window.location.href = 'login.html'; // （実際のパスに置き換えてください）
-                // }, 1000);
+            try {
+                // Dùng fetch để POST đến API (đường dẫn tương đối)
+                const response = await fetch('/api/register', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        nickname: nickname,
+                        email: email,
+                        password: password
+                    }),
+                });
 
-            }, 1500);
+                const result = await response.json();
+
+                if (response.ok && result.success) {
+                    // Thành công!
+                    resultsDiv.innerHTML = '<p class="text-lg text-green-600">登録しました！</p>';
+                    
+                    // Chờ 1 giây rồi chuyển hướng về trang đăng nhập
+                    setTimeout(() => {
+                        window.location.href = '/login'; // Chuyển về trang đăng nhập
+                    }, 1000);
+
+                } else {
+                    // Thất bại (ví dụ: email đã tồn tại)
+                    throw new Error(result.message || "登録に失敗しました。");
+                }
+
+            } catch (error) {
+                // Lỗi (ví dụ: server 500, mất mạng)
+                console.error("Lỗi đăng ký:", error);
+                resultsDiv.innerHTML = `<p class="text-lg text-red-600">${error.message}</p>`;
+                submitButton.disabled = false;
+            }
         });
     </script>
 

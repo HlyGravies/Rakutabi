@@ -70,7 +70,7 @@
                 
                 <!-- 送信ボタン -->
                 <div class="pt-4">
-                    <button type="submit"
+                    <button type="submit" id="submit-button"
                             class="w-full bg-orange-600 text-white text-lg font-bold py-3 px-6 rounded-lg shadow-md hover:bg-orange-700 focus:outline-none focus:ring-4 focus:ring-orange-500 focus:ring-opacity-50 transition duration-300 ease-in-out transform hover:-translate-y-0.5">
                         ログイン
                     </button>
@@ -105,46 +105,69 @@
             <!-- 新規登録リンク -->
             <p class="mt-8 text-center text-sm text-gray-600">
                 アカウントをお持ちでないですか？ 
-                <a href="Register.html" class="font-medium text-orange-600 hover:text-orange-500">
+                <!-- SỬA: Dùng đường dẫn tương đối (route) -->
+                <a href="/register" class="font-medium text-orange-600 hover:text-orange-500">
                     新規登録
                 </a>
             </p>
 
             <!-- ローディング/結果表示エリア -->
-            <div id="results" class="mt-6 text-center hidden">
+            <div id="results" class="mt-6 text-center h-5">
                 <!-- ここにメッセージを表示 -->
             </div>
 
         </div>
     </div>
 
+    <!-- SỬA: SCRIPT ĐÃ THAY ĐỔI -->
     <script>
-        // フォーム送信時のダミー処理
-        document.getElementById('loginForm').addEventListener('submit', function(event) {
-            event.preventDefault(); // 実際の送信をキャンセル
+        document.getElementById('loginForm').addEventListener('submit', async function(event) {
+            event.preventDefault(); 
             
-            // 入力値を取得（コンソールに表示）
             const email = document.getElementById('email').value;
-            const password = document.getElementById('password').value; // 実際にはパスワードをログに出さないでください
-            const remember = document.getElementById('remember').checked;
-
-            console.log('--- MiniTrip ログイン試行 ---');
-            console.log('Email:', email);
-            console.log('Password:', '••••••••');
-            console.log('Remember:', remember);
-
-            // ローディング表示（ダミー）
+            const password = document.getElementById('password').value;
             const resultsDiv = document.getElementById('results');
-            resultsDiv.classList.remove('hidden');
-            resultsDiv.innerHTML = '<p class="text-lg text-orange-600 animate-pulse">ログイン中です...</p>';
+            const submitButton = document.getElementById('submit-button');
 
-            // ダミーの待機時間後、メッセージを変更
-            setTimeout(() => {
-                // 実際にはここで認証結果に基づいて処理を分岐します
-                resultsDiv.innerHTML = '<p class="text-lg text-green-600">ログインしました！（これはデモです）</p>';
-                // 成功した場合、メインページにリダイレクト
-                // window.location.href = '/main.html'; // （実際のパスに置き換えてください）
-            }, 1500);
+            resultsDiv.innerHTML = '<p class="text-lg text-orange-600 animate-pulse">ログイン中です...</p>';
+            submitButton.disabled = true;
+
+            try {
+                // Dùng fetch để POST đến API (đường dẫn tương đối)
+                const response = await fetch('/api/login', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        email: email,
+                        password: password
+                    }),
+                });
+
+                const result = await response.json();
+
+                if (response.ok && result.success) {
+                    // Thành công!
+                    resultsDiv.innerHTML = '<p class="text-lg text-green-600">ログインしました！</p>';
+                    // (Bạn có thể lưu token ở đây, ví dụ: localStorage.setItem('token', result.token))
+                    
+                    // Chờ 1 giây rồi chuyển hướng về trang chủ (main)
+                    setTimeout(() => {
+                        window.location.href = '/'; // Chuyển về trang chủ
+                    }, 1000);
+
+                } else {
+                    // Thất bại (ví dụ: sai mật khẩu)
+                    throw new Error(result.message || "ログインに失敗しました。");
+                }
+
+            } catch (error) {
+                // Lỗi (ví dụ: server 500, mất mạng)
+                console.error("Lỗi đăng nhập:", error);
+                resultsDiv.innerHTML = `<p class="text-lg text-red-600">${error.message}</p>`;
+                submitButton.disabled = false;
+            }
         });
     </script>
 

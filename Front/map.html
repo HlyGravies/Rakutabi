@@ -86,7 +86,7 @@
                 <div id="weather-placeholder" class="h-48 flex-shrink-0 bg-white rounded-lg shadow-lg p-5">
                     <h3 class="text-lg font-semibold text-gray-700">Góc Thời Tiết (Sắp có)</h3>
                     <p class="text-gray-500 mt-2">Khu vực này sẽ hiển thị thông tin thời tiết cho chuyến đi của bạn.</p>
-                </div>
+                    </div>
 
                 <div class="map-container flex-grow rounded-lg shadow-lg overflow-hidden">
                     <div id="map"></div>
@@ -118,32 +118,26 @@
         let routeRenderers = []; 
         const planColors = ['#EA580C', '#3B82F6', '#10B981', '#F59E0B', '#6366F1'];
 
-        // --- 2. TẢI DỮ LIỆU TỪ FILE JSON (ĐÃ SỬA) ---
+        // --- 2. TẢI DỮ LIỆU TỪ FILE JSON (Giữ nguyên) ---
         
         // 1. Lấy (GET) tham số 'planFile' từ URL
-        // (Đây là đường dẫn /json/Gemini... mà input.html đã chuyển đến)
         const urlParams = new URLSearchParams(window.location.search);
         const dynamicJsonPath = urlParams.get('planFile'); 
 
         if (!dynamicJsonPath) {
-            // Xử lý lỗi nếu không tìm thấy
             console.error("Không tìm thấy 'planFile' trong URL.");
             document.body.innerHTML = `<div class="p-10">
                 <h1 class="text-2xl font-bold text-red-600">Lỗi: Không tìm thấy dữ liệu kế hoạch</h1>
                 <p class="mt-2 text-gray-700">Bạn có thể đã truy cập trực tiếp trang này. Vui lòng tạo một kế hoạch mới.</p>
-                <!-- SỬA: Trỏ về trang chủ (do Flask phục vụ) -->
                 <a href="/" class="mt-4 inline-block px-4 py-2 bg-orange-600 text-white font-semibold rounded-lg hover:bg-orange-700">Tạo kế hoạch mới</a>
             </div>`;
         } else {
             // 2. Dùng đường dẫn động để fetch
-            // Đường dẫn này là tương đối (ví dụ: /json/GeminiAPIResponse/...)
-            // nên nó sẽ tự động gọi server 5000 (nơi đang phục vụ trang này)
             console.log("Đang tải file kế hoạch:", dynamicJsonPath);
             
-            fetch(dynamicJsonPath) // <-- SỬ DỤNG BIẾN ĐỘNG
+            fetch(dynamicJsonPath) 
                 .then(response => {
                     if (!response.ok) {
-                        // Nếu file không tìm thấy (lỗi 404)
                         throw new Error(`HTTP error! status: ${response.status} - Không tìm thấy file: ${dynamicJsonPath}`);
                     }
                     return response.json();
@@ -154,19 +148,17 @@
                     }
                     planData = data; 
                     populateLeftPanel(); 
-                    loadGoogleMapsScript(); // Chỉ tải Google Maps SAU KHI có data
+                    loadGoogleMapsScript(); 
                 })
                 .catch(error => {
                     console.error("Lỗi tải file JSON:", error);
                     document.body.innerHTML = `<div class="p-10">
                         <h1 class="text-2xl font-bold text-red-600">Lỗi: Không tải được file JSON</h1>
                         <p class="mt-2 text-gray-700">${error.message}</p>
-                        <!-- SỬA: Trỏ về trang chủ (do Flask phục vụ) -->
                         <a href="/" class="mt-4 inline-block px-4 py-2 bg-orange-600 text-white font-semibold rounded-lg hover:bg-orange-700">Quay lại</a>
                     </div>`;
                 });
         }
-        // === KẾT THÚC SỬA ĐỔI ===
         
         
         // --- 3. HÀM ĐỔ DỮ LIỆU CỘT TRÁI (Giữ nguyên) ---
@@ -248,7 +240,8 @@
         function initMap() {
             directionsService = new google.maps.DirectionsService();
             
-            const firstLocation = planData[0].waypoints[0].location;
+            // Tạm thời center, addMarkers() sẽ fit bounds sau
+            const firstLocation = planData[0].waypoints[0].location; 
             
             map = new google.maps.Map(document.getElementById("map"), {
                 zoom: 12,
@@ -261,7 +254,7 @@
             infowindow = new google.maps.InfoWindow();
 
             initLightbox();
-            addMarkers(); 
+            addMarkers(); // <--- addMarkers SẼ GỌI map.fitBounds()
             addPanelListeners(); 
             createAllRouteRenderers(); 
         }
@@ -283,7 +276,7 @@
             });
         }
         
-        // --- 6. HÀM ADD MARKERS (Giữ nguyên) ---
+        // --- 6. HÀM ADD MARKERS (ĐÃ SỬA) ---
         function addMarkers() {
             markers = []; 
             const bounds = new google.maps.LatLngBounds(); 
@@ -333,12 +326,12 @@
                 });
             });
 
-            // map.fitBounds(bounds); // Sẽ fit trong createAllRouteRenderers
+            // SỬA: Fit bounds 1 LẦN DUY NHẤT ở đây
+            map.fitBounds(bounds); 
         }
 
         // --- 7. HÀM ADD PANEL LISTENERS (ĐÃ SỬA) ---
         function addPanelListeners() {
-            // (Giữ nguyên code listener cho waypoint-item và thumbnail-img)
              // === Listener cho các ĐỊA ĐIỂM (WAYPOINT) ===
             const items = document.querySelectorAll('.waypoint-item');
             items.forEach((item) => {
@@ -382,7 +375,7 @@
             });
 
 
-            // === Listener cho DROPDOWN (THẺ <DETAILS>) ===
+            // === Listener cho DROPDOWN (THẺ <DETAILS>) (SỬA LOGIC) ===
             const allDropdowns = document.querySelectorAll('.plan-dropdown');
             
             allDropdowns.forEach(detailsElement => {
@@ -390,22 +383,20 @@
                     const planIndex = parseInt(detailsElement.dataset.planIndex, 10);
                     
                     if (!routeRenderers[planIndex]) return; 
-                    const renderer = routeRenderers[planIndex];
+                    const currentRenderer = routeRenderers[planIndex];
 
                     if (detailsElement.open) {
-                        renderer.setMap(map); // Hiển thị đường đi
-                        map.fitBounds(renderer.getDirections().routes[0].bounds); // Fit map
+                        // === DROPDOWN ĐƯỢC MỞ ===
+                        // 1. Hiển thị route NÀY
+                        currentRenderer.setMap(map); 
                         
-                        // Đóng tất cả các <details> khác
-                        allDropdowns.forEach(otherDetail => {
-                            if (otherDetail !== detailsElement) {
-                                otherDetail.open = false;
-                            }
-                        });
+                        // 2. (ĐÃ XÓA) Không ẩn route khác
+                        // 3. (ĐÃ XÓA) Không đóng tab khác
                         
                     } else {
-                        // Ẩn đường đi
-                        renderer.setMap(null);
+                        // === DROPDOWN BỊ ĐÓNG ===
+                        // Ẩn đường đi NÀY
+                        currentRenderer.setMap(null);
                     }
                 });
             });
@@ -414,7 +405,7 @@
         // --- 8. HÀM TẠO ĐƯỜNG ĐI (ĐÃ SỬA) ---
         function createAllRouteRenderers() {
             routeRenderers = []; 
-            let bounds = new google.maps.LatLngBounds();
+            // const bounds = new google.maps.LatLngBounds(); // ĐÃ CHUYỂN SANG addMarkers()
 
             planData.forEach((plan, planIndex) => {
                 const planColor = planColors[planIndex % planColors.length];
@@ -451,10 +442,10 @@
                 .then((response) => {
                     newRenderer.setDirections(response); 
                     
-                    // Mở và hiển thị route cho kế hoạch đầu tiên
+                    // SỬA: Chỉ hiển thị route cho kế hoạch đầu tiên
                     if (planIndex === 0) {
                         newRenderer.setMap(map);
-                        map.fitBounds(response.routes[0].bounds);
+                        // BỎ FITBOUNDS: map.fitBounds(response.routes[0].bounds);
                     }
                 })
                 .catch((e) => console.warn("Lỗi tính đường đi cho plan " + planIndex + ": " + e)); 
