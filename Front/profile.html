@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiniTrip - プロフィール</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Inter & Noto Sans JP Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', 'Noto Sans JP', sans-serif;
+        }
+         /* Checkbox màu cam */
+        .form-check, .form-radio {
+            accent-color: #F97316; /* オレンジ色 */
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header (Giống hệt trang main.html) -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="flex-shrink-0 flex items-center">
+                     <a href="/" class="text-2xl font-bold text-orange-600">MiniTrip</a>
+                </div>
+                <!-- Profile Dropdown (Sẽ được JS kích hoạt) -->
+                <div class="relative">
+                    <div>
+                        <button type="button" class="bg-white rounded-full flex text-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
+                            <span class="sr-only">Open user menu</span>
+                            <svg class="h-8 w-8 rounded-full text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                              <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-5.5-2.5a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zM10 12a5.99 5.99 0 00-4.793 2.39A6.483 6.483 0 0010 16.5a6.483 6.483 0 004.793-2.11A5.99 5.99 0 0010 12z" clip-rule="evenodd" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div id="user-menu" class="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5 focus:outline-none hidden" role="menu" aria-orientation="vertical" aria-labelledby="user-menu-button" tabindex="-1">
+                        <div class="px-4 py-2 text-sm text-gray-700" role="none">
+                            こんにちは、 <strong id="welcome-nickname">User</strong>さん
+                        </div>
+                        <a href="/profile" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem" tabindex="-1">プロフィール設定</a>
+                        <button id="logout-button" class="w-full text-left block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem" tabindex="-1">
+                            ログアウト
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Nội dung chính của trang Profile -->
+    <div class="container mx-auto px-4 py-8 md:py-12 flex items-center justify-center">
+        
+        <div class="bg-white p-6 sm:p-8 md:p-10 rounded-2xl shadow-lg w-full max-w-lg">
+            
+            <div class="text-center mb-8">
+                <h2 class="text-2xl font-semibold text-gray-700">プロフィール設定</h2>
+            </div>
+
+            <!-- Form (Đã được "hồi sinh") -->
+            <form id="profileForm" class="space-y-6">
+                <div>
+                    <label for="email" class="block text-sm font-semibold text-gray-700 mb-2">メールアドレス (変更不可)</label>
+                    <input type="email" id="email" name="email"
+                           class="w-full px-4 py-3 border border-gray-300 rounded-lg bg-gray-100 text-gray-500"
+                           placeholder="example@email.com" readonly disabled>
+                </div>
+                <div>
+                    <label for="nickname" class="block text-sm font-semibold text-gray-700 mb-2">ニックネーム</label>
+                    <input type="text" id="nickname" name="nickname"
+                           class="w-full px-4 py-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-orange-500"
+                           placeholder="minitrip_user" required>
+                </div>
+                
+                <!-- TRƯỜNG MẬT KHẨU MỚI -->
+                <hr class="my-4">
+                <p class="text-sm text-gray-600">パスワードを変更する場合のみ入力してください:</p>
+                
+                <div>
+                    <label for="new_password" class="block text-sm font-semibold text-gray-700 mb-2">新しいパスワード</label>
+                    <input type="password" id="new_password" name="new_password"
+                           class="w-full px-4 py-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-orange-500"
+                           placeholder="••••••••">
+                </div>
+                <div>
+                    <label for="new_password_confirm" class="block text-sm font-semibold text-gray-700 mb-2">新しいパスワード（確認用）</label>
+                    <input type="password" id="new_password_confirm" name="new_password_confirm"
+                           class="w-full px-4 py-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-orange-500"
+                           placeholder="••••••••">
+                </div>
+                
+                <div class="pt-4">
+                    <button type="submit" id="submit-button"
+                            class="w-full bg-orange-600 text-white text-lg font-bold py-3 px-6 rounded-lg shadow-md hover:bg-orange-700 focus:outline-none focus:ring-4 focus:ring-orange-500 focus:ring-opacity-50 transition duration-300 ease-in-out transform hover:-translate-y-0.5">
+                        更新する
+                    </button>
+                </div>
+            </form>
+
+            <!-- Vùng hiển thị thông báo -->
+            <div id="results" class="mt-6 text-center h-5">
+                <!-- JS sẽ điền thông báo vào đây -->
+            </div>
+
+            <p class="mt-8 text-center text-sm text-gray-600">
+                <a href="/" class="font-medium text-orange-600 hover:text-orange-500">
+                    &larr; メインページに戻る
+                </a>
+            </p>
+        </div>
+    </div>
+
+    <!-- SCRIPT ĐÃ CẬP NHẬT -->
+    <script>
+        /**
+         * Lấy thông tin User khi tải trang
+         */
+        async function fetchUserProfile() {
+            try {
+                const response = await fetch('/api/profile');
+                if (!response.ok) {
+                    window.location.href = '/login'; 
+                    return;
+                }
+                const result = await response.json();
+                if (result.success) {
+                    // Điền thông tin vào header và form
+                    document.getElementById('welcome-nickname').textContent = result.nickname;
+                    document.getElementById('email').value = result.email;
+                    document.getElementById('nickname').value = result.nickname;
+                }
+            } catch (error) {
+                console.error("Lỗi khi lấy profile:", error);
+                window.location.href = '/login';
+            }
+        }
+
+        /**
+         * Xử lý Đăng xuất
+         */
+        async function handleLogout() {
+            try {
+                const response = await fetch('/api/logout', { method: 'POST' });
+                const result = await response.json();
+                if (result.success) {
+                    window.location.href = '/login'; // Chuyển về trang login
+                }
+            } catch (error) {
+                console.error("Lỗi khi đăng xuất:", error);
+                alert("Đăng xuất thất bại, vui lòng thử lại.");
+            }
+        }
+        
+        /**
+         * (MỚI) Xử lý Update Profile
+         */
+        async function handleProfileUpdate(event) {
+            event.preventDefault();
+            
+            const nickname = document.getElementById('nickname').value;
+            const new_password = document.getElementById('new_password').value;
+            const new_password_confirm = document.getElementById('new_password_confirm').value;
+            
+            const resultsDiv = document.getElementById('results');
+            const submitButton = document.getElementById('submit-button');
+            resultsDiv.innerHTML = ''; // Xóa lỗi cũ
+
+            // 1. Kiểm tra mật khẩu (nếu có)
+            if (new_password !== new_password_confirm) {
+                resultsDiv.innerHTML = '<p class="text-lg text-red-600">新しいパスワードが一致しません。</p>';
+                return;
+            }
+            
+            // 2. Chuẩn bị payload
+            const payload = {
+                nickname: nickname
+            };
+            // Chỉ gửi mật khẩu nếu nó không rỗng
+            if (new_password) {
+                payload.password = new_password;
+            }
+
+            // 3. Gửi
+            resultsDiv.innerHTML = '<p class="text-lg text-orange-600 animate-pulse">更新中です...</p>';
+            submitButton.disabled = true;
+
+            try {
+                const response = await fetch('/api/profile/update', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                });
+                
+                const result = await response.json();
+                
+                if (response.ok && result.success) {
+                    resultsDiv.innerHTML = '<p class="text-lg text-green-600">更新しました！</p>';
+                    // Cập nhật lại tên chào mừng trên header
+                    document.getElementById('welcome-nickname').textContent = nickname;
+                    // Xóa ô mật khẩu
+                    document.getElementById('new_password').value = '';
+                    document.getElementById('new_password_confirm').value = '';
+                } else {
+                    // Thất bại (ví dụ: nickname đã tồn tại)
+                    throw new Error(result.message || "更新に失敗しました。");
+                }
+                
+            } catch (error) {
+                console.error("Lỗi cập nhật profile:", error);
+                resultsDiv.innerHTML = `<p class="text-lg text-red-600">${error.message}</p>`;
+            } finally {
+                // Luôn luôn kích hoạt lại nút
+                submitButton.disabled = false;
+            }
+        }
+
+        /**
+         * Gắn Listener khi DOM đã tải xong
+         */
+        document.addEventListener('DOMContentLoaded', () => {
+            const userMenuButton = document.getElementById('user-menu-button');
+            const userMenu = document.getElementById('user-menu');
+            const logoutButton = document.getElementById('logout-button');
+            const profileForm = document.getElementById('profileForm');
+
+            // 1. Lấy thông tin user (và điền vào form)
+            fetchUserProfile();
+
+            // 2. Bật/tắt dropdown
+            userMenuButton.addEventListener('click', () => {
+                const isHidden = userMenu.classList.contains('hidden');
+                userMenu.classList.toggle('hidden', !isHidden);
+            });
+
+            // 3. Xử lý đăng xuất
+            logoutButton.addEventListener('click', handleLogout);
+
+            // 4. (Tùy chọn) Đóng dropdown khi click ra ngoài
+            window.addEventListener('click', (e) => {
+                if (!userMenuButton.contains(e.target) && !userMenu.contains(e.target)) {
+                    userMenu.classList.add('hidden');
+                }
+            });
+            
+            // 5. (MỚI) Gắn listener cho submit form profile
+            profileForm.addEventListener('submit', handleProfileUpdate);
+        });
+    </script>
+</body>
+</html>

@@ -5,6 +5,8 @@ import logging
 import os
 import uuid       
 import threading  
+import sqlite3 
+from werkzeug.security import generate_password_hash, check_password_hash 
 from flask import Flask, request, jsonify, make_response, redirect, url_for, send_from_directory
 from flask_cors import CORS
 from pathlib import Path
@@ -17,21 +19,43 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_ROOT = os.path.abspath(os.path.join(BASE_DIR, '..'))
 JSON_DIR = os.path.join(PROJECT_ROOT, 'json')
 FRONT_DIR = os.path.join(PROJECT_ROOT, 'Front')
+DB_PATH = os.path.join(BASE_DIR, 'rakutabi.db') 
 
 logging.info(f"Project Root: {PROJECT_ROOT}")
 logging.info(f"JSON Dir: {JSON_DIR}")
 logging.info(f"Front Dir: {FRONT_DIR}")
+logging.info(f"Database Path: {DB_PATH}")
 
-# --- 3. KHỞI TẠO FLASK SERVER ---
+# --- 3. KHỞI TẠO DATABASE (MỚI) ---
+def init_db():
+    try:
+        conn = sqlite3.connect(DB_PATH)
+        cursor = conn.cursor()
+        # Tạo bảng 'users' nếu nó chưa tồn tại
+        cursor.execute('''
+        CREATE TABLE IF NOT EXISTS users (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            nickname TEXT NOT NULL,
+            email TEXT NOT NULL UNIQUE,
+            password_hash TEXT NOT NULL,
+            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        );
+        ''')
+        conn.commit()
+        conn.close()
+        logging.info("Database đã được khởi tạo/kiểm tra thành công.")
+    except Exception as e:
+        logging.error(f"LỖI khi khởi tạo database: {e}")
+
+# --- 4. KHỞI TẠO FLASK SERVER ---
 app = Flask(__name__)
 CORS(app)  
 logging.info("--- KHỞI TẠO FLASK SERVER VÀ CẤU HÌNH CORS ---")
 
-# --- 4. TẠO BỘ NHỚ ĐỂ LƯU TRỮ CÁC JOB ---
+# --- 5. TẠO BỘ NHỚ ĐỂ LƯU TRỮ CÁC JOB ---
 jobs = {}
 
-# --- 5. HÀM TÁC VỤ NẶNG (SẼ CHẠY TRONG NỀN) ---
-# (Hàm run_the_whole_job giữ nguyên, không thay đổi)
+# --- 6. HÀM TÁC VỤ NẶNG (SẼ CHẠY TRONG NỀN) ---
 def run_the_whole_job(job_id, data):
     """
     Đây là hàm chạy 80 giây (Maps + Gemini).
@@ -96,7 +120,7 @@ def run_the_whole_job(job_id, data):
         }
 
 
-# --- 6. TẠO API ROUTES ---
+# --- 7. TẠO API ROUTES ---
 
 # === ROUTE 1A: BẮT ĐẦU JOB (TỪ main.html) ===
 @app.route('/api/start-job', methods=['POST', 'OPTIONS']) 
@@ -139,7 +163,7 @@ def handle_check_status():
         
     return jsonify({"success": True, "data": job}), 200
 
-# === ROUTE 2A: API ĐĂNG KÝ (TỪ register.html) ===
+# === ROUTE 2A: API ĐĂNG KÝ ===
 @app.route('/api/register', methods=['POST', 'OPTIONS'])
 def handle_register():
     if request.method == 'OPTIONS':
@@ -150,12 +174,36 @@ def handle_register():
         return response
         
     data = request.json
-    logging.info(f"--- NHẬN ĐƯỢC YÊU CẦU ĐĂNG KÝ: {data.get('email')} ---")
-    # (Đây là nơi bạn code logic đăng ký, lưu vào database...)
-    # Giả lập thành công:
-    return jsonify({"success": True, "message": "Đăng ký thành công!"}), 200
+    nickname = data.get('nickname')
+    email = data.get('email')
+    password = data.get('password')
 
-# === ROUTE 2B: API ĐĂNG NHẬP (TỪ login.html) ===
+    if not nickname or not email or not password:
+        return jsonify({"success": False, "message": "Thiếu thông tin."}), 400
+    
+    password_hash = generate_password_hash(password)
+    
+    try:
+        conn = sqlite3.connect(DB_PATH)
+        cursor = conn.cursor()
+        cursor.execute("INSERT INTO users (nickname, email, password_hash) VALUES (?, ?, ?)", 
+                       (nickname, email, password_hash))
+        conn.commit()
+        conn.close()
+        
+        logging.info(f"--- ĐĂNG KÝ THÀNH CÔNG: {email} ---")
+        return jsonify({"success": True, "message": "Đăng ký thành công!"}), 200
+
+    except sqlite3.IntegrityError:
+        conn.close()
+        logging.warning(f"--- ĐĂNG KÝ THẤT BẠI (Email đã tồn tại): {email} ---")
+        return jsonify({"success": False, "message": "Email này đã được sử dụng."}), 409
+    except Exception as e:
+        conn.close()
+        logging.error(f"--- LỖI ĐĂNG KÝ: {e} ---")
+        return jsonify({"success": False, "message": "Lỗi server."}), 500
+
+# === ROUTE 2B: API ĐĂNG NHẬP ===
 @app.route('/api/login', methods=['POST', 'OPTIONS'])
 def handle_login():
     if request.method == 'OPTIONS':
@@ -166,41 +214,187 @@ def handle_login():
         return response
 
     data = request.json
-    logging.info(f"--- NHẬN ĐƯỢC YÊU CẦU ĐĂNG NHẬP: {data.get('email')} ---")
-    # (Đây là nơi bạn code logic check database...)
-    # Giả lập thành công:
-    return jsonify({"success": True, "message": "Đăng nhập thành công!", "token": "dummy_token_12345"}), 200
+    email = data.get('email')
+    password = data.get('password')
+    
+    if not email or not password:
+        return jsonify({"success": False, "message": "Thiếu email hoặc mật khẩu."}), 400
+    
+    try:
+        conn = sqlite3.connect(DB_PATH)
+        conn.row_factory = sqlite3.Row 
+        cursor = conn.cursor()
+        
+        cursor.execute("SELECT * FROM users WHERE email = ?", (email,))
+        user = cursor.fetchone()
+        conn.close()
+        
+        if user is None:
+            logging.warning(f"--- ĐĂNG NHẬP THẤT BẠI (Không tìm thấy user): {email} ---")
+            return jsonify({"success": False, "message": "Sai email hoặc mật khẩu."}), 401
+        
+        if check_password_hash(user['password_hash'], password):
+            logging.info(f"--- ĐĂNG NHẬP THÀNH CÔNG: {email} ---")
+            
+            response = make_response(jsonify({
+                "success": True, 
+                "message": "Đăng nhập thành công!", 
+                "nickname": user['nickname']
+            }))
+            response.set_cookie('user_nickname', user['nickname'], max_age=3600*24) 
+            return response, 200
+        else:
+            logging.warning(f"--- ĐĂNG NHẬP THẤT BẠI (Sai mật khẩu): {email} ---")
+            return jsonify({"success": False, "message": "Sai email hoặc mật khẩu."}), 401
+
+    except Exception as e:
+        conn.close()
+        logging.error(f"--- LỖI ĐĂNG NHẬP: {e} ---")
+        return jsonify({"success": False, "message": "Lỗi server."}), 500
+
+# === ROUTE 2C: API ĐĂNG XUẤT ===
+@app.route('/api/logout', methods=['POST', 'OPTIONS'])
+def handle_logout():
+    if request.method == 'OPTIONS':
+        response = make_response(jsonify({"message": "CORS preflight OK"}))
+        response.headers['Access-Control-Allow-Origin'] = '*'
+        response.headers['Access-Control-Allow-Methods'] = 'POST, OPTIONS'
+        response.headers['Access-Control-Allow-Headers'] = 'Content-Type'
+        return response
+        
+    logging.info("--- ĐÃ NHẬN YÊU CẦU ĐĂNG XUẤT ---")
+    response = make_response(jsonify({"success": True, "message": "Đã đăng xuất"}))
+    response.delete_cookie('user_nickname')
+    return response, 200
+
+# === ROUTE 2D: API LẤY THÔNG TIN USER ===
+@app.route('/api/profile', methods=['GET'])
+def handle_get_profile():
+    user_nickname = request.cookies.get('user_nickname')
+    
+    if not user_nickname:
+        return jsonify({"success": False, "message": "Chưa đăng nhập"}), 401
+    
+    try:
+        # Lấy thêm email từ DB
+        conn = sqlite3.connect(DB_PATH)
+        conn.row_factory = sqlite3.Row
+        cursor = conn.cursor()
+        cursor.execute("SELECT nickname, email FROM users WHERE nickname = ?", (user_nickname,))
+        user = cursor.fetchone()
+        conn.close()
+        
+        if user:
+            return jsonify({"success": True, "nickname": user['nickname'], "email": user['email']})
+        else:
+            return jsonify({"success": False, "message": "Không tìm thấy user"}), 404
+            
+    except Exception as e:
+        logging.error(f"--- LỖI LẤY PROFILE: {e} ---")
+        return jsonify({"success": False, "message": "Lỗi server."}), 500
+
+# === ROUTE 2E: API CẬP NHẬT PROFILE ===
+@app.route('/api/profile/update', methods=['POST', 'OPTIONS'])
+def handle_update_profile():
+    if request.method == 'OPTIONS':
+        response = make_response(jsonify({"message": "CORS preflight OK"}))
+        response.headers['Access-Control-Allow-Origin'] = '*'
+        response.headers['Access-Control-Allow-Methods'] = 'POST, OPTIONS'
+        response.headers['Access-Control-Allow-Headers'] = 'Content-Type'
+        return response
+
+    current_nickname = request.cookies.get('user_nickname')
+    if not current_nickname:
+        return jsonify({"success": False, "message": "Chưa đăng nhập"}), 401
+        
+    data = request.json
+    new_nickname = data.get('nickname')
+    new_password = data.get('password') 
+
+    if not new_nickname:
+        return jsonify({"success": False, "message": "Nickname không được để trống."}), 400
+
+    try:
+        conn = sqlite3.connect(DB_PATH)
+        cursor = conn.cursor()
+        
+        if new_password:
+            logging.info(f"--- CẬP NHẬT PROFILE (CÓ MẬT KHẨU) CHO: {current_nickname} ---")
+            new_password_hash = generate_password_hash(new_password)
+            cursor.execute("UPDATE users SET nickname = ?, password_hash = ? WHERE nickname = ?",
+                           (new_nickname, new_password_hash, current_nickname))
+        else:
+            logging.info(f"--- CẬP NHẬT PROFILE (CHỈ NICKNAME) CHO: {current_nickname} ---")
+            cursor.execute("UPDATE users SET nickname = ? WHERE nickname = ?",
+                           (new_nickname, current_nickname))
+        
+        conn.commit()
+        conn.close()
+        
+        response = make_response(jsonify({"success": True, "message": "Cập nhật thành công!"}))
+        response.set_cookie('user_nickname', new_nickname, max_age=3600*24)
+        
+        return response, 200
+
+    except sqlite3.IntegrityError:
+        conn.close()
+        logging.warning(f"--- CẬP NHẬT THẤT BẠI (Nickname đã tồn tại): {new_nickname} ---")
+        return jsonify({"success": False, "message": "Nickname này đã được sử dụng."}), 409
+    except Exception as e:
+        conn.close()
+        logging.error(f"--- LỖI CẬP NHẬT PROFILE: {e} ---")
+        return jsonify({"success": False, "message": "Lỗi server."}), 500
 
 
-# --- 7. TẠO ROUTE ĐỂ PHỤC VỤ (SERVE) FILE HTML ---
+# --- 8. TẠO ROUTE ĐỂ PHỤC VỤ (SERVE) FILE HTML ---
 
 # === ROUTE 3: PHỤC VỤ TRANG CHỦ (Input) ===
 @app.route('/')
 def serve_index():
-    # *** ĐÃ SỬA TÊN FILE Ở ĐÂY ***
-    logging.info(f"Đang phục vụ file: {FRONT_DIR}/minitrip_input.html")
-    # Đảm bảo tên file của bạn là 'minitrip_input.html' và nằm trong 'Front'
-    return send_from_directory(FRONT_DIR, 'minitrip_input.html') 
+    user_nickname = request.cookies.get('user_nickname')
+    if not user_nickname:
+        logging.warning("--- Chưa đăng nhập, chuyển hướng về /login ---")
+        return redirect(url_for('serve_login'))
+        
+    logging.info(f"Đã đăng nhập (User: {user_nickname}). Đang phục vụ file: {FRONT_DIR}/main.html")
+    # Đảm bảo file của bạn tên là 'main.html'
+    return send_from_directory(FRONT_DIR, 'main.html') 
 
 # === ROUTE 4: PHỤC VỤ TRANG KẾT QUẢ (Map) ===
 @app.route('/map')
 def serve_map():
+    user_nickname = request.cookies.get('user_nickname')
+    if not user_nickname:
+        logging.warning("--- Chưa đăng nhập, chuyển hướng về /login ---")
+        return redirect(url_for('serve_login'))
+        
     logging.info(f"Đang phục vụ file: {FRONT_DIR}/map.html")
     return send_from_directory(FRONT_DIR, 'map.html')
 
-# === ROUTE 5: PHỤC VỤ TRANG ĐĂNG NHẬP (MỚI) ===
+# === ROUTE 5: PHỤC VỤ TRANG ĐĂNG NHẬP ===
 @app.route('/login')
 def serve_login():
     logging.info(f"Đang phục vụ file: {FRONT_DIR}/login.html")
     return send_from_directory(FRONT_DIR, 'login.html')
 
-# === ROUTE 6: PHỤC VỤ TRANG ĐĂNG KÝ (MỚI) ===
+# === ROUTE 6: PHỤC VỤ TRANG ĐĂNG KÝ ===
 @app.route('/register')
 def serve_register():
     logging.info(f"Đang phục vụ file: {FRONT_DIR}/register.html")
     return send_from_directory(FRONT_DIR, 'register.html')
+    
+# === ROUTE 7: PHỤC VỤ TRANG HỒ SƠ ===
+@app.route('/profile')
+def serve_profile():
+    user_nickname = request.cookies.get('user_nickname')
+    if not user_nickname:
+        logging.warning("--- Chưa đăng nhập, chuyển hướng về /login ---")
+        return redirect(url_for('serve_login'))
+        
+    logging.info(f"Đang phục vụ file: {FRONT_DIR}/profile.html")
+    return send_from_directory(FRONT_DIR, 'profile.html') 
 
-# === ROUTE 7: PHỤC VỤ FILE JSON (Kết quả) ===
+# === ROUTE 8: PHỤC VỤ FILE JSON (Kết quả) ===
 @app.route('/json/GeminiAPIResponse/<path:filename>')
 def serve_gemini_json(filename):
     logging.info(f"Đang phục vụ file Gemini JSON: {filename}")
@@ -214,7 +408,8 @@ def serve_maps_json(filename):
     return send_from_directory(directory, filename)
 
 
-# --- 8. CHẠY SERVER ---
+# --- 9. CHẠY SERVER ---
 if __name__ == '__main__':
+    init_db() 
     logging.info(f"--- BẮT ĐẦU CHẠY SERVER (All-in-One) tại http://127.0.0.1:5000 ---")
     app.run(debug=True, port=5000, use_reloader=False)

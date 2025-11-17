@@ -79,7 +79,7 @@
 
     <!-- 
       Đây là nơi bạn paste dữ liệu JSON của mình.
-      Việc này giúp JS có thể đọc ngay lập tức mà không cần fetch.
+      (Giữ nguyên)
     -->
     <script id="preferences-data" type="application/json">
     [
@@ -357,20 +357,58 @@
     ]
     </script>
 
+    <!-- 
+      HEADER MỚI (Đã thêm)
+    -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="flex-shrink-0 flex items-center">
+                     <h1 class="text-2xl font-bold text-orange-600">MiniTrip</h1>
+                </div>
+                
+                <!-- Profile Dropdown (Icon User) -->
+                <div class="relative">
+                    <div>
+                        <button type="button" class="bg-white rounded-full flex text-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
+                            <span class="sr-only">Open user menu</span>
+                            <!-- Biểu tượng User (SVG) -->
+                            <svg class="h-8 w-8 rounded-full text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+                              <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-5.5-2.5a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zM10 12a5.99 5.99 0 00-4.793 2.39A6.483 6.483 0 0010 16.5a6.483 6.483 0 004.793-2.11A5.99 5.99 0 0010 12z" clip-rule="evenodd" />
+                            </svg>
+                        </button>
+                    </div>
 
-    <div class="container mx-auto px-4 py-8 md:py-16 min-h-screen flex items-center justify-center">
+                    <!--
+                      Menu Dropdown (bị ẩn)
+                    -->
+                    <div id="user-menu" class="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5 focus:outline-none hidden" role="menu" aria-orientation="vertical" aria-labelledby="user-menu-button" tabindex="-1">
+                        <div class="px-4 py-2 text-sm text-gray-700" role="none">
+                            こんにちは、 <strong id="welcome-nickname">User</strong>さん
+                        </div>
+                        <a href="/profile" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem" tabindex="-1" id="user-menu-item-0">プロフィール設定</a>
+                        <button id="logout-button" class="w-full text-left block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem" tabindex="-1">
+                            ログアウト
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- 
+      CONTAINER CHÍNH (FORM)
+    -->
+    <div class="container mx-auto px-4 py-8 md:py-12 flex items-center justify-center">
         
-        <!-- Thay đổi: Thẻ Card rộng hơn, max-w-3xl -->
         <div class="bg-white p-6 sm:p-8 md:p-10 rounded-2xl shadow-lg w-full max-w-3xl">
             
-            <!-- Header (Giữ nguyên style) -->
             <div class="text-center mb-8">
-                <h1 class="text-3xl md:text-4xl font-bold text-orange-600 mb-2">MiniTrip</h1>
-                <p class="text-lg md:text-xl text-gray-600 mb-4">“すきま時間”を、最高に楽しく。</p>
                 <h2 class="text-2xl font-semibold text-gray-700">プランを作成</h2>
             </div>
 
-            <!-- Form chính -->
+            <!-- Form chính (Giữ nguyên) -->
             <form id="mainForm" class="space-y-8">
 
                 <!-- 1. PHẦN 1: CHỌN ĐỊA ĐIỂM -->
@@ -463,7 +501,7 @@
     -->
     <script>
         // ⚠️ THAY KEY CỦA BẠN VÀO ĐÂY
-        const GOOGLE_MAPS_API_KEY = "AIzaSyAmbdRFOMwNlwiUD-LEwTvvJ6Twb0JlpmU";
+        const GOOGLE_MAPS_API_KEY = "YOUR_GOOGLE_MAPS_API_KEY_HERE";
 
         // Biến toàn cục để lưu tọa độ
         let selectedLat = null;
@@ -764,8 +802,49 @@
             });
         }
         
+        // --- JAVASCRIPT MỚI CHO HEADER ---
+        
         /**
-         * 7. Chạy các hàm khi DOM đã tải xong
+         * 7. (MỚI) Lấy thông tin User khi tải trang
+         */
+        async function fetchUserProfile() {
+            try {
+                const response = await fetch('/api/profile');
+                if (!response.ok) {
+                    // Nếu không nhận được 200 OK (ví dụ: 401 Chưa đăng nhập)
+                    // Server sẽ tự động redirect, nhưng đề phòng
+                    window.location.href = '/login'; 
+                    return;
+                }
+                const result = await response.json();
+                if (result.success && result.nickname) {
+                    document.getElementById('welcome-nickname').textContent = result.nickname;
+                }
+            } catch (error) {
+                console.error("Lỗi khi lấy profile:", error);
+                // Nếu fetch lỗi, quay về trang login
+                window.location.href = '/login';
+            }
+        }
+
+        /**
+         * 8. (MỚI) Xử lý Đăng xuất
+         */
+        async function handleLogout() {
+            try {
+                const response = await fetch('/api/logout', { method: 'POST' });
+                const result = await response.json();
+                if (result.success) {
+                    window.location.href = '/login'; // Chuyển về trang login
+                }
+            } catch (error) {
+                console.error("Lỗi khi đăng xuất:", error);
+                alert("Đăng xuất thất bại, vui lòng thử lại.");
+            }
+        }
+
+        /**
+         * 9. (MỚI) Gắn Listener khi DOM đã tải xong
          */
         document.addEventListener('DOMContentLoaded', () => {
             // Render sở thích
@@ -776,6 +855,30 @@
             
             // Gắn listener cho Form
             document.getElementById('mainForm').addEventListener('submit', handleFormSubmit);
+
+            // === GẮN LISTENER CHO HEADER MỚI ===
+            const userMenuButton = document.getElementById('user-menu-button');
+            const userMenu = document.getElementById('user-menu');
+            const logoutButton = document.getElementById('logout-button');
+
+            // 1. Lấy thông tin user
+            fetchUserProfile();
+
+            // 2. Bật/tắt dropdown
+            userMenuButton.addEventListener('click', () => {
+                const isHidden = userMenu.classList.contains('hidden');
+                userMenu.classList.toggle('hidden', !isHidden);
+            });
+
+            // 3. Xử lý đăng xuất
+            logoutButton.addEventListener('click', handleLogout);
+
+            // 4. (Tùy chọn) Đóng dropdown khi click ra ngoài
+            window.addEventListener('click', (e) => {
+                if (!userMenuButton.contains(e.target) && !userMenu.contains(e.target)) {
+                    userMenu.classList.add('hidden');
+                }
+            });
         });
         
     </script>
@@ -783,7 +886,7 @@
     <!-- Script Google Maps (phải tải sau cùng) -->
     <!-- ⚠️ Thay 'YOUR_GOOGLE_MAPS_API_KEY_HERE' bằng key của bạn -->
     <script async
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAmbdRFOMwNlwiUD-LEwTvvJ6Twb0JlpmU&libraries=places&callback=initAutocomplete">
+        src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY_HERE&libraries=places&callback=initAutocomplete">
     </script>
 
 </body>
