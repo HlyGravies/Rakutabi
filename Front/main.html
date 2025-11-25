@@ -387,6 +387,9 @@
                         <div class="px-4 py-2 text-sm text-gray-700" role="none">
                             こんにちは、 <strong id="welcome-nickname">User</strong>さん
                         </div>
+                        <a href="/map?mode=favorites" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                            ❤️ お気に入り (Đã lưu)
+                        </a>
                         <a href="/profile" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem" tabindex="-1" id="user-menu-item-0">プロフィール設定</a>
                         <button id="logout-button" class="w-full text-left block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem" tabindex="-1">
                             ログアウト
@@ -501,7 +504,7 @@
     -->
     <script>
         // ⚠️ THAY KEY CỦA BẠN VÀO ĐÂY
-        const GOOGLE_MAPS_API_KEY = "YOUR_GOOGLE_MAPS_API_KEY_HERE";
+        const GOOGLE_MAPS_API_KEY = "AIzaSyAmbdRFOMwNlwiUD-LEwTvvJ6Twb0JlpmU";
 
         // Biến toàn cục để lưu tọa độ
         let selectedLat = null;
@@ -886,7 +889,7 @@
     <!-- Script Google Maps (phải tải sau cùng) -->
     <!-- ⚠️ Thay 'YOUR_GOOGLE_MAPS_API_KEY_HERE' bằng key của bạn -->
     <script async
-        src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY_HERE&libraries=places&callback=initAutocomplete">
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAmbdRFOMwNlwiUD-LEwTvvJ6Twb0JlpmU&libraries=places&callback=initAutocomplete">
     </script>
 
 </body>

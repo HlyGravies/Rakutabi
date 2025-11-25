@@ -1,0 +1,45 @@
+[
+    {
+        "place_id": "ChIJ97EqvMvXNTERCwgY7ss2WtU",
+        "location": {
+            "lat": 21.0113711,
+            "lng": 105.8305973
+        },
+        "types": [
+            "establishment",
+            "point_of_interest",
+            "tourist_attraction"
+        ],
+        "rating": 4.5,
+        "user_ratings_total": 2916,
+        "price_level": null,
+        "weekday_text": [
+            "月曜日: 10時00分～0時00分",
+            "火曜日: 10時00分～0時00分",
+            "水曜日: 10時00分～0時00分",
+            "木曜日: 10時00分～0時00分",
+            "金曜日: 10時00分～0時00分",
+            "土曜日: 10時00分～0時00分",
+            "日曜日: 10時00分～0時00分"
+        ],
+        "photo_references": [
+            "AWn5SU50RxjkKIcUHoNBnkF3VWdqxrMoD_w4OzLdecuaL7VsUmIMhwslXDHXki2Ns-99ptSSCRZxvY3wYP9SbiV7uqs4ymZR6Q3UzDcSi9ZOl5zFfxcodj6VnHxhW9CdPsHt-eIee1nq4Wo6GqkRTL3JY-kNVtdoaj6sP2lFXPL9QaaU04kgjULyDSRg0yMJENn-5N9umZGLaevh93Sk7ktf6IEQjMyS-oCMazOQ7X_t2lAXIp61JhkiUXc9WD0sgGrZ9cptxxkhWPMCEFA9znxYUmIjFmv7dGkCj2DZiDqYVyTpdw",
+            "AWn5SU53ry1eG9vmZmglAA6PyOKkK9qjZ0i_w4lC_RMC1PC8yUV2Bqcd-0aE8pSl58vGye5WMFR_CGAs3D0J4QmE7c50Q4rtv2uwVTWzjWZn2lVmTCw-fwW6EBZwoula1v-KylmceIYrTXJ27xjajQo50wMTqV4BaxirxIqvIsZDkj9tOAinjdtfw6lTHUhxWgVci9ii34jY9tK2u87cbP-l3rgxmj-RcjTHfwhj0xMBZpie_CvlQLaAkkT2Ir2tPvbqZnzio5hUoZKdGck3GnRI9yEKSm9X86qzhfmgH8t5bnbLmVKLixrERqJehFCNZ4TJrt4ptTkAR2-s3JU1XBVzNjKNzJ_PclXHsyCX2iWUcxgdpiDiuh-B4furmrcr1chgPws2GJ9U02KYH-15ZuP5GBeHnvBRjDnRH5t0R72Y4ssLJw",
+            "AWn5SU48S-HuVzdYTeD-ZAPcC4G4qnnOFLnptW65zXnj81VG1jniF9WK2hBFbz1il4McDho0MCvrJW_IW4l7Jtd-xaQANxrGEVa3qkIcr69zTA84pgGmtMfDKBMpAK6H2KVBhXlorObXszd1PME7mjYSZ7AWMIZJjxsH3mOJSCwItDExvLmQPHo8WWMs3fcX0ENaI-nBcc_NbbGcFLyTFEtddzLNLXnC0c-AGB98u1dGYcx5TYMScqG6h5abXmunzlrk9cSF5lG49VAacwnqSktZ47wRwwv4Yz0iA-ERGtJQc0HuD8ovmnhXaP-2FmZ4ZpOO3_rZP8Y6_bQURnD5UcJ4_t86LYAYodfxZgfS8YK7GsXipgmRssG4tJ6RfxgjSSNYlYZ50teOgKRc6-QhWwfwql4EwYhS9z3nDtLxPUvc77o",
+            "AWn5SU7pX4PGfGUMgdoi6DSlq1f9Hfs3il2jrlt5CEyZYGvQjIrbp3u3OJPKpw4G624ybRoLKAeJtg534LgN8WdxA1sIIc5aFTF-8RpN58oSDkFAXd4ab-SVZ_FsG27EPvSnKlwl483McPaBpHJerfbtZjrna2jqxhSdBdXUwzWhHO18IKetcHIKCPkhC_Dtjhn-C20KOak7SSmN5_HvrVpy755KDVftFo33TRAIVkPeZBF0wsu_v7ZT9XGIox3PewG2r2-B7mzHJUOK2Z-sQ1ptkxuckHSQrfeE9xZCLTDTPiuCQOKE_6kT6yg2tZQanW0728EBQDSPv1SGtkk-Ha_g4yUSxi5-v0oxbljUXuZtdg0MjbiKiyFUVC6pC24uMx4gNFNz3sYDBO-nyrzN6atOtq_03rOLCwbWlrvvhhtkbaGf4wIV",
+            "AWn5SU7eKRnRw9VOIO_BqZOnxCaHNDLLSkKZ9BylbGlExWd68pFTtCt9ukPyJhT-r7SU6cCNtGC6PgvAHhN0-hMuKTeBj8JDOo5nB0raXsYdTktBX-q9bT6fPOOMAuSZVmiLJCwwn_ZG9cNs02SJ1C30iEaHokm2ySRS0lfsHUGWkAIGEYVakPIfGHYuvf6Qnq-Qzdv1ab95oeixGIjw5PjEx-rwz19iHZVuYC3LR2OKbekyAlOKxh-rgsW2_FIcT6Ej5h1u6-WrDHdPuDbky44hahqxJKGhwD9PnNBuVfNQyleeDN8rLpd8jsqZB-5ggtwtLIY5_7vtO7rUjrMaF6dgcIQwGnR27Ez33Wo5xJZkNOm2pZ74MtvrNH2oapxwz8QbjaXU_A2NZ8qMvYaB7iCE2aQGqOBucffWZmWOuU9P1gUpd5ks",
+            "AWn5SU6YF0p6P2fe6f5xoVrUx-YVoVToHyNz31JJSzzkzAKwlgnfrPqNvgMmIPDVbzYOBKClw3WOg5Anwa5Nq8us4sXqX0tne-LjdqhlOv-5IbFsBwtUDaPVfK4CZR1E7v7fEN5SF0WpNpk-jyXz9MQTeUzu4sPBB_IY0r4kes9kKkRJMucuanbFdq38LDv4IeIKh3cH_kQtFMDeQ403ceEKTgvyyxVzoXU-11TXE5MVlp5O-uVgM-X8sDUxnX00oFTqZJiCGJLRlcdhExwD7HJ6H8pXQWtn-88NlWduUzMpcazaFINgd5T_Vk7r50Ym7aG6W2LQPaVtNaPkuws4xIX1NJKO2X5WXgnpKyCJUYA3ur-z277oilpGI1N6jtZ3hDQMX8eHDaOCIQaAjkqHeyK87Lhwb3Q3fE5klwffrb8gtEX0_A",
+            "AWn5SU7Ysf_88_cSnzJ8_vsaSeT4AwtnUzFVsY8kvyRB8hAK8XvNPuvBt8JJC9Cq5hft3Xhti6LbztbFEPsdMvAZIersrjSLX0OidtjtE3p-FfRqfcRx3hsa5C9ujHdSvnNuw6hNxO49HK24kPlUxmzfoPKkmdro0MSdKHmDmZQYQB7F-Rf_b4S8YRD97qGgN9HfrOl6QoiXRiG27pATiBfr4m4t8Z5WRtru-3BGEl9EkojqFBx2FhWUjyF4aOiFQDZ-7fNavZ-WbO0UF0854iEYNEHnfv9XBLwDUABPHU-BGlUIF-Jf1p3H6T6UsacwKhIiqiNCA3Dq2WkDISFQjyNin9PrP-NoDHLjmv70n0kIqJsXmUaE3-yEkbczr0V8IhWIYBjj7TkA3gwTUrg9jJR-caDSyKK8IcpmpWimv3YpZyz5aUqc",
+            "AWn5SU49RQRzfKUC61BrfBXGnUoXElRl5hs-GzxvEIROASz6JuFhGjKnUAsWvs67AAcR2NgTv7JV0dYxnDvKuJsOGpX_sOF06l4Ob5wDuMgWM_Vl9U0knwZa8qNjsXeKg8cVfZEBsIysDxgCOlyAZs3Sn4jzDnQ2mNox4eXOEyn7VI-CxDc5y4mVN8Sa41z-60hxYK6rYykY4TMnjTEmFseyd82USwLK7rrxMnL0bqpZJ4f8eTJHu8dqj2wZQxg_lB-uCJkmiH-SUFL8tW3WOE84rxEkuHaNKiQQHX7EaT8vls5XaXOP8Bob_dSXYJw0BQV0yBGl9yFmzKQuVra5hlnPGDO5gY1huO9TfrIYO7irJIPUTVW5Zz2HXrQV6yYny0SqicupVIrA2mZQk4GeC5qryhSYHMFchQPltn7-s_y_UKjD5g",
+            "AWn5SU79C_LRcwruOiwRxm5Ku4Ms57qkiLL1qqAzCGtIq3JQ5SD97I3P6-9seVqnsJhzy4uyi8QYWozGKk3xek8kE5g40vlzaj32xvi4Xd4vCuS4fJqgFLGZzehRrtJB-yFJ_L8DsF_1oSKb_HIpuviGM12HpvIg1fFGlOW-mCBGSKYdeOGlRHamsDmJJ1G9sOiYu74OxJ3KnILsBVznPCY-wSm4J75D9nrZc7JZZ462IfkjA8RvqMV7lb6fcyej7ogoOY7lOJHzwESIzrPOrLnfDDon6IC8SnOyGM4TE2TFP3H79rvs7diysMh6_-KjwqgD2fvJ-4uWiZBVZ9M4vQYkUDQVzer7GK0On1ZV8K5AXzc1uFJL-DPvVI60FUyS_A2phsNXZTfPaXhqHEThBCryCugtegWdOXA6zaCG7ioyTqerNflO",
+            "AWn5SU5LCnOiEfSYkmwTRYJHvM1Iaa6KmqDGTKiAeW7aBareX7Y0Gq7BE6LRA6ahBaptiFbegvCdYgP9W0Kjuc2l3xZU_v4xui1VPOLJ0C_KPjOQug9jZJc4PPpEEPivrpop3jE7ZgJvcdGiiBRNnBnJB2tb49-Wq5NY7rLDpbxx1I3jMJeenDXLxtThr4_v2oB7TZtapgwhWNxAgEopez0e-l0PzIan4pFIw9WVgtXwTv5kddb2QYKApBlC-wtGIVSCpfOOt4_ypquDdXVaJ3OotHmeclginBXGnGRCGB9blmrLpwwpha8vWx55vqBFLW7ep6hkmkDF2XArNmwKS3uOBnG4_h-yfiE9PAuaFf9gcn3BBBDlzAFA_pi5nVQGWHvRhy00I2s_jOGqdgjaeLJWtWyd5AtEobwTQsVqhyH6T4yB_khg"
+        ],
+        "review_texts": [
+            "ニンビンに行く途中の休憩所＆お土産やさん。お土産はちょっとお高め。同じものが安くハノイで打ってた。\n隣の飲み物屋さんはいろんな飲み物あって喉を潤すのにいいかも。私はアボカドスムージーを注文。美味しかった！",
+            "カヤックが楽しめる\n初心者でもなんとなくパドルを漕げば思っていたよりスピードが出て楽しい\n\n洞窟を潜ると綺麗な景色が見える\n\n洞窟内は他のカヤックとぶつかることもあるので、注意が必要\n\nカヤックを漕がずに水夫に任せる方法もある\n\nEnjoy kayaking\nEven beginners can have fun by just paddling and going faster than they expected\n\nYou can see beautiful scenery when you dive into the cave\n\nYou need to be careful because you may collide with other kayaks inside the cave\n\nYou can also leave the kayaking to the sailor without having to paddle the kayak",
+            "タイトルがボートと似てるので、勘違いしている人も多いようですが、ここは休憩所です。\n川の近くにあるけど、休憩所です。\nツアーとか、一般客とか、皆さんが休むための、休憩所です。\nトイレ休憩に使われる場所だけあって、清潔です。\nお土産も売られてるので、ついでになんか買っても良いし、コーヒーも飲める。",
+            "ツアーのトイレ休憩で寄りました\n工芸品の刺繍を製作販売している場所です",
+            "思いの外、長い時間ボートに乗ります。アドベンチャーには最高です。\nビニールの簡易的なレインコート貰えますが、すぐに破けます。\n濡れたくないので有れば、持参して下さい。"
+        ]
+    }
+]
