@@ -221,7 +221,7 @@
                                         ${i !== plan.waypoints.length - 1 ? `<div class="w-0.5 h-full bg-gray-200 my-1"></div>` : ''}
                                     </div>
                                     <div class="pb-2 w-full">
-                                        <span class="text-xs font-semibold text-orange-600 bg-orange-50 px-2 py-0.5 rounded-full border border-orange-100 mb-1 inline-block">${wp.activity.split(' ')[0] || 'Activity'}</span>
+                                        <span class="text-xs font-semibold text-orange-600 bg-orange-50 px-2 py-0.5 rounded-full border border-orange-100 mb-1 inline-block">${wp.activity.split(' ')[0] || 'アクティビティ'}</span>
                                         <p class="font-bold text-gray-800 text-base">${wp.name}</p>
                                         <p class="text-gray-600 text-xs mt-1 leading-relaxed">${wp.info}</p>
                                         ${wp.photo_references && wp.photo_references.length > 0 ? `
@@ -332,7 +332,7 @@
             e.preventDefault(); e.stopPropagation();
             
             const filename = filenameOverride || getCurrentFilename();
-            if(!filename) return alert("Lỗi file");
+            if(!filename) return alert("ファイルエラーが発生しました。");
 
             const key = `${filename}|${title}`;
             const isCurrentlyFav = myFavoritesSet.has(key);

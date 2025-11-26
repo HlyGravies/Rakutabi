@@ -1,0 +1,323 @@
+[
+    {
+        "plan_title": "活気ある新宿と渋谷の夜遊びプラン",
+        "theme": "現代東京の活気あるエネルギーを体験し、流行のカフェから賑やかなナイトライフまで満喫するプランです。",
+        "estimated_duration_hours": 7,
+        "waypoints": [
+            {
+                "place_id": "ChIJtYUoaNqMGGARrvdwnKiCH1M",
+                "order": 1,
+                "name": "新宿人気バー＆グリル",
+                "activity": "活気ある雰囲気で美味しいランチや早めのドリンクを楽しめる人気スポットです。一日を楽しく始めるのに最適です。",
+                "location": {
+                    "lat": 35.6910992,
+                    "lng": 139.7027101
+                },
+                "info": "評価の高いバー＆レストランで、活気ある雰囲気の中、美味しい料理とお酒を楽しみましょう。一日の始まりにぴったりです。",
+                "distance_text": "約0.5 km",
+                "duration_text": "徒歩 約7分",
+                "transport_mode": "WALKING",
+                "photo_references": [
+                    "AWn5SU7UKUIEEpobjKSP_V2nnsyx4IMpGFLiZvhicNlQ6EPasLEqewG18sJM_rx9IwmY3H868Y9yE1S9pEdwH-6o0G_VCRSmNRmYcdVOWva6CtsVtma5jZnPO6ujjXg7vlub0y8v7lIjmfb_DkqqbOYaK1KTyvA0-4sHDTkn70Bo5F5uetwFVz9rV_dH7OO4yfc_oSqgbjEjZQrJ1yTNSvxtCmHLdTZYkjPGLlivgZoe-Ly1w-2tqQDvM3UGdgKf6d9MmZ68rvNmmrNkVv1huZSZfjd_i8pPPd52oQQJ5NO_R2JIpg",
+                    "AWn5SU7-8uSO1CbT0F1qy1CLrXComwK3XBlFYXTu5uM4cMLSJ6uH6BQ4y13KTjDXOG_w7d7j6zv3skunX5LV_trQiVW9v5O5GHO7292Crt6buWlBLFdMfI8sfINCzu4MQfR5cvYD_pYiClPtvViPpx0ZNrP5I_ChduBS3Ap_gKCvtpdzsaARP3uBDxHA1kaOLtr9FeWuK1PnpYB0nJe3_uURh2v1IMaD-4O-0TUkaCyEE9erjG4NP9EuiTxX3eTWHKX6dtShxkAnbtokv9zLKMP1-bvNfMn8hoda_4PxC0iOB9329RdEf0UnaFOCjE4jFi-wKS9Uns1UomBNrkEMNwVBjROvkYzkYenYS3M74xHawpRyqe3TMxoAbRciu-LLdNPvNntlYJlUa6qPhjZ8rui70L5-K_MZNBnP5nAm4hHsvn0qoMrWVKOH8BzAZe93UX1Z",
+                    "AWn5SU6OwkquEhefdFdoDc0FFJgXEne9Tz6_jC8XQjAQksXrPO_iYm-8UkXtnvQ2pkcxY-sfywSm9Q-iHhhuRz_IFZwHpQrMDDbCoQ-Uvxu0aiNq1-1yPcPM8r2rO4fACPYQdKK8V8E_DJC8hAYk8hqE9WfAolWF18Xfm64RwVYE-weHSZZ4iEZuJgBNDuaJ3LvPP17cTy2SzUAvrNI97cHPNYdGC5v_mxFu4iQ8r7wvPkkTfahuqQRuFFVVNlBirqpn-rAJPEjwJZR5sM0BZrw0ogF43smvIZh2_zL8rMWxz6OyeA",
+                    "AWn5SU4SC8VjD-rjI8Dcg4pAV3td2sqJIDr6Y5BVZr_5VjTqz1rPFfiFj1ee6o6jsOHtOU1bdiGomZso7NkNQyH-TlBlxQWzrvrdfUBW2QYqmUgyovsmIxTnmdXxWEuO9N0433IQnVTkLYuXO6myw4-khy4lgk9hkxw5TDDYdGlTiIn8SQlRrL8ZI82OP3Pmak5EYuSo-_kGY1PB0LzmQHxYx9JrtH4m-rpD5JQyT07sMTzcKMTl30rawQVrs4xMZyMybGyEKj6VNW_dNINARtQFuyWnLfwbqnNCIePD6f7UvgFtMsfhnOLdEbBSyVHqxQUAlxAEwPmiwWGCVRrV3_qz6B0ZDv_MfqjzUCRipKZvmv6Ml_Stu-5Zo3rKkBRi3bfgYZKpLAFk4xKpTEpApAmKfaF_UE7JCqZA4mKZ3gAH0h01FAJ8w1I-k-Kp7cKL2xfB",
+                    "AWn5SU59ZYwdtd9XvWX9xFa2xWeBQnFh_5z23duOIS7pWCSzdr3UcnTpFcDxa7WPrQOZ4Raw8x-nPIqWjR3d1sfsEbZ2ztL4lQyAewg2B-qFgiEJI05btAlBdF4Yjn7G_PLBUCVs7L1AIplmIZ650rINArf0ZikPnNlTOq9RhKLnqaUAecEg1l7SLWFKOzRbxjEIUOXotnTEDhunfgU9d87wd_UXkVM6t_o1_DQ4aAPSBpTeEslAKCMMVHmRogwIfTUuO2Nakt8r6TAAVzRefWLXItgo4EMePKmEaQKI4A38Bj11I8qnyK8JeafOkfQL03YAPbBhfAJH9ww-qZBmPite5mapooE33SSHh4BvR0dgkB47d261b5CuUE6vpGRB42dC2RcK48YmL4b_rpsP1Cy2Vsv8SdJcswBI1gbmR7L0UXRQgzVy1ztXs-fGZQwVcw",
+                    "AWn5SU58wIWE02VX8M2O3za0msXTeTKExUXfRqLFyfzCPAZYOJoEDG1qLBrzOnMPJDctmNFKJ3s14VNM_3tD-tY3evL9YwhG-aPn2IHglQDdVjGooZSS6MB4LJQ6zprTADcQAGv2dvN5XyoPdntuTA591rHzuHIbe2Ea_hY2UjizGdn42PgAey_Cth_vmo570ilKDLymCD8VcpUPQ7uE93JxcquW43Pn9YShuHqvGil31NA7y_GVbxaCVRA-1Jgm642NI8LtMVlgMi5-WkKB9P6XfI9nPDxGHVh_dvLqmDyeaMSYt_v322aWhLBe-83kXiKkG4XoXyGEP5J1xGSvGAZMdMW0bwOk7pETsAv-SumpJismQYmhVSPW4YlNdQolcAA5k3KR2BrQtQlO8sNXIKnOVHwRM7LFHvcy7zdntNHi_U6Weg",
+                    "AWn5SU79mlBxLY2RBKXISlQqtj4hjQB8Sp4ed3RlsrMFX2fVEbFQ26prN1tJuJAYEBqih7wzNsA5aIzjQWWXvP9PutUCZvHBcUJR2kPovORUPFKt27S73Byfh0Bh8Gwse4tGeSJWq8dCthbjUPdhPE5aj3RPdt4K2XgL9ZEWgwRw-09DUm65zeBKQQ8QzjxSDQ2zvF-SSBuj5tIi9LcfwQLrdrH4NaoE4-5l7gtCfuYHJRiFw1smWItXmB7RlttNilc2xSGWiyCMobcafG-aPXqW8ZJFawCTPK3j7knYZKRK2gcg6RqMrwCMD69ZDmGp_Fw-K2SboZKdj3k79jCp8CLVMTbkqYjK1wg4twW10WRVC6MbgPXrbYUyVsQabvdmp0VrcGXQAB6MxxBJjAtVutJw_17ChIFD_H0QttHN6HKAQQqcVaZLnW7xitFLGXOWTIA9",
+                    "AWn5SU4-3EzKTL7TYnSMeWq5u0fiikwi4eksIzZYsSfpjv1GG5ogt2uajsHymEg0VaOdrD_Y10pD-pXGMz2DTqmsc8u6MANQr1vT-c2fmDWuIIN1V6EB-HLvMCkHZhE40DZ4FzlW9wl19xYtJ4UHZJOoSN5iDci0iKz4qBpMrzJRC0lLDI_daYb28-RPf4d9lICTebRnYHo_VwKXixAtvCIUMbJunfjNdMzYnxa5a33n-2OTqdR43Ks676KH2wNe3nLQfx9iRfjeLvPlQ_ED200Vln1qRfjY7qGJK-Z-o4-SZ99Rvz6gGQ-EhhrxqnQ9pyUZjoQ1wPXytpnm4CHeGWkxc4f6BdHIqbwGKKKIUDZPlggBflEi_Z42u-9sVEJb34Lg8d_S6PFY9esBxgH1bVf-Ch3mmYmqSM41Bfl2hU6d8RJDEjmLV6ds8vgiaGUi1w",
+                    "AWn5SU5mso-Mj90CXG3J0IM3pfZYR_osSLOVtKLaijRap9B8GrPHqv-hatuYkUzvrOIE2H3XRUFlMioNWacnhH-tBIISf1MvUgkIYDjV1N80jvpOFo_VdOGWRBeJyK0JkdvHrmZlsc7s0E6konzxQO3-MPApuFT6jfqD30raspuv4td4RHd6sE6barTAwBRFGCvjpgnZCD8Kfn81b3jtJati0ijBAtrED_TFqZkfFfdeJHOn-dbil2JXBCU9td_0Ph3B62_uZDUEQY9O4DZTuFv934P_E4Xco3lZOY24r2c4IRyPm4Sl_unoWPPBiIy0JjwnJtGzWaQz5sY1sOZmw_Je4siORkordhB9JB61xI79mnVaZSkeeAyusJkia59cEtuQtbJ-9gC534V5zJoNkyyhZ1IeEHmakMaliK0nvRpb0J49w90rrWdGufh-2d7PMhFo",
+                    "AWn5SU4O4i_jvbd36StLwASx_51hRwc6qcBMRsekqdc73H43bhWsf57vcvA-cE2KVs7PwRPDGuMi2i4pmycxmsvCIoYAn9T-IXOrmro5rLsyXrD7YrnEZjURPInQfda5LgWuxqt_EHZMHmIRdUeCdg6_1pcFbtjJDCBzvFuhbEdI0EDS0flud3fTzkv3eDQtOIcrBDRAMevaW2-WQvEa9nQwrVQOgBSyYcKRpeWcJ7a8HjsovpvLth3jsDJHiPPSv1RGgPveceoTKV-24SDPvQqTS0QCFDqugaVK2r1xI3a9aUfTvNsVnISukC6K5UV0TmzMxQ53yn_S5N4gTFYBCtTEdbKFV_Fn4f0SUbsMVOnWTJ5vdNS2NHHyMvH6xUHGSB4BJHdS6MmXFs6UrmoSdYeXXn0UNStc7P_5lwSXrkXyojpa5AqxS-nCtdPzY0F1Cg"
+                ],
+                "review_texts": [
+                    "ビールを美味しく、オシャレな空間で飲みたい時におすすめです。\nしかもカウンターには一人で飲んでる方もいるので、一人でも行きやすいお店なんだと思います。\n新宿駅東口改札からだと徒歩10分程度の駅近で、地下におりたところにあります。\n\nビールは飲み比べセットにもできますし、単品注文も可能。\n自分の好きな味を選べるので、どれを頼んでも美味しいです。\nつまみはソーセージやチキンがやっぱり合います。\nスパイシークリスプビザも美味しかったです。チーズがトロトロ！スパイシーでお酒がすすみます。\n\n店内の雰囲気も良くて、席はカウンター、テーブル、BOX、丸テーブルなど色んなタイプがあり、かなり広かったです。2、3人でも、大人数でも楽しめそうでした。\n是非行ってみてください。",
+                    "新宿のYONA YONA BEER WORKS、行ってきました！\nまずお店に入って驚くのが、壁一面にズラリと並んだビール缶のディスプレイ。これ、マジで圧巻です！写真映えも抜群で、入った瞬間からテンション上がります。\n肝心のビールは、さすが公式だけあって最高に美味しい。専用グラスで飲むと香りも引き立つし、泡までクリーミー。「よなよなエール」ってこんなにウマかったっけ？と感動しました。\nフードもビールに合う濃いめの味付けが多くて、ついついお酒が進んじゃいます。",
+                    "正直帰りたくなかった。３日間で2回。それほどに居心地が良くて全てがちょうどよかった。\n東京在住の高校教師の友人がナポリタンが絶賛だということでついていく。彼の服の皺の数を数え始める前に店前につき、階段を降りると、ガラス細工の電球が所狭しと整列し天井にはパイプが通るどこか懐かしさとスタイリッシュさが共存されたバーだった。\n1日目は残念ながらナポリタンは売り切れだったため、再訪問した２日目に鉄板に乗って滾っているナポリタンをいただいた。トマトの味わいがしっかりして玉ねぎの食感が麺を引き立てる。ガツンとくる、けどもったりせずするっといける。名古屋の喫茶文化に触れた自分としてもここが唯一無二。\nお酒もまたいろんな種類があってよなよな、青鬼を嗜む。エール系の甘めなビールが苦手だが、ほどよい苦味とキレ長のフレーバーが心地よかった。\n途中こすけが来た。こすけとは、笑顔の中に接客愛と意地悪さが7:3でブレンドされたような可憐な女の子。初めてあったとは思えないくらい接しやすいスタッフで、プリンとバスクチーズケーキをお勧めされて気づいたらオーダーしていた。悔しいことにこれが本当に美味しかった。硬めのプリンの後に柔らかく甘いチーズケーキが僕の口内を往復ビンタした。\nまるで白昼夢の中にいるような、そんな一瞬に感じるひとときだった。\nってなーんもうまいこと出てこないや！お店のご飯もお酒もぜーんぶ美味しくて、スタッフもみんな丁寧で愛想も良くてすごくいい店だった！東京からとか必ずまた来ます！\nこすけさんにまた会いに🫰🏼",
+                    "昨日友人と昼に訪れました。通し営業なのが嬉しく、時間を気にせずゆっくり過ごせました。名物のYONAYONAエールと限定クラフトを飲み比べ。どちらも香り豊かで飲みごたえがありました。店内は地下ですが、オレンジの照明が心地よく、席の間隔も広めで落ち着いた雰囲気。インテリアもおしゃれで、焚き火のような演出が印象的でした。料理はどれも美味しく、特に砂肝のソテーが絶品。昼からゆったりと美味しいビールを楽しめる、居心地の良いお店です。",
+                    "マネージャーさんの秋山さんが居るのでお伺い。とても料理も美味しく研究してるなと思いました。コスパも良く店員さんも担当制で「あみちゃん」がとても気配りしてくれました。お店の方は本当に教育されていて素晴らしかったです。バースデーソング❥❥❥🎙♪❥❥❥までありがとうございます。秋山マネージャー本当にお心遣い感謝します。皆さんも新宿に行ったら是非是非是非YONAYONA BEER WORKS行ってらっしゃい👋😊"
+                ]
+            },
+            {
+                "place_id": "ChIJ0zOJ9z-NGGARtTSfT0UGA34",
+                "order": 2,
+                "name": "新宿おしゃれカフェ",
+                "activity": "洗練された内装と素晴らしいドリンクで知られる高評価のカフェでリラックス。ゆったりとした休憩に理想的です。",
+                "location": {
+                    "lat": 35.695322,
+                    "lng": 139.6976707
+                },
+                "info": "洗練された空間で、美味しいコーヒーやデザートを楽しみながら一息つきましょう。午後のリラックスタイムに最適です。",
+                "distance_text": "約0.8 km",
+                "duration_text": "徒歩 約10分",
+                "transport_mode": "WALKING",
+                "photo_references": [
+                    "AWn5SU5XkF_VRsq9NQcecTzvS7cOk-Gi_P4AfgWAo_7wzHgG-qbCys4Y2u_qXltHG49HNxPBKKnHAzGQkVsv8azQYGYJ5J7iZoze7WeDnjuE4-I-mzZhh58-VMRTqBs6pUuAoL6LZOisfSw6wJxDAvuHXQuLKxvjsS8sZzt13hZ394BWqwbGPLtXlpvXZNUr7SPeEBzTo_KaChtoGjfIeIIcdmJF0qEqq14kAp3z5P7ipSuPmWUMEL1y2B97HsVsB-rD1WMNB9xNzTy1Ap0_sLE8UWGAUfS1yeXUWCVihg2Eh12uoQ",
+                    "AWn5SU6FgZ-VV3Kid2VBD658ChLaO7F3nWEf-eWIO7Jd-KA9ScqEg34w0G-Zvy1KkUX9Iej-VZWZ5SiLO6EpRWoDImDAHXECKOIRdxcDcgqG82sJQhd-ZGf2m6H2EZTUBA0ZBVEtHp_YRchKiPpI-f5mKDqvlLZx26LKJd2xEWSJAu4HrXb-kSOlUqgcYcgWyWSh7XEXIa2_rO8V0ELLHMA354eV8WrudaiCvidrv0aKzOLhewp2mBPBbPPUMVlimKtChKfaUAiRZ0APRxOsBRQG5NqUshKVwh1-DNRzpb9EqHMqu8BLiR2wFngufJrFIog1exa2Rtuiwp6yJinIr0aXHMBqydFmuJoJCRmV_gR7RpT02qxpPdq8UFS-HmVW8VwDoLnHv9elngp1EJUZY9UmIWvA8ZSuKUgIfPZPPIoLKJ-TW0MPOtw799wfF1jdTugm",
+                    "AWn5SU6P8UC8PFHUD3S_WSrGSPfx9kw1RR-HBpwGFKIIwx7NwjHp8L43T5MnpGNH4m6Eu6Mv9wAFN7EgkX-MlA4U8-9-aKLPQewTP3LQBRqlXOBVw37mkS_o0nauTlQbg2fO13BC2zRN9HIFxPiTP0K_8KjEBfLy_w9Jtcehl3PNu4bFlHTTSiSLShIHT1Mlf1O-DIv2CPbrODwX5vD-egWaHGxZQL6xg5_JxgW9Ky56hC5_gmSnGmnUQDxQeKa1BZM1vvbihW8_-GB4CFtGeAbenguZTtB_YFbf0urG_-n03gev8VdnoIpwOv_5cYIIKxhGMnTMIALoa2MpGqa5_CogZcRJzbZW2L78LInYqWtt2yeDq3NBsv4g3OkcB4vw8T7Slb-oVl4qbpg9WSEwCzneF_kC36p0Wiww8lILyDoyBSQ",
+                    "AWn5SU7cJN4TklZrpsg6J_lGAE7c4_W61nB1aOdBraBbXhqD-t-TXJp0MzdP6Nev8s4w_y8uB3xouzlxPMo-hcVcJV0IZZe2nnCBgywUJqdkGiSPaOmOWSkmY_eaQf1yHQTDeuzrbonwvdUSxVR6mBowd-h7iUrGcjHOlThm6viEO-qMPe-phHviEUvlzoEJkPSHBtPgImQillp3lpEAEd6LQDS1aRLYitfSv4HnzXRqR8MTWDeHIOO74mMmB5CKL3KQOYuSKI4nHsS7i8FUTFUX2uzOinH6zt2AFYKdyXr1xueodv8VDl364nrc42tU8z9dUsERw1ZBUSOxKjFLVcayHHpF_Cvyw6pqK-hXMLi-sy7cdRtH-0duQxMkhxdHB3iHlI21B2zbL7Kp3H7qDOnSwSzaM4k1zwHiyUh_9JZ5axQzJ9Yn3keHqNRqCNaVtESF",
+                    "AWn5SU5vqpzngWYZwLVYzElm_fh_EBHG9IOHNQKz42GCqgtVF54FG2P9MBmbdoGi80TyyfpfSeCk0i1HgtMqcgGPV8V1EtQiKalzEcC-7uFKcNgnh7qwhhPuZlhYXqG1_ULDSI3cf4fv9eEEiFdTkEOsNstjNTlAulUiU4XzJuhd1Kck_n5amg1dQS4ZOxr6j1xgs01Coc9O1MfQ0gdD2KbBloNqubW-x5bI_WDnnEG8k-5owrvkXbJFfhFzzd67Yag2AvyvNBI2PuebieU0-4NFhXdLkUUXMwel1QFUdsHb7vzkFP8Tdd1kWv6L4fA4_axtP1nLUbsz6KWw9ezsJYbm-hEu1C_kMpYeudi7H0wrRdBOUuOB5PoUcAMlH3Fxt_YlZNFOrKxIDFFZ2LkBDYfl0qu74DVtLaBbd4kM5tf9m3-ti-OcnXRNkERKxVhH-lCM",
+                    "AWn5SU6ClTig3grT7rnhThuiAvLsvSHRIcs58Ds3ACP8498cu1IU2_W7nZl1XfUuSaOZrd-9rSe8yeYED5ncha6jM1R-Y5qYXc0XElfBpkYAQMjig9Dj4x4txHJ9fiR-_g6uUZf9lD0gVbeNmC9s-u-8hhwOYcNLX9h3qDVSnZhfiJY5ClM1L5-YHfL-cYMKB2HtK0Huryt7UTVjO54OjEHvUC6TrNlIplnd_g7YmEvgpHQiax4INR2d1N3F7G02wMehoqcOSQiVa9qLnW6nRTCqQRyILiHR6Hp6_waJqswqits_Si-ZC0SpU7pOS9pMXE-COSoGDUxCAkIhjOSK7TxbCqFXP8auZ1Rnb0sRnlSIaX6IZB-y6DWVEkdi5sp0PqWzUqo246mvpeVZikMfBH1mwLXh6ua_liYcVDpn_nRhXV2L-HZOt31KP9PJqLKkcwDM",
+                    "AWn5SU4yfmPf6ny_KMdDv11GIsCdFJzcRvW4F2IrkpdnEO3GlDstRtQ0L9apTga_gqBlG4lecWiYL3msV6zatAu1KBwtg2BliY6-wUtSzoJ9I5OcEn6kS85v0gWxaUHsCobHY-j-6J97reUULYjO6R6FBl1jxaq_hbCoZafwibWZu6MdEkF42yGGvzK0O_8dr4w_frRCma4DYUJhhM3bIvpT43-QThNhhN_yhkxirp6sDmzisfilif8Y8UkDFaugIRubnOdP1I96i_neEZcqG1551kT9jNyOcRA0uTJmBuMmL9rw_PpzlzRszZGXYVhp4wDVwVzf_lfwp6aaF64CRlS6UfOKEYYrwq6Xjb6Drx_17GKZqB7O0g-4GEMccRcetfo_X2_2MbMSDe3jbajpjfRUhguDfT1Fs2YcNO2BaK4gaBuGYr8",
+                    "AWn5SU50o3DXJ4NPz-MbXKtEt5w9HXA9zSSc8AeB8x2fjQ6-tjcvSz-4as7KukbBkpQU3X9g_ANuq9dU70yDl-yjPw_QW2XVl4JjoHHZ99FNdkrEQUIlIsw1NZmTW9kX1XjSdK7tGNzfig7p1UJvSck6ZZ30pe5_rceR_QMYRpFXOPsSmsuvp5XMLbAEvzSPvcGqVz-uws9Tsy5tN0rLBQjhmG1Ka4a0Je8aoP5Z06EiytNKL5HWaIp0J2UxH7dN4MTqMgXBLApEvzv-MRq941wjGNM2O07bWtTm3kvYNWw9tSXf08QXCNlp-0-FqjmKB0pOii-xOG9gKPtO4O7kZGhRbDoG-sBDWsGWdFfQvB699AhE7j18T9mGVqPpCDfupIWajuoo5g9zApJRZhFmNjqyPdK0WBsAvrTwVSIRSeO_NIDuS5I",
+                    "AWn5SU7HhzUvxpr-1ayLfkUAaamaVZ2v6a9JMAn3IOPRgrZiMN1s96mss06WLk4MCIS8XK7LPPYTFZT25NwvJnIPDywhihhJBr27td9u8dVA3I951FZfdeCzId8J6eT8rO5fwiYXo94K2Q5ZgT5lUvSfKBVJvum2BxPZnqKVXFsNDZWgj_a1VeF3Fo6LyeaQBtPMNZwG23sRQah6Qf7B0h31ycSmwVIThPgzpNsGY3041zYUuAygwGZsnkS74LANHvLVgRNcNDd6SesMDd8WjQvrwlbK2ghdjAWKtCNDyyaxMM45u9zGT90uK0S3x7WMwVyE1Ap9FP3F6Qpqj4UGIA3S7S5lOKoki13ONkFXuibmTAVLL6RWk4_RNuStfkvevtqhaRjSyNQ-IcjbERt5sIEcQNVFJQc4CfCXDTRvMuo_VV7SFgOvsKUk798bjFe5VmvC",
+                    "AWn5SU6JOy-VzVPvMZ-06REjc_fYe-MML_uM53Ok7Ci0wom3gVlV5-JZsf-D_K-aHr_qjL68KEkNLYVjrT5E-tCcocL2OMRn8q2UJCbZkOr3HlLj6QNTpj1Qml8g0dRndnEmcLMAZ2yCS9aL1QiZUQWccLqRcnVxcKaFcpuMPSfm8sXErCkCokmbxdYz6_Es3XPwNZuQvSWBF8P0VskgeZ39j-KWpbYrxtBG-GBXk9g4ddhytmI-t9KYzZFFmcMhaXK0AaP5qasr_OXJBegVkXQBPQaUqO7-omJyfg2EAVfN5L1E5R5fc3ObQgrtObkwyeQptDrpEloLmiAxJaN0_s0duIPIx0IGcnaNE8iRDZL3OvO8tmbu7Ip38KVYnPt_CvbZug4TDNWpiNXVj-uQsyd-8XlwV_zDdYsq-PRouC9x3-TduPSR"
+                ],
+                "review_texts": [
+                    "西新宿の夜カフェ\n\n【情報】\n新宿西口で遅い時間まで営業しているカフェ。\n\n夜遅くまでの営業なのでディナー後や\n「まだ帰りたくない！」って時に行けるの嬉しい。\n\n混雑状況は昼夜関係なし。\n行列が常にできている人気店。\n\nSNSでこのかぼちゃバスクチーズケーキの\n投稿を見て、美味しそうだったので訪問した。\n\n【注文内容】\n◆かぼちゃのバスクチーズケーキ　830円\nかぼちゃパウダーを使用したチーズケーキ。\nパウダーなのでチーズケーキのなめらかな\n食感をそのままでかぼちゃのフレーバーが\n楽しめる。\n\n◆自家製ジンジャーエール　680円\nスパイスと生姜が効いている。",
+                    "「After All Coffee」をカフェ利用しました。店内は13席ほどと小さめですが、その分一人ひとりに目が届く丁寧な接客が印象的でした。\n\n人気店だけあり席は激戦でしたが、待つ価値あり。\n特に自家製バスクチーズケーキは絶品で、塩や胡椒、無糖の生クリームが添えられていて、甘い・しょっぱい・コクの変化を楽しめる工夫に感動しました。\n塩胡椒とチーズケーキの相性がこんなに良いとは初めての体験！\nまた、カフェラテは好みに応じてコーヒー感とミルク感を調整してくれるのが嬉しいポイントで、エスプレッソ多めをお願いしたらとても好みの味になりました。おしゃれな空間と細やかなホスピタリティが行き届いた素敵なカフェで、再訪決定です。",
+                    "平日の19時頃から40分ほど利用しました。先客2組後客5組でした。店内は2人用テーブル5セット、カウンター3席です。それほど広くはないですが店内の四方のうち二方が全面ガラス張りになっているので広く感じます。お手洗いは一見わかりにくいですがガラス張りの一角の取っ手がついているところを開けるとあります。カフェだけでなくワインやビール、ウイスキーなどのアルコールの提供もあり先客1組のうちの海外からの旅行者らしき3人組は飲んでいました。\nカプチーノ（680円）とバスクチーズケーキ（730円）を頼みました。カプチーノは深煎りor中煎りとシングルorダブルが選べました。中煎り＆ダブルにしましたがコクがありおいしかったです。バスクチーズケーキはノンシュガーのクリームに塩と胡椒が添えられていました。しっかりした固さがありチーズの風味がしっかりあっておいしかったです。ノンシュガークリームと一緒に食べると何とも言えないまろやかさがプラスされ、塩と胡椒をつけてもそれぞれの本来のよさがうまくマッチしていておいしかったです。いろんな味を楽しめるこの組み合わせはすごくいいと思いました。ほかのお客さんもほとんどの方がこのバスクチーズケーキを頼まれていました。",
+                    "【新宿から飯テロ】塩と胡椒で味変しながら楽しむ素敵なバスチー！\n☆店内は鏡張りでお店の大きさ以上の開放感があります！週末は常に行列な印象でしたが、日曜16時ごろにたまたま待ち10分ほどで入れました！\n☆バスクチーズケーキはトロトロ！通常バージョンと季節限定バスクチーズケーキもあります！\n☆2022年オープン後にキャロットケーキを、その後ほうじ茶バスチー。そして今回初の普通のバスチーを選択。\n\n∥Menu∥ → ∥FOOD REPORT∥\n『バスクチーズケーキ』730円\n『自家製レモネード』680円\n\n《総評》\n一口目のトロトロクリーミーさが印象的。途中で塩でキリッと赤い旨みを。胡椒でキリッとキレとビリッと痺れを楽しめる。全体のバランスで味の調整で絶妙を探すのが楽しいバスク。外側のコクとクリームの乳風味を混ぜてから食べるのが楽しい。\n《中心部分》\nとてもなめらかでクリーミー。口溶けゆっくりでチーズのコクがゆっくり広がります。\n《外側部分》\nとても濃厚でコクが強い。ゆっくり旨み溢れる中で、中心のトロトロを加えると明るいアクセントになりさらに素敵に。\n《チーズケーキの背中》\nベイクド感あるが、バスチーらしい焦げの感じは無い。表面部分がサクサクと焦げと深みを演出してくれる。\n\n《ドリンクと合わせて》\nレモネードは香り華やかながらも蜂蜜のような甘味と深みある風味。後に伸びる余韻でチーズケーキも引き立ちます。\nごちそうさまでした！！\n\n■□■□■□■□■□■□■□■□■□■□■□\n●店名\nアフターオールコーヒー\n●住所\n東京都新宿区西新宿7-15-14\n●営業時間\n11:00 - 23:00\n●定休日\n火曜日\n●席数\n13席\n■□■□■□■□■□■□■□■□■□■□■□",
+                    "🩷 しのぴ的正直レビュー\n🍀店内：★★★\nダンススタジオをリノベしてつくられた\nシンプル目な店内！\n鏡張りになってるのはその名残✌️\n少し並んだら入れたよ〜！\n\n🍀味 :★★★★\nとろっとろなバスチー！\nフォークを入れるととろける！\nスパイスと塩をつけて味変しながらいただけるのも珍しくて美味しい！\nスパイスがなんとも言えない美味しさ✨\nキャロケはしっとりな感じでした！\n\n🍀いただいたもの🧸\n☑バスクチーズケーキ730\n☑キャロットケーキ　680\n☑︎カフェラテ  680"
+                ]
+            },
+            {
+                "place_id": "ChIJmYBOrGaLGGARUHAVps9SV9k",
+                "order": 3,
+                "name": "渋谷プレミアナイトクラブバー",
+                "activity": "渋谷の象徴的なナイトライフに浸れる、トップクラスのバー兼ナイトクラブです。刺激的な夜を過ごしましょう。",
+                "location": {
+                    "lat": 35.6611386,
+                    "lng": 139.7160849
+                },
+                "info": "渋谷の象徴的なナイトライフを満喫できる、評価の高いバー兼ナイトクラブです。エネルギッシュな夜を過ごしたい方におすすめ。",
+                "distance_text": "約4.5 km",
+                "duration_text": "電車 約25分",
+                "transport_mode": "TRANSIT",
+                "photo_references": [
+                    "AWn5SU7y-bJz0zmR08LQjNhiEIsuFynxTdTXzrOsDXrmgrj4xBuSN-KHOYT0QlmVziwKrYo20CTJBNjUYlBTSjLXYHw92EajfQVssV0nT2YhXPFzFfrcJhUr5L23Z-nXHE3zrSME6gNVIY__n88hq0iILBAE7QrIbZiRrLdAtSwqliTgJT_L37ddnieC5KaEK8VB9PdplYgd2DMyeis5ZDrX7kIr1AR1Y09-r5k7i6ovDHTWZiP_i10tN0cyh--XAwKEtEYHkve-myc3R-qwo6NlUO_t4e3DxkWaZvuEWE9uwh_5IA",
+                    "AWn5SU6R_bYMo6gebZwTEsOrb13S-syrpdKwh0_nNldBJSNeHPVa1Dp70UU4fnYjY5IAuqZY7yzKarraOBLFPTOGqpxIzOMF7g8thEL1ViN2gBhR196iIPaad6giv7bomO6kp5__vuv2IkVSYIecefeoy6q6n-A3EIxUFQ8RtXOzS1XmHDyc1LXWAz3CTEmYN38EgLl_Bzw-wZv5QKRu6xXcWZjnEflKnlmA5a5ifYjIQO8WyJ_igxU-XFijmGGcZfmdH94tTdANEKzxhPf086y5lA5syhw9pyWZ_vX7GaliRPwG16HU1cLW5892PydRpNrAAGsJU556X9A8RxHErOJIuhG3cdqhMoKuZl5lD5eizpA8SQvWdxi_gtnSSfg2QstxMg5p6C5t1SvlKAxmR2sLWAwMwwjCXeLSJFjEktioyDb-P1zerREyGGrSGRzzpxQt",
+                    "AWn5SU51ANxJWMO8RAoei5pQi5DSzoidLBMTXSqH2WkcawnX7DK2TcG7wLaKbgSnh8XhjH9-a1QjDSa7_1GXYumY7gZFSEngsO51qvyJfouQpwipNBut96qXOtp7IwcAXsHpBEOY43b68XeX3G5OcMKPhJVeuPHZAc_gMlJjrs4ZuIp6dqcKHl_CzT2RkotRPPPv1F3m7ZJRV4KWwzuP7PAENTrwM6pWlnBbPUrEx7XLyYrQjDgBFdFdJLW3iA8yhcXFlFHML3UvOPeG52Tdh9UoIDp3J7UyYg8QXAXqQLZ3I0mNC4MztReqU1Ww038yokIgrb_SJ3IXgTts1nu3-udc1XLfn8A85yhthI8DcKFV5sSllwzJk-MwneXkVt9r7cxMBjmJPqIm6OWSY45YvdpNRlc-xF1URppr4WN1-0FXC2E",
+                    "AWn5SU5FmURCWnTgAgGeVnblB6BaSDHLWBcxz3t3tdsnAoHedequy43oqsCi019_BOM-bXLo2J6XiT_YAoDJwd2GB7b3UMB27vaSfWWFTT-r0kmENIa_sJ0m2OXBKemMI6C2GWg0sKrd_-Pf85qsSb_UK24YirIoiSFqgAYOn8PwuWM_I5ErPe_9PgBzs0MikdbJb1l8eVS-rl3KO9upwXXTEHfOS-LIS_mv2nLRpMnjkxAXfdNUe2wnI909SAEELYrlDBuNTybI1i7u-U7R18brxJlQxkn5Fr4PJLqdvSamWPR5DzuqgVZoudhEhiHB0abYV_6LEupkJwql38PynQ1xGOvsn4yMgxNdPOEf4iWwyHR-HEVRTkNtsBxrwDAIJQ3wn6DpaPw9h5CcY3Pa_8vjg_ph95vAk5ndYGXfMw14wS8Jyg",
+                    "AWn5SU7AWV4N9vSVZDVcFby7UcfI7GLou1cFd2JSYWDcJl6y7lAjxM6RepvKQW2AWMnhW_Eiwe3l-AKuwIkSzaRlMzlbO2L0JcdcNXuHV5kNoqilevqoXB4_GjyO21Fyf9tt9lzE5QyyTe2-iQqQGAaRmZ2uy8SuhXj3YSMmKpjmKAvocHj59ujefdx1K0Q8jK_j7ah9y-IFBuxdBqvuAdg5WFMZbyf8tD0brCfFT_nghwqmNu6FGwnA7g8GF5ws61U1ZNoCiGmZ3j_uW5BMitR7btx37H2OM5alsjjRl2zVQzaA6NvfnuH9uma3MTH8gH3f6fCR1rgdxYQJLOJHuMSUQqxbkyvanXdrzcV8rGOOh5116lsoEDSeqjnKSqN33zIye99oMFJud-vAE9RtkP4AwsQigGH38CEfomP08ATWP44",
+                    "AWn5SU5G4BrlxSGnncqROeFlJ0v4CVcG4VF-6cLQ04I-o_VwgKVK7oRpszWMJXO8efOjs60koFxhoHCe1G2uoZXtT4efiKJYDWvBM6CjyzjqIK8BuKt2Lc7BLwJSmq3epB4wv_zpqKzrCsSIj-U07UfodF0gQ6w43uOT8asQwTungN69GAq0AvkOkaZW6VPDyV5ynPwCAGG1RxFeJ6YNNl58nfIeepXG_L_ZKPgKHAihAP99-bh6R1hrhc0EaVqv1kZ8qU1krkLfyiYvMoP8wgUWdcYm1DTFJ3LADRg0iOl8XQYJ7ug0rfMS9euxBMYsGlluqXOAM3SSfW4EtiBvwTyUFdf4-2WSORVtdTBzDBdAU9VWx59GYv2NPhgmCbV0hUhyLSTzirtDk8HyR31InA1jFjf06nVJuvJhvCm6M0o9btcgyWsAgXOJ9UZ6CCmqguZO",
+                    "AWn5SU5lJC64LkY0U6zpYf83Z1aqYph9wA0riVaQYVEXTEn8cZuFygRznAQo994V9GEPwhnTz08y7ePP-khXTFaMfHvbhi_lR7zkQ1lpv09IuupviKW8CfdoNBnkQbXxG2PlZa6ZotTe5K-8BVbfOZYgXJZbSCk8UzfIscW8rXsQLcxz72KlfXf7xtnL3WzrC2SKYUC-yyFvSJu_vsREUZZqSRxzExQxA3E29zWM982YVHInL-YJHVYFWHvROIGlKIeW1DVMpJAYRxmWMyJgHwYtzLcHImnNbnKxSYbHSe_Ox3GPdYbFE4AuuU346rVuVXrhkuQUxG5bPxMnrzhRkRRLDzsxcQbCsJpahB4n-yOjJnjlOiJKCnL9sPg3WqOan8eCl6RsvhW7hXgvSL66W1I4sGF4NKx5UBnc0jIzhH7jUXTc0sQ",
+                    "AWn5SU7Dpe7nLDPwNdsvDDRclCsYYpTsrjyZm8-E93ub8Gzg5RTGsjrUB85mR5iuupjjuKzk-W7ZZXlCcvg5Z_KcMRGRLheuphUZpULp_j5iAYGFP3GZ6HqxxJGukahRyH7J86lwVa7G71tzDMIKbmHzjrlOTqNVkLqUsfH8DTRfkWmYOmHsMJG0sr6IMv8l22aLxEFpRmKHD1QW0ZgM7G0e1ZZXc0UlR4ZbK_ouEUlMI3mMVd7FvCKJrRcxXnR3Poow93is8l6UnrDAFBmwYzHxn-ez-Z15iLaNrpqB9T4Ze2Hbe_bvNYpFo4R7KQ6yL1sRVw3NjgG8HDJW3YBmGYeRbXDrcD8hmKJy36ZeoYOGOw0fSXzt3JejcqRZI0y5_KJx4OMVG2e7N0gLlWPqU-56V2AtDJjzzDUnASD2t2BiKCNA9GFU",
+                    "AWn5SU4psWf6uMou_az6sp5phNhUKDidSFtU_noQyfflNODY1lbl164PCNuA7FMGX23YofqMpPVlVNxXcyBmmNcDhJR7AfDKvZdMI4MxWqWi5ALgQT-61OL_ksK3kTR5yzFzS1SNg2c084Pkgb7-6jNN5wUhCx671Zro0A1DjuB5QD90s__h0hY2qvjWfwFOVseTpj0BdoJcKoapY6MEd07uElzFRYYTE5XUCgh4spxuIc5tXCkW72aCJzEc7uLOOY8GUmp4YvKvDGDwAPZuyPM6VPcDWDJg1FO1upxHuzVw_pWKlM65EgD-qtK13Ujp4OcyipRyhYdURrpYQ_XN9jTy8h6qQaR1zWFuv0TmwpjukcorW7TIo5qfp_nNbvy6O7c72psYj5YfJ6BCOPOdOzn10I4u9ZL8rccKU3sZ_jMEfLwW40Jx",
+                    "AWn5SU6rzLMjGzk7KF1GBTGqPfha-4rAbP93oRXZ0TWb3uZL6uGXuO8a5q0b0_I-TmmsbZMElI1WYp2SxoPvfOJ8g48KZlTwo5wyY0Tt1SWkdJ1hLts1GfPCyUstrvVCEyKTiOjqonSEmri9Vw4t4bhMYZ4ukSX1myrdb4ZNweUqnGnS_4kcvOzNO75Fx8OkZqGX3uoi59h79akc1WFdoZGWvAO1z0CR35gN8aNA4iMUbWUpF_d4Q9AOowuXDgrC1g-K--eedf85859Sn3BOeNwYNfYphVKHJFOyfJm0HxF4wdasDcEXQ87DilC2rdoDrMhSxB7z_VbRM0_6Esmvsza4BkQONSYkfQbyRZQA63CGCBDP1y1rRmSCiIBzu7b2qdUEiVeEdLpoFZFu8mPQAPwPEGd78SGHpzplXgZcBld-VR99AcDLWk5xMz6iN71BQF4S"
+                ],
+                "review_texts": [
+                    "初来店検討の方向けコメントです。\n正面の6人ボックス席で楽しみました。\n演奏中に集中できるのでアラカルト＆ドリンクでよかった。（お安く済む）\nアーティスト音楽のレベルが高すぎました。初心者でも比較的良し悪しが解るボーカル系の日がお勧めです。来店日は楽器系のギタリストでしたが良さを解ってない自分が居ました。\nそれにしても洗練された空間です。ボーカル系で再訪します。",
+                    "待ち時間も含めて、居心地の良い空間でした。推しの公演でしたが、ディナーショーを楽しむことは経験が少ないので、真近に見えるアーティストの姿も、バンドの楽曲も、夢のようでした。贅沢な時間でした。何度でも足を運びたいところです。",
+                    "【死ぬまでに絶対に行きたかったジャズクラブ】\n\n勝手な偏見ですが\nジャズをはじめとするアーティストのトップがブルーノートで演奏する事を夢見るイメージがあります。\n\nそんな超一流の音楽を聴ける場に一度行きたい！とずっと思っており、ついに初めて行きました。\n\nこの日は\nカッサオーバーオールの誕生日で\n1時間という限られた時間でしたが胸熱すぎる空間でした涙\n\nアニメのブルージャイアントの影響もあって、ここのステージに立つ事の難しさを痛感して、めちゃくちゃ演奏を聴いて泣きました。",
+                    "憧れのBlue Note TOKYO\nついに来れました …😭✨️\n\n外観も内装も、期待値越えてきました。\n身体の芯まで響くサウンド、\n美味しい料理とお酒\n\n大人の娯楽ですね。\n\nまだジャズの知識も浅いですが\nもっともっと歳を重ね、耳を肥えさせ、\nまた来たいです。\n\nソファーシート、コンパクトですが良かったです。デート向けかも",
+                    "非日常を味わえました。コース料理を予約していたのですが、肉が苦手だったので魚に変更していただけました。\n1人での予約でしたが、相席の方と話すこともでき素敵な時間を過ごせました。"
+                ]
+            }
+        ],
+        "summary": "新宿の活気あるレストランから始まり、おしゃれなカフェで一息つき、渋谷の有名なナイトクラブで最高の夜を過ごす、東京の賑やかさを満喫するプランです。"
+    },
+    {
+        "plan_title": "銀座の魅力と六本木の興奮",
+        "theme": "上品なカフェから華やかな六本木のナイトライフまで、洗練された東京を巡る旅をお楽しみください。",
+        "estimated_duration_hours": 7.5,
+        "waypoints": [
+            {
+                "place_id": "ChIJ5zWiaVKLGGARxgA5DCP03_A",
+                "order": 1,
+                "name": "銀座エレガントカフェ＆ビストロ",
+                "activity": "高評価のエレガントなカフェで一日をスタート。洗練された雰囲気の中で、ゆったりとブランチやコーヒーを楽しめます。",
+                "location": {
+                    "lat": 35.6601855,
+                    "lng": 139.7025775
+                },
+                "info": "銀座の洗練されたカフェで、優雅なブランチやコーヒータイムを。一日の始まりにふさわしい上品な空間です。",
+                "distance_text": "約4.0 km",
+                "duration_text": "電車 約20分",
+                "transport_mode": "TRANSIT",
+                "photo_references": [
+                    "AWn5SU6KNjsxRJimcIPerQ0S4kCb13_s7XF5y5xGZRvjzpIRpwYMLwz3x2hVAMClAiRlzN4_wv8kZhzpHAulG0jv3Rt-dsv1aQ7vjbfHlo3HoJTEnlRGOOEMm3J01IZ1QWmh2x9ragvN6EoDO_RkCRvp-aqTpAIpyKSR5sSun7WCvlHcQFpLDRcWeQV-wOwhivNDveXahsaFoc61dk_asZCpnkmVq3sEuu9MZy8RR2NDFOTHLM7TBmksdpgplCc0hM8bpUhCRHF6Kh4wDgu5reLfTe4oPwLJXbedfXpKMEN6HNRUPQ",
+                    "AWn5SU57QUl2UBI4goQqA_OPzP4F9y4Fn0El89bVWNSd6kx0O9Bc0uZILgjeC4i7mXbQhNiaFnSExYMvoPe11DStJlqa4inE__HxvbVfTDyiZqD5jEq-PNuIseVwkXD6QHhuTtXfi31r9GSbgep-LLGhdVxjfFyo5m4kN7Xz4pBuFGPmqpMaGjC8Y9NbaRbwGK3_uRPsWPG1YL-awjcU6vhcrgCJ2a2QkL-5YYcYLihNMMxqM5_i1AqOH5Wi5BnRTjH_GBjaeyVhWYKJQc_Woihtyg1I0TP9QXhR4a-g7-pXxIaZeQ",
+                    "AWn5SU6WJ1vC6TwMJzeYMkeSoosq2k1r2u2_yHz_tUJPdeFEGRK_COFzZBwQTOgLhYFCOzSwdCyVRCcHljzzTTxwkio5heHgJy3vasqHOD8wTg_glgp6v17R459sYkdwgjQMICGf6XPrQ4McotaXnW3TPTp51kxbjf_01WT69TvrtTCEUzjuUrQdjrWW_U_b_m3JS7WUhJgD6IJ2O3YGrqJGhbUWjSYHnpJeMm4WGBlq3PrHkH58a-g0tB4LJ4p2-UeRLvmCuLSPCK6odR3Qs0Inn2VFAs5q0W1BTxhpHGWTvTkfaDCxPosRr7N0JRTMr_CaAkkQDr9r4WMO4XKXkD6INzlsBT71A4RV6Sc08_k1k3tuIWaZiPooq6ZkpEErr7dlatmFDxiM7sraB97E1MC6bFjtvAluTclkUgwcZBtwf0RErOu41lYfdVsT1n-91QZV",
+                    "AWn5SU70qfmm5Yli7hxd03MHFkKjaCUOlBBMLHrynVW9Bq7s9DOt1lSUPg8_HXqF3fQeU4FqjiivCvbklmyBUmaPxHpOovHMnNVsR_I7gWsd1fnsBbM6-dFxFBUyO3TyPiUjD6zjGVrVK2_PNbM_a5RU3EkLxSEhJcyCpkAxOLnn7gylntIZacxZgME8_DPrutPzIeRw1cSEyASiSkeBa37ekAYFL3IXjkov9wKtPjoubh8NRWIO8MEi1EWn-Yp8DNcN7POPlbjCv0LOXH6phvnhKAuDdo6lTHr9wHxXLvhWBmzluA",
+                    "AWn5SU60-Bc62MyFKcb6iAynjOH4qtABjcRCTkO7PuQ1u6sM9GUQOlGCSSPoKyy9ppKXxVUf9scwD0UQg87_nLxjT6L_iopr-dxFnwCR535P39zyzO1SjRn8-iE9lnPl8t8uF1HeZsL5emrbZB0QIpyggiLVCMmr3nhpjLyli4lM-mzauvH1N_PXDDgKKBgs1zrj84WhDeygTwQj1pD-dsQLfU9sS3V1Cu_1jlrfRXllFKBTV2Un444el3Ar3mmOG7LaNKWQQ9ZDHD0ZrU1HRaShcLYriDTNtS5jorlwWS04x2qF8nEakf493c5nLxu8AAfxR2XMEf5Ait6hMe_sfOdYQchhHDfEDKltGdbpRBssK0470o1wPeWt5uIuz9stD055a1UVJ0Wi1qhtD_WIlYbsP_38sHW8rs4dqJYPyyEXhmoJLnXg8DDEVg8kFHY0HOmN",
+                    "AWn5SU6VSsbUm23_R4p9ibr-W6SE4lYRvA1BYKQwKWQMPZWEoXoNQ2UC08HQ4xdjvbXD3oQ8PcTnQ79S5Pm666jgWTOuHfsSLfCGmh0ymea8eqsUXcUI9GavgtnStLd7bQ8lP8JIkmTpSsdwfBnh0LhFqytp7bYoRl6YzbnUn919G58ivJQwyrcqyHnm7iIkU9K6nt7XRFw-6v88CuY3R8cDhiadV_0S9Men7ejVa3mwShRl77wiZ2cY2L_3m2RyivahI3zW1d-NACE_l0NpEJpDPNQxl8N_pXwSfAnL8Tp3By-qoDeIv9eJrbPtGGASvV8hKbfK6l8xOQyJp4Hwdw4XgdlH9WkRjEKKwNGdRsUx7pTwunxwbntR1T04v96KrbGQIXqO4i_aIedbPspFQr2zieyLY0qBeJabBNEGWPSfP8fUCLouLxlsCbUQ0jzRng",
+                    "AWn5SU6e7tvQ9T5i62ci2uG3cGhR8eCvhCRWLJ38BKT4VCLnn9IQpwiG1MyZ-hVLm_Z6x7Kv6Hn8ZPTaysd_gslT5IfWF7WqbCZA22RZCZs1ir0UWJroiTiO00_KUNNtCnNQxyoqdv-Q4VuuqaEHRkyZdqUZhXHVQbTfg0dlQ8HOnWhlQUjhKYOZlG1Iyr5xibJUKA-aO7DTsQJp81iSZ3PnVvu5EPxosz4IK5LglCfSp5VEFIeaRu5d9qgZn7RQHAytiOyElMHyFhjoUmMii-BqD8iv0lRW_4u62U6bzJh3yFPhQYe2hr0IMpx1loZga0onlnCAeU-JaeLWje90d0ziORib628KW6sHsxYyNY1lCLopH95hrcBT2LzbVuOPwwBwrLjAA2K6xzL-FjJwnQDmqFseTGi4K59_Uq2BGFxHMpYIKCZ4OEeD2_46khphYK3r",
+                    "AWn5SU6APP9dVjOPKqEUHOPsCC-PVgbYqk3AIkeB425aLAHm5TwSzLFi1q7s1ppUb33zlCa1R7CiMZTEldvjCiY0ElSZ8H-0H10D4L0-8vXBNON_awV966rOb6m0E-is5cMMWYFrmBuPgWgbKISgOZeoiCljY34LHGEWyaQEODsoZWSqwAhuGTJoLEQEgtL9mJeJJNfyKFqw41qXzo9CWoRrTrKqVJb7Q22NVARcHncRg0v29fQ83yo9WmFY_aE9N44VQ2Df2haZxopiaWaIupQQn9x4q8JmYCn_5h-xpCfhhkd5C2hqlAs9Ix_UtTVR4M7zbffMBh996iY3n8-2NIgD62uhjsg6QzF1ApZftd8TQZ9xmG5DqLgDRTFsWXHzh7Ce82YKL5AVnMNptUNJ9QCePX4B6ntQbeRvi_G2T5n9CRERR5-XhWvH_TXgxZASEg",
+                    "AWn5SU6ET-syUj44AvXIUFkWocuaxtc_4-QQS-9sJCeYgwjRPa7KMK8-EpxwzBeurQvy4NU2KXTPTYo5EKQ3_A9nlwUqa2YKMM6fKMs7m6gYDRGvp9BgrYlYetNZJwyYdLqptCYD3ktCh2utxWu4Hb9BGA0WRB6tBO-alBPUqT4D4ObHUv7gvl2tEzvZ19nc8C2gFLewOWSpB7y_BEDRhgStaU9E_w9wNi3WIRq3kl3iSE0gmeLXv-DHG9EGnJPSiXsxN_stZ6u8tjlWuZxzF2QN0bPkahceJsiasWxpg0BAWv24iGaLa2HuGgpKxH6Le1j9iJN3BT3_K-TsDET_WeE9TMcWYn04mTW3JhYDY0F8EbDUGriEOvGW82rnqBPkPVCgsw1St7Oja-jVvNvOnHAKmGbeS7WH88gi3ea-LXIuc9p10rxadmrd2bCbKPjXGMyX",
+                    "AWn5SU4yyX7HJekyWGGxneTInKrtc70Z6LlXCXZJOBGl-u_y_116Es7a8xxC3_ilPkNjDkHwy0jYKZ9x3m-UgK6RhrY82QIMHUfPT50D5BNMuzKVmDcviCnvzF9BsR7r4giTc3HEGZRCFeq6zlBt6S00XQj5vQTIICYKCFoegrRmgtVXP5ABq0q2uMFVQ3e0ZdITrjXbJC11XWZLyMrrzU6spwEcwn6yxnckJbNMb1Wu3_ufO0pC2oYNZpY6QeBOWOqmUBz69HO5rBcH1eABlI7AkMlkTfS-2Wfq7i1wjtYyM2puW68POzoOzAqQ4OMxxXOQBNv2QgQ-onGfNvgnjhv5rk7Zd542zI9UoyGBSdj2P7ne85h-QqqMRy2ksJvB0BZiOiaIOSD43nAGi8ZwwuPyLy0T_DaUgfkBKb1Rmg6I76N39YqLAyG1PZ3INwiTPQ"
+                ],
+                "review_texts": [
+                    "【YOLO cafe&bar 渋谷宮益坂】\n\n▷  バナナキャラメルパンケーキ　¥1760(税込)\n▷イチジクとシャインマスカットグリーク ¥1700(税込)\n▷マサラチャイ ¥850(税込)\n▷カフェラテ ¥800(税込)\n\n渋谷駅徒歩1分にある隠れ家カフェに行ってきた！\nおしゃれな店内はソファー席が多くのんびりくつろげちゃう🛋️女子会やデートにおすすめの雰囲気◎\n\nこのお店で大人気のグリークヨーグルトから、期間限定のイチジクとシャインマスカットのグリークが登場！\n濃厚なグリークヨーグルトとフルーツの甘味が最高にマッチしていて相性抜群！🍇\nハチミツかけ放題なのも嬉しいポイント🍯\n\n定番のバナナキャラメルパンケーキは、たっぷりのキャラメルとふわふわで厚みのあるパンケーキでボリューム満点！甘いもの欲が存分に満たされる🤤\n\nランチから朝方までやっているので、いつでも利用できるのも嬉しいポイント！デートの2件目にもオススメだよ！✨\n\n————————店舗情報—————————\n\n▶︎公式Instagram:@yolo.shisha.miyamasu\n🚃最寄:渋谷駅徒歩1分\n📮住所: 東京都渋谷区渋谷1-14-15 森ビル 7階\n⏰営業時間: 13:00 - 05:00\n(L.O. 料理00:00 ドリンク04:30)\n💤定休日: なし\n🔌コンセント: あり\n📶Wi-Fi: あり\n※食べログ参照\n\n———————————————————————\n\nオススメ度 ★★★★★\n\n【シチュエーション（◎○△×）】\n男のみ: ○\nデート: ◎\nひとり: ○\n\n【客層】\n🙎‍♀️🙎‍♂️：6:4",
+                    "渋谷・宮益坂にある「YOLO cafe&bar」さんへ行ってきました。\nおしゃれで落ち着いた雰囲気の店内で、ゆっくりと食事を楽しめる素敵なお店です。\n\nこの日は\n・牛肉の赤ワイン煮込みボロネーゼ\n・名物 肉厚スペアリブ（角煮風）\n・シャインマスカットパンケーキ\nを注文しました。\n\nボロネーゼはもちもちの麺にお肉がたっぷり絡み、赤ワインの香りとコクがしっかり感じられました。\nスペアリブは角煮のように柔らかく、骨なしでトロッとした食感。甘辛いタレがやみつきになる美味しさでした。\n\n残念だったのがどちらも提供されてすぐ食べましたが温度がぬるかったです。\nなので星3にしました。\n\nデザートのシャインマスカットパンケーキは、しっとり系の生地にクリームチーズのソースがかかっていて、最後までさっぱり食べられます。\n\nお店の方も親切で、居心地の良い時間を過ごせました。\n渋谷駅近くで、美味しい料理とスイーツをゆったり楽しみたい方におすすめです！",
+                    "渋谷駅すぐ、ビルの7階にある隠れ家カフェバー「YOLO cafe & bar 渋谷宮益坂店」🍸\n落ち着いた照明とおしゃれなインテリアで、まるで大人の秘密基地のような空間でした✨\n\nこの日はビスマルクピザを注文🍕\n焼き立ての香ばしい生地に、とろ〜り半熟卵とたっぷりのチーズ、そして生ハムの塩気が最高のバランス！\nチーズのコクと卵のまろやかさが合わさって、思わず「もう一枚食べたい」と思うほどでした😋\n\n一緒に頼んだサラダも新鮮で、温玉とドレッシングの相性が抜群🥗\n食後のアイスもさっぱりしていて、最後まで大満足🍨\n\n店内はゆったり座れるソファ席も多く、デートや女子会、バー使いにもおすすめです💐\n雰囲気も良く、スタッフさんの対応も丁寧で心地よい時間が過ごせました。",
+                    "A stylish café & shisha bar located just a 2-minute walk from Shibuya Station, inside a modern building.\n\nI visited for lunch, and the interior was beautifully decorated with sunflowers and other flowers, giving it a cute and welcoming vibe. The space is open, with both counter and sofa seating.\n\nSeasonal Fruit Caprese\nThe sweetness of the peach blends perfectly with the mild creaminess of the cheese—absolutely delicious.\n\nBeef Red Wine Bolognese\nRich, wine-marinated beef with deep flavor soaks into the chewy pasta. Perfect for both lunch and dinner.\n\nIndian Keema Curry\nWell-spiced but not overly hot, making it easy to enjoy. Highly recommended!\n\nTiramisu\nA beautiful balance of cream, coffee, and liquor. The soaked layers give it a pleasantly bitter, grown-up taste.\n\nSince they also offer shisha, it’s the perfect place to relax and unwind—whether during the day or at night.\n\n渋谷駅から徒歩2分のビル内にあるおしゃれなcafe & シーシャBAR。\n\nランチで伺いました。\n店内はひまわりな色々なお花が飾られていてかわいいです。カウンター席とソファ席があり広々と使えます。\n\n季節のフルーツカプレーゼ\n桃の甘さとチーズのまろさかさが融合して絶品です。\n\n牛肉赤ワイン煮のボロネーゼ\nワインに漬けこんだ牛肉の濃厚な旨みがもちもちパスタにしっかりしみる。ランチやディナーにも◎\n\nインドキーマカレー\nスパイスしっかりだけど、辛すぎず食べやすい。おすすめ‼︎\n\nティラミス\nクリーム×コーヒー×お酒がマッチしててあう。お酒がしみてビターな大人な味です。\n\nシーシャもあるから、ゆったり過ごしたい日や夜にもぴったり‼︎",
+                    "渋谷駅徒歩1分なのに都会の喧騒を離れて、\nゆっくりカフェしたい人におすすめしたい☕️\n\n昼はやわらかな光が差し込む落ち着いた空間、\n夜は幻想的な照明が灯る大人の隠れ家🌙\n\nデザイナー設計のホテルライクな作りで\nアンティーク調のインテリアが素敵💓\n\nデートにも、おひとり時間にもぴったり。\n昼はリラックス、夜はロマンチックに🍸\n\nシーンに合わせて過ごせるのが魅力です✨\n\n【メニュー詳細】\n・季節のカプレーゼ（イチヂク）　¥1,320\nイチヂク大好きなので、この季節に食べられて良かった🤍\n\n・牛肉赤ワイン煮ボロネーゼ　¥1,540\n太麺のパスタにゴロっとした牛肉がソースとの相性抜群◎\n\n・牡蠣と帆立と濃厚クリームパスタ　¥2,000\n濃厚なホワイトソースに、帆立もしっかりサイズ！\n満腹感もあり美味しくて一押し☝🏻\n\n・スパイス香るキーマカレー　¥1,430\nスパイスが旨辛で、卵を割るとまろやかになり一皿で\n二度楽しめました✨✨\n\n・マンゴーラッシー　¥850\n・ストロベリーラッシー　¥850\n・ハートランド　¥990\n\n後から気づいてスイーツ食べ忘れたので、\n次はスイーツだけ食べに行こうかな🤣\n\n※食べログもGoogleマップもビル名違うよ⚠️\nそのせいで迷いました（笑）\nVINTAGE4 7階です！"
+                ]
+            },
+            {
+                "place_id": "ChIJh0sCyYeLGGAReKEOxVauSBw",
+                "order": 2,
+                "name": "六本木トレンディバー＆ダイニング",
+                "activity": "六本木のトレンディなスポットでディナーとドリンクを。活気ある雰囲気と美味しい料理で、夜に向けて気分を盛り上げましょう。",
+                "location": {
+                    "lat": 35.67397,
+                    "lng": 139.7410663
+                },
+                "info": "六本木のトレンディなバー＆ダイニングで、活気ある雰囲気の中、美味しい食事とカクテルを楽しみましょう。夜への期待が高まります。",
+                "distance_text": "約3.5 km",
+                "duration_text": "電車 約20分",
+                "transport_mode": "TRANSIT",
+                "photo_references": [
+                    "AWn5SU58bnhesB__5m_nR5XDVimBCOVT2XoTrMaR3p7kUWG7U3jkhwtA0Ek0Klawl5PuhOoKgfX8fy8vHUf-qBJWkMi8eXBkM24uBKGVVzgELhDODBxhL7QYNd-wHTAGVdgFU-VKgif3zijtz_NvUGUD32QiOYqpogcWkdQThdEg4feY3_z0Ag2QgQyw2_bQsJTK2-MNb0RrMUZOavhJStZRLhspB2Vm6Iixiaf4z-3mlLTs2e6YARunH5KAEmAZHX-cs6iGLYydTT42eX5R-B3KQl-OMjFSvFN9a5YeFlvF1MlS7Q",
+                    "AWn5SU6QQLYJDdNGsprNV48urgzHyHTZtrS2LhcRSpMEllNLK8pRgAiFkqASIAn5vZD4xGvY0MkpIxARSKsr0x7LhfFYcPhVl1TWyjFsupqH1Xpf2unLPimcispczIHqVgbxw4YkuKH6yLwwT38UbBeGjv2vycpUCbgAyRzZSNbOTJHAs5tlG-rfWqjEtnapE275EJVuQgP7K-kMvRhiMyEo-XcU0DYsjwioYd9lqqq3b2W_RXyQswAyvPl6p5ggCrPe3HUqBjO_otFcTqAipqMI7B-RrX-r46dRwmoYFuU7wMPBqg",
+                    "AWn5SU4ylQ1lhzVj9o3ve3MgwR_rsUV9SrApkPoTMlUxNphEVeKrZUAbgSI9YQplAY4njeWAONQARY2qRjzbKAt2xm6JG2_HKW4Uj5lSMe58e3IRHuCIN-MSumBUeHEDM7G8EH2IIy4ynWk2J4BLL7oquHRfNdPoAArcOHwl0LtLS936SNXKhhUjy1h3sqy5BbFbK4sQjNJ7DxMnccBMM8PzLN-lFmA1O1jIRYhevIll9j-8DNQNW7yAZrh9-7ixX8LElOZi1izjcTpHzIYJSIpQhrIqqebw7upekKl95gY-v7k3ld2ms7PPzDt-RZdJt3x5KeLFOFGzXw1LDnnel2n6P9VA5Iqai2E3tjDDPSXFZ34jt6eCb3J8l5jmymzBBAFKB0Bw3Y0lN05pVOsS2QGCHCeRGCCrdJJpB5n1fn8uRCQOS7N8C0ta6P_SIUQdNWXL",
+                    "AWn5SU7yJvXhQqo4JERvXBuVD7heJFPwJAXRvOgqialG_1DyrDq6DeorPJZIYHNVOmOeQCxlyjcsXlCPSUWZkKKPkIRQd38DfmtxvXrb4Yeb2mKEnN8zGIIhXEm23uyAyofdmMX538lK-Cl1uLeVgTfxVPNcJHB3SipiDkjfI7XeMaXmgxEelwD4us23C6Nar6MMV0raaSG8NCLuFN3GKBX1hvPTa4lW-_bTfv6j8Np_7Tkg6mCtFDfNeFOT4XOJzcT9KHxq3JYlTreM-wwYbcGy1ZgStqCJAuaicozPZWZ7JKRquk2S5uj0QNz9jpj-O-eies4jH87TC6IdQ8cNJp4YJNRoJ5U8RI9yTW4e8OxjUqkee89E2EBqepUbwkvcszl6g3WjbjmNIoVh-a171GWPpSF00XpifyKdpEiD5A0juo0zwbr9",
+                    "AWn5SU5YWqrtrXMR_8nBtl3FvwyX3iNUAnDgu76YVQngHB3lfq2gwIEw_F2dOYesBx_5MBGz-Bc0-72_2xVisF-6iYOaovbyN0IU5yQ755vH_ZmXHJYPE_pT68ln5-ibnpOvOU1aBm30teGD2JOvygYQGtttcfUAnBu-6yfF__h13jlmnSjKctf0MiVHT2e76t4gsILZN3TCnzeZiVn0UFax6GKKA-Eks85mckZQbM4I15nBRDrxbp5oxEcgRIiEuzLQC8gKsnbwv9ny3dE3jFoHdSJmkDLUAup0Kkgp6vrGGYUIMg-OvTCrWfwo_bBlvr2q0juXaZlQum9byMhDa3fYNI32HbXLEX8CvqJDANGP9W0Nfkzt1uIpZ6dEgmFwTpRfKB7i_It7ZlMCVqqPXDaEEYghDD9faYTZfqVu8AAavNJl7esOQOzbLJvvyqghq_wz",
+                    "AWn5SU7Ijn36mROAXSvkjQA-d7rLYXokPrDlt8wmnFkISty2Ph2sLUa_-YzaJQ2fbbX9JTLumgk-eIJM5zto9LZc1niFTPC-bXbb-Y14MKuzcRT1GhqguM63SHtz4jHZWQw0B5N66yiPd9PPhLH1JxcdYXNkj9Uee4nTJ9rDMRNAYq3k_G-SR574A1PbGd26vJJXGjOMvmVV9pRIdtX5SEE8n7bM6m56rbik92WY4me4ogP6kUAgeiaXyYwJCutT9CIpRDNUoa1IardIRH0xgs5Yr8YEVkCjKhHxme94d50vch8sxT6_G66twyoBqIyIa09MjKEBns00QifMkJj7B0jKVgZe-W9SACwPPSxtL2iPicPl2DOJBGDPAX0aefVw4z8qq-rzmt5Qfzk-4H_nHUt8oFsWx_56IvXeNzKg_akf3zbcTQ",
+                    "AWn5SU4Mlv0T516dKCB5Gnlw1OLGB4GSp5k76aMAXPGrllQ9R5ZRWUvqjH7dWpMxQ_wFuHZiDFVemYSns53mU6olQYfkG5V4B6weR0tFEZUnn12II7J9pb-QNfxRzPuytUlFIDzljnfSZ-Yr1ZtE8Z2RnaHJx0UG6WYl8WVE0qP4BVKeuJc-NeRcKyYzBp1w-vS4WkeIyWOOL1AhKq3XA_zIKONZABv7IPpPkscvI-zFSaS_Nav800R3EFPlLSQL_B6vz0PXD751g733x0lt6Eo8Rou8doTlWzV4CJcanV5g-R0_QaqXcN5KbuoiFbhZtSjV7ZDeUiKOqN72FvLZTQVnvi0qhTndBUXtQ7leGC-Mm-0JRH12OyhHAMhJZx0ZcPDR2IULWZyDGXZK_-88XWIcA5XqSeoJPztRDKA19uoX9q3Flw",
+                    "AWn5SU67e0avSu-eMF92aZ8vLSWG7ohGjvmjAApn_v9PVmdq6BbDvourLCHudJEIRAijFzFzQp89MgLXu44xHHBql-L-vqEEbmcvVr9-gJWx2eCcr5rAsLra6UDXQFoyhfe7A-Xf6N2MmYxzveXQU8jezVqw9NmSnzaM79M6rxeKzLesOfMLGVUtYwNRnaNTfulHxXOmRbyD-5Ct3co62H15D38IXWvrxsFIqNdstavJNhdbr76YubKw4b0olgex29gfr6uDlaxCcfQxER1SuvmRoJqrKmcVeueToALdFxG__caMBQNqsNqOHfunF2q9N7Togp-djPECPyv3s-t_O1-5l0IJQ_3iA8R9kWCNYVUrCoTpGz7NWNbFeIVY8OuFHXj8hhuq7LRQAzfj9CblZsoD0gHgrE-X7B8GG6rM1DhorW3BBA",
+                    "AWn5SU4sB2lIMtu4ZcmZ3J9e5NkYK5KRNnMBCWOa1qEAHRJfYNEZrpzMekncKsRkzgVKlIvxFRL2W_2NUZnrK5g7xEjYUb6h2t1-92vGX60SN-eXx0Iw9nqLeEqDOkJzIK2DnfxvGI212m0-cuQgfva89o7nAcu4S5WHhiIoyDBvo8IZNjVxZno8Mi74IsBfYPCwLgjp-RAoJwb6t_W7wW1FdHt7GCekFvAEYdDgBtRMbMGvchrP_6SnWlTcE7M_P2yHHEtuduqccFGq1TQw5yrvrkdN3jxJxyr8CoxGZHIaiyl9BH1Sx0e9n79Dq5yJh3hol8MGvPsWdyxSpCi4iQx4JAjZV94UWzKFZe45cSS8j1b5EIztbsqUaOIaeVg093wMjPmQiJ1jjJ8ZCEjJVqCEBC7dbPZaM28Yf0G7wIcU-a993bpfOwkVAlauCy76IlA_",
+                    "AWn5SU7EiTJF2fzRt2OvIQppMUgzES1yMEA53cp6kRk6o_KQVmoPVq4euFs3e7WhfDiu2DeDlDzqWeqg-50GtTIoy5o-8xtp9rVJyWrDKJKEuG652F5Z3UQh8yYq0kPhE7QMExM4mUdUS2qNWa6M2_2fZ4iHokf-eY_K6ZbT28Xjngy5nh5WQGFlcXeRZAUgvVc9bXRaBV7J9jdPQhdIq4m1yjRSke5bp4ap1hLzZcXW1Sd9A9yZCZAKuaOSzBNbkO0anmHPmcag6A6y01CnyqSqVUdOH2DdbGbXpMUnYapMhygSeetb1dSxs3g9_mwBCLnKm32ehRN_2Fx4K5oabsQ8H6Zz_cml2ZxkVQILB1S9coDDv3s_dQng4vKBXa1liFjcG6LA3KUV2BAzlUuEwQFgJnfqeMltBmuMZtOpIIT8BW4"
+                ],
+                "review_texts": [
+                    "福岡から横浜に旅行計画している際に予約困難なアフタヌーンティーがあるとYouTubeで知り期待をふくらませて予約しました。雰囲気は高級感があり、見た目もおしゃれでとても写真映えしました。最初のスコーンは少し温かくて味も良かったです。籠のアフタヌーンティーに関してはがっかりでした。あまりスイーツを食べてきていない方には満足でしょうが、福岡でたくさんのパティスリーを味わってきた私達には正直なんの感動もありませんでした。セイボリーに至っては味が単調で高級感もなかったです。グラタンはぬるいし苦いです。これだけの金額設定にするなら、アフタヌーンティーをもっと勉強して欲しいと思いました。参考にしてほしいお店は佐賀のハミルトンというホテルと白樺湖のアフタヌーンティーです。とにかく私は頑張って予約するほどのものではないと感じたので二度と行かないですね。",
+                    "念願のキャピトルのアフタヌーンティー！\n見た目もかわいい&めちゃ美味しかったです。\n予約難易度はかなり高めですね。\n\n綺麗な竹籠。1日5組という噂、竹籠が5個しかないのかなーと話してましたが、もっといたかな。\n\n水に囲まれたコーナーの席でとてもよかった\n\nスイーツもセイボリーもかなりクオリティが高かった\n一番気に入ったのはきのこと生ハムのプルスケッタ\n\nドリンクの種類かなり豊富だった\n9杯飲みました。Wine alternativeはコンプリート\n\n過去いただいた中で一、二を争う素晴らしいアフタヌーンティーでした\n気になるメニューの際に予約頑張ってまた伺います",
+                    "ザ・キャピトルホテル東急の中にある期待を裏切らないラウンジ・カフェ。少々値ははりますが、ゆったりとした空間と、提供されるメニューのクオリティの高さから考えたら、安いのではないかと感じたりします。\n\n確実に成功させたいデートや商談などはこちらを予約するのがお勧めかも。溜池山王駅直結で雨にも濡れずに行けます。\n交通の便も良いですね。\n\nスイーツメニューも新鮮で旬のフルーツや品のあるクリームなどを使用していて美味しいのですが、コーヒーや紅茶のメニューも間違いです。夏はかき氷も絶品。\n\nおススメです！",
+                    "ザ・キャピトルホテル東急の中にあるラウンジ、ORIGAMIでさまざまなフルーツを使った\nプリンアラモードをイメージした季節のパフェを。\n\nマンゴー、パイナップル、ドラゴンフルーツなどの南国フルーツやメロン、りんご、キウイ、さくらんぼ等喫茶店のパフェを想起させるフルーツとフルーツがたっぷり入っていて嬉しい☺️グラスの中はフルーツポンチなのも得点高し。\n\nバニラアイスが昔懐かしい、コーンフレーク（変わり種のドーナツ型）も美味しかった。生クリームの純度高し✨\n\n何年も前からずっと行きたいと思っていたORIGAMIさん。人気のパーコー麺も食べて大満足のランチになりました。\nランチを食べる際は奥のテーブル席、お茶だけの際は手前のソファー席に案内されます。\n\nサービスも流石でした！",
+                    "前から聞いてはいましたがマツコさんの番組で厨房からのレポートを実際に見て絶対に行きたいと思ってました。テレビ効果もだいぶ落ち着いて並ばずに入れました。こちらは席の予約が出来ないので行ってみてのタイミングです。名物のジャーマンアップルパンケーキ食べれました。感無量です❣️\nドリンクの充実も素晴らしいセレクションでしたので、次回はフラッとお茶だけでも利用したいと思いました。お会計のカウンターに置いてあったホテルブレッドトーストが素晴らしく美味しくてビックリしました。ふわふわなのにモッチリ焼かなくても美味しく食べれる高級トースト🍞他に無いクオリティに感動。パンだけでも買いに行きたい。必ずまた行きます❣️"
+                ]
+            },
+            {
+                "place_id": "ChIJ6y57w3iLGGARVYNU9bHLT-M",
+                "order": 3,
+                "name": "六本木グラマーナイトクラブ",
+                "activity": "六本木で有名な華やかなナイトライフに飛び込み、遅くまで踊ったり交流したりするのに最適なクラブです。",
+                "location": {
+                    "lat": 35.6664571,
+                    "lng": 139.7308889
+                },
+                "info": "六本木の華やかなナイトクラブで、夜を最高の気分で締めくくりましょう。ダンスや新しい出会いが楽しめるでしょう。",
+                "distance_text": "約1.5 km",
+                "duration_text": "徒歩 約18分",
+                "transport_mode": "WALKING",
+                "photo_references": [
+                    "AWn5SU5C3Dg4o4QgjmmiGzH_2TwJ0RjHJPnbb8G-etxK3q7ioBrr8oySaLKNCvx_9xCXlqG16_4skHj3ND1I9DZYtqWocIXIqdWVr3t2UJedV7lfYgj89Sfy3YLKmFsDgJ_2Lo2hoLvjipfZQxdHrWtpZaGdg6PzUJY1py1zuwan5VyxkhEkRn5MxiRAOZ-BsQwpUpi_7tA4FRigqF3ihxHu6nMnLpTzGVS0VYdHOGq7LhMgnyi9SWm3lHeK1U73tBeFWLyI1Mq_1XZ98tl2GSo6t3mXkMECo4FZoZI9sv_WE-c32hvvity8wpHbrBVhKCmsISliKrK1UEdSAn0zev2SZ6ooQK4_46ukbe6IzcBJsyfN_STiUd3ZPorhi1YaYrzAaQIFCAboxhQrSwSTLYs8ZF_vSzMZ0gZ2ILj8dx0l8lNHrhRz",
+                    "AWn5SU7O3yFBptR95h_nnId6IVjPnRjkxWwlhfEGyriF27s_Lcjuhr1yPg_b_6ZGGOQ4bNo0ScVNhdigELk7uVD6WIl0c2puGX_hXlizNrH1D28IN9_EbxahBMJ1Kc4w-8NfS97LXzyc-Ckg6aLyOWgBu3CWrZR00y3TbXMGdLFNphfM1ygN60UhRnbOkeJpPKkU3pFFo-0eHDuf7hqIq26o0bnv6VoAO12QtzkkZnhBkpDHhaY1oJ5B-CSrqxHKk6LxC-BSyY_I9ARa50Q5rrn8gtEuMNT4U3taDpVmyebT8SicTZKsGwUxdnLPkVY0cHTCkA0F0NcFVPwAOrZ8SbpJjEBgwXb8_4GokNgh8eMej9bufpFp9_7aPI-RH4QYFTPeA-ve0OFcmzKAXGOVmAK8jmbv2-AvV9AWd1HwR762oCUquIcN",
+                    "AWn5SU74d1DOBH4cLn5mft1tynmhdzLU9CJuMcAhYyK7EUtj3hrk2k3PDGxv98RTa_oPoPIYqPuCeS7MaOGoSl_3iSY5Iyikb7a4j0jGs69A7-zxmpaAM6kw7PbsK1U54CiZugwSabw0D5w3649C80bF3MobhB0_3YWBTDZULChShqsq7B5MeS4vwvyWC-uc8_L9ya5zZnq5v80zINqoLWebcsZIAenF188rHVX2dP-V30uPRcpT_KfIb6J5xlFpHQL592Oi-vBbwIcq-Q87e9hWC10MpEM_BL-Tj9_rOKKjD_yUv1wnobpKT29PMGhcBJcr_fxFAH-08RbBVx48sLuDzDDZ0mf0ZG76WVCbO1y2RUwZ4ePIys5JPHuOywEiWAqwfs0ls5IVWJbBZHo0rYAPvEsBVy847nfS8FaYD8zTq8yNcu4A",
+                    "AWn5SU7gxKPRydKTR0nDy6aLYK5MO8h32YoyWfbz4qdf1oMTfGmzltQ_RjRQJW7rFxI9Lnh6PJ_6cor9oZhS_5epAhKHxQuX3v3aVc2zMdnftDKURTqIHHvtEKnYMwEdDkI4iEqGHy1UugUYpa7IlWASrZRue5p9lw1WsdBZ2zO6CAPOKjsgzlJlnMetU8XIL1l4E0BLtfB-coqql7RuvQTdppd07j0qbzT6AE78CSlg5lVQXL-4qnA4BkSuoIPjKcx111CdlY6j13UhFc9B-zBhs05lWx4MivadA75tML7c3UaqqLUvtA7VOxBHkYESdJVPDSP-Z5cGCkfXq1jJmjc5BFw2wu8Jpcgb1SzdPthXGZhO1wYjDy_mC1TG92_UJoE_afNMxXveyfxm_F2mSOY3kjYVee06rvEuQ9nVM9lUcQScPXae",
+                    "AWn5SU5_lt8nTobxo4scerJAD9CbXpZXnWBdzQvA5f5yWI-utt7gmLRL_JtHOkZPkHDLPIzH4lQMI2YQ9_UOJTjURClTseupg1NuBQ2nMFyHK_7oVBsrBSqDkMDR1-epdHZIoj_iWYqEye1VMZXTj9CDg3tqBYW4vTQHR7T19o5ReDEPO-WfrZ65CJY06nC_ty_fIa7rcYPw9Ho9lLLzVx-lZnzEnuONrBoReAfoizzu1tzmaZI9J_uvTvhXzUeKApNmMyBBQsOfxxTRvi2cvjzmkrteK4Wj_p8DSsTySy3HtJk6oJ_sESxAGcHbpo-CosXHVwIwaPQjDBCqKzoQLkCLH7XbkYJko0ljLr8ZFvgW5AdK5SO0WEabDe0Nv9-o0mfjzt0Dwnz965Mf-Bd4vdWP52cTWjB1YgmfOMbMOackLcoNBg",
+                    "AWn5SU6hqtMVcF9UyD4o3QU_E3RS3aVbjqQJ-OAQuXO7NRN3uWmgRY4r0HXJ7SWAb8aUsw-migy7yHbZufEG3cmL_PER7etxugNQ_T1UrP7tVQrB130wzIHgqI_lXHO17lzEsUVSRNMmAbEBjrkMrtV4e2SN9qKdHVkX6Gxc18JeglkNYA9HoTVCWjrBdr670GN1B4YJsZIETd0A_xS4EDypaks-6anrgd7PSx7054cATHR4tazDpjcOIQ_1PrYEt08fPTFa7cTBScg83bJrSZYiRWzi7CL1pFOVHX8qKyrpSlDT54QbcYYaVXpjovM6lWrmiVMoDB85EbXTPfH2VPl2dxxTkxSFW0elXC0e79v1mOvDuKaH1kid7dkyvVY3gCqm26OHdRcf-BQ2sQgarhmZR07xzz8memCo0XZ5U6ZLL1KYR0mV",
+                    "AWn5SU7KllwIR-8-l64bO7RBPY9a1c8BcUj8bnO04i8Ai-JOU9WpjEkEPk4-eo7U5T9Q08VC8vzNE9_k5NJdSQXfcMcQ_sNb41FSKboxMLWzxfgO8zGpuurugmUxUY0EBzpeHROqP8mov7qUOPAFY11G0PRHUR5n3wuQIonoXsTcUiBB6mZjyEvYDwDkANVXp0ZTiIM9irYxOTFauyCrqqlCZeZN2Ma2Cbbhy5LwhHKc4g9sOiwbIBHtzSjbeZ0TBx1BSJBBnD83jqwRwo2kigVGrPKuCGl1GzP7YfiU1gaMOoxf_7eDadAKgDS1zQS7zpay-IR9enP67w33QELQRVe2oh95YRn3_hDK-HDlWFUKb4qGaUqHkrXcrXKYERFNUD_omvFd9lgNIu3k8PtwaxTiHIwsjEBwEPpjlLpbdZUrJFwkJ-KZ",
+                    "AWn5SU4Fo02Ug5erYDD5VUJJKll2JUc4xBSo3X1Hn6dLJWBPXT1hdBdfOrQrb8mZEI2vzu6AI30e9PrsBsN3eJSK8Hmg5Tbrp4HJKPSD_x7NS5h4oafsmIhjUK5QSewH0QvlNEn6Z5F0oz8YxvQ3vFk1lWMr0GHGnOHV2gL_z9UZ_XXRTboK8FMR1ZRk5p4GTygXgPgeg0zgCd8htA3Aff-TGr9U8xl9pIvwfZvx5DZ6hxQ4J5B0N0FJkLAZOpCG4nEjPr-tbCeirR5oTJm3U-fCHfbJKvfA8r7RQH8UP3GTn42Z7V6iS7W7d2r3PVAVSD4lnkAVdGXpYhWzUCq5P_PY1tbEK2wyptsDBR5TgcJrEg62ygfW2dBxJibKA0tsdQPd3ojlN0H3U-65mAk4g9j52aMniTzXy9xbxZRtzOLmiOQMNo1u",
+                    "AWn5SU7Js6QGe6nLT1tv0OTYldbFK_IoaLX1MOwxBBHtlu89ztdUooLEIIDgMWfbX2-rD9CPsj1pklG1XybZ7BRWnBijXhlwc34GjWFxPDMw-bZBaXqjZ5HdQhYCRHWGbj5vN_8B332MS9sT5P1pdPeeVMGrKAunPJKEtsX2t6djY9EOodu5tmoilVQPCD2XW4Nwp-NrgZ0S5VlFK8F7rsffkuGM6EEnKv5QFL6sI7K-yNcp1Ag1bur_t8-86BVkQ4lh_ZqxaobLpsRXWMXHDoQE-amR_9_J5IsMbofmr14npaANneRFyV-FzZfWeFAQ6KzyUCqJ_jUzVJeN6sUEPqNeFw7JPgx6jiB8RCF90elUUE0-hw21WHyXFPFja1eDDknJOUfe-mgw_SUfnsdPG1Y94UcHrGlsyQPMgFYGkNJlX7Q_ODVb",
+                    "AWn5SU4DjhTt1R_DeGH71VjobLI1Bszh62IYrqcMT2YkSxXd_DpYXEcycn_LX3T1kMzbLzamTZIoz2gr6t7W4HOCpI-msgdD81o5A53lkF35dL1gXfbrL3PcMkXVqYIjkfV7By7VkFHZTPSd9eoMDHp5jlQR20sVjoQahpSjxbZzAlap9h1v_yDJ8uDDShzNDXJYx_en1FYxo1mmcxet5tmrm8ckV9ZgZA1COQaEk0XTH_3OU7ph-Qc-8SqtDM5cxdTib0g7niRhi_2FX_2I7Zmw57_-EplCc_BqK6Ufp0b-mZUeGXQnfMW8cgP5V1vL2m7TiWN08EO4DVEbl9LN4bIKzt9DCtkadeYq5z82-cz6pUmUMZ4ABsivWI3NCj0vx8ddcrPq7vAfitEgpIcWZB69WX3rrbpkaBx-bI-7lp9G9lhyZhcf"
+                ],
+                "review_texts": [
+                    "東京ミッドタウン内にある3層構造のダイニング併設ライブハウス。ステージ背面は一面ガラスで、カーテンが開いたあとに広がる夜景とアーティストのコントラストが圧巻。\nドレスコードはスマートカジュアル。ビジネス街でもあり、スーツでも違和感ありませんが、Tシャツや短パンは厳しいかも。\n￼ 「Billboard」は100年以上の歴史を持ち、日本ではBillboard Japanのライセンス運営により3箇所でクラブラウンジを展開。国内外の実力派が出演してきました。 六本木の中心立地でアクセス良好（地下で建物直結）。素晴らしいライブスペースです。",
+                    "Billboard live東京は大人の空間で、一般のスタンディングライブと違いお食事やドリンクを飲みながら着席でライブを見れるのです。非日常の空間でのエンターテイメントです。クリスマスシーズンにはライブが終わって会場から出ると目の前に目を見張るようなクリスマスイルミネーションが出迎えてくれます。ライブの感動に包まれてその感動が冷めやらぬ中、イルミネーションがキラキラと輝く街をそぞろ歩けます",
+                    "コチラへは何回か来てるのですが、今回R席で、事前に予約制の食事セットいただきました。この前菜+メイン+ドリンクで、2100円！他のレギュラーメニューの価格を見れば、分かる筈。もしそのSHOWにこのメニューが付いてたら、迷わず予約しましょう！コスパ最高ですぅ。",
+                    "ロバートグラスパーのライブを観に初ビルボード。\n流石ビッグネームが多く出演しているだけに上品な雰囲気。\n\n予約時に空きがなく1番リーズナブルなカジュアル席しか取れなかった。\nカジュアル席にも前列と後列があり、前者は長テーブルに小さめの椅子。\n後者は背の高い小さい丸テーブルにカウンターチェア。\n今回は後者であったが腰掛けると身長172㎝の私ではフットレストにギリギリ足が乗る感じで落ち着かない。\n相席になった女性はそんなに辛そうではなかったので私の脚が短いのか。\n\n1ドリンクチケットが付くのでバーカウンターでお酒を注文。\n+500円でサイズアップ出来るので再度買いに来る手間が省けて良かった。\n\nライブは本当に最高で良い思い出になった。\n次回チケット予約する時はもう1ランク上の席でライブに集中したい。",
+                    "🔸特徴\n・東京ミッドタウン ガーデンテラス4Fにある食事×音楽が味わえるライブレストラン🧑‍🍳🎵\n・ステージに近い座席を希望の方は3F、2人掛けソファー席やカウンター席がいい方は4Fがおすすめ✨\n・日本語、英語が堪能なスタッフがいる🗣️\n・ホスピタリティが素晴らしい👏\n・料理も美味しい😋🍽️\n\n🔹おすすめの一品\n・マルゲリータ🍕\n・塩キャラメルバニラ🍨💕\n・季節のカクテル系\n\n🔸気をつける点\n・ビルボード東京内のトイレは個数が少ないので、帰りなどミッドタウン内のお手洗いに行った方が早いかも🚻\n・車の場合ミッドタウンの駐車場が利用可能だが、割引サービス対象外かも？\n※詳しくはスタッフさんにお尋ねください🙇"
+                ]
+            }
+        ],
+        "summary": "銀座のエレガントなカフェで朝を迎え、六本木のトレンディなダイニングで食事を楽しみ、華やかなナイトクラブで東京の夜を満喫する、都会的で洗練されたプランです。"
+    },
+    {
+        "plan_title": "モダンエレガンスと夜のエンターテイメント",
+        "theme": "東京の様々な地域でモダンなエレガンスと活気あるエンターテイメントを融合させ、高評価のバー体験で締めくくる一日です。",
+        "estimated_duration_hours": 6.5,
+        "waypoints": [
+            {
+                "place_id": "ChIJncTgzV2NGGARZntUGisNfJ0",
+                "order": 1,
+                "name": "北東京アルチザンカフェ",
+                "activity": "高評価のアルチザンカフェで、こだわりのコーヒーや軽食を。洗練された空間で特別な時間を過ごしましょう。",
+                "location": {
+                    "lat": 35.7318478,
+                    "lng": 139.7095387
+                },
+                "info": "高評価のアルチザンカフェで、こだわりのコーヒーや軽食を。洗練された空間で特別な時間を過ごしましょう。",
+                "distance_text": "約4.0 km",
+                "duration_text": "電車 約25分",
+                "transport_mode": "TRANSIT",
+                "photo_references": [
+                    "AWn5SU7lyT31iHZc7_wTk5fOP7G8yMsB3MShdPP7G1ZW7d5OQfoeamdmQwzn61Zttr3hFWNIVbbq86sjYjLQLl-cHtS_b-Dt1C9LIQmwqGhz9wFBHQo_B5I4gjBHnOPBOVi3NRX8jVZ8fFJ3HCof0DHuyLb_k3aXnan6UHQES9RYMseVAZUXjKoIyPVB4YoK03YjwugC8u_Y3jmvM1E5AZ9Yp1B5SsyDcXPLzt5P2NFknZ-8ktJoE1uClP-i39oPs3zQHOhqNT2WN2jahW5aKgrQ6LPp5c5VycXpCPU1GLH4EOvyHA",
+                    "AWn5SU4qRzy9-uXrCUaBcQu5cT8t_xh40sSTIGOxjxkuYL0h3KGeLaY6TGTE8VGISiNv6XBz3yafq092VjI_bM4XEyRawKOlqT9u7_CvMcHWPlWxduMphBj1SJ_BXCu-EcZw33ogd9_R97nKhG9w46L8VK_GNS6cJEGuo_FdP86cenbkEYroBPbrAjKH0J5jwSmtCBZeZoA-Acmti_8XgLOzzpCsUScATeTxGUesYkQWKqCbbIJo2othKVDV7yIgDOom1-DOsy-WbiyIEvCjTQbmvzmi8O64iK5nLnRC_MT75oooXg",
+                    "AWn5SU40bKagJRV76YbjDsZDXIMjFUwwpQ3nruFRdK1xdl6h1vVrkUY7IJQonbuZ1ELzgn235WJ0QmZ5VXEP_YVwBEDB3y8vfCBK6uK0XhErLyMl6HbnJfWMV05z2fAR--y_e8ku61U0M5nvKdOh1iUzSJVVV0s2QDYYzDFUThn_hFLKr2LclIsG7vMsbmyVF5ey5OV_L3wMEIeUoJOqlAzrjU5gYwPZv6fuLcXybOjjSwQYOevWElbF8m7maSjg17sJcMnGG4giyKuAWIM35phG1S12YMq4SB5lPq8UVs7loU0GBg",
+                    "AWn5SU5ZQWB6iZm5j7a0Sr0oAA7Xlo3MT4am9yOXjG1faqvkmz69SRr7HDoBzrazgdHX2IAVxj6zuIEHEYf7P5OxOapBn0lqC1M-BPGj3wC1oTv_CIHnpEQltgMMuZBzNTZY-vXu5ZDyKIhQNYzZPV7XdqfTuKLoQ4lQNCMnP2iJVVvKnhamrSBY5ipZyEmwUt6RiEMjBIAmKYuWdQ3VcPbUzr2DUz9RS9_TZr3ub2hgENC2f1adB31Tp7pnz1WTxQKqse8qCYrI8sRcqxqA8TaSM1ewYwqQglQTcOBK-IKAUz5MWoRt7NiFNE6bnO3H3pR6h9NULeAzN85EF4zCIxCuIiff_inEwqOCXg5KoclBjmpH4D5snuhAAF2hFnPbVRk9qKMWHOpCMEd2GlVTUzxoMvTXWY6IjKZfWRvduJU5HGcHng",
+                    "AWn5SU7dbnBPAOixX6RlzeQuK8gKWzh0lSQ635QUcKwW1b9uF2ja-eLl_6AxqnEp8n24SsT-LP_1oo-4xyOlKy1gJQlamWPZ2Rl2Pz3MH8Eh_sV_EtTtm68y81nX4l5IbuluOMZSGV_yaHGTsph47KeIbpy6lR6T2Z3A7ELGpm-QaI2Xe-lAHmvGQgvvRScjuNUw43O7iMpjzwn3e8qgXvbTIMSpOJQruSlCtjr1n9MVwPBed3-yvRIegQ-g-SWvbyWZhvA3MUNKTvt6JoXeYO_8LRBpzqE9o9T5q2bDL_vXyFnWew",
+                    "AWn5SU41JvkQw9xgDUdBYpxzzW-nDZJIlNhfZLMTzb3c03r0lOGYeT3Ppp93GkWA-wzxfR6TN-KkHi8-xgraC4LuFNaI6OE7olCEnpmbDBS9FCd_rejYxiyGWRnfkMxKeELnBTyg1oa71U5_49nyZVvqsqu3ausNdT5knwVE88SaANbwHdSiSd2mW7g03x27NAakcN5ZZhyXQKnaWXIA6pyjOk51iI-v5dmmJK30daSmfXUKbgh6Yd4DJbLsUNa3QlXuV2u1N3FdvtKOfx6va6JvgCqy0nQz9_FP6rL-VdUcl9KVI6NewpcmRF5uVKfmQwJ1GIfWOvgjKMH1FORAFtLwmFqxDINE1p8b1h6K3unedzihDpl20rCAdTmkH2VgzYhOCjo-KWGx6leMs4NzhfS-MMas4CDoQ6V5Saz4H9JIeAWtaA",
+                    "AWn5SU5SfXRGPHunDF3zWnQNOr6jC8OONeE-5URFGMQj9oZpg47htTsnpr5_EbMgHtp1L1TZvrrp6jOjq4lQJG57vkIzgFXqUAkZ4vKiWL0bnsWCtEd9X6S6Tq6LuHNRpDMD6ZGaU1tTFyfYVRdV7MP-M8oBBNQP3TZSksFzfiIBddvDLxGixAGl9LvbRJK1TmDL8g9nnztRFglhEH_Q1qrxeiGXAtGCwb7anf02GiKqhcIdUHor2MSzo1Z-ZdV-1wOz8yjpACqI_JQdTniYzfi6DP34gob1C3AW50mpmdXnWtrCt1cJYe-npfZXTMmEz4DXs5NzMD1NzrcJHVQnnn9YR--BydbadM9aUEPqcQv-JK6__7sB6xAgF7vhprQkYNMDbsrUk0Axo6RpraYYTYfcjvf5aIQMrhH7GekDLM4ospDPvrDe",
+                    "AWn5SU4-lM56YWvUHkVmM3HApZedymuJUL0gNaSZ4x3ef567mdQ-FFoFUmPEhop0JgmunNIvXVyy3xVCUktXWX2CpVkuWtjAdnBszGGRKA4RS1ZUrZ98Bdq0GepL2pmBvTdSry-cNqwJ6FDGa086UivPq6uNO_V4AuUjPZz1OS0-BIG8-QuTxgG9HXYLqaqVcjl9-ccEuga7RxZBmiN6sjT2ugY-XogyCNaUrlWsRaPuPk5E5vwM3vkxMkkcSXn4LEGrGBEpEGBElpO_N4z9cDE6p7m2pTq1V2s1_GZvq2hHD3NYdqHgvjMdjYK08VStnI6r6RvgPXFopFlXMZg5EqquMoaiAHy-IM0qb0cuinheq2Lw8VavOr8fhyQod7DegUpJYB-f5OMbGZqxlFc1MblyPzus4sZJbu1uDB43FViA49dppW6H",
+                    "AWn5SU5PxL7p-Yi26pZ0XggFVHx43tWQ68f3plZGisqXrYWHa6geszvvXL12f7QewrLfEWQtASMKyTfdjj1569SzaabepqKXbvIrJ1K4QNR9jUJmssSwuk4NvHdFcQh-17VhHiRqjXKwoGhKJ9TodRPnxOp0WbSm3QhvNP1Ga6ZSAh4pIJrD9xnFYvbFJTfshPOetMCdRqhB6tESQjBE6QQegdI6S5bkTVXcfoPvWeC0LXmDFQmNsc2M5l22KjF71pNAsGSEXy1TIa_zTFiwv9o4UWLViXazoN8NpESCYrf8Kv4Avg",
+                    "AWn5SU6mq7c2ptgKClX7IxmIOk8-3lt7V1O7FbgN7av59s5jFT9C96jASoqX7OIcxVm4QxXHV8Xet9KsoDqKme3AKOTONx7Rrflnh-V_EGTEAeuvmnUgYDb5lE9eQ3UxJWLIngxnP8bZl4dt_lk-BsZfZB1kKQejWKXqnI_3-VxHUHZUX8vsDA-LQw7Ibb8yWS1D3p1r1VaEwh1oFv6MGAqsh9VTYyjkJJpkyhLwVYv7O-0p0uGD6QAw3pIa5l_Wn2QT6vx68LWawhtjIMgmc5rf6Fykcwbfbi_Pu9FUDIGrXk-kqg"
+                ],
+                "review_texts": [
+                    "今回は、平日の昼間でオフピークタイム限定のセットで注文しました！\nシステムが新しくなってました！\nWiFiと電源とドリンクバーがあります！\nコールドドリンク用のカップがプラスチックになってて使いやすくなってました！\n出勤前に1時間くらいダラダラするのもよし！絵を描いて仕事するのもよし！\n友達が一時間以上遅刻しそうな時の時間つぶしにもよし！",
+                    "安いし持ち込み自由だしフリードリンクあるし味は時間経てば立つほど吸いやすくて美味しかったしまた来たいと思いました。",
+                    "作り方が変わったと聞いたので、半年ぶりに来店しました。\n多少濃かったけど、前の作り方の方が好みでした。\n味は個人の趣味なので置いておいて、メンテに40分以上来ないのは何故？\nそういうオペレーションなら仕方ないが、それで成立してるようには全く感じなかったです。\n\n色々メニュー増やして努力してるのは分かるけれど、肝心のシーシャのお世話が全くできていない。このクオリティで2800yenは高すぎるとさえ感じる。",
+                    "休日夜の利用ですが雰囲気が良く定員さんの対応も親切で大変居心地良かったです。\nフレーバーの種類も豊富で炭の交換も頻繁にしてもらい、最後まで満足にシーシャを楽しめます。ドリンクバーも無料で利用でき長い時間まったり過ごせました。\n逆に居心地が良すぎて怖いくらいです笑\n初心者の方にもおすすめですし自分も是非ともリピートしたいです。",
+                    "池袋周辺で\n昼からシーシャできるところを探してると\n「チルイン池袋西口店」が出てきたので\n行かせて頂きました。\n\n入口でline登録して\n身分証の提示が必要です。\n\nフレーバーは\n今までメロンを吸ったことがなかったので\nオススメに合った「ギークメロン」\nをチョイス！\n\nメロン\nダブルアップル\nストロングミント\nの組み合わせ。\n\nソフトドリンクは飲み放題で\nフードとドリンクを持ち込み自由なのが\n新鮮です。\n\nどデカい炭や吸い出し機？なども\n初見だったので面白かったです。\n\nありがとうございました。\n\nP.S.\n火力が強くてむせそうになってる時に\n何事もないように吸い上げる\nスタッフの姉さんの技ありに\n感動しました✨"
+                ]
+            },
+            {
+                "place_id": "ChIJESeKBTyNGGARw1fSUCEYw3M",
+                "order": 2,
+                "name": "中央東京シックバー＆ラウンジ",
+                "activity": "都会的で活気ある雰囲気のシックなバー＆ラウンジで、午後のカクテルやゆったりとしたドリンクを楽しめます。",
+                "location": {
+                    "lat": 35.712202,
+                    "lng": 139.7069379
+                },
+                "info": "都会の中心にあるお洒落なバー＆ラウンジで、午後のカクテルを。心地よい音楽と活気ある雰囲気が魅力です。",
+                "distance_text": "約2.5 km",
+                "duration_text": "電車 約15分",
+                "transport_mode": "TRANSIT",
+                "photo_references": [
+                    "AWn5SU49eKC7EB757n3dK2MX9yW2oDL6Cr20ogd0HsWQy6j4FnJHv3MgkQ-9Ff47GVMavAlqzUGvOu_E2fgPZLYZJrqCdL39WLw7XaEbBauZqEfxIIAT5chKhkrZslx4hQii0bqoZR-Xqyqd5Mfoolj0RtEsenIoGyO9YEklQsVQRmiFgQAUweZfiP6UlSYJ7DAcqU28FAtYmNbNolPsyW84A7_3WtUSpruteEv9Vin8hPvpD_OTd1UBeCX5Ycqy51r_1SQGfUwq_CyfUu9MRj7DgmuwPk6x_j-4hacKwR_n33HOtg",
+                    "AWn5SU7g2L1fN0hpWmwWFDFA_LxN6fjIMOEmBLWBXS0wC8-U2fhV5eOfbCRcqcHHZTPgYLCGdVXhtxOXkZwosH3MJNuqZowP3FD1cb3MlZmD6Jrisxhh3h7j_XxNg9PNkOaAtdSsNK-lQR5VlazzFjR1FxYKH1J-TkQUomDd61elpOP6Qkf1O5ujMQOoz-d4S5tbuU8StFL9me8I9EvxmQbIVtvVlLg2v-E7s9x9GWN11Q9s_cRY_dZs4E6-RlKTg_stTL8Y_QeJuIm7Yp1ZEVhkEDlX5Aru6UR-jkwKOLfIYy2TJCHd54zNwayp1soXEFZZqVnL5lau4N1CWvQlmaOai1MUbTUHti9tN7TIAkGp5JelFAiODv2pjVGG0Aw85g3w4q64UVfH1aLRcSMoc8rUR4hwRQZEN822DqqC2iXt5d-ubTkS",
+                    "AWn5SU5AxVTEqLrOIY1S3v_IuJjczdj0d61_WPiq6TixH8boHO-PXNAAsl6U-xu7du03PW3Qbo1NHXQkRZTh8VFdhPa0gwXHeQ_Nv8VV__fyTegy6JKU1kBM5Jnu1_Rm54V3gFdSRDhsgWWy7dWtWBqeNzvjiBAZp1p_aKrGj8pgffCGjCRNqTOsILumH2_2WyAJBJwLWtFzHXmeZA82pD4SwNgExzT-mdC1q2ynQSLjRCUusCqH8VjcPyLkbfmjzl5GTYFiis7aFwzVIcC5rRLzbL5g0OGK8sYqqsUQy-ihQFNiIF9l3uhjzth-aizS-fMPkV1pCh4CMYwsQ_qX7M8r0F2pd572je5BAoEhJYQFlVtjyjqMQpKkZ_gAs9PXt8H6PPsdrTAYW51Vt-JnJ4OEc9lqShjvaAxM6naRpt_I-ne8qmAyAWJSX7UR09V2pA",
+                    "AWn5SU6zNFwnRd5Fe389OaauFkhtwMzwNvC5v5N3LJhwxhRSc8nblzSeN1smtVufZZxAQVwdx9t_kpRk0jlqgKJ5tv22tUhRe9Q352FjlGL1YMgly7zefoPu0_Aq3b-f3m4yxF941fJ679GD8QcN_FIbCiVGkPq2iY7Lr0wFBi4mKTzCgywO_AUXWRxOTV7QMWtItxVzb3NCnDZMkvi_l97t-aNTB6wORStIW5Y8p2AytrI79AuTlUX5_TYm-UteLQsRiSEbRxFdJXVw1o5G55eLQiBKEoKYBXCBiLiYrYRsyPDsyQ",
+                    "AWn5SU7hWPz21WQ1Z4y0Uw_Fb2YKAkp6XresjEZsJFQl3si4dqsqnHPobwDJYWNXOl7b6HUDfZcmgFcI4QFkxcBbVQK-BlaE2FC0ZzT0gKLklcxAGWjqvjM6U21JSNRO42gh40p3j39Y08hRNX1RwMpwGTAqHSG1ZygrXboy2VT2UADItt6feUgFb7hNtqN0LZqhttrhQ9hVb4vRxoCiqZPu8XF7buntez1tJfImICTUTfvWkijhKj0_mtbgTIjX81rR0p5TCf6ohqB73XduqS5M4INI3gr71Z5D5563q5CyCq_z9lzAEKnvjf5ZEUOK640lXdM1xyAX8sOI0xOlN2g30hJFVijX98CZOFs-A1rmAQg7oKdz7IiCrM5ZOSBGBgOMkvNtZuV-jy4iyyTaHIP-MXj5Zlw-CX2m8J26ULkGnROE9faV0ZFLYLJyyH-zjUpd",
+                    "AWn5SU7fJH297GCvKqJDpoC6dHT3h30Bk0UGBmEyVQmGdPE4HSG6HHIgjBJ8ktY48_mTMwIRmjD2wUyIniaw4h-sUkbXZe7UnHLF4yhVdmbSlY4LdJCuj32OZ2gcxFTpV-sLIiNACQfpl8J_X1bJvU1Np-tx4N0s0Tw-42L8qTgQE09HTdfj-rjnn_yUYUMTlAX-vNBfzU4THID98teiTZDJ04IObvw7MH7ZKR1HSrFQA3zRrRR9edwhUyQSmtDPP6xZxBz3QoV7KoN3D3BIbhDv2iPMnWPE16EEzstAMa1eIackgEVySiq2kYmxBVwK8cUSXQ04JMHII2tqmyDD3jhbEpLQJJXddghCPp5-8FFpKqhGU-l7fAPRU5P9XoZfyCBcIVGxL1yO8wK7z0iAvIZtZvcqJt2IXmcsn-lYoHllwKGvsrU",
+                    "AWn5SU7v18bTVbRpfgKJI40PTG93BMTpVC_eDbps23MgClqHvVSLOwXjB8LAGOCWG45-717GW4BmbKQSc0tvZ2P1uP7XL88IL2QjwnBaT7BGj8pr7LNW4dD8R78l931FFVAb7Jb1_pdyT4YFx6xsEj1psycEXxtlcPjA9hFRh1_hWzG6YyFx8oSGltHLageBoiFJnII58RMpnnJ4sr4BOOer27-UCvXybPkuW-H7ktXd7uSllscrlvpaoG1Ja-SVsE9Yvm9CGWtoqXEASQSFcHUqL-Kv2A-7kgZGcepXjsLHkzZoD-ahdcDgeMYeAQKQq-XjlH297HbrxvEZ1zHayfiD5ltFQAGGVBThows23Gt1EKxJEZTAVJss9MijpaS550uSopie_2hm_HqWbn-Sz2o_B0TZSA32M87fxmckX109Yxk6wg",
+                    "AWn5SU66UczhY3FcxKYa9Kg2sGt-tUM25sZog-PQhUBJEP38pYqaX7hUI5DYU8qLWL9MztmCmBe6nKplXdaMYfM-xCNYnu4a7TstqR8DUETh7i4FwJDNhDedm3F-ewAnOpysR-7po4dZqykY8N3RFdDPsC82gtLMigsLp7AsSj3r2EB8rdarrJVRNmHN5g3Exsh4cySCKAgklBUyLrp3bdOKnqUEDqZENrahZswhhA4cqDz0ChgNTb8lYzqZ3t3z9lEGGuR-9zNsdBGer1AlBtOU4_JFWLqRE7Qcqt8ayF0o8OHmI258RHCVX7jZj3ao16Qtd4eXjNCPYlvc2sGPsr0Jg3jUJWhDScOfzdEccGVS747GnHYRH0wA_CUNhMiyeKL41T6v41uk3KtF-M5m6bSYa_RWGBOJdCmqz_NTkP_RY-8RZdqi3UFDk0svaJB4eM5l",
+                    "AWn5SU7tVTSmWhuhdzU1ij-5gn8O28iyluot__bxn4nRveLOmBAnYClJA0ZtC4c3g2-LKTJiLN4U8J8xJihRWXUwQ6F8O3SdZ-0zXbkskxpIkROxjc-BRu8eZSYoKHyPwjyt-fcMd24UXwi3mqqKhdTexxELZsUxupyLluF9Xyk44OzBoXkAku1y-J-546YKg2u9EYjuJ15Mp1qAfvCZat1zVQq6jJNprhqk2-ISA1Z3OJsByemZ1oq0zTnEQsALOs5VIi6AhwZxUUyQlRH9Ls9LUvU1CGIdCm5lfqrOA5OE98A7av3kHA6jBfgFr5iwSbBGUKNhF_rxLfXNnbChqg1whNaMfGmrBpv4s9cwv264f8qcXpuRBmWMqPZMgRVoxrqJ2wGcot1LJ80AGlGaFAD4epH1ZUobzAZYG4umTv8BP-xGJscLCjQHmkqQUrrELA",
+                    "AWn5SU5UWYiVcUcBZOXJHBxb8MUIGKWj4ztAdWbz9b39D53l2Fu9BDav0LuGjeTptxeF3dYQdXsVstGkkHHrWH99QJDEdv_BvbVu16Ozdhz3-jkhdZZHSWVozUXuwtcNly3ZbxYguasOw1oNkvMa2B5shiczr8gR91brVnzuJP6CauEuXiP5D0N1eVsuyY7yc5JaJWVlnlj-abu5kgB0KigDKOfF4QTSXSIF6N_tR8GZzlQm8CzI0ICCdAjW6zlVTdhPDue4sRaOYhb-0wtN1guwfQ4Iv9EA5ngX281MXnxtWBE53GNSQTOyvh0hjvxOCR0l1kVasfchAaotzmzbwd2g6bELgsVY98oM6K1xXxM-uafhaWa50baD6TmmOt4D56ZiJBTRq9oiL8yC_C-ms6QGASdvW4CEiC9RCte9Y0h_ZJuQI190kRigfAmTMd1Pt6yO"
+                ],
+                "review_texts": [
+                    "日曜15:00〜大人子供計6人で訪問。（予約あり\n20年前位からあらゆるシーンで利用しています。今回は初めてランチ兼お茶。\nカフェでは大人数利用が難しいので、ファミレスより雰囲気が良くゆっくり出来るお店で、ちょっとしたお祝いも可能、3時〜開いているお店を探しておりピッタリヒット◎\nピザやフリット、ポテトも昔から大好きで、特にポテトは味の種類も豊富、昔はもっとカゴの様な大きなお皿で出て来た気がしますが時代も変わったのだと思います。\n全てQRコード注文になっており、各自飲み物など注文したしました。\n店員さんはどなたも優しく、丁寧な接客で感じが良かったです。\n高田馬場という土地柄、貴重なお店です。\nまた地下鉄東西線の出口の真横にお店があるので雨の日など大変便利です！\nバリアフリーは期待出来ないですが、総じて満足出来るお店だと思います。\nご馳走様でした。",
+                    "ずっと気になっていたお店に、ついに夜に立ち寄ることができました。\n家の近くにあるのに、なかなか行く機会がなくて…。🍧✨\n外観がとても華やかで、イルミネーションがキラキラしていて、いつも「ここで自分に小さなご褒美をあげたいな」と思っていました。\n\nそして、やっと来られて、本当に来てよかったです。💫\nスタッフさんはとても親切で、料理もとても美味しく、驚くほど提供が早かったです。\n\nさらに、アレルギーがある食材を抜いてほしいとお願いしたのですが、快く対応してくださって、本当に嬉しかったです。\n日本に来てまだ長くないのですが、こういったお願いを断られることが多かったので、とても助かりましたし、感動しました。🥐☕️\n\n全体的に大満足です。\n提供も早く、価格は一般的なレストランと同じくらいですが、場所やクオリティを考えると妥当だと思います。🤭\nもちろん、少し安かったらもっと嬉しいですが(笑)、このエリアでこの内容なら十分納得です。\n\n本当に美味しくて、素敵な時間を過ごせました。\n絶対にまた来ます！",
+                    "初めてここに行ってかなり感銘を受けました。\nカジュアルに演奏者がマスターに伝えてるからセッションを行い、盛り上がりはありつつも品の良さがあるジャズバーでした。\n今回は1回のレストランの料理もジャズバーでの食事の利用もしませんでしたが次回は是非行ってみたいと思いました。末永くいろんな音楽家や地域に愛され長続きして欲しいお店です🙏🏻",
+                    "ランチで利用しました。\n雰囲気もいいし1,500円でスープ、ドリンク、デザートもついてお得だなと。\n\n注文はQRコード。\n注文して20分くらい待ちましたが全然来ず。\n店員さんに注文通ってるか聞いたら「確認します」といってバックに戻り、「システムエラーで」と言いながらサラダとドリンク持ってきました。\nそんだけ待たせてフォローもなくそれかぁ。\n20分待ったんですが。\n\nそこからようやくオーダー入ったみたいで普通にピザとパスタを作って持ってきてくれました。\n味は普通。\n今時、このくらいならその辺のファミレスではっきりした味のもの食べた方がいいレベル。\n\n長テーブルに相席でしたが隣ではスタッフが厳しい顔で忙しそうにガチャガチャ音を立てながら片付けしてました。\nもはや、雰囲気だけの店なのにそれかと（BGMのジャズの意味）\n\n基本的にどんなお店でも楽しく過ごしますが珍しくないなぁという感想を持たせてくれるお店でした。",
+                    "高田馬場駅から少し歩くと特徴のある外装のお店に到着します。おしゃれな電飾に店内も雰囲気があり、すごい高級店なのではと一瞬躊躇しますがそんなことはありません。良心的なお値段でおいしいイタリアンが楽しめます。ランチタイムは専用メニューがあり、サラダ・スープ・ドリンクがついて1500円。パスタやライスは大盛無料（ライスはお替り自由だった気が）なので、大食漢の方でも大丈夫です。地下や二階席もあり、ビヤガーデンも時間帯によっては開催している模様。ジャズバー的な楽しみ方もできるようです。とにかく店内が落ち着く雰囲気で、お店の奥でシェフたちが料理するところも見ることができ、とても素敵なお店です。今度は夜行ってみたいですねー。"
+                ]
+            },
+            {
+                "place_id": "ChIJJRGVp4yMGGARgT91OU3pVN0",
+                "order": 3,
+                "name": "東京プレミアナイトバー",
+                "activity": "東京で最も評価の高いナイトバーで一日を締めくくり、特別な雰囲気と洗練された体験を満喫しましょう。",
+                "location": {
+                    "lat": 35.687923,
+                    "lng": 139.7267956
+                },
+                "info": "東京で最も評価の高いナイトバーで、特別な夜を体験しましょう。洗練された雰囲気と上質なドリンクが楽しめます。",
+                "distance_text": "約3.8 km",
+                "duration_text": "電車 約20分",
+                "transport_mode": "TRANSIT",
+                "photo_references": [
+                    "AWn5SU5iqdmEjMmHMQG09LbmAgyh-Ctu9GYuBl8ZS4CBVcD7ArwxxB9Ps-u8tK-tBBBH2lY1JiUPSH6LYowd4auVUoahVy7ZGZFg5yZYYuD5zadea25jEkdLWU5T4nIsHWToCdcHH-YjEu1olTIiXSdhwM9tlqdeCPjamNI9ndaM6CsOQ1vnh46BGi4t-ZyX9qqhAd421zD_SUVNKBsNwHBg8K49L1gEToTHlvNpP022tc9zcpMWPnFTYnQa7wBdho5ceYpStFF-VuCZziUsJw0fICT8xlYtgPDvadE_jW-KXRQC7VPkxaeVaD5C41XVVLKdOKwgwDDJTOkUbrh85XBKv7l9cUYDspzF489oi-va0VnOVLiiLedSuycIJCt49Hd1qYplrRE7UzUWyg9PdATJIzck0AhyifX385t4ZzASHkIsSw",
+                    "AWn5SU7IiXkLYLOeeCYGOm-mnOM4YK6xP3pJe14V2f-GQ1RpfV1DiLs8ZxVdD79NBRIgDbsekiaZrvy65wcx2GRgquWfTvEc0RqkEM17tWIUcBmE4U1cuSW5LUZjPWSWt_Zp2_b-n2QB6JCGq6p7JuX3VYYL1ZkDF3TFER5UvtcFi3lVGCHOWKMgkJ-CU_hUFvnaR2ecihNgziSDj5DnSZ8OpQgpG4Til1qWCGGipbGij7R8SBBN1fwouDaKgtrhVMKgTWeFD7T9cZBSPQ3ureg5pNSOLurvpfwRI23GIdIXhBSWLQ",
+                    "AWn5SU7I8EoXENa9wGcwT7jEcPm8hO2VxP0U_tGh4Y4bN9FgYo30aKWllwrzpGvcyTy9avuqEw7FJv1LxskbXATngPzcMeEXkL9qM8VxAdlnWZ_MVHjam834nRxPSsK22nczR9kvMiZD2fET35N_hDUTWRdGkbGi3bqDqAQF6sYsRZKpiZ6mXBfmiwPlYI9OgLieTRTdmIJx1Jm-UkvtExLrJ4weqfCuV13QCG54v3kZdEUJSkY-2ZlwfIYdIuyuMUI6E_0uqiUpflO53FzP0nMEwYrnSU15UCqYgp32gqPlrTjXBQaAbRTZIHrlVFJGToOqiXRmsqnOfspYMW92UsmdOZapPdB396MeGruhzM52VVICyvkktCcVOcizcU1whH4g-dmi6OI0P5f74OJkIek02He5SlfPVcHj49XvTQJ_hgO1tZKT",
+                    "AWn5SU7YpubeSeBWXtLccXFHwWnYNRX8Cou2pgLECSa2b-j5ZiYns2hqbOq5QD1gr4QxAz9n_MUDMPc73AXBCwVbNbUVmUqm9UgX6qQfwsE7TsLgxKNDcP6JdInypT9p7VY717pGiifUQUWO87MMe1oD2bx3jiNbwoYicVgZLfHDYDrDRR0kwwYomLbeScXigTD06ypF6joOsASePyxKjbnzBd_b580So-VxYxf678-ynFfxk4PflKLVa8YEk7edHokDozqvMwXD7Meas3XlmhGKFQa7olf6exNhEvSLqBfWAVmO5D_TEB5rbhZo3GYXomOw76uu3drFRYIRs8ZnCfUzkrmU9Kzt77gwWj09hcFE8TFqqcKBGSc_MfW0zAajjA9hyy6WAR6kyqsCbZ6Ey4drpVENFzls-CmZ7VhMCSWYXTmPgOg",
+                    "AWn5SU4fwHqOzEIqOkW_7b-uHhadzEgkVtLnShXalJ7H_ATvJBctIBYgskii5I3XVbQOhBTGJIkflRc8zq0qxqL5w1w6f7TtODrhtqKXNfEQRqK05tPqxsfps8_i-5gkZ2izTY6b_w0gIGmJuR3d84LerFoGSMyKPKOtRkSCnzJryP8c1MYwYIFjdq7RoOL6p8dKZTHzHH6DkGH-7hD3mLPBNE7dWejo5zgub4lRIoO7lHG48gB0u8VmDuuGtX_vXrkPWsn8eBTwlBOlvgMF7M1gXQQWIa6LW0x5CeXkeVLL_DGknudLS4YptIN55X7TfdCZmb8bTWbgPnb8cQNIsZo2VyfAgRffNChKdFUHymK91Nkzidip6icv91xp_FJhhX-mnDsYLk3tIBt36LLYKSNMXSlpxe4tOcBnOlozlUBXZ8qtTt4w",
+                    "AWn5SU4JmX4tuqYzhaXFcbUIk7ligIGgHGEFI-rTyWZPxP6C1H786LqWn2NnKts80T29Awo63lMf6H-QNFydr3hWrB3kbp6GAAvqf2x5LT_0EV8A4pDDWz6z98X0B-c4ydgLaG3qSD6DbmBKp2-yMud3Rhb0Fy4zKEQg4TQXL2yUcQLyZL7BO4IfMJ3Fy2kHbvFtyDuO260H5P07b0PB25FHIIwqbkGR2G-D3Fm7uFHo2_6keqSCgMwDvJJamGCpRL92YghfktXgsORKI53_gz3xzUQZxwv0vFJuIMSUEAyQ5_ZIlE4vmDgm7Diw4Yz5CmpBP9uC35svDbCMsSullg2R6Mk9diEdOjuXmvPzrRzhyHFVYuJmmaaT9SaKa0q_Q9p-dJ4_Ruoxs-gI0_e8yw9wxxZM8d_Xvd6aI7EdOAj2rzJWkrurtM2MjVVHG9Yl8wF5",
+                    "AWn5SU48k0rNNTAPqkbFYQYo-p6lnWmXoE_s5uR-8MdjErociiGf1DPPf5R_3kRi3PNQ9_04zH0jixZ1NFmlVn06i8VC9-KHXqzbo6p_KPEDurgQa5TlBmDy8EuTC37DbC9p9rRjN8aokYG7qYAQKbZz-BxybVidn7ue3PuRBBUb6bfGo6bxEu6tpDcbE61EubpV-5hgjZSbtsSy_g6WypEWoG9pA4Dlo6q_36olAR2NO57zFnrF2rxxQhcDYVlX0Ex9hE2l--2IbMPB9hXr4WKmYE_KAlKUhU5Gxj4dzQezF4s8kXl5LkorO-5fkFHYqWjYkhgrWsTR--y5Vd2oIyGSjIKdr3zzQR1tnOoRqhgnr3w6sgvioE0a7wmjGWwI6fx-XIm9kXI3b6ziimEA2cEoExOQGVs2VthNmYxeBJuDJW_skMo01yc4K4iF1CWj2Q",
+                    "AWn5SU6m95AUOxEvRhN5_JC4KF4RY4-cpiENtsNtx7MHfZj--OeRXy8Cjm-nq-c8ipTs_SL5gjuNkSE7cRO5TS-AXejWzuleevWZx_kbtIlOSh2sOe2Kbi09Ex3mNLhVC8_3HsOrJR1TNFjXNYB1dSeiIqINhBMedZR0mmc8OqN9Sk4qDiMOtL0Dl48jp9wDSJBHgkaw9UK5zAWmpe-ZgBQ1mTs0YzLv8DXwFY7IVe5IB-wrCraQAjBslz0PID2kWpkXzLFDeAMA-ahXoFYEGJ2EKJv6kpijOm167lxHjrcVRRznyQ",
+                    "AWn5SU5YcLJPLBC5WTLb3z2WwsBKOMAuSqcyyu-jFpFKfs0LoQtB28M2-r5W-wu1Raf4eaX7lrY65xiZ7MN2usNDs9mkbd8p76dwsEg0cbC-uxyOJHVZ39yVzsS65f6WO86EDb4USgalVvA-ojx4GRfwGy9lBWfZUpiP5cnUIbuQ8RMNhys8yIQ_nBqNfjs_oXTcOK7AMcZSQwfNrKVQzQUVjUS7hNQ3mO97U1e94gibx5Rf73AB2-42v8A2enoclWUkoBQ34ESybU7hpIXRUKSem4A361sIQ_nz-9IDXVzEsDnFVg",
+                    "AWn5SU51LYL01SPtfE3Ecyjqz8X1yPxM-gpwgVbbHtYPagrUbFB_-kfwvlWaV6fq-YcaTv3V-0KYwGEcmbdJ0GVvZAzlvd-v_ca4ff0SuT0Oe9solLs-K5fgBX9Beq_IuShXIvGIawYNqG-GerBc0c9iRUlw5Ocd9XsrXNHqhpQCMR6kJJQLyLerpnonU02_H9WOM36_9rbrJLw5QO-vLM3Tcg3JR4OEwBHjojeHud4MvE2pZ5TdfXlNjXAh0dpCZd6_7eBP1TW-oAvXR8sfrr7twZUMdKY7fE4wazxsFSvi2Fq-gHxGDL8FMKzNXbCdegfahj4XE1GPG8T4AGccgVqilfjxFkOnS3cv6pA9lrfRvuAcAVjeA0kYQuYprQxVkEx3aF5rHwwEFAfaZaVLibItuQYLqon-4yK2O1j7GLeNXrhvyDU"
+                ],
+                "review_texts": [
+                    "深夜まで温かい一皿と丁寧なサービスが受けられる、落ち着きのある空間。控えめながら実力派の一軒。",
+                    "お酒とご飯のペアリングが楽しめるお店(◍•ᴗ•◍)どれもとても美味しくて、お酒が進む味。特にハンバーグとポテトが美味しくて絶対また食べたい♡常連さんも多く、皆さんほとんどお食事を召し上がってて人気なのも納得のお店でした。barでこのクオリティのごはんはなかなか無いような。",
+                    "数量限定のハンバーグがとにかく美味い！！\nここに来たら絶対に食べた方がいいメニューです。\n\n他の料理もどれも美味しく、バーだけど本格料理が食べられるので食事目的で良く利用しています。\n\nカウンター席があり、テーブル席も1つあります。\n\nお酒は水菓子というオリジナルのカクテルがあり、水色のカクテルが甘くてスッキリしていてとても美味しいです。\n定期的にこれからも通いたいバーです。",
+                    "口コミで見たハンバーグ丼、21時半頃でしたが快く作っていただけました。肉汁溢れていてマヨベースのソースとポテトグラタンの添え物とかなり美味しい✨満腹でした。\n\nドリンクは生ビール、自家製ジントニック、アードベッグ10とマッカラン12でお会計5,700円でした。安くてびっくりでした。\n時折話しかけてくださりありがとうございました。\nまた出張時にはお伺いさせてください。",
+                    "BARなのにご飯も美味しくて、期待を裏切られたことは1度もないです。友達も親も連れて行きました。ハンバーグは絶対に食べてほしい…！"
+                ]
+            }
+        ],
+        "summary": "高評価のアルチザンカフェで始まり、都会的なバー＆ラウンジで午後のひとときを過ごし、最後は東京で最も評価の高いナイトバーで最高の夜を締めくくる、洗練された大人のためのプランです。"
+    }
+]

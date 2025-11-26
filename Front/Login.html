@@ -4,9 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MiniTrip - ログイン</title>
-    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Inter & Noto Sans JP Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
@@ -27,17 +25,14 @@
         
         <div class="bg-white p-6 sm:p-8 md:p-10 rounded-2xl shadow-lg w-full max-w-md">
             
-            <!-- ヘッダー -->
             <div class="text-center mb-8">
                 <h1 class="text-3xl md:text-4xl font-bold text-orange-600 mb-2">MiniTrip</h1>
                 <p class="text-lg md:text-xl text-gray-600 mb-4">“すきま時間”を、最高に楽しく。</p>
                 <h2 class="text-2xl font-semibold text-gray-700">ログイン</h2>
             </div>
 
-            <!-- ログインフォーム -->
             <form id="loginForm" class="space-y-6">
 
-                <!-- 1. メールアドレス -->
                 <div>
                     <label for="email" class="block text-sm font-semibold text-gray-700 mb-2">メールアドレス</label>
                     <input type="email" id="email" name="email"
@@ -45,7 +40,6 @@
                            placeholder="example@email.com" required>
                 </div>
 
-                <!-- 2. パスワード -->
                 <div>
                     <label for="password" class="block text-sm font-semibold text-gray-700 mb-2">パスワード</label>
                     <input type="password" id="password" name="password"
@@ -53,7 +47,6 @@
                            placeholder="••••••••" required>
                 </div>
 
-                <!-- 3. オプション（ログイン保持・パスワード忘れ） -->
                 <div class="flex items-center justify-between">
                     <div class="flex items-center">
                         <input id="remember" name="remember" type="checkbox"
@@ -68,7 +61,6 @@
                     </div>
                 </div>
                 
-                <!-- 送信ボタン -->
                 <div class="pt-4">
                     <button type="submit" id="submit-button"
                             class="w-full bg-orange-600 text-white text-lg font-bold py-3 px-6 rounded-lg shadow-md hover:bg-orange-700 focus:outline-none focus:ring-4 focus:ring-orange-500 focus:ring-opacity-50 transition duration-300 ease-in-out transform hover:-translate-y-0.5">
@@ -78,7 +70,6 @@
 
             </form>
 
-            <!-- ソーシャルログイン（オプション） -->
             <div class="relative my-6">
                 <div class="absolute inset-0 flex items-center" aria-hidden="true">
                     <div class="w-full border-t border-gray-300"></div>
@@ -91,7 +82,6 @@
             <div>
                 <button type="button"
                         class="w-full flex items-center justify-center py-3 px-4 border border-gray-300 rounded-lg shadow-sm bg-white hover:bg-gray-50 text-gray-700 font-medium transition duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500">
-                    <!-- Google Icon SVG -->
                     <svg class="w-5 h-5 mr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48px" height="48px">
                         <path fill="#FFC107" d="M43.611,20.083H42V20H24v8h11.303c-1.649,4.657-6.08,8-11.303,8c-6.627,0-12-5.373-12-12c0-6.627,5.373-12,12-12c3.059,0,5.842,1.154,7.961,3.039l5.657-5.657C34.046,6.053,29.268,4,24,4C12.955,4,4,12.955,4,24c0,11.045,8.955,20,20,20c11.045,0,20-8.955,20-20C44,22.659,43.862,21.35,43.611,20.083z"/>
                         <path fill="#FF3D00" d="M6.306,14.691l6.571,4.819C14.655,15.108,18.961,12,24,12c3.059,0,5.842,1.154,7.961,3.039l5.657-5.657C34.046,6.053,29.268,4,24,4C16.318,4,9.656,8.337,6.306,14.691z"/>
@@ -102,24 +92,19 @@
                 </button>
             </div>
 
-            <!-- 新規登録リンク -->
             <p class="mt-8 text-center text-sm text-gray-600">
                 アカウントをお持ちでないですか？ 
-                <!-- SỬA: Dùng đường dẫn tương đối (route) -->
                 <a href="/register" class="font-medium text-orange-600 hover:text-orange-500">
                     新規登録
                 </a>
             </p>
 
-            <!-- ローディング/結果表示エリア -->
             <div id="results" class="mt-6 text-center h-5">
-                <!-- ここにメッセージを表示 -->
-            </div>
+                </div>
 
         </div>
     </div>
 
-    <!-- SỬA: SCRIPT ĐÃ THAY ĐỔI -->
     <script>
         document.getElementById('loginForm').addEventListener('submit', async function(event) {
             event.preventDefault(); 
@@ -133,7 +118,7 @@
             submitButton.disabled = true;
 
             try {
-                // Dùng fetch để POST đến API (đường dẫn tương đối)
+                // fetchでAPIにPOST（相対パス）
                 const response = await fetch('/api/login', {
                     method: 'POST',
                     headers: {
@@ -148,23 +133,23 @@
                 const result = await response.json();
 
                 if (response.ok && result.success) {
-                    // Thành công!
+                    // 成功！
                     resultsDiv.innerHTML = '<p class="text-lg text-green-600">ログインしました！</p>';
-                    // (Bạn có thể lưu token ở đây, ví dụ: localStorage.setItem('token', result.token))
+                    // (ここでトークンを保存可能、例: localStorage.setItem('token', result.token))
                     
-                    // Chờ 1 giây rồi chuyển hướng về trang chủ (main)
+                    // 1秒後にトップページへリダイレクト
                     setTimeout(() => {
-                        window.location.href = '/'; // Chuyển về trang chủ
+                        window.location.href = '/'; // ホームへ遷移
                     }, 1000);
 
                 } else {
-                    // Thất bại (ví dụ: sai mật khẩu)
+                    // 失敗（例: パスワード間違い）
                     throw new Error(result.message || "ログインに失敗しました。");
                 }
 
             } catch (error) {
-                // Lỗi (ví dụ: server 500, mất mạng)
-                console.error("Lỗi đăng nhập:", error);
+                // エラー（例: サーバー500, ネットワーク断）
+                console.error("ログインエラー:", error);
                 resultsDiv.innerHTML = `<p class="text-lg text-red-600">${error.message}</p>`;
                 submitButton.disabled = false;
             }

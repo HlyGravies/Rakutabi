@@ -101,24 +101,19 @@
                 </button>
             </div>
 
-            <!-- 9. LINK ĐÃ THAY ĐỔI: VỀ TRANG LOGIN -->
             <p class="mt-8 text-center text-sm text-gray-600">
                 すでにアカウントをお持ちですか？ 
-                <!-- SỬA: Dùng đường dẫn tương đối (route) -->
                 <a href="/login" class="font-medium text-orange-600 hover:text-orange-500">
                     ログイン
                 </a>
             </p>
 
-            <!-- ローディング/結果表示エリア -->
             <div id="results" class="mt-6 text-center h-5">
-                <!-- ここにメッセージを表示 -->
-            </div>
+                </div>
 
         </div>
     </div>
 
-    <!-- SỬA: SCRIPT ĐÃ THAY ĐỔI -->
     <script>
         document.getElementById('registerForm').addEventListener('submit', async function(event) {
             event.preventDefault(); 
@@ -131,25 +126,25 @@
             
             const resultsDiv = document.getElementById('results');
             const submitButton = document.getElementById('submit-button');
-            resultsDiv.innerHTML = ''; // Xóa lỗi cũ
+            resultsDiv.innerHTML = ''; // 以前のエラーをクリア
 
-            // Kiểm tra mật khẩu khớp
+            // パスワードの一致確認
             if (password !== password_confirm) {
                 resultsDiv.innerHTML = '<p class="text-lg text-red-600">パスワードが一致しません。</p>';
                 return;
             }
-            // Kiểm tra điều khoản
+            // 利用規約の同意確認
             if (!terms) {
                 resultsDiv.innerHTML = '<p class="text-lg text-red-600">利用規約に同意してください。</p>';
                 return;
             }
 
-            // ローディング表示（ダミー）
+            // ローディング表示
             resultsDiv.innerHTML = '<p class="text-lg text-orange-600 animate-pulse">登録中です...</p>';
             submitButton.disabled = true;
 
             try {
-                // Dùng fetch để POST đến API (đường dẫn tương đối)
+                // fetchでAPIにPOST送信（相対パス）
                 const response = await fetch('/api/register', {
                     method: 'POST',
                     headers: {
@@ -165,22 +160,22 @@
                 const result = await response.json();
 
                 if (response.ok && result.success) {
-                    // Thành công!
-                    resultsDiv.innerHTML = '<p class="text-lg text-green-600">登録しました！</Vp>';
+                    // 成功！
+                    resultsDiv.innerHTML = '<p class="text-lg text-green-600">登録しました！</p>';
                     
-                    // Chờ 1 giây rồi chuyển hướng về trang đăng nhập
+                    // 1秒後にログインページへリダイレクト
                     setTimeout(() => {
-                        window.location.href = '/login'; // Chuyển về trang đăng nhập
+                        window.location.href = '/login'; 
                     }, 1000);
 
                 } else {
-                    // Thất bại (ví dụ: email đã tồn tại)
+                    // 失敗（例: メールアドレスが既に存在）
                     throw new Error(result.message || "登録に失敗しました。");
                 }
 
             } catch (error) {
-                // Lỗi (ví dụ: server 500, mất mạng)
-                console.error("Lỗi đăng ký:", error);
+                // エラー（例: サーバー500, ネットワーク断）
+                console.error("登録エラー:", error);
                 resultsDiv.innerHTML = `<p class="text-lg text-red-600">${error.message}</p>`;
                 submitButton.disabled = false;
             }

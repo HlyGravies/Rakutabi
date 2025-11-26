@@ -4,9 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MiniTrip - プロフィール</title>
-    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Inter & Noto Sans JP Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
@@ -14,7 +12,7 @@
         body {
             font-family: 'Inter', 'Noto Sans JP', sans-serif;
         }
-         /* Checkbox màu cam */
+         /* チェックボックスのアクセントカラー（オレンジ） */
         .form-check, .form-radio {
             accent-color: #F97316; /* オレンジ色 */
         }
@@ -22,15 +20,12 @@
 </head>
 <body class="bg-gray-50 text-gray-800">
 
-    <!-- Header (Giống hệt trang main.html) -->
     <header class="bg-white shadow-md sticky top-0 z-50">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-16">
-                <!-- Logo -->
                 <div class="flex-shrink-0 flex items-center">
                      <a href="/" class="text-2xl font-bold text-orange-600">MiniTrip</a>
                 </div>
-                <!-- Profile Dropdown (Sẽ được JS kích hoạt) -->
                 <div class="relative">
                     <div>
                         <button type="button" class="bg-white rounded-full flex text-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
@@ -54,7 +49,6 @@
         </div>
     </header>
 
-    <!-- Nội dung chính của trang Profile -->
     <div class="container mx-auto px-4 py-8 md:py-12 flex items-center justify-center">
         
         <div class="bg-white p-6 sm:p-8 md:p-10 rounded-2xl shadow-lg w-full max-w-lg">
@@ -63,7 +57,6 @@
                 <h2 class="text-2xl font-semibold text-gray-700">プロフィール設定</h2>
             </div>
 
-            <!-- Form (Đã được "hồi sinh") -->
             <form id="profileForm" class="space-y-6">
                 <div>
                     <label for="email" class="block text-sm font-semibold text-gray-700 mb-2">メールアドレス (変更不可)</label>
@@ -78,7 +71,6 @@
                            placeholder="minitrip_user" required>
                 </div>
                 
-                <!-- TRƯỜNG MẬT KHẨU MỚI -->
                 <hr class="my-4">
                 <p class="text-sm text-gray-600">パスワードを変更する場合のみ入力してください:</p>
                 
@@ -103,10 +95,8 @@
                 </div>
             </form>
 
-            <!-- Vùng hiển thị thông báo -->
             <div id="results" class="mt-6 text-center h-5">
-                <!-- JS sẽ điền thông báo vào đây -->
-            </div>
+                </div>
 
             <p class="mt-8 text-center text-sm text-gray-600">
                 <a href="/" class="font-medium text-orange-600 hover:text-orange-500">
@@ -116,10 +106,9 @@
         </div>
     </div>
 
-    <!-- SCRIPT ĐÃ CẬP NHẬT -->
     <script>
         /**
-         * Lấy thông tin User khi tải trang
+         * ページ読み込み時にユーザー情報を取得
          */
         async function fetchUserProfile() {
             try {
@@ -130,35 +119,35 @@
                 }
                 const result = await response.json();
                 if (result.success) {
-                    // Điền thông tin vào header và form
+                    // ヘッダーとフォームに情報を入力
                     document.getElementById('welcome-nickname').textContent = result.nickname;
                     document.getElementById('email').value = result.email;
                     document.getElementById('nickname').value = result.nickname;
                 }
             } catch (error) {
-                console.error("Lỗi khi lấy profile:", error);
+                console.error("プロフィール取得エラー:", error);
                 window.location.href = '/login';
             }
         }
 
         /**
-         * Xử lý Đăng xuất
+         * ログアウト処理
          */
         async function handleLogout() {
             try {
                 const response = await fetch('/api/logout', { method: 'POST' });
                 const result = await response.json();
                 if (result.success) {
-                    window.location.href = '/login'; // Chuyển về trang login
+                    window.location.href = '/login'; // ログインページへリダイレクト
                 }
             } catch (error) {
-                console.error("Lỗi khi đăng xuất:", error);
-                alert("Đăng xuất thất bại, vui lòng thử lại.");
+                console.error("ログアウトエラー:", error);
+                alert("ログアウトに失敗しました。もう一度お試しください。");
             }
         }
         
         /**
-         * (MỚI) Xử lý Update Profile
+         * プロフィール更新処理
          */
         async function handleProfileUpdate(event) {
             event.preventDefault();
@@ -169,24 +158,24 @@
             
             const resultsDiv = document.getElementById('results');
             const submitButton = document.getElementById('submit-button');
-            resultsDiv.innerHTML = ''; // Xóa lỗi cũ
+            resultsDiv.innerHTML = ''; // 以前のエラーを消去
 
-            // 1. Kiểm tra mật khẩu (nếu có)
+            // 1. パスワード確認 (入力されている場合のみ)
             if (new_password !== new_password_confirm) {
                 resultsDiv.innerHTML = '<p class="text-lg text-red-600">新しいパスワードが一致しません。</p>';
                 return;
             }
             
-            // 2. Chuẩn bị payload
+            // 2. 送信データの準備
             const payload = {
                 nickname: nickname
             };
-            // Chỉ gửi mật khẩu nếu nó không rỗng
+            // パスワードが空でない場合のみ送信
             if (new_password) {
                 payload.password = new_password;
             }
 
-            // 3. Gửi
+            // 3. 送信処理
             resultsDiv.innerHTML = '<p class="text-lg text-orange-600 animate-pulse">更新中です...</p>';
             submitButton.disabled = true;
 
@@ -201,27 +190,27 @@
                 
                 if (response.ok && result.success) {
                     resultsDiv.innerHTML = '<p class="text-lg text-green-600">更新しました！</p>';
-                    // Cập nhật lại tên chào mừng trên header
+                    // ヘッダーの表示名を更新
                     document.getElementById('welcome-nickname').textContent = nickname;
-                    // Xóa ô mật khẩu
+                    // パスワード欄をクリア
                     document.getElementById('new_password').value = '';
                     document.getElementById('new_password_confirm').value = '';
                 } else {
-                    // Thất bại (ví dụ: nickname đã tồn tại)
+                    // 失敗 (例: ニックネームが重複など)
                     throw new Error(result.message || "更新に失敗しました。");
                 }
                 
             } catch (error) {
-                console.error("Lỗi cập nhật profile:", error);
+                console.error("プロフィール更新エラー:", error);
                 resultsDiv.innerHTML = `<p class="text-lg text-red-600">${error.message}</p>`;
             } finally {
-                // Luôn luôn kích hoạt lại nút
+                // 常にボタンを再度有効化
                 submitButton.disabled = false;
             }
         }
 
         /**
-         * Gắn Listener khi DOM đã tải xong
+         * DOM読み込み完了時にリスナーを設定
          */
         document.addEventListener('DOMContentLoaded', () => {
             const userMenuButton = document.getElementById('user-menu-button');
@@ -229,26 +218,26 @@
             const logoutButton = document.getElementById('logout-button');
             const profileForm = document.getElementById('profileForm');
 
-            // 1. Lấy thông tin user (và điền vào form)
+            // 1. ユーザー情報を取得 (フォームに入力)
             fetchUserProfile();
 
-            // 2. Bật/tắt dropdown
+            // 2. ドロップダウンの表示/非表示切り替え
             userMenuButton.addEventListener('click', () => {
                 const isHidden = userMenu.classList.contains('hidden');
                 userMenu.classList.toggle('hidden', !isHidden);
             });
 
-            // 3. Xử lý đăng xuất
+            // 3. ログアウト処理
             logoutButton.addEventListener('click', handleLogout);
 
-            // 4. (Tùy chọn) Đóng dropdown khi click ra ngoài
+            // 4. (オプション) 外側クリックでドロップダウンを閉じる
             window.addEventListener('click', (e) => {
                 if (!userMenuButton.contains(e.target) && !userMenu.contains(e.target)) {
                     userMenu.classList.add('hidden');
                 }
             });
             
-            // 5. (MỚI) Gắn listener cho submit form profile
+            // 5. プロフィール更新フォームのリスナー設定
             profileForm.addEventListener('submit', handleProfileUpdate);
         });
     </script>

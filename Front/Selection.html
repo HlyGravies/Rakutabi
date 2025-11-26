@@ -4,9 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MiniTrip - ルート提案</title>
-    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Inter Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
@@ -27,16 +25,13 @@
         
         <div class="bg-white p-6 sm:p-8 md:p-10 rounded-2xl shadow-lg w-full max-w-2xl">
             
-            <!-- ヘッダー -->
             <div class="text-center mb-8">
                 <h1 class="text-3xl md:text-4xl font-bold text-orange-600 mb-2">MiniTrip</h1>
                 <p class="text-lg md:text-xl text-gray-600">“すきま時間”を、最高に楽しく。</p>
             </div>
 
-            <!-- 入力フォーム -->
             <form id="tripForm" class="space-y-6">
 
-                <!-- 1. 現在地 -->
                 <div>
                     <label for="location" class="block text-sm font-semibold text-gray-700 mb-2">現在地または出発地</label>
                     <input type="text" id="location" name="location"
@@ -44,17 +39,14 @@
                            placeholder="例：東京駅、渋谷ヒカリエ">
                 </div>
 
-                <!-- 2. 使える時間 -->
                 <div>
                     <label class="block text-sm font-semibold text-gray-700 mb-2">使える時間（すきま時間）</label>
                     <div class="grid grid-cols-2 gap-4 items-center">
-                        <!-- 開始時間 -->
                         <div>
                             <label for="start-time" class="block text-xs font-medium text-gray-600 mb-1">開始時間</label>
                             <input type="time" id="start-time" name="start-time"
                                    class="w-full px-4 py-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition duration-200">
                         </div>
-                        <!-- 終了時間 -->
                         <div>
                             <label for="end-time" class="block text-xs font-medium text-gray-600 mb-1">終了時間</label>
                             <input type="time" id="end-time" name="end-time"
@@ -63,39 +55,32 @@
                     </div>
                 </div>
 
-                <!-- 3. 移動手段 -->
                 <div>
                     <label class="block text-sm font-semibold text-gray-700 mb-3">主な移動手段</label>
                     <div class="grid grid-cols-3 gap-3">
-                        <!-- 徒歩 -->
                         <label for="transport-walk" class="flex flex-col items-center p-3 border border-gray-300 rounded-lg cursor-pointer hover:bg-orange-50 transition duration-200 has-[:checked]:bg-orange-100 has-[:checked]:border-orange-500 has-[:checked]:ring-2 has-[:checked]:ring-orange-500">
                             <input type="radio" id="transport-walk" name="transport" value="walk" class="form-radio hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-gray-600 mb-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M11.933 12.8a1 1 0 000-1.6L6.6 7.2A1 1 0 005 8v8a1 1 0 001.6.8l5.333-4zM19.933 12.8a1 1 0 000-1.6l-5.333-4A1 1 0 0013 8v8a1 1 0 001.6.8l5.333-4z" />
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M11 5.055A9 9 0 0119 13v.018M11 5.055A9 9 0 003 13v.018m8-7.963v17.909" />
-                                <!-- 代替アイコン (歩行者) -->
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M12 4a1 1 0 011 1v5.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 111.414-1.414L11 10.586V5a1 1 0 011-1z" />
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M11.5 14.5A2.5 2.5 0 009 12a2.5 2.5 0 00-2.5 2.5V20h7v-5.5zM12.5 14.5A2.5 2.5 0 0115 12a2.5 2.5 0 012.5 2.5V20h-7v-5.5z" />
                             </svg>
                             <span class="text-sm font-medium text-gray-700">徒歩</span>
                         </label>
-                        <!-- 公共交通 -->
                         <label for="transport-public" class="flex flex-col items-center p-3 border border-gray-300 rounded-lg cursor-pointer hover:bg-orange-50 transition duration-200 has-[:checked]:bg-orange-100 has-[:checked]:border-orange-500 has-[:checked]:ring-2 has-[:checked]:ring-orange-500">
                             <input type="radio" id="transport-public" name="transport" value="public" class="form-radio hidden" checked>
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-gray-600 mb-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
-                                <!-- 代替アイコン (電車) -->
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M8 11V7a4 4 0 118 0v4M5 9h14M5 12h14m-7 4h.01M5 15h14M3 18h18" />
                             </svg>
                             <span class="text-sm font-medium text-gray-700">公共交通</span>
                         </label>
-                        <!-- タクシー -->
                         <label for="transport-taxi" class="flex flex-col items-center p-3 border border-gray-300 rounded-lg cursor-pointer hover:bg-orange-50 transition duration-200 has-[:checked]:bg-orange-100 has-[:checked]:border-orange-500 has-[:checked]:ring-2 has-[:checked]:ring-orange-500">
                             <input type="radio" id="transport-taxi" name="transport" value="taxi" class="form-radio hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-gray-600 mb-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                                <!-- 代替アイコン (車) -->
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M12 11c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm0-10C6.5 1 1 6.5 1 12s5.5 11 11 11 11-5.5 11-11S17.5 1 12 1zm0 18c-3.9 0-7-3.1-7-7s3.1-7 7-7 7 3.1 7 7-3.1 7-7 7zm-1-11h2v2h-2v-2z" />
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M19.21 11.33A9.03 9.03 0 0012 3C6.48 3 2 7.48 2 13s4.48 10 10 10 10-4.48 10-10c0-1.79-.52-3.46-1.42-4.88l-1.06 1.06c.64 1.14 1 2.45 1 3.82 0 4.41-3.59 8-8 8s-8-3.59-8-8 3.59-8 8-8c1.37 0 2.68.36 3.82 1l1.06-1.06A8.96 8.96 0 0012 3z" />
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M14 17.5c0 .83-.67 1.5-1.5 1.5S11 18.33 11 17.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5zM10 17.5c0 .83-.67 1.5-1.5 1.5S7 18.33 7 17.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5z" />
@@ -106,46 +91,39 @@
                     </div>
                 </div>
 
-                <!-- 4. 目的・好み -->
                 <div>
                     <label class="block text-sm font-semibold text-gray-700 mb-3">目的・好み（複数選択可）</label>
                     <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
-                        <!-- 名所 -->
                         <label for="pref-spot"
                                class="flex items-center space-x-3 px-4 py-3 border border-gray-300 rounded-lg cursor-pointer hover:bg-orange-50 transition duration-200 has-[:checked]:bg-orange-100 has-[:checked]:border-orange-500 has-[:checked]:ring-2 has-[:checked]:ring-orange-500">
                             <input type="checkbox" id="pref-spot" name="preferences" value="名所"
                                    class="form-check h-5 w-5 rounded border-gray-300 text-orange-600 focus:ring-orange-500">
                             <span class="font-medium text-gray-700">名所</span>
                         </label>
-                        <!-- 写真 -->
                         <label for="pref-photo"
                                class="flex items-center space-x-3 px-4 py-3 border border-gray-300 rounded-lg cursor-pointer hover:bg-orange-50 transition duration-200 has-[:checked]:bg-orange-100 has-[:checked]:border-orange-500 has-[:checked]:ring-2 has-[:checked]:ring-orange-500">
                             <input type="checkbox" id="pref-photo" name="preferences" value="写真"
                                    class="form-check h-5 w-5 rounded border-gray-300 text-orange-600 focus:ring-orange-500">
                             <span class="font-medium text-gray-700">写真</span>
                         </label>
-                        <!-- カフェ -->
                         <label for="pref-cafe"
                                class="flex items-center space-x-3 px-4 py-3 border border-gray-300 rounded-lg cursor-pointer hover:bg-orange-50 transition duration-200 has-[:checked]:bg-orange-100 has-[:checked]:border-orange-500 has-[:checked]:ring-2 has-[:checked]:ring-orange-500">
                             <input type="checkbox" id="pref-cafe" name="preferences" value="カフェ"
                                    class="form-check h-5 w-5 rounded border-gray-300 text-orange-600 focus:ring-orange-500">
                             <span class="font-medium text-gray-700">カフェ</span>
                         </label>
-                        <!-- ミュージアム -->
                         <label for="pref-museum"
                                class="flex items-center space-x-3 px-4 py-3 border border-gray-300 rounded-lg cursor-pointer hover:bg-orange-50 transition duration-200 has-[:checked]:bg-orange-100 has-[:checked]:border-orange-500 has-[:checked]:ring-2 has-[:checked]:ring-orange-500">
                             <input type="checkbox" id="pref-museum" name="preferences" value="ミュージアム"
                                    class="form-check h-5 w-5 rounded border-gray-300 text-orange-600 focus:ring-orange-500">
                             <span class="font-medium text-gray-700">ミュージアム</span>
                         </label>
-                        <!-- 食べ歩き -->
                         <label for="pref-eat"
                                class="flex items-center space-x-3 px-4 py-3 border border-gray-300 rounded-lg cursor-pointer hover:bg-orange-50 transition duration-200 has-[:checked]:bg-orange-100 has-[:checked]:border-orange-500 has-[:checked]:ring-2 has-[:checked]:ring-orange-500">
                             <input type="checkbox" id="pref-eat" name="preferences" value="食べ歩き"
                                    class="form-check h-5 w-5 rounded border-gray-300 text-orange-600 focus:ring-orange-500">
                             <span class="font-medium text-gray-700">食べ歩き</span>
                         </label>
-                        <!-- 飲食店 -->
                         <label for="pref-restaurant"
                                class="flex items-center space-x-3 px-4 py-3 border border-gray-300 rounded-lg cursor-pointer hover:bg-orange-50 transition duration-200 has-[:checked]:bg-orange-100 has-[:checked]:border-orange-500 has-[:checked]:ring-2 has-[:checked]:ring-orange-500">
                             <input type="checkbox" id="pref-restaurant" name="preferences" value="飲食店"
@@ -155,7 +133,6 @@
                     </div>
                 </div>
 
-                <!-- 5. サプライズ要素 -->
                 <div>
                     <label for="surprise" class="flex items-center space-x-3 p-4 border border-gray-200 bg-gray-50 rounded-lg cursor-pointer hover:bg-gray-100 transition duration-200">
                         <input type="checkbox" id="surprise" name="surprise"
@@ -167,7 +144,6 @@
                     </label>
                 </div>
                 
-                <!-- 送信ボタン -->
                 <div class="pt-4">
                     <button type="submit"
                             class="w-full bg-orange-600 text-white text-lg font-bold py-4 px-6 rounded-lg shadow-md hover:bg-orange-700 focus:outline-none focus:ring-4 focus:ring-orange-500 focus:ring-opacity-50 transition duration-300 ease-in-out transform hover:-translate-y-0.5">
@@ -177,11 +153,9 @@
 
             </form>
 
-            <!-- ローディング/結果表示エリア（ダミー） -->
             <div id="results" class="mt-8 text-center hidden">
                 <p class="text-lg text-gray-700">最適なルートを検索中です...</p>
-                <!-- ここにローディングスピナーや結果を表示 -->
-            </div>
+                </div>
 
         </div>
     </div>
@@ -221,5 +195,3 @@
 
 </body>
 </html>
-
-

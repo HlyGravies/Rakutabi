@@ -4,9 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MiniTrip - Kế hoạch mới</title>
-    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Inter & Noto Sans JP Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
@@ -77,10 +75,6 @@
 </head>
 <body>
 
-    <!-- 
-      Đây là nơi bạn paste dữ liệu JSON của mình.
-      (Giữ nguyên)
-    -->
     <script id="preferences-data" type="application/json">
     [
       {
@@ -357,38 +351,29 @@
     ]
     </script>
 
-    <!-- 
-      HEADER MỚI (Đã thêm)
-    -->
     <header class="bg-white shadow-md sticky top-0 z-50">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-16">
-                <!-- Logo -->
                 <div class="flex-shrink-0 flex items-center">
                      <h1 class="text-2xl font-bold text-orange-600">MiniTrip</h1>
                 </div>
                 
-                <!-- Profile Dropdown (Icon User) -->
                 <div class="relative">
                     <div>
                         <button type="button" class="bg-white rounded-full flex text-sm focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
                             <span class="sr-only">Open user menu</span>
-                            <!-- Biểu tượng User (SVG) -->
                             <svg class="h-8 w-8 rounded-full text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
                               <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-5.5-2.5a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zM10 12a5.99 5.99 0 00-4.793 2.39A6.483 6.483 0 0010 16.5a6.483 6.483 0 004.793-2.11A5.99 5.99 0 0010 12z" clip-rule="evenodd" />
                             </svg>
                         </button>
                     </div>
 
-                    <!--
-                      Menu Dropdown (bị ẩn)
-                    -->
                     <div id="user-menu" class="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5 focus:outline-none hidden" role="menu" aria-orientation="vertical" aria-labelledby="user-menu-button" tabindex="-1">
                         <div class="px-4 py-2 text-sm text-gray-700" role="none">
                             こんにちは、 <strong id="welcome-nickname">User</strong>さん
                         </div>
                         <a href="/map?mode=favorites" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
-                            ❤️ お気に入り (Đã lưu)
+                            ❤️ お気に入り (保存済み)
                         </a>
                         <a href="/profile" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem" tabindex="-1" id="user-menu-item-0">プロフィール設定</a>
                         <button id="logout-button" class="w-full text-left block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem" tabindex="-1">
@@ -400,9 +385,6 @@
         </div>
     </header>
     
-    <!-- 
-      CONTAINER CHÍNH (FORM)
-    -->
     <div class="container mx-auto px-4 py-8 md:py-12 flex items-center justify-center">
         
         <div class="bg-white p-6 sm:p-8 md:p-10 rounded-2xl shadow-lg w-full max-w-3xl">
@@ -411,10 +393,8 @@
                 <h2 class="text-2xl font-semibold text-gray-700">プランを作成</h2>
             </div>
 
-            <!-- Form chính (Giữ nguyên) -->
             <form id="mainForm" class="space-y-8">
 
-                <!-- 1. PHẦN 1: CHỌN ĐỊA ĐIỂM -->
                 <fieldset class="border border-gray-300 rounded-lg p-6">
                     <legend class="text-xl font-semibold text-gray-700 px-2">
                         <span class="text-orange-600">1.</span> どこから？
@@ -428,7 +408,6 @@
                                    placeholder="駅、ランドマーク、または住所...">
                         </div>
                         
-                        <!-- Dấu gạch "hoặc" -->
                         <div class="relative">
                             <div class="absolute inset-0 flex items-center" aria-hidden="true">
                                 <div class="w-full border-t border-gray-300"></div>
@@ -438,7 +417,6 @@
                             </div>
                         </div>
 
-                        <!-- Nút Vị trí hiện tại -->
                         <div>
                             <button type="button" id="current-location-btn"
                                     class="w-full flex items-center justify-center py-3 px-4 border border-gray-300 rounded-lg shadow-sm bg-white hover:bg-gray-50 text-gray-700 font-medium transition duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orange-500">
@@ -452,21 +430,15 @@
                     </div>
                 </fieldset>
 
-                <!-- 2. PHẦN 2: CHỌN SỞ THÍCH -->
                 <fieldset class="border border-gray-300 rounded-lg p-6">
                     <legend class="text-xl font-semibold text-gray-700 px-2">
                         <span class="text-orange-600">2.</span> どんな気分？
                     </legend>
                     
-                    <!-- Container cho các mục <details> (JS sẽ đổ vào đây) -->
                     <div id="preferences-container" class="space-y-2 mt-4 max-h-96 overflow-y-auto pr-2">
-                        <!-- JS sẽ tự động tạo nội dung ở đây -->
-                    </div>
+                        </div>
                 </fieldset>
 
-                <!-- 
-                  3. PHẦN 3: (MỚI) CHỌN THỜI GIAN
-                -->
                 <fieldset class="border border-gray-300 rounded-lg p-6">
                     <legend class="text-xl font-semibold text-gray-700 px-2">
                         <span class="text-orange-600">3.</span> どのくらい？
@@ -477,13 +449,12 @@
                             <label for="trip-duration" class="block text-sm font-semibold text-gray-700 mb-2">時間の説明 (例: 約3時間)</label>
                             <input type="text" id="trip-duration"
                                    class="w-full px-4 py-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent transition duration-200"
-                                   value="khoảng 4-5 tiếng, bao gồm 1 bữa ăn trưa và 1 buổi cafe chiều" required>
+                                   value="約4〜5時間（昼食とカフェ休憩を含む）" required>
                         </div>
                     </div>
                 </fieldset>
                 
 
-                <!-- 4. PHẦN 4: NÚT GỬI -->
                 <div class="pt-4">
                     <button type="submit" id="submit-button"
                             class="w-full bg-orange-600 text-white text-lg font-bold py-3 px-6 rounded-lg shadow-md hover:bg-orange-700 focus:outline-none focus:ring-4 focus:ring-orange-500 focus:ring-opacity-50 transition duration-300 ease-in-out transform hover:-translate-y-0.5">
@@ -492,16 +463,12 @@
                 </div>
             </form>
 
-            <!-- Vùng hiển thị lỗi -->
             <div id="error-message" class="mt-6 text-center text-red-600 font-semibold hidden"></div>
 
         </div>
     </div>
 
 
-    <!-- 
-      JavaScript
-    -->
     <script>
         // ⚠️ THAY KEY CỦA BẠN VÀO ĐÂY
         const GOOGLE_MAPS_API_KEY = "AIzaSyAmbdRFOMwNlwiUD-LEwTvvJ6Twb0JlpmU";
@@ -524,7 +491,7 @@
             autocomplete.addListener('place_changed', () => {
                 const place = autocomplete.getPlace();
                 if (!place.geometry || !place.geometry.location) {
-                    console.log("Không tìm thấy tọa độ cho địa điểm này.");
+                    console.log("この場所の座標が見つかりません。");
                     return;
                 }
                 
@@ -532,7 +499,7 @@
                 selectedLng = place.geometry.location.lng();
                 
                 updateLocationStatus(`設定完了: ${place.name}`, 'green');
-                console.log(`Đã chọn địa điểm: ${place.name} (${selectedLat}, ${selectedLng})`);
+                console.log(`場所を選択しました: ${place.name} (${selectedLat}, ${selectedLng})`);
             });
         }
 
@@ -552,7 +519,7 @@
                         
                         document.getElementById('location-input').value = '現在地 (座標)';
                         updateLocationStatus('現在地の座標を取得しました！', 'green');
-                        console.log(`Đã lấy vị trí hiện tại: (${selectedLat}, ${selectedLng})`);
+                        console.log(`現在地を取得しました: (${selectedLat}, ${selectedLng})`);
                         btn.disabled = false;
                     },
                     (error) => {
@@ -632,7 +599,7 @@
             } catch (e) {
                 console.error("Lỗi khi render JSON:", e);
                 document.getElementById('preferences-container').innerHTML = 
-                    '<p class="text-red-600">Sở thích load lỗi. Vui lòng tải lại trang.</p>';
+                    '<p class="text-red-600">設定の読み込みに失敗しました。ページを再読み込みしてください。</p>';
             }
         }
 
@@ -653,7 +620,7 @@
                     // Chờ 5 giây trước khi "hỏi thăm"
                     await new Promise(resolve => setTimeout(resolve, 5000));
 
-                    console.log(`Đang "hỏi thăm" trạng thái job: ${job_id} (Lần ${attempts})`);
+                    console.log(`ジョブステータスを確認中... job_id: ${job_id} (回数 ${attempts})`);
                     
                     // SỬA: Dùng đường dẫn tương đối
                     const response = await fetch(`/api/check-status?job_id=${job_id}`, {
@@ -661,13 +628,13 @@
                     });
 
                     if (!response.ok) {
-                        throw new Error(`Server "hỏi thăm" lỗi: ${response.status}`);
+                        throw new Error(`ステータス確認エラー: ${response.status}`);
                     }
 
                     const result = await response.json();
                     
                     if (!result.success) {
-                         throw new Error(result.error || "Lỗi không xác định khi kiểm tra status.");
+                         throw new Error(result.error || "ステータス確認中に不明なエラーが発生しました。");
                     }
 
                     // Xử lý kết quả "hỏi thăm"
@@ -681,8 +648,8 @@
                             running = false; // Dừng vòng lặp
                             break;
                         case 'error':
-                            console.error("Job THẤT BẠI:", result.data.error);
-                            errorDiv.textContent = `Lỗi từ server: ${result.data.error}`;
+                            console.error("ジョブ失敗:", result.data.error);
+                            errorDiv.textContent = `サーバーエラー: ${result.data.error}`;
                             errorDiv.classList.remove('hidden');
                             submitButton.disabled = false;
                             submitButton.innerHTML = 'プランを作成する';
@@ -690,15 +657,15 @@
                             break;
                         case 'running':
                         default:
-                            console.log("Job vẫn đang chạy, chờ 5 giây nữa...");
+                            console.log("処理中... 5秒後に再試行します");
                             // Vòng lặp sẽ tự động tiếp tục
                             break;
                     }
 
                 } catch (error) {
-                    console.error("Lỗi khi 'hỏi thăm':", error);
+                    console.error("ステータス確認エラー:", error);
                     // Nếu lỗi (ví dụ: mất mạng), chúng ta cũng dừng lại
-                    errorDiv.textContent = `Lỗi kết nối khi "hỏi thăm": ${error.message}`;
+                    errorDiv.textContent = `通信エラー: ${error.message}`;
                     errorDiv.classList.remove('hidden');
                     submitButton.disabled = false;
                     submitButton.innerHTML = 'プランを作成する';
@@ -707,8 +674,8 @@
             }
             
             if (attempts >= maxAttempts) {
-                 console.error("Hết thời gian chờ (timeout) 150 giây.");
-                 errorDiv.textContent = "Server xử lý quá lâu, vui lòng thử lại.";
+                 console.error("タイムアウト（150秒）しました。");
+                 errorDiv.textContent = "処理に時間がかかっています。もう一度お試しください。";
                  errorDiv.classList.remove('hidden');
                  submitButton.disabled = false;
                  submitButton.innerHTML = 'プランを作成する';
@@ -759,7 +726,7 @@
                 duration: tripDuration
             };
             
-            console.log("--- DỮ LIỆU SẼ GỬI ĐẾN PYTHON (POST) ---");
+            console.log("--- 送信データ (POST) ---");
             console.log(JSON.stringify(formData, null, 2));
 
             // 4. Vô hiệu hóa nút và hiển thị loading
@@ -782,23 +749,23 @@
             })
             .then(response => {
                 if (response.status !== 202) { // 202 Accepted
-                    throw new Error(`Server không chấp nhận yêu cầu: ${response.status}`);
+                    throw new Error(`サーバーエラー: リクエストが拒否されました: ${response.status}`);
                 }
                 return response.json();
             })
             .then(data => {
                 if (data.success && data.job_id) {
                     // 6. ⚠️ THÀNH CÔNG! BẮT ĐẦU "HỎI THĂM" ⚠️
-                    console.log("Job đã bắt đầu. Job ID:", data.job_id);
+                    console.log("ジョブを開始しました。ID:", data.job_id);
                     pollForJobStatus(data.job_id, errorDiv, submitButton);
                 } else {
-                    throw new Error(data.error || "Lỗi không xác định khi bắt đầu job.");
+                    throw new Error(data.error || "ジョブの開始に失敗しました（不明なエラー）。");
                 }
             })
             .catch(error => {
                 // Xử lý lỗi (lỗi mạng, server crash, v.v.)
-                console.error("Lỗi khi gọi /api/start-job:", error);
-                errorDiv.textContent = `Lỗi: ${error.message}. Vui lòng thử lại.`;
+                console.error("/api/start-job 呼び出しエラー:", error);
+                errorDiv.textContent = `エラー: ${error.message}。もう一度お試しください。`;
                 errorDiv.classList.remove('hidden');
                 submitButton.disabled = false;
                 submitButton.innerHTML = 'プランを作成する';
@@ -824,7 +791,7 @@
                     document.getElementById('welcome-nickname').textContent = result.nickname;
                 }
             } catch (error) {
-                console.error("Lỗi khi lấy profile:", error);
+                console.error("プロフィール取得エラー:", error);
                 // Nếu fetch lỗi, quay về trang login
                 window.location.href = '/login';
             }
@@ -841,8 +808,8 @@
                     window.location.href = '/login'; // Chuyển về trang login
                 }
             } catch (error) {
-                console.error("Lỗi khi đăng xuất:", error);
-                alert("Đăng xuất thất bại, vui lòng thử lại.");
+                console.error("ログアウトエラー:", error);
+                alert("ログアウトに失敗しました。もう一度お試しください。");
             }
         }
 
@@ -886,8 +853,6 @@
         
     </script>
     
-    <!-- Script Google Maps (phải tải sau cùng) -->
-    <!-- ⚠️ Thay 'YOUR_GOOGLE_MAPS_API_KEY_HERE' bằng key của bạn -->
     <script async
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAmbdRFOMwNlwiUD-LEwTvvJ6Twb0JlpmU&libraries=places&callback=initAutocomplete">
     </script>

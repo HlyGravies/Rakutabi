@@ -1,0 +1,247 @@
+[
+    {
+        "plan_title": "ハノイ中心部の歴史と文化散策",
+        "theme": "歴史と文化",
+        "estimated_duration_hours": 4.5,
+        "waypoints": [
+            {
+                "place_id": "restaurant_pholyquocsu_1",
+                "order": 1,
+                "name": "フォー10 リ・クォック・スー (Phở 10 Lý Quốc Sư)",
+                "activity": "昼食",
+                "location": {
+                    "lat": 21.0306,
+                    "lng": 105.8496
+                },
+                "info": "ハノイで最も有名なフォーの店の一つで、地元の雰囲気の中で美味しいフォーを体験できます。",
+                "distance_text": "現在地から約1.5 km",
+                "duration_text": "タクシーで約7分、食事に約1時間",
+                "transport_mode": "Taxi",
+                "photo_references": [],
+                "review_texts": []
+            },
+            {
+                "place_id": "ChIJSXwdOKOrNTERNylYj9mnIbU",
+                "order": 2,
+                "name": "ハノイ大教会 (Nhà thờ Lớn Hà Nội)",
+                "activity": "観光",
+                "location": {
+                    "lat": 21.0352231,
+                    "lng": 105.8402594
+                },
+                "info": "ネオゴシック様式が美しい、ハノイのシンボル的な教会です。荘厳な雰囲気を感じてください。",
+                "distance_text": "前の地点から約0.5 km",
+                "duration_text": "徒歩で約7分、見学に約45分",
+                "transport_mode": "Đi bộ",
+                "photo_references": [
+                    "AWn5SU4ItUJo4dTuSYqH07hWgBXi2tdRFhTvZjwMm0WF94rRAx3mfVg8ugQ65HYw5bTu3ayGKKs-W7y-Ge0z4pQ-9djPTlJ_k72LUlMgUzPVT3ZqOq67QM2i3Dw2-ehMKpkNgPLoCijvL9Si2xifaJVHKUW4Qg8eLNVZ9HBtQr8zMT8rVevL1fukZRqn9b79qLkAH6PuceW1H9VZ-9pG67C1QsNQ_zV3U6NS1ADUxDcODicT0M25k-ZocjHscjLTgTLJdBHyGulqXXtl2olOntMnNJKIG2JDs7rxfy6e1kfh37oevMBJesNWyfqmEcFLdN8B4Z8UzEk_lzdAZepujo_RX9VSsoPlAFwFngh6LC8xywX-gRSosc_qj3vhcj4P2ybUqE_ifmO2i9kCxbL6IE31UCcWpmhFGVkeUs2SnwHV37lqWYyf",
+                    "AWn5SU69o_LWiXY2hTE7FkGoYBdxQlFybcrxFKiszn8AlILzagRvdsMBw5Tda3ASTpcXhihlkoC32GMHjlRBwBG6V_948XZSz_R9O3uCZ7TZrL3-9vido_gr9-r6omrpWwB3v5OaKU10X1cVTzOhAT3ooDfHzdbqD5Tit0uXXCX_zNHA0a4aCeyV3NUIRTCgEixYLzNAVIShk-8CtpWFLZdn10YlvyqatfVEjWFVSr5ai70OMewOoBjGm5B3Px6_aGXI7lxcqMl3PPoE1bGnlP4iwuW5dgia1ldKeOdkVSc-bO5Nf5C3hlhFFUM8zNU7uI9yBxRze2aL-7fFwUSmH7vY47SunpBu0b2e3-6PMhaiN9HfE_P53BdCnaKs3HeOeopIFxsbw3qzQAFUKzkO1zFQUTuRP4WStvfxzWskjh7HvePUJWg6",
+                    "AWn5SU7sEqpZKgEv7xwx2TDXzQhrvunYlRmmfbwbvIHUnrLc5w_dig0WkQguKJf4PyP3qMHnovXLPUzK8RwdAPzsQqhHexaRXzhxR5xhoI_dmoqAT65Did4R0Zo0URCpagnmZnyIWMeLkX4a86kRGRRNqbExbCcgwI-L2ZxwbtqwmH6wkN_6MpzEUAaOplDhtEESREXKuj3XlbGYw5BGI97Ex32LFrlLoLauQYlPg7uO8Vw8aJtNQUcvaAIcMPX_c4o3i242QEi1MZbC3BbLfz4qt2pyxo01q2EIibw4gi0zqwmOgiZEAqwnPMfZTnMVyA6baec_fvG63R8MNc0-fD326-1zUPwG--bsnhOVTeZIYSKL84_UcC9NyHanfLvyVPoAZ-B6S-rif5hgH4UDPUL9VVZFcJ9FbGczxBkVVOCd9JG-Iw",
+                    "AWn5SU58WXWILxdh8q4Ya3MfP0eVXDNobmKIq44UTylCswtizsE2W1w0oBlfQ_oOA2bbUykkSNM6E8Xz_D1L_3FfXSPdxkXzCMS6OGR8uGkI9Bvfr3mtKa_JpuhhWFTWyfaqvZT0gStFdcT3Jn7ol6S4quGnxwKn3M0wAz29r-V1Tx9JGBWMObSunSsmW0CnUljnXLz-OA3biLPFNHfhEgWXGesva3hMyTTR0NHoHv677VqA_G3eczPxBDycE3z7TGmrwxzLh_aExQEHs_B5a3INs58ResWGjKZxQCnGhaBgjN1SXLUi8TEP8xztB7XJIEza_wtkwxWma9mv7A3YaFZc9XlFvDOb0yaZjy1B_p286n6fBpBdU2iNOH2MkJRPd9N3JmlGi0LmGes8qjQ6Npg40uomlx9ECsznvpxS7ARshqC1ExJj",
+                    "AWn5SU5K6AaGVapc7oeNIUQH36oPO2P_fBsD1vHmUibszsGEvq6_f3i0Ye2byJpbwCn4ClRTfJJfFu5iSipF8JQ9QoQVHa-BwbEDWFyQeCD54-B3IqFc4tg0kx3fDPK7KKCDO5bSGQsvDMex6S02hAToFEf8RiNA1tCTFxQCNWkxjDTTv9Ji4hyY1FIEorbexlza8WEiOD51tlKQvrojfE7XkGppKhQp9XwjR5DIubCm2CAZp7uh02QNx6MpT_qk4jHtjxKMmA9XCH_Y5ZKzAB_e9p3HTXbsRfEs8Ptt2GB9ye3bZWu5Ow_hp5NOG1rWUCn7SyrTqWFFf9KBcB7xphIksr0S29YBvfgd7gCgdcMVMwUc5la23PasMJgxEp9NhokXdwcvFBOOtUVCtvkbX9ndmm2aNefRjoUbvJIplb2gg-Ewhg",
+                    "AWn5SU5PXC5AUvMUJ5hhk2Y8SxthNXdC7042jJ6omNw0velChQgxu9vIbq0lXQH1HAHI8jHBoH1_BBqXLnCuDvQUs9-b1onggKXvFS1cavJnEJyju7m9vXX10LxmkGExX9rVV2iH5rUmfJMeXwNAXlbyd66kN1jWkcbVpUlOiDvqiSAFgfzZi_I8xHkbngSsHjJfzL5EUXV87rl3BkpugLySuIiwWgtETVrvauRoDUu7L8zW8dU_cGg9vSik3ArbJS3MDny2QdnIxR5ZKUHlDjGM-fYOgicRmf-iUREuHR2-qDd26Y1tf4KLop1ii3Pz2C3r1ucsZFY25DkoywtV9RJc_s-0U0itHD5QaKp_Asmx0mMUQkj-h67aCntQ700yM5FbB1igm7XqVuDU2iQMoiM9IOZ-7xF9neDVoF1PCP6T3sN76Q",
+                    "AWn5SU7qCnOE0yMdFS37VEJThI5D8TO219VIkB5xwVAhx4v31G_IK84t7HaQZ92aCTXmCbrrx1ZFPo18pz-AJ0oiWWR-5OGjtpCmJt5BwXf_txwf2z2__8SVejEN4pTA2sFZBzZYQZBU8NS6ffyKh42u58e79Um6moCCfxMQjv5c6opxYm-n39i7JNbS7ZmmV0MHwgKtM5-XS3DWUekA7Rn-IPcumoIZ-ScXQrDWre5p97E9ihUtcvy39HvPhzz1EpDBuKzbzY7r2eo_C-mz65YX7HIVVHnueDK4DUzG9gfH6HXSnf0tVL5y7glUHKJaUJlb4W-dr-zbSO8XtfpOpt95fKBWT6Q0FtTk9Vm3gPdu2O-TdDT5PoW9oxMIT4ktwKRhsG_ZDIx02gIrQEjkG09-e8KcpTPZj5CTs34ijp6qDBVPgg5D",
+                    "AWn5SU7gYt3lSWEPM4FMQQjeFY7SD11jWV76BbbtQQHC6jy8WfUeftwNGpfEoCNBjmkt0oPmymk2_iQoyLVmzCPngdcUVanPY89tR2o5fto3HGp9_43eYr_GWrkbzU1-eirg6_4jhHBToZ18lS0oTGxyi-_kp4qz5Ks65A54nKxK8hl6C2jNOwGbol8O1dfrYl-FgBYaWlYj8tGjvx1KfX05GFz5weEQ4DMtjLb0A-3fPtcZuv7FwFtND9tCsOInaV_9SWvU5NI8tyz-eNJ-0Tyz6bEJL8vqo5Oidm35VHDvGCJPPu_l0iQwn0QSST5MfcK5Npo0UmN4CR3Wv2wKBU_rqSzwDJFKkPYl4B6TEqwIeo8dUjGy-QQinUU2VQf5YFOYgav7q1xCRRoWDnLyR-yx4uxOCP5HQcPJlO3bZ2EHIq6hSrOe",
+                    "AWn5SU7bRXN6Jwf0K4jbV8Jvtyrm5sfBpezh7mAs1oWLA3_tujUY0oS2zGsQhV7Bm9IbiyDcu9vdFnKt6Y0Ejahgd6ow71FoTzcXfwXsIS5H0E7JQSJtt913uWAkZkqo6QgoS9-xUGGr2CENm7ohDG2Ren1z4BHDUfY1z0ZVkn3SSLwS1AxNfIDecGunZorlzHCuibyyMGQicf-ovdOZslcTG22pP62o93wFTKvJyPdaiWWJSEX70oM4X8vI4hDZIibZqKYLaiWN4LBiBIOlie-ugViKwRGwWvITA2SN_JHN6_fSCI48VHtv_3oTJ_L5LNAvzJVhETCcoodaIl22j-z5rbIumS0h_buoVXotVyQhMHaoQ5M7QGSU2QLWBiLN_UMmOXViAp1g_ghjJIrZYlM8ftHmNgsI92rQ_o8XvZeMefdSHtQ",
+                    "AWn5SU5DAHydqJvyq5NLRQuW0Lk1NmbvdS4O405eoSsqQPtxLAMJ3CRlfuOcIllKQt1iB0NzS_KS4reXW8K1WyKt_hjdBHen8XlT5d6BEC1urE6vg-Pbn_fCBGGTRgCW_t00v3iXByvwhdK3NYaa7syvzKo7oieUf17qo03KYRzpBhEwpnMTC5vZrOM3DOAXpUk5sPgJaBJ2ncizaWtM0D7aRTz51AKLcSecJ43-fNd7BEGGMssTm_UR-VqvBy_JddtIUUMFOX7M4g0GeiSOHtXCaj6xdAK7oWRIgVJ2Q9hRRhYRc9kFHjUcUrmFKYIrezzhSTXRNasIBgtF9_WqluKghtXXby6EflMIZuX0FuTl2fWcFFNlevxtLIKxcgQwQ6z7pb1w5u26anmJBmIVQQ5Qno3wGnZ9yDj4EUEgnpW2TGfrhDrO7mOtHPm4D4BQMNrL"
+                ],
+                "review_texts": [
+                    "入場料金100,000VDN掛かりますが、ネットで事前購入すると600円～700円位で購入できるので面倒で無ければ事前購入をお勧めします。敷地内は広く、ライブ会場などのイベントにも使用されているよう。施設を廻る際には自動販売機で水分の補給やカフェで休憩をしながら観察される事をお勧めします。\n城跡の部分がアクリル板越しに見られますが、説明が無いとわかりません。色鮮やかなお花が沢山植えられて、とても綺麗です。",
+                    "タンロン城跡には徒歩で行ける距離だったので散歩がてらブラブラ。世界遺産でベトナム王朝の都が置かれた場所です。入場料を払って入ります。\n広大な敷地の奥に建っています。\n資料館もあり、名古屋城のシャチホコに似た龍の頭がありました。",
+                    "Hanoi Train Streetから直ぐなので徒歩で向かったら、暑さにやられたのか、入り口反対側の道を進んでしまった。\n敷地に沿って延々と歩きやっと北門に辿り着いた。\n此処でチケットを購入する事が出来たので北門から見学開始。\n警備のおっちゃんがこっちから北門登れるよと身振り手振りで教えてくれた。感謝\n敷地内は一部工事中のようで、北門を見学後道に出てタンロン城近くの入り口から再入場。\nこれもおっちゃんの案内。\n広大な遺跡群で派手さは無く、太陽に照らされ暑いので大変さもあるが、いくつかの展示棟で涼みながら見学を続行。\n数ヶ所のカフェやドリンクな自販機もあり。\n一部発掘作業や工事、イベントの設営作業で雑然としていたが、それでもベトナム🇻🇳ハノイに来て訪れて損はないと思う。\nバイクや車、人混みの喧騒から離れてホッと出来る場所だった。\nそしてベトナム戦争当時の地下司令室や地下壕の実物を見る事が出来たのは良かった。\n朽ちかけた昔の遺跡と共に、近いベトナム戦争当日のリアルさが実感出来る場所。\nフラッグタワーのベトナム🇻🇳国旗が誇らしげに見えた。\n日本に戻ってから大本営関連を調べ、行ってみようと思った。\n入園料金100,000VND（約600円）2025.10月現在",
+                    "今日午前中に行きました。\nイベントの準備なのか大掛かりな設営をしていました。歩く場所もないくらいに。\n景色も情緒もありませんでした。\n入場料はネットで70000ドンと見たのですが100000ドンに値上げされてました。",
+                    "城跡内にはトカゲやリス、白い鳩をよく見かけました。周辺ではお花を販売している人がたくさんいて、写真を撮っている人もいました。\n敷地内は広く、移動には時間を要します。17:00ぴったりに閉まるので要注意です。\nクレジット決済可能です。"
+                ]
+            },
+            {
+                "place_id": "ChIJp0o4Er6rNTERjlTif_IXU1k",
+                "order": 3,
+                "name": "玉山祠 (Đền Ngọc Sơn)",
+                "activity": "観光",
+                "location": {
+                    "lat": 21.034059,
+                    "lng": 105.8506368
+                },
+                "info": "ホアンキエム湖に浮かぶ美しい寺院で、歴史的な価値と静かな雰囲気が魅力です。亀の塔も見どころです。",
+                "distance_text": "前の地点から約1.0 km",
+                "duration_text": "徒歩で約12分、見学に約45分",
+                "transport_mode": "Đi bộ",
+                "photo_references": [
+                    "AWn5SU4khzC3NB4PtL_BkOy17DheENLPuYytQBYj_nkm3Rk3y6P_dghJenv4rHVfBDw6cx9ORbjZMHP71B5PGcIUAmgF-8hh_qZJrhKZ2eVLngpgYs7vLLiAKWTpj4eBOGPlFG7X5iScMVULMKLarcOeasex6CjcbjOufU8HFjVShi3_qlaccY470mnoS43EveeNa78EnICbm79tTuwQcIQZPv7jW9WLoFdPFtnqWDo3pio6k7f7vZpHF5RHcoSXi6j-Q3Q1FtnvsWMyiSqnUcHO_SoaeGxYC4MSOze5D0g6xAuPhMltuHjT4S3X9F2vI7Qo2jBH88vYFNPx49GgCeHiq76fo7ZtlkUb-E_F6JghAdcIvAgvT6_H79Lzujq5fLI8BjiO3VQ_mlBsezt4T09bQWfpjv_1-0P2X4QidRpyD9jJlg",
+                    "AWn5SU6RJ3JSi0HRbmLcdKU3KZu5aAs27gLw-q7R2NNARQDLyiHiKes4XRQLlbPENMCbAxGfy2ePMzRRhMAE6FROR5PzyR6JPNDqwhtJBMtaZ_UFuIcn2u9deQPWLTLTJdRY__pd_mwXG3PWcHPiLXqhQhYP83_OLeFaWeL_XgdwbI8Yr2I7Y_E_CKyve8C0cPFVHnHnZivXRvbpN1p8hxOxEUc2FWdkrYFja5WeMzR9ZxG5cLmdkBFVSDW3GUI8sZcdQC4yDFIlrFCyqnrWCodh8-JewjAutiv-i7Ie3Y3KQRjbYRbnEE-ew0zPxwqhtMr10zYotJQ6G2MSfAHfrMAeGSJAvvsqXnp8RK0XyK-V9VvjsbxaQcRN6eMBuMxw3P6tUy-VKRH7eoq1RTf5wgJ-X2zfdbSwUuYPFsEgbf3KTE2l0PpOw5K8VpqhXU38gw",
+                    "AWn5SU7QsPW_ricBXgEWtWAsCv1tL2gOtJ1xV7px0ErsVFtjCeM2Yoti1FxrCHpdxoZP47AMM9D5VhlbtMd8KmK4T2PDjaOYYNWVeEABGBC00fJu4UqkYeavsNFR_uZdLHyJrxS0j5xh9Ujm9TfJ9nayPPlfNFNao7gwxZMa09hc2-yxruz8OVxQgrkM6xSsBgBwSYrxz-JHKz04ZYqOv1hYpXzwnbEA3_XEJVROIUKfqKZHTxZt9VMBVNwRX7EkfnX8DX1FKW26jDyhVzDz1y7nfVrtEf14xnnH8kJ3c-2wxDw-M9AXzcTXO5cxQEAC88FNTv_eDkjvlLukqMILeigGYpwOgoA26A8rTGXjyo_Nl86qyIwmGg7WO-cC34teCSGMM-NRItEsFfBaYmowvHWR7vq-28UWM2bfdW2PO8A",
+                    "AWn5SU6Pw1_4zvM0ucuJadr1UhgibzyFWEg6LQPTC8siIl0wS0ND9B7Il2RjSkzS6QFaTLdqIvgYAJ5ZYqua-ZFMdJNHcDQ-v4BMvu3TXToULZ3Vgk7AuaG8GXh0bmVz9MRW2w52qZSP7zETBJFAQIm2Agm093FZfrPQJHpfh1axIfO3HNb6ozF5Y5OHHbNY4Ea4Ef50I3oHxrVLfzbqZtOHow6D8xYs7c0m3hd16O7UU4cJpS4V0gZbEoAfX7IMRf51LUjyDppSdKXOe3W4avyxh7X0afSxVRc8-esXbKHk5ZNHvGH7TpjiEUn32JKIQ4w7XiNU0-WoHz9kWum5fuNV9c2MgAiCzuCHvefW_sn53iEznbXfhzM4tXun5nYoiviiypAC4CXfoqen-JFzAxp199Gwf-TNlyDPRf3zUvRX5iD00kk",
+                    "AWn5SU6TJbJkJThaqHkj47sXj9spKVnCmAeIPzBLFkVLNNdfPeioqaUYFd0LqhonRLgmPKlZW_nMhprKs5jWtGp8mOmek-K7G4EijQzyiOy5oQl3fYWhUI7AOGoxMFL7PNVswPAGv6B-h4h74CVtXfS6FEpyXa_QWi1uJ52qh4hU_C3GsUECLbBr_AukzDZudXLtpIqH3blyQZNh8RcRuGb1L0if8Z5YXwSQfaxao05P868LKyrFuReRvxkGj2kOTPTmUQc1ZfNRD77et9X9gdfSEa1O9HacWeXyzTu9sgoRiqF3GkWABYoBT3_qFVbOM6p96Z4PKIxtuj4pfbctai8OJaT2Vem34YulWcknSusUqOJOzU8IzbU_M4lh4W9FVW9I-1QV1yCki4sPxPviIFUpdWTpBwcvgwKncliNpM0RwyA",
+                    "AWn5SU5YzrXd8Uso2W6iL9vxY0ODCxJsab8NK3W3dsDS8cQUZqcCm0CorC0vwvHdnPgf4nm71cMo37YUlow5Uu8zPYW-XCoM4VqqTPFhaLmcvK9R-7z_9DJ1UINj4MjyBFeosuhXvOP9bDBHmmqt9_RaSn_KCtUVgZ_XGu8mbl1KuIzhTjUxrt1uNvgjBj3J1lEyOMu-NAWPtJzXxTSSWp4sgOMeCVsq-p3vzCTqmbGYQpj2kG9ifQANgHueTJBCPqTebZDKmKyixbpFNFf-UchkCZKaj5YrZT5LPDfZft5-swGomjgLbf8Es15byo05kRw8JveCWCrqcTESNuZ7-lZ24Jz1FSoU8tQViVx-Hio2ithPFwQxNdqRtI_Acu7o1MQXcqnreadAshP4tK8-n4AkT2SQD6XSVQEh53UOzkzl2UWflMOo",
+                    "AWn5SU7c27paDd_R4ifTRy0vHYZIVkZHpQZsdiMHN_eDIK6nkHn-qwc0G8GfKifQlF8QqhjGzga1at7_kCFQLqNkjRGU46kvka_tpO0oJ67VBJ5NvhvcdT62Lrd1pHC5TFrmSCOYoZDsvEfnveWOhRoit2MEhmxWbYABbRVCelEqncB3g6n7Mqvfwih_LgwcAql6vnp0ERzHRKgvgpr19GC0wjTJwrifpBJgj-mpOgA7TuYcA3al4kBOhS3T0_3kW-Iay8Vbhs1K28p_lPjHIoyIXjY38yAr8mymDPPfFWkhV5zRjMx2jGuDR3tHykBXRerm2IlalbUPS_tL-mW1aOBoB72hsI8P9GWqmNth-yOdNNE7x-ssiOlYDjSAxdQCdgbkUndJJ4nqSeISpLXcLXsNXqhZuJDwb01Zdm0dhF7gz9vUcXGy",
+                    "AWn5SU7X1YGE_xSsKOX9LSrzyTmCytqJeoy8yVPLj0DYUR-DcP8J-OaurT7DRY5ioiugfN2I3D7aLmOEdH39SsIukNx2vtuuMh7qEKJP1l7kY8pAqn7qQcSXkiDsIEDXuncrzESc3Xm6u_r1lFLoJhD24ebjkR5QV7rw24buMEH-ELo1kU39ma2S-LBcFUQTaPnrbdUZmWUDLIUtkWq8dsFXpWdaeJrcbBkithr08t0Wo9dEIx8gocWoab7G2FSjmT7Cw85MwuBIW0SETfpMVIGCz2g39jz-_LzO_luvOhLRPnaopnTm9R9-xWsTQrvxxBvWXMP874I3meEKTobuQ1Ct5rFOXS0vZ1AqZF_A_GGiBxXPcY70gWWSlATga2kg9sf4f6OZFTci6_R-54ISZg0wyoQpgGfuyxmsZZIGT_y0ZO8",
+                    "AWn5SU6WXOaq-3Nv6IM2mdfz-llvhQ1fAOaxU5rU9lxmmA6PrEu9r1DMDKpz6c93JmWd1_HvPnACp1t5mC9CovEp30-HGPzLRVDRqKFX_2Jt9uWJuCiHwBcAabkH67gYowPOADqHExOJe3RImVGoXki38Tv2Iol-wVNZXhXWlgVAouXajIV33Cy5jg6VrfGYy58LJgYecXlId11v6IDTXLLKm8tx00lrwWdpzNqfPdun0LEKc1lg_X_wouLnnzYCR1VbJhDYcwxZcbJozrGCQJyL8qin1STd2PxrucdluyvTNIMibxEUpjpVx2cCAoOBGE67r8mZW2klNCntP0_yxGxjjNJ3bn_tYvwJVL7aW0dGwDHPxHdMldrS0nnMa3cbHiIgfvKZMvcGvOqaN6XVl0ckxC_0BDpbTzl-75NBSNLZKelzshTb",
+                    "AWn5SU7xkEyquRMN8IwFM5_06ffm8FkewDb1qAonWdAa6tAZPpxzXfDDjcIo2ATYniuvtn_jOP2uewQa8n7hLwZ5DJIbGx3EKpmBhwMUx5OGYfRApjlnLETmW1lPuy9dFfvc7RMZzLKpSGDk36PfLcKxuh-0zAFz_hrIVZnwNUaMzIbOcGj8iUd9T3YdHfWUxJFnPqX1vI_1rkf5wdpqYXmyzX5p6Yzuax7xJdqKPcGF9qswbt4JOQiLsk_FplOXiVLXcz5GXF6DekCHCuo192gsb1NlBHbkjyn82tkgfeZRusaj4DcygKlfAbmXI2T1DMarq96ktS4H0EboZ5IaOGEhjCQUeIXgdPooSs2BSZczyKZH4lrIo3QATPEvl54nW78_n7eykSTXL60L5oQ7ihQJtAlJIdcWmWxoag3BrHO2B5k"
+                ],
+                "review_texts": [
+                    "2025年11月、初めてハノイを訪れ、旧市街に宿泊しました。これまでホーチミン、ムイネー、コンダオ、フーコックなどベトナムのいろいろな場所に行きましたが、旧市街の雰囲気はまさに別世界。雑貨巡りが本当に楽しく、歩いているだけでワクワクします。\n夜になるとエリア全体がナイトマーケットに変わり、賑やかさと活気に包まれます。今回の旅行では旧市街しか訪れませんでしたが、それでも十分すぎるほど最高の時間を過ごせました。ハノイに行くなら、まずは旧市街を歩いてみることを強くおすすめします。",
+                    "どんな楽しみ方が良いかにもよりますが\nまだまだ楽しみどころはあると思います\n時期は春か秋冬がおすすめです\n夏は本当に暑いです\nホアンキエム湖の周辺は開発が進み昔の佇まいは少なくなってきています\n週末はイベントが有ります\n涼みながら散歩もお勧めします\nみなさん自分の楽しみを見つけて有意義に過ごしてください\nあなたの旅が価値のあるものになることを心から願います",
+                    "道もかなり狭いのですが、バイクや車の交通量も多いです。日本では危険なタイミングでクラクションを鳴らすことが多いですが、ベトナムではそれに加えて自分の存在を他車に知らせる目的でも鳴らすので歩いていてかなりストレスです。道を横断するのも初めは苦労すると思いますが、バイクは基本的に避けてくれるので車を気にしていれば問題ないです。飲食店もすごく多いですが、空気も良くないので店内で食事ができるお店を選ばれるのが良いと思います。",
+                    "東南アジアの古い町並みが残っています。\nバイクがたくさん走っています。\nカフェ、フォーやバインミー、ベトナム料理のお店がたくさんあります。",
+                    "バイクや車が右から左から。歩道も歩きにくいので注意して散策しましょう。"
+                ]
+            },
+            {
+                "place_id": "cafe_phoco_1",
+                "order": 4,
+                "name": "カフェ・フォー・コー (Cafe Phố Cổ)",
+                "activity": "カフェ休憩",
+                "location": {
+                    "lat": 21.0326,
+                    "lng": 105.8498
+                },
+                "info": "ホアンキエム湖のすぐ近くにある隠れ家的なカフェ。卵コーヒーが有名で、旧市街の景色を楽しみながらリラックスできます。",
+                "distance_text": "前の地点から約0.2 km",
+                "duration_text": "徒歩で約3分、休憩に約1時間",
+                "transport_mode": "Đi bộ",
+                "photo_references": [],
+                "review_texts": []
+            }
+        ],
+        "summary": "ハノイの旧市街の中心にある歴史的な名所を巡り、地元の美味しいフォーとカフェ文化を体験するプランです。大教会、玉山祠の壮麗な建築とホアンキエム湖の美しい景色を楽しみながら、ハノイの魅力を存分に感じることができます。"
+    },
+    {
+        "plan_title": "ハノイの厳粛な歴史と市街散策",
+        "theme": "歴史探索と都市体験",
+        "estimated_duration_hours": 4.5,
+        "waypoints": [
+            {
+                "place_id": "restaurant_bunchahuonglien_2",
+                "order": 1,
+                "name": "ブンチャー・フオン・リエン (Bún Chả Hương Liên)",
+                "activity": "昼食",
+                "location": {
+                    "lat": 21.0258,
+                    "lng": 105.8496
+                },
+                "info": "オバマ大統領も訪れたことで知られる有名なブンチャーの店。甘酸っぱいタレと香ばしい肉団子が絶品です。",
+                "distance_text": "現在地から約0.5 km",
+                "duration_text": "徒歩で約6分、食事に約1時間",
+                "transport_mode": "Đi bộ",
+                "photo_references": [],
+                "review_texts": []
+            },
+            {
+                "place_id": "ChIJuT0fVKOrNTERUQS2Xq8ppkE",
+                "order": 2,
+                "name": "ホアロー収容所跡 (Di tích Nhà tù Hỏa Lò)",
+                "activity": "観光",
+                "location": {
+                    "lat": 21.0367807,
+                    "lng": 105.8403694
+                },
+                "info": "フランス植民地時代からベトナム戦争まで使用された歴史的な刑務所跡です。ベトナムの激動の歴史を深く学ぶことができます。",
+                "distance_text": "前の地点から約1.5 km",
+                "duration_text": "タクシーで約8分、見学に約1時間30分",
+                "transport_mode": "Taxi",
+                "photo_references": [
+                    "AWn5SU6FKv_UTUZyCPANKcKbAGOLVwZ-t79eRFz-FchS24mgqSb41KyCjqzbv9JI2Nollq3NKBFdFElnIF-nf7ontJgHoquHc9G_YNjZP-ejEbcaW-61U1_vTziOuLB2jVMU3HM8_GjzDI6ZadI_10DtWCyI_h95qXveqo_VTFKfCrkQgZw_76VdeOdDrBJmstKgpIP-uJjrp1sbEGRZ_iPhrtFeDsY_orCBfGrcnwpg7DN42jrDzX6q8B_qEDRIUvBON2kiTYMLkCRioEPLttjc9m3s1o3K2ilRFT8FqJ88v9bhWw",
+                    "AWn5SU68TMSZLQzXAcbR5bSso-3J5R-VoeKND8WLc_VOfjk9Kj7gAhSjBpl3A7gEO8WGZliGP4XlQHRBROON9qZ-3FMt1oYY70rUZHrIjCuJiTexAHWBfq4uKfe5LZM7AGGF23LpBb1BbUmB1fwME4p11HoNgT2DI2dpR2jX83t17OwOGvHRvRp_gq1869JtIpx61TV_j4613AYll7-Sa3MEAv6sPs7r8S0ZEJp6TcThDS1NHjZv_d1EZNVkY0ZUUpJJp7v4rjEvXfZUWV1oJ8qVR6Fru9dJFHODE8f6fF9_FTozDH1ekgIwHor7NcBncM9EAM3SKZsR6_TpwWNIqy8zNGt2mF9QDV0YNgMTgEcz2oINAtM9lrLYE86j6YvlKhieIzoPtdXbOAjOJzFkYsuk7m3pKtLoiMq4M7HgtPnwgKEj9Fh-",
+                    "AWn5SU7vE9LBrCL8hGtfsXBGzFRWOrdFmDKhxJ17D4cTuHspaP5gxE2HsdIFU1tBhMuf2aPxBcyuVB_9lejPtKEsBlWECMYQeGrh1ausjA9kJK-SB3zMwDXIBjPOHLmUGKqO1RNMP6LugcTrhZIlI3nMfhJfN9PKBKaMBEIqTrwX2EpKJT9Xhh12zeVUg__WBkvW94vmq0HYucSlUbanl2ioSSv8QD_fE_xkJ_YSwNsO9qVfYHv8cJsW9IeISFrJEwxb_pXQtxJcaFGpOwsF4m7XnxWI3-yQVKA2XNOEufTwSV7LWFq_81y8_CX38vOmSGacuCZ4HmMdyxb2PXqnnx4JAWTdzBcTIANuD9oVyxfNOxVkbPMkS_VmpknpNzYUY2vjBO96R-lzZI6Y-ScrHYrubqVYhskR7ctbh2xPCnnuzm4DBQ",
+                    "AWn5SU5QtWaUcZfnaPb0Wdv_uW2i9xAQJaR_YLzlpuA1ikN3x6EIgKsxgZFxNHLL0FRdku37UFEVQWgUdQtJAORde0Ie6SRPbAxYW1p-JAKs0-yRjHLbuUHKBFLwqsjKsR_5i7LS-IUYcJQ3thiLMnG6IiEajKOUcQh82nVLhGI5jv0Q38xZPSiheDcPm1eq6SPyOStXaCKQQmmRizxgRIU_A07Fgbx6LLXYz8TnqcAO-3vHUyd1spzp95hFbJy0VFzqaHsF83zhz0uhp9VuTOlkX2Ef7tSiarWEZAErvGL3_apoM6CMvf5juQXxVMMqSkNCPRzoplR9H1qnxvi7WICPr2yYI3Bo_PtUc0BDINjAk4cosfTcsCE6ok4Gsp8_dGC7MEiaLg7X9Jy94oFsajSYPT5XBcd1ygDGt_j9dzG-fzjDDw",
+                    "AWn5SU46AE2ddVbnbRyOK5_ksf79sXkXqilQU3abFHVwA0pjA9Ag9rw9BwSoYwTNXZxsWDY0C7GDN5K3zmx4EF1RQms0ZKBjrIzgjJkZbyHw66FCZa08LZuOBCPSlEOzVdAD9ui6n6leTGlX65zg3Cqews3pdR0mykv9y2aa2SMvbErPQGfM3T_Q-qc3sX_8Uqo6Wm-KQOIy2cd0zO1CyuSY61FoLewsRI6nNxVwIwEbyg-HQXCyu4gagvM7aHu0ldsB_RuZn3-P5X3M5zueT6gJkItLOtv_CN_4WPUyuzl9uzpXIEn_k9q1BpkCXJl3CFORkieeDkKNUzxJn1wB_s8mGkhNDfYZGnYauk11meTzpYasx3HDMMWge0DAo7lg9KsY6hCiAGiJeQ--H0XZ7mTLX3rRyJPgsM9mLy-bniYWF4EWcw",
+                    "AWn5SU63RzkiOdqqIveEILp7qkcslNwEM6GJh-rgPsN9qlfNsCWfwgRyZBr0UEprqRzIUSjo4vzwwHSLgqvSITuuU7fHquGaTa2xoxKqnes2wolj8krHZNirm26ABfOr91bugtIew2mDcInrP9zhNsXKni7pRC5C9JQ4SwKHmi0khombo6RCxE0-1as7lmmApFx6sCU-jOLduVq2IdabLvy8iW9JqJnygB2gqv0Uw5jVZ73Sc3GBhIX2y5RuKn547-TZjy8h3N_Kbz1qsD_5NnR9HKMKI_KWChwV5eBa9zndh9gDA4_0N7Bb2PsP0WHTpuslRa6kqTMbjs41MCjmGd9-QTbTJYADzYihRZliQUy56ImtiuAOHXGd5YQKtiZy9RNyv3h3r1J3osyGQykMZSCXbEwiheJiFznFMKY2z6caaFRKxA",
+                    "AWn5SU4RkJdl10Ukg1maTuJKIEd4p2lnRrWMw_BaTYd-y7ZXyGPFT6XHMjwU-Ds9Gb1Q7JcLEVIYhSxQLGb6uEZhoEqQwdWG8y2OnCljCWEszG-Bp-4jEPYWkSZlMSTTL-uPo0qi9Cd9WzcTUHE3HqFHBX4GknfBelCu4clZnGX914RQv-rjZ2IqbAAbo0F-K4ikqkC3ZuLEW-adAK6evJK3sKan5kwYthDwovldnfdT0hHS8xnTdelNVcQ7iNuO0bS2ZiUw5GuJQ-kd_J5fNcnIDGEMNbjvvFqcy8ItH8CKFME4UWNP3Tx61Zv92K6NyymFjl_hHISEkTy8y2X8ZfdGXi0HTzlR_I-kyzduASDKndny8ag2xSGxFwtYbSpACw4EEsMq0cucUbVI7k_EBf3Ee3ll-CrOSB2yaVj8Qllw3cX96sc",
+                    "AWn5SU7q66Wt4y8Z-geVTJteO3qbLRjRV5xSu_OAsUofBz2j0ESCzslJQyO2lPJsc_6SR06rfBCWswSG7M9ITHe0f4-ElDd5dYICZsYsBM4yaJuqj2lMTezYqbai7JCuAcIsmbo5Zrpf4I7Ioh1XymYtfujEPhvgCU24w9efujhkSJNoDAY7lE9KhL-P_rLIyXy981_PeHZGOVfjzwi7PCEGPZqTPqU73A18NX0hDkA3sq5xnWOa-DOrGYohW4t-UBw9hZtjsPPdbL6eSqz4Kd1kX21zCnEwEiorYp-kbdZGG1Uisu4Lt5rI7y4oC8EySrIqunZbzJsX81RbifJIlajrMqH1ukAS3B8Sv0N8w8ONo74s3PcP05dSoePQX3idtuHWk5RVEIm--1QGL-_EsWXF1c5k60Q2E0g8pM8g5iRL2gq6OE5ZAmZbG6iCZwLzgA",
+                    "AWn5SU5NlKF7gLZhbCXDL9Pt0hgOSG5MJL6-t-pBWdJ3bofyuGPwSSDk1OCHakMTPfAZ95hbvreMBbj0L7NDOTEWX1IRbmRuWyOfyCa9756dp3ZY9h-D86ubTHKb1QZz1ThO6VQ7jY1tt-UTcrG_37-44mis3sn8C131LwRyYAL1ufO1YSkfMlLudphEBAAiv8HM7tBlCMWJrmiLM568L5AN77EVLiZDpmNoVAzKh7TR-E6ilWWW1U7lgEl3syg8QW4jsPa1McqROZ4T8zXmlehp6Gm7ehDx5_qDq5626m8nndJwXquonucerCqWCuNRICkhygaAbo6-HTcAjUobDL20l_lilWtoR1jWtBYcjnmr25mK4WJWC2jAC0oFGMmml_o4A2rgSCE-GftNSG89I5sKTU_tbQ4dwZnRZWalehPGnta3QT8r",
+                    "AWn5SU6NK_-hHLFEhxsjvtbare-MSPhxkm62aiAHcBwYK3X60x3FvTML8cTf18uOmZR_4Hn2XKv3Iuj_ZpXEuNUSymFL9lo0zn61mB-rApe01GqSNB2hrkDWtONERMpyd3i5qqIyEAnNC5wBNW9UZKbPq9XxG5vGBpzTaF0DGSz3nPcW5_iG87SR6Tsk5nfwTaLM4GFF9mPPrOT_oQnJ7qMIX366tZ24hmhN3HJrziudsLHZcREdpBF7dZIkhBs7nA4DcNFWTwCEtmavpXgwnqaDsn6WcwtrnYlX_0yerdkUlNwdnJh3pDRrUj2ReJgMd3ZwB-gKZuRedb7uBTMhH1LKW2yIzeLvOLgisnhJz84D9ehX5oqFtwYSScLv11S9bHYbvvWBhmyXUYsr-z1etdmNwuWDrkH2snaYO47GZjMNDueBxA"
+                ],
+                "review_texts": [
+                    "２０１０年に一部がベトナムで６番目の世界遺産として登録されたとのことだったので行ってみたかった。\n\nこの日は日本語のできるベトナム人のガイドさんがいたので入り口から出口まで細かく説明してもらえたので大変有意義だった。ここも展示物の日本語解説は一切皆無なので本当に助かった。\n\n実はここで1番見たかったのは敷地内にあるベトナム戦争時に、旧ソ連の援助を受けて建造されたとされる地下司令部、D−６７地下室だった。ここもガイドのおかげでもれなく見ることができて大変満足できた。",
+                    "キンティエン殿にある階段は、1467年、もっとも古い遺跡で石で作られた階段、竜が彫刻された手すりは見事だ。",
+                    "ホーチミン廟に入れなかったので、こちらに寄ってみました。のんびり見学するには良いところです。",
+                    "階段の龍がかっこよかったです！",
+                    "宮殿の外壁は張りぼてでしたが、\n階段は龍の彫刻が見事でした。"
+                ]
+            },
+            {
+                "place_id": "cafe_loadingt_2",
+                "order": 3,
+                "name": "ローディングTカフェ (Loading T Cafe)",
+                "activity": "カフェ休憩",
+                "location": {
+                    "lat": 21.0348,
+                    "lng": 105.8471
+                },
+                "info": "旧市街の趣ある古い建物の中にあるレトロなカフェ。静かで落ち着いた雰囲気で、ベトナムコーヒーを楽しめます。",
+                "distance_text": "前の地点から約0.8 km",
+                "duration_text": "徒歩で約10分、休憩に約1時間",
+                "transport_mode": "Đi bộ",
+                "photo_references": [],
+                "review_texts": []
+            }
+        ],
+        "summary": "ベトナムの厳しい歴史を物語るホアロー収容所跡を訪れ、深く歴史に触れるプランです。その後は旧市街の魅力的な路地を散策し、伝統的なブンチャーと雰囲気のあるカフェでハノイの日常を体験します。"
+    },
+    {
+        "plan_title": "ホー・チ・ミン複合施設と静寂のひととき",
+        "theme": "現代史と落ち着いた散策",
+        "estimated_duration_hours": 4.5,
+        "waypoints": [
+            {
+                "place_id": "restaurant_chacalavong_3",
+                "order": 1,
+                "name": "チャーカー・ラ・ヴォン (Chả Cá Lã Vọng)",
+                "activity": "昼食",
+                "location": {
+                    "lat": 21.0335,
+                    "lng": 105.8495
+                },
+                "info": "ハノイ名物の雷魚の炭火焼き「チャーカー」を専門とする老舗レストラン。独特の風味と体験が人気です。",
+                "distance_text": "現在地から約1.0 km",
+                "duration_text": "タクシーで約5分、食事に約1時間30分",
+                "transport_mode": "Taxi",
+                "photo_references": [],
+                "review_texts": []
+            },
+            {
+                "place_id": "ChIJza6NSUKrNTERKNw5G5OkGA8",
+                "order": 2,
+                "name": "ホー・チ・ミン廟 (Lăng Chủ tịch Hồ Chí Minh)",
+                "activity": "観光",
+                "location": {
+                    "lat": 21.0442246,
+                    "lng": 105.8138303
+                },
+                "info": "ベトナム建国の父、ホー・チ・ミンの遺体が安置されている厳粛な場所。周辺の歴史的建造物群も見どころです。",
+                "distance_text": "前の地点から約3.0 km",
+                "duration_text": "タクシーで約15分、見学に約1時間30分",
+                "transport_mode": "Taxi",
+                "photo_references": [
+                    "AWn5SU7Ug2tpZXZ4PiOjRwEkbwZuLj-yX2xIvZl813Bc9e2guh0Q4qwVZfqODdEdH0crXyaLlfX781gdBClFRfOWyjHwOtWObRQUXka2_IM25Oc7C566d7rpth9EqQ5eA2T4s1SB63wOQ3S7n5J5m6sdaFsLT1sN34R_mti5ePH_hJIT8mHNXB1GWNbPnDVBWxnT152FcdTWplYD4A2f9auPhVyBuC0yVUsDLL6y6toVfOOMh6GQCnPnk34DTgtfRANWvH_xorKAOr3W46bQv4OYFPAZfrFxKVTA5KOjtiNTUr2hBaTBE4-UnXeklx6dJOiygRg6vLWCnFzztjG9TPaNDxhPOwibVt0f9vvBAdAnSt3CapwxLW1Jha4qRFdgXeNLxaF4xWnoze2e37iYinsS424WM7t0HHbV6uYoUOowOu2uitOLYZTsDX3qbtY0Ncpg",
+                    "AWn5SU5_r8DX_6YDfTNuL43-oEbKpEjNZLCkV7P8qfLEy2vrbQOYN_R5cp1OzfBpqKSgswwKwGXW35MeRjfCqKFgfwEjARNsK-wuIyad6oGC6owJxZwSKhp547vdDI6SO2fplSu2Ilbbd3wPKb5BgNxSoddbuRjfEzefWGigrJr3ZeWmelBbPb0S_x7Ry185ycZVKRaZfXgivKLF9OBoyi40v_eoSUnMIArnBP710V_YTOvGo15jJsm47LTE2n2Q5TUfSRrPTOkJpJJ5XF3-BrzrrreFVxgKQ5wBCZcYy2V1z0mbGQ",
+                    "AWn5SU4ORy_5_0_0wDYY7FWco3NJQZzanaiNa8RZItMjnb-xIcsVr6GV3_t-TkHec_F6IANi91NyQvfBrww_OKdBEXmXzoYon0kLYPaZfIBkmBnhgKKglTlUAz8F6YIAL4ssF32VVPo8iZS7AjGqexyiLasPfMze5spZYysXBI1KbiuKFgKXRcik733ixqZVK516PnFJ2OUnwtw0klho-xUJA7gksGDPte-bMSjlvM-JlydHxQutA6NQ_x2P9SvGuBCZ9RJTOvN7TM6cAQtN6GKPYYkOwnlRliEl8JfHHT9miOPdrzQTixOQS8c_oM34_5Q2CK2t0oPXV5suWZbjs0S77DuV8l6N6XUFZvq1Tg55yueV2vM-5Jr-u5RaVT9s8l0p60Xvz_jsj-9VgmpuXlsJsqThJoJQ1r2OHjp7a6OdmbU"
+                ],
+                "review_texts": [
+                    "ホアンホアタム通りにあるこの観光名所は、私にとって非常に印象深いものでした。初めて足を踏み入れた時、周囲の空間がまるで自然と調和しているかのような心地よい感覚を醸し出していました。スタッフは非常にフレンドリーで、いつでも親身になって助けてくれました。まるで尋ねたことなら何でも知っているかのようで、ハノイの観光情報を本当によく知っていました。\n\nセンター内には、ハノイを迷うことなく探索するための便利な資料や地図がたくさんありました。私のように一人で探索するのが好きな人にとっては、とても便利な場所と言えるでしょう。しかし、資料の情報が少し古く、より新鮮な情報にするために少し更新する必要があるように感じました。\n\n全体的に見て、旅を始める前に情報収集が必要な人にとって、ここは理想的な場所です。いくつか改善すべき点はありますが、全体的には悪くないと思います。機会があればぜひまた訪れたいと思います。",
+                    "このウェブサイトは非常に優れており、各省や各都市の観光地マップがわかりやすく、より多くの場所を知るのに役立ちます。また、AIを使用して旅行計画をサポートするツールもあり、素晴らしいです。",
+                    "ウェブサイトは素晴らしく、AIを使った旅行プランニングツールも充実しています。地図ベースの旅行マップには、ユーザーのレビューも掲載されており、旅行前に場所を調べるのにとても役立ちます。",
+                    "観光地の情報が満載の、とても良いウェブサイトです",
+                    "かなり良いウェブサイト。各地方や都市の観光スポットが隅々まで更新されている。"
+                ]
+            },
+            {
+                "place_id": "cafe_congcaphe_3",
+                "order": 3,
+                "name": "コンカフェ (Cộng Cà Phê)",
+                "activity": "カフェ休憩",
+                "location": {
+                    "lat": 21.0375,
+                    "lng": 105.832
+                },
+                "info": "レトロな内装が魅力の人気のチェーンカフェ。ベトナムの古き良き時代を思わせる雰囲気で、ココナッツコーヒーがおすすめです。",
+                "distance_text": "前の地点から約1.0 km",
+                "duration_text": "徒歩で約13分、休憩に約1時間",
+                "transport_mode": "Đi bộ",
+                "photo_references": [],
+                "review_texts": []
+            }
+        ],
+        "summary": "ホー・チ・ミン廟を訪れてベトナム現代史に触れ、その後は市内の落ち着いたエリアでリラックスするプランです。ハノイ名物のチャーカーを味わい、歴史的な場所を巡った後は、コンカフェでユニークなベトナムのコーヒー文化を楽しめます。"
+    }
+]
