@@ -466,8 +466,7 @@
             const panel = document.getElementById('favPanel');
             const close = document.getElementById('closeFavBtn');
             btn.onclick = () => {
-                panel.classList.add('open');
-                loadFavoritesList(true); // <--- Thêm dòng này để ép render lại danh sách
+               window.location.href = '/map?mode=favorites';
             };
             close.onclick = () => panel.classList.remove('open');
         }
