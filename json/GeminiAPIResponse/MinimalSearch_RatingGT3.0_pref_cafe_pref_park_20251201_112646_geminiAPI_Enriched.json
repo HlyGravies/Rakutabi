@@ -1,0 +1,314 @@
+[
+    {
+        "plan_title": "古都の森とカフェ巡り",
+        "theme": "奈良の自然と文化を感じる、リラックスできる半日旅",
+        "estimated_duration_hours": 4.5,
+        "waypoints": [
+            {
+                "place_id": "ChIJKf_xZsjFBmARlHdUGI7Rs5I",
+                "order": 1,
+                "name": "奈良公園",
+                "activity": "散策と軽食",
+                "location": {
+                    "lat": 34.3388256,
+                    "lng": 135.811755
+                },
+                "info": "世界遺産の一部である広大な奈良公園で、鹿たちと触れ合いながら自然を満喫。公園内で軽食を取り、豊かな緑の中でリラックスした時間を過ごしましょう。遠方から足を運ぶ価値のある美しい場所です。",
+                "distance_text": "約4.5 km",
+                "duration_text": "約15分",
+                "transport_mode": "driving",
+                "photo_references": [
+                    "AWn5SU4bWtwc6BxH0BNoDP-vKafBrFOTIKv8o4JwJ4XsV65_P0bcdoDpxkn678FlANPRivQIEPM-mZVpeSvsxsIb6Sm24u3UEM8z1GKckbNgYRjlOUTowTQq3rlaR6a9yJiLjs-Cgp5motQAT6Fjn8sZXo14HFwMnjR1ZPGqN7-NYcAT6Zn8HAXFX56HVgn3HkJmzdZKBr3yvjvDrX1C1P8WhiwIRQc4wXMNYoZiauvaKDwIOqibdIOpg5rOehfYQjhj26ExGq5pK--nZpqD5BWz2oeYCluJ6c7fjdKUYb5mMEnBxYwUkzQEZyYen5r3OqKa2fvoe3tIQpa8c49TbX2oH3KDPZ_BMVwPhyjIfRxOEIgJvtgfHJ6jor0X3U9rORbSsaLh6xgeRptmnxB-NEP1dFIpAA7A4ZqNJgMMtLD9i2dKgw",
+                    "AWn5SU5k3PPhA7lsz6hm1ETN_9s6WvBS8UcIOS7tgCt5Q2PQ23sQ2Y46w3FoZYZk3w72RCKgapS0RSvf1HgSnAm-JhdJXLmldYkoCck4SrGuzR_q9T5yYSYZkY7xCrdB_HU1d1EBLVEYyVFgV10jxvdrs6hgejjPOwgAg0sSdzNHTSveu-W8wRPTv9GxW0eggRwUBPmYPu0u59EdYOumJj4FWFm2P1an6F8ekuf0VlyFOfPJHCwm3nsT0ALzvvo5b8l7H3n6vy0VcRlHOpEEot9K4wiWTsLoYgFWfR571trf3Dy1_l2zyuA2Kh50zR_eCz9V333qPJd1y4bEjjSObJdFVkFIP33vT4C_5e0gswQF0ViQ7-vWdA9vhnBtD1lkU_5u2VxCWUheymGWG4O7kIqyLKfnH6hb6L0gy0Z6P1I92dbOkbE",
+                    "AWn5SU4IvNw2CCG06-84vrNYmqogjuFEDJe93eFrn6Z_LGy1kaod4rhC3cOh8_mKNUVFFnX5kjUqi-EoZNKaiThXNwHwcIWYiqqHyGn4ZuFsnto1-slt76hFW2qjrPKJxs3ATgwN2WhVWW1O-lOFSigvWgitG0bz8lVgLKXqimMKKp2k2KlIt8weiFQVDf7PS2nYl1F8cjXblGbYMcD1Ea7MMW8YqCAUe9602-GTtb5gDSaNQP8OrC0JZb3SvhMghkdQfyXYZtC58hBFl5i_RCFkgP3pZFE1LsbrpfnHZtyrcuy_qDPS_P0ZqbaJ3sBKIJ7nJVrKVpulItCi3VlmjiHhcQS3lCWlZT-7tC48arDCheCMXftifc63uohR3KAnuFCdZMjm8cFbAmxwGS0a-8mG_Xcbpm1fuu1HdY5IJXms2Kyxmw",
+                    "AWn5SU6-iHLANs0dPBv-yb0yrmSA-yoXHQVQcnXh91Olk2cymVUgIKpvA-sl_l-Pu5lyu57DSgQRX8ZxIGIJRgqO1TBuDU4uz_sNYAywUoCrkffj2u84yLNp_hal2PIqT_LpPAbruxdPhtFU87nqss_fsF6ndetV_z5JL-9OCATow2g-1PPpMxaoUv_Uug_jacxQUnFg0yh7HjelWtKZ_4Ixcfr-WV6T1J-_wK1YXbavRBueggNM2HoYMPD7h2RIGJYI4DB2rb3nTD0HIRWLASZEYGVV0pgO-iLBZ_ps0zIbWZR2dOUKMbpPC2Sfne6zYxPslD9-IRXOvghlxsu9qft0AQVfOsSYGk6qbCXPlUKnRJPYr8mlk2pDBxAOGP0vtC4oOrsCnUVAQfhj3TlkDG4efNY78h0LS_QcZX6oSpJuvYLf7Q",
+                    "AWn5SU6d9hS6ZvsaMe3BDUwh4pCqMo90n2cr95wq9Xiq9LqKmMpMW6J6yFET8rr3H06vk81CvV-X06ZmGL002I73vfI_vyztRiTp9chLeMklTE5ilMCyoJ1ZqH_3Je9zD0m38OCU0BXrRDVyD9Z3aZNYqWCdWYVJI5sufSVDLSuc_htJSIOHp3VAF1YewZm56HK6lAeTa3g0GNVQ1d3iNA7u5Lk2s7JPLRAzfQhwR9A1AvtkHj4rObCqRqAr-2WnQ-oRL146CXRBtv_IYi9Xn0hIICfvNXmvlKv-Ky1HtmXvV_YaXXg6krrGL-duLk4RWF5JCpUuj8fUYEv6VisdGxBakwBYBakynQx7LBSQDEVhQLKraGABvLdAhtWtQYDCFZoRqejQe7NoteCdzhtCNBcXGFCVyow3QyYoWOfMl8Ad-dU",
+                    "AWn5SU5iPDnH3SXH5IFLbSxYWYjfwOscldzB3zEuKN8b3o5PuTkP-WkPcJQIwUJFq4N8VF77EhWV6pVjbFzNwCcsS1VLY-bI5oeJveJh0vSUDtyTbnAld8efc3rnStRMw0rHQY6QRZDRUaVOhI5UDKGuB2n2TMfhMgdAL1GEHoLsSNqTl87xE6X2sCRF3hwC8IC3MsV4daOa5mqQ5JFniic46kYrBBzEaKsehZCsqan7v0-kpMXPS8oIjLjoY8Mij63Y5UqOdXtDigy7Krubk-8OuF72RraoQyb4-PlKUI_fTU9YZpm9bqnAC1dh-fjq6WpbJeQucwsjNgyWi6t0LsN52SSEEH-n4-KK0btgGgu7hZAiU95sHwYDhNq0d_qd3FL_uJDbyyVGp2C9fBaouiJBX0O2jTyUAJCf4WF0eT3bxOnwRg",
+                    "AWn5SU7yKFwgApGUtBalcnhm-3ICZxPZ7v7HHdQd2bSo0CF4AvWhL70ySOyj2B18dfHxA6CDRcPSbIREMsq62T1-OtWRNIyNIyKatw9f1j03KjtKiFW80D_MU6Y4uXdTpJqH3YwMmuMxRfB71wKmW3M557Bo8mmf9d6ETF4eWvwtRleOmPwDRXFaygCbZ71XLB4pYD769Us4REThp4qn-vmgT5zCS8L3BX72VnRH0-BMLAZlt2E7ApQ9_Cojvsevmq8ZMc2hAulRwht9X5QTR9YGN0-kSh4W9IRnnANcrZ10R8llhRPyFu57aLTOjWgsOS9osaFQqXU3PrwjB7-RDxJBo4ZCXQdB1qSr4DQ3YiLKCzLJ-v7bHOHaX1duDarGWknYGLKlmUMYd-oaYbRIi4Cpe3wPK2y1km1BX8zrAcTCC_Pcgg",
+                    "AWn5SU7MH21M0Cc-pWxQhINO5UhedigAvttH3VD-gg-voyzedHZ60LRn2AObsOD4QjAmKzQ2tWHNp17p6UfFIVwuDpmMQw_T4UU5h5Hti-jBimM00SsOalLu8OpSIkI89XFrB-M_b0CYoxxeOdy0ULD4W6ho9SrgDNpg2DHrS1drASJUdeCYrmt6FFZhVcfPn1KQ1GharvbH92LQHMubRXhYnsV11y-jphRXUMg6-1PSqql3ydEy-QxAG4CcJWvjSDnSGKVUykEW1MV5CAHktbpy7CSJuw4bYuTAo1dlJoacWzds30e51bjITBzwrW1hemTSfb0aKLVA-LGPqTfGw5E-e34eVsxpDf0yVyFtn4mPOxddFE4EGAFiIXT1xBoRtZ2oy-ObTzVatTOJhmqmPLFZgh9Uv9FO1f4yGsl7fmx6HYQpGA",
+                    "AWn5SU5aPwzWnSreMzPtVNtyHN9iISRe7F-0JgdfiAyVeDCSHEB6y_oVTC4uBlv0qp5o0vF5ndjFrvGYA-8xPafBo0q7cKyViUqBudhnA35_zjzfBlAArxzWtZWcKYgcq3jJ2rTKdKKOvqX82FkpeK7E_VSECwoOEtawr49H9VpAKtuEmbh1uiRnGu4OQ9Jxyx7q6gL_MVMEs9-Mr_IpSmlRI0JUg0f2ffJ-Mwxu634-LrBivpT0C3ripnmgtV43pm67JvzaL8rE5Z8xbl9YAz3mLLnbLMx3ByDT7g3JLAQjvTkGb4wR2Z0xAnFhi0f6Yr8Y6TkGDvNLlBnKepKifvYnVpkY3NxGBbt7fRxUW8utErljxVTRrFve6M3lwk9aisseuH7GtO6yL53CL-24F77ZHc8tUTyghbTr8JX5OdPflxbCfQ",
+                    "AWn5SU4KWm2i8tqLCoTKbPQdHso48l96iB6W0x4cYIiVXfHCpayQZFs2I6ock8BS6zaNbQKvEC_xYdNTWfF1kLK1-5xAFJFgpzRT_yr7icy886dv3R6Fa4wkShmEDAzNoGqX_Xk2jk1jZfkWzfQbDHktFf0ZtyhAtqDodgru66lUvx9i85tRo3d4wB9tWp4DPj7LDw0P2AIO0SE51NXkfPj2LBBcqwNGKVqJG28PEY5u9BQ_-L8aK8FlMUZzNbMLd0pBFcpEnxhGd-FZ6ck0YtTYEBY1hRYOFjAxNWq40M6w9XWvflZ6MxH9-4QhyT61oWbTReqF481w9-YDppBcYZvwuBR3j7PXHnlg2EcAZW-Q_qbC5QNeJpO_poe7sN0vZPjkVUpxJaZ4Nbzz_a38ZIu-pI8x1Xjp0brLybFIsZnA0uwDBN3o7h99PUHxW7o9Gyg-"
+                ],
+                "review_texts": [
+                    "3月末に訪れたので見頃は終わっていましたが、いくつかはまだ花が残っていました。\n国道309を南下してトンネル手前を右折すれば無料駐車場🆓が見えて来ます。\n散策ルートは整備されているが、そこまで観光地化されていなく穴場感があります。\n谷間の梅畑なのでかなり高低差があるので、一周するなら体力に注意⚠️",
+                    "通りすがりに梅林と書いてあったので入ってみた。細いきつい上り坂を延々と上がった。車が落ちるかと思うほどの細い道がくねくね曲がりながら続いた。転回など私の力では不可能。エンジン液温が上がるのも構わず上がるしかなかった。対向車がいたら終わりだ、もう駄目だと思ったが、平気で後ろから上がってくる車に追われて無理無理に進むと道が広くなり、普通に走って国道に出た。こっちから入ればよかった。辛い方の道はきついと書いてくれよ、南の道は太いぞと書いてくれよと強く強く思った。この写真は信用しないで欲しい。道の本当にきついところは写真どころではなかった。梅はもっともっと綺麗だった。多かった。香りもすごかった。しかしやはり写真どころではなかった。今行って現実の美しさを見て欲しい。楽な方から。いや、他の方法で来れるならその方が良い。",
+                    "初めての訪問です。\nこの規模で入場料無料はすごい。\n台数は少ないですが駐車場も無料。\nのんびり梅を楽しむには丁度よい穴場ですね。",
+                    "３月５日現在は、咲いている梅もありますが、見頃はもう少し先、まだまだ固い蕾の木も、多数ありでした\nでも、付近は、梅の良い香りが漂ってました\n見頃になったら、デッキテラスから見下ろす梅が、きっと物凄く綺麗だと思います\nもう暫くして、見頃になれば、もう一度行ってみたいと思います\n\n散策路を、車で上ってくるのは、道幅も非常に細く、対向は出来ないので、要注意です",
+                    "3/8まだ早かったです。満開は見応えありそう。平日午後だったので静かで、それはそれでよかったです。地図で出てくる駐車場は梅林の頂上あたりです。テラスあたりまでけっこう下るので、戻ってくる時は登ることを覚悟です。駐車場がないので土日でしたらバスが良さそうです。"
+                ]
+            },
+            {
+                "place_id": "ChIJH7RV56bGBmARPwPPW9ngeck",
+                "order": 2,
+                "name": "高畑園",
+                "activity": "自然浴とリフレッシュ",
+                "location": {
+                    "lat": 34.3107861,
+                    "lng": 135.830184
+                },
+                "info": "高畑園で自然に囲まれながら、森林浴を楽しんで心身を癒しましょう。美しい庭園や植物に触れ、穏やかな時間を過ごすのに最適です。",
+                "distance_text": "約3 km",
+                "duration_text": "約10分",
+                "transport_mode": "driving",
+                "photo_references": [
+                    "AWn5SU6RbwHSUFNY7kSG3ReUDxa87RVukoUEth0jd1Oq-5TRTFU2MVLPTw3iqit9NaNQ7oil4MuYVHkIgwnNJKfxrTi1CX9dxBxQ3KLZxzpFVYGbYqZnbgrp9_Nee0tWt6g5mrhDz5_GKPnFLfxCp69Vjwdc_ge4RTk3D2QZOyiXf-ug0txuXVqX0AMRE4K2-ugLGCN-5zTJxe0gHIbkc9XN2RyIOhPLr0onydsZE_XR_wDL3F5abDzqU-tlbY7TnbrvCtkHK1WBMb4rvZjUg-lQJ5slr_T3muAEorVnUivAspKC2Q",
+                    "AWn5SU5EBC9tzK5L-nMeb_FmO61hkL94m--8LIKz7KgM9q4FtYkfw1tLkQ5-o8r8ZgRN486VJJj-XDwDJOxaybPOTkK0gNLMQiv4p0U--h8EcDycmYU2fqE9I4FBAqA28Ou007KZ-4-uImN68h6fhDJqw-OjsWP3NdXDqQZkhfwilslICO_FzBnUW-WoZC-9ujZOi3SZWnb5DHAlwmz2KxE1Z-jekd1xqDb8CE7lycFFhcacW498kaiFYY5vTeAlyWjeYo3txZwU2G6Y1mrzxVnU5lK2j8N97o38g3pNwgYeq759-w",
+                    "AWn5SU4lp6p3_m58I3xhvZf6sGFPadWFuDFXTfBgOqSh__DfH5bRwecofl3suT_-qNClXo0-w8YmuiFEelQFr4wRQuiCj1njuZ58PGEcfM_n7taBhV96EjX4zHpJ69KXTAocdmjR_WBqeNuG004lwv4wzdOYHhIwu681FwXS-FVIo0RskjNd3_Z3Dtow3camymQImG3TP5dw8IjLE8YBAot3nwOfI0MtiT6VLEinohs1fCxiiAtBf4DQMK_bJmsGOlMRqFV3HUidJ3ZAXvjVU5O_GmBv1SAIle5yauozOMH4XvI2KA",
+                    "AWn5SU7CjMui8F5ZuFQTvHorzJWOgFSB1t6tXkLzbt9iZQyn_legXXRkjJh3IpjCtScbru2RA4VN0qUlaxKvLU-NK3blGViMxTJG0hW_wLq2g0m6MbesWAru8GHES2FnLD4HPQVf4oFhmTQNlbm4aey7k32syJzAbuf_mtou8Yd9B5as1u-dS8yION-BCI01FJBlXJIiIX1mj6_uTPtvw2aRUyF_hdIc2_n9C5iWm8Hnb9fXNr0kNh0dDYEfMqsifzPUO4oTaTz8KrIEljND4_hVKHjuwKXe2l6ZUn5zmdB97dVWkg",
+                    "AWn5SU6kMT9mgkUBtgsWXo8NRUdjbVUDXiMioqXsv2d3ss9WLI1SNrJt_90xFPyqhXkiYmVm_avse440IBM_h5vaoZcndwemPadHkV6UepSRLXU76xF7YAbDlOCDg04yLgXrF5cZiinZjJvPnb7zxXV_OsA4_X1FkzWBi6JfvpyfY1LH-RODpoHTofMvstFGoAiJXZErae6uWKyJd7UBQA-KniN_OsZqAObwms8nYAZau74_WZGVhBccUOuFykRMEf48ZAH-6bVWFDMJvYiw2N-hv_knxgKLeYdrYHAptoxPFbe95w",
+                    "AWn5SU41_B4Sb_m_z4_6KPUFUkSovDyaV7HEcfH7IEBXsel8Tru7nbfy4KpSDfjGzVmwAcY4X9vBJl7ifNlGnJrMQuR5FdhNfabUg9Rv7pXgakwRkbaNQMvW9CBXQbPfpmtr1h1uJyeV-_HdBNgdv68YczLdis2CStdIbkQriB6Vo5o68CVdni2c1RHP1a755w8Qu85iOZL7y9NV4w4zfK8HRfyEX8C-Kf8LMF49LfICLJuF3yQbjFiIGy_f-ZbKLOues4u1P8kARTk06cBZzRht_rlnrNyTMfB7rE-oOzulA1DT_A",
+                    "AWn5SU4VMrqok4jX6EhayPm598naBe4Pkm5LuGleibeG5DAE5Tq0bWdZSHQLepBhig3empz3HWzPX-HQmAeLFgoicYpU_wGnOgVaeF8IgvV7IFewwPronK713OzSipRNgIpVQOieUovXYuQCB0cb2l2JxIeJTBL5wuUCdMfEwUkejafaBUzR3Bj6GADZ9vJP3kF7lnIrjKL4gpX1Fm3OLwE-FhKKDF9h8ZJLtPg7n46O28N-h20lsCNYw3R64YMIm73YSrNH6VKPP6U5SBwLjPGujZhf-K7ex05yRRRdUjX463WhMg",
+                    "AWn5SU616iRiCAr_y6iQQbg9WS1LeIi35DmgYnl_j7ekAtfbLa0sNmbsue8gxKY2kTUMrJI05klESXydettw_8F0LdM4mndbqDHDMjQFwVdkHjkV_NCs9wXrdgDCB5jdE2OquX_wsgQiL_1epEnOURFFWMdb877-O2N3Wdti7N6c-QysmAP8JXu9QTrktS4rtZiP_VNsHrjm7y4R8kLMeUxuomuHQkUGn2Eypa2XVMxTyuIir-F7HjtqlCbfiCVlQH2BkG8eG3Vg5GPf81xywH2Wx1Qd1vkYAPsYlZ9fKGeO3XSCXg",
+                    "AWn5SU7THW7iN_M5iDzlQcgZaUdVn5fqbtCR4311rmnyXNYNB4yKCJYlqC8-IDHQVhGpD3jJOyVh8jWejS6tynntniegVJUniP4KkaiD8Duve47flOU-9vEERkv6wmf8Xz7mh2ufsANMGh8Xk-YMY3h44LozvUv2aHxs6uV6P0f89K4zo3rBKmzhcOCw2bPDVi_3VdLkZ8MV_uZ5erRQb_tRty4S7nJYJ6Myqk0vyTNvRvKFa5OauWwOLI0h5LuhwuxD6u3RXECrK1tlFicVfEUf9a6QUNNu30CPRB2FErPuMcQ52g",
+                    "AWn5SU40ZVJdki38IkJiSPLFmeV_7aTVrgHj7-uAWo6lsTGnsP7q2tNMIYhQN4gjYly_aVlGY4cNjoi_QObuLTJ1lbWH2ZUEKj1eeuVPfJ-zO9cXlE-Xo8fXZQw3XFz4RKmJlwibw9vUD9rxzjGQ1o5ERa182UZAXVBNIpakvbIY3Qph49ScGt6atE2_Ca-1YwXUc62431-XCJujuaZP-3y_2QSF4gXPxYZaJDDjzoY0mxJAsmZz2dEz15Cy9KbeOuyPtZMONTUis8rReh8zG3KHYgznlm3EmAnl-zRiag-Qpw1oAQ"
+                ],
+                "review_texts": [
+                    "ログハウスに宿泊しましたが、電源や水道も完備されていて、とても快適に過ごすことができました。自然の中でも安心して過ごせる環境で、小さな子ども連れでも安心して楽しめます。施設も清潔で、スタッフの対応も丁寧でした。家族キャンプデビューにはぴったりの場所だと思います！",
+                    "初めて利用しましたが人気なだけあって\n設備もサービスも最高でした！\n特にサウナがとても良く\n川で冷やしてベンチでリラックスできて\n最高のキャンプ&ととのいでした！\nまた来ます！",
+                    "2回目のリピートです。設備も良く、サイトも広々使わさせていただきました。職員の方々の対応も気さくでとても利用しやすいです。\nサウナと川のセットは最高です。また来ます。",
+                    "良く考えられたキャンプ場だな、と感じました。私はBサイトでしたが、サイトごとに垣根で仕切られているし、電源は料金に含まれているし、鉄の枠でサイトの土が崩れないようになっているし、排水も考えられていているので恐らく雨でも苦労は少なそう。私は使いませんでしたがサウナがあるのは珍しい。案内の標識にさりげなくニューヨークとパリまでの距離が混ざっていて、オーナーさんの遊び心にクスッと笑えました！",
+                    "友だちとのキャンプで利用させてもらいました。設備は綺麗でレンタル品も充実していて良かったです！\nコテージ泊は部屋の中もすごく整っていて清潔感もあってとても気持ちよく泊まることができました！！\n道路横すぐのサイトだけど、車の通りも少なくて、全然快適でした✨\n花火やサウナ、川遊びもできて夏でも満喫できる素敵なキャンプ場でした〜！"
+                ]
+            },
+            {
+                "place_id": "ChIJA0Au44bFBmARvVKMwN1tfMo",
+                "order": 3,
+                "name": "カフェひそひそ",
+                "activity": "カフェ休憩",
+                "location": {
+                    "lat": 34.3056162,
+                    "lng": 135.8034701
+                },
+                "info": "レトロな雰囲気の隠れ家カフェで、こだわりのコーヒーとスイーツを味わいながら一息。午後の散策の疲れを癒し、ゆったりとした時間を過ごせます。高い評価も納得の居心地の良さです。",
+                "distance_text": "約2.5 km",
+                "duration_text": "約8分",
+                "transport_mode": "driving",
+                "photo_references": [
+                    "AWn5SU4yAW3nEnG3WwWtPHqtBlbrtsY5-YUIwwu4U52GICDmq4Ygb1FTJhRZmzdaFuYGZAY1Bt-fsuSfEtvxbfmkGIS9gjaQOVfcY4xMhsJObwkD1hVGOWomvqLRz38YrxTqNBDDi21hNGBsW2sEKDGEs17M_znxP1qyYxNzXvvEC6MBIWQQBErVhvkOGcvpEYshv69oeIEdtTmT_RUoKaKjCp3973hGCLNOzOX9I3HMxzMoxGSBGakBB8vggim5ycgKPces0W7lb6KIR_FX5tLUk7XQ_JWLwExmKhynelv7_mAQPuL_l_UdDHbBpJBbRkyrZOtGBs7bDrjj-UWNCgXxIM8HCVFH0oTjrhPxijkyM0Z2am85bsOPpDFxKN0O-S31xp9N9z4kbfUm0QRu-3ou6hr_Ar6pgIKxGF9WySAhIxsyLKSXYgnqX2_FCZLJCi6Y",
+                    "AWn5SU6C21Qmvc8dULe6urkgZelY1BsjLp47u2J3mko0Z77Y5pizTFTFhR0C3a7oWzy36vW6y1vfU9Y7KGACrh74ZrO4Zr7d6i6Z4_U89HIVNnPozvehe7jcoLiUTTtr1GezMqnbhOiZoZj1qR9QkOgrXAdShwdGiBX2SIZnh-eOKp4YhW5JTglc3FZ38AhEYKd0zDwa6p7xfyYOEBTnHuw77zWkfHNvgxsUBk5J9JrrzhW5iHxe9mIQQJwg-kFWSh76PeLfJYw3bP-n_0D0QwbCf0h6YZ75aZbgiTnoWYgVojZCirs1pr9eB68ssGDH_AY0ztYiDyNXkrivXyI-Nvj9yjVfikJcDbIL2Q31ibvwGCJ4GssshKqz2V65yhiEHf_JpDBD8VsEHb0ytUzu3cGW2REN6FBf-M-kT9WGJbTSc9ybMUNG",
+                    "AWn5SU5EHpE5mhAzzLYUEHYhEG61Wx8zCl1o4T8iE19tPMMqjEqiEqtSGkYQGWR8H76ss_p-Yogxe6QqlK3tv-4e-9ZQen-leatkKdndlG5V4DuguFwm0tsppshBnze47tn00H_g6Sfr4ijQW7wLIYCqLQW-1f4f21tpqwQbGxJCgHVPvOh5Kkm2IzyzORTt4SRMUpMzDDzVxLBE_hol3oCWPgrlqIdMWYAZvlDKqJH5EQsFgMYPJb-_QmoDoQe-WQi-k-YanncjsJP7zcFy4fw5uJcxn79F4XPKkvzt_fr6rL3dMzyfBp9Ncvn-pHXGHRQLfmXQaNQgXFnqFXQHW3AsrLNvkD4wOMJFIk7z_McWyfsg2h8PdruQCXWQXs5wIeLQp8pEZ0ZbzoMQfEal9ccfbhplmGmOLWKPQztUYT7Y5YF81Q",
+                    "AWn5SU7AgBiujIEq3E4dB-ECtx0mPfFV8CSQg68NUoDsW3D0SAm_O1pclDdLjf1ZXwBylFO87BQm4kb16pDv_22a9-kY3zgr3uPteREeAOm047CQGpL1wGgEspzZQ0AjnKMkDrTOB2t5jOHCxI0I6gq_9C5UTmTp0j-DLy-i0HXOJwKM5eKodPEPWBxjLssPTvaZtFveARN2LbX4jsitiBpWHKSveU1C-ebgMiSve6JufaZ9-TI_brPp7xHaku9ow-e_kXNpRniIimxJ_w6IC5iykL6CPYjdxVFILKldWBCq1bddA8KhWPCk6yKZmoivs_fYyBUN7r7T0-9hG2qyiYupI6atXX2LPevL1SPvkBTsDW8mWUjzwTxEE-uTotJxXYLVFTZHzgbaPoZ2U-GIkh7Mipsxcy9Y749BE53bYqa-ruYzgA6t76hSKTb-BClPCns4",
+                    "AWn5SU5aKD0ODQAOYZA1HHmhtbJfXDYPLFMCu3V-XOuxIoyki_xNE6gFixWtY6on9lx9iiE4Yeq__IMXZetlwXUM3OptG43P1Q13Ke__sKWHe4XynFFxXV6CN7CmU0vakgvMbGa51GN0fbR_OLBiysKmcKeBshtl-qBdqX982iv5qqIKuuHUGLtjvtfQmGVJUbVCg9P1wtSX39Ka1dOBjPeKUrTpqb8hzlu-LS3PVwVlqgcXsIZo1QYaqpni4jWY25mvSVHfMW6rjjjWLu91hXJ-LA4saiw_WctFMqYRKreBlT_AFNDr2HkzZgzCHK8lglw2BcMrBIiQUy1gdgtA_cvB1gOlTfqHu_7awJ-WgZPwCsKg5Obx-T37OUhORSWnfpFvGKVbqY8Wa5IdamTgq3sLQZKG2LNDk3BtnpipmgHA7a_ROw",
+                    "AWn5SU7IHwnoP5K2qlMJM4D4nWqYP_bbt5trIuDz5z2TdUVhU9YmRvUYfTKY-hOces-2OeiH_TTN6ORPcXKnqKupID45NeVjA7d0QHM1xkS3_zyIRH5U-Mf4Lp-F6hLkisgDRmakcUZ_QKF1DbnZsQCe3_MbdhHvlk9rpPDbM_nW_sHz2H85Fi3IfqTkUoA5P3P_MypFwTJPBYTMJLZPKWFn-fbsvnIzW7Iy5wv-wXZXYi2v2GqZasCglt9h0zpGWoB_Q707V-3sAJKC1HrD8gpKK_gBgzRznKL-XnvgJ9aBa79Jp3NuL0SM13KMLaeLXrj6O3rdMdafzWlDOohMr20NuI1Hs8OnTdsgIa_m2l4afN7-g_X0XUWT8-8swBq2xcTDP-22c7pq-u9lMChZphMarbOjtHafzdRJpBaHvaeCNwCC1w",
+                    "AWn5SU41fvIQpkOPSQ-a_31jKz7oce_pSuHgXur14d1fxIPlVmAXz5gZZ0YqMkjKnTBhJ8-iAKzPwNecCmmOdUPL-aqi_rpebEsVurIQoFJpenM203yzRooLCI-D6WCZa9IxqU4zrzR_X-d7YX9-T16eL47IumMf5oCq11azJbNVk3uzMfZ6SYA4q0xOxZJnIc6tFyZtLZfUlYenRkQ7bR9cU9b3wxLOSqSXS3YgUTpYiq4CB8R54vdPgG5sfhI4VYQ5htp7A8PvFLW3Q2qfRZhqjOqFovxBZ3zWUP-DCtbQ3KVkKIl85Gmh2_p7jZJBO-W2KPOPjStbYwewMZ8tU_7Jg-10SmJt4PjdIpneP-lrS-qy0MFMLSh551-wrFjwzVCIZcSg_y8JzSigyjD5KzQXkNkWBqE4qdEqrHNNcUgMoGNqZiyTyN6uN-lzqHBC6fMh",
+                    "AWn5SU4ucwFU_JLAkAn7ya_V1nWQ9cQ36BfU68Bb2c-u7LVAve2hjN1dk88gAvumV4kpfN8vSH-JHQ-PzcAHwCxPFG6fJzrfsHUB3ILjTzR0D6LUSQvn_mpTw5bXHhivXo3JM6VKEnLooOmHXkCRGrAL2_VLqRgzhEPNfS9Q94BmMsHYG4h6ZO4sjwdp3pMBx03tzgT1GGlfH7vwfFNB5JOtGOB4g4NCYtydWRcH1RheqDU-IsJtbtrqISXK7yERA7BV_itU5CaaRMgjgzomZMWXlwJhe0f11_1zESB7trJpPSXtWV2uzTRu1kzX7GMzhuYX0yMjQSzEHGwQ4wLx9IPon7y_N3h1ZLay3Yt1Ev0WQ-4IIIfPXIS9eIt4UOTSrRINfL6B_CkFl-zxrH1DhCkIk-HqGOoAfZ9lf7zVZrcYktLk_g",
+                    "AWn5SU7Czn67llVsSzElH4NgbOKDX-WXawk82apxA4QtayXUMdYxrLW0DlB2nIuXuKxry3pNHL5wYINfD0GRD-9J_JvuI_6PYH9D8QZ1yEusUYRqfs7JKcBLn9zSpd6J_PiLBnR66EYcDPuZEfdb3yqlrz4HxRnmsgmx7KvJnscT6cIHD44maQlUy1Txw-HPpQRr8Qjdoqgjjtmb1JfwH6bmIGwVF_dq6QMtQ9FiDP5StON9gkBaOcLnY76wEJ150T7VKXURSC_RLHzQmFS9q2Y2seZM9ThevE8S1aSeAUxokV-JAQFyMG2x91WMbrd55vWB-7gfAcNbBpyrAZho-VxpN6VGwB-PR5JjRkuWVhOSBfBd_eTDPcuOoVnE0sKEozJUpg-K2aujVRFbCICjEs4688G9Ms5s0qPWOw7ckp3i2Ei9_w",
+                    "AWn5SU7jMGhm8ircdWHj77wfEiF8wT-v81ruxMKGGxkuAxQ4sx4SVlmYYWp3qHmo4JFzZCgt1JiOdd1l61_fchKJvKFNhZiMOKdcI_MWJawQkXlTKP4HSRwCA5QT5fNzLpMTosgfaqGO0io5g3VLvX9fMwmXBuuEpkbGwQ_cSPyVPFIUJ8zQus0anurb4T2OyYb34rS22x8FPylzaO_JkMq5U0Qm0HWHyoH1ZJkmIHV2_-u72iDarJocq8Ji10dEXfZDYm8cEb5B-rkE3Q-yQwpvMFnq2C7CEAx28TKDpux6J4lU2oa_LkOf8Iyq-AELlGDdtoedwNotZ4me1ZRsS1LZ91ocrp-ghWmZ-Z9rs_ytWS7awxAxoWDXqcgn3zlmFqxdJkkZ72w74lkTTHkcVazCFGAP8zLDy7am2AeqMORc5SEvTQ"
+                ],
+                "review_texts": [
+                    "窓から丹生川上神社下社の階（きざはし）が見える、こじんまりなカフェ。\nドリンクと軽食のイートインと、食パンや焼菓子の販売をされています。\n\n利用時はピザトーストとアイスカフェオレ、マフィンをいただきましたが、ピザトーストがすんごくおいしかったです。\n柔らかい食パンがサクッと香ばしく、たっぷりのチーズも不思議と重たくなく、しみじみ味わっていただきました。\n\nお隣の神社ゆかりの書籍や宮司さんのSWATCHコレクションが飾られていたり、神社のお話もいろいろ聞けて、楽しい時間を過ごせました。\n\n店内は木の温かみを感じられるインテリアで、階が見えるカウンター席に座ろうとしましたが、座面が高すぎて太ももが入らず(笑)\n\nお店の方は気さくで話しやすく、丹生川上神社下社さんにお参りする時には、またこちらも利用したいと思いました。\n\n2025年10月訪問",
+                    "神馬の御馬舎への帰舎を見るために丹生川上神社下社に詣りに来ました。\nまだ時間があり、隣にあるこちらのカフェに。\nログハウスの店内は落ち着く雰囲気です。大きな窓からは、神社の「きざはし」を横から見ることができます。\n店主さんは、神社の事にとても詳しくて、色々なお話を聞かせてくださり、とても楽しかったです。\n馬の形の、白と黒のクッキーを頂きました。帰宅してから人気のパンもあった事を知り、購入しそびれたのが残念です。\n時間がゆるりと流れるような落ち着くカフェでした。",
+                    "丹生川上神社下社にお詣りさせていただいた後\nカフェ利用で訪問させていただきました〜\n\nバナナのマフィンと引きたてコーヒー\nふわふわの食感と優しいバナナの風味が\n少しビターなホットの引きたてコーヒーと\nよく合います。\n\nパウンドケーキとアメリカーノ\n甘さが体にジワーッと染み渡り、\nしっとりとした生地でとても口当たりの良い\nパウンドケーキにはエスプレッソを\nベースとして飲みやすいアメリカーノを\n一緒にいただきました。\n\nテイクアウトで吉野の水と空気を含んだ\n食パン「丹生の風」を購入しました。\n\nコーヒーとケーキをいただきながら\nお店の方がお渡しくださった\n丹生川上神社(上社、中社、下社)のことが\n詳しく記載された読みものを\n読ませていただきました。\n参拝した神社のことをより詳しく\n知ることができてよかったです。\nそしてお店の敷地からは75段の階を\n拝見させていただけました。\n眺めているとどこからとなく清々しい\n気持ちにさせていただけました。\n16時55分の閉店間際まで\nゆっくり休憩させていただき、\n17時〜お隣の丹生川上神社の御神馬が\n御神馬舎へお帰りになるのを見に行かせて\nいただきました。",
+                    "お店に入ると木の良い匂いがして、癒されました😊さっと丹生川上神社についての本を渡してくれて、それを読みながらくつろぎタイム。\n癒されました🙌",
+                    "素敵なカフェ✨\nこんな山奥にもこんなに素敵なカフェがあるのね！っていう感じのお店です。\n窯焼きの食パンとマフィンを購入しました。\n店内にも数組の方がカフェ時間を楽しんでいらっしゃいました。\nゆず味のマフィンは、甘すぎず、ゆずの風味が爽やかで美味しかったです。\n窯焼きの食パンは初めて食べましたが、山の部分が上がカリカリ(というかカチカチ)に固くて、香ばしくて美味しかったです。\n丹生川上神社下社にお参りの際はぜひ立ち寄ってみてください！"
+                ]
+            }
+        ],
+        "summary": "奈良公園で鹿と触れ合いながら自然を満喫し、高畑園で心身をリフレッシュ。最後は評価の高い「カフェひそひそ」でゆったりとしたカフェタイムを楽しむ、約4.5時間の旅です。"
+    },
+    {
+        "plan_title": "西部の自然とサイクリングの風",
+        "theme": "アクティブに自然を満喫し、地元のカフェでくつろぐコース",
+        "estimated_duration_hours": 4.0,
+        "waypoints": [
+            {
+                "place_id": "ChIJXcjvBYrEBmAR3j-0kqs8zPs",
+                "order": 1,
+                "name": "天理市サイクリングターミナル",
+                "activity": "サイクリングと軽食",
+                "location": {
+                    "lat": 34.294185,
+                    "lng": 135.78968
+                },
+                "info": "サイクリングターミナル併設の広大な公園で、爽やかなサイクリングを楽しんだり、緑の中でリラックスした時間を過ごしたりできます。持ち込みの軽食を広げて、のんびりランチタイムを。",
+                "distance_text": "約3.8 km",
+                "duration_text": "約12分",
+                "transport_mode": "driving",
+                "photo_references": [
+                    "AWn5SU4mPWNwQ2B_el8eiOqI9gHwLX1vp5-_jDx_qRsAHiOK43pWBYpjes7h_NXqNXmlp6bMWPNsU1eVmAZe5j-R3xAq8QeDgi_KTwX23uIxyDq6upncA9PsdxBJTnjO1bhpDum2XJjaotUkSvLGnWf-Eg1DyhpcN3oo8w16lSS1p-IsuizZLCs-sHtg6MLqzYF1_Jo6z1E4PlhjAIyGuigcWPricQkGTw0GwwykqK_0bflDWk4xrwy6M-Z9VP6y-Kq_sIhYTQAkvFS57bZS5F7-LlIHyLEPvVlfJ4hWxgliIvV75qDOTe2HyFSXoLeP52OHVVcBpllXlINnve0kd-GrECo8SsxE0pJxcJIPsKuCgLRulfMYZA6xDHqO1gRs0W-wyoOK1AIbISppsH0YhMIPj4I9L7YfNVDYZ8wTh3TEjvEmyw",
+                    "AWn5SU5JLISeotx4vX4aNUnLYfKJ33M4gQE23tjuA097qoaf6PCEv8b4w0b-2kk_idlyEP8u0f7W1Y7g4W9x9T19mE6vCeGadTRZJq-Wl81Ymh_AUGiXvLJMkHthL2NNTufcOe4LhXTc1KUVfZj7IUIsCNCSXDfI0AywtD5dhsGDHwlUk6KjNDX7Y4lpDoBY5M9KRpajgnPdTNty2-UYe9wZoDrL4PEVaU1XTPn8bQJENQ0c_ubJwGlKLU6XZqpxhRvHpVemdYaXIqa44LYmcrgrST1cQ1WhDVhnhrQ3dKsC5_Z_BgTsuN8vstN8DmRKDRpc-LOdty-83Hrr7BB0XOa0JQ7VlP50Q2n1OC2zZrQa6qgrdgk4ZOOkjU8jNiNj-Otx-4sK8lUJ8mzRsuQ3wqAfggIxPTA1eUp0KRKRGDOaQFk52oRo",
+                    "AWn5SU5uIEURhlEOxmPkVZT_BriMv4POdN382QNmbtOxw-WbI5JrgXRqF_7Pg54DviI0AGETWESGjgVl98VSZphLWgLniA27-6jkdz1LH7MlFEb732HB3LbQFTtv1PmZbGa0-b3YvLJSiPjdOWkNRxvugrf0gMm_dUwMTP17LniCy0VBbjaR6wrNlR3a891tj8R2odKNYtE0lyUyiJYK_dJQFJqzycS457j-3Q8hoagHanP9-iSmny5SBXty-TE_BUjInIxYQ7pY20a3DIgoJErszsdJEmAZAl1g4EuO4AkyAoDv6EQWLTXz6dspaMX5oHfUJqIsrCOnZTj4G5N46mRrHGdlwzc_pIL2_u59tKGh3DK8V0i24TVo92ZtYPicHQbD3XP-ne-a5WiNY9tPdGqOvYeXdQtTXiGAWDd9V4woTPvxMnPa",
+                    "AWn5SU6NH_2G2G13V2PbtAv9bIAUBawbkF_wAZUpnCk390d4hKZSbv6UIQM1SpKlQNqcLqHpbW998yMuL6mTvXAIbusj6IlB1BF21M0kE3PXAUPodDXteWnQR_iFJh0Vlz3-feIM0xZeiBzguTAsw7pBc05Bw9Vo8Es21RDSUIWcen3IYqoWit-cqH1KVbuoIINai-sArQpqiymjnOGmY-CLrn0K_BN-sTNzTvqh8zKVgZVlfdjVxTbLFX30PkZtcKfNpVwhTXZhL-KC1oZVaj_A9WQ4V4MJ-5vGCYD-g_r0jeho2XqTnjuRy5_OSygbVfyAAfrm3O4MTBhNshda3utuIOg0-5-oYs1LwoF7HXH8kDBO6DYvf8KKyZ4GaOjQFOTWoNgw1hT1WIfSmhzxywauYUY6JuCDgm5S8C7VEBhmfaMmYruT",
+                    "AWn5SU6k19S9Afq62jqZHMn2obZEtIGDrM4uCgvdzEWhhvPEeOR6Z62_DvYEKUqDBVLAAo4XHqrba4VUeVUCwttep59YCEv37sBSWPitdfve_nARWzdt9TYGpXVIg87Hqsu9zAQ_nmakOLfe7F7IOXDEmhZXEV9FJaGGVFPjaHF_1icd9aGI7_rrFhMAX76GzdV7k_5_XeJqo2vZk8shBoKiGXVgLo9niPvcZZNMfKA52WKFSzQV5sApR-HFZYdD_ZUNOmd57629Jtr8buLm1jDSR85Wh3Scpcn9QTY227ZUZ6wUdjXB4u3ofCgTheefirD1Q0ydKxZp9kTx7CEn0_u15g7Pqu7GobhZGPagvMGmG53wuBajb2Kfaq6qXIh3ItlY-qmAYgQ2tE8zXeGIk7779y_c8XI2ZpDtrCjOazlhTws",
+                    "AWn5SU4iEAiVfQlmM7KyzL_pLZInPc7PDFbW0a7kf5grph1C2yDalj7HuwtbCVa9XswS17b7fStnX0L2DCzgOB-iHvTXhBU0aVhnVajUFy5_Mj-0Ebua7c0QLaKexRl8wsn13Z2yV7nyL4HZsdqsEWdYZAObnZlCD8OTNznWqqB6KM35I-DEo_QbQ5tF2AlpbcX67Vm6MmU-EkqlesIFbXjS6EU60y1LJwC8BFtUALPn1xNygGAxzWiRgcdu6nQLUEmo9oLArYPTee_5bUod423YoohCRYW5mfOuigmA4YSIw_kqjECFJ8i_W5jzVcx1dQsKQ5oB4ctUUNhh3iuO8HY5-y52XSSy11awmka79fgpWZ7AbLmy3NbwLq7KoAL5fk_FYyYIl7B1hb53VHWUV4BFe-ptsr5KMIl6KpKOf2qXytsDZkeo",
+                    "AWn5SU4zoJBAM7qfEhOxyeCJe-FusXSrBzhowVGPSP_Nxm8PXMpSyAFf-eq35TbV17PQAtQBkXgBaV3nVswsGUbC9vwiuGUrmY0f4godMqudtn64lwkUH7dI9LPEVo4OJ8ULueEXNb2rMqggVDdIH4h4m9qP9Bm19XXefd0WZKAn6Y_WvmDgUTrb2l1IHYiy_eK6q-309fbg2nyX3Yl9pjOMs3T7MjBie-85iZn5AMB3hjpI2sLQqSCRwQjCA8DzCbgso7jegbZmpFmvaXGVBeSg9f8Yf5KfGSqySoeerEx0X2imtQ6x2-bZndTBPsoexgMkzfcxD2DZLFHESz_K1OA_4I48iJYfNZW50nyTZKJIfVHG4rMP4PKYV2u0B0Kw5VNkpwslIxmzWfgzbo2k0guAqyO67T4ukuTgiGDy0CelzOfNuzHu",
+                    "AWn5SU6kvpx89Tox4XtjWizRN5gA40smHlW7pTEhDU9VIFdE-T8sSnD1d55-kU3uktR3QGu7pAS4wJJDCGW1_pRyy2Bp_Dhj2RIDCThu-0wnZMUSFMcOldvECcHItEIk_x9SYiSPMQCZECj_F4D1N357sZdX1PG18yLRUbINVLdZOIDmesrsLMYKbx2UwMGYE9dDm-jyCPBia6zArGbx1cwKPsyCahGmjMQBEkiVBRMagthGZG3MMMxuZcKuylevKFT7r989BTP2cA3h_J34Dnwbz9UNGQ_bwKfhk9mOr4oue2VYJoxCFNXBZXmhqkNwYkoKuvvkyKAoYeCwMW_mthDXrAh8qeSCibQOYarTPWNrNJ_TeqJs9lyKYwVNs0WQu70tuNwNLOQ34DWKCKZbMsW_3qybP8XA9pEDOXq97SkHJak",
+                    "AWn5SU5AyDin6JKBbnEufbCAM0dY4PCZ0qpocyT9fXHOo4JLabSinH6J25Ru_IjQfEvPye-IQuqaAnDN9dOLL931I98isIStHip7vUe9xTlhtYT3UX89iMcbLh0mTJgnQ9umpMokUFFSLmHKPYiTsGwWZujr7NsQBF4F_0zeV2LVYbngMIl-k4RHVkDgillnL8JuYGIEouNiijEEaaGGBUKZdTnyHx07E4661B1kPfZjaoAeRjg6QV8DfFx5CiCwV-Ww43tB10slLKX3hzReGBVPJiOSfqXY0nSgeNE_Q52SAn7KVaJsjSJqCgJiHnx_oXOZ99zVb4noojWPQthPeVC-AM1-bILpCmOQmveoF3kijBRRTowVKGu-yQzFm9KCw-M2Khj45P6J_oHuDmqogWhveMD25gv2ObGFBqWP0_UqCyQggUy7",
+                    "AWn5SU5pNCUVeozql6n9txTteFGthcLxGgLt3XM-_QsEIdS8Cq_aBEPNxLcE80SLfFep7wsCc4qaCtOEAWevwBH6RBMcOKR1u6-0o-iMfOIIsFGMSpIxWAhRLsgvZq9uoDtWBW-Ns6AkEWx6N98-D_NarjTqbXnFaOYDW1dECoWvf4PkE6VwnfsQp5Ul436xVvbyewnT0rvUZS4KEQ0eiE09m5WT0UCiw-0GNuKeEbzsFxFQaKE79WZg_uRvXdzJUkx9USdFRW2ffpswYyhWo0PaSmu8vew0zXvSoU05cHuZw3f47EGMQiDdkLAaWC2VpXZlkwf4xmnRTAxw7qOK4p5E9Fg0vQ2T8c7lacoFl3lKMzFk_0FEwhzlI3r96z_rG0HSTm5zdTAq3XZf74Ngvg1WlR2YifHMbUfisOAUmTTEOXLcEa4"
+                ],
+                "review_texts": [
+                    "日曜〜月曜で遊びに行きました。\n人気というマッシュルームキャビンを予約！\n\n想像よりとても綺麗で、ビックリしました！\n大人2人ならゆっくり寝られました◎\n雨が降って涼しくなり、蚊にも刺されず、快適でした！\nキャビン内にコンセントはなく、外の柱に一つコンセントがありました。\n\n川へすぐ降りることができ、子ども連れなどにはとても良いと思いました。\n私たちも朝は川に降りて朝ごはん食べました✨\n\nシャワー室はキャビンから少し歩いたところにありました。\n蛾などの虫はいましたが、こちらも快適に過ごせました◎\n(車で20分のところに温泉があるらしいですが、19時で閉店、月曜日休みらしいので、注意を)\n\n値段も良心的で、良いところだったので\nまた行きたいと思います！",
+                    "何度もお邪魔しています。お手洗いが綺麗、川が綺麗、何よりもスタッフのおじちゃん、おばちゃんの心が綺麗です。\nいつも笑顔で、親切、お手洗いも、炊事場もすごく綺麗にお掃除していただいています。\n炊事場が新しくなるともっと最高なんですが、、、\nそして、冬場は休業してしまいます。\n年中営業して欲しいです！",
+                    "大好きなキャンプ場です。\n\n毎年家族で訪れています。\n値段も良心的で設備も丁寧に清掃されています。家族連れが多いからかマナーもしっかり守られている方が多いと思います。\n大阪方面からですと、県道138号線でなく、国道309号線経由の方が道が広くて運転しやすいかと思います。\nキャンプサイトの近くは浅瀬の川が流れており、川遊びや釣りを楽しめます。\n６月にはホタルもたくさん見れますよ。星空もとてもきれいです。",
+                    "道中狭いけど対向車はほとんどマナーの良い人でした(前進ギアのみ猪型と遭遇しましたけどね)不思議の国へ行くにはしょうがない。キャンプ場は広く設備も良く専用のゴミ袋まで有。イベントホール裏、奥に勝手口みたいな所から入るシャワー室があるけど夜中に行くには暗く(懐中電灯要)室内も電気が消えていたので勝手にON  5分200円のストップボタンなし　…下市温泉の割引券もらえたので受付で聞いてみて下さい。",
+                    "子供の初めての川遊びに選びました。\n漬かったり、ちょっと流されたり程度です。\nとても安全に遊べましたが、30人程度の集団パリピが大音量の音楽を鳴らして騒いでいたので残念でした。仕方ないかな。\n川はあまり生命感がなく魚たちはどっかお留守でした。"
+                ]
+            },
+            {
+                "place_id": "ChIJF0vBvzPHBmAR2aJAhNDEBck",
+                "order": 2,
+                "name": "都祁水分神社",
+                "activity": "歴史散策と静寂",
+                "location": {
+                    "lat": 34.3083242,
+                    "lng": 135.8445767
+                },
+                "info": "由緒ある神社で静寂と歴史を感じる散策はいかがでしょうか。厳かな雰囲気の中で心が落ち着くひとときを過ごせます。自然に囲まれた神秘的な場所です。",
+                "distance_text": "約10 km",
+                "duration_text": "約20分",
+                "transport_mode": "driving",
+                "photo_references": [
+                    "AWn5SU5v9yYhUZJkUNtACLOeYTces0qFKfwgVjEkcAzNMUIIXKGFr_zxXp93VLTm7HvHLuizzza1lo9pevr92iFkL245KzKMlsvUBAGAp0fthbeK756kSmY6aOpYtKx90pNvsQgwM5Hadl0WDLtBE4NOlGEyAbFowFU5jpa3ebkZq7P7tEh65OYOrtlIy1YYuAktecOaEtIE6jT81OViLVTCL3vxYbK6-Zb-ax3usQ3J6TpASzrb4UcMa2giM0m3IQGHVmPqJs_9oHKR9oIKauUllLZitKdgPbNpyqTHbcTFzHnSOVpx55SHTvxWXVVz81e5gZPRl5XkU3IuX6hDeNJPP29KY5efP5PiKIwDjoLIzEQsqJTJi-4l9UXvMkJHO1yP2_8a3dhmkEy-ZAENk_i_gM9zgvxBuDTyZvnh7ooqW3I9ILi7bWhcv_9o-KuLNFCN",
+                    "AWn5SU5mMJK1ohnBsB6uNVbxwmoxwP3MrwxwEJFdsGB72lu1T7l4gUx1dsxxeASxsjY3U86ASiX7nsphctj_OawRtuZzti4oVzFwNHHV-Ohy35dzoHvcfpF3342EUBBKFGYyB4v5IOVGDkdqWuNyhbpZgxJQyNNpmFp3X86ur9fRINmcrx2a5RKbCORjS91ZhtKaUgs9FzEA3BtGUFlCXJL-DyeNJPl98nOY1Qr6LddxptSBCrIjRTRfcnOoa0gz8V8cc00R2bQoCkB3KAI2J05dh2yVaAB_tT_QUfzyyj6cjp3cLCP5b195CyrCYx5fTQKn1IxRVBU0fNbQHLzSF41_36LoTseWv9Ifnovz3tKPgwzyYdMbYyvjHGqyTTy5jihnOl56z3w8RzchuunyWzwXRZ16KQzOkUcppH_sv0W2XevRx8ix",
+                    "AWn5SU54MoVTZQViQKMVqXvCkK6vChmKOFj2r6MC-vPDwJO9CwbyRegKl6VShyUCxXJDPjG2Rd7LrsdRrlszTAcwMnVzO265aWupjuNVYxoEqBzOTkOJcZoXPqMQOEuGSOnfP0A84DHT0L-TKTcAu-8JKReMZBcYaswekGvrBQ90klD7FTFWT46ShnurUf_JjjHkxXaW2MSs6SIOXqIfb9_eJqWDb88K-CnfT_Gesv961t9TR0TDvBYOOddumVf6WlZiqboMMW2q5UxTWwDwSBIssLtir-9vSoSZkXXDOtijbXFh2U4xuKed-r_qmqmBEKRjWvvRRxqhhObxitpr2iXdG7sLStHqshvjLPd1khcfOfQoqE_M-NTssi2hxjAvDdTc_cVHSfAR2W_IVjags659t7LpKGPn1iu-T3DoXSb9GG4-og",
+                    "AWn5SU4KhPTn89a3lMQtyUA-KxH_19igMYFqz7IZARQKO0HRw2E0U5BIy-KjEWz8nJOZnH-YWBqL_XLKvtEX3B9ii6hZmEg3KZS-BGwTQVYG3wkM1A3HRcBrLG9g_uBeG_M8VdYwTRUsfRQCc4hlURC1ou_0zPU0NqJaOkYMJxUhrMZJztED8s8ZIhxcryb2VCqJ3nyjFceG3bYZ5tdhaEiSW4nx9CGWSzMRVB_Jj0d12dzuk6xaM6d5xa4jeiEcYB_n7VaOqJFfMGZQoorm7_iRZe_YvxGL4ZeDuJ8I1UOsosI31rkO109gdCG65KeQx8VNhOrBA-7I4qLPIhrVb6R0-rcEHVSyXwZmZZjh-zx6y3Ulns2o_jfDNAJksQ_O2luwPIrRAxxQZHnJTgxoytigeFmnI9eoSEFp0nwomtnZmDw",
+                    "AWn5SU7MTHx2pAvktDa8x2X_llEnaa5At3kcg5i31qpAa9kr6X8pTlVIJo7wJ8HUFQt16ndxQQJml8-0rbt6C3zG47nxJykgBFHkuiWQnwEsxUlozvJull-MmMvPA-P7Q1V1kuMNGf1-_yzZgieYy-0ymHNhoKGBYlFfrq4xakfnP9dkyplYxFyz-96KQz8VmVp51t3wYK9Up1j4rg11qVwjYCxrqHCajTTIk1NCCQ38P6QyWyypH-FDawN2FA-WZoYWQoj5QMK9xhlLTvkY5_Ba4J9pY5F5Rn5oBd2oajlSRxSwzrvpshumV0_yds55CsOmjjjjYLkXaOO9fwzE9ZWo47EYtftfEaB9NnF2oXbZR4IMQpPSr4TBmRPuCSOT2LGMDA1JsZg-Wid_jCh_Lk6_OLfmlf2aktyfQG84nsf0frqS3WE",
+                    "AWn5SU5Xr4YDOGJhuoUgrLwOAsITE6Ynxfcqahu43Tx1xMq92aPynjsc0VmIFTQstbq3BgUAN1OrInk053LyoKDeBK5gN-AGIRB5FyjCk1BRKSJZllMVkZYkTxYhW29rcfDIVAmrP5m9ILLBZYI9L-VXgRhdxPHYrYV6twRwQkt_LH216tQaN3qthuAy_zLprrV0eTRBFK3k4TzozQiZy5oPUfPYqfDdorFWJ1ZZtQsB1-ubjO4xn15o1OoMPV0viLEWVAhiWkTY5RleCDwmlqfCMN6whuBzGy-g1jjGPN9rj-1ArLnAZdkwt__HRu1Myal_sE_p_u4SFxG72iK66neG7A9znYYTCtMPg8jF2UMC3uCGGWGRwnJKXU7xLJPX3YnP8eFWsbav5_ZyXRPilHFuXTt81r0kBf-LReRrmRU6YaQbF_MCaYJvaV-92NPGY4-5",
+                    "AWn5SU4zXB9m1W5C--V77I58RKpgSAEwWl2olcZQz4pACrxv21Y21BPMlDKkmiYPMe1Zuqkw5xcCDhmU1L7ynJnwk7lxxnmHDuKYOLGD0juW3ynYdnHyTGXpL9ngEbmVFz3_Lmu8zEPGes9HxZOc1csGaocRIRDEQWz5EYXw5gwvPSDws0rL8-v9yVL801Qg9MRJvCJHeR_iI4rpCo1PH7nYhnvfdWeV-y2UdzlLSExfAIz5DDgZm-t80tmpWurAabBrmYTs5XUugLW1rZdCoG2DgQhfxylb3nCp08uIpQmCBKMekWMzIWxmkH2y83DER4qbG46MC9sybB3lDTPeE03FHEBBwhDL5_BiSSZSIf968aKLTmCVHi7kX0-AYIUptyak5ZlxwYvzXnpaECFxu_E5PLxcr4LcsYabSGaOeRANTK8",
+                    "AWn5SU4clz06GMRo6K-8J2UQyc7biW7maFcu4UkEJONtJOR5LXoJH3UptC86_aFa4fv1WusrVH3wryY0_nuX2SaZ6hU6GUBO0uSomo63wJiLrw5f5Hbbyg4INhkIOodtdAFiZ6wa8giPzVqEP5_THkNd3J-dT3zOPzZLltSBtbA3s8nxpvXq1hiqJCCkjLs7-FV5TyPjLChxhLSGmNdMJgxxcX6gsy1y_9QyZF6028Lo9C7IwEp6E8OYthaKdf5ZthgLgiYKCPMifFyJZWP6xnc9jbXqWCCzTzUP0_UG7sqj3C5wsrsRtjVH-hiAfx58snU41QM_Uv4JiZC5AIZjzaH-iaC-xSAtZhyncneNfOAmgsty8V91dPL8i585trxsQiCjtYiCuz-MWGcBHuPt8My5CPooBIu7jIXRHUUNb_ASPPfVAqOgDCX_aVUf57HFleOV"
+                ],
+                "review_texts": [
+                    "相変わらずいい場所です",
+                    "お金持ちのホール"
+                ]
+            },
+            {
+                "place_id": "ChIJA0Au44bFBmARvVKMwN1tfMo",
+                "order": 3,
+                "name": "カフェひそひそ",
+                "activity": "カフェ休憩",
+                "location": {
+                    "lat": 34.3056162,
+                    "lng": 135.8034701
+                },
+                "info": "移動の疲れを癒すため、温かいコーヒーや美味しいスイーツでリフレッシュ。静かで落ち着いた空間で、旅の思い出を振り返りながらくつろぎの時間を。",
+                "distance_text": "約4.5 km",
+                "duration_text": "約10分",
+                "transport_mode": "driving",
+                "photo_references": [
+                    "AWn5SU4yAW3nEnG3WwWtPHqtBlbrtsY5-YUIwwu4U52GICDmq4Ygb1FTJhRZmzdaFuYGZAY1Bt-fsuSfEtvxbfmkGIS9gjaQOVfcY4xMhsJObwkD1hVGOWomvqLRz38YrxTqNBDDi21hNGBsW2sEKDGEs17M_znxP1qyYxNzXvvEC6MBIWQQBErVhvkOGcvpEYshv69oeIEdtTmT_RUoKaKjCp3973hGCLNOzOX9I3HMxzMoxGSBGakBB8vggim5ycgKPces0W7lb6KIR_FX5tLUk7XQ_JWLwExmKhynelv7_mAQPuL_l_UdDHbBpJBbRkyrZOtGBs7bDrjj-UWNCgXxIM8HCVFH0oTjrhPxijkyM0Z2am85bsOPpDFxKN0O-S31xp9N9z4kbfUm0QRu-3ou6hr_Ar6pgIKxGF9WySAhIxsyLKSXYgnqX2_FCZLJCi6Y",
+                    "AWn5SU6C21Qmvc8dULe6urkgZelY1BsjLp47u2J3mko0Z77Y5pizTFTFhR0C3a7oWzy36vW6y1vfU9Y7KGACrh74ZrO4Zr7d6i6Z4_U89HIVNnPozvehe7jcoLiUTTtr1GezMqnbhOiZoZj1qR9QkOgrXAdShwdGiBX2SIZnh-eOKp4YhW5JTglc3FZ38AhEYKd0zDwa6p7xfyYOEBTnHuw77zWkfHNvgxsUBk5J9JrrzhW5iHxe9mIQQJwg-kFWSh76PeLfJYw3bP-n_0D0QwbCf0h6YZ75aZbgiTnoWYgVojZCirs1pr9eB68ssGDH_AY0ztYiDyNXkrivXyI-Nvj9yjVfikJcDbIL2Q31ibvwGCJ4GssshKqz2V65yhiEHf_JpDBD8VsEHb0ytUzu3cGW2REN6FBf-M-kT9WGJbTSc9ybMUNG",
+                    "AWn5SU5EHpE5mhAzzLYUEHYhEG61Wx8zCl1o4T8iE19tPMMqjEqiEqtSGkYQGWR8H76ss_p-Yogxe6QqlK3tv-4e-9ZQen-leatkKdndlG5V4DuguFwm0tsppshBnze47tn00H_g6Sfr4ijQW7wLIYCqLQW-1f4f21tpqwQbGxJCgHVPvOh5Kkm2IzyzORTt4SRMUpMzDDzVxLBE_hol3oCWPgrlqIdMWYAZvlDKqJH5EQsFgMYPJb-_QmoDoQe-WQi-k-YanncjsJP7zcFy4fw5uJcxn79F4XPKkvzt_fr6rL3dMzyfBp9Ncvn-pHXGHRQLfmXQaNQgXFnqFXQHW3AsrLNvkD4wOMJFIk7z_McWyfsg2h8PdruQCXWQXs5wIeLQp8pEZ0ZbzoMQfEal9ccfbhplmGmOLWKPQztUYT7Y5YF81Q",
+                    "AWn5SU7AgBiujIEq3E4dB-ECtx0mPfFV8CSQg68NUoDsW3D0SAm_O1pclDdLjf1ZXwBylFO87BQm4kb16pDv_22a9-kY3zgr3uPteREeAOm047CQGpL1wGgEspzZQ0AjnKMkDrTOB2t5jOHCxI0I6gq_9C5UTmTp0j-DLy-i0HXOJwKM5eKodPEPWBxjLssPTvaZtFveARN2LbX4jsitiBpWHKSveU1C-ebgMiSve6JufaZ9-TI_brPp7xHaku9ow-e_kXNpRniIimxJ_w6IC5iykL6CPYjdxVFILKldWBCq1bddA8KhWPCk6yKZmoivs_fYyBUN7r7T0-9hG2qyiYupI6atXX2LPevL1SPvkBTsDW8mWUjzwTxEE-uTotJxXYLVFTZHzgbaPoZ2U-GIkh7Mipsxcy9Y749BE53bYqa-ruYzgA6t76hSKTb-BClPCns4",
+                    "AWn5SU5aKD0ODQAOYZA1HHmhtbJfXDYPLFMCu3V-XOuxIoyki_xNE6gFixWtY6on9lx9iiE4Yeq__IMXZetlwXUM3OptG43P1Q13Ke__sKWHe4XynFFxXV6CN7CmU0vakgvMbGa51GN0fbR_OLBiysKmcKeBshtl-qBdqX982iv5qqIKuuHUGLtjvtfQmGVJUbVCg9P1wtSX39Ka1dOBjPeKUrTpqb8hzlu-LS3PVwVlqgcXsIZo1QYaqpni4jWY25mvSVHfMW6rjjjWLu91hXJ-LA4saiw_WctFMqYRKreBlT_AFNDr2HkzZgzCHK8lglw2BcMrBIiQUy1gdgtA_cvB1gOlTfqHu_7awJ-WgZPwCsKg5Obx-T37OUhORSWnfpFvGKVbqY8Wa5IdamTgq3sLQZKG2LNDk3BtnpipmgHA7a_ROw",
+                    "AWn5SU7IHwnoP5K2qlMJM4D4nWqYP_bbt5trIuDz5z2TdUVhU9YmRvUYfTKY-hOces-2OeiH_TTN6ORPcXKnqKupID45NeVjA7d0QHM1xkS3_zyIRH5U-Mf4Lp-F6hLkisgDRmakcUZ_QKF1DbnZsQCe3_MbdhHvlk9rpPDbM_nW_sHz2H85Fi3IfqTkUoA5P3P_MypFwTJPBYTMJLZPKWFn-fbsvnIzW7Iy5wv-wXZXYi2v2GqZasCglt9h0zpGWoB_Q707V-3sAJKC1HrD8gpKK_gBgzRznKL-XnvgJ9aBa79Jp3NuL0SM13KMLaeLXrj6O3rdMdafzWlDOohMr20NuI1Hs8OnTdsgIa_m2l4afN7-g_X0XUWT8-8swBq2xcTDP-22c7pq-u9lMChZphMarbOjtHafzdRJpBaHvaeCNwCC1w",
+                    "AWn5SU41fvIQpkOPSQ-a_31jKz7oce_pSuHgXur14d1fxIPlVmAXz5gZZ0YqMkjKnTBhJ8-iAKzPwNecCmmOdUPL-aqi_rpebEsVurIQoFJpenM203yzRooLCI-D6WCZa9IxqU4zrzR_X-d7YX9-T16eL47IumMf5oCq11azJbNVk3uzMfZ6SYA4q0xOxZJnIc6tFyZtLZfUlYenRkQ7bR9cU9b3wxLOSqSXS3YgUTpYiq4CB8R54vdPgG5sfhI4VYQ5htp7A8PvFLW3Q2qfRZhqjOqFovxBZ3zWUP-DCtbQ3KVkKIl85Gmh2_p7jZJBO-W2KPOPjStbYwewMZ8tU_7Jg-10SmJt4PjdIpneP-lrS-qy0MFMLSh551-wrFjwzVCIZcSg_y8JzSigyjD5KzQXkNkWBqE4qdEqrHNNcUgMoGNqZiyTyN6uN-lzqHBC6fMh",
+                    "AWn5SU4ucwFU_JLAkAn7ya_V1nWQ9cQ36BfU68Bb2c-u7LVAve2hjN1dk88gAvumV4kpfN8vSH-JHQ-PzcAHwCxPFG6fJzrfsHUB3ILjTzR0D6LUSQvn_mpTw5bXHhivXo3JM6VKEnLooOmHXkCRGrAL2_VLqRgzhEPNfS9Q94BmMsHYG4h6ZO4sjwdp3pMBx03tzgT1GGlfH7vwfFNB5JOtGOB4g4NCYtydWRcH1RheqDU-IsJtbtrqISXK7yERA7BV_itU5CaaRMgjgzomZMWXlwJhe0f11_1zESB7trJpPSXtWV2uzTRu1kzX7GMzhuYX0yMjQSzEHGwQ4wLx9IPon7y_N3h1ZLay3Yt1Ev0WQ-4IIIfPXIS9eIt4UOTSrRINfL6B_CkFl-zxrH1DhCkIk-HqGOoAfZ9lf7zVZrcYktLk_g",
+                    "AWn5SU7Czn67llVsSzElH4NgbOKDX-WXawk82apxA4QtayXUMdYxrLW0DlB2nIuXuKxry3pNHL5wYINfD0GRD-9J_JvuI_6PYH9D8QZ1yEusUYRqfs7JKcBLn9zSpd6J_PiLBnR66EYcDPuZEfdb3yqlrz4HxRnmsgmx7KvJnscT6cIHD44maQlUy1Txw-HPpQRr8Qjdoqgjjtmb1JfwH6bmIGwVF_dq6QMtQ9FiDP5StON9gkBaOcLnY76wEJ150T7VKXURSC_RLHzQmFS9q2Y2seZM9ThevE8S1aSeAUxokV-JAQFyMG2x91WMbrd55vWB-7gfAcNbBpyrAZho-VxpN6VGwB-PR5JjRkuWVhOSBfBd_eTDPcuOoVnE0sKEozJUpg-K2aujVRFbCICjEs4688G9Ms5s0qPWOw7ckp3i2Ei9_w",
+                    "AWn5SU7jMGhm8ircdWHj77wfEiF8wT-v81ruxMKGGxkuAxQ4sx4SVlmYYWp3qHmo4JFzZCgt1JiOdd1l61_fchKJvKFNhZiMOKdcI_MWJawQkXlTKP4HSRwCA5QT5fNzLpMTosgfaqGO0io5g3VLvX9fMwmXBuuEpkbGwQ_cSPyVPFIUJ8zQus0anurb4T2OyYb34rS22x8FPylzaO_JkMq5U0Qm0HWHyoH1ZJkmIHV2_-u72iDarJocq8Ji10dEXfZDYm8cEb5B-rkE3Q-yQwpvMFnq2C7CEAx28TKDpux6J4lU2oa_LkOf8Iyq-AELlGDdtoedwNotZ4me1ZRsS1LZ91ocrp-ghWmZ-Z9rs_ytWS7awxAxoWDXqcgn3zlmFqxdJkkZ72w74lkTTHkcVazCFGAP8zLDy7am2AeqMORc5SEvTQ"
+                ],
+                "review_texts": [
+                    "窓から丹生川上神社下社の階（きざはし）が見える、こじんまりなカフェ。\nドリンクと軽食のイートインと、食パンや焼菓子の販売をされています。\n\n利用時はピザトーストとアイスカフェオレ、マフィンをいただきましたが、ピザトーストがすんごくおいしかったです。\n柔らかい食パンがサクッと香ばしく、たっぷりのチーズも不思議と重たくなく、しみじみ味わっていただきました。\n\nお隣の神社ゆかりの書籍や宮司さんのSWATCHコレクションが飾られていたり、神社のお話もいろいろ聞けて、楽しい時間を過ごせました。\n\n店内は木の温かみを感じられるインテリアで、階が見えるカウンター席に座ろうとしましたが、座面が高すぎて太ももが入らず(笑)\n\nお店の方は気さくで話しやすく、丹生川上神社下社さんにお参りする時には、またこちらも利用したいと思いました。\n\n2025年10月訪問",
+                    "神馬の御馬舎への帰舎を見るために丹生川上神社下社に詣りに来ました。\nまだ時間があり、隣にあるこちらのカフェに。\nログハウスの店内は落ち着く雰囲気です。大きな窓からは、神社の「きざはし」を横から見ることができます。\n店主さんは、神社の事にとても詳しくて、色々なお話を聞かせてくださり、とても楽しかったです。\n馬の形の、白と黒のクッキーを頂きました。帰宅してから人気のパンもあった事を知り、購入しそびれたのが残念です。\n時間がゆるりと流れるような落ち着くカフェでした。",
+                    "丹生川上神社下社にお詣りさせていただいた後\nカフェ利用で訪問させていただきました〜\n\nバナナのマフィンと引きたてコーヒー\nふわふわの食感と優しいバナナの風味が\n少しビターなホットの引きたてコーヒーと\nよく合います。\n\nパウンドケーキとアメリカーノ\n甘さが体にジワーッと染み渡り、\nしっとりとした生地でとても口当たりの良い\nパウンドケーキにはエスプレッソを\nベースとして飲みやすいアメリカーノを\n一緒にいただきました。\n\nテイクアウトで吉野の水と空気を含んだ\n食パン「丹生の風」を購入しました。\n\nコーヒーとケーキをいただきながら\nお店の方がお渡しくださった\n丹生川上神社(上社、中社、下社)のことが\n詳しく記載された読みものを\n読ませていただきました。\n参拝した神社のことをより詳しく\n知ることができてよかったです。\nそしてお店の敷地からは75段の階を\n拝見させていただけました。\n眺めているとどこからとなく清々しい\n気持ちにさせていただけました。\n16時55分の閉店間際まで\nゆっくり休憩させていただき、\n17時〜お隣の丹生川上神社の御神馬が\n御神馬舎へお帰りになるのを見に行かせて\nいただきました。",
+                    "お店に入ると木の良い匂いがして、癒されました😊さっと丹生川上神社についての本を渡してくれて、それを読みながらくつろぎタイム。\n癒されました🙌",
+                    "素敵なカフェ✨\nこんな山奥にもこんなに素敵なカフェがあるのね！っていう感じのお店です。\n窯焼きの食パンとマフィンを購入しました。\n店内にも数組の方がカフェ時間を楽しんでいらっしゃいました。\nゆず味のマフィンは、甘すぎず、ゆずの風味が爽やかで美味しかったです。\n窯焼きの食パンは初めて食べましたが、山の部分が上がカリカリ(というかカチカチ)に固くて、香ばしくて美味しかったです。\n丹生川上神社下社にお参りの際はぜひ立ち寄ってみてください！"
+                ]
+            }
+        ],
+        "summary": "天理市サイクリングターミナルでアクティブに自然を満喫し、都祁水分神社で歴史と静寂に触れます。締めくくりは「カフェひそひそ」で一息つく、約4時間の旅です。"
+    },
+    {
+        "plan_title": "大和高原の自然と癒し",
+        "theme": "豊かな自然に囲まれ、心ゆくまでリラックスするコース",
+        "estimated_duration_hours": 5.0,
+        "waypoints": [
+            {
+                "place_id": "ChIJrTkHqljBBmARhdKaT7PGPpk",
+                "order": 1,
+                "name": "大和高原ボスコフォレスト",
+                "activity": "散策とピクニックランチ",
+                "location": {
+                    "lat": 34.2646925,
+                    "lng": 135.843349
+                },
+                "info": "大和高原の豊かな自然に抱かれたボスコフォレストで、深呼吸しながら散策。新鮮な空気の中、持参したランチを広げてピクニックを楽しみましょう。日常の喧騒から離れてリフレッシュできます。",
+                "distance_text": "約3.5 km",
+                "duration_text": "約15分",
+                "transport_mode": "driving",
+                "photo_references": [
+                    "AWn5SU5yGZ0qN6yoRCLmaAZSOQ6O54bcCIqvgPjVjK_hPi1mHmciAJ_XUkuqja9RrI74ihg3sumyF0wZt-lH-7eBKr-yycHCAxqProJpnf3KCsSfpWB6G2ibewl4T3V8zRQ3Gjq4CPI1di9NpHk2pTJcviCprTzRAfrD_Dh4PIrIzglKUYXxCEnD7lCUjYh7jRf9HGsOW109Wec25jsUyRuSZ5TmR7HfMkyZpDeMj47ti2hyiaagPLNqWIJ0CUFqdq1FMDjlHszree8EPs8a6gK-8k0V5-8h21wTriYIDcIFkyNT0Id9KVTbScjDyOnwv3JGJFLFpVO2AHc_znJbIrstsYhU0YBkpDj3T8dCXNuY8eGNUXvYd4ZPaIMyioq83oVfsOkznsOmhrQTAzf6m0EsmvpU5omFR8ibtMrO9BO_2lFJS__8",
+                    "AWn5SU4hFHKsFRw6neaFWbdsCGTzuE8LQy4DGGxjysyMwgmUiv3FglYZGuoXAQobbMYt7fpQEBURgBazZ1hMiFauIYo3UDXzneZHF2PY_ghe2LpxDhWgE5PQkcVhGe17bxE9RlCcfokOKRIPByw41CaoS-N6aDZY2EEj72WVfHRp8f2_mdND6IHaGnjLHFphwByLyiv3XvTDfN-DL6-FqhuAOz80yLljO9ZHeUphsHAa62mXIbxW5eJbyMjIXq5OYyM5rejZhvmB6bt6jXQsn7MqSpWfb8rLwZ8_BexrN8TpSd93qEMaJVqdmFF0pwj3nkKVgkTE9r3daolfyf3EF5EiP7LyMrC3iDoBJNfvdzLNzcQkI0ZguQR4q1aDgfpmJfP7uRzZ9dTcp-mXDoKQisq8Ud-u4ITRY94fS7nDMnwt28ur3A",
+                    "AWn5SU53yviNm80yfESF8ZDwe7NECHPTMx6JSoQuLcbl5aq8rHiYQGWYNNHDnHgYUchm9EhMWMtLxrbJVck0Y0mSc4h0QDXFw8EU0ysnLLJ9M7N-NxIPwjpZUNaPsarJdEZmBfTDLv7rLd7EEDb-i4SlL-mLc7DUvTd3XsBZOyDOAxJcwVFfrVNeujVbysHW4J0UzRhSbBAMqK2zG0OMoOmBqYWJGHLOc3IC85Zp5Xsx7GZE_U2fGSMU_j2nGDf87WZYSKutkMz2Ub_GW6HdDhUqg-xPapDjAt1xVBp-IMbnFrh8_kpk4AHFsHnKHlnP1fKDKOOHuVo1KpGqhobkIHE88FaSUdL9OJKoi9wwLxS7sqDkEZHY68gZ0aFadV-_dW-o_orhf19xYfyCVc5NwfbKl9JvskZLEHYCE2MqIhGqGpXX2Hlo63oojlZ5zhmdILXz",
+                    "AWn5SU5Q2xfS9i7rTYd0iYtBobSSdN9tL65II5IwrFqj99jIH2HbgcLGtbyoY5H8tcLfMGYjmvOflmCs7HpMFd_I5Gt8O2iZ3U5DMbBSrnQ-LOjtochva3Uqt1i5-FEFqFIGjLMfnQu6vj-cEGVVfDMsqH355_8N9o9XT7DiUYo7pe0AR-lVJSID-ZMyfAAsWjy-oiGiYKhnbJ9NCsHl-CPKSEMuIIa8ye3_kyZLsPpSEde-gSk3AAkWzCUG7D56iBPKcNhvaX29YMtWI-pOcLvdsUxrI_In52Fk-djQcJRtPzB0af3TSNzNLPvzuokOxA2VhZBr7C1eUktuUZMcRdShdtb8YrsO2WruunYXq_42y8AH2ZHnJQg5QlPTV6xASN1302TnbCZ35xW5S0qgRaU9YIokqwwpJWtOjGUo0_71Mg_OoDI7",
+                    "AWn5SU5d81VBP4VZbzzjQC8jH3rgJsIh1jrEpdi3ZDhY8FkHU5IQqCiKs0W0-l7MpXYjSdoJ7ojRQ2aPH5yvQEaYztGxmGbeHSne2TZjp0EOblIJAJeOIbqA4knowpFiIgCnF-kbTjZ_tqIQiV8WJLU32Xv6MF0OzjmboelXdkpJtmveGPsu75CgVeZuUc7dgurUL7O7ZbBqABHVK8G6E-IYXbmRfURPOxbAukdK5tFrGXPZz6INRfN7x9SojZ3FwaqueElusC9Lk_6ZVm23R70K8SPylJHXzQp7A2HHV_xJInpBxj9Byq2py_VUaY1Jf1mrQJaPw6VXgkPsZoYkNoPBdSMMMjeFQcP5JN2xVMAsrqFQNDz44YBLH_EJpE8C5unKwIqYqPhtEQ5EpcSjWhWpXxr37WqzLQTr55SKfwE7XLw",
+                    "AWn5SU6OAmcLY7d0xd5_Z8Wkde7ZmWtpxj4xdxM_-RYMupLQQQwtgIUmqkmF2BLFqJXbaagXCxu8NpIEJbXa-qunogP23b-UF5Dxq0pBiEqtDkwAavcayJVUyHiSMrpW610vwm87viEiZZcdTBfUJ4-CF8wbsqo0M42DI2leWgOziD8o3nXqgybDPXbW3RGI7VuFI2RfJI-JK8XLvN9fKQUfTIrrtov6ap9strfrPl3NbekUdbgTbWvLvhkZNeyCylBTRCjDLIodrn_bl0E4F71BuT8g-B_28aYOZKzZ-OQx7-yVySbwEXVlvHeSh7HE0QezCD4o5vRG06hNigCvduxEM-bqE1FdcvcCSHdI9pafC0fWqKZO3LRafQGug_V5r69pgF5DN76pOvSfMiOCQ_XqCyz1wvXfvmafByEGMHkubPHSpBtt9cC-FdGD0uqUmUQi",
+                    "AWn5SU6L0BQNOZN6HYX8RVJecUIH0Syqf7EiwFmauUTA4MZr55kpUb99rDNh3SBu3UV8NRpWvuyUenEiu4dVnbPANeU8SUwKDrFBTyibPOJHbgaPwHM1hLQYq5iZEyQDu3CFAviqZujwL9URrmp_f5DleAebAF3rEnNNjFZjKO-_qQIRWx6xXxyJigqBCjw7O6t1ocYm8MpxozFv2GlaPD-LeXOx3IBIc0VVkmwGPYvH4it3K064ZZ9FxClrwOAzPfUVKMBFefBLu3z8DfEptujDAqgQk559cmVkXV27ZLgae5RAEP6Pp1VNXKQ-6TmpZchw6qEtH7VlCT8-feUbMM8qYD9JIANp9e8viVzG9zWwQoq3Mc7HeLxm52jxQDzYVAQER_Pc0q6Eg-xwmEUx-s7eJiSThHOjCFOsTaYdJgpo1GggOA4P",
+                    "AWn5SU4TIfH_11C-UyBqhgG_XtTph7qw4FxvVWVvvGtQ3AtJcB4bsJjoP_BJeUmy4Ls28K1oA9ScCz8MjkTjon9i0OlrSSVDfSOpnvshh-8yRpwUrSCKBscU_prWgQF6JiRiG4g3rwlFaDi3yhWoXx2FNs0axgcQhN0TnIb9RE3oZS6F3kWIPboNhIiNLXdkbOS_Yv_aFQxpIgGXkDLjaH2sFRsB2_LAPvYf_Ntmql2Ns-WrLEOhBtnbcamNv46Zbvptn2vS2NBqIwmEunjSQf1m2F_fTMHuHfF_OAIICNuX5jCCT-SWc5uDtG9fr8uH53kGJWJ0EOg-kFnU2vNTOfegpd5c7CaZQXdyk1YSA0rR-5f4rFILrcZmg9N-s-iM6dc7S6BSRPJEYOWsriklqEA-zhgSoRW7krDYFI68DOt6b0B9ZQ",
+                    "AWn5SU70LTcfX_i2--LDqAS0thZFox1KBZV6txm_5UL5S2mL2gb3yZtDE9InPPfZ0PnPhjtIY5reaUwdXGHccDqYdi3RtEfzco-kyY72g8R9J8ZbPz1QI1r6i8LVCg8-1KhUsnfelvrY2T3tCpGqap7nVWZug46qIrCI0ReF5Z3afhZ9B7Tz-9cc5GM31o6Z2l1Hbgj_xktibfL5hYkvLSiRD_aAKkZfxwv2c6R1eyokzFvbkzE8vCAsHX_Qw_ElIeHlydXwsdHOGhvoHJzwOVX27Zgun52UvRG4pLzy_jxft508dWl3f6R0Bw6nqU4BqhlRQjJMefLl2qq_rhqVMM7jXz4EN2Wa3sXnO_zZ4qJHGMXDTVen99kyS38ze_J86CfoOFoi0ZNSvh6rX9Ln5Lxd5HLOdUITYrOVKnAS8chh1QMPMwvF",
+                    "AWn5SU43Mmz__TwWMAGQC1kcQ4X5rI1nZJF8RJHrZjht-HihBxaDjgcmwi39_RSfIUNsU008mpvCHZ67L-0Y3bV1cNsJRMOyFOljRjFgWC4OfPTbtCpDxRfs8KT4NfGbyJ9y_RefJ7Faxv4wooIIQyF9zRv7RPlPcDuGmc6nyq18AM_750-vYxBWpV2gO7YtVeY-n0LXsA18vM9fdgMaudvYuY4bD8RPUhpsXmxXc95BssKEZeekgO8fvSuX8rMJaDZ6bs_B2BF6nmEvFYVWeeVJLzfDlpC8AImsSlIlwsMKAllvU96Rqq14f7n0vrppe4BoBdPeC0RYSG_aC4OyLCe7UUuw-JRtkQKjXt7ghs30JOrv3r6XIFKIOJjOn-RVQMdXeDFDAkKBJbiDkepDE4jl-f1w1fOmw_uN0PnJHGQANtYpAA"
+                ],
+                "review_texts": [
+                    "1984年7月に自転車で旧国道の川合隧道を通って越えました。稜線上にある切抜峠は若き空海が高野山を見出すために歩いたとされる「弘法大師の道」のルートになっていますが、あまり整備されていないようです。"
+                ]
+            },
+            {
+                "place_id": "ChIJH7RV56bGBmARPwPPW9ngeck",
+                "order": 2,
+                "name": "高畑園",
+                "activity": "庭園散策とリラックス",
+                "location": {
+                    "lat": 34.3107861,
+                    "lng": 135.830184
+                },
+                "info": "美しい庭園を散策したり、併設のスパ施設（もしあれば）で軽いリフレッシュを楽しむことができます。自然の中で心ゆくまで癒される時間です。",
+                "distance_text": "約5.5 km",
+                "duration_text": "約18分",
+                "transport_mode": "driving",
+                "photo_references": [
+                    "AWn5SU6RbwHSUFNY7kSG3ReUDxa87RVukoUEth0jd1Oq-5TRTFU2MVLPTw3iqit9NaNQ7oil4MuYVHkIgwnNJKfxrTi1CX9dxBxQ3KLZxzpFVYGbYqZnbgrp9_Nee0tWt6g5mrhDz5_GKPnFLfxCp69Vjwdc_ge4RTk3D2QZOyiXf-ug0txuXVqX0AMRE4K2-ugLGCN-5zTJxe0gHIbkc9XN2RyIOhPLr0onydsZE_XR_wDL3F5abDzqU-tlbY7TnbrvCtkHK1WBMb4rvZjUg-lQJ5slr_T3muAEorVnUivAspKC2Q",
+                    "AWn5SU5EBC9tzK5L-nMeb_FmO61hkL94m--8LIKz7KgM9q4FtYkfw1tLkQ5-o8r8ZgRN486VJJj-XDwDJOxaybPOTkK0gNLMQiv4p0U--h8EcDycmYU2fqE9I4FBAqA28Ou007KZ-4-uImN68h6fhDJqw-OjsWP3NdXDqQZkhfwilslICO_FzBnUW-WoZC-9ujZOi3SZWnb5DHAlwmz2KxE1Z-jekd1xqDb8CE7lycFFhcacW498kaiFYY5vTeAlyWjeYo3txZwU2G6Y1mrzxVnU5lK2j8N97o38g3pNwgYeq759-w",
+                    "AWn5SU4lp6p3_m58I3xhvZf6sGFPadWFuDFXTfBgOqSh__DfH5bRwecofl3suT_-qNClXo0-w8YmuiFEelQFr4wRQuiCj1njuZ58PGEcfM_n7taBhV96EjX4zHpJ69KXTAocdmjR_WBqeNuG004lwv4wzdOYHhIwu681FwXS-FVIo0RskjNd3_Z3Dtow3camymQImG3TP5dw8IjLE8YBAot3nwOfI0MtiT6VLEinohs1fCxiiAtBf4DQMK_bJmsGOlMRqFV3HUidJ3ZAXvjVU5O_GmBv1SAIle5yauozOMH4XvI2KA",
+                    "AWn5SU7CjMui8F5ZuFQTvHorzJWOgFSB1t6tXkLzbt9iZQyn_legXXRkjJh3IpjCtScbru2RA4VN0qUlaxKvLU-NK3blGViMxTJG0hW_wLq2g0m6MbesWAru8GHES2FnLD4HPQVf4oFhmTQNlbm4aey7k32syJzAbuf_mtou8Yd9B5as1u-dS8yION-BCI01FJBlXJIiIX1mj6_uTPtvw2aRUyF_hdIc2_n9C5iWm8Hnb9fXNr0kNh0dDYEfMqsifzPUO4oTaTz8KrIEljND4_hVKHjuwKXe2l6ZUn5zmdB97dVWkg",
+                    "AWn5SU6kMT9mgkUBtgsWXo8NRUdjbVUDXiMioqXsv2d3ss9WLI1SNrJt_90xFPyqhXkiYmVm_avse440IBM_h5vaoZcndwemPadHkV6UepSRLXU76xF7YAbDlOCDg04yLgXrF5cZiinZjJvPnb7zxXV_OsA4_X1FkzWBi6JfvpyfY1LH-RODpoHTofMvstFGoAiJXZErae6uWKyJd7UBQA-KniN_OsZqAObwms8nYAZau74_WZGVhBccUOuFykRMEf48ZAH-6bVWFDMJvYiw2N-hv_knxgKLeYdrYHAptoxPFbe95w",
+                    "AWn5SU41_B4Sb_m_z4_6KPUFUkSovDyaV7HEcfH7IEBXsel8Tru7nbfy4KpSDfjGzVmwAcY4X9vBJl7ifNlGnJrMQuR5FdhNfabUg9Rv7pXgakwRkbaNQMvW9CBXQbPfpmtr1h1uJyeV-_HdBNgdv68YczLdis2CStdIbkQriB6Vo5o68CVdni2c1RHP1a755w8Qu85iOZL7y9NV4w4zfK8HRfyEX8C-Kf8LMF49LfICLJuF3yQbjFiIGy_f-ZbKLOues4u1P8kARTk06cBZzRht_rlnrNyTMfB7rE-oOzulA1DT_A",
+                    "AWn5SU4VMrqok4jX6EhayPm598naBe4Pkm5LuGleibeG5DAE5Tq0bWdZSHQLepBhig3empz3HWzPX-HQmAeLFgoicYpU_wGnOgVaeF8IgvV7IFewwPronK713OzSipRNgIpVQOieUovXYuQCB0cb2l2JxIeJTBL5wuUCdMfEwUkejafaBUzR3Bj6GADZ9vJP3kF7lnIrjKL4gpX1Fm3OLwE-FhKKDF9h8ZJLtPg7n46O28N-h20lsCNYw3R64YMIm73YSrNH6VKPP6U5SBwLjPGujZhf-K7ex05yRRRdUjX463WhMg",
+                    "AWn5SU616iRiCAr_y6iQQbg9WS1LeIi35DmgYnl_j7ekAtfbLa0sNmbsue8gxKY2kTUMrJI05klESXydettw_8F0LdM4mndbqDHDMjQFwVdkHjkV_NCs9wXrdgDCB5jdE2OquX_wsgQiL_1epEnOURFFWMdb877-O2N3Wdti7N6c-QysmAP8JXu9QTrktS4rtZiP_VNsHrjm7y4R8kLMeUxuomuHQkUGn2Eypa2XVMxTyuIir-F7HjtqlCbfiCVlQH2BkG8eG3Vg5GPf81xywH2Wx1Qd1vkYAPsYlZ9fKGeO3XSCXg",
+                    "AWn5SU7THW7iN_M5iDzlQcgZaUdVn5fqbtCR4311rmnyXNYNB4yKCJYlqC8-IDHQVhGpD3jJOyVh8jWejS6tynntniegVJUniP4KkaiD8Duve47flOU-9vEERkv6wmf8Xz7mh2ufsANMGh8Xk-YMY3h44LozvUv2aHxs6uV6P0f89K4zo3rBKmzhcOCw2bPDVi_3VdLkZ8MV_uZ5erRQb_tRty4S7nJYJ6Myqk0vyTNvRvKFa5OauWwOLI0h5LuhwuxD6u3RXECrK1tlFicVfEUf9a6QUNNu30CPRB2FErPuMcQ52g",
+                    "AWn5SU40ZVJdki38IkJiSPLFmeV_7aTVrgHj7-uAWo6lsTGnsP7q2tNMIYhQN4gjYly_aVlGY4cNjoi_QObuLTJ1lbWH2ZUEKj1eeuVPfJ-zO9cXlE-Xo8fXZQw3XFz4RKmJlwibw9vUD9rxzjGQ1o5ERa182UZAXVBNIpakvbIY3Qph49ScGt6atE2_Ca-1YwXUc62431-XCJujuaZP-3y_2QSF4gXPxYZaJDDjzoY0mxJAsmZz2dEz15Cy9KbeOuyPtZMONTUis8rReh8zG3KHYgznlm3EmAnl-zRiag-Qpw1oAQ"
+                ],
+                "review_texts": [
+                    "ログハウスに宿泊しましたが、電源や水道も完備されていて、とても快適に過ごすことができました。自然の中でも安心して過ごせる環境で、小さな子ども連れでも安心して楽しめます。施設も清潔で、スタッフの対応も丁寧でした。家族キャンプデビューにはぴったりの場所だと思います！",
+                    "初めて利用しましたが人気なだけあって\n設備もサービスも最高でした！\n特にサウナがとても良く\n川で冷やしてベンチでリラックスできて\n最高のキャンプ&ととのいでした！\nまた来ます！",
+                    "2回目のリピートです。設備も良く、サイトも広々使わさせていただきました。職員の方々の対応も気さくでとても利用しやすいです。\nサウナと川のセットは最高です。また来ます。",
+                    "良く考えられたキャンプ場だな、と感じました。私はBサイトでしたが、サイトごとに垣根で仕切られているし、電源は料金に含まれているし、鉄の枠でサイトの土が崩れないようになっているし、排水も考えられていているので恐らく雨でも苦労は少なそう。私は使いませんでしたがサウナがあるのは珍しい。案内の標識にさりげなくニューヨークとパリまでの距離が混ざっていて、オーナーさんの遊び心にクスッと笑えました！",
+                    "友だちとのキャンプで利用させてもらいました。設備は綺麗でレンタル品も充実していて良かったです！\nコテージ泊は部屋の中もすごく整っていて清潔感もあってとても気持ちよく泊まることができました！！\n道路横すぐのサイトだけど、車の通りも少なくて、全然快適でした✨\n花火やサウナ、川遊びもできて夏でも満喫できる素敵なキャンプ場でした〜！"
+                ]
+            },
+            {
+                "place_id": "ChIJA0Au44bFBmARvVKMwN1tfMo",
+                "order": 3,
+                "name": "カフェひそひそ",
+                "activity": "カフェ休憩",
+                "location": {
+                    "lat": 34.3056162,
+                    "lng": 135.8034701
+                },
+                "info": "一日の締めくくりに、落ち着いた雰囲気のカフェで温かいドリンクを。旅の疲れを癒し、美味しいスイーツと共に今日の思い出を語り合いましょう。評価の高い人気店です。",
+                "distance_text": "約2.5 km",
+                "duration_text": "約8分",
+                "transport_mode": "driving",
+                "photo_references": [
+                    "AWn5SU4yAW3nEnG3WwWtPHqtBlbrtsY5-YUIwwu4U52GICDmq4Ygb1FTJhRZmzdaFuYGZAY1Bt-fsuSfEtvxbfmkGIS9gjaQOVfcY4xMhsJObwkD1hVGOWomvqLRz38YrxTqNBDDi21hNGBsW2sEKDGEs17M_znxP1qyYxNzXvvEC6MBIWQQBErVhvkOGcvpEYshv69oeIEdtTmT_RUoKaKjCp3973hGCLNOzOX9I3HMxzMoxGSBGakBB8vggim5ycgKPces0W7lb6KIR_FX5tLUk7XQ_JWLwExmKhynelv7_mAQPuL_l_UdDHbBpJBbRkyrZOtGBs7bDrjj-UWNCgXxIM8HCVFH0oTjrhPxijkyM0Z2am85bsOPpDFxKN0O-S31xp9N9z4kbfUm0QRu-3ou6hr_Ar6pgIKxGF9WySAhIxsyLKSXYgnqX2_FCZLJCi6Y",
+                    "AWn5SU6C21Qmvc8dULe6urkgZelY1BsjLp47u2J3mko0Z77Y5pizTFTFhR0C3a7oWzy36vW6y1vfU9Y7KGACrh74ZrO4Zr7d6i6Z4_U89HIVNnPozvehe7jcoLiUTTtr1GezMqnbhOiZoZj1qR9QkOgrXAdShwdGiBX2SIZnh-eOKp4YhW5JTglc3FZ38AhEYKd0zDwa6p7xfyYOEBTnHuw77zWkfHNvgxsUBk5J9JrrzhW5iHxe9mIQQJwg-kFWSh76PeLfJYw3bP-n_0D0QwbCf0h6YZ75aZbgiTnoWYgVojZCirs1pr9eB68ssGDH_AY0ztYiDyNXkrivXyI-Nvj9yjVfikJcDbIL2Q31ibvwGCJ4GssshKqz2V65yhiEHf_JpDBD8VsEHb0ytUzu3cGW2REN6FBf-M-kT9WGJbTSc9ybMUNG",
+                    "AWn5SU5EHpE5mhAzzLYUEHYhEG61Wx8zCl1o4T8iE19tPMMqjEqiEqtSGkYQGWR8H76ss_p-Yogxe6QqlK3tv-4e-9ZQen-leatkKdndlG5V4DuguFwm0tsppshBnze47tn00H_g6Sfr4ijQW7wLIYCqLQW-1f4f21tpqwQbGxJCgHVPvOh5Kkm2IzyzORTt4SRMUpMzDDzVxLBE_hol3oCWPgrlqIdMWYAZvlDKqJH5EQsFgMYPJb-_QmoDoQe-WQi-k-YanncjsJP7zcFy4fw5uJcxn79F4XPKkvzt_fr6rL3dMzyfBp9Ncvn-pHXGHRQLfmXQaNQgXFnqFXQHW3AsrLNvkD4wOMJFIk7z_McWyfsg2h8PdruQCXWQXs5wIeLQp8pEZ0ZbzoMQfEal9ccfbhplmGmOLWKPQztUYT7Y5YF81Q",
+                    "AWn5SU7AgBiujIEq3E4dB-ECtx0mPfFV8CSQg68NUoDsW3D0SAm_O1pclDdLjf1ZXwBylFO87BQm4kb16pDv_22a9-kY3zgr3uPteREeAOm047CQGpL1wGgEspzZQ0AjnKMkDrTOB2t5jOHCxI0I6gq_9C5UTmTp0j-DLy-i0HXOJwKM5eKodPEPWBxjLssPTvaZtFveARN2LbX4jsitiBpWHKSveU1C-ebgMiSve6JufaZ9-TI_brPp7xHaku9ow-e_kXNpRniIimxJ_w6IC5iykL6CPYjdxVFILKldWBCq1bddA8KhWPCk6yKZmoivs_fYyBUN7r7T0-9hG2qyiYupI6atXX2LPevL1SPvkBTsDW8mWUjzwTxEE-uTotJxXYLVFTZHzgbaPoZ2U-GIkh7Mipsxcy9Y749BE53bYqa-ruYzgA6t76hSKTb-BClPCns4",
+                    "AWn5SU5aKD0ODQAOYZA1HHmhtbJfXDYPLFMCu3V-XOuxIoyki_xNE6gFixWtY6on9lx9iiE4Yeq__IMXZetlwXUM3OptG43P1Q13Ke__sKWHe4XynFFxXV6CN7CmU0vakgvMbGa51GN0fbR_OLBiysKmcKeBshtl-qBdqX982iv5qqIKuuHUGLtjvtfQmGVJUbVCg9P1wtSX39Ka1dOBjPeKUrTpqb8hzlu-LS3PVwVlqgcXsIZo1QYaqpni4jWY25mvSVHfMW6rjjjWLu91hXJ-LA4saiw_WctFMqYRKreBlT_AFNDr2HkzZgzCHK8lglw2BcMrBIiQUy1gdgtA_cvB1gOlTfqHu_7awJ-WgZPwCsKg5Obx-T37OUhORSWnfpFvGKVbqY8Wa5IdamTgq3sLQZKG2LNDk3BtnpipmgHA7a_ROw",
+                    "AWn5SU7IHwnoP5K2qlMJM4D4nWqYP_bbt5trIuDz5z2TdUVhU9YmRvUYfTKY-hOces-2OeiH_TTN6ORPcXKnqKupID45NeVjA7d0QHM1xkS3_zyIRH5U-Mf4Lp-F6hLkisgDRmakcUZ_QKF1DbnZsQCe3_MbdhHvlk9rpPDbM_nW_sHz2H85Fi3IfqTkUoA5P3P_MypFwTJPBYTMJLZPKWFn-fbsvnIzW7Iy5wv-wXZXYi2v2GqZasCglt9h0zpGWoB_Q707V-3sAJKC1HrD8gpKK_gBgzRznKL-XnvgJ9aBa79Jp3NuL0SM13KMLaeLXrj6O3rdMdafzWlDOohMr20NuI1Hs8OnTdsgIa_m2l4afN7-g_X0XUWT8-8swBq2xcTDP-22c7pq-u9lMChZphMarbOjtHafzdRJpBaHvaeCNwCC1w",
+                    "AWn5SU41fvIQpkOPSQ-a_31jKz7oce_pSuHgXur14d1fxIPlVmAXz5gZZ0YqMkjKnTBhJ8-iAKzPwNecCmmOdUPL-aqi_rpebEsVurIQoFJpenM203yzRooLCI-D6WCZa9IxqU4zrzR_X-d7YX9-T16eL47IumMf5oCq11azJbNVk3uzMfZ6SYA4q0xOxZJnIc6tFyZtLZfUlYenRkQ7bR9cU9b3wxLOSqSXS3YgUTpYiq4CB8R54vdPgG5sfhI4VYQ5htp7A8PvFLW3Q2qfRZhqjOqFovxBZ3zWUP-DCtbQ3KVkKIl85Gmh2_p7jZJBO-W2KPOPjStbYwewMZ8tU_7Jg-10SmJt4PjdIpneP-lrS-qy0MFMLSh551-wrFjwzVCIZcSg_y8JzSigyjD5KzQXkNkWBqE4qdEqrHNNcUgMoGNqZiyTyN6uN-lzqHBC6fMh",
+                    "AWn5SU4ucwFU_JLAkAn7ya_V1nWQ9cQ36BfU68Bb2c-u7LVAve2hjN1dk88gAvumV4kpfN8vSH-JHQ-PzcAHwCxPFG6fJzrfsHUB3ILjTzR0D6LUSQvn_mpTw5bXHhivXo3JM6VKEnLooOmHXkCRGrAL2_VLqRgzhEPNfS9Q94BmMsHYG4h6ZO4sjwdp3pMBx03tzgT1GGlfH7vwfFNB5JOtGOB4g4NCYtydWRcH1RheqDU-IsJtbtrqISXK7yERA7BV_itU5CaaRMgjgzomZMWXlwJhe0f11_1zESB7trJpPSXtWV2uzTRu1kzX7GMzhuYX0yMjQSzEHGwQ4wLx9IPon7y_N3h1ZLay3Yt1Ev0WQ-4IIIfPXIS9eIt4UOTSrRINfL6B_CkFl-zxrH1DhCkIk-HqGOoAfZ9lf7zVZrcYktLk_g",
+                    "AWn5SU7Czn67llVsSzElH4NgbOKDX-WXawk82apxA4QtayXUMdYxrLW0DlB2nIuXuKxry3pNHL5wYINfD0GRD-9J_JvuI_6PYH9D8QZ1yEusUYRqfs7JKcBLn9zSpd6J_PiLBnR66EYcDPuZEfdb3yqlrz4HxRnmsgmx7KvJnscT6cIHD44maQlUy1Txw-HPpQRr8Qjdoqgjjtmb1JfwH6bmIGwVF_dq6QMtQ9FiDP5StON9gkBaOcLnY76wEJ150T7VKXURSC_RLHzQmFS9q2Y2seZM9ThevE8S1aSeAUxokV-JAQFyMG2x91WMbrd55vWB-7gfAcNbBpyrAZho-VxpN6VGwB-PR5JjRkuWVhOSBfBd_eTDPcuOoVnE0sKEozJUpg-K2aujVRFbCICjEs4688G9Ms5s0qPWOw7ckp3i2Ei9_w",
+                    "AWn5SU7jMGhm8ircdWHj77wfEiF8wT-v81ruxMKGGxkuAxQ4sx4SVlmYYWp3qHmo4JFzZCgt1JiOdd1l61_fchKJvKFNhZiMOKdcI_MWJawQkXlTKP4HSRwCA5QT5fNzLpMTosgfaqGO0io5g3VLvX9fMwmXBuuEpkbGwQ_cSPyVPFIUJ8zQus0anurb4T2OyYb34rS22x8FPylzaO_JkMq5U0Qm0HWHyoH1ZJkmIHV2_-u72iDarJocq8Ji10dEXfZDYm8cEb5B-rkE3Q-yQwpvMFnq2C7CEAx28TKDpux6J4lU2oa_LkOf8Iyq-AELlGDdtoedwNotZ4me1ZRsS1LZ91ocrp-ghWmZ-Z9rs_ytWS7awxAxoWDXqcgn3zlmFqxdJkkZ72w74lkTTHkcVazCFGAP8zLDy7am2AeqMORc5SEvTQ"
+                ],
+                "review_texts": [
+                    "窓から丹生川上神社下社の階（きざはし）が見える、こじんまりなカフェ。\nドリンクと軽食のイートインと、食パンや焼菓子の販売をされています。\n\n利用時はピザトーストとアイスカフェオレ、マフィンをいただきましたが、ピザトーストがすんごくおいしかったです。\n柔らかい食パンがサクッと香ばしく、たっぷりのチーズも不思議と重たくなく、しみじみ味わっていただきました。\n\nお隣の神社ゆかりの書籍や宮司さんのSWATCHコレクションが飾られていたり、神社のお話もいろいろ聞けて、楽しい時間を過ごせました。\n\n店内は木の温かみを感じられるインテリアで、階が見えるカウンター席に座ろうとしましたが、座面が高すぎて太ももが入らず(笑)\n\nお店の方は気さくで話しやすく、丹生川上神社下社さんにお参りする時には、またこちらも利用したいと思いました。\n\n2025年10月訪問",
+                    "神馬の御馬舎への帰舎を見るために丹生川上神社下社に詣りに来ました。\nまだ時間があり、隣にあるこちらのカフェに。\nログハウスの店内は落ち着く雰囲気です。大きな窓からは、神社の「きざはし」を横から見ることができます。\n店主さんは、神社の事にとても詳しくて、色々なお話を聞かせてくださり、とても楽しかったです。\n馬の形の、白と黒のクッキーを頂きました。帰宅してから人気のパンもあった事を知り、購入しそびれたのが残念です。\n時間がゆるりと流れるような落ち着くカフェでした。",
+                    "丹生川上神社下社にお詣りさせていただいた後\nカフェ利用で訪問させていただきました〜\n\nバナナのマフィンと引きたてコーヒー\nふわふわの食感と優しいバナナの風味が\n少しビターなホットの引きたてコーヒーと\nよく合います。\n\nパウンドケーキとアメリカーノ\n甘さが体にジワーッと染み渡り、\nしっとりとした生地でとても口当たりの良い\nパウンドケーキにはエスプレッソを\nベースとして飲みやすいアメリカーノを\n一緒にいただきました。\n\nテイクアウトで吉野の水と空気を含んだ\n食パン「丹生の風」を購入しました。\n\nコーヒーとケーキをいただきながら\nお店の方がお渡しくださった\n丹生川上神社(上社、中社、下社)のことが\n詳しく記載された読みものを\n読ませていただきました。\n参拝した神社のことをより詳しく\n知ることができてよかったです。\nそしてお店の敷地からは75段の階を\n拝見させていただけました。\n眺めているとどこからとなく清々しい\n気持ちにさせていただけました。\n16時55分の閉店間際まで\nゆっくり休憩させていただき、\n17時〜お隣の丹生川上神社の御神馬が\n御神馬舎へお帰りになるのを見に行かせて\nいただきました。",
+                    "お店に入ると木の良い匂いがして、癒されました😊さっと丹生川上神社についての本を渡してくれて、それを読みながらくつろぎタイム。\n癒されました🙌",
+                    "素敵なカフェ✨\nこんな山奥にもこんなに素敵なカフェがあるのね！っていう感じのお店です。\n窯焼きの食パンとマフィンを購入しました。\n店内にも数組の方がカフェ時間を楽しんでいらっしゃいました。\nゆず味のマフィンは、甘すぎず、ゆずの風味が爽やかで美味しかったです。\n窯焼きの食パンは初めて食べましたが、山の部分が上がカリカリ(というかカチカチ)に固くて、香ばしくて美味しかったです。\n丹生川上神社下社にお参りの際はぜひ立ち寄ってみてください！"
+                ]
+            }
+        ],
+        "summary": "大和高原ボスコフォレストで自然を満喫しピクニックランチ、高畑園で庭園散策とリラックス。最後に「カフェひそひそ」で今日の思い出を振り返る、約5時間の癒しの旅です。"
+    }
+]

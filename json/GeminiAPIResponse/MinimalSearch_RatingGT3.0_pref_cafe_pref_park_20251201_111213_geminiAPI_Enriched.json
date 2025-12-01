@@ -1,0 +1,339 @@
+[
+    {
+        "plan_title": "奈良公園と東大寺周辺散策の旅",
+        "theme": "歴史と自然を満喫する定番コース",
+        "estimated_duration_hours": 4.5,
+        "waypoints": [
+            {
+                "place_id": "ChIJ2RL_ai46AWAR58sBDLZZ8Sc",
+                "order": 1,
+                "name": "スターバックスコーヒー 奈良公園バスターミナル店",
+                "activity": "昼食",
+                "location": {
+                    "lat": 34.6817547,
+                    "lng": 135.8198158
+                },
+                "info": "奈良公園バスターミナルにあり、気軽に立ち寄れるカフェでランチをお楽しみいただけます。",
+                "distance_text": "現在地から約1.4km",
+                "duration_text": "徒歩約18分",
+                "transport_mode": "徒歩",
+                "photo_references": [
+                    "AWn5SU6f3Nzlnmar2hnMuQ6xcsKxs6INgvwRJfCzs6LGI2vnDAxLXlgq5a7XGkndTv8bCDYkCU1jj9-k6CCv7eSJIjjEE8Q9KdEPYFFmFrEnC0eNhoAimFhadGloUcvM2R0ZxRDyAvwe_Wc4JRb4Ylg3MspBwdHq2f2ynjtizPsK0h_mAWXMK4JYf8mFH88BtKus8vURvggUE35yuo-S70QyRgzk4TXsupvRJw8lIdr5WbkuZrQCSodgfIX6AufeZx7WXkJLC1ydHz23SHXRzVjnpoqo9R_MGJozdVabluEZPf8h3DpVAG3eW2ol12V-5IJ5B6bnTmL6dqfN6ECFclfmjey1KNx_7njAGbGftXDle32oeX2X_OPmKNZyzohQ0S9liVD8bGX5yS5zi7U3naWjJUSdi66M-QGcmsrgtwMbCwjKse9j",
+                    "AWn5SU4QYB1G_7i24znnZt6dM53g1FJCzZt_rAj6deG3OFy5vi7H5gXwAT0y54P0hFSRGxvNb2UBajORtKZyYcedUxN8zplVWbj1J33PbgJo8LbBLHw2A4C3Z7xZ8wPwhkLAPxTDHQnAOo7a9H_NN6eLzXYLHjAYfmm1LBUegR5B-Rh9Xb-F_spJGB0m9axNSgoHnjsFi4xQstLOK6b5zZPMq5to7TrPAfGyJsB1z4YrSI1U3Q35hmytEEIuRurT0bPgoPWxInTiy7Oim4mdd0nTjBGE7AMapfvohtR1oJIXvfb8NoppcMp4hlF71iACiHmr0D2A5qnPYYO-QalyVrRqtj-W_aujGZCZB-xT3ZCSEf4h9FAzB9qrKzKlJBcCGx0hrisFSlaPP8_wh9IgwXsNQcL-ItMVPHi1qf2SgBVOf47ETb4snIhKbzX-QXYUsPhW",
+                    "AWn5SU4aTJE-c9sqgY9jkegWBxlpJBDA-wIaYrX86Tgj14tS_mB8b7O8IPSABisDrjt8OkN3No6usWTv_KlribXvI0JGAdsAljCWvWxeloNWMSAEydvVqjj8EROCG7ynDNB7MkwtDksDybschDy6xD-GXesfT4sW0cpvqSk3HZYMsm-lYM4q8zrJ6ATIwsJTXbdXNnNCRJn4r71I9omdzVK_1XnrbkMWulVUKtR77oTGwwLyvf8wCk2O_ihpBEmmDb9cTSST3L-KXL7UIFAkgVU5HWr1-rpeJeNJ7GQMnDtPT3EVFEMPvcKnL2ue4JFje1hbyysabRi9uEhPsOiA86hLThufQIcf0I0kvMTVkEfnOaM8RudotwhX3DJkVrF-O_N0PGwdzWb9AU07VS7B_NsE41-hDh_Sifoi4R62ekrpACGv-0XdMax-ECKaQhop4A",
+                    "AWn5SU5yl7PF4BrM2ENk9WEzmZ16IYVt55Sb7IRBe7PBod213XZdDeIe_Ynx9IKQ8dqOdTqD9DiMt8UGq6L08ddnjfZU1h4Q7kHNId8ie8moOhsQtDb7Jt5n6eOm2KqidWEhJyu7XX6OpWwjt9zWl1FrzypnfreKL1dubbFguyo3G4EfJb_snBG9Y0mkC7isWpB3qWdpZAZcHo3BZNuttBFxj_lJwdfSqkpwLDfvU62B153djXX58KQiwQ7Uhu-XppMfxPa5CQy1PGPZkEaenLBA5uRWjf2MNETHJVpL0pvYuUzEn-n1MD4WPlM_H80hSn3phf5vfVKmVENUpLhLLH-FDsGEMj9RryaHhUGOm5mbaO-0Rn2G7LLmxe-DyJiAZWWdDgy6QQlLLQjLuDQfC1wHwlbU396CUC5yCKNa_mUSK_En2g",
+                    "AWn5SU4klyCShgrpM_jkKCB8ktKJK5_0D_Vn7RN3E6ZzfipVt9KT51TkhOyD3pHdC4pi3Ml7aXAI2jpcSa9kbgev2D3qKEdFbrk0VoSDm-GVZzWFHY7_RAlFw1kQOF6B534HoEXWWBU_Xd1UhOIalDpGwkpncsDBBoCQgHx01qMtjKLuZaNtweX9ydpjVBqjNbEcNrVuIvO74miimOIfoeIseMjzG2vSRUgR-teMk11Q-hgFlL0gGdiaidEFy1OVMOGx_Xk20Ez5kHUPRhKhDR5gh3HuvWwY0lKN_9MJ5l2ZM06ogMqX4r0XtIPdkrAIeDEFF9ZqsREkfwFcnLFi4EBsT33VIqNnC4rTpu7gj5Ji2Q_b1xXlSKsSvuqLyU6lmdzIGuhvzE-snEe-PSEcLCBEKNWrjr1LJh3zPS0qn3ZOj742IcevAmi0CEs7t5_9PA",
+                    "AWn5SU7LxRF3zaK41qmxEe-ZJb_dTgu4P-2RIG173d5h-XhTEtnPLfgF6wEzcVKBf-tmnqoNeEsVnBCbdAOwwcUCChySLFnHwJPw__YXU6_ixjeBHx6SCxLNmXBeyYLwR8B3w-n4_2w6ZzIHXXDLmsMICTQfx-OmzHtXXHI9OXKhiMGD-uzLeQIyIR-xeFnarh1jo03HDCCn-8Dma-j1XO-4U4nZCrVQi5G0jWrdwgL0UV7y0LaMeR8s-wExkQGU1bzPJcmLFg_UXZq0lDtRh7rwcW8g5Q4hqTmGW75TXri_o7HhbS8AMBBhR6LxWwBYgl0mfWkkyqc2WwaoAxM02w4no1A9LZmkDpaTuUz6d2sMji3ruNMGOQUdQigR1etiZmWDykPI5cfkxdzKICX7ZXYLqOcPO_dXZBlqaWFvxLDmJrISPEVQjO_xyGlQCD7jyFu3",
+                    "AWn5SU5aW8wCBRa1gi568IbBo1Rm04J2-jnSFYz6U1Xf_3ATW7QPecTbhChJ04r-e7TF-6RTOhPS-xw0iuqOLQTBe4mEG7_QB9CtmGDHt2IY_xix_I6r3RHgpE0knDrJAdtmosd7AR3QUh_GPNJY876cgAJswNhs9WkdaOtzwqdHWPrdziR-OBoi_6HwpcP-QMyBGOJzv16f9TdMbEf2AzHYZNaCkK-WLoO4keQdJx8h8tc7P_tIliIkrRDoyJ-IZn0cIv6jmbezeLsLvxBG0pjEcw4tDYCcIO0w8DUGX1_1VRpUkOxSY_S41RfzuomgLjE5loJc0_LNmM6Lbt0XKJLGbZL9yawAQ0pBS3pTWJ-Dd3piEInrzLIZABMn9FsOeqwkfj9tnjlibSVtNV96pfuK211n6EEdWEXHGbTXh45RBy41n_Ds",
+                    "AWn5SU7-NgmaFjPsLJ9RpTqxy6nBaV9FXHV-gqW-hrgf0FIeFbTm2c1L9f5axDC5Px5pBOGwopwfbc9Xc8yIThtXXVW1uwbLM9MAITeg4qxf_NPmwNqGkK7QiJ7pZJUSYgOjUwU3xgN7KT9qBtXuJs2Njkv3b8QUtFNnK3BYqpccJO883JMsmbH5R74ZPEj6YpYkr2NmpTvsGoCKNPYQB1ebZl0VVijg_7wVfhmblJuCuvZeyYHvW7HeoWAuNrUAmCWQmhw-pz3Tm7gcL5XirNnqwa3LkiIX5q20pJOFz4pe34N7h77CTrWfPs7bba6w3hlI5LEBgXjDsWK1FuqPH7mN04zOkh2opKrjXmaoLNSFj-kud-9FotfcPeIvAQ2gUDA5Wrt6t9TP5HDjUiVOhYd9iYdKpZrqj85eEtnN5LzWLRI8zl8m",
+                    "AWn5SU4mwROGwZA2kGFpN2PHvmHgbhJ3M0-VBv54ZlhgT26PoY8hoEt9Rs3cT9SABXDY7mlHkacE7tMzrEzwBj_rOfiB4y9eMcF_q5joz1WiDfq9ZBLnYeaTbmTbck2OEVLOuEpkMS9GSrlyRB6nbP1qBBM9INiqeyrVCxOoIHBO7MiPG_MzoN3JWWFrfRUP9r5os8NvC4ashhYIHVhMGpVribDFGVb3pm9Ru7Nj4JAkQlcbRdOMfT3BdAA_Y3b697ukO6gGcXdHLRTVCblSo7CfGHa5ffieZJTtBYz80tVJKDoAVR7eg-t9kxucgGuUDbL8aHiiIfXhhzx6ooQqHOBO9r6vAufoBoM0grUT6wkHsBWo9G_UmU9LmtY3DxRWuDsVS7OjGNAhCBc8AmyImoSDYEgpySatPZsUKa7xX6w_A3Y",
+                    "AWn5SU4lGrni_j-6sGbZuJbvwM90xVuZ0g-PEEKyDQTkKhN5FgHe_iJmnSWXwPeBY16aIf7-_npObGv6-iwTwGZn5-1-_TdcQn8isyGZal_dE2vHfrrHYA0FZCw00pTOqjq_3Nm5ZitR51-plIAiinVPFnVYgcG6YFkoqHA3cQeayDbMl39WML9J4iaMmRCd4w3pXozWFamQXjy0XtgzitkJVwOX8qwOWzUgQR6SDpSzgbQ76ixIzh2YNZ-xw96yTcwTqX26qrlVjK21yB4gIQeJMEgVKVD8t3DqlwpRJl81PHeje3vLu2wq4E0IRYm1I4FRdDi2y89isDmZo5NXr_XKR-Us0rIZUcmqwm8HBI5ZL4JFQwJQH02gPjMdMC3hexZNfFMn1Slcql-p5PU2iFaLpcVL57Ei6S_1WC7YvTzARrk"
+                ],
+                "review_texts": [
+                    "2025/11/24\nJR奈良駅より外に出たところにあります。観光案内と併設されており、また駅出てすぐの場所にあるため混んでいるかと思いましたが、意外にもスムーズに席に座れました。ただ席数は少なく、またゆっくり出来るようなレイアウトではなかったかなと思います。\n久々に混まない、騒がしくないスタバだったと思います。",
+                    "JR奈良駅の目の前、奈良市総合観光案内所の中にあるスターバックスを利用させていただきました。\n店員さんの接客もよく1日に2回利用させていただきました。\n店内の内装も木が基調で落ち着いておりほっと一息つけました。\n席も比較的多く、作業ができそうなスペースもあるので色々な用途で使えそうな店舗でおすすめです。",
+                    "JR奈良駅　20年も前に\n新しくなってた…\n旧駅舎は曳家で現在の場所\nスタバと観光案内が隣接しててタブレットで奈良の観光案内を検索できたが\nスマホで事足りるので\n充電できるコンセントの方がありがたい",
+                    "奈良駅はJRと近鉄と両方駅前のスターバックスがなくなってしまったので待望のお店ですね。JR奈良駅とのコラボで観光前に地図などを広げて最終チェックするのも良いですね。観光客の方にとても重要なスターバックスとなっていると思います。背もたれのない席も多く、休憩場所や観光プランをねるなど、ちょっとした休憩にはおすすめです。",
+                    "2024/8/18 訪問\n\nJR奈良駅前にあるスタバ。\nおしゃれな旧駅舎の中で観光案内所、スタバが入ってるのでスタバ自体のスペースは広くないです。\n回転率は悪そうでイートインで利用するにしてもまず席見つけるのが一苦労…\nカウンター席が空いたら座れるかなレベル💦\nアクセスと雰囲気は良いのでこの評価です。"
+                ]
+            },
+            {
+                "place_id": "ChIJYWCMvZY5AWARVnREV_OsbPk",
+                "order": 2,
+                "name": "奈良公園",
+                "activity": "観光",
+                "location": {
+                    "lat": 34.685047,
+                    "lng": 135.843012
+                },
+                "info": "国の天然記念物である鹿と触れ合いながら、広大な公園を散策。東大寺大仏殿への参道も含まれます。奈良観光のハイライトです。",
+                "distance_text": "約2.5km",
+                "duration_text": "バス約10分",
+                "transport_mode": "バス",
+                "photo_references": [
+                    "AWn5SU571QjE55t1SZ58TtBNmw649boc2fG37WndGCIyhhULnr-qWSZdj1uj_ySKxwbgUjZTeMFxCAGGMejKehJz-R6EOOQg-ilGok5nk-CHKtgqmjkwmpkoszmeYFMiOTQWPI-AzFp8wo0P8Z4Og9thC5xsdM-gdcRi1gkprfMfXTBtjaSDGwzlRB8upviTY5WDuwTu0cXj4_9Xs0tPM4uMROPpGrzjiWsT8wFnT5TZQaruerrH2W0_UTc3Z3VyQ98i1qdfnunRcrMKO8-cKBWpEDJoq9mVQqmhurbQkP9UYCEUrtEgrrsNhM47aZGj1nJK4Tux4_LpplXl-VRkTollLVeQIhWTldxrqMXZcPhDHETmR8mtGazHUWtK0qA8jBpj4hRl2ZIk1sKKmX_fqKznJ7yWbJvFiykbbkUM_2Lxro1OnKoD",
+                    "AWn5SU4vH6ed4GO_pk1OLfPrFQWMcC0HFtkQcmuYk4Cj9R5S8tHf-faaRokpKaKcs8ZALuZ4LXTgC0NrETNaNA9psdLMQ5EPWRYtOuVJCs_IgcNSiTJv8SDYYCxxKCNDmk1ik8zmtJtZLkr8r9vw_-IbVo7QTP7dcIJ8j30ix0bX_WfweHCyDppdr0vbdYUpSTNo-S63v-jhRQ4ATV3ouuBVornUZxX_IUbkIUXAKGkXLqdKoDl0s2ExI9WD-LvkxKacEFnLzAj_oE3-EiX1krZ6jJdlnr9pvs5txneiu8Gmki215whYOMRqqjldh71Ux7d-roN7-pndoJYdKe8rNv0mknBibE-6tyPrhrGUu9uNfeKYeTXTdtTFPwuYpVzT-GhilyT7tybv0w-9DklyRw7OZagV3zxAPw1ibU14jlYl_d_5QA",
+                    "AWn5SU5RTY74v49SA_6p-l4fnEJBFDvPUtsKAVkNdDFieNMxyCS-ezITtb-w-3JMbt-bjEjSeKoB3sirT7rtqGsZSZiGjc_aCO5-nX2ey1LLMACJlL6fswfs603NZsnFPOV1Wt2Svli28RGQu2EsXSzlnuhWH_Km27nQAayDfkKgm8zAiQiuylzcJ5SdZsCts5CinmDaT8Dge9oZ60GEIqKIcAM-kKjuYgBYIHtSBRVKgcqjVgw3QfscXhHu5k32ut_VnuDZ2gkiAfm0xqCOw5izF6I-7foFhBE1ZyFOX2fEB43itJjrWXRbMssq8xr5EOSfmXRQ5dh_DPqFFEojkJc-ogCDZTSodhrLXKgogLZjfGGwwpJLkC7t9nAnweU3KTrz4KjcHl3JX_LYXHcvrZY_XdRaZVpHeOjDKLbPL6MmePAbgtKs",
+                    "AWn5SU7OB0lSHdAQXyQOFxwm0CQ3nl6Uz4pKA7NfaXnfycVxvrlbz6gdATTHh5aJKTAwbC5574sfJV5Ize5N4K3-My-03hLpcpb3CXycf3_f3wHHrK5xLRWg7IyQYSKdahebIy-zM4zdosDzqC-O1sEUC8c9CPoSlnnOCOmhuzJn0CNY6gncBh-xaJ3BwqIrWrUdl64TbLMRr7EUklTKYyP3ZzqpV-z8TPbw-s23ib6FabUfq3rRE7zuaVEJqXJGmymy3p-qjlAlJ0J7i2elWNaSQg_0MIK6zdS5VEIDrnEoBqxhxxmjNdG5pGsX79aRQcqTeccZtb8zXKibcrk9rLTusAPsYsQTIaCiMnoaE0I3Quk9xgJnSwa50RDZiRBZj-Wo5aQTG4-3BEb3Vnp4u1ybEG9kyhXQAINEXlCgoyEhB-A",
+                    "AWn5SU5uw2Y69QuPPaELp6WcUXVGrYLMmrK2OC6O4o65Q7J4qW_KcWYvPm2R29EP3Y7fGfCDBSDPT6nysZjPEtd9-rcP-uUAYfEUtU6hdoZeUIqIBtfcqOeOsNKU07_4CXgJl5R87yiweY2PhCOZKeuohThHTpHXPxd6IMX7oA89QqoP0N30y3G9LwtyPzuzjLbH3yKlMDEbzzhoK3Ys1TRjs9n2T5seF_J34lfekyG5KCSenLYGe2zZqmMd-Y9H0y9dJ9fL23-jGbWAlllV53qwyz-kQr1-HczO5WJ98ijZEImGgk_Ohu39JdaXQCyPsyb6-prRqZLNafBSFZ-kkJNWaSL8TKriKXZ3ZbHceG2bnlBVRoCg_vTEiT1Vp717EB-F7YWb_h76CImvJ154zDr-421jK4sCb5Ad-Q1wtSWUggnpgw",
+                    "AWn5SU7Bn0E9Xl3X405bhaRCO4Suv1XlUeBB1OJOJZ26mKS1V7kUweBBCFYF5lFtvQtjnmGDMBWCe3zTHHvDMF-QhX9EgHxzcfZOoO-VHtrjUYA0G-OmJ22x4QNGYObSvJURkoQq5-i0c0Gy7JnxhdwYl1KAbwIRIvogg0qPKDPNQx4IwguTiE1It_4lQMwoZebYQkxlbZlP3tpb8K-STcwxoAVkhV7hvTtwXAtOZdnO6aAw3IwT248p4imfMDWfGnKSPstk8tBr03mFhdTAzPnNYw9PdkyKnFeuvMzSc3O6fIiT5kTPbqFfE80lB5oyQPOE3J-t9qgbKcv6J20jxdZZNYoQ0oS7TzxwocJitDvaOPQAEyeIUYV6x8a-FzPmo5oYPgz4hQjTUpdoJEGA2w66b4EDCGPEdaeeZd6XNRSQOyVgFw",
+                    "AWn5SU7MBkPDGKUOX77-MVP2h03RzJRUvuCLvg2Rj5y1j6awKry931fYkFGT3qbyUnu9b4eUQCg6GkunDvWOM9gVz3ONYLGAH8mtpQjcjQPyytkewz8ImKer_mpHcx-6m4Y9aT-GULRHekZ1z3e_19pBIUypbBXYHDbf3F6Zob4MPQ9y27l9To1gaWqFM2GLhXnMU0FNimDIjjx1y7pKpn6bDi8t4jTuZZ4REZswUfdl38hEeh3gvG4GN3Romi8KgvBTwIcFkKQi844yTp4_5cmxqVgpxpNnW_U9IgofjcLe2hBcxvo3FV7fZE5XJxg3nppXXUdSRpnB0paxbr47_DrpvZX9M5eAaBQo1r_Gl6P7eTmmWQjVAztUlNPf6I6euIEhmQd2PeuAbwN3lSfqRAedkhEGMBlvHb2XYD6u-LA_I4RdqmNt",
+                    "AWn5SU4tBUe73hNhSLatwkWI784jJ2eq6bAjJhkB3SPYG4cmRHlfxAP2_d-PIscxQgWps78Lo2eWUmPTu9nedALp6R1UGUXwnAV2xBQlYhBY5nZuzJQ1in8wghaGx1ZMOQfZ16QYhzLJYm9LZfNOpadmjxayPFToXrc1XKpSoPA7Q3a61uGkXiu6WPNerWkjTQ6Iv-2SoQ_xdqAlruOUHakg0EtF6AeZ00iVma0TpVAJK5gj8DlJxnueOwnoDyd9GsVTbIlsxFu-XPDQX7dY0Mam14lOwzKdLrNGUsLSNVuj_DxZvclF6aAKx6S8SYkeeg3Wpz4vEVtp8jFcj8nvkBvH5kiYe3OwC-LAl2moCLN7qPNBatbVXWRFs2LeRooxrz56PL7eaS2DMWR21yw5eZdOivFOF98by49qYFEUee_Kw4o0hmdj",
+                    "AWn5SU7RLn7A-pUtFVgkT_Tl1JpcUj0hdHdVvgyLw6BPlMckPWzl9kfEgD-5-1PPnUyj_ESOboaibwLqp2XoF8sknXlo-LeHnafkkvGJxFe_mUXX-_FYrsDQIXpa0N7iH_jFSuLGaG2mUfFOuLDg4vPuJyGC0oh1uFYuxPStE6EggGeGGpmOFQp9ytc__jYrpl-58IzKn5foMYtK99X9eRSdy4SIeTD-GjQ4VZ1sxSXng7l9LuiiNpzQZuqBRm8Dgg8BOGdRpJIFV6D2mM6c42LDZ4qCGfLCUxGqNlKoCRTFuDE7NXSgjRDKeCWDgtjr_eEK4LfwWNtnWUxkLEu7rof_eGFQ0yzyr2a9r8IrU0kIdCNXf6n4sxakfr1MOwCTYXfTzIJ3uM-SGtDmQhnCw0Wehgzh7WNaRUSzFPT1rwyOFTm21J54",
+                    "AWn5SU7Ww_uZgFvOC2g4NAdmYOc0VhEl5mh0UjMGN2oAhCVjCc4sqk1ANIQGEhJ172lWJ0uoW4RiMYMuBfVONSj27lv9Vpm1epH1EdYYENMeNYUxMBoMCT8yMZFwE_XEsAmJyex_dmK72Z0BL0eip8HPLM7SwWLiNKYIZyFULpJsYo-a6aumx-jr4P0eqo2b7zAO0u-Y6YWe8gM3TkCiEoyrARKsws9LQ-0hEL__bq6CY4pLnVf0EsGBa3asNURRX53W3TqSFYW61P3Kdc9dDh6GWy2dEI2d1WRvY93xJuIHCXdaSGOVzzpQ_en874Z9E-jxGxMVHnSIGuq2bbLsJt02hHAo-Yshr801Iq1L_Pnj8gZ3oLpwPuuJ_K1yvxJtxGZ6iOWrKYVm3gtW6a2ydEnvqOgq8QyRwOpay3444JLYMB18Nw"
+                ],
+                "review_texts": [
+                    "写真でしか見たことがなかった奈良公園。実際に訪れてみると、その光景はまさに幻想的でした。公園内ではシカたちが自由に放し飼いされていて、道路を歩いて横切る姿も見ることができます。\n\nシカを間近で見たり、触れたりできるのは本当に貴重で不思議な体験。どこにいても絵になる光景ばかりなので、思い出に残る写真を撮りたい方には絶対おすすめのスポットです。\n\nただし注意点もいくつかあります。\nシカをあまり長時間触るのは避けたほうがいいです。実際にダニやノミが付いているのを見かけました。また、地面にはシカのフンが多いので、歩くときは足元に気をつけましょう。\n\n駐車場は周辺でおおよそ1,000〜1,500円ほどでした。アクセスを考えると、公共交通機関の利用が便利でおすすめです。\n\nそれでも、シカたちはとても愛らしく、特に子ジカの可愛さには心を奪われました。\n評価はもちろん★★★★★です！",
+                    "観光客はものすごく多い。\nしかし、公園の周りには東大寺や春日大社と歩いて行ける距離に満足。\nお土産やレストラン、など、ワクワクも山盛りです！",
+                    "時間の関係で全体の一部分しか見学できなかったのが残念です。\n五重塔は令和13年頃まで修理工事中だそうです。\n\n海外からの観光客が圧倒的に多い印象です。\n私が見る限り、ニュースで観たような鹿に対しての虐待はなく皆さんマナーを守ってました。\n終始鹿たちに癒されましたが、下も見ておかないと時々ある軟便を踏むかもしれませんよ。",
+                    "紅葉🍁の奈良公園は最高に綺麗です！\n特に朝陽の時間がオススメ。\n鹿と紅葉の桃源郷のような写真が。\n\n早朝は人も多くはなく\nインバウンドの方も少ないので\n静かに過ごせておすすめです。\n\n9時頃になるともうかなり騒がしくなってきます。",
+                    "また奈良に鹿を見に来ました！🦌\n鹿たちは相変わらず可愛いですが、まさに「食べ物争奪戦」状態。手に持った鹿せんべいは全然足りず、渡す前に足をかまれることも😂。従順でおとなしい鹿もいますが、触ろうとするとすぐ逃げる、完全に「意地悪なトレーニング」をされている気分です。そんな鹿は本当に「鹿肉のしゃぶしゃぶになっても仕方ないかも」😀。\n\n奈良公園全体が鹿の天下で、歩くのも自由、博物館周辺だけでも十分楽しめます。核心エリアの鹿はもっと多くて、写真も撮りやすいです。どこでも囲まれたり、手を舐められたり、せんべいを奪われたりして、もう止まれません。近距離での交流は本当にスリリングで、餌をあげているつもりが、実は鹿に完全支配されている😂。\n\nついでに『境界の彼方』のロケ地にも行きました。アニメのシーンと現実の景色が楽しくリンクしていて、旅のちょっとしたサプライズになりました。\n\nまとめ：足をかまれ、せんべいを奪われても、楽しさはMAX！動物好きもアニメファンも必見です！"
+                ]
+            },
+            {
+                "place_id": "ChIJc31a-Y85AWARo70kM5pXEVo",
+                "order": 3,
+                "name": "奈良国立博物館",
+                "activity": "文化散策",
+                "location": {
+                    "lat": 34.6860413,
+                    "lng": 135.8371815
+                },
+                "info": "奈良公園内にある博物館で、日本の仏教美術を中心とした展示が楽しめます。外観を眺めたり、周辺の歴史的な雰囲気を味わうだけでも十分です。",
+                "distance_text": "約0.5km",
+                "duration_text": "徒歩約7分",
+                "transport_mode": "徒歩",
+                "photo_references": [
+                    "AWn5SU5eIcOo5IPA35YoVDuXRG30lcs299pUq2G_xPVZa-gJeSePF7jNHYPWFCKx8dMkCz6XzKZERrDJZsZColI9ufwGhJ2u3F45HqbB2Wz7C6bAG0Uy6EvHllkFgBtGNPHl6cpIfl-xGUZwubZUEc7F9bbt0ZYbaoPqQzT9vaYLrp8xqWgpYCCp8linrmbCV94uMQp4WH8gguAIQKkwMYB3N2B05x0NJeUX2dQBOxY5v6RINteAoIaKPv9Q69WPymQICPSdkCe-UP0ZDpcc6_bIKosM6Ho9OWCIF_KwYIcA4ox_X0VaoJ47Us14mqKBoUOtiAmE_SHMFHfmW1XDTciTOtxc8lJ9uQPNIthjcaRjYAz-5k4Nev1d3WLix135rKUnfQlsKutYbASEUsijE6gGS7w2NvyQmqHBJQrOYjMOmzJpPsFe",
+                    "AWn5SU5ha2s8RB2jz9JylPypaDxaA0UfHoFGqvjh-36Y2GLDIyYTN6Wt7yx8kZiGcLPM6IX_9KuqfRUWUBqJZpmLk0ihVPwgtyf_ebL2owsO9edZvSUVJrdh6H4f6F8bAR4X3KBJgnw1DLGoo0ILBSVBE4p--vy2PDXvLLLRRTGKtjjf1CBzmIBBhL3lZL5GEmyiHr9juDfcyiDUjrBdy_hnlkL5KvuYV7yNrU-Yb8wEH3lPPbMeBEuCD-11wTKQyIBkcWw7E0pYQkETgSExzM-C5EAn_Em9Pq-uTY9607DNHYUR1YAsz8wil8BOE-ZHVrtcqCZ8bo6S0hJbBrV-jP7mSI7RGAOVONy1t4IQILfNElZr7nQyXYiOhVCRqphVmXeQVuq3QXD-GMIn4BuzaS86i-c9SDjYJJzUMQuVTE1qJkx2nWew",
+                    "AWn5SU5yNC0WjCmzrER-dk7yz6AcOXN5F4_82TWjxFwXZRCCyCgAumCffOi_nDwrlKBlYQjrJpmZ5Za_aN8zZOy7B0HEsYMMoIHGrNij_091Ep7Fwa1Rjiuer4iJX7SFg_-m6m70CTTZJDgCltqaY6xKXbaO2oj0c63xsK7tKv7MS0JqBnyJXw3WHkFw4w-6jsYcrQ5mohKbPRlEYBUIgyeRFrJKH2eNXJYogJnXesoNqozRZcqc57bNVWqI7c1PGnBh2ka_1_2Z_Hs1pYqN2FKgqydEH-vB8QXi4nJCVL-jpxIYvGvJPyD6audZX3WLz3daUd00WDOypcSYmVxwhuZAplRs95zgbHWnX3dva5y5ibmVNfRiEErN1vPotkhGKpprYk_F57-wJ67UMZnj3wBMEz0DGOtPOo7VxTDCdmv6hU1raw",
+                    "AWn5SU6VsF65WDVw9P2c6imA7F7ssoxf8bII4BWOpQ_elhKea6odaGBxVUb8WRNSb_aypvRV2S3H9PFEOwxBqL5ZizNg0en65hBSTwvsNq19CaGw1WRjY1vbGKf-uNEubwIgNmewjfNYurHzi3lLvQWDS6YnVsqYMjegm3qg_Xky9eZzv5lC1eA8V2RXipN5cvJ7duybFu7uBhWytg4VOrEHUoShwOJbLSQSAj9Hr2ufZjOy8AjfoGiq2rCxjYZ2PRCPSqCNkQsE1FoxELqvdvdvcYQHXqLpfiSLrROOCHMq6PyN9EIII313MaZjrk2Fc3Dl-j2xCSmO-83TeNxp7gPZd3tDSabGng4a3YKZat7H1frzM_-buIUtOI4umXE0D6iyY8xD2p8xqcf-u2QxBSQhCCt5ex2zwBP3pUGLgShP5DJbVGk",
+                    "AWn5SU6ZBv3aOQeKgvmENo-cy_kzSZbYhHt8cFC-e5q_LP7PUBntM1VyLP6CyUDiGzQoo9SnhhaK5CQBRZL3JLeVHBKSDqJcAvMHpq6k8T7ebc5hOA9N_z9eo04YRxTrHB0Bp8jmoyUIMegvOtORddTGKuizGhdPY8UNxI2BLPteCvCluPe3K5lfwZOsaIKntz2T3ZfvcqY8pbrVkeD2pNy1k8wvU-5Ojq7IzeZaWBmQ-xN84nEftUgeStATmsrB7RkcpSzA4Ln_cYX7zmLDCt9ylJDh3oR668Aa-xP9WcGgqKpQ9862JudQnvxxh7xIaAoc_7YfbpECvIzOqxRwkp43huHPj6fjrXII8G8EX6KBGrfOsnESRMzk42X93seo_1UsWmwTCLTSNIZyjr6UWMok2uFJGuFnD-UZoWRZk9ngoscZcw",
+                    "AWn5SU4eWyNZP0QWVS8h6EDnU5BdQz1YtC8RQTQGeC-36a4vLF6WRbowuBltqz_KsalkNJKCly-vY7-1d04PPNHT5sYyouGwWhmfFYhIFuaRTkTqyry7K10kJLZJIDjSVOdGDtN6HbxSaY8Qk_a2yU6u5n7XEoN5bvqP4qNSxItSfNii31GMcqvLsIN3M33urrYVtEKwJOAVU6rVBdsXlzCDZMshJQgNCBVYHQOajUHZE77mGQ2roxQloMcqPzY4qZx0geguFTRIeqtYHhRMZQqXV_LUFtBzaRdeFeb8pmnu--qAYZ5D_bf7PyI7BntgyacEISkH3aSknxV3AzxL2ekTvl_oVv0XMHDXYxlZot5qjj4WmwdWU-jr5uxISxoX_QVRg45OdUrPoY3cnycfsRb9fHYQvioG4qoXRKmEYSxGoBKa1-8gtrxfI1Et6utxWA",
+                    "AWn5SU6EqUskW5OSM02gQu-yecxRaOYVH505plFHUoYK0zefzEz38Ms76lJeI2DspNenufqGRkgGyJOco18iECNhC6caOSy4YXz9rwgnMCj7MgZZSFLK7IjlLzHGBUpFdspN8RWftBOd6eLf1ZqBL40wMOY9N690DlUzt8bABser3Nduj7ch8XOOnZnmJfbL90d7HzX4RHYOv5u7dFFJZ6TN22uV6Y95xSUOsKL7wLdz0DoMtzt6ymAsyn0Pgx69DKKcsh7Afb1IuwyUuF7TVF1WzrGeLxWbtHgkoClki-ikmd2W6-7JwYANj2dRZZMgqwT4jOC37Lt8coRbKjVSo-tEod0RgWQFW-WSIPFe7LIVPulhEJrgvPkFFonDJp_DSTHjKoHePWTLt5gRQTwgiFzasytK1Q_apd-G8yygLThBnpTv-lt8",
+                    "AWn5SU5fu6oo9oykpMxdOXxz9I5UxYBlpsjkyOiZT87EnZOjXInZ3NzXDmdlwJXjB9c1mwy29HpG7ZFEl_jHwjucsbQdb9KEBwWdmQtNo2Iim2FGn9aWRECodfXTG_Uj-EDFDUm97UxMy2xvLM14O21Ix_r8qir4IBzzfE0MhG4ESEzeT_RjYNV5BMirFMP73Igz1B_EgJOUtC65FeM_wUIoTm2tP3duxfn1qUSQMSgJFrF-xHtA1q3SOWVGqOKO1Ri8l_zi8UR7ycNm-QttwFXVpQyB2gyG8KjEL8SVNvFvGpW8U25TZlbVKF0AmdZBXNo0j4A2Q0q-DJnA_pwovuPoJCe9-5lmyTs-K5xuD_-m-RdM2j8DHo4FpveVTajPepu4dGDJPG0o89YpiRRAY3Lv77B3Mki82mZA2ywb7CkzxIA",
+                    "AWn5SU6rzfqJF3xTrYEp_-LZsbE9dZgwhTBVcDInbJwovIFkAb2KPZYFTVRgrwFIt5Axrg2WQe0vJg-HRJbF-DYQqOkEW0mbH0YWSebF9qGdMRPkK9ebWPSl6lVYWPOaGuFg6MILbqKYgGyvLgdRoZ6kssETO3VMzAxul4hceMMq-By6AHD4kwNDtQP5wXUj3FX9AHMFFfmhfR6w-rjd6P96TaLeIhlNSKwYBq6JOq5sMsttam9B_V0bBYeIZDJcRMS8nEAPrKjFTvyZtpWoiGE6Y_gb1zrqYbw9iYb68zNxtlyC29Zrm0OTb9ub8Xk4SmnscFy8SFJioWVl-TSBD8YTI4XeIFMiLmuQ-QbeQUQxQOkeC6RzdOAqLuxw9KwlTduoSJsZD0NK3rqGd1lEDIeBzBFrdLNYbMGiMJFG8uh2RBd96w",
+                    "AWn5SU4ZIWdlN6E8NfxJoU4Mu71XpMcF4-51SlBnb-u2SYXgh4wtqj-SW-rHyRjmuDOCNUhr4p9JsK_JN1XLPTRem-xdXLiYJEEmf4wyhUz9USGqrsCpeaq1YjTvMfKmIjEa7OwZ-QEOwV3ecktLlr4TgHQJLQ6HcwFBb9tgSgQ0ImhnbW71dHve9L1ehB4s_Uhx0OxoJL0S262nTxU98TtAtX3i4IlyLFs_c013ePUOJlmAywijPR8JQkNbeV0vJbEhEDajernW8b3icQyXPK3EcHJC_tcTXR9DRYfTds0f9AtH9xVSjR0_ggnJrbYolo20U9HCr09aOsOmWbL7A3trwBnDWmvM70EP_eQaB90awQ79tUnaQBvPelHcYJbfWn79HHIepbTC8MwOoh0w1PxqlSaB12UzyzFEKt3aIb3n_XkGwA"
+                ],
+                "review_texts": [
+                    "東大寺の西側にある池泉回遊式の日本庭園で国の名勝に指定されています。\n園内は前園と後園に分かれていて、異なる趣の2つの庭を楽しめます。\n\n前園は江戸中期のもので、茅葺屋根の茶室「三秀亭」を中心としたとても落ち着いた作り。後園は明治時代に築かれた築山式の庭園で、若草山と東大寺の仏堂を借景に取り入れたダイナミックな景観が素晴らしかったです。\n\n併設されている寧楽美術館は日本や中国などの東アジアの美術品を多く所蔵しており、今回の訪問時は青磁の盃や宋代の椀など陶磁器を中心とした展示を鑑賞できました。\n\n入園料は少々高めですが、多くの観光客で賑わう東大寺の参道のすぐそばで、静かに庭園や美術品を鑑賞することができるのは魅力的ですね。\n\n■予約：不要\n\n■料金：入園料（1,200円）\n\n■アクセス性：「近鉄奈良駅」徒歩約10分、路線バス「県庁東」徒歩約5分",
+                    "入園料1200円。\n国の名勝指定公園、江戸時代に作られた庭と、明治時代に作られた庭が有ります。小川に水が流れ、音を聞きながらの散策は気持が和らぎます。\n\n先ずは江戸時代の「前園」池の中に島が有り、石の有る島は亀の頭に例えられ「亀島」\n松の木が有る島は松の木が鶴に例えられ「鶴島」長寿表現のおめでたいお庭です。\n\n次いで、明治時代に作られた「後園」\n東大寺南大門とその後ろに見える若草山を借景とした見通しの良い景色は見事です。絶対カメラに収めましょう✌️\n\n奥に回れば休憩所に稲荷神社、そして小高い丘に上ると水車小屋、実際に動くので懐しい日本の風景を見ることが出来ます。\n\nお茶室「永心亭」そんな景色を見ながら抹茶を頂く、最高の贅沢ですね😊",
+                    "古都奈良でも有数の名園だそうなので一度は拝観したいと思っていた。前園と後園に別れ、それぞれ江戸時代と明治時代に作庭されたそうだが、昭和期にかなり改修されているようだ。たしかに贅を尽くした立派な庭だが、成金趣味というか、「どう趣味がいいでしょ」みたいな小賢しさが随所に見えて、いかにも人工的な庭という印象だ。同じ富豪が作った庭園でも横浜の三渓園の方が規模、デザインの秀逸さ、建造物の価値において圧倒的に勝る。これで拝観料１２００円はちょっと高すぎるが、きれいな紅葉の写真が撮れたので許せる範囲かな。寧楽美術館も併設しているが、コレクションの趣味がこちらも良くない。",
+                    "期間で「曲水の宴」模してつくられた平飾りの雛人形や、子どもの姿の雛人形「稚児雛」など、珍しいお雛様が公開してます\n雛人形拝見したあとは立派なお庭を拝見しました！\n茶室に庭に苔まで素晴らしい！",
+                    "美しい日本庭園。お庭の入り口から、一歩足を踏み入れると、江戸時代のお庭が広がり息をのみます。\n紅葉が始まり一番美しい季節に訪れることができました。\n今，路地を抜けてると、若草山，東大寺南大門が見えるひらけた景色になり、とっても美しいです。\n茅葺の吹き替え工事をしていて，どんな風に変わるのか，早く工事が終わられるのが楽しみです。"
+                ]
+            },
+            {
+                "place_id": "ChIJq6r-r5E5AWARvXh3WjQp2U4",
+                "order": 4,
+                "name": "夢風ひろば カフェ",
+                "activity": "カフェ休憩",
+                "location": {
+                    "lat": 34.6844064,
+                    "lng": 135.8392672
+                },
+                "info": "奈良公園近くの複合施設内にあるカフェで、散策の疲れを癒やしましょう。豊富なメニューからお好みを選べます。",
+                "distance_text": "約0.3km",
+                "duration_text": "徒歩約4分",
+                "transport_mode": "徒歩",
+                "photo_references": [
+                    "AWn5SU77aeVuk4kwle8zMOiM-amYhpCZRnu80RJS2t9OaAFjDUlCtSpNlGia258BuC50tBP1-Fr6L36oHM44rKf5Q-l7FB8HCtm1m0OfHAlGdgRrhtaxOuINeWt_s_MTUCNhSUbWtn8IDTi9cMwqQQnr0_lwUm4644o6NSnzNx4RtC7UKnQsLyMphYgBd4sLGaNqUMxVmE3uwiWuDsLRLsvrZJXvzPW_jr1jnd7MK_1OMhZYarx-icWUhHUkIu_yA1c4hgf6Yra2H0uhDsB8e0t8CXeH52qkIyO8Rltp3Dr0H1olTrtb7MwTQv6KTUao9fbuEaxeazV_uZIPM3ZYgDqg9K9gjHC9cS0C_C-ePaxOG28_TpBki6xanT-3tjAysDWRAB3OXIf8D3d82t8XuL9W0gM-eA1R8wdbNjIFWQt0x46TWlr8",
+                    "AWn5SU5BG46giKnJx96tOPgvlywsX4JapBW5M1QdO-1KcHKjTkC75MVns9SWHglSnUPj-AlsT5RS5LgH_D05Li-KwqbUyC07UT5c2sK-VEfdcd75f5XBuqj1RbxuTaSvubBLgslNULuCI0mjOLuIhMvy-O7b3rT3F0OwMilh8KtXlPqGHWPfuOOa-XUWokinlXSQFaasGS-qRZPNIPUrxmrghB4rJLDRvyqAgT0IsymQaHSsgK6aemrDHs0zA558uLhoG9NcGpNeIQnqFNdbiz7PD2tAugY14M0OJQZYAANJQ2e20w",
+                    "AWn5SU76TBCqXf_N7uO8hOwbPlb3v49ZC9LjY2r2XAfC5yx2lWnpfUZ-Jgl7XUbQ-EiE2n2368Fh2-HR2lcUixgjnqqxa_hWsqBVeyjzxcv6DIBtS5glzH6FzUnRRs55vgeoskNPh3dCNi1QNQUMIxw_RWKQ-TXegpazn7seG575xFz20YvUqVvSUgKh8Dj3ErvZsnoEPJzpYkWXaaetsfCkr4CJ9TCxNc7FRz99_sGHmLv1cl6vhlrED1Uyha5wqE-xxPF_OeLmyJAzB0_ayWp1p59KZIWXsD1tEOCEJXCPCB8OWwZ74wKvg7iahZVC6N-E24u_NyxWA0WSwaEmWrPHKVrtZ_e3Qfiq0ZWHtt2X7Kd4wa4jmLft_E8BP7Dm8Oh_8equII9b5umKiY3Tywf1v95EehYhkYzlOED67qhKo3OknNRNM1-Y74K39QXOCza7",
+                    "AWn5SU4nOCBhiTOig2iKBa7wySZMsDgsAUIpKqx5HIAhCd8MjwGQFwb0utP9LFw-9OPzcG_v68fmee5K1mYg50WpoOskLRp6ZUqKJVp5fj3uYkDe7Fq5Odzokwc9syFy42_YMKexEv1hdpOZGvimJg_ThfmJOri66444y-W_R_cC1kvbkJRxx1dYUehH4yM44r415dHQh0QbTM09J5Vre31yzMzTaWgKdcxe0ayY69u4QmwbBJawif1tafbVYGtesgAtfln71R5ObGE-YCJvsjI1iKSg3SO-UuzjVZ4Js_PjBwcHQomrXD65gAgjAy4s-8XOx3cGKesY2ST8vHE6QppEIMsiBTYwOLi9Nm2TCShCUvA83cBdSirjy4V3qFsn0C-xkQH6QxMYytTkH5aYhTnr-Yxey_G1UAg2o4jZVE7WKDNvW6mUuXa1jaRBqWPaA2au",
+                    "AWn5SU7SXWaz2c2G209sdoYf-jzdqf99ZzNauZJkpRiEEyPboXK5GLHwIcl8JDjLu9PNqrhDnkLh217ygzfaFWH5r7zAuVS0YddP1ZZzxqdAnd0UycH0yaQPSMFSqeUAoXznLii-ezyX0yGcxGPHnicLZxL13q2MWuJ6JZb3XqRWvGmPE7ZYkcZcjEirhMUJt1q6J9_yERkXxuMq4_J3L30yFSphzlgmf5EOvzU_-u9qt8gM0BUyvoUPzXeHj_pRGWUyvxRHbvCgCSSt-gDWW8ioxuP9NZZAW5vl2esDcrWkGSya9p0CdFjNvrai6_xHIj9tWw1EPA99HB6cnNkIKwrLu83I1wcvkpkLLxPTXryuJRTOZV3a6LNMTpfdG49vZzj5kgLP6KFa0auCjbU7LnIEEUByrscWj2HIDHfWTSE7Ph3j31jiCFNbwijpIADaQ__O",
+                    "AWn5SU6NJzWyDAGr-rkYAwPusDzVk9il5nQmMljDPEk_ddgNM7tFFAfDkRaL--7JO983Z9zV9uYzIWOACh4sznelFulM9nBNkEStC-rHJwYQtl2cDE0n3BTx6HJDMBFki3uJTDO6Elgwa-8YARbHoblFJulYDk6XFmhYieAaloSkpWCdEse6iPHSk7O9X9YWgmQ6jwe_RYzqNK-qbO91AMZc7kPrbLlfUtmmwp7hC95DlSmMrefFpNZhs_KMhPpEqSRg-Bm3aRRFye_1LhuCiVWb3ks3rHCTPRkF6iDc68CnsWZmWfY8NxIzzk2Y2ssKW5P0H2ECy6k_PeD6BWsX5LRZbL4SLh1ZNY0l9n28ir0ul_s6QUMGfdNA8Kq_hFbn6ZxgBhcKMsUE-KGJTK-zMPtOyqP6yTamJuSwQbCLWEsY05Xc7A",
+                    "AWn5SU7_rqDsPUmWHMb-URR4vAtjJmbU0PKirjrQirtlSn9IAZxuuGkiyvuVlIzL6jevW6GCfxK_D-lghogt7LD5yKqgEcWwTlu2qWyvI1jXRNwqK_xBacDssdx-CdnVDLvDAkL9f_WwOz28sGNGNJTFG41AteM2ZgjybpAeDA-6I8cgnHT7jhavQzhRuImSahOc1JKhw11wqduIkf0sgo2J88nznrchCdZgq8OqjpuWJWlQtvOMnrKQI66ehysr_MeH0xzLLIOrXYKKAImidz3RETERJQiYmY6Nt9TBO7fYbtdkr-ZamU_9iN1Ih4Zt194EeUxXPBeZKLrFu9hTSDqtW_M3cv6Et-qAmIYRYfir33gAG40_SUdqCTau4xIDym2tt4pGItvFOSthT9J6uNbmMVI3MgENNdDMLIKdM3XjYOamVjluZQFWWRA3z007LnN3",
+                    "AWn5SU7A8p-O1hJgeYItBLZhc55MDMUIb47y9dPcCBzPWJD4hUuF_Xg8F8dWTtfMKQEYbOW15g1vX7Bcwr_fh1G7fyQ_rQwRtvdfdfpujarPVPyoJxP7ucujgwL8G2SHWYFMnVtd3SH8JGKgITNfunJmtsVOAuabjwG-K2jRSjbEEmlfio5M5Paei6vJYEQwhkcfU5wA0vIvfsto_9KZn_a6C-OKfrZtJs6VgeBSCH_IrZYXOkXhH7ko_BXYKqqEhVLMJtjT04wlnInVdns1_ehL2kuILE0Vf03RLO83r0zV5j523xe5g3fQa7fY2W452IrmC2TAaSSVc5XsDk9KsXz_gnRmgD-qTGdykw2_Of_YLNFRjnNM6BDw4bO583dHOGmQ6Wqz9xodJ_ITDLy-RaML758g8L-1txHczcypERDTaAS4vVlf",
+                    "AWn5SU6-Lai4N6CdDi4ATdoR0jxtpVBxPqHFSQIriogqUDMsUCZ0WdpSTsuQ57iMC5dLzAp4J8gUe2lPLVDb2M452pk3vIc8b-CnYF4SHm3D5uhFNoU80jWptf_ehagLKLsWirVcoWsSHkguuHUo8lT7TYxPBTDYpUtlb8s1_GTqWYWdVxpVDP3Mc7fmIK_Aw8ZpGfcX66rCrF6ZkLiTLtOEVPvdf0-c67h9wOdE-uHvYHuAFg5OlR_k-wI4ZUm72H_6isUkQpWXpbVaEwIYYMo1-gXQF89sBN4NmV4WhSlvU6O3b8csKgv3CfswuC6Kqc0VsQamJjcunlbcRGN5278Y0I6QzWG0CFjDT2KGdgafG8gSTfKwKd0N_cZqCamCgJWme2M-Nb1x4eHHFMMQhHBpUPVtw1NWcTdfk2NVkKHIafOSosI",
+                    "AWn5SU7PDVbSDNyJCkjNHhLEQaJ8i8cYKHZwwuqTA-gY4sJzxQYIoIFvg4Ebtt_rqpYaHAFuFMmmBUxmb0tWZ6ZSERrcCkabkt7Opkfjeiux-gZO5txEdsoiFnU5ZGXeN4EHbKQHU8MNh4mHq7zPlpsMa7oXowBaJXU0dnFZSqn12upIGaGp7ZiwMXeHI5hou2q7tivOqLCo5unBejoOLiFRg6Q5x_4zXz-SwTY_f0KGRcFogUYfy0BkVVMFjZTi_G6jS6N1GfduYTU8-JcBwadnyx2vsZzevWG_TVzgYCe_47aH7DupYowax4_5B9CvYUYCL_d0zjfLWao1hpWYqg27FELNQZW-voROvt2xeU3qQa3UCQw7OZH7RCp6dJnIml_vFxWq2cC6x4MDPQXy1QS8RFJPYBtRHePtelyW_65Ma2v1vfkHsYI0QbO5Vs9F"
+                ],
+                "review_texts": [
+                    "あの河島英五さんの　御子息　翔馬氏が経営されているお店です。\n従業員の皆さんが手際よく　またお味も美味しいです。　地元民には少し割高かな〰️",
+                    "河島英五さんが開いたお店で、現在は息子さんが経営されています。\n河島英五使用のギターや実際に乗っていたバイクが店内に展示されています。\nハンバーグ&とろけるオムライスは、ふわふわの卵のオムライスの上に神戸牛使用のハンバーグ、淡路島の玉ねぎに奈良産トマトをトッピングした、文句なしの美味しさでした。\n鰻いくら重膳も贅沢な味わいです。",
+                    "マッキーカレーライスを注文！ちゃんとスパイスカレーでめっちゃ美味しかったです。\n子連れで行きましたが、ベビーカーも一緒に入れてもらえて凄く有り難かったです。店員さんも終始笑顔と温かい対応でこちらも心地よく食事ができました。\n家族はオムライスやハンバーグを注文していましたが、そちらも美味しいとのことでした！\nまた来たくなるお店でした(^^)",
+                    "ランチに利用させていただきました！\n若草山っふるを注文しました🧇\nもちもち系ではなく、サクサク系でクッキーのようなのワッフルでした！\n勝手にもちもち系を期待してしまっていたので、少しだけ残念感が…笑\n名前だけでは少し想像しづらく、テーブルで見れるメニューにお写真があればなお嬉しいです☺️\n小さいお団子状のおもちが3つとぶぶあられ？のようなものが付いていて、満足感たっぷりです🙆🏻‍♀️",
+                    "友人と奈良を訪れた際、暑さで少し休憩したくなり、グーグルマップでこちらのお店を見つけて伺いました。\n店内は広くはありませんが、落ち着いた雰囲気でとても居心地が良かったです。店員さんの接客も丁寧で、親切に対応していただきました。\n今回は牛重膳の中サイズを注文しましたが、牛肉の味付けがちょうど良く、とても美味しくいただきました。\nお値段は少し高めかもしれませんが、味やサービスを考えると十分に満足できる内容でした。また奈良を訪れる機会があれば、ぜひ再訪したいと思います。"
+                ]
+            }
+        ],
+        "summary": "奈良の象徴である奈良公園の鹿と触れ合い、世界遺産・東大寺周辺の壮大な歴史を感じる定番コースです。ランチとカフェ休憩を挟み、約4.5時間で奈良の魅力を凝縮して体験できます。"
+    },
+    {
+        "plan_title": "古都奈良の隠れた魅力と町家散策",
+        "theme": "歴史と地元文化に触れる旅",
+        "estimated_duration_hours": 4.5,
+        "waypoints": [
+            {
+                "place_id": "ChIJJoXedai46AWARIrp-H-2Jn9I",
+                "order": 1,
+                "name": "鹿の舟 竈",
+                "activity": "昼食",
+                "location": {
+                    "lat": 34.6807732,
+                    "lng": 135.8189458
+                },
+                "info": "奈良の食材を使ったこだわりの料理が楽しめる、雰囲気の良いレストランです。人気の高いお店なので早めの訪問をおすすめします。",
+                "distance_text": "現在地から約1.2km",
+                "duration_text": "徒歩約15分",
+                "transport_mode": "徒歩",
+                "photo_references": [],
+                "review_texts": []
+            },
+            {
+                "place_id": "ChIJKya474w5AWAR1C1R8b7di08",
+                "order": 2,
+                "name": "興福寺周辺公園",
+                "activity": "観光・散策",
+                "location": {
+                    "lat": 34.6784798,
+                    "lng": 135.834164
+                },
+                "info": "世界遺産・興福寺の五重塔を望むことができる公園です。広々とした空間で歴史的な建造物を眺めながら、ゆったりとした時間をお過ごしください。",
+                "distance_text": "約1.5km",
+                "duration_text": "徒歩約20分",
+                "transport_mode": "徒歩",
+                "photo_references": [
+                    "AWn5SU72jGEc5ihLhSYSc8KnvUnCP1RWmZ-BChREdOlxw1m3x6wEXLXs1MKS_6RjcbzK3sIIWgAs3eecTwMokD5KMy6lU-9G8myXEOwEW5_yilxS8Zndv7rNb2H4sqC1vEcc4aLHXhcky9UXWp_EKH2R2mEVvKmPYJ8YT0tr_K1tKxaEc-E40ausqvfPkTT_woK-ny0jds4XOK16O8q6Jrcq7aTyTePQGVAxti3g4OCjdU11D5dpic6th-XEw4q0PBS_orAZwnmAtv-OZCfstkUkDBu_rD-5-kf9bQI4ECBg1O48E_ARyd-UHeMhARRBKajCzDl5f0gl6nEeHxuyXrCKt8zUe8x1gPiOVxX2bHWysoEQUVFVfqxLjUWJAHoIT88AASDHlRmhiFERio0iXwk-EhQhI9h2Ishfuah7VYwNk5o6AQ",
+                    "AWn5SU7-vX-c1LF_smyKArAgicCFPhfrZ2wIAIXi4M6KC_26-ellAK_YFWon4Ry6jWqEQ44qCYf7vIZqvkGK3E1Wr_sxT5Huk7wkCVO12MVnWFOpZijjfNIUhvyn0CZ8XeydXRxyirTNrTfUB8zQnxB1LXNdB4JSjKeDFJHUg4F5xqHauAmGjYppWoYrp9ky4_tPHyqf3uM-TXRtcgXa8kFYmdPc0bD9urAhROAwmJvUJJseYvyAFXXWMc4OyTIlM-V9XsHyGNsiTwdmRWaEr7_1ElxSKeU9VZleFagozrW4-ugaXOfe6D4Roa4Kvwijc5HNHcFI_J8JVW1qOvT8Gz37yy4GgDki0BmxPS6_wAjEbF6Md7R-8pzL9ndOhdvaxloAhy2EVe8GAKjzEa0GAz_HT7cPISvXTVBgpSmjZ-1wpi67Wfw2",
+                    "AWn5SU4jefAza7ym9baxwXNdVBdJcyVE6mLCtmhYJhOu7cYBLgUlst6t31ClBD-oZjtVFPBr73JkxvGSpHF_Ptud5pRQ0ppecmsaaZqYYoyDRGhH6KS1Pxq-CirCxnUZXbyjcsIldM64DfltLfdddWH6oNMTGu7y7GWO865uDYlO2bAYVwLtouzDHGBZoHWk9W_qf-9G8fJE4BGD3cJwYGplcF9nlaPFkqow0WkYZXOhXCmOZCgrE-I1bpUPYD_TqO4xiM-pbBums9FD8Xp-TADn9WqTaU_07cRt9wOoXWmqtxpwhb5z8hd4D9lnxQ-Fh-YXsoKBOKxDEIxkRlnurbrQR7QYJk6uqluj8sJYcHNJ0NwffR588o1npOWOZZjMC30Cz_SrBvXZvtw9QeNSq7_R280aCI98qT4qp0ZCsOWVFipR7GM",
+                    "AWn5SU5Ur6VaUnpV4lOm9AxFNHZU6zAJVrW3n4YjOpRjTVSF_d8Czk7O4Xy5hGFLqKtHtjNPOiXm-ric4oJMrr2meLsDJcXdWb4YKLt_XGEL-CD34gSqK9NwFfgMM_J-7hpp0ZfBa5jHCCioMpS31bx7LqUpyXywhKCPdxzgZi9070xfMk9V_L4HwTTHM5knYWH6KZKo85xSgPNK4Nvqfya7eh5EcaH9DEI8_ZOecKiaI4w4BkPiNbcPdPUhnKaFFToJYPWCOLyTrMzuASHWNd6D58cBqGCIVImfkbvm-JLTddoPVoqLlChy1pFlwb1B2XzrYosyqYVBa_fCvz9iflR-bmM5UnFA65cu8rbGrc9RPFFPiQ9YE75cFBvq-FNitpqaHNFaK8s1y6aV9Zsq__JQ4udMvlHLnPLdLIOL7RyGl0JWyA",
+                    "AWn5SU5IY9hE-JxBD7d0f5IIdzhaL4wj9WHEc3haJmJjNT7VrY0yQvVodqJ8H5WyB4Zyhe3jNp9ccdh59JO0wKROqQ5gJUMNHg_4bTSIZOQzdJBCBqEcZ0M5Wfp1C954MjbAQM5zgJH79B94sLXXeLa3rWQW6CXXctTUoTNlJOvhWUhOhIq7v3FsK8FjiCG1BUsIsUdFyzP_5E9X0dsOk5x_2n6d155g7uFIGC2c4VooNwO9ioQyuBWBF2PvyxX3GPgJ98J3bY7riGlPXROn9KwsSBaqwdKMcEtj3E9_9XaH2HR8rfOh6cdf2jtJ7vzH8dABga_oI1ULtxfsk4PU2E2uKAg3pwsW0cw_RY9BpWUCSgx2Z08OSNCEgIG1X7oQiDNrcLt38oIGDy2IYKdE2-O_DzvYXcvKb6EKdCbH4HT7QI3QEw",
+                    "AWn5SU4lsrp3ul0-GwV4jai2aAHkA9wF4empjKGqnTWttVSVg5uOyuqVjklVsb0oo3-UX181ysd6ajyz955OCjAuyixNz0-OY3EFAeiEuO25G7rifL509F1abIdIRwfDK67uvnKPNjDUSEhqj5HazGN4jmhLgU_xLhF23c-CEpWastkdqvGR-2y2BelSjEusyAu_J0rMRjXdOQJRDZjd8uz4JZ7t34pYEE_8yMD7dVOc5ux3Swe_bjKf0iJ_FZls1etmnOwahzuJRN7leKwEYBy7ZVLVOD75Rim43s-QZjtAKpiZElVilf3L3OGWRPEGQO-rs1M2Cx2cA5_UuecyZDDzSqbGFTiOgRRvnmQtb4hM1CpsIkHWm7Qe8ZnVpZx5hhfDpKUbpOJioCDlnGUSh6-o9DTW9rAnmJG0De-679QkKG9mqw",
+                    "AWn5SU7qNIIUAXlJ93Mk0D5ZXOhy6XBnFtxZSEO2cQRWtpE2gODp0DuKkYdPItCLahZZeekAg2O1mMg23eQtkzBrwEROu9mmM7gzGYIWcXwj9Pcc3UtT8nagD6vtoaaSMYcAyI_lsC8BOHOGz6VXFR02Ad3de8KVS8ISziAuFDWX2BgWy9OdnG57aFqlFSuHobFatarJVjDovph0a_JbvleX5X0_UqRDL-tvz2CEg8LEhVbnRrfd1yMF5JbDLYct24Yy4K3Ej4m1I15dQ6ZHnzQu8m6buvhErMTf4aVNqsADweJCuclfKJomvM0A6bPGYE_NmJYOZd6Wu41Vo29EExKGfP_kxZGAtgm8aGkOUmACrGve_UchEZSSPj2b0aDBnSkdDgIJdXbXgCJk76t5HS0izKddPIrNz_9vKhobf2AwywQ84Q",
+                    "AWn5SU4pfGLFCDZ3nMBrOwOa0Hbn_PxfplFTo4O9by1V5xTRefBJrcxcFcf9zJ9vg9tr5g46WjHKNksmZz96JGzP9tLSTJpIEUQxIust2bVWO8sKMBmiZdL035BeLKWVi78bywuS33LGNLdEDRS2n3pS_FyoCVTbh6-FzxQ7D5sinG6raLWGyeE3Osz6rc4M95DtNDImtAlAuw-8VAgLrpziPSyBlXiVZRmCb0T95P_hnmUQDQqkxr0Ut9bMi74spO8oGtl5pzWU_cmrxno1b2zsRKMRpgOtysEVfDCy-7lTPsz3CVLpC7uToUwNaVYi6dKQfw45VHqbSnUlNS1ZNDuGi8mrBqs76TPFcllIoYWQF9VBDopHJqcIWz9-zfc-K9M6QTADS1LJR18-FFCs1ttzKSWlm9WSjW78im5uGvhghdQ",
+                    "AWn5SU6XgKjRW2RyewXC8DzPpDE6cxsUAtJ7XrWrYTHLbNsoXtnfXwCM0KS6q-2bwlSSQUhiI4uXQZTGf5GOUG0_VmqX1ajaRGSqv48uHPmvg0fVDWjP7KX78szYKNRnPWYzNSdo0Iz2WffDiuIxdO1GREPj6qYScfCmadMpCZemJgzleTNQB9N7D0ORz-Chp9N5tZ-bXpsidjDY3Eb5vDfR5kz-zeKF065l5b7riH8GpuKyD56yp4Qqyyx25B4vwlsGS1rfJ7GSCbDH1UtW76fHaEHJaXApLm1iD8frV_fCmcyRrgC9muPZUxehBedpByZZnXXWXvqeVgMwPrkXduEmalW5zKVaGJVFPS7LhjzBP7bmdSMZyDZlmSm_YSmfK4-wgWkthjziEpB1bzTCNY1k95HCNWXnFWxi5N9r2LDy398",
+                    "AWn5SU6t9ZnueZTL-Cguj1rl-u6xup_Va2bg-otCjcODFnctmFEX2zzcUu0_1bWaYQprYRJ6qI7wo-8zG-PE6XdoqPT__bK5y2BznjozxI8ijCxkWVg2JWaHk75Z1887iqfVNwaHSpdrapYVlfKsFYTJOpifSrkBkEsxGtBZFVk23USuoH7vrDGrsSf1KOVMMmvsJRihlon7f7TAQpTSsz_H7EaKUDG5v7LAcuVHzAcD7ROs3mvFyHPsr9yVL66db2yRQGye7iU_IqusDoQv2pce-HynFGBmr8aogy5K-wFJyyZgjRHcY_OlsOfU6qrj0IS-fKwgRBmkFWpxIRqJET2qsKXnYIDCs7r6x2ldVKmvNHsClnSpsUwqRnhePfYgP-3jvnnNR9vzmYZ1IwWuqaTIJggcIaCnc1YAZax3HtaWuszeaA"
+                ],
+                "review_texts": [
+                    "寺院自体は廃寺になっているが、皇室御用達で有名な奈良ホテルの一角にある。入口が少しわかりにくい場所にある。池を一周するだけになるが屋根付きベンチもある。10月なのでコオロギの鳴き声がよく聞こえていた。",
+                    "令和7年11月8日\n裏千家のイベントがあり、館内は賑わっていました。庭園は綺麗に剪定されていました☺️",
+                    "素晴らしい日本庭園です！\n奈良ホテルに隣接していて奈良ホテルの入口からホテルの車寄せの方の道ではなく、南側の駐車場の方に坂を下りていきます\nというか奈良ホテルの庭園みたいになっています\n\n駐車場の横に教会があり、その脇を通り過ぎると旧大乗院庭園の入口があります\nまるで通用口みたいですが、そこに料金箱があり200円を入れると奈良ホテルの宿泊客でなくても見学できます\n\nまるでテレビか映画で見るような世界がこの中に広がっています\n上流階級の方々の子女が、最高級の背広姿と美しい着物姿で、お見合いの後の庭園散策のシーンでみたことのある光景がそこにあります\nきっと桜の季節は最高の花見ができると思います",
+                    "入園料200円だそうだが、奈良ホテルの宿泊客はフロントで入園券が無料でもらえる。手入れされすぎていない雰囲気がなかなか良かった。",
+                    "奈良ホテルの敷地内にある庭園\n月曜日はお休みです。\n朝8時30分～16時30分\n季節によって変わると思います。\n入り口に脇にあるボックスに200円入れて入園。\nとても綺麗に保たれてます。"
+                ]
+            },
+            {
+                "place_id": "ChIJLTNCh7I7AWARyvdAdpZzH00",
+                "order": 3,
+                "name": "カフェ H00",
+                "activity": "カフェ休憩",
+                "location": {
+                    "lat": 34.6804525,
+                    "lng": 135.799798
+                },
+                "info": "静かな住宅街に佇む隠れ家のようなカフェで、こだわりのコーヒーと共に落ち着いたひとときを。地元の人にも愛される名店です。",
+                "distance_text": "約3.0km",
+                "duration_text": "バス約10分",
+                "transport_mode": "バス",
+                "photo_references": [
+                    "AWn5SU6xAkD2Ax1Z35v7kjXL98g1nG41To-h4wN4x4K5vIBLOtLGmDSnS1Nw8u4cOC6rk-3mEhQEzfHaSu3olPXMu915-UvZpwW91P93Wi6AVitfvDzZkLcpY6t4JbRfxtwmROm4cZ_rzoyavNKwyitCJyFBT-lwfkSQV7CPU3ByalYvrUhac_FMd16uLqS0i75Ce8Lnl8Z9ZUEROqzYN-fvqj9yIMiJh974fdtNju9h-WqaPlSNthgV4TXqbM095d27gLo101Wbweg8raCs9PQ_2kY4U944I12Cv_c_iWobkmyRmwTHMsOdf_29wHVpnpIt9xmZEMMIvKJoFWUcYxUTAhJtvJRobFucjcyHPALJ2DZmJ_y017ELhBk0ZvRUYW3XUsF7nyHXfIW-QLNCcXQ9jY_SCBewU6EHhoR8XDsdz6XoXyU",
+                    "AWn5SU5HHkNNfFEwYLjdAvpCHQEJUYFgHn5BuvwTpeLN7gI1ZX_oEdC6W686XLXe2U3zIYFgweUvXL6vtC1jiomlQSllzJPegHoJ4tifJbu3gg7Y09YBJDMPD3gpkgh-XdgRnOo7C8KYYxm3waUZr6oMNFPcs0F2lX1JKWDlTql6mrWt-4ZBT2ceFyg6_3Xnw0ABruTq0gOEFLK0085p9u7zBFwEIMxxrfoUfDElpNpM6XTu4_5r3A4RKiLgTFn05CBjYnvQQyzV88eNqJ6730dyPrJK_UrmX-519O40ZvTZDSFQV0qFPgiauRwdnfnbog8vT4Rx-juPEEinWzNQ8XwqZruUY32O9NrLUf2pFy2XqkWxnICkYvUruO5hMwiFZq3qnlT6zwfKmZ6dlIJEdmIMMIFp-4hzynw8sHiR8er0FU0uN7R_",
+                    "AWn5SU6lEByBt7Dick8iKvYw0V1NKEUABgE2nQEYGb5QwgM_MB-wikzZLShTeASE_GkFMy8ynRcKyonOrtFDjUUjdk5b-5DUif9JU6w8KSxZUAwTJdMgzkmV2a6YcMxp4uVFqZioZHC37aPC3l7llecj7tgPO3nhDi8_f86WYrULQccap8XXLk3xi153unJfPZvN-4loqqfzDl5Hb91E0l4xzGAS-fha32wESyr1IUwTFckUfzVacQHkZgjX_5DqGszAja5_GF8xTs2a7AKQktKbsdroyDBbTnaDMRq7qj77AhiTUgFnmJKorw5maaXRq-RjDwDH1EQBfTVx9jeoxiWXOJjfj1MKZ490JnMDA6rICqZldhDW0HNX74RtkiR5Pvo8a5OEUO3ns_Zfirc6bX2XogjqJSrPb0Y86yLIoln0z1txJuQ",
+                    "AWn5SU4VrF2MYvdImK03b4rYYP8_udWjgL0jCWVpJIjUr-IahBGiuMoKL9cJGd6AGWVqqF-beAQesF0AU4sYnvs4kTJ_sVOcZlsACcbny-SDpZJ-Fom1CBgRhQKkmOsePPGzA4LiCG9KsuoA4lD4Lx-ie2JO706DIfwJ5vVICg6lJOoREb7iYH1n1jpIY9lMI9MaHa-afAdeI24HvTOODfv3lguTjPGJYHQZOBUgkAXU89k8ZkLcig1wFQstJiQ9008Oe-sAhKWAo_bXjQW6dToGKkEXiEcingmuDRENfghErsYtKzEUB-jP484e70uX4dw19LOWKcGDkZbYT4a076qBg_WoLUt7mkpdMaG1Kh4AmWdunj2WiqEcLHVJ9u8KT-o6KtvzJO6eALAjQTGJ875jv8q5RvKEqMQ9P2xFuDbPSku_K0lz",
+                    "AWn5SU4bepm7HKs_VVuxeZtbcQf9GEaZuh9klm0iwBg5ReN6-1DBMBaeKKCpyKGIxnIDOImYPt3FprL2ksRZ0Jm7yKRpnNY2ZZaQnGJfJFnebux0SctaPJz_PUqYfwDYegb0rVVDVT0aGR5HlTCyHrNuW3vGgl733MGE-ra1utYOCi5Dh1g1l57lfWiZNVNjiYRDyRL14yQNYg-nLMO3lLIH6Z1LkqyPa9eKbDxJoYqo8ZQxL_QATBoytLJK-Ctb9oe9r7dafysV0vKraVi90BIfZ6D3VwBRK_3hRq3My4GiLMZIZqhGep62S0T3et3yQ5HurxGcfv8EcleTjyRKbmawCCEYmjkJN8MezhkspJb-3gyuNBPZME95hrAPXb3iNHkzb7YSnaoFOoBrt5XZW1doORVMY4t8s12JiQ9FwoSeWZQ",
+                    "AWn5SU6cdWY5YlFpL4vm4XmVgz8VL7KgGYhdQalEAhFLPix0k05_DHxN8E0XJFC94dgIaH_Kb3Q_iFzWbUv-Bw68j_3RE5Pb9gz0kvTnth9MtHGCIx1YkiEpGWRlLiP3kGtx2JPFQY7AheB21AcLDAnT2dh6vF7lYtVemDZThT9C1_9xJXst80UGzzs8tH5ujqx4fiQPXrMEvymGlbK32HhXcfstfqBhCDRFkJaxzgAeqmR9Wft8mNTmSzFCVGe8mRqscTcL54iLdaukhsHwfa54THbhLGfYtkmyGNyfMgFBMkuFkC5B7USlb3GKYyLitgeGGc3GzYT1AcxWFHrNd9OS8WorDyfDuxWMgGNU_Pf-Eqj7ihGhO9etFbVEqo5Rplw_AlgjmOy_2liaTJZtrapHZiVYrzh04NA892H3ECPm-FzKHA",
+                    "AWn5SU5PttBk9LUgOxRSoIQg2gflrBcrBXQ_6Kud8ZyI68BNrHyJ9Fz3eThYP_4UQ7hD2gt6aKvCltiY_DEti3Sc5rlTw_0VWDvvUa7OiTDDYjPOZZ6qjGAHj9r7-6h1WQjILcVc4XNnWoB78ESMpyQBT2v0PjN0WFiUNFTP9zrUDZmZJQBjz3fASF_59o3Limff0VXWkBfBHcgaMRkWPPC92EMhq2rlZfg3_b4Z-YEQnHmEsmtkP4hwqDDrU0_Z1k5p4RYWCI5-Dvzd9-sJehZWJSBhOhwZPm8lWvEUWtS_70_oC8TF8VW-x6U0ZuDsHrj8eKE8vzoTEPTW6tBDXuSM4JncoSb-5_oT3_qKqnHTpe27FNWwMeAUmEkfgSh6LXSZBS0kiCRmM7gG23BR-HiVIxhSlKJGPB0SLk-0ubjZz9k3RA",
+                    "AWn5SU6DSXrLvrUBDtYVB0T3kP-IeC6AKbcAQT5XKQlFdUT6FAWgm5Wbpg8XmJzYvpdW8ONbBcySeHZyJYw9xJN0pNk8Nb8OENdgRdb8_x38v63KwogTvm-J_Y77qeMyb3pemreYokB7hZ-dsmtikgF-yk9ESVp210XiKtmtoImSfhdfEM-Nh0w4ayE3f2GORrM2uRlTmvKInUOVR1nuqbC-E6kTR8ZWuk5X-WPLoe5QoqJAP3K92OuC1X75WuqNKy_bunpwzX4U6f1hWx4UcXo3e1pHumaBKDIVgonp775B2JxgimaLGT7j-rGdd0HhN5Nlyd1NmGof1orxZx7KkcpjY2gvG2BF2XdUmXIILboAt2TUm3FMsOjdiEs9r9zjjETJ5zH0_oxYH5qZNrIboWBxGesRv6QZ68PG1EVABlt3uF639w",
+                    "AWn5SU4M0YqVZmVSfXIMJWY18XGuh6e3a9fXzGLNBalkV752NcCOC0T7ZBWDQF66WbcyAzSv7N6pYX2wCiEaUsyWuEWbjWnkUmobETXACHw4EQLJ2kBcJ_kTjO9xjReGcZErEWHD333yvGvZM6Lb5ckcaeOH7NuYp-rL8DGLhBuhbDF_x0lz3LiAFO03wyPnKFiGJHneDI3iFT12cL_bfCafRbdDjBWXq72zAZjwGpik7pOnROyrrbLYCUXVurpHNcqRQm7KMDFEE2xr99PmsRLXFYVf2bSQ575sqNOz2tu2usujg77EvLjAu2gkijw-Lx74qIzx7LZJumc_foOo35Q0DAruUcrQx1Fjya8gUjFmz_LFBuiREShPVDyxLHRjJ49wu9nx8UCpo5hBh6A7HFhloyl-qrKdTloUAQYh_SfcEy4",
+                    "AWn5SU64nGClxMTPxLPGQ8BB8vMT3MYq_f3mCJS0ZRogm3L4phm959A1rLkfoJZ_llpcFiUyfEM0-7EddKYEmb7tFb58iOGpBcBw8htrrDXqEWXpZ_VW2Nr_8WcZ1cUJf79XjRSMki25QHOuOmG8GCA1qwwsZH9QckvuaBcT2-YT1uiAidrUlwxHlS_e0WVtxQUtCTg8u5wOgZUAWxTgzMgcOna_jfAwUuqIwyjOHsB9lRWnYdwqzM-qK3YjfsUxjdu_XZ_sxZxCPlcdFSf4oYiLSg3-ykeFJtlZ6sw0aS7OZYaZp5Nn8n0azUwbDXoaGL7RG6evUUP464iI4udrrpe9EE2-Geust9XcNmQT3vsOplH89LeH1Uv1jzAC_SZpyisE0pABRuADpK6ayYsRZ7_WJASDmDGjSOLILE1TkOOWDK7jtg"
+                ],
+                "review_texts": [
+                    "ランチはハヤシライスしか選べないタイミングでしたが、スイーツと共にとても美味しかったです。店員さんも親切でありがたかったのですが……店の造りの問題なのか？奥様方のお喋りが段々大きくなってました 聞こえにくくなる悪循環で。お待ちも出ていたので時間制限を設けても良いのでは。素敵なお店なので再訪したいのです。",
+                    "スープ\nセロリごぼうさつまいもベーコンのスープ心地よいセロリの香り\nセロリ嫌いの妻も美味しいと宣っておりました。\n私、ライスコロッケ２個\nチキンコンソメ？\nのご飯に\nもちもちした衣、\nホワイトソースもさっぱり味\n実に美味しい。\n妻はソーセージ　サラダ　パン\nスープは私と同じ。\nパンとソーセージを\n少しもらいましたが\nいずれも\n実に美味しいものでした。\n安くはありませんが\n納得のランチでした。",
+                    "木々に囲まれたお店でワークショップや雑貨、カフェと営業されています。\n\n初めて行ったときはシステムが分からず、どうしようかな？と悩んでいたらすかさず店員さんが声を掛けてくださって親切さが滲み出ていました。\n\nランチは休日ともなると12:30には全種sold out、スープとパンのセットのみがあった状態です。\n週替わりなのか月替わりなのかちょっと分かりませんがシフォンケーキがすきです♪\n特にチャイのシフォンケーキを食べたん瞬間、また絶対来よう！と思ったほど好みの味で次に行ったら違うシフォンケーキに変わっててちょっと残念でした(笑)\n定番にして欲しいくらい好きです♡\n\nムソーの商品を置いてくれているので助かります🙏食器やカラトリー、洋服まで販売されていて少々値の張るものもあるのでキャッシュレス決済できるのも嬉しい✨\n駐車場も広々としてて停めやすそうでした♪",
+                    "Google Mapで検索して出てきたお店でしたが、検索しなければ出会えなかったお店です。\n正直、こんなところに！っていう感じでした💦\n駐車場は広く、停めやすかったです。\n\n前払い制です。\nしかし、今回はちょうどレジが混んでいたこともあり、お店の方が先に席に案内して下さいました。\n選んだ場所は個室のような所で、今回は食事中は自分以外誰も入って来ませんでした。\nそのため、静かにゆっくり過ごせました❗️\nとっても贅沢～♪\nお店には絶えずお客さんが出入りしていて、人気のお店なんだなとしみじみ…。\n\nランチはプレートを選びました。\n1450円でした。\n野菜がメインですが、お肉もあり、パンもあり、果物もありとこれまた贅沢三昧💕\nどれも一工夫されていて美味しく、その中でも肉巻きズッキーニが最高でした❗️\n身体に栄養たっぷり補充できました‼️",
+                    "バイパスの側道から1つ脇道に入ったところにあるナチュラルテイストのカフェ＆雑貨屋さん。\n店舗が大通りに面していないですが、FIELD NOTEという壁のロゴは他の建物の隙間から見えます。\n駐車場は広くて余裕があります。\n\nナチュラル系の雑貨が充実しています。\n\n2007年頃までバイパス沿いに店舗がありましたが、こちらに移転されたようで、若干分かりにくい場所になったにも関わらず人気があります。\n\nカフェのラストオーダーは16時です。\n\n2024年12月現在"
+                ]
+            }
+        ],
+        "summary": "奈良公園の喧騒から少し離れ、古くからの町並みが残るエリアを散策し、歴史ある興福寺の周辺で落ち着いた時間を過ごすプランです。地元の人気店でランチとカフェを楽しめます。"
+    },
+    {
+        "plan_title": "若草山麓と地元グルメを楽しむ東部散策",
+        "theme": "自然と食を体験するショートトリップ",
+        "estimated_duration_hours": 4.5,
+        "waypoints": [
+            {
+                "place_id": "ChIJ6_-B4yc6AWARqBpo2R59e2A",
+                "order": 1,
+                "name": "まほろば大仏プリン本舗 近鉄奈良駅店",
+                "activity": "昼食",
+                "location": {
+                    "lat": 34.6817822,
+                    "lng": 135.8274914
+                },
+                "info": "奈良名物の大仏プリンで有名なベーカリーカフェ。軽食や焼き菓子も豊富で、イートインスペースで手軽にランチを済ませたい方におすすめです。",
+                "distance_text": "現在地から約2.0km",
+                "duration_text": "バス約8分",
+                "transport_mode": "バス",
+                "photo_references": [
+                    "AWn5SU5lrcLmQvA_HgUtXUIc5-xsUcyUoL2mijRYfGTofyt4v_9_HseEXbr_f3WvFqOulKGRzhyAiP9t_W2lOrH02Afa1xyyzLK6bLe56bzgGZMTWK5UJK2C2tML3FIbw2t-C3Mvf6UcxPKwNPFYjqJ-2b3OBkbJ_BEXcKZb82lEW3I9kQWwbJxQDnXBvjHG2EQIQULuQLo8N8lHFWmsMTWDr2ouPfjXrQnY9ZtEfds3zODk5IHhvfN1jZIOuPB8mEm9akxEHWVLufFL3USRHE-1IaujqJL17go44BjFvpa7OwbzBqgmy_EEc_U1hzgir5NeqsxG0Okk3-At-Sst0JaxHZ3pGPuffGGXvGgRRlxvRB-3jezeSetrL44fYw-BVX3odcqW66rvt01Yaeml72mOTnqcwlemNi0Tsd7qR20OEkn3xccg",
+                    "AWn5SU57rZ7NS5UAXtBaxghYbpA3YVg1XaocAkxCkr6qReR0pBygj10qRC9kRRO4uUX2Bw2bURONSq23vHJgMlSMjmaRp-2gp-I-pHXirK5hWDJh4qzRi0l-r4Qp_hjiX6fRO8Pn9girMjykgeFhmUqUAnqO_W-5YRLytTK6sB8_uCbjIbD7uiSE9tgbXjmA2ZLe12aryj1frUUQsHm4tndXlcmPko1hjfpLV_OppiYH5hKkJEUJgDJKNszlJzS_PtoAhScHigKSs8vYYdr0hRFZOeegcn1tK18-D6D3sgsM816Gaw",
+                    "AWn5SU7Wdu-lsEvUBWSMTmSKEJVV04IDhgfoYeepU5ZwH_8yM95x88DuRTlB_UHO7kPNJq8NK5dInkWnFgk1kapHWP7HOp0SNbmtEUS7ZJOjcZCIyk_LRInud6AAqbD_mm0fJomXvddAiCc1K-yeUF6tnZckK5bfbOw5HudG9eLUagngN32zBRwXucrh9vEBOZInupKEncE79sgolWZ9Ob3URn9Pd--pbTKVlT2sS_qpX2La4-Z-ETGpA7MqC46Q5uuxcl2hrJ-4MUdkPHE63L6T9Pe8mBWFnnS6--RdMcwWdk3CqA2ACgw-9fLrI-FLfI17-mBXaapWqfWondQW3bmmDUm3jQbXU5sx7Z-lepzNn5V4LtvUouTna2LQBV91DeWoVeTX_ytM3lh84yRG21glTZouzKJbiTdGv6vhaje1qRTZwiwMln9Ym5MD__75Eh9u",
+                    "AWn5SU58LCeo8HjL_8oKk-cjs7J0RrByATzw5ZOASt_u2qLYMBk-GCSQ16VLpPNp7IwJs4zUnLfYWofdgq4orZxDedHOS0zjDbtlFAVf5gbxlmkLMY0yXWHMMqKfbNRBFGXOSeAoWn1XPLJYoMm_lxnrpD5VFaGZwS0uSOuOmj3Quy83mPQf8hAY8gk5yspA7c-pUXmhzrTsDIjmngIZZe0Gcv2DnaGSphfyZn8sntmz_Lp6dsHyWnqSFSH_OlU3EGyY0W29WQsLXUMLfJWwitjVv8OstdTpaqhABQ8-_ANzwJg7i6dErQREKAErgx_gZ4BZ0h5JlHAJ2T-IxNKGxjfjmt6usCuWHzCRgvqKfxX0AjW5B4V0Vohuee3WP1RBs_lnwtd0lpxiU8FcZuErm37N7ovWwFzMBIXVpQbMyAJ-g3mD2Bx2",
+                    "AWn5SU7cfEa8qYDmSGFDYxIpKevFwK3kECcCpArtLckV54KIINHR6UMP1PiKadFfkr-Xs-k2Cof4uJn7-9Nygn23cFd96i0-Z-XRRwHVMtqiDMa8HnAimJyxpg-PtXLFMQaf2s7QalZhrNbkhSZ9eSFRiVKQVsbyHKFZ1KCqgr037A5VQbrkB4B-TapuYTFL29HRq0p3sU1iwtfsAeb15BN9aKv94UheSJbJPfFbSOgexGTknoV9uwSAfyvnyrNBdOn8GbM4CV8hZW0ywUwDs7pCtaOF8tQJbxjQJkGn0r7zbV8yQg",
+                    "AWn5SU5c2bZKIVpoUTPqU6C4XXIbJPJEc58sld-IXVAYkO9SW2jkfTVaxNneYDHr61DQEtdb5ZkQa3xQbZ4EVE4qlgLBta9oZCHOKusJ_Znwjh7tyHfR6UCUbB6H33EPqr11hf2P33YGPP236BJ4vDvmhDE46MzTipWyoyXNtDz0LrNY4-TURrqP3Qf7SxkL16fLUDLyw80q671FkvSFnH68wDdYTBtv-kpgqCzVWqCdjhrdKCDos625uxDS31O0dKv1MPoPRwfRbU8DUrDsqJ5Z3Oybm8AkXAfhmXeYEAqNK3Ea_DfhVagVXN6T8veoKdCYZTKh_Wfqg736AsV8b9kVanGAshWVpBS0UiTC3h3KEtpZp1vix5w33StACL5OFEwfjuYeYxJzIiOEB1Vhg884_dyNN6MI80j9Y0F2TvoN9HdjVgA",
+                    "AWn5SU75h4fsZXgQ04Z4k78K7UY2A-RB3rkvTTATtBTEjKk6FA3Gxj6KVeZWAHKVljc8Q769QK9DYGlhEI4sZoQyI2ifEOkWh3eR6VLZ9QI-b1SIBRbu6tRDsVZFkY1PKYVAzVCohUpjFtnksoMvCYSnzju0qY6BGK1qrEjlXbovOu9OfwUbGU0iQw7YgyT4gTsedOuJcjUCGhyon-nKvZdA906J3LDYM0AED0eP6GRVAAGAx60TtcaXJ_lGtqFtLzUvquCG66PpKeIQi18ZMHOsncuaolM3muyjhBEeZdpJNL4CRA",
+                    "AWn5SU6ghJrZePfBh1Tr2zanyZ_i_f8kPZ3j2YERaeNhG3JgwKiDcJsKqN4m0A1spjvly5ToMYl6TmSVI6LTsxpQHKc54UqvdHa5xtuL5w0r9YPUBSSRlG4TyirvkVTjvroAztkSAur6S7C5Xya7SwdhiNbRoMDaXYGhgcBsLmLSlXqmR-nblNolJEMTMg9_BqkEpamKHv2kcOMifJDdwxjrKsXIMJFgyyuEBOF-cVfDFi6KGFY7Ry-gZIoy3yyxJKZYQXTChziRIoxk-289qjJgFqwEa_1pGodL6zAKruBTpIK6WNCeyn6XGwaCr7j7Pzeug_BdUadjYr1_zRuxdflH2mj1CI-LNleonupseKCiJFAJai3K_J-c4AY0S9XJ7KgfE9jHKMzX8uXPQwxMIPhU0W-dwQh7-SFDHtpvdcCSO9TODTDfuQjsB6UkhNW44A",
+                    "AWn5SU5C-0BRRiK3rZ1bQ0SG_qc1P6AfN-gu64HJDbGkuJFta16e5CLtYdqd0kdYUNpw-NB_U3_mIN7dXNETvT1nlbKr5QdaJcve0ydO4HPfqEsNDJRZDEdR9aXw7pu7F1aC4ssNwrGiACXiVuZHonOmpEUseCplz14b9ff_FsdW-EUIkwJKSMbKuFtbHs8Xva8zuYhJWoKALgkiVoQ5OBdhcpqyXDz2mE5BlBfHcuA7hgqEi1ycZJthkQEc8s2fd1Y0st4kG7NmLv9GxmjeuQrRAMlQEBIP2EUdgZauN0ErrzpkxoEoKLrVOiD_w-NcUG3Cz8-f7YOeSI570rklE5i6GPfI8cmNDEiQSxBRol83CWXPsBJRTHexRCR0zqRGtRZPl9taWytIB7-SY0cqV2KHm3N9Gmc-YTGZp-UP162bQx8fz-ExDwuzFSnPeq7JZ7pf",
+                    "AWn5SU5vK1FZyo7OCwTbhWIZ5xh9cdGKfel_mbMNTyXEBfEYxlKKgaPGB8W0w1Rfqmo6ncLLt3LVFj5aBd8XKERChJp3NC-RuMh8JHZrv2_J_DFOQkIdY7UjiSeAP89ovH7yQBkp0kqVOL2Ao4OAh3hjRHmDrWmp7BaRq-iE2fdFfDMNU-Hhyd3YLNAeJRUKxNMnjEsr_AMgwdYcar7uy6FhizI-sWJyM4XSuensnvviTIdyixHNLsDdWkuEYNRuU7I5k70WgLg-GlyC9Ot040aRv7aOs8Ryyw_u6j2SDn7Q73PpmgBZMTLfRSHyw9iDhERrtJe9zK6tMNDtw-uGQquQ2SUzA4PgxPRDnks6NUq_Sji-CsfZlzeVS0iN8ci_mJHTZ8X-GSDMYS_rkBIVtHj74YcmI6l_6nYDnucoYaS0AR2HkvsaNwBYLPxecwP__kjw"
+                ],
+                "review_texts": [
+                    "全粒粉のホットドッグが美味しかったです。\n\nWi-Fiもあって電源もあるので、作業にも便利です。\n\nスタッフさんが明るくて、とても癒されました。",
+                    "小西さくら通り沿いにあるカフェ。11時までモーニングがあるので助かります。多からず少なからず、リーズナブルでいいです。",
+                    "野菜たっぷりのスパゲッティ美味しかったです\nご馳走さまでした\n\n2025.09.03",
+                    "興福寺観光の際に寄りました。\n日曜日でしたが、比較的空いていて、座る事もできました。雰囲気も良く、店員の方も親切なお店です。奈良観光で歩き疲れた時間に、ゆっくり過ごすことができました！\nブルーベリーヨーグルトスムージーを注文しました。スッキリ味でオススメです！",
+                    "モーニングセットもあり、コンセント席もあります。\n座面にもクッション性のあるものが敷かれていて、座り心地もいいですね。\nお水はセルフ。\n小さなお店ではありますが、観光の小休止にも使える便利なカフェです。\nただハムタマゴモーニングはオーダーしない方がいいです。色付け程度しかタマゴが入ってなかったので、オススメはシンプルなトーストのモーニングですね。"
+                ]
+            },
+            {
+                "place_id": "ChIJq-bJao85AWAR8SsYLK82JWI",
+                "order": 2,
+                "name": "若草山麓公園",
+                "activity": "観光・散策",
+                "location": {
+                    "lat": 34.6838673,
+                    "lng": 135.8337838
+                },
+                "info": "奈良公園の東部に位置し、若草山の麓に広がる自然豊かな公園です。穏やかな丘陵地を散策しながら、奈良の美しい景色をお楽しみいただけます。",
+                "distance_text": "約0.8km",
+                "duration_text": "徒歩約10分",
+                "transport_mode": "徒歩",
+                "photo_references": [
+                    "AWn5SU7WK59qdIONXitMIAdvH5fFEy1yJdk3B3PCnpiZao_24LwERLg1u8bwhI3QYAKTh5BZRZH37C641FeTnYwd-YsxORxWq85FWCejfS6yrfZLjpWXoXYXDlX_9Q2GQzcoMvMU-a_--IRszfPSZqD51o8hL2427-4Wi05DSjSXDwaEiG6q9KOTUkS-ukKkoYdoLb0cVayDpfVFOaVATxMUtTWIZCKpfLQQcftqJtVBQMwCF7NI5g4BjzxprNyt9Fdz0dCYbkIpi-OpzA12yW6SOgBttTvybpi9hEUrPWNxbDTmQmgkLFLr-p8RDZkquJZY1bxWo0vVR76Bn3mxfnW35tRu4s-9THi2-MjoI2JMo-QB81ap4T20xwKP7WzfoaO_ockAqEOdR-Al_NcA8DNQcsJhz0LDay-fSrWG7HM",
+                    "AWn5SU5j_r-xwWd8zt1QYNBo9eXvdKcpcbgzBtEU1jdtIym1uWVfcNqw3nEMo3F8Hp9Yx-GoGim9nakmWHtlAZ9Rc3z60Jp7G_F4QlLV6vqpkFQr21dbjNZ9Z1nL7K9T4JnXNA5bPE4E_x8MjywqqgKneM0WwRfZolpN828g7DUnWK0ptbkeR_l_grNVESgD7NiZZ7j1oKOGgWVKIXa0Uz9r1SBL93gwZ1lzZdbCOrZ24MSdiJMKsNpeOWc2rph0bXr5y0otCoAvK3b5Ffpa-SdBqCpeCi_jf52U9tzeYaZYQxeQORCp6LmoJJBy8lpYyY0yCmYB8Dnsv6r9U8medeQMgzc8xgYARAhvmoNWPnlxpognOeg4ieQ1AyQXdJiOTpDBVTvutzl_EGC5d37omFi3yBf9g96BY0242HWLKqtXwYo0NA",
+                    "AWn5SU66Qa3ICZ-idazRqHbOzdqOQGM88TvR-U9OJxApjX3XKEwmKt_vZzZALL9Xda1clJDHDUa5vM0XAyzor1OIN6MO9-6v4jMScdP-ubdLAchnaFTnsKx447qFi8CMes4MddeDrob3er-0VpmB9DQwa6n1t5lOYTuLNAwuxhVVRRAmzqhagb1AyNzL7mU_s4_ePRTuNT_hMo2QzXQeORNOQ5ueioNFxcjHheGFKepQW6NM80kwbhhwmtG_23mIEuqs0h01dE7-GYpggj9lzvGP5ngD-hs8c-TuNViRtrSosyAK_Cynt8Wff7fyF2u4w76YZNLR7v2wC-bSVtez6sEUkoM5LcFheGNddqVc4sEqHK8RPPwAYWGhZGNGIt-bgVVywbJ5_XbpyVj3-sqWtngonwWISmOXHh74lcTEvpNkp3igTQ",
+                    "AWn5SU6EyMB8PU9hCgUbyrJW_MCHMT5MktILJAihkCdR_BDrgrtx_eC-cV-Tq1czkexWUemRMxzPWbpxEh2GUykTKaYtfeIquVTrAi7bMr60eCpKwgoPQE7PcrDfsWXhky0J5od3onOXehpqM_yN3yN4dwA2AL1X-PFNYpX6K_GNFYRjqapkzvtVcErnbjBtqsss1A2w-aOyirSL2HD4dXNt6KWJcC8-y0lLZ7Ja5TZy7mdaEn3KAV2jSIZSjbT9URt5wjEzJoWk1tOMjiRuC7rVG5tQ9gksdK7zNvvwvsv_f2m0A9kOo2RsmfY1FnUol8pS55tJRdJi3NR-kAmBHX94LX5srkPL4F1UmjiTBiFcn1Kcs14rUS8VCZJdXWp_nM-duFNTua1MM3ei2SB78i0LKveXqr7v3CXc8HhnqIUXQsfbFykc",
+                    "AWn5SU49KdhpC-uUhAKZ54alZGmAEjCEkcgKiLKHmArD0Nol8uqHbR2OlZYKVLrsudSnXiO6yv9wU7cAVxPzX0i6IRv9B1lxm7j-csYTLvMt-JpWJEwRdJc7xj1Fmg-0xQuHas1o4Bw1KKbCJ-Jg1takj0eGIJ2SG1EKa6LbN_bXsphWJ-RN30azmPQcTMe_XcbAIG55BW8EQ439Ohd1GSftcRVKlefTz9zSXnvKf5N-ZJBCdJyKH543LSeXUuEKnIJdiYPbBDY6Zt8SEeNEp6S7EFoQTFkcWVkofp4jcVR411Dl8GvkQNI7nArrFvgcoV78OCeLW1mUzpTitB-11_ioNABjxLSuXTRcXQ3ZbLdgnMXl_oxbprEBRVxluilBgnyle1NnzTxgJ9lhlXtLQzyVfRMywqIKr863NgdBoVUSftR4LrGK",
+                    "AWn5SU73ziAzs_IXB3vSqhRhh-BaxyJ-Mrlnww2NAhvB1Fa1VZHV4HzezyteVlHpfrDAlBMhL6gtMpb8iQQefj1shUFwPDskkxV56lXS6SaVNHFkS3sIhZWF_qYEnKSJixkC4dWKGrcZzc0whWM-Sfh_GMxHdmWEqZrIGT5Mp_fnZve-3QbnP_NBe9HmSpCkokdYj8gw-HS_sTiVUoi4V-tcU2M6eug0cEdtUYHl_ShJVH7T6tsDNu6YDC1ym5U0tDyxOmaERHS-kwcTFXvvSN3fkeJEPiHHNin23isK9PIvsFZfe2hsa_ArtsyVSirAn-YDJIcWEomPDWSx7KViDNk-85JCgRhGfkPvyP6QkNxqsnP2n7ESFGAnkhBf51Kgu7t9F3RLTOHrkZMD1BR-VXWvjRW2Jp42Cq-FlUPIJybDnYQEJA",
+                    "AWn5SU7m2nO08QMXYG-mHcpvG75Xe-wa_-DxnfYOy7u5hrFHDjR_2qj1HbWJX977tLBGyFvnAh5amwI2JcZMQS-E3ch-ABzeunlyY_gQmSApXiLhGzvUzK2uFiUDMsg3gIUlMRVgn6Mdv0uJMVSTAlv2yn53M0zTuksRjkqAETi4_VU93jwy7t8xU8j49JTQeF7QCcY7EusTKbdsQwe43KzK2jL2ImPb-WGtuvDR1d34glV3PJMs0tJQHz5Ex7VjOuCjBZDnLOrPQapfAlxZWpVQDGXM6M8AG_YWwEkviCnknADFtJB7UPC8dhe7x_b-lMlDKQDAhOnGaQCG4lLNyUx9X3w-PPnSNTXlmkXRA35HgubxlxCbzfnlgdkDqHd2avnrMvQNltiHPQWxH2v1j7mKByrAuXm_qdTQkUTNw41kr1FzDfWs",
+                    "AWn5SU5n-CAwaOpEUHT5ISEyiHy6cGL5mFIFKrMyl3bD_gE0wd_dECcdYEcIsu5J9udphBkdUymEBuwsvugsdhi6_pET9bceo-zLPPYq131wcM3Dd24eHcTOAz2iXes4KphDmDEhhFiWWC2BOgJ1aBva997JzdpRzuVdheFq-xyI1LLMXbC6lyacHauyiJqa6v0IvdBYmHseZ3Fuu8IK1C8JGGtyLCxsTw9qTD3uUUQmJH0WwR6HIh7Fs8qzArhDm-n_S7pOxoEZv2eqkuM5L8WIlRtlWE5LExSdEuSx1ehyxsyYt_aaApEf23yDFSgn7VIJGZ5KgT1v16pV85G5e3tyu0DF1vwNxXPirMTYi6N7HbsOfhKlEF8rukoMAbYFCrEfGNCyhxDxUrnlLhKVVVbEV_5vf-bP_zn0YLldNGmOl_wwtA",
+                    "AWn5SU45bpF5Sn_qWFJjcIg1pjBSMnDq0YARu2JFHWBOBHNPAtAm1yO6M8FhV5oGrztfJNwov5P2r7hBVX-FXpO4tsjWm4IfRdxMdFZNSRvLfqyZlSfaLXJONU3yZow6SpFSlbBt-mjrzvm9dTZS7eWMGDgdoMFCZYpBikFtOkYyLopUwz9ejHvXvLqK-yjQn9BHG7A4-vZ6sqkNhLU1X-7WY9pPPbrVZj7Vt0wSjlhmUVJ1nKxYE50esFjMcm-acXhH3cJU3OotyznC_Sieu4pEBMZdAS7smVOap1GOinVePgeS-ux7lysKjProHjzfl3BjIuakkEqTZPd8DdmjkBzbD8wnUjt0RbENXKrH-D8wz86BJ2T2gisCN8h6JKomOqeA7en7Cqm9f-oKTW9w9LW22kH_M-UJnWLjVC1BfKq_B5R6Me35",
+                    "AWn5SU4UpxqU7FwjleYXzJSCayagLIOmIeQtsttML4dO0PVXd3C-QW6lXEQhXlf7CbwwCITvov2IOKWYj2c4hkpHAB2h2RM_iBDoFLRjIzumKkMDtYPwUgogGgbjPHSRuOyX-nm6P5wA7G3RlyQEWZ6SuvPFTQ1wspV5STgHAEVB5DgFNwGdtEY8Y9wTjCJZvsPzTzqZySoH09gdG7XzEXhoDypdfgLwmGpG4dcuVHhMAAy_wpELS600-A5ucqxCHwrupIVAJd5ZwxXnV5As2sJrMccughJ_Yk5oZoiMTGrUb2bHGP2gdhEQZR0gEvHsxq_WsP3CXqzymbEZin-gqss2qdUZ8cJRpTcJjrBw8vzWnUyXU4ctrxw1YQaihLEnSFA2nfy4M8sUIGzsBNcltHvgvD_bb_GV4Kg6j-tHq-6Dh3tFeT7J"
+                ],
+                "review_texts": [
+                    "C-festaのイベント時に初めて登大路公園を訪れました。開放的な雰囲気と青空の下で楽しむグルメは格別で、特に青空ピザで提供されていたセルジオさんの窯焼きピザは香ばしくて絶品！さらに、日替わりで奈良を代表する有名料理人たちの料理も楽しめて、食のレベルが非常に高いです。公園内にはシカも自由に歩いていて、のんびりした時間が流れていましたが、うっかりしていると食べ物を取られそうになるので注意が必要です（笑）。アクセスも便利で、観光とイベントどちらも楽しめる素晴らしいスポットでした。",
+                    "奈良公園には沢山の観光客が訪れています。\nしかし世界各国の方々が鹿さんのおかげで笑顔で過ごしているのがとっても印象的でした。\nここはLOVE＆Peace♡✌️で溢れてます。",
+                    "鹿さんがたくさんみれます！\nこの夏はめちゃくちゃ暑く、ほとんど日陰に鹿たちが隠れてます！\nまた奈良県名産品の鹿せんべいは、買うところを鹿が見ているため、ロックオンされてます！\nそのため鹿たちがくれくれって狙っているため要注意！\n自分は、鹿に服を齧られてめちゃくちゃやられました😆😆\nめちゃくちゃ礼儀正しく、信号も守っている鹿たち！先祖の方たちが鹿たちと共に歩んできた功績だし、後世に残さないと行けない文化だなって思いました！！！",
+                    "2024年8月訪問\n鹿を眺めに行きました.\n\n鹿せんべいを上げる場合は早めに来たほうがよい気がしました.\n\n朝09:30くらいから1時間くらいいましたが, 後半は「お残し」するシーンがちらほら見られます.\nといっても夏休み期間で, 観光客が多かったってのもあるかもです.\n\n逆に朝に行くと, 鹿せんべいを買った瞬間から鹿のロックオンが始まり, 角でどつかれたり服を引っ張られたりします. かわいい.",
+                    "🐎日使(ひのつかい)\n落馬し給う　おん祭\n\n事前に予約しておいた奈良県庁前登大路園地の特別桟敷席(2000円、全席当日先着自由席）で「春日若宮おん祭」の「お渡り式」を見物しました。チケットは当日受取・当日支払いでした。キャンセル料は取らないようです。\n889年間絶えることなく続いた伝統の儀式を間近で見ることが出来ました。儀式の解説が逐一あり、京都の「時代祭」より観客に親切です。明治以降に始まった「時代祭」より連綿と続く伝統を持つこちらの方が感銘が深かったように思いました。\n11時半頃宝蔵院流槍術の演武から始まり、華やかで珍しい時代行列は12時半頃に終了して御旅所に向かいました。2024年12月17日"
+                ]
+            },
+            {
+                "place_id": "ChIJvzKaxoY5AWAR5xzw7SDHyfw",
+                "order": 3,
+                "name": "奈良もちいどの商店街のカフェ",
+                "activity": "カフェ休憩",
+                "location": {
+                    "lat": 34.6874216,
+                    "lng": 135.8312555
+                },
+                "info": "地元で人気のカフェで、散策の合間に一息。温かい飲み物やスイーツでリフレッシュし、旅の思い出を振り返りましょう。",
+                "distance_text": "約0.5km",
+                "duration_text": "徒歩約7分",
+                "transport_mode": "徒歩",
+                "photo_references": [
+                    "AWn5SU48aqmam_Vrrn3x6xeoixShQCJov3l-jyGuAwLkZ9o8Z330eQX47QP6gM2T7IDgIWY30WBFKW1pSAL4rmQPYrm2PdssIYQ2pENzeR2Hf4i2HR0O0TJNcN5-egjR9fsZe9xwdgDz6hl-SGx1dJX3xVAd-QaSuTF22--gfbQQkOvB9jDc59kSNZk7tzhUwcSX279G8jlEGaqBgnqMp-IJ3sJ-bRbjaebsy_Lk6kcQfb_oEKg20KQ0RB_cUN4eRPRSaXRm-_nS17q9MAg1BGQOzrHqJnRfBT2zEJKcTQUUvVt4bpwPrBCI4ldD_R1yJNEXDYg-Lcp30P4UPUuD3sRQ5tjMGOm9PcwHcOUO0MTTo0V9kMXGYWBnXbA5HjB4Cp8ApY7plI_1EQ5O6H7MRMT8TH7NHoP01xVlx6voMOxj4EN8cwBk",
+                    "AWn5SU7u20DYAy2cOEs2HFDiHME4oRTnvbkS3KLSI6TdP49sL9rHU8KqfIDPe2u_fOnmMjNBk0y4znivuPlpexJayhLd0jn9uRUEpW__6DJyaaQ7kZxcrG5pkVi95ogm_thHZL9ZY71hj_XxQ64GU0WgyJ-fvbymIbQ-R82je_nf3bGAtGrcN5POb3OAIg8LT5kGwhmwCjF9h63906LV0Nsx9-ds850UYoQybWKlSPLOj1MU6TsmDeAFTakkIjC6KP2gpFTw42Cdyr5_osk2AKdMBsEF1dWmd1tieewMcYZktNgQ8sl7QvyX4Ptuglurhmk2ObiOAgS8Uba58_WvBtHCCRzGos7lEhK8RBbP8SRb87v-jv3v5yjQPy3A95ddcEUyeYTPfuVjqepOmT9nbhm0LcTVICiLA7NoaiLqFT_fRduYbA",
+                    "AWn5SU4rBzJ8LZ_6uzFPpqzlowD5BhaxDFTA1rfswMvNZrLG8pUwN2q9RaPaVG1VesQOwpN_FV8XYsGBEkZoqUS5KelC3nTkRpELO8lCsCbJluYEmAf89mOJ4RcCldfk2JUR_AqtqoNWOFXWhfWMnvAfv1kDjtevv2EhwqgS36t-Chs915hQ06DvlOF9kBHhPsiyKxOB3h-pS--9P5BVqpZeZPdb855kddOa00-oUAXAUAo_7PpC8dBtNoa3VCrP5C6IlyFYYsl7y68LiT_Wy4L4cwWvCoEPpgHlXSjOBl2uSElXo8pdUNqKw4Zj4q-uaP33gURliiiYdwc8FlMteYy8oU6AO8oQmRAJ4z_srl8U3AaBbxVneVcxm-uwJF7rZ9gqTWYIKMCySDtrU_-2-Hh2maPCGU_2yFE0ZNvB-9nFaQbmD2Bt",
+                    "AWn5SU4Ny46reMmcl0lDIO7Xkixr-RV1khZH_5L7t7OHzX0NuHFxC2VOmozbzEeim2y5zaDycdTAUHZLZl-gnpe6PoDiPT-oxper0OZDh3INYR5P_1qIZmOsvI9aoz4r9kcmXsG8OXjUjWnJAIAc7hMFKbQ8A_1bpTPRWgHHJZ1bf14ibkyaWOhB0K5s_-AqNOfC2bmE2j8knTqj7KWJD6qUiIHzp00cGactqd9xiHMke8sgOT6Z37yIs93nu2H5TIDK-ub5KOYj9jb8PqwvhNcPtiSF8UFtPALrvlTx3P_eP422iRypHR_-VhYVxlHLbRYSxFWcpgpQG79I-C0oYMyRqtqMFP7HePgfHweuCvtayJ-pgOUXt-zpB8l-kYDdmPxJO3tmZNf0MbTqOlK-2uoJIw7tbcAY-xB6w5n2rk1k85cKsg",
+                    "AWn5SU6nMdDJzvraUxLzvyyAEfWG9bGuxR3iuNqj1h4W0AOn2BNuZwzikh1oM1CJr4GcVvSQE6WNGpvLsuOEkOIMO0HxweK6b9hu7TJDL6MWnWtPvyKiMiV2bInF60vF1-Z-GPGwW61S8BHVss4noVRFiTT_gI0fbIfw9peXzoHLQyhZocihJ8No3qr47A9wbTmDwU_hP1lhAk2sbMFL1Aa3UCavJ-Ha34xoaSUxhLUvXNXWUvim5kOQRbxr6492ZT-JgOyrsuX-ZSBCCiant5MiJcP9OQhq8i7WLXfL6mw5xOZZ9ITu9n7DP6xMWt4iYtLmaQLIu7u5Fqkx3Cr0Np31O2L_nslKPouLyc7pH8E7FLvBiOhgU1DSWkpck8wrLwRs6iVkOBffW0-QpslpIJgj95bJv9weriSyQm9CbQthzQgGmnwe",
+                    "AWn5SU780umFMqaSOuQ2FowtyorErvv_GuW_AXWXZ-S0dzwyj7C4U-IbItm__2eLB0JTTttKjSrHuZ-w01Ur4wVgrpE8Ynl7DLsWucgkrqLrMr7VaMTqqaZUQR_TQaOhT70wzllMZDOpLRUOPvW8qxCVZLFaS7C6WvDaulYrSoHu2pDwlzCx6KySriGW-rdwp_CjrBOxyKzcXfGuvdrvl_2ietoXx_-Tcvhu_Z-GVd7uYyxi4O_XXqBc2zpAPmAvaOi5DPrMQr8XGTTjV-izpa1km3wLxb_TVzjYZd9pNXOSFqx9qwK8nKSWHLFHVo4YZ3uzrjz0_jBiGVsT70KLnHISO_LoX5wyc6rwsIrPs0tgq-7pJYyFm5yHqULddRHM0pii2AiR3h1OizxW54XdDQvRW8ltQDNIEYGClSgZa7dPdXbQUQ",
+                    "AWn5SU72HtV67GcrDBv4pbmoz8fAHhJIkqJvh3j5ybzZ-4Y3-ZvGZlwqLjgnBDE0ZoAYmEcJ5rnu8e0HgODUnNHKie54XEv3srpr4kywkVEcluyL1QkbpsgIAcW1Uax6DXdPDbA5elrOyusjaf5QbR-VhcN9efN85HRtCZzHrhqE9lvRUYklMrnwy95ycYI_C39IWauSu_i8bY9wND9q_rsDNBSk-5XAe0a907T2Nl4NISVLEr2S-1uhKO6S2t_qCW0rXcRIOARTNa8OPy8mLa9uVT2g8uxDohi82uCLEmBpT23RzqqhJ7kFwBFXdnS_1Wplp30_-2WG4nu48QuLQJMd_cR9WoN9nC-Q9OmM57iW7QzOE5vefeWGjtf6PIyY5z9W32dWTQ0xKaleJlHg7kPRr95Ck6Y6tU36Zl-2C0usf26zUd7k",
+                    "AWn5SU5K4Cy_Coi_7O0TjqJfsyNh751qg3pSsU8v6c-5f9z-i8Lp18iPKdG4znxtVdoFowSlmMH98lJnFMvPs_4lAUSf3I3rzsZjDLRfw_JehJG63PMRwGgnmqep5gxC-N8Z4Uf0D-X3Ec3FMNkHxK0orbRKJStIHEXFNuxSRuZomIxACE3ctzb-_e_zoJaGlWAP0bO6ufiMicX4rh14asmXu75gIc0zVcRZh1kqY3WsJpE4BeqA5Xy0M-0oaldnxoxg2ZTwsNiLYpTyjSjMfLK4tGZMhpYHVqXuVXFLwA1FX-dDHbsoqhoX_srXt_jsWTJ4OxdO4U_f2p3Ko832ULCUAm-nQhFIgmnde0m1pGK9l9k-QhZgGxG8apHrP0dAM8ZiALd28dBPOluAb5NFjtCFDJjqmuXVxCHT7OWam1pMNFnq5HM",
+                    "AWn5SU7rVVOp7yW9BO_Cj9SaEjZHiQIt6H90Ys2_s32Bb08xqnUGnJeOol14PNOYkmrhOTO3WdAvn9NuJoUloM8e-Q4J9BOE-MloDa9VAPFq4D9df8Us9xOMc5p1nen6KKmMQigiE14tkYsPKEo8_5ds0X1Ow-j1J7kE011Ag16saapJScmBciIMCMUaTHW5Zeqd80bPHd_HhxtqIzC9IqCgLEggDA0oPpn9f1AplIpunQK9FqoYtX8pkemF5UJG4aK2pnW0gyhAdmdY8fojwdL5QJrNLQK55C-S8L2BLw31-PVtdNKPpf4ImQN0HkUTcONzo5lsA38ldAHNsRMj_mH9Sk2YUqS8b3rBeuv1tlYXd6FJXhDkfi4KuRXYeQaLRrfealzCMiAlZb6b6TCQga3sXa8RH97WNE4PVL0dq5LD8aM74Q_2",
+                    "AWn5SU5QWt1nWrLYtjNS8mQmlNbqobKbOn3jhAEnRaOLwtUA_2Q_acKfIZzyiMGs_IEDznJJ2xaHhGbceDSKi6A-8Zxaaa2WYgs89DAy6Vn6qAtPxD1nY5BU1xYMQZWZZ25z1IZPGXZUcMIXQcBkGiJwaILrqOtdILJMExScTvbbm62HNqHonSb7vYZoshUsjixTro4b8Vab_2IRPdRG6IB4NPZNH5C5ZIMVqwjVP-toLKL6IP_IUICrvlimy5hAY8jcMPSVBYc7BnoTG94mitMa18ptDa3Zk-QyVwSOTwzn3tDJPXwgl_oU90-4R4m3ttGP4qhOTBeo380dK8Sl23980I58AwBwDyw2OsDQ7eQZKQPRDOaMGhQoUs5PAlJaWda_Z_yvSA71LfVI8khmETbbhNWMsYy8CtkIacwz7HQiV5pIu1U"
+                ],
+                "review_texts": [
+                    "優しい味のスイーツです。\n\n小豆のナチュラルパイは、他では見かけたことのない、珍しいレシピ。滋養豊かな味わいでした。\n甘夏マーマレードケーキは、スポンジのしっとりと柔らかい感じと、柑橘の甘酸っぱさが口の中で優しく調和する、マジカルな味わい…。\n（はい、ケーキ２個食べました）\nビスケットも美味しかったです。\n\n季節柄、お隣のテーブルの男性が、店主さんに花粉症の病状について相談していました。飲んでいる薬の強さや症状に合わせて、ハーブティーのブレンドを提案されている様子は、まるで漢方薬局のよう！\n\n私は、店主さんの地元・札幌の有名コーヒー店と同じ豆を使った、豆乳ラテを満喫。まいうー\n\n店主さんを慕って通われているお客さんが多い印象でした。町屋の落ち着いた雰囲気が、何とも言えない居心地の良さを生んでいます（昼寝がしたくなる）。和紙ランプが、これまた何とも言えない優しさ。作家さんの作品だとか。\n\nまた奈良に来る用事ができた時には、是非とも再来したいです。次回は、面白そうな本がところ狭しと並ぶ、本棚もじっくり眺めてみたい。",
+                    "お店にねこちゃんがいました🐈\n美味しい飲み物とクッキーやケーキをいただけます🍰たくさんの種類のクッキーがあり、数分間迷うくらいどれも魅力的でした。\n席も広い&居心地が…！良い…！✨\n落ち着いた雰囲気で、くつろぎながら過ごせました💓",
+                    "懐かしいお家に帰ったような くつろげるお店です\n\n靴を脱いで上がるので 本当にお家に帰ったみたい\n\n時々ねこちゃんも癒してくれます\n美味しい焼き菓子と、おうどんが食べられます\n\n今日は 沖縄のアオサと、とろろのおうどんでした＼(^o^)／\n写真は撮り忘れましたm(_ _)m",
+                    "不定期営業をなさっています。\n地元の方に愛されていらっしゃるお店です。ナチュラルなケーキとハーブティーなどの飲み物に癒やされます。\n物静かなご店主のお家にお邪魔して、手作りのケーキとお茶を振る舞っていただくという雰囲気。静かに空間やお菓子の味に集中したり、自然な姿で畳の上を歩く猫たちを眺めてゆっくりしたい方にはおすすめです。\nお店の雰囲気を無視して友人とペチャクチャお喋りしたり、お店の方に敬意を払えないいかにもお客様然とした振る舞いをされたい方はご遠慮なさったほうがよろしいかと。\n現金オンリーです。",
+                    "フードの種類が少なすぎかなぁ\n人が代わった直後やったみたいなんで\n今後に期待です"
+                ]
+            }
+        ],
+        "summary": "若草山の麓の自然を楽しみ、地元で人気のカフェでリフレッシュするプランです。奈良の定番とは少し違った、穏やかな東部エリアの魅力を発見できます。"
+    }
+]
