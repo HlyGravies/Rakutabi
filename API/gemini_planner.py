@@ -318,7 +318,7 @@ try:
     # load_dotenv() # <-- Đã xóa
     
     # Gán key trực tiếp (Theo yêu cầu của bạn)
-    api_key = "AIzaSyAHp23fhppO9RHgnhstQNe3V6s4P-SbePw" # <--- GIỮ NGUYÊN KEY CỦA BẠN
+    api_key = "AIzaSyCHAV26v44x6YqeuclZZ1I4RquRr9Nk6bQ" # <--- GIỮ NGUYÊN KEY CỦA BẠN
     
     if api_key: 
         genai.configure(api_key=api_key)
