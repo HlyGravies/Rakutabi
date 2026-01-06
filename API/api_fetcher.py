@@ -7,7 +7,7 @@ from multiprocessing.dummy import Pool as ThreadPool
 from functools import partial
 
 # --- CẤU HÌNH CỐ ĐỊNH ---
-API_KEY = "AIzaSyAmbdRFOMwNlwiUD-LEwTvvJ6Twb0JlpmU" # ⚠️ Hãy giữ bí mật API Key
+API_KEY = "AIzaSyDvvaIASfr2Hzi3oUx5RFi6wT0bpKsCLRU" # ⚠️ Hãy giữ bí mật API Key
 
 # 📍 Cấu hình đường dẫn lưu file:
 # Tạo một thư mục 'json_output' ngay bên cạnh file .py này

@@ -355,7 +355,7 @@
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-16">
                 <div class="flex-shrink-0 flex items-center">
-                     <h1 class="text-2xl font-bold text-orange-600">MiniTrip</h1>
+                      <h1 class="text-2xl font-bold text-orange-600">MiniTrip</h1>
                 </div>
                 
                 <div class="relative">
@@ -471,7 +471,17 @@
 
     <script>
         // ⚠️ THAY KEY CỦA BẠN VÀO ĐÂY
-        const GOOGLE_MAPS_API_KEY = "AIzaSyAmbdRFOMwNlwiUD-LEwTvvJ6Twb0JlpmU";
+        const GOOGLE_MAPS_API_KEY = "AIzaSyDvvaIASfr2Hzi3oUx5RFi6wT0bpKsCLRU";
+
+        // === 🚀 CODE MỚI: TỰ ĐỘNG TẢI SCRIPT GOOGLE MAPS VỚI KEY Ở TRÊN ===
+        function loadGoogleMapsScript() {
+            const script = document.createElement('script');
+            // Sử dụng Template Literal (dấu backtick ` `) để chèn biến ${GOOGLE_MAPS_API_KEY}
+            script.src = `https://maps.googleapis.com/maps/api/js?key=${GOOGLE_MAPS_API_KEY}&libraries=places&callback=initAutocomplete`;
+            script.async = true;
+            script.defer = true;
+            document.body.appendChild(script);
+        }
 
         // Biến toàn cục để lưu tọa độ
         let selectedLat = null;
@@ -817,6 +827,9 @@
          * 9. (MỚI) Gắn Listener khi DOM đã tải xong
          */
         document.addEventListener('DOMContentLoaded', () => {
+            // Tải Script Google Maps
+            loadGoogleMapsScript();
+
             // Render sở thích
             renderPreferences();
             
@@ -853,9 +866,5 @@
         
     </script>
     
-    <script async
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAmbdRFOMwNlwiUD-LEwTvvJ6Twb0JlpmU&libraries=places&callback=initAutocomplete">
-    </script>
-
 </body>
 </html>
