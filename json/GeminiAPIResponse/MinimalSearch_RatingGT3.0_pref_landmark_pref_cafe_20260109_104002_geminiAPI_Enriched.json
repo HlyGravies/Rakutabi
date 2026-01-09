@@ -1,0 +1,165 @@
+[
+    {
+        "plan_title": "Khám phá di sản Nara: Chùa, vườn và hươu tự do",
+        "waypoints": [
+            {
+                "place_id": "ChIJd9iCY7E7AWAR0lJud3J7a2U",
+                "order": 1,
+                "name": "Chùa Kofuku-ji",
+                "location": {
+                    "lat": 34.683925,
+                    "lng": 135.8021575
+                },
+                "info": "Bắt đầu hành trình tại Chùa Kofuku-ji, một trong những ngôi chùa Phật giáo cổ nhất và quan trọng nhất ở Nara. Chiêm ngưỡng ngôi chùa tháp năm tầng ấn tượng và khám phá các điện thờ lịch sử.",
+                "activity": "Tham quan chùa, khám phá kiến trúc, chụp ảnh.",
+                "transport_mode": "Đi bộ",
+                "photo_references": [
+                    "AZLasHqJgOKfQIE6ZKo7F2XQK_Vxu04B5pGOeFkx5M3XL7p8K0jmfier9YAsybCaCli5eagqUSrj7sLdpZV2QiQyQ-NtEb_DCJIFRcDxVbKZLwilekwEcrzMKZPXkQTObHj5Yv_I9DZgsARbXSGlOXVlrrZu1MBsqTf32sy59bBqr-Jqgc1R5fr_eXqZSYY7dUdBTcAWgRMO90LjkNezXl3CmC35Vg0xuHk8ok2f2sY14_gV0vHMJnaxMK8NdCN5UyjybqDohdRq134ocjUYYz5WzNMDpz7co_imERqUR7I-F3bk5M45x0RBGryw4pT08tObCSKJDOanRU2PHNbP5mdDUF095vkqXim6u0qHtyWtDvYiD5vJyloiXl6Lk00LeoURn5kxu4LkjAdSrCtZwvJ8uHpSk9Wz1GLZLsqmFImtR_tkVw",
+                    "AZLasHr0sd3ATV-5lcvH9SO9OazoEdMVhrMu969JfwcKXYUwu9xW6EEhQmWL47GOylfr3srx_9hp-CMno-gfUueKRCeF26R3yHoGudKQ0pcDv1KQZp3ecFPPd6XuHWedHaSiZZ6gWcq0tuMRKJqxzgoMEeyoq11oEK7MZO15sLsS2dz9OFMxS4aslcM5KJkgEQBvOfxvS5wihlfuFxRhqmEmuZ3jmO349sXxhKO7Iol4IQYJezHX5k8qbxmigtyIJhnSTDuWC22voEClBaH2HsJlRfHBm2X9tPg0xlxjWnhFKaYHrEB5GntzWjmp_iYEvoLf_xOg14sjGuaEeQCPYcIWS9c3v03Iy33saMa7lxvvzwl63mYPjkk68pDhddpKUuILrOsReLScns5WsS-2jWltBPgmizm7OBdExpC0R0in4alYUm9H",
+                    "AZLasHroUsUR38FTHevdHFRE5HqVUK0mkNBssTfEWccBlGxy5U5no1ydccjijaPp8BPu8BhHPCvHX_uO6v7ZekGb72kK4_YZbVMzgpcFY3GFjAxzXWNomtnyLBF8X6nvT-_c2saXkc79SSk3WLgUu-9bgeGMelirGzkIQJX601rAVKMfV8YnFBKuYTVoOdqah8OxjQ9V6LDpYxJ6ub8mn8IOhIRM3HjLQsmE3OlLXRTUt_hV7T03705OLWhBZdckcM9K--c-LQwuhgTSsa_CJGW5Kz74B1PmVY2854IsgW9zF1m5pb-IypY2npEMsfAQYplHqAke37fPeGHYMC4dt2YfMkTPaz94-E52BnQxnQJZ5_c_4LFqVG0zKYxqdPChuxgrJ7SPK0NiWiuHtrEZOJ2JTb8boiqmIrmufQVmZNW96c9S40Y",
+                    "AZLasHpMCSKf15AcGj5Ua-dCd7vxqDi9X58ZSOgkDPqnC7MScx981JlCvELuLmLjMQXzSGw6FnPWCCLOxdPxEvbMcPj2RSdwEw4WAjpXQ7VQ_8dowzm4g3Q7k_L70mUduG7N87nGDdheQlUCAKwR8pBOYVSiAfty7CU6PqEPGSnLYdr7MTNd5cMrZ4cY3kjxzUYC-Pd_i7CZIJhkNrlpJucOsBVtk70QA58KSu_afcoCg0lip8cyMdtO_XGyDv9E-Knfzdf_1hTbkQQ25OF7yO3l-ulaJbt0abTRKwEH6h8Ih2iAnDhuDc3bu536_40IbEivkedI4Vn0aF6Y-nZeY7howhvECR0SXOQJbq9PPKSoRfGL1NDgS6yuL1GIXTUwEm8M0HNIZ8DWsTv7KtbiVnWNiOnvdvYB9-k5-Lp7Vfc5zkAklA2xVdbnCjro5AuEXg",
+                    "AZLasHpkrMaaN_5_Fz0OLixJ-BUXHB6-0IWlxvx4nLtqRh0pTfavnMU2dleGLBNA7V2ZSsD10tgpJrYz7Dv0KFnnuAVD5-g4FjxHCnsBKGd-mzy2gIkEl5qX1obwN-7Sk49hdoszwdtPF0uPUgLeghgl9r5OmzU2heJB6_I4jDBNxZ-4ySVUEHMd1cldnkszklscZiIpt9tYr_b-ISxWz6HA320Kgd6bs82GDEXOo1RWN7RkVTnhAvscGUB7VN18Pip-aIIoFuuw_7Zsoi9y0XSP2zrKoIw_VngrByS2vkQ3K-j39hk-smKsDt0YTCaA8FI6lse9T-JCoSDCMRSw4sOgZXlD_3jG1DPnqdjFHXJNEYBoHDqszz_S0soonnM68hmRkJSnNfDLZGpjiHjfKk2FGTX8oKzg-oi9ubA_OPHwWnniIA",
+                    "AZLasHqn8gB1YqfBH27d1P_CNVQgU63fJf2n1b4zGM1tP_2W9zwhJsHYrsJxvc2t85buq8T1qyYbbIRX-UyZX063cEhuNMhGqbX3PKP-mx10Sq4epDFclNXQQkvtGEHH1nyqlss7oEaV-WEsZtXrYHwr35jmrA_kWl5ggrSqQt0v7rlLi3JJrQ41TfPGwP4ySw_xqMiYV8cTeUT9COdCeYDTt2mos4HaZV_4UerfObRPkSEZWuupgzz9_KRY-fP1kJuEThKyrGWSKo5_YRuhF5jKedEGhYdWuSm-_iDxMOZBzjZBiDENh8jQ5ZSWhL574m2QGw_zIJeAcIHzNg4ttegboGXAlkZsD1tN4WNa9ZuhOLfthtVF6a66WwpLq5wVzq7pXWjAUzWdM7XGaY-Sgc5_VP8VD6pW1Ucn16iZ5EYUpuwmvnw",
+                    "AZLasHrGjPAZTG-xgXttwVFH8U1Sk08PUiYZIU7kKJgoGSDRHreyrJeO2zPJJafT_XWT_mqM6FceF-z_73VRrLiVVd4pW57QE-l0DJXTdwzAUGQQdWa4YrFH5KMd1ViWOnYN-tqqBmHXbp0YauJ7fY3VtdjIyDb938usQ0qHvUG9fxfVZU8wWOlTZ6AZCWmNz56t0UeQdPIa4n0vvdloniAwM7UxwquJr_YcqvVsS75Ni9jjzFeRvir0CrI5keiuvM1aV-rcsQYJBOzCe38JAv95895laYYaFsvoAGiDoAoLn2ztY-MG9YLv28dGJkK7kzgeFzb12_j7S92XeG5OUgZYb6JGUY4Gona1Kjj3LreteUykJoKXucjpfnXCsX1AZeyEfquk_eSym--ByUgpL4n-rCLvqVHh7r1GzasgRXWCtzU",
+                    "AZLasHqK_NIfHI7LQRWffs9omAAARK4ncw9R_Ib17Cl7UOJ4LilBlZaId3FTDrKeUAXL7IAM1JzVvg8zYhVu-yuW8A8mYz6Q9sUCUSqTg9CcdBvLYpBjPE6cc04BX87OQDNkNWfxBBVe5vrvj4RFzkfaVXUV1uUV0UKHr8bGrTIsENqpMVOBJRAXMVKB_GBK0ofOmUZL_O3zK2K45-j9f304g63VFy1Zx0gfI0PJa00tiQCQAZm5voU5ye5ROaHs_LoFJzJ8JjyxauIbQ-pytKPyjetEUhW99vf5LEDlt_hPhBIKc5IjXw0TqgyFbmTRbfEkzapE-VOR2R3PwfqDZcPT3uqzS42CYr9AB-BhfjnPx-WesLnzx06I26Qitw8800gpknKN0_tPO0u0Hk1XrbDOOdOijGR2shA7_2UXq4Rzqms",
+                    "AZLasHoJXDzsP-K75w91H6e7MYhl17Rjp5MbCt9AYanEKhvrTH636sg-hRM9-qlV31iEeLuy3ohIQwwOIFOArzq9EdWC83pFy7EsMbKimhqQ3UDD2CtSFW4nu4ofLztN82nzPG9yHeGbOx5qD51XmyXhNU4uIbKqgJMU0MhzkuauhWsgGr_vNx3MWzuXR5CGxyXKuURByWiNIL9frTa_jobPLVOJt222X8qUyG7MHV6xzhX7wXI3Hwhz_kQkHAT3MgKTY8mM0tvRMb0USyoe5WZ5xyrS5rX9_2uK0omExR8mgEqoTx_dsKSn2q-FWZn6Tz1LBtSiIVRLRYXCOq2nx6PMJRetZ5NztphLDGPqy8q-rsgTiwmF6R66hX6E-tbbWdBTwCPPK2DQxijLWcj6kMR8d_4rQYbdEFnxC-WLuSINg-20uzu1P1jhDVJOn7cfgs96",
+                    "AZLasHqcvpbxcEUsumFmZ7Y8YbuJkWXaQANWQ3iBhmp01SlmEhqsHd5CoB0iAGw8Me-apn0xStXRLGuFECI-mzuUCFyzN0iOci7QzV8NZcnpeTHw_BfZEJ6sf-jSqy6HkaYXRphYrE1Ah6MqpqbUuDaVvcqnBarIvoiusZOYsH8fGF_Oo3DHpSqM-KtrvngWTLPQ2A0whN4DjTsj0DQxl5vs_x0m_D0cfRc6C9RovApJjzNwaY49J87MPtMwoh9dq6C8A_1vKnygRfFS1cwWofnoUsWkLJHb5ievB2VkEbqy2SC81T0RLkmwnBrG84GfP-VN6QhC-82B6uKD_IC4bdbPOw7eWIrvJtTazrtjnK9LJD06cYtGzFOQfm-X6cApp1PfxZ5BIgUUHRiJ5SejFYdPnR72XhAs4UnJmvr1e6uN3MRNbg"
+                ],
+                "review_texts": [
+                    "奈良マラソンの試走したとき、トイレ借りました。\n秋だったので、菊花展やってました。次は走らない時にゆっくり来ます。",
+                    "2025/10/26 菊花壇展が開催されており、無料であるのに貸し切り状態。\n七分咲きなので、これから見頃になります。",
+                    "2024年8月訪問\nミ・ナーラに行く途中に立ち寄っただけですが, 意外と長居してしまいました.\n\n庭園の緑と建物の赤の対比が綺麗.\n建物入口にスリッパが準備されていますが, 床面もホコリなく清潔な印象.\n全体通してずいぶんと丁寧に維持されているんだなあと思いました.\n\n説明書きの看板がずいぶん劣化していて文字が読みづらいことだけが難点でしたが, 景色だけでも十分以上楽しめました..",
+                    "結構歴史的にも、存在価値が高そうですが観光するには駐車場もないので静かでした。\nただ綺麗に整備されていて無料で庭園を楽しめるのは良いですね。\n古の時代にはない高い建物があって写真が面白いです。\n建物には珍しく上がる事が出来て池周りの庭園を楽しめます。\n現実として歴史構造物として良いですね、大人は楽しめると思います。ただ子供連れだと緑地で遊ぶくらいですかね。",
+                    "長屋王邸の向かいにある歴史的な庭園が公園になって無料で開放されています。\n閉園間近でしたが、お散歩にちょうど良いくらいの大きさで、さっと観られて良かったです。\n現在ない建物の跡にも印がついており、想像しやすいようになっています。受付の方にパンフレットもいただきました。紅葉の頃も良さそうです。\n開園時間は季節により異なりますので、ご確認のうえ、平城京跡などと一緒に是非立ち寄ってみてください。"
+                ]
+            },
+            {
+                "place_id": "ChIJFZVuxKM7AWARd4rzIg38E70",
+                "order": 2,
+                "name": "Vườn Isui-en",
+                "location": {
+                    "lat": 34.6865079,
+                    "lng": 135.7942516
+                },
+                "info": "Thư giãn tại Vườn Isui-en, một khu vườn Nhật Bản truyền thống tuyệt đẹp với hai phần riêng biệt, thể hiện nghệ thuật cảnh quan tinh tế. Tận hưởng không gian yên bình và những khung cảnh tuyệt vời.",
+                "activity": "Tản bộ, ngắm cảnh, thư giãn, chụp ảnh.",
+                "transport_mode": "Đi bộ",
+                "photo_references": [
+                    "AZLasHqubdMI45jge9EoiA1OFYtmiSVlxL79cT_YVEQhCeaG903_XpfIaQ1TfR1qMB0AcDgonJDF7rNvQtSXrA0eG6cj_WfEAQLV-ZWYZgjXy5vrm3R42HqaGg_bS_FaJpL6dWZ0PqGaP7sUytryzwMZvvBTTfsEYkgcFPKcSc1ayr83EyHtC8CrNc786wyxXY6qcPcrsUTiZAVagFQT3Ab56KAY8sJibtj4Q6mEZz0J_w1qUTN52az0AiDjriQmz46IRIeexl-7J46CtHgN_aOOCKc35sdDB8Cd35O014RNW2pIow",
+                    "AZLasHo78ZEe98gfuLQA1r8O6iAw1mWdM-9RSM7IpuFutPGTzmmiZatEWdl2-D7J-E03pTcmInS5qamQNMgSKE4gVGZGOEAGdGUWeAegaJUXjvuzwspEUsAGp86zqGWw0myfN1a2mUFO4NBnsL5ELq4L4LqLpNOXx7L7kFNjOULwyumqkOoXMa5TxsWLdpn2rOKDb8nLMdEAqbb_Lg1hVS8-lxmK_jnCkAq4ZP-Y-gZrOCud45X0Qpl7K9LOfPvV4t5VB7d96pNMJcQu_vV9C-oUo-lXy8hiWiOOlUIb4fc86LDh3l3idRfwgCwPuoSAUtPFtKNDfN7ANcC98j888J7booBA6vVEwDyHSctPCdmmdicW3OaPXcBNpc1i8den5B5IuoujlSg9lqSx377-aLHxc-H0nB0i8f-LBhzFTRZjwjHRr8oT",
+                    "AZLasHr4IYKgiP42uuL_cCb7gVnKcItAbeNGFT4lRl8QiWi5LR97gwTe59ubtSW7T2POmbHr3tlRVIEbWQqr6CJzXjb2Vm5mLV4YnA3A_HgZbNhKagzZalQKl8OF0g8osnGHlyQhKLiPy7gytn1FCRhHGJiFcVIk7VEO3HKbBkGNfhSQiyPO_Ch2vETsRJS5JFbc--ZAWvRsxXSvfwu9YHMzSecKiibPgEQIrz9CNEXJVDZZPRk7jPN9q-_q2poifE9dXrZbXVhkpSq_-tppE6fadKVbp0bLneTm4ZD-_mBD6L41irAzPY5QayRVWqnmwDXN2rcQVxyovSr0VaoVHzPWQxHGp5sJrfRBOgADOJSrQVlyrcYKgMpPEWIIPRxmgbWCyGoFDM9uJD90-aYDxWpzCeb6-wMyxcCd98i_yBsfvKgELQ",
+                    "AZLasHpXmRMV_Jm6ZgOIT5i1eyMHbq0Nr8m2nXtvPw8VPCoaz7ILZBTNL3kgxQx0j1-KEnoRgisIbt6DengizAn5BodGvdPskDA9lGHGOzGS8f5GWuJOZKIUqgIN-50vuZ4Jk-oCuzKwcemQFvasTIsyaArYfXYEeLzoacq5hJkW3v43zWPYnuFsRgVOn-yYIj-zJr-id4WAHrP4munMwCa6ndA2xVt6PU20Rjt9pYL28RZfT7bhYw63y-00YFItCqrOT67CAFj_4tU4zkvAXLGzD7FOCAtM8FbI5qAbDpGrRv528yJl26tbJGh2qJ9h-bFk51vH51YACSOEbLmulYcmcITaYPcKGhx4APcaCB8-ByvPG8PIv0u1IGud_Cx_9InCI3Bxi6C9g2mwfKr1Oit1eyFyIprSyLI9sTzo1tBICnt_a9VQ",
+                    "AZLasHqo08CoBmhLdtKSUfnrrPPoO8D2n-mbkaShw0hNo2fOwM4ZkzZ47GsEBdOwNGWBjwHMKy5zM9zGLChP3O7OJWhjBunfD7frngKwUm0nruHqsrH7mYhxk4So7F3XhsO0_-du8NNhcH-RiadysnJZ3fjkPoczFvRpQJS4iE8gAO2AiTvhYrhUeFT29zmngP3x-GZjF246kSS-l58R92TnWYWnVTdDije0SSEycHzmdtRkgXY_ahgTBvuwW16q1LONHOm_dZP_bSIxCXc-HCfnNNmxjajnItX0UHC2Iu5kB308GkD-c4bystPfjYIS81CbxcZcO95IBQYDSwFUzxr4ZO3LM7Rs8ypP430PKlQ981EIQQx30Ilv1iuWkQE6u6oEy2s9ruwIMKnu5cLFe5vCKUkU8bLvc298wkxuHdU0EFDbbQ",
+                    "AZLasHo1Kyf1Ks5OqansUu2jUnG8xQqr-I_aHx6dz78HC3ZZ69ptsJqVX_6Xw4SJrals6YwZd3wIyyNEUkRdpt19QZR7rkWYPTM1cygPmXlplAqQ65vCGoB8K9QECWblmTrLaRwfTsomsH4TpCVrih_8gRSz3ZK3ZpAuIvYgckV-DSiH7cGZ5ZHDsfuvERODOngPYVMzjtrlANm5vFwpiZtYahHlNdzsoD63A4tvG9T6m5rF4toATdey30_2T5FB2v8Yi3I39GBYQcwiZ0jogHlgxtOeldX4JJKoNeHQjLBv3ZqQYuVE_hUVbcISHqkCU95GJsoFPcHrh3mvgDbiopKrxMw2FCr6FEm3cDG2XWffDB6Ni8rc_Hoqon9PzhyrL9wZX4WUMln9PzHT16yhRW2PwSb_0Dt5TkUIrWr-mTG61dbC5UG6",
+                    "AZLasHp2ueX0r8b12p-28-ID0MH9XFhJ2VZAalrBHQVxGI3cKxcgfaWkIXyMXbhIDDChVmBbJIrWXamp_TuaV-vQ2-6V1b9EVjXaWtaxLlr9pLSQLCn8iUB6gC2DHlx0vuO4q_qxFRpi17sZj6Xc5PG6iR3pfMgEM0o-jSMrvywnxKydU-ziNKkRydhisFJK3sIV-OCi5bw2HW8Ndb-IhlYpxesKTm0yG9HKcjDml796FYaffojDeD8vHLRQir5-9aUTAKQt-gHuK3037HkE4DT00__wXDl2noiuPwc_roCyjRAeWzVC19yauPCjKBpx9OTFYS_HONG3X35OjQE2gXWDsEAs0h3KLVjy5owcTYapbVQYhA69kxBtYWYVvggc4jDFLzVaBwHgpwzqRhbDjC4A0DJnSmANATL8DyEHPD5KtK2VCb0q",
+                    "AZLasHpYuNtvienhpOS_wAI4bzgu2AFobuI7I9zLgiNDkkJeDY6JZLlh1pmQTQjvmAvUTq4vRfq7zyLFZF-wRtj6shBvpQjDAvM3Chh0dtAq0W12ahmlr9n-ItahudrQ1oqggVMIt9KyGCi50oHHq3bXKhBoufmYW_29OzoLQPH0BLT5TEvLsJAi2QiR5Gk8kTwo4edRNPwhfS22Ujh0xbElhGCmgCSWmZKCYJBSAjtP4proWpMNeZ5uXVHrhn5lJv7VJ5mxNXeH7Vb9MknIsfScwQIrckJ4hlefC4ZqcXIk7x0jC-HB2DiOROE3KNxtFWcwYQy4pUrwUjw2e4MAbUTCH3x32zLa1lNcp3CPSkH4ezL6XI5vxk9y2CoNlOabOkxkLd4LwO8Qlm3XK0eZuMQbDpVTKKXMFZLdhZHiGW1sLiQ",
+                    "AZLasHpxtZXYVpoMelpyLm3A8yigw43jdil8Sqbo7ufSOwp3Ew5j8Yv-uxNTah97D0bZd-ZN4TDZ2cypw4xSVMfU0nU3l_wfDoi_m3x9DB_nYdm-59oGrKM4dmF0mGWY-oAzrns8yqwkAQXV_rPHB2f7yCmfaAprIomNJQLRVuO1wwZ5ald4glAUhPwJo-0tGCkJ4r8Az4S-COZIpHQhTOW5CNKCszdgseI3JLOvYn_4UI7Ia7aT12Jb99AxXyVQityGygbFzFZqm0-Ff7vKZ63YNWpSBgYyjopCztEoQq6DfsQAbZCv2l0TUy0gs0f0HjOxzajQY0Fj-2YDkNqkKe-aiJ7xo2VGWv1Wdd5uxqja4MHp7AxuCGzhI90w7JBPLrbhtWGZQferIyvnCfvX0e98kGM84tFEz8O_Yi988LrkjK32mLU",
+                    "AZLasHpzyB7HvmtWBPsNpPInJy1SynzMLQ1dFbiDQzUWxB8sFTjt0urE6XcSatqqk-caURNCUDwnIOqu-S0U3eMPZEr2YFhZ5ZR9uaX5okoZZLp2N8Ny0Brj_WppzNT117NvKaMEKrlLsOzUc5Zx50R4-T6FNUaRtSvCbpds4dmkB1tTbU4Y333SzFqCRZZe_xvOsDf1gvQCzx7GpMIH9Jf5rLx4_FmdImLPwwAiCUUKibj1APMrIiAdXTbsGSoIkKwFTQ5YHhEfI7QaSTng38mg81RI9BmlVrGZ81AcLhG8FZ9TYUWrAesapYlnJ2_18mdetFflNe5GNophPMLVSmt-Nzf27-H6oH-FhrioSDPos7dgUIxdK5PL9Up9aeMNc1P3KgofmjfS0HgFon9rLBpZ89Nu6R5iHGRLW6TMlyJJ-IGjjg"
+                ],
+                "review_texts": [
+                    "奈良の平城宮跡歴史公園を訪れて、まず圧倒されたのはそのスケールの大きさ！だだっ広い草原の中に、朱雀門や大極殿が堂々と建っている様子は、まるで1300年前の都にタイムスリップしたかのような感覚でした。\n\n​特に朱雀門の雄大さには感動。門をくぐると、まっすぐに伸びるかつてのメインストリートの跡が見えて、この場所が日本の政治・文化の中心地だったんだという歴史の重みがひしひしと伝わってきます。青空の下、風に吹かれながらこの広大な敷地を歩いていると、何だかとても心が洗われるようでした。\n\n​再建された第一次大極殿は、内部の豪華な装飾や玉座の再現に目を見張ります。当時の権威と技術の粋を感じられる、まさに圧巻の見どころ！資料館や復元された庭園も充実していて、ただ散策するだけでなく、当時の生活や文化を深く知ることができます。\n\n​ここは、歴史好きはもちろん、開放的な空間でリフレッシュしたい人にも最高の場所。悠久の時を感じるロマンに満ちた一日を過ごせました。",
+                    "奈良市にある「平城宮跡歴史公園」は、かつての都・平城京の中心だった場所です。広大な敷地には朱雀門や大極殿などが再現されていて、古代の都のスケールを体感できます。\n公園内は芝生が広がり、ピクニックや散歩にもぴったりです。近くには「平城宮いざない館」もあり、当時の暮らしや文化を分かりやすく紹介しています。歴史の重みを感じながらものんびりと過ごせるというのもいいですね。\n朱雀門前を走る近鉄電車とのコントラストも、ちょっとしたフォトスポットになっています。",
+                    "広大な公園なのでレンタサイクルが便利です。近くの唐招提寺、薬師寺に行くにも使えます。東大寺まで行きましたが、道が危ないので東は遺構博物館、平城天皇陵くらいまでが良いと思いました。\nレンタサイクルは電車なら西大寺駅、車なら平城宮南の歴史公園で借りるのがベスト。\n平城宮いざない館で、発掘で分かった歴史と発掘品を楽しみます。ボランティアに声をかけると発掘した方からリアルな話が聞けました。\n平城宮は放棄された後、開発されずに農村に戻ったため、掘ればいきなり平城宮に戻り、膨大な遺物を発見し続けています。広大な土地を確保して調査と復元が続いているのは奇跡と言えます。\n朱雀門、大極殿、大極門、東院庭園などが復元され、時代の装飾を満喫できます。大極殿は2回つくられ、最初のものが復元されました。\n朱雀門を越えると荻原が復元されています。この時代の風景を感じますね。",
+                    "広い公園の向こうに門がある。\n門をくぐると線路が横切ってて頻繁に電車が走ってる。\n踏切を越えると、何もないすごーく広い公園がある。突き当たりに門があり只今大極殿を建設中(2025年12月)\n今は特に見るものは無さそう。\n\n電車を見るのが一番楽しかった！\n公園の敷地内に線路があるのは珍しいと思う。",
+                    "愛犬〇〇ちゃん、平泉に続いて2つ目の世界遺産をお散歩🤗。\n広い広い😆。新幹線、西大寺と狭いキャリーバッグから解放されてご機嫌の愛犬〇〇ちゃん。普段のお散歩よりグイグイ引っ張ります。\n人より鉄分の多い私も世界遺産を走る「近鉄特急」が見れて大満足😁。連写の画像が大量に残りました。\n極めつけは遣唐使船の実物大の再現模型。愛犬〇〇ちゃんも遣唐使気分を楽しみました!?（飼い主の自己満足？）\nせんとくんともお散歩できて良い思い出が出来ました🤗"
+                ]
+            },
+            {
+                "place_id": "ChIJYWCMvZY5AWARVnREV_OsbPk",
+                "order": 3,
+                "name": "Công viên Nara (Tương tác với hươu)",
+                "location": {
+                    "lat": 34.685047,
+                    "lng": 135.843012
+                },
+                "info": "Đi bộ qua Công viên Nara nổi tiếng, nơi bạn có thể gặp gỡ và cho những chú hươu sika hoang dã thân thiện ăn. Đây là một trải nghiệm độc đáo và thú vị tại Nara.",
+                "activity": "Cho hươu ăn, tản bộ trong công viên, ngắm cảnh thiên nhiên.",
+                "transport_mode": "Đi bộ",
+                "photo_references": [
+                    "AZLasHqMRkYJ95tOzXuwEcXJHFV8jXdjHDAsWusTb-wJHXOvkLB98Gg7Uq905xe-BfHjpf2GRY87bkKl7uTx-plHB8OBcVRXeVm0sMMhnLDrKBUUMTqxSBPwq8W1PupLDN-hziuMcx0kXx8tbxZquHZcHMLgNc8-3wAWMp2C3e1qSsigKwGUL4DfoBCZ3SF_iwwVg_qWrSqFSUIINys86RI-WHFX6VEyaYcAeXSHheIeGZncfmNrPu5iLkxoQ8-mCV1vX9KYDUB6pnWwExQhp5KlmxoOrXp9aXBmKhyuX4qrxnQS-bQ9g3-q-w1E-nJed3Q8s8PvWNgHrMvZjIaYcIA7WXhMjwV9AY-wGAkwBhlndS8SZqVt42l4lft7p2MvlD6_4rR5dzXT17L6ICbt1_d-uDmxGO2Ene8FgAsDOgze3ZeiL4RPvtkXnL7Ozs4BOCKv",
+                    "AZLasHpU-EAzBf9TNz8Ef3KXCjdW0ROowdCSJKYDlcw6HlZv4lM-Psz10K3d0BMB-67iGab-6ksQ_dAMsS8wndtsP-lZ0qY_hVk8YtzzjNWGJTrHwRnWSBVYxSQ5ixLkX1is01CWU6OCi_u9XeoDNYESQj2OaR5mNX8j_9XezHP19ZiQQoWeysYTj_Hvx9PIX_IjoNraX7jp8KBgTBXu5eKeuID6cs7rV2Ib_SgN4tDWaHgxqx8BdtcBTH_91VvDjWARGRUiU0Zi_jZCwzHlmg0WgeRrEZsR13J3nkGBmmbjM8mg1XYSB8X9t-15nvEdMSXQbgraB8SNLy_t58SZBjm5tR_ZbhSSfLLaxe9Tz9_VGb_6xtVjabgkzNgqIUgMdJ8LNtn8YJO5eVH3kTyYr2ZkaM0gXJShli_9EKKHVNoaxXKSVQ",
+                    "AZLasHpik_ZtPbrUeCk2yCGwRGXyslb7NpNxee0cefC0LlwhAQmuMyrZMp3ItyKG5ClDI08dAQ2U99lUJI8YKgxF3F_qCd5O25g49iw-hDqlNXPQQZtBsP7EkjYQNTZJsBxTRupGuO5KdwyeVu3yUBhcoqPZEDGvrZaaUopKAu2haJKyC39KK5YE98oSG620c94bLIXxwKKW-cLZtXs9jplzGXMhJJfzvxP9IpPpKMbWv-ppp0pOGVaXl0yAPc-DVlgXx_U_KQfhBcpSHrzkZ3YkVTOdpZsYSq5RvrJhlKdq2afg1At9Nmf71p8paYoIW5hd1xeKvNJOolaZKu6CQ-tJFywycN7S0DP7aInz7xyg4Sew8OrIPmASENb3O84_SB_54g345yXuJ_v8OYKZMvc8Lh0aOiy90OOvA7i4MDmTMauy68Dr",
+                    "AZLasHoFrCF9DphRB91kSbmK0oooaTf1tlZVB9dmIkBWms5Jh1lKilgr_r1ksDZIIuVvSvFQ20v0qNYIy09QcXgTbdvVBvbsfmKAEaywsLNzpBLymD8eyI-ya292rkiXMqD0Jj27fo5i28lFjTHhrRZtVbQKyigVx05ovA1mS7Ky0LSU6XaTXqQun4rRDp7WGw4pZh8mknPcIKOIKZrZElCJal1tlxeVL6ICwZqlYLndCEdaiZGF_KXlrdPy7_pQCZ9C0llju38xx1WMfdAF6B3GTcMtB66WEB61tfMIqwaoke87X7Lmhz-w3LmJMMnhDdNb8l5rCH7z0O3SC7oTLPHnEUnxSExanOcdhCeu8EQ-WT5TYxPymLLuF3aUtBgNs-ev-b4FSWzlg6bJ3tGxXxgPEWzyZPNORC3FtN3EDEKRocc",
+                    "AZLasHq8Uo34hjGX8J4FzfnGrOIxvhHKgaVMGiAWOOinhPPvjMGFB-KmsBlW8U49lpzdQpR-y4f61TYZcMvYWsWI0J4zQhxs5DrkDv_PgJ83KEU7tbgCphAAFO_IgaT9EnGWRHTNtzjE7G9R_pX-oAoE9xw91nMCTFmhyXyRD0-GSEohrGuvx6zmWxAUdt1bfFvujaMTzay_Mw877h92LOKmfQ8nhuUcX5HE8NY3trOpeW3sm0M4kxRymwWv2EIzGKUoemIzZbPQHPOgLYbFP9QQOBbmk4x-37rtYQRSOY7V__3h7DtpwHEXIaw0fGzJitUvst5CRrOxTOAWLYyuvfjSZu9O0kL6JDbi3oGp6mXn7laGfZwcVTLdKsbvswKzJ_H3Clcfuy21Xu2uY_6OivFMvPK1sxtzZfMw_Amq-vwqiH4FNA",
+                    "AZLasHrpx2FGjXIt81rkbMgnRC2w2L-pOikZ4lfu6SdAsGho2It-hRn1OmOcUkFCuZlsos6ElyfWtH8aBx0zNRvGzLiwwKIAmIEDxNOrBEQSoHGG2PmkA_NHBiJsxmURSxsWj_uaXRBFjHZM9g11sQMYqkRrVpmhgZ6m-Lk5JGwI5cjiBpCSmCIUKG3yNpWWS3Aq74bPEZlUTxWFl-JdSUZgt-91RDdEOB4zTIcHpX2qTDG_5VtVXr0sEW0LGt_sW2PwIxP6b8KX_dQ2fNCKzErukfCws3jR84vBGgFZ8PP-u0cIVFvX_2GB0rbA1lpF8CUiOYBvx5tg4TGij5IHlknN6cfpUVeXN0SN6RDyKJTcobETDTg2RVJUXPmEamR25qTV5Ur0MvqRpsXbLeKE1r7L8g-ctaY5nS5mNKOnnjh97Cnu5A",
+                    "AZLasHqCzU7RRsn4WTVRl1wxc0bLFS38IEf6u88TVjxcuM2VYWTW4nIE85xaUI9xpwxTs1wokD1R3wYnkSPZ-rRlJosfshVU0SOMLVJufAgTy2KJTx6waWRkrqkKLzyDb3owWo_81M0SAyzYKdXKROO_U74Dy3oS4qG7i61fkGe9nS2P2hYgaQdgh_2pzCrPIu_Gz9RiLSydBPXPRQ6BGlFc0gOOCD0oxdou_Wr5rP8tCHIdwRj_SaxXNdOcaZdqiCfMVFYiNvQcO-MGMqar4xaFcmxPdgpher1-2go2B_wnOhGvnwmBhTk89NggR52wksO_FwvYFN2QsoQoV602VO7Z-tP98h-8LuPhYHgNz_bzTibX5wWFcgVjlCnv80bHCwaBnl50H6uyjS6eXFCLgJsbuAoxqeNOOOmMMipwXBSEc-2xO0xQ",
+                    "AZLasHpWGaTvVlFaFwYRTLMWmijrNX9G1T21UrKO93hWErSvCWyNYg9KT0-IJU-CgG7k7uCR2bROv6i-gKDV8r2_ppy9PCQ4tfKbi2QXQPj2GtZ6jqH8X1cQUG5ai-lfh5v4MzdDDbmGhKA-KN-MbU-CgRGbz5-EEumvo2ELQgjf0r4z1CYXdpysySCEjfxA8DRUlkmZCVB-kqDpYIggztww95nJ4tGxCpVdP8NiKO-SluEaeBH92jH9_1ipavAcZvodikKFV3TuLcQQG4WixNplArYV6JYsL7StgXZ9a9Y7yvhpDD7XJ7G30wKmlpPb32IKRXl_GwjmqTtpYI6n1NILoSNmUtp6-NsKzIv6B59ikiMv3IfFKLqq1JWb-coc9xpW34DLVHM6ZSZuhRyjyq3QzoxqVoHmYJVkcFBniNIeEcevzrOG",
+                    "AZLasHqA0GY4SLTTqhpP7wUP-M2kkNE9oA9zc-3J3MJM3j2wyXEHQVvLRm_y-C8CRl_rNVGJHNFUOezMkUXrKSUzhLeyWWNrmmY0NT0nyGGyIopv0cI63wGAylPVpDCAWiMXijsYgKLONbxqfIw21iHxnmWQXSimmWwhsFIUSPWW5yteqgreeZuhHqCazW9W4qj2ih-F-zvjWTBx0-GsxCJRYxy0AYOI9RqBo4WTI3cHezeyndwQVh_Wh65jdQLyVVOS6E9LeMgzwb4bpWVDetiWR42GIPduVyBjrE7elFomqUgQxm90sP3yJzFbPi7rC-86Le78V9-jYkwb9MTwT5uWpptW2rTklRbOe2b92ABweLtkyTKxPEexLTyvyiPwqo-ClU26zanvS50xir4rW4iwre5Uq63MMuwmO1svlYqO5fNPUA-b",
+                    "AZLasHqDqTUCp-hhPLa9aZg3dHJoqgeRvRm2tDrhGAFpAPqXn5fMwwGk1iyWoheBPAWsEIskga9WKDkdbWoom8SDW1KP9xiFC2INzMq3gsOp6ZNL1LSwV6aHaTX0zkK5eb3340xJk7Lo919O_HR2ls-WS3FvoHYPxmQD3U3n5X10zgznH7luxlu-bXoD1nAUuqbFUKyyMKt-4HwN7_2dXicidt5v6niCLSEdGlzASmT_O43mu5-8ZVj_pu5nLwC1oWzrIAmNbK0zR-47wc0hsAL4U1NFjwaSgOddHay_7OFT9GAojflV7Cj5GRyJuOXB0Sl0rWzc9wuHGftjOhevUb-09OKvb8SHsEc5uVNsRuqnjYHcMJIzmMN4g2Vyjw_DnYc1EEGP6_sl0l0eGuhe0NOyzYiAKmVSOq_onEl60V_thMfTUA"
+                ],
+                "review_texts": [
+                    "休日に家族で奈良公園を訪れました。\n\n公園内は想像以上に鹿が多く、しかせんべいをあげる体験は子どもにとってかなり印象に残ったようです。せんべいを持っていると一気に鹿が寄ってくるので、少し驚きますが（笑）、それも含めて奈良らしい体験だと思います。\n\n最近は観光客がやや落ち着いているのか、以前より混雑は少なく、家族でもゆっくり散歩しながら観光できました。園内のお寺もどこも荘厳で、美しく、落ち着いた雰囲気の中で見て回ることができます。\n周辺の商店街も人が多すぎず、食べ歩きや休憩もしやすかったです。\n\n一方で注意点もあります。五重の塔は令和の保全工事のため、2034年まで見ることができません。目当てにしている方は事前に把握しておいた方がよいです。\nまた、東大寺の拝観料が資料館込みで1,800円に値上がりしており、少し高く感じました。\nしかせんべいは15時頃になるとほとんど売り切れていたため、鹿と触れ合うのが目的の方は早めの時間帯がおすすめです。\n\n小さなお子さん連れでも楽しめる一方、歩く距離が長いので、時間と体力に余裕をもって訪れると、より快適に過ごせると思います。",
+                    "人なっこい鹿が多くいます。餌をねだるしぐさも可愛いでした。たまに餌の取り合いで、鹿同士の喧嘩も見かけます。公園内を散策する時は、鹿の糞に注意も必要です。餌をねだるのを動画に撮りました。",
+                    "無料で鹿と触れ合える貴重な公園です。\n土曜の15時頃に訪れたら鹿せんべい売り切れでした。\nせんべいを持ってないと分かった瞬間、鹿は塩対応になります。\n\n鹿は赤信号でも構わず渡ろうとするので、横断をサポートしてあげたほうがいいかもしれません。",
+                    "平日の午前中でもやや混雑\n晴天にも恵まれ絶好の癒しスポット\nシカさん達はお辞儀が得意でこちらの頬が緩みっぱなし\n時間が許すならずっと居たいくらい\n\nシカさんは春日大社にもいて、大社の方が落ち着いてゴハンをあげられます\n鹿せんべいおいシカったかな\nこちらは楽シカったっていうよりも和んで癒やされました\n\nシカさん同士でおケツを嗅ぎ合ったり\n当然ながらウンチもオシッコもしますし\n濡れた鼻で強めにツンツンされますが\nその辺はシカたないって感じで\n\n夜間や悪天候の時はどう過ごしているのだろうと余計な心配をしたり\n体中にせんべいを貼り付けたらどうなっちゃうんだろうと変な想像をしたり\n\n再訪確実☆5でございます",
+                    "奈良市中心部に広がる、歴史と自然が一体となった日本を代表する公園。東大寺・春日大社・興福寺といった世界遺産級の社寺に囲まれ、広大な敷地の中を約1,000頭以上の鹿が自由に歩き回る、奈良ならではの景観が広がります。\n\n■ 歴史・背景\n奈良公園の起源は明治時代初期（1880年・明治13年）。\nもともとこの一帯は、春日大社の神使（しんし）とされる鹿が古くから保護されてきた聖域で、奈良の都（平城京）成立以前から、人と鹿が共存してきた歴史を持ちます。\n鹿は「神の使い」として扱われ、長らく厳重に保護されてきました。現在では国の天然記念物にも指定されています。\n\n■ 現地の雰囲気\n園内は非常に開放感があり、晴れた日には青空と松林、そして鹿の姿が重なり、穏やかでどこか神聖な空気を感じます。\n鹿せんべいを持つとすぐに近寄ってくる一方で、観光客に慣れており距離感は独特。人懐っこさと野生らしさが共存している点が印象的です。\n\n■ 見どころ\n・鹿と間近で触れ合える唯一無二の体験\n・東大寺大仏殿、興福寺五重塔などへのアクセス拠点\n・四季折々で表情が変わる自然景観（特に新緑と紅葉が美しい）\n\n■ 注意点\n鹿は野生動物のため、突然噛んだり服を引っ張ることもあります。\n鹿せんべいの扱いには注意が必要で、子ども連れの場合は特に配慮した方が安心です。\n\n⭐️ 総評\n単なる観光公園ではなく、千年以上続く信仰・自然・都市が融合した空間。\n奈良を訪れるなら必ず歩いて体感すべき場所で、日本文化の原点を感じられる貴重なエリアです。\n\n#奈良公園 #奈良観光 #鹿 #日本の歴史 #世界遺産周辺 #散策スポット"
+                ]
+            },
+            {
+                "place_id": "ChIJ6XAV-ZA5AWAREBHjJdslKoA",
+                "order": 4,
+                "name": "Chùa Todai-ji",
+                "location": {
+                    "lat": 34.6858076,
+                    "lng": 135.8398768
+                },
+                "info": "Tham quan Chùa Todai-ji, một trong những ngôi chùa bằng gỗ lớn nhất thế giới, nơi có bức tượng Đại Phật (Daibutsu) khổng lồ. Đây là một điểm đến không thể bỏ qua để chiêm ngưỡng kiến trúc và nghệ thuật Phật giáo.",
+                "activity": "Tham quan chùa, chiêm ngưỡng Đại Phật, khám phá văn hóa.",
+                "transport_mode": "Đi bộ",
+                "photo_references": [
+                    "AZLasHqgzxwX0XocbJdOFXC-aZlsNJ0ObpN4bbrgURMgq7cjw6Hekj4ta_kl_UHDRpgybVbLNRwIqU8dgrzq6-UrpjTwFDZIaaLDnUB2WNnZ9i7FjyN_3xyEA9IOmSM9lSN1WRb_1meAhTuA5BhhBVRQI-wQqSTu8Bx9G5kEWWEJBK9N8EaL5DhVUvFmVuLNf2Xojt-qedJ1bC-SBdbf8qRXYT_7wn05MUWjSPygljbBqpySnhy-TORMBRnCGdvVKh3vLUea_Z8jYfajANoNK6YAcYqBpEjJd5bDeSkzmY5gDXB15kYmOlqUHnlTooe8a15mZxJXs0tvwYRGA6LL323jb4HiHdfkiH67k3-W6LbfYFKqJVqSOVoLD9k6zJXeRQH8VV3ISgOA5aeEpS3hNnDt0lIpad9PHBL1dniXZYZnNLUnnQ",
+                    "AZLasHoC7c-ZaUx0Sd3F_KNxZfNt9HoTIbTj4V5WyumyWeHZ1u0J1-FbF3Z-ecdfS_JNTWpwEYiC0rCjtoQkcZYXWnRksrhY-1StmGeyLp8fmiHLYbGbnjTGyCp-pmKLpZcTY2xTEyAn6C0JChEsfHFEj2YSqIZmD5PthGTAsmnIHa7EFKU0ltnTvwXGTRbOtXS_F5eI_b8D6jL5XaxWZACWlpATfZ7iCDvswpep_b6rKbX4v_9o0RnYbF-t2TFBC-6sV8BrLjiodc-Hhy2guXeCrP-vEXhLmHk0sq1aHbNyd-3G0T5QEyLpFXzCck9aMXbI9fNXuz_fyuojNDXyBEiqMqMLJ0xZ8GTqi4agd6RH0CQiGtIFv1hl8PwlrnLFIwWKpkKJj96Kx1lystGyYELNph3l-3QFvM8_pM3H351rIoG_Ew",
+                    "AZLasHpJz_mXgRYSX81aFuFi9F756QyJjLcrqIvK_BAWP47GZkF1l92_CANuk9gau-ZOTRGM8PdteztWqLs58X-r7dMXtxIfCBJZTjaUe8Vu4rvwqJaao4bcdFWD6T8Dxr2jXesXLke10afH-s8gYGXCQBUDtZ2T04ty8bDkk0L2YtMgsmGQAivXn9s_jNOIjUwRCWjP8azk21LhRdB4gwfzHVwpiVeIvcg8tggkESMLdTkCwqolE2Oyf_JTL-_MryjF8NmOcrfuieWWMjZOsLLeCYyn8X07OtaElurf5J-YTxpp00lFh2R1pPHF2D8Urnvpev0De2w4-eN9ENg6lVvULnkH4cEwony1xzcsP9_0xZom-Hp_PZ437ydylxCtIbc6R79xKxWtMIk_2ZZvux-gAto0K6pBrJFzfN6oQRMlsK9BmkYo",
+                    "AZLasHoNneJy8odDdkGz_FcHQfMCOBgEdftdS1Mjl0_mY2Eog-6aaq3wlKesiIZna7ndwMDPAUcqJeL4bsbNmvwXqIWZj1s7S6MWtO90uM5jzed_gTd4xNHoPlYDWahjwPrG8GTx-A6I7ZwgmcQVx4Jdo7CtG-uVL9fEhkGESu_0N6s9WYlhXmONdJVOUoYcdh2vMoT4tnHJHVl0XJ-MQquUeTG6fbd3wUR9QkQ9JsI63IE8JZWrVrkWEP9DZAEiToGN0bQLuoVn4Ze2jVxTGS7wWy1P8hhtpwG-zkrkLqnyTuB3GZvyoQA6voZ6FfKhTyfuC2BG6P6ZKLBYE7kQ32EtINMI5Y1UZiNjANW_kJpDjxrFndMuU4tRYWjjSK8v50dBzUI0TCXSzciiHOYYvVk_uQyEZDvv7xv9mKojTgYV6JLAJQ",
+                    "AZLasHoKoQIR2D_H8A4So8NaZDJXK_aipU6v1C-XZ_2bF4Wxt9zAfY5SSVobFzFP2spRqmkseuunKdrLvggM5tPFlFYlwjYZLSwxWGXN5kt1bru-EPsD33mo9fyL8eXneEXG7UuWj-IXuVX3cUgxFBeGyMmtvGuWtq1x8gx5zJ1YmLJAWwpPk8Mlx8GMH7OAZnZTzgDl0Tx6LZmy1b6b5gpRUykYYkevg9ZMpjRkgarpwmseatYzoo4gZ7yAvlXNXuWkdggrVQWr4eEX_vWFMetS4iEql_5c20y0TfVpmbuFYgbsDR_i3dCfbmTi9ke1s0z0pxuTZeP1dPfeNeUY1sq_m2b66wW74buwonNx9CWGppqhmpUWULhjw75ww-NiH5vzWAAH0nG1pxPKYVR7GiyXQEAgAjI78TOC10Rqy72I5hPC_g",
+                    "AZLasHrEPDHpJVMpsDMJyn6GKkGhDuOBu5XZEhANnAXKOZZ0hRLvS4saj4OmACihSiW6J4Hfuml41gZJYk-bCdhZ8MMFIpvIo5oqooH6DzgMD93VDAxmR-rHtgBdQWBSWLQ99btOcvNrxjmzTfFVl2180NTPrn3RhZkQUhOSFJRw5oc-SrCxRqcNVhih24vR91iUmAIMxntZL-LX1jEKpzkZCfICRK55dqS8zvGSdnoG2aHRCHp3u9zGoDuvddWMh-b-0JGqm2liOyfj95HtmCdsbmLZyV_Mcy4Qh25ouQCEyBM80sL_HQ_wlzrwq5vZVH38H9iTkZRuSta_-ZY7OP4SR6aLOS9Jcelr8hw89euRsQyg8-u19UAM3f8BH_Lgem3afqEDkrvYr-CkvLn7I_NbjCXrCZg4O5kvp0eXAr96F0pOwQFUae0eMBfU0Btz9Q",
+                    "AZLasHqPuQzbnhdRyTH9QGZ3LMX2zukcxunqHfG5S_XmmnoabcWXKQDxGeC1uMe6GZyuhX56O5uidoL1vNQDBkEQTnJMTRK5DZ4cPNkJsvUFX-v-ytg6orY0ndXd0HVddFU3okqQ4pliallCRma79JkUremnhDlUgn4XnK-vaIfKk2zjTsVjo7x0wQl-LvHiNO2rH2qtxPXVLwcMIQ1G3hygC6YtL1vRyL7wCXTkCMTv1baE-SoZi2thMq-2rabjpO8bSL1fMuJ-q_Af3UduV0iff19N_jqMR2L41MwL2G5lbBkN7LrJFJN1aCj6GI95qnB8P_Bo-IYRcDyi2bNc5tdGfim7OOh-46eL1YE7Y4f8gz4sXdgYrZnTdCNPYuuPGjev-W7866PqGPo7tiFELzvnvDdzWqHgc2ccA1lF33UqyizQIA",
+                    "AZLasHrEBgBaU-gayXFTzCg7lfjQhrf2L5gvgqc8VPwjArf63_11Y5WI1thAX2tHRipNGmvOOWkm4Hq7hEUXYdmcqYecGzc5F_LzdWy3JUhEq3E9UUI6nw0K_r09sqpRBcjBmoQeBKuCwBB6PSPXTASEswqWNucxph7Cj0-xhDF3DYBQhgqWqDkCCLEI5GX3GOmYfP1_g8fkyZIB4nJlnHEmZOMq6-Gxd1-137AlJK2i6f7wJOyBLRcfJNvaFO52e4ihlaDUK93wCCTnhjzhpwB-Udd7VT0eIKobK3uJK7o7vp1aeoEjyyMui8-kVqvO6g0ovrwzvseLlnca2V0VTSjFCMxV9Pr1X1RA1hg72_cHZVOqsZpGPr0DPVxkUlRzrw8fnCphWxLdpuA_4b1I2N-kaKnhWl47N0Llr652103ZFZKsP8Qr",
+                    "AZLasHpYY43X6VGq8SjSDgCVWaJEg1D_fLvnXiQL8iFAXdMLPmItyFCzpQn7Hnshy4Z628D2PWCTxihYyd9geQcTrOdcpelRnTBXMihMOjloq_7hBF2pOIBUCpXNCvr9byYdvEoxVKVVjNwTYAFXMHpqW99OcBtQGFz9lRCWDTzL-zrgBPfAo6oXoJ_7-LlqqLUGJBELSP07ay8-GlFs3vIrwovksHd7pY2ZEZydnRuGppn15nY85iqNaYgnE2rymAQ0y9EIE-BQeAQQa0ONl7J0hOSdtrZuL5UWLs7o000LzrbJZF37jJJHEUcq4dIR8EOkNKaElFzy44RiOmfzpS74Jlzxj_yUre5GRU4zUWXG1JOm_6h5zfDeNta1YuJ3532aU40kE7efUHa7Wq7DhBDh0mhzSdJAJGQvNBtqtbzMQ3FXHg",
+                    "AZLasHoVrQg7XvNoFDQEhpiQUSsch9CmJ-eho6CvdmiP5WaAXFUhbHw3w0OpdW2OwcwgBMFxgK1GUH0vVbSvfcOYBLFgWbqGIYBVmHrYxYSWNQAbLh4277woZ-08-n_X7zsfxCVk1oeVknwIHhIvFFsxCnUqbKVhd-b-XTc3iH-w6SGx56uC28gOdBGBbuy0GULHyhOEk6ojIl5aS3-3XmVkgbUA9Wa51zdi8r1CrRk-IjZ39bVLFlU7_VtXN2oWM3eO5TKh6RESvMrE8jXZzdHTKPWEOmuG12L30XwRDMQnDCQP5slKphUVBZrARlYnj6B4YlHyRcQCVsM5mUwYYheLYrYOCM0KW7U-FfzcDtBmhUI4Yw3_CTr2sU8ECJURur2ztDgIVQMUJ_oMQJRL8LPlNScc3KkZYuq_WJPU7rzpwDY"
+                ],
+                "review_texts": [
+                    "日本を代表する仏師の運慶・快慶による金剛力士像は見る者を圧倒する迫力ある素晴らしい仏像です。\n近年は外国人観光客も増え秋の時期などは修学旅行の子どもたちも来て大変混雑する場所ですが参道は広いのでそれほどストレスを感じることなく素晴らしい金剛力士像を見ることが出来ると思います。",
+                    "東大寺南大門（とうだいじなんだいもん）は、奈良の東大寺の正面に立つ日本最大級の山門で、国宝に指定されています。平安時代の台風で倒壊後、鎌倉時代に再建され、東大寺再興の中心人物・重源上人の指導のもと宋の建築様式を取り入れた「大仏様（だいぶつよう）」で造られました。高さ約25メートルの壮大な門には、運慶・快慶らによる金剛力士像（仁王像）が左右に安置され、迫力ある姿で参拝者を迎えます。その精緻な彫刻と力強い造形は、日本仏教彫刻の傑作とされています。南大門は東大寺の玄関口として、古都奈良の歴史と信仰の重みを今に伝えています。",
+                    "圧巻の金剛力士像と大きな門。この重要な門を通過することで、大仏への参拝がやっと許されるような感覚。触りたくなる気持ちは分かりますが、貴重な文化財なので触らないでくださいね。\nマナーが悪い方がいたら、お互い注意しましょう。",
+                    "東大寺南大門を目の前にした時、その大きさに思わず息をのみました。門を支える柱は一本一本が太く、まるで大木がそのまま立っているようで、圧倒的な存在感があります。左右に鎮座する金剛力士像も迫力満点で、こちらを睨むような視線に自然と背筋が伸びました。素人目にも「ここをくぐることが東大寺の始まりなんだ」と実感でき、古都奈良の歴史に迎え入れられるような、不思議な高揚感を覚えました。",
+                    "南大門と書いて、ナンデムン、と読むのは韓国か。形や呼び名からして、韓国から伝わったのであろう。とても壮大。朝5時台の早朝に行けば人が誰もいません。鹿ちゃんを独り占めできます。"
+                ]
+            },
+            {
+                "place_id": "ChIJq6r-r5E5AWARvXh3WjQp2U4",
+                "order": 5,
+                "name": "Quán cà phê địa phương",
+                "location": {
+                    "lat": 34.6844064,
+                    "lng": 135.8392672
+                },
+                "info": "Dừng chân tại một quán cà phê ấm cúng gần chùa Todai-ji để thưởng thức bữa trưa hoặc một tách cà phê thư giãn sau hành trình khám phá của bạn.",
+                "activity": "Ăn trưa, uống cà phê, nghỉ ngơi.",
+                "transport_mode": "Đi bộ",
+                "photo_references": [
+                    "AZLasHrydYNT36kkZB_tUBFEm-8nLrJChPl-zloThFctWgt6USKM2X5DIQwOexrbHFuAmO3v01x-xLhdLLZwGJSJKPN0dtZ0ReClfgSbuEOlb4XSeOV5nlF5jwIZ-I3q2IClc_3BTnaoumiTyb7HYXS_-_TqxUAXHKJerfGHFvgwKxSKFVCvuqzKfR-UVFwbV6I264UZK-9VEmeqLNd_ZoglLcNpKX0jRQIJl3Zs1wz1kKgL9FbvWV_KZNRuKlVelDEWPqN4KifWoglJtO1hPIh-rdS9exP69jPzYYnt1hV5eSb8vPCwHzL2j8h63ckQADy6xsqLmerO1nQls8wRwOCFOKmamZtUl00hTfH90-iCnpdzM-e75ZGIAfHeXXM11eJi0nArvKw6rm-ERyOeNwh4rQM6LVMyBSqS0gSTwJ1mB1G57S5q",
+                    "AZLasHr-9bPGUFgHWOEnJYar1mjg_zelrQqnG2u94Sf0YHIuX94G2gjEodq79uoWs_DNbInqWf4yhLqdP1Q1JQe8Et5yGPDXxT6zeBFYwb9dCmXpJM8z96fZ5RXEXUumWvgUuTV0gPZlHs7SaBPN2rmXB63ae1C2dlwrZXVIM70xScOS9HSeYP0-lFPCq9cwRsg5Jw2bBbp9Trlgw4vKHqlj3TNYvT3O5qbkMq1HI_nPo3vp5KSUypdplZUzkYcwjG2B29GQAtZ1DOX-cZGP87wcIzq9YPwnWRLWGtiK2cDQO_o7-Q",
+                    "AZLasHreS_igdZnhk-zV8dPylVMvybSYt9ReCUXhepAob8HqmE9i6EGIboc0TCO_rrupVuCQArc-4boFIAkgMI4xIghzs7dfV98TqzkBagGOv1fY9po_piH65a1udL3UmTnW93uOYg-A7YUoBY-P1nqKPFcdkSwog5VI8T8rdf0g3lzS1FrQ-w47eS0fm4QEIqwYV7sr-ss3ZKcppAN6DQevRhZhu2SEP9vUszNEilKZgch3ubThQAOVj66z6ZzFsuc2k3KQQG-Bt_bp6JWTn4ZdNzCD8n0ITzUJLhil290WVGfW01ROtSKrtXuYPCHXjCvJWqyBuHgD4I__nFCswiBMuk1n80wGEtzrEBtjALHcOr1RdiAdfqvZOuiacWMD3zP-TrFBJj1z_HIppoOBqVJIOuMC7wpFebQHQgWw1krWlNF4vx3LwVMGUcRx0jxmrQ",
+                    "AZLasHpPkK2x2bXRLmlLVavYYE0w9eBhfo_s7LVGOFvvTw804Lyzzd1LKwQG2Ov7rzIo6CLsvV7r33rxDxUqUERGmg2DsMTg_gFSgN8KoV112vo49oIiSwc4wuoAF1wfferzapuuWJGEBnczfaQynncUQDGMyZXWdQichD0AC2Tp2GrKM1xXeoAFBzhbEyPGo-OuJhTcv7Q88aiWsAP_5dXQvBtncSGErgnRFmXw34_BNLIaiiSLau1kswibZNhqMufWJ0gHyF6Wvf6sXzoYnQ0TnK2FZ_DeGzmXQS_6wZ2T9GDHdNSD8G8g39xRTTH-pvTvwJy7NUt14n_KsZAYLS6NvrtvtXlI_cuc1A6fZBRWhshHKHmTT1jxbnqpSiHGHiL39IyxO723AvAZrRPedTJFr1kv7r8Gdor9qarJD1dJUt6ARDenHByfc1yLc-xq3CLq",
+                    "AZLasHpIxrKzrtp6V4zFRyMbqllhnmEC-uowSFhNDnvEtMT7qLoTI8i0rpPf6WutvzY2m80f-qJb32dzx8s9IzisDPjf40R3TuMvIWd9d2JK7vmshDrMoL1fEHa5bDrnNOzBn7PyVa_cI7LS_P1bXoC8FOfFoDtSEI_HakDlJhEwFYQ_nFCFqobZF5YGuassZRWmak3t_rmf73_aB_wJFEyv2OiRQRSjT9nbhT7CNu_xtE9RCd6zxlEtvNJuFFUEwZrXWzJD9mRDBWs758OcZrU2eQH6tq1Jk7wJcpUsx1YzMLb5H5Rj0vGG6vRHopvOSiUL1s5wNIAfYfpJ31WFxuRcjKhkyac3dLqiGr-KTD0eJtXyNNRcGjfGBH1EiY-VvqaytrhT1Kft4hzCABfMrAyxAnsuwmLp5JBq-nOGfVbV7jZUDjCy3aEGSl5PAhLr0XVS",
+                    "AZLasHo_AAhwS5GTO-Zb0IMgADERZzZIu_L1N5ctHuAc5ThVklHYzFAcnHZYq38BP-q3-9KvloJxHnYoQ6TddeBKZ6hLn6BYSCN_5VjBWmCeugs3eF6LmL1Bt4PvBUh31fLErE8PsojCj5AA5QWtRAIdKoFkubD8cr0_NnMu7b27XbXwpVfSUyygnjORhFWri3ODmM4tzdmMDqseA6mLx65QzH5wDyS-3rDpfBYZO94IO8PvKvus3W5Y69XI-KkxI_fBf2f2RJm5fFZ4hIuWJyRZX84vHEiBV7NEqam4PEJqExgMgipj3kEkDTIPZrqLpuVHws-CQM0Ej73ws8vO7rbwFqZtwuRBkx6llFR8DFGam0ID0Q3_CfGfeSqD-ukL1jTjJy87gAYzQSY___xUUg2bS2SuhIvPKgCv_mfRtNi-_nvGmA",
+                    "AZLasHpaR38y0bUo8r4kWcMdKvcglbAlUf_XCvk7sKbHLhee_Ikcep2w_17PAWHAkWfrdHQZh0SJ6je-vRH3p5h4IngmpTLEYAMAyLRHXcMNR2Bur-xOwR1V2gx9hLCxHNOJpoUe9nZ2wwCupjZmXjzmkitjRn5rY0QobUscPJNZ3kf5b9L6JrKFVX9LUXUjB3tv4YPi8D1kYaEPWreC1IsnLeC0W4zHOcR6MzFbN7vQx2rZ7ZcjGRA_o4Jyhr509zudQn9MT2GFsxLEM6vFnxZwkSXeVL-aj9ffZRruQJeF1bHyx0ZIqgccg70eVgCM53-gMTHi1ySXBHgIfntYknttLEQNls2UeIO4wwy7bdzBR_u4CbDE5Kb-aHb1sGVHYoZ-sK_93ipFCtYuNIW8g8mNJKumkDEQNx-h5nOEsfz6tXS7GgZA2zUxkzNgNlYgwW-p",
+                    "AZLasHrTnH2Jma6v2JmfksaswlUbbrtGEo4Sgppe4s7XlKUklBbFEkcmKY061bZK6xS6EveXQJX2sCRkXRFFUzKPckzIg8dXbwlZ8Izi4YfCdZ0PbNz47FgrU8pGvaNv__KDVQp3POfBHblcDX5MT2C36U_uDxqRTNRBRig1n69qNdfhu52iEJRkYiOn1CnFt_mNOHjJLEIziWgvDnqiYcjzFZqt0uFL4BAkDsx__xfHo9l3r4lhjljJhhyd0ucpPwFI0fYYQ8KwJbee-KXnTlYz8sZF9puBIagrZJSeDEeOWnZfOygTEpTzkV6NMVNRbFlC27US2LQyBni3TjlIQSqOFZuKNbo9eLFJUhu911_E4ilN5wkInTvwLdUsG3MoPXCY-7VdFbVzE7yoNbPFCdAxrkqkGiagLm7cs6hrl4cpa-KeROcj",
+                    "AZLasHoabYMrrqudfi6l7t9ChT9wR4P-J87ngzXgjGp5HoA3k1CFhctBLoP0S_8pZ5u0KpxiWm7Z594lvCIuTq_ISNOhUqToatK2piCFbahalRArosfYExsTBXLFjJVFHsJVb8k2xLZqBKF78l0N_LTQpgIyMoYmFV3LYNWFOtODdxlb_GoEankzQeqkR2Fk7mDihLVy1TH313TlR98AFlgixun4ZsK6Eses9g0n3YkB0-INllhACOIsPgckFy6pQ11v037NHNZREnvkqgRMDNdE_icS7LU0oOhs04ugMwd0-oK2tB7JFMZyA2ovOGkNWDpInzdY9SxYLRh6rxrFXsAcMviJsW3LwF-Cc34incQhAdRSg5_SYSE5u6I3htrdPWf-WyB0ERUwLUUKijeSoWDV_AHYygK29gGTsbMEmHNJwRSIaec",
+                    "AZLasHp2FPRXDyh-IN-_t046axDB8P-zpQkIJM1wUZHUVYn12pwT0FIA1fA6qgc9-3Pfde7yULTGsUVIktLnTlONT8Wr2iR3pG6x_VLh4XPxyb5vwYN3NvEeQ56pZBiDdzuzcEAVu2mFcWAxRRR3Y2IVS3m9WM6aoGfg7KLJcu_0htBh1LRR1TrI4YIO__PksjFJ_HglOByRMJ9v_idn2WdvWDvfav5UfAQ2oQ-Z7kucqbBE1eGJXo6AyJEz8rTzRjlSZQvHon7LNwtJo35mzxtaSWU0Ppn4FBU0B4UAUIt-LamYK3EcdyZeMMK0taFYso8Qss0qUcUsOcKDi-UsM520QwRvDQOG2apGOG8jPmsblKFRMZeXCtrrGMNpEQ9pWODnKf9dnT4BfIjlxCa6hg4atMwULHPCGY4q4PUNZ5ieI90xpjujAj5O3MhCg0AVkC02"
+                ],
+                "review_texts": [
+                    "奈良の東大寺の近くで美味しいご飯屋さんを探して、来店しました。オシャレなお店でした。オムライスハンバーグ、ワッフルとても美味しかったです。",
+                    "オムライスのオーダー後に、急遽チーズのトッピングを追加したのですが、気持ちよく対応していただき、しかもすぐに運んできてくださいました。\nお味の方は、追加してよかった！\nプレーンでも美味しかったのでしょうが、チーズがとってもマッチしていて、おいしかったです♪",
+                    "立地が良く、店内の雰囲気も最高です！\n食事はまだですが、他のお客様が食べてるのを見ると美味しそうで待ち遠しい〜",
+                    "河島英五さんが開いたお店で、現在は息子さんが経営されています。\n河島英五使用のギターや実際に乗っていたバイクが店内に展示されています。\nハンバーグ&とろけるオムライスは、ふわふわの卵のオムライスの上に神戸牛使用のハンバーグ、淡路島の玉ねぎに奈良産トマトをトッピングした、文句なしの美味しさでした。\n鰻いくら重膳も贅沢な味わいです。",
+                    "ランチに利用させていただきました！\n若草山っふるを注文しました🧇\nもちもち系ではなく、サクサク系でクッキーのようなのワッフルでした！\n勝手にもちもち系を期待してしまっていたので、少しだけ残念感が…笑\n名前だけでは少し想像しづらく、テーブルで見れるメニューにお写真があればなお嬉しいです☺️\n小さいお団子状のおもちが3つとぶぶあられ？のようなものが付いていて、満足感たっぷりです🙆🏻‍♀️"
+                ]
+            }
+        ],
+        "estimated_duration_hours": 4.5,
+        "summary": "Kế hoạch này sẽ đưa bạn từ Chùa Kofuku-ji gần điểm xuất phát, qua Vườn Isui-en thanh bình, sau đó tản bộ qua Công viên Nara để tương tác với những chú hươu đáng yêu, và cuối cùng là chiêm ngưỡng sự hùng vĩ của Chùa Todai-ji. Kết thúc bằng bữa trưa/cà phê tại một quán địa phương để thư giãn. Một hành trình lý tưởng để khám phá những điểm nhấn văn hóa và thiên nhiên của Nara trong khoảng 4-5 giờ.",
+        "theme": "Văn hóa & Thiên nhiên"
+    }
+]

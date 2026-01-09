@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
@@ -91,7 +91,7 @@
 
     <script>
         // --- CẤU HÌNH ---
-        const API_KEY = "AIzaSyDvvaIASfr2Hzi3oUx5RFi6wT0bpKsCLRU"; 
+        const API_KEY = "AIzaSyDRZS3xlk2kHRxjMC1wxKc4y6JUxlzyJts"; 
         const JSON_BASE_PATH = "/json/GeminiAPIResponse/";
 
         // --- BIẾN TOÀN CỤC ---
@@ -470,6 +470,609 @@
             };
             close.onclick = () => panel.classList.remove('open');
         }
+        function initLightbox() { 
+            const lb = document.getElementById('lightbox');
+            const img = document.getElementById('lightbox-img');
+            document.querySelector('.lightbox-close').onclick = () => lb.style.display = 'none';
+            lb.onclick = (e) => { if(e.target === lb) lb.style.display = 'none'; };
+            window.openLightbox = (src) => { img.src = src; lb.style.display = 'block'; }
+        }
+        function loadGoogleMapsScript() {
+            if (typeof google === 'undefined') {
+                const script = document.createElement('script');
+                script.src = `https://maps.googleapis.com/maps/api/js?key=${API_KEY}&callback=initMap&libraries=places`;
+                script.async = true;
+                document.body.appendChild(script);
+            } else initMap();
+        }
+        loadGoogleMapsScript();
+    </script>
+</body>
+</html> -->
+ 
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiniTrip - Map Result</title> 
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body, html { font-family: 'Inter', 'Noto Sans JP', sans-serif; height: 100%; margin: 0; overflow: hidden; }
+        
+        /* Modal Favorites */
+        .fav-panel {
+            position: fixed; top: 0; right: -350px; width: 320px; height: 100%;
+            background: white; box-shadow: -5px 0 15px rgba(0,0,0,0.1);
+            z-index: 3000; transition: right 0.3s ease-in-out;
+            display: flex; flex-direction: column;
+        }
+        .fav-panel.open { right: 0; }
+        
+        /* Lightbox */
+        .lightbox-overlay { display: none; position: fixed; z-index: 4000; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.85); backdrop-filter: blur(5px); }
+        .lightbox-content { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); max-width: 90vw; max-height: 90vh; border-radius: 12px; }
+        .lightbox-close { position: absolute; top: 20px; right: 35px; color: white; font-size: 40px; cursor: pointer; }
+        
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #f1f1f1; }
+        ::-webkit-scrollbar-thumb { background: #c1c1c1; border-radius: 4px; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <div class="absolute top-4 right-4 z-20">
+        <button id="favBtn" class="bg-white text-orange-600 px-4 py-2 rounded-full shadow-lg font-bold border border-orange-100 hover:bg-orange-50 flex items-center gap-2 transition transform hover:scale-105">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" /></svg>
+            お気に入り
+        </button>
+    </div>
+
+    <div id="favPanel" class="fav-panel">
+        <div class="p-4 border-b flex justify-between items-center bg-orange-50">
+            <h2 class="font-bold text-lg text-gray-800">保存したルート</h2>
+            <button id="closeFavBtn" class="text-gray-500 hover:text-red-500 text-2xl font-bold">&times;</button>
+        </div>
+        <div id="favList" class="p-4 overflow-y-auto flex-1 space-y-4 bg-gray-50">
+            <p class="text-sm text-gray-500 text-center mt-4">読み込み中...</p>
+        </div>
+    </div>
+
+    <div class="main-container flex w-full h-screen">
+        
+        <div class="left-panel w-full md:w-2/5 lg:w-1/3 h-full overflow-y-auto bg-white shadow-lg z-10 flex flex-col">
+            <div class="p-5 border-b sticky top-0 bg-white z-20 shadow-sm flex justify-between items-center">
+                <a href="/" class="inline-flex items-center px-3 py-1.5 border border-gray-300 text-sm font-medium rounded-lg text-gray-700 bg-white hover:bg-gray-50 transition">
+                    &larr; 新しい検索
+                </a>
+                <h1 id="page-title" class="font-bold text-orange-600 text-lg hidden">❤️ お気に入り一覧</h1>
+            </div>
+            
+            <div id="left-panel-content" class="flex-1 pb-4">
+                <div class="flex justify-center items-center h-64">
+                    <div class="animate-spin rounded-full h-8 w-8 border-b-2 border-orange-600"></div>
+                </div>
+            </div>
+
+            <div id="add-more-container" class="p-4 border-t bg-gray-50 text-center sticky bottom-0 z-30 hidden">
+                <button id="btn-add-more" onclick="handleAddMorePlan()" 
+                        class="w-full bg-white border border-orange-200 text-orange-600 font-bold py-3 px-4 rounded-lg shadow-sm hover:bg-orange-50 hover:border-orange-300 transition flex items-center justify-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z" clip-rule="evenodd" /></svg>
+                    別のプランを追加提案 (Add More)
+                </button>
+                <div id="loading-more" class="hidden text-sm text-orange-600 mt-2 font-medium flex items-center justify-center gap-2">
+                    <svg class="animate-spin h-4 w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle><path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path></svg>
+                    AIが新しいルートを考えています...
+                </div>
+            </div>
+        </div>
+
+        <div class="right-column hidden md:flex flex-col flex-grow h-full bg-gray-100 p-4 space-y-4 relative">
+            <div id="weather-placeholder" class="h-32 flex-shrink-0 bg-white rounded-lg shadow-md p-5 flex flex-col justify-center">
+                <div class="flex items-center space-x-4">
+                    <div class="bg-blue-100 p-3 rounded-full">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-gray-700">お天気コーナー (準備中)</h3>
+                        <p class="text-sm text-gray-500">今後のアップデートで、旅行先の天気予報が表示されます。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="map-container flex-grow rounded-lg shadow-lg overflow-hidden relative border border-gray-200">
+                <div id="map" class="w-full h-full"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="lightbox" class="lightbox-overlay">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <script>
+        const API_KEY = "AIzaSyDvvaIASfr2Hzi3oUx5RFi6wT0bpKsCLRU"; 
+        const JSON_BASE_PATH = "/json/GeminiAPIResponse/";
+        const FAV_COLOR = '#DB2777'; 
+
+        let planData = []; 
+        let map; 
+        let directionsService;
+        
+        let mainRenderers = []; 
+        let planMarkers = [];   
+        
+        let favOverlays = {}; 
+        let loadedJsonCache = {}; 
+        let myFavoritesSet = new Set(); 
+
+        const planColors = ['#EA580C', '#3B82F6', '#10B981', '#EC4899', '#8B5CF6']; 
+
+        async function initMap() {
+            directionsService = new google.maps.DirectionsService();
+            map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 12, center: {lat: 35.6895, lng: 139.6917}, 
+                mapTypeControl: false, streetViewControl: false, fullscreenControl: false
+            });
+            
+            initLightbox();
+            setupFavUI();  
+            
+            // Tải ID Favorites ngầm (để hiển thị trái tim đỏ)
+            await loadFavoritesList(false); 
+
+            const urlParams = new URLSearchParams(window.location.search);
+            if (urlParams.get('mode') === 'favorites') {
+                console.log("Mode: Favorites");
+                document.getElementById('favBtn').style.display = 'none';
+                document.getElementById('page-title').classList.remove('hidden');
+                await loadAllFavoritesData();
+            } else {
+                await loadMainData();
+                document.getElementById('add-more-container').classList.remove('hidden');
+            }
+        }
+
+        async function loadMainData() {
+            const urlParams = new URLSearchParams(window.location.search);
+            let jsonPath = urlParams.get('planFile');
+            if (!jsonPath) { document.getElementById('left-panel-content').innerHTML = ''; return; }
+            if (!jsonPath.includes('/')) jsonPath = JSON_BASE_PATH + jsonPath;
+
+            try {
+                const res = await fetch(jsonPath);
+                const data = await res.json();
+                
+                if (Array.isArray(data)) {
+                    planData = planData.concat(data);
+                } else {
+                    planData.push(data);
+                }
+
+                const filename = jsonPath.split('/').pop();
+                loadedJsonCache[filename] = data; 
+
+                populateLeftPanel(); 
+                drawMainRoutes(); 
+                
+                setTimeout(() => {
+                    const allDetails = document.querySelectorAll('details');
+                    const lastDetail = allDetails[allDetails.length - 1];
+                    if (lastDetail && !lastDetail.open) {
+                        lastDetail.open = true;
+                        window.onRouteToggle(lastDetail, allDetails.length - 1);
+                    }
+                }, 500);
+
+            } catch (e) { console.error(e); }
+        }
+
+        function populateLeftPanel() {
+            const panel = document.getElementById('left-panel-content');
+            let html = '';
+
+            planData.forEach((plan, idx) => {
+                const color = planColors[idx % planColors.length];
+                const currentFileName = plan._sourceFileName || getCurrentFilename();
+                const isFav = myFavoritesSet.has(`${currentFileName}|${plan.plan_title}`);
+                const heartClass = isFav ? "text-pink-500 bg-pink-100 hover:bg-pink-200" : "text-gray-400 hover:text-pink-500 hover:bg-pink-50";
+
+                html += `
+                    <details class="group border-b border-gray-200 transition-all duration-300" 
+                             ontoggle="onRouteToggle(this, ${idx})">
+                        <summary class="p-5 cursor-pointer hover:bg-gray-50 flex justify-between items-start list-none select-none">
+                            <div class="border-l-4 pl-3 transition-colors duration-300 flex-1" style="border-color:${color}">
+                                <h2 class="font-bold text-gray-900 text-lg group-open:text-orange-700">${plan.plan_title}</h2>
+                                <p class="text-xs text-gray-500 mt-1">${plan.summary || ''}</p>
+                            </div>
+                            
+                            <button onclick="toggleFavorite(event, '${plan.plan_title}', '${currentFileName}')" 
+                                    class="ml-2 transition p-2 rounded-full ${heartClass} shrink-0" 
+                                    title="${isFav ? 'お気に入りから削除' : 'お気に入りに保存'}">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 fill-current" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+                            </button>
+                        </summary>
+                        <div class="bg-white p-4 space-y-6">
+                            ${plan.waypoints.map((wp, i) => `
+                                <div class="flex gap-4 text-sm relative">
+                                    <div class="flex flex-col items-center">
+                                        <div class="w-6 h-6 rounded-full flex items-center justify-center text-white text-xs font-bold shadow-sm" style="background-color:${color}">${i+1}</div>
+                                        ${i !== plan.waypoints.length - 1 ? `<div class="w-0.5 h-full bg-gray-200 my-1"></div>` : ''}
+                                    </div>
+                                    <div class="pb-2 w-full">
+                                        <span class="text-xs font-semibold text-orange-600 bg-orange-50 px-2 py-0.5 rounded-full border border-orange-100 mb-1 inline-block">${wp.activity ? wp.activity.split(' ')[0] : 'Activity'}</span>
+                                        <p class="font-bold text-gray-800 text-base">${wp.name}</p>
+                                        <p class="text-gray-600 text-xs mt-1 leading-relaxed">${wp.info}</p>
+                                        ${wp.photo_references && wp.photo_references.length > 0 ? `
+                                            <div class="flex gap-2 mt-3 overflow-x-auto pb-2 scrollbar-hide">
+                                                ${wp.photo_references.slice(0, 3).map(ref => `
+                                                    <img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=200&photoreference=${ref}&key=${API_KEY}" 
+                                                         class="w-16 h-16 object-cover rounded-md shadow-sm cursor-pointer hover:opacity-80 transition shrink-0"
+                                                         onclick="openLightbox(this.src.replace('maxwidth=200', 'maxwidth=1600'))">
+                                                `).join('')}
+                                            </div>
+                                        ` : ''}
+                                    </div>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </details>
+                `;
+            });
+            panel.innerHTML = html;
+        }
+
+        function drawMainRoutes() {
+            mainRenderers.forEach(r => r && r.setMap(null));
+            mainRenderers = [];
+            planMarkers.forEach(markerArr => markerArr && markerArr.forEach(m => m.setMap(null)));
+            planMarkers = [];
+
+            planData.forEach((plan, idx) => {
+                const color = planColors[idx % planColors.length];
+                
+                const renderer = new google.maps.DirectionsRenderer({
+                    map: (idx === 0) ? map : null, 
+                    suppressMarkers: true,
+                    polylineOptions: { strokeColor: color, strokeWeight: 6, strokeOpacity: 0.8 }
+                });
+                mainRenderers.push(renderer);
+
+                const currentMarkers = [];
+                plan.waypoints.forEach((wp, i) => {
+                    const marker = new google.maps.Marker({
+                        position: wp.location,
+                        map: (idx === 0) ? map : null, 
+                        label: { text: (i + 1).toString(), color: 'white', fontWeight: 'bold' },
+                        icon: {
+                            path: google.maps.SymbolPath.CIRCLE,
+                            scale: 14,
+                            fillColor: color,
+                            fillOpacity: 1,
+                            strokeWeight: 2,
+                            strokeColor: 'white'
+                        },
+                        zIndex: 100 + i,
+                        title: wp.name
+                    });
+                    
+                    marker.addListener("click", () => {
+                        new google.maps.InfoWindow({
+                            content: `<div style="padding:5px"><h3 style="font-weight:bold">${wp.name}</h3><p style="font-size:12px">${wp.info}</p></div>`
+                        }).open(map, marker);
+                    });
+
+                    currentMarkers.push(marker);
+                });
+                planMarkers.push(currentMarkers);
+
+                const wps = plan.waypoints;
+                if(wps.length >= 2) {
+                    const waypts = wps.slice(1, -1).map(wp => ({ location: wp.location, stopover: true }));
+
+                    directionsService.route({
+                        origin: wps[0].location,
+                        destination: wps[wps.length-1].location,
+                        waypoints: waypts,
+                        travelMode: google.maps.TravelMode.DRIVING 
+                    }, (res, status) => {
+                        if (status === 'OK') {
+                            renderer.setDirections(res);
+                            if (idx === 0) {
+                                renderer.setMap(map);
+                                currentMarkers.forEach(m => m.setMap(map));
+                                const firstDetail = document.querySelector('details');
+                                if(firstDetail) firstDetail.open = true;
+                            }
+                        } else {
+                            console.warn("Directions request failed for plan " + idx + ": " + status);
+                        }
+                    });
+                } else if (wps.length === 1 && idx === 0) {
+                    map.panTo(wps[0].location);
+                    currentMarkers[0].setMap(map);
+                }
+            });
+        }
+
+        window.onRouteToggle = function(detailsElement, index) {
+            const isOpen = detailsElement.open;
+            if(isOpen) {
+                document.querySelectorAll('details').forEach((el, i) => {
+                    if(i !== index && el.open) el.open = false; 
+                });
+                mainRenderers.forEach(r => r && r.setMap(null));
+                planMarkers.forEach(arr => arr && arr.forEach(m => m.setMap(null)));
+            }
+            if (mainRenderers[index]) mainRenderers[index].setMap(isOpen ? map : null);
+            if (planMarkers[index]) planMarkers[index].forEach(m => m.setMap(isOpen ? map : null));
+
+            if (isOpen && mainRenderers[index] && mainRenderers[index].getDirections()) {
+                const routeBounds = mainRenderers[index].getDirections().routes[0].bounds;
+                map.fitBounds(routeBounds);
+            }
+        };
+
+        async function handleAddMorePlan() {
+            const storedInput = localStorage.getItem('last_trip_request');
+            const storedMapFile = localStorage.getItem('last_map_file');
+
+            if (!storedInput) {
+                alert("元の検索データが見つかりません。もう一度検索してください。");
+                return;
+            }
+
+            const requestData = JSON.parse(storedInput);
+            if (storedMapFile) {
+                requestData.existing_map_path = storedMapFile;
+            }
+
+            const btn = document.getElementById('btn-add-more');
+            const loading = document.getElementById('loading-more');
+            btn.classList.add('hidden');
+            loading.classList.remove('hidden');
+
+            try {
+                const res = await fetch('/api/start-job', {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify(requestData)
+                });
+                const data = await res.json();
+
+                if (data.success) {
+                    await pollForNewPlan(data.job_id);
+                } else { throw new Error(data.error); }
+            } catch (err) {
+                alert("エラー: " + err.message);
+                btn.classList.remove('hidden'); loading.classList.add('hidden');
+            }
+        }
+
+        async function pollForNewPlan(jobId) {
+            const interval = setInterval(async () => {
+                try {
+                    const res = await fetch(`/api/check-status?job_id=${jobId}`);
+                    const data = await res.json();
+                    
+                    if (data.data.status === 'complete') {
+                        clearInterval(interval);
+                        const newPlanRes = await fetch(data.data.planFile);
+                        const newPlanJson = await newPlanRes.json();
+
+                        if (Array.isArray(newPlanJson)) planData = planData.concat(newPlanJson);
+                        else planData.push(newPlanJson);
+
+                        populateLeftPanel(); 
+                        drawMainRoutes();
+
+                        setTimeout(() => {
+                            const allDetails = document.querySelectorAll('details');
+                            const lastDetail = allDetails[allDetails.length - 1];
+                            if(lastDetail) {
+                                lastDetail.open = true;
+                                window.onRouteToggle(lastDetail, allDetails.length - 1);
+                            }
+                        }, 500);
+
+                        document.getElementById('btn-add-more').classList.remove('hidden');
+                        document.getElementById('loading-more').classList.add('hidden');
+
+                    } else if (data.data.status === 'error') {
+                        clearInterval(interval);
+                        alert("作成に失敗しました。");
+                        document.getElementById('btn-add-more').classList.remove('hidden');
+                        document.getElementById('loading-more').classList.add('hidden');
+                    }
+                } catch (e) { console.error("Polling error", e); }
+            }, 3000);
+        }
+
+        function getCurrentFilename() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const fullPath = urlParams.get('planFile'); 
+            if(!fullPath) return null;
+            return fullPath.split('/').pop();
+        }
+
+        window.toggleFavorite = async function(e, title, filenameOverride) {
+            e.preventDefault(); e.stopPropagation();
+            const filename = filenameOverride || getCurrentFilename();
+            if(!filename) return alert("ファイルエラーが発生しました。");
+            const key = `${filename}|${title}`;
+            const isCurrentlyFav = myFavoritesSet.has(key);
+            const btn = e.currentTarget;
+            const apiUrl = isCurrentlyFav ? '/api/favorites/delete' : '/api/favorites/add';
+            try {
+                const res = await fetch(apiUrl, {
+                    method: 'POST', headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({ file_path: filename, plan_title: title })
+                });
+                const data = await res.json();
+                if(data.success) {
+                    if (isCurrentlyFav) {
+                        myFavoritesSet.delete(key);
+                        btn.className = "ml-2 transition p-2 rounded-full text-gray-400 hover:text-pink-500 hover:bg-pink-50 shrink-0";
+                        const urlParams = new URLSearchParams(window.location.search);
+                        if (urlParams.get('mode') === 'favorites') loadAllFavoritesData();
+                    } else {
+                        myFavoritesSet.add(key);
+                        btn.className = "ml-2 transition p-2 rounded-full text-pink-500 bg-pink-100 hover:bg-pink-200 shrink-0";
+                    }
+                    loadFavoritesList(true);
+                } else { alert('エラー: ' + data.message); }
+            } catch(err) { console.error(err); }
+        };
+
+        window.deleteFromPanel = async function(filename, title) {
+            try {
+                const res = await fetch('/api/favorites/delete', {
+                    method: 'POST', headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({ file_path: filename, plan_title: title })
+                });
+                const data = await res.json();
+                if(data.success) {
+                    myFavoritesSet.delete(`${filename}|${title}`);
+                    await loadFavoritesList(true);
+                    const urlParams = new URLSearchParams(window.location.search);
+                    if (urlParams.get('mode') === 'favorites') loadAllFavoritesData();
+                    else populateLeftPanel();
+                    if (favOverlays[title]) { favOverlays[title].setMap(null); delete favOverlays[title]; }
+                }
+            } catch(err) { console.error(err); }
+        };
+
+        // --- HÀM LOAD DATA YÊU THÍCH ---
+        async function loadFavoritesList(shouldRenderPanel = true) {
+            const listDiv = document.getElementById('favList');
+            try {
+                const res = await fetch('/api/favorites');
+                const data = await res.json();
+                
+                myFavoritesSet.clear();
+                if(data.success) {
+                    data.favorites.forEach(fav => myFavoritesSet.add(`${fav.file_path}|${fav.plan_title}`));
+                }
+
+                // Nếu chỉ chạy ngầm (false) thì dừng tại đây, không vẽ lại Panel
+                if (!shouldRenderPanel) return;
+
+                if(!data.success || data.favorites.length === 0) {
+                    listDiv.innerHTML = `<p class="text-sm text-gray-400 text-center mt-4">まだ保存されたルートはありません。</p>`;
+                    return;
+                }
+
+                listDiv.innerHTML = data.favorites.map(fav => `
+                    <div class="bg-white p-4 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition group relative">
+                        <button onclick="deleteFromPanel('${fav.file_path}', '${fav.plan_title}')" class="absolute top-2 right-2 text-gray-300 hover:text-red-500 p-1 z-10">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" /></svg>
+                        </button>
+                        <div class="flex items-start gap-3">
+                            <div class="pt-1">
+                                <input type="checkbox" class="w-5 h-5 accent-pink-500 cursor-pointer rounded focus:ring-pink-500" onchange="toggleOverlayRoute(this, '${fav.file_path}', '${fav.plan_title}')">
+                            </div>
+                            <div class="flex-1 min-w-0 pr-6">
+                                <h3 class="font-bold text-sm text-gray-800 truncate" title="${fav.plan_title}">${fav.plan_title}</h3>
+                                <p class="text-xs text-gray-400 mt-0.5">${new Date(fav.created_at).toLocaleDateString()}</p>
+                                <a href="/map?planFile=${fav.file_path}&planTitle=${encodeURIComponent(fav.plan_title)}" class="text-xs text-orange-600 font-medium hover:text-orange-800 mt-2 inline-flex items-center bg-orange-50 px-2 py-1 rounded transition">このルートだけ見る &rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+                `).join('');
+            } catch(err) { console.error(err); }
+        }
+
+        // --- SỬA LỖI Ở ĐÂY: GỌI HÀM LOAD KHI MỞ PANEL ---
+        function setupFavUI() {
+            const btn = document.getElementById('favBtn');
+            const panel = document.getElementById('favPanel');
+            const close = document.getElementById('closeFavBtn');
+            
+            btn.onclick = () => {
+                panel.classList.add('open');
+                loadFavoritesList(true); // <--- THÊM DÒNG NÀY (Bấm nút là tải lại data)
+            };
+            close.onclick = () => panel.classList.remove('open');
+        }
+
+        async function loadAllFavoritesData() {
+             try {
+                const res = await fetch('/api/favorites');
+                const data = await res.json();
+                if (!data.success || data.favorites.length === 0) {
+                    document.getElementById('left-panel-content').innerHTML = `<div class="p-10 text-center text-gray-500"><p>まだお気に入りのルートはありません。</p><a href="/" class="text-orange-600 hover:underline mt-2 block">新しいプランを作成する</a></div>`;
+                    return;
+                }
+                const promises = data.favorites.map(async (fav) => {
+                    let jsonData = loadedJsonCache[fav.file_path];
+                    if (!jsonData) {
+                        try {
+                            const r = await fetch(JSON_BASE_PATH + fav.file_path);
+                            if (!r.ok) return null;
+                            jsonData = await r.json();
+                            loadedJsonCache[fav.file_path] = jsonData;
+                        } catch (e) { return null; }
+                    }
+                    if (jsonData) {
+                        const list = Array.isArray(jsonData) ? jsonData : [jsonData];
+                        const specificPlan = list.find(p => p.plan_title === fav.plan_title);
+                        if (specificPlan) {
+                            specificPlan._sourceFileName = fav.file_path;
+                            return specificPlan;
+                        }
+                    }
+                    return null;
+                });
+                const results = await Promise.all(promises);
+                planData = results.filter(p => p !== null);
+                populateLeftPanel();
+                drawMainRoutes();
+            } catch (e) { console.error(e); }
+        }
+
+        window.toggleOverlayRoute = async function(checkbox, filename, planTitle) {
+            if (!checkbox.checked) {
+                if (favOverlays[planTitle]) { favOverlays[planTitle].setMap(null); delete favOverlays[planTitle]; }
+                return;
+            }
+            let data = loadedJsonCache[filename];
+            if (!data) {
+                try {
+                    const res = await fetch(JSON_BASE_PATH + filename);
+                    data = await res.json();
+                    loadedJsonCache[filename] = data; 
+                } catch (e) { alert("データの読み込みに失敗しました"); checkbox.checked = false; return; }
+            }
+            const list = Array.isArray(data) ? data : [data];
+            const targetPlan = list.find(p => p.plan_title === planTitle);
+            
+            if (!targetPlan) return alert("プランが見つかりません");
+
+            const renderer = new google.maps.DirectionsRenderer({
+                map: map, suppressMarkers: false,
+                polylineOptions: { strokeColor: FAV_COLOR, strokeWeight: 6, strokeOpacity: 1.0, zIndex: 999 },
+                markerOptions: { icon: { path: google.maps.SymbolPath.CIRCLE, scale: 7, fillColor: FAV_COLOR, fillOpacity: 1, strokeWeight: 2, strokeColor: 'white' } }
+            });
+
+            const wps = targetPlan.waypoints;
+            const waypts = wps.slice(1, -1).map(wp => ({ location: wp.location, stopover: true }));
+
+            directionsService.route({
+                origin: wps[0].location, destination: wps[wps.length-1].location,
+                waypoints: waypts, travelMode: google.maps.TravelMode.DRIVING
+            }, (res, status) => {
+                if (status === 'OK') {
+                    renderer.setDirections(res);
+                    favOverlays[planTitle] = renderer;
+                    const bounds = map.getBounds() || new google.maps.LatLngBounds();
+                    res.routes[0].bounds.union(bounds); map.fitBounds(bounds);
+                } else checkbox.checked = false;
+            });
+        };
+
         function initLightbox() { 
             const lb = document.getElementById('lightbox');
             const img = document.getElementById('lightbox-img');

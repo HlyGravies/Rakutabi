@@ -1,0 +1,103 @@
+[
+    {
+        "plan_title": "飛鳥・高取 古代ロマンと祈りの道巡り",
+        "waypoints": [
+            {
+                "place_id": "ChIJK91IMULEBmARr79S0ZJWVpc",
+                "order": 1,
+                "name": "壺阪寺",
+                "location": {
+                    "lat": 34.3056843,
+                    "lng": 135.803208
+                },
+                "info": "眼病封じの寺として知られ、美しい十一面千手観音像や、インドから寄贈された巨大な石仏群が見どころです。高取町の高台に位置し、見晴らしも素晴らしいです。",
+                "activity": "本堂参拝、大観音石像・大涅槃石像鑑賞、歴史散策",
+                "transport_mode": "車",
+                "photo_references": [
+                    "AZLasHrLo2ZxghL3_tejcJT6pXOYy3zeRGxSO8e4kWa5oORxEm8YGCF4AEjhqcV7u5bsAV87H3bmQIu1VukuaLmyPNEDE7V4Jj-w5tderu0aFwxfIKkt3nUHy2FAficVoDVdGosQ81sxeLzVSS4kFg2f9vbmWxLATxbhvzKQeJs68GpqcwMy8ZlVJkdQ11-674swpjpjhMq2LXqQWDTzhnUdYN8ernPgpwXy9e9HsjrRa4-ZC3p529JzAslgdg_GTdZrU_KDaHVDe0J8ISAjJ9tHL5xrrUFNuqkGeiQkaLcUmPi1fRaSpchyGKH0LIJFzQMCBOmM7J9RVcLHT7duRN5QXlyMPYkWAH_QnESD4IkONexGbqhrQNOB4twb_53WGgxGN02VmbKQVE9bhMTZU8D03X4cuhUybJzLNmgu6PvyDjxxUg",
+                    "AZLasHpK7Je1L_gBkKvx4sbiRCNXJTNMr8jXfXBseEHcs0MneKuLmLB9lVXTzdXF4aPHVOt0dde_fRoh051LK65W0niVAitf4FyO6yokgSIbu6-T-OWcKekEjAw_TxdIhvZYDnn_G5i6N9v_WhgsD0kbvhgeSl97XqSNHk05-hA6U7rr3Lv4ticVmUERtWo6NA6uWyjbegsCU0AiPIk9mli6KIe2UWNgafs9yBGCT2j0xCtRJMnKWlcAN1VPmXcF_3hRCZrFV4fu_IHp2egDEDpYqkVfyQByoSsUahcAus9l49qqeRWla5bPDkwPNTcf3zYtmCp_ccgj8_BrpogqQbMdlmABFNPu_C6tfi8yoZjWXMAf2qDc4TvTQUaENKpzYLK_yyE4VZBR8zKqSOreOCGtAE-ZbVKWKBeT6Mv00ytdzLGsBQ",
+                    "AZLasHrePQvykBR333pMF4JgsZIw0nPmyuSr-fAYzygHx3dwOVNwc7CH3vLNmYKvLnMKSP8kFfW7LF1Cr2T1-DSwKpmd0sQJLx7W4neeOHrbW5yNMfvltb48U4vXxGBMEkuWXraQkbwdmd57sO3VbKnGXYZhHKtLHnF3TvYlwgDbxGAxcZGqytMqqUgsom7moEnpgtjP9O42MYWLqpk69YzT2z-lpR3aket8vDMyfOh8JgxZWeBqsBgeic-zX7xaTXnE27A4SjlS8C1dlXaEfvdjWP6Ve6Q-Fso92IWqLCSrLI4EYCX1iAgZcJnpnyVxPQXyzIPOlAWLlaTv0Nhu1uD266wiaIC19FX4FGVWcRfDdJnoO2tCoZe76q0T54i9xs2GtL39tG8pcsNZVXeBCsDvxIxVrApTlf7fFf8R0NzKwqE8kg",
+                    "AZLasHo8ikkpcvNvT9clbb3PPYQ1yW7k7VcfdQ9zGltkSkLI7La1tmI5b2A_0Kymax3BQacHEEzlzI7OEmVjmM0b2IhtoEgUd3dpIo-nmupOrKnDUr6dLhWk5ReLbNfdFSIxVHgB1VNJhFyOf7gL1h8uZy-eY7yukSfNs4JPXhSTt54pAKEuHs4zE-c2k1VFxjepcZ5mtaFeV-106uUg1lQiXjPftyAOtgyn-CQsnltiIBLXMrsT9gYR798Lw_N6hXDvZ-5RK3F1umrMWoWDB17wRZCR2yYHmA6SWb628iQ01WladSx-SFleVC3IRStLv1aoD4inH52uYzrIK0lwUKhAvikqz1FBhFESHVi4pyORyz5BIYGdzHl-7QC1vV0Yn8NSl90o4VencLve2UCDSy3zUWnYCsL5XbMFU6sBX0I7xd31ukE",
+                    "AZLasHrtXOa-MOyj_CiQ66zK7EzekmSGSPmcPpVlC22hHf00579TyoJoSGXSua0yRSzwjy9jyozYq2Ahp6wV8S6iXRG_qApr3kBXhg41vyVCbPBNn2EfZY-ouaIibMJe6hyLcgups-qlZFnm7plqf7ehJx1NKq9RGcw0RzZ4tT2LFnNXS5ZAaNGF-0UWAl5yX-eos8ODCHxepbhnRtL2vT-SrTBW6v3GHPCAyuweYyD74fuz7QYG0iiP23fZVwcBahnl_zxJMm_32E0_jzk4gVz4N4rUXIMscxDPvMMDHeJJ_m5BUxGLYkG2l-Du1HXY1xuwxBt55W2KN7YwH6AVrnedQvTXVRztZrXXTmHn1JyRNlfv7heS5x5ri7u2a_cSVAWVPkJclWtmwJIMYu6_W1N_nWplUoaSCkox9_OtTTQu9YOi6jE",
+                    "AZLasHobzbkvSLO5_9Lf-k9yWysVvDF_b8jWcg2wJnkfyzVscOCPeAS7Ds9iZzF_rYtwO0j-IsVrHRGLd3XCHFui8Hx8huVfyLrHYXlkIbCTVFmoyxOkYV_FUXYbCSkLvJxDSk6Rli6G_TKcIvfDjTZQmqzrZe3Q0xVL3U53zW64ESRw0eTHsAYzGcSENrVVIGWJiOPGEAWhTz0tCjrP_zP2OenhOfTY-olyvOYC0Y39ozfz8hqVNP6K-qveloDhkemIO4ec20WxHR-AK5IEloIdRGNwCUgd25J1qf0uxuAWMFJlsq-atgjEEPX_A_hgrVRRDhI0EoIWRDR6QIkMifIv2rRofljG8USaBg4yBoXpMaJndmIuawK9cIj1Fud_lR7GRvT7AcKX0WjG3n0I8Hof-1MM9ThczIgrXPTl0WYsuVWjFw",
+                    "AZLasHpiGIiJwaDGpHM5JKDZS83eHdWHy_EDBlhy1G3jfAyq334QP0QgJ38gxHmSnFe7h4Up_JH7aFaNUF1w9cAAP8S9Z0lTwz0mEcU60cY-YycjQSfni1ARcprCaehGrgqgEsHrZodCUfEHd0tDdXBljodnuIOPvHybSQeofn3KB_ZuGgcxdA3zDA3IK67v5Fb0Qhmc-YL6R-gcPqI_6sv8A12VT9m5yTq_ksswAvM4y0uQow2UuhZ9F4tsq-UFiLX2PfWTSYAP-r7TXIhXGzldh7jx5orwW2rp5flSiX3vT1vHhJ3eYfjvuX6TSdqIeOikOY84tYFvQhKb0Vab67-9Qw1q_7FqcJ6hSHdlifjUjjIvpUMxZ_ASrNwVO2CTjWdxZDlLYlWL5_NBClij3o5SRLptNsoXyJZvTJIt6VmxFgFheuU",
+                    "AZLasHrBeBH9JzizhoqgA8e1nWCFGzQpof8W36AWabRQa2yDHGsrZz95EwbDjJocwy_KeBuxuEPlv_mwbZG2fLV62fcrrNQXtB9_fMb2Py5dta9tzM0vWXZgtfvBfZ2K2CqTCZ6ON9DyC5Rv7_NsBb92zKmhLez11ZhDGjT-eWcK5u51Bfq4EJW_3XgyzeSvk062A3QPzv9jRKUtpfQXy2vuNF17V-uncvz4I4OjZgPlhD2ZKW9GlUzwl7Pmb3dkzbrpcCVEypxRX7vrQiRn6CTA-MC6xlVq74apOg4o9ucTlw45W1xQrWXBspthxZgCZEmib2AVcFxmCrZxevNy5rte82vSChQdnZjyBXFIsG5FuoQQex331h0ackYNLVPj5qP4Ah0BsF1aw2o-Hc6LSgHls_9Nsr-xSN8snYB_Kr_TtqU8ptf0",
+                    "AZLasHrQStuh6kgJRfYsgE8KqJXJlF67whB0A4E1yciD9126bghlCmd6LK923fJ5boKQsVsPkcnLW6HbFY7rwsFWLkfNp3EoID8TslKCTqjCNqWQFStQgqxZpkLhtgPju7YEE35jmtP5m8hM9apzOGXVAZohTXOfIXQJ3e9WtVOjEKlVVtS9SmV4wtTJHBd4KilR-Oyqjd4dRHmui6-1D_XvMZVduyzrGgpVcvoNnI4F_CtcX6QiYZBE8l6SDP8w3EZVRIBBc4e4ZmXpPhpmOBn7HF31ENDTa8Fmw-usUcpVHVlmAID0CPdel3gVukom6c1ez6HntE3zNWA9_gvy4Z45_UIhCGx4-vNuWGwvDXK4yGy1E1u5UVfyiYrrbF9RNMXp-NHql-s79GjJIClYi4y5Fpxf-Um_w1pg2f1Hvf9951D48g",
+                    "AZLasHoEsdlyWOqU2XLWqerS6mXZ61GjKpZS01VPihtftsW_Rq6gFcrNJ1EC_N0Z9zhsm1BF4gGeWWcQJHgXdX75UnBcERFR_8zaAh4BLJDe4OFDJEJ8nlv-Y76vOM5c2NAsmQf8zoRdzkZyYHbg8bR9IoUJv7ElPoRLiD3jn5W8m5gdkFxqUSPmQ_0W0MgBw0WRpaMR7FwXR7pGwyAEOdA-R3IRyHdSAXv2oLDBZ3EIrCXT4fvY5_7O6h-mAg70CElwJnu0GmpEw0n15w5nu06O03VsSW8hDQ1mNZZmkTatD8SVVdbZerxLT_GDSZMAxRAofTG2QVOFUr5nzf4MJ7-yp0tJpZysudImSqD1nJcuWBOv1wHdljCV6gzmZ59ufwPyF5h9Xg3foikFurmGj_TnjdUzcgg5WKytJuPI-uD4ZsSNfA"
+                ],
+                "review_texts": [
+                    "☆全国一宮神社参拝☆\n☆式内社二十二社☆\n25.12.29 奈良県下市町にある丹生川上神社三社の一つ。境内に無料の参拝者駐車場があるが4〜5台しかスペースがないので、混んでいる時は待つことになることもある。\n\n拝殿から本殿への屋根付木造階段を眺めて参拝。雨の神を祀る神社として古くから雨乞いや雨止の祈祷が行われ、絵馬の起源ともなった、雨を祈る時には黒馬、晴れを祈る時は白馬を奉納された神社。私が参拝した時には境内に白馬がいたので旅行中一度も雨にあたることはなかった。\n\n境内には丹生川に流す人形祓いもやっていた。何事も水に流すことが大切だ。",
+                    "丹生川上神社⛩️3社巡りのラストはこちら！\n平日の夕方に伺ったので、参拝される方も少数で、少ない駐車場も空いているし、境内も人がいないので、ゆっくり参拝できました🙌\n神馬🐴さんは中社、上社に出張されている事もあるそうなので、確認しておく事をお勧めします。\n\n拝殿の奥の階段を登った先の本殿が気になりすぎます😊いつか行ってみたい！\n\n下社は、日本最古の水神である「闇龗神（くらおかみのかみ）」や「罔象女神（みづはのめのかみ）」を祀っているため、水の恵みや雨に関するご利益があるそうです！\nちょうど雨が降りそうな天気だったので、歓迎してくれたのでしょうか？",
+                    "2025/8/9(土)参拝\n近畿地方二十二社巡りのうち、今回は丹生川上神社三社巡りです。\n9:20に駐車場到着し、鳥居に向かうといきなり白馬に遭遇。\nエリア中心部で朝ごはん中でしたが、風格がありとても綺麗な神馬さんでした！\nひと通りお参りを済ませて、社務所に向かいましたがまだ開いていません。\n近くに馬のお世話の方がいらしたので声を掛けさせていただいたところ、神職さんに代わって神社の由縁や色々な話をして下さいました。\n(他の神社と一直線に並んでいる理由など)\nそうしているとまもなく神職さんもおいでになり無事に御朱印を頂くことができました。\nありがとうございました！",
+                    "丹生川上三社詣りで少し離れた所にある丹生川上神社下社\n拝殿から神殿までの勾配のキツい高さは横から見ても圧巻。\n昔の人達はどの様にして造られたのかと考えてしまう。\n\n境内は待ち時間なしですんなり入る事が出来て、御朱印も頂けます。",
+                    "初めましての神社でした。お天気は曇り空で少し残念でしたが、綺麗にされていて、気持ち良く参拝させていただきました。大抵の神社は、神馬の銅像がありますが、本当に馬がいて、嬉しい驚きでした。"
+                ]
+            },
+            {
+                "place_id": "ChIJO3yg50bABmARv8JZy0oLWGY",
+                "order": 2,
+                "name": "橘寺",
+                "location": {
+                    "lat": 34.2695578,
+                    "lng": 135.8792985
+                },
+                "info": "聖徳太子生誕の地と伝えられる古刹で、静寂に包まれた境内で悠久の歴史を感じられます。二面石など見どころも多く、飛鳥寺からも近い場所にあります。この周辺で昼食やカフェ休憩をお楽しみいただけます。",
+                "activity": "境内散策、本堂参拝、聖徳太子ゆかりの地巡り、昼食・カフェ休憩",
+                "transport_mode": "車",
+                "photo_references": [
+                    "AZLasHrHrD4QIst3zv_hSlGmomSsaUhUC1_zLQzlNeu1VYQ0UD39DSd4tCppLJn-4yDiTo0eFZbmXXBm03N4m238LNNo88Xoq8q58xG9UR5bqfb3va90TsPl9KCTZTzMd4PDsYUbDaO2U2Sjxn4BJMaAJyP8ddVyJtLisuujbPRJXNQb2ImwwPEIxp7kYMG2lLjmBQ-o4lb4s6LBFaTaNX-8N9vQR8acOpTYIbMNso3LItJC4S6q5_vtFDkkUNyPCVBGywgkW6S7EeN0Cy8HUI0x1_PYpJl0UuErw4hVOZatzQmfdpiH8rJRNGDGbudTeLYT9ODUUBlohy4vBntod685GeeOH5h81Y_0Pe2Bksezxp21kK0xmuD5O42U3ECwuhAmCsfaN6jPeuuIalsm2iX8CoeQoc1FREw37Wjc3uAY-T8",
+                    "AZLasHqQLKoes_k61P4y_EuynkgAqckLk5Pz5h71DfKy1K5ugG0cmLUSUtzMzxiNYumblP3jHAu87LV0fUf93mhCRU8O1fZK2gJzbABRHq4FEOoVfEcClqg4l1nsaWIwd1tay1WbyYsxeqSduBrnqCa4XNzH05-rmHljyrMSQGkCqSZ0IDW2YOfYe3DqhlA319UXY-0Q3wOf-8cXNO_q_GIKf9R2g5gF0ZI4R_B8ShgX4_KwwZjl8TC5x5ytJURPgppaCVPPk88avTUfzy9t1ClX76leksmEtWaB2b9E7ZYDJ_oVt6sJ1i0r57jrAeMNz6Va0lAvSldGb8wn3Re3BDwo7_rV83dtTVy__6M9GIy79Gazpc6KOMxKhJ7jsngatgYSmKKVB-BhfCoYpBAEzNurwaG73vzo9O_m3WFseJK8AIdaZqQ5",
+                    "AZLasHpT4o1j7zN-uRAS2Z9As2QBxRdd2Mi2PuhVVfvBgoKEuA5EQ9n0uCzMSBxtaLVmji4V2M7ff06IjahkvifLQB222Dhw5Fcjsq3oBEp8MXx3nCMRrLPdsyXvsVUxHySrmj904JSsYc-c7x_Lh2VwU7a3_OpFww9zibhh_co9ex1UmlhC1fB_O4T2kVlw1PI8TUgmt8y_Dz_ssziByZGpg7HjbmDtfKojOBL5CI6fPSXURGaqt5QgIpvOW1fH4qloeXqFaUQPoLlj9YgSF5SoPw-YCPpwSrTyEkGW0eaL1EqK45NkSdOZ1CApbrWLC7wN3zH9zNp1BivT62v5gDU32X6EcG84q9HA_oFYoKPm-kYPbya7D9_b23GW9PXvgVbgZNKPy4-9-5gT3nKggakIhqsBU87GCIbc2qZumcnd7Oh81w",
+                    "AZLasHpam0mfp83O6VoCWE8rWv3LyUTX3rcKWe-r4k82lsvZe9UrXF31lAxH_tGDfJBU80IvEDSpk0DprLl84LeTTzQSpnv-S44jWwmGkolieHEqUsRn9fu1PN5Gqd-skb7Q6d3fC30brEuwaVn81xwtgFD0uBSkpwei7q9vBJlkXjErZNwB5HKSgKcMygdZA7E-xW69L2W65ykZ4a0tMTN58lH__QpcovYapHFwlDrPqIB3PG2-tqlm9FMC8mg8g5OrU2K9_egU0bU83okKOfPBSqhdOzOIEDrMLi3NuXNo3KUgdVQw9NcjpHeRbyTnFemvSTuWl7YeBgGevdnmlGSIPkTO4Vnr3MxFdrCNO_6j4rEBWbZK8aJLAOj2iIYKqEjbhQkGsUV1d-GoCRtQ0ooB7HyALza-ZoAPJyS2M29nKoh-AA",
+                    "AZLasHoKU5NlOBmx9L98eMaUBLA6xKbIFNtJy1xmMT4X1NEVJAMnpXCGXstw-JcANpQf3W55O8-oAW2JgzycLQ_ubWl3UJ-mvPIX9e4HVYhBXxSrtaliffw8plufF604nTQzuGF7Tut73mKPsMnfK2_C_3uxPN3uDE8WSvEHRF4QTspKYrjhOyPIotT3yU1DHDB52wjrWaY63g6mJIzd3W5g4scMFDFj5n2kw-1bPTWBAKN0B3Bu6-u273kDyB849oqhbJVS0pdNGeh4vFyDUMmR7wkuJ238fpclk3IxvZju4jR6XUbuHystwO2on5Y4mw0SA4r9ugg6PdAsAwHANbK9YfD3jaoTG14RMFqXjxp6kj2xCsCHr_z_zPWN5BJuRHitwe52m2wEvSmBVlbYTNa4mkXW0AGeovkv_15ee9lUDAX2ynx93T7k6kHvNwazzlUx",
+                    "AZLasHofjOk8iBtgNnH-bYJ4p32x0QtTHJRguygRm_1LpFSgpd9-3xXAfhe1gBoZlLlu-NNWsDC9nlQ3MlQVewE9vh5ArmN-EjEKd8zR6TYhb81D4K__Ps2eDowoUdJwsKieXX9qGnfN_dEXLukXTcscQSfQPiz7qgSvq9mGerJycUmVrCAkYOaZbrh9SrnJtNHPcuh_CSuRx8WLnlv1Kls9umicPCuH9g0xQU7h64fjLWfWmer3IGkGCGtgxTYlqhD7BoWwt_2nFGH_a9rQKsmJXIiofSgtxw7vhaL-ACCwuehe4O_rIFF5_g5SSngSmW8s4d_2DW55lYLjKXYIq20leOOhJfOPBKq8l0WeZNhacsMwGh7hyJzO-t5VpljRzhwbejtBuIGjKB8Od8duXZmUinUQDx5eaKii02tDpbasjkJirOTZ",
+                    "AZLasHpKJ4rdG6RCkeAxB2XPSCe9FpmNvFzojqsrZAlyNtdntAonW22ozeAijLSBUTpOZ1Hbrm8W_pm4R-3TTBqkWoo6MTbzrr1MBEW1Jwe6mQRImFBZlJrlFqz35XNTYcrisxQ5q3QPOENiCSIgkDTgLPcXFrDENyNjC8RrPi0Uf00gB1ukEdfRmUAmuAp1Y01JynpRudGv_hk4wpleiWZ7JYC3P8VeYm18toGsMKLkE6ipMA08EE7dXCwABSkJwT3jCRogqYQfDrmKgZOfPjwJPBN7O8BjHLTXGpii7NVvi-D7sUYgjuGprfbIwAuTHMPBB-7954rhyMatiP8YjGoUUTdw1fLipkhkrIbdfQUXdlvQmywM4rhSoyfPhvH3LReO2nTs5NWeUhvyv0GQJ2C3PDBzOK1lNS0zoNWOOWGQTgCsjBvJ",
+                    "AZLasHrJWUygYCCk2GdsUZKrbmYseZbgoqQ8baSHtVNAlhtzH1knJSZjPO77LPGXLf_p-vGaY566KO5T6uCsgwU2y5CieEL5R4lg31WjJkAHeNgKh7c2Oz5YoOTnhMUuT4_aP3H3J_0ezkulITFNaxeqhfBTon_2jmE5-aikiuKlpEGN52Ec2jcuKkodXQvUElApAyTVli6ZCVp0pnE2RFVVog5tdJZyj1Z7TgQtuBSLbsUsMPRIXkpzqeI3T_0nSrnVJE_T2nXiWQZv4hux0G-sdOa3-vocNTRooJA6gWshqC-ZElEvKsh3te1Hnv3e9W9z8VCUa_56gDnufBtcplBWrOGDeU1Tno2pJeYoYYfgOydr7ixmgGdVgx_kowvXPZlgHIH1naSD3FusNoow46bFgUXHOM1bWKv9IWOFDq7BFCDxZ7gp",
+                    "AZLasHqKtVyd5-w-jRKBNNHmwiAXUULY3nK2RpLt7RtmyHjz4Tic2LOXMqnl-6QhnpNPYiqURS1peKsGr-tg_vPq7O2wUa1Q1ZXYa3FTdLb6ak8LpHIT6dA0Q-1-H5unWzSC0LzmpgszxXj3pAkcpeKzX9v4uM6r4ypz_x4I6S_mQCrSHEUMo5WjYOd8zG_WnGmAB53YFPv3_AvehuyFpgCLWq7gdQeKg_EYt2fUNb4KrQUS35CKXC5CFWp7Z-8ptZwO5MqO4Y20itcNtTaiXTFKhLg79s7fyQzLqEqmT8n7k6CnmzIMYoxE9UV2kZxNYXIAN2iRu9__JLtX6_1hFhAl01VPCDrGkrml6J-YbD-HVxv9ZulgGINYezZ20KnU9SlDsvhBluIjGIlVVZ1GiGAcnXqGVux6WqphKE9wy2yu2Np0pA",
+                    "AZLasHpcEKMgWbMmsW9JHROfVeri5eeayAOJw7FOj47q3vMB0SsIQMJLnurdoDVNGa-q7HBvwp2rdZ_F66gyO5hjet4CuzaVA8LbFW6rCJUrm8981Erj79tlty4P6WnQWKCaVj-kaziDkB9tWm6ZAs3ipPD5EN-wP08H4U2ahRyRpsIKzeG2g_zG25n-tOj7sKjC2WRd5enSmchoU55U5R1oBN6D568E2HmibEA5wnc8QbXArVCGNzsw2WpVpDblrmEI3pNwWviYv1wyNUmah4b61JcPGVKac-Ye5rBhYpkfcAEKZew2Mecyv2VfzfVzVoOyFpha1FSFRYjjZSq3TV8l4al8v5ew4MYeNkS6DeEp9NMOgBD92dQZWqSufiQe3e_iYdI8q4NFa3SGTGpvu_wkQgxvcChz44jYQ4iV9EhcnRrGSA"
+                ],
+                "review_texts": [
+                    "秋の紅葉が美しい場所\n龍も名前がつくだけあって、龍を祀っています。\n龍が描かれた天井も圧巻\n\n駐車場は空いていればお寺のところに無料で停められます。\n写真を撮りに来られてる方が大勢います。",
+                    "いろんな神社仏閣を巡ってるが、龍泉寺の境内ほど美しい調和を魅せてくれる寺はない、と思わせてくれる春の桜🌸と晩秋の紅葉🍁時は、圧巻なので毎年その姿を見に来てるが、飽きることはない。\n今回は、紅葉前の「青モミジ」を観に来たが、これもまた口が塞がらないほどの絶景なり☝️⭕",
+                    "ここは池が本当に綺麗！\n池にイワナが泳いでるのに驚き🫢\n滝行もできる模様。\n炭治郎がねずこを背負っていた箱に似たモノを背負っている像がありました。",
+                    "龍泉寺さん\nこの度は お許しくださり 参拝させて頂きました\n思っていた以上に 境内は広く かなりの水量が湧き出る清水 そして池\n本堂 小堂と 時間を忘れ散策させて頂きました\n所々に龍 龍神様が\n滝行も行われている 様です\n寺務所に伺わせていただき\n御朱印を頂戴させて頂く際に\n美味しいお茶を ご馳走になりました。\n御朱印ですが\n八大龍王 龍神様が月替りで変わる様です\n６月の ば難陀竜王 を頂いたのですが\n八大龍王全て お会い出来る事が\n楽しみですね\n\n暑い中の お茶は大変美味しかったです\nご馳走になりました。\n合掌\n\nまた\n伺わせていただきます",
+                    "とても綺麗なお寺だと思いました。真っ赤な紅葉になったらもう一度足を運んでみたいですね。かりがね橋も見てきたのでついでに載せておきます。"
+                ]
+            },
+            {
+                "place_id": "ChIJk_jnIKnBBmAR2RseGwTDSwI",
+                "order": 3,
+                "name": "飛鳥寺",
+                "location": {
+                    "lat": 34.2675615,
+                    "lng": 135.8760522
+                },
+                "info": "日本で初めて創建された本格的な仏教寺院であり、飛鳥大仏として知られる日本最古の仏像が安置されています。歴史の教科書に出てくる場所で、悠久の時を感じられます。",
+                "activity": "本堂参拝、飛鳥大仏鑑賞、古代の伽藍跡散策",
+                "transport_mode": "徒歩",
+                "photo_references": [
+                    "AZLasHpeHHE8T3BxCxEGjVO9iLuRMUTPchkmhCONu4iNHJvJv2yv6NHmyfDUIY3D3hEjOEHBRJSf4giWgRF5Yfg1G6oAaTvadAxauSg2i4C7aRkWEr2duee-TnQMN9rJAbuCu-nyKByBntybUUgSy-Ki-8u1K4LpIkvNf2Dq0xcXzqHT6NTfZGvFsszKf64KGAAPHabD0Asr9N_9c75HIkp-QQ-5_GMnzzpW8gUtBS4JZLGSc9MYIpzNcug2Lmkb4nJEMlyHHnDaRg5xC-A0rueZAQxfJ8YA9wjzdQqvIvqEum7ATyRf6EX_vC-cv7oybHUAv6qtIRhyce9bQwCctOo3Z8C4VC0N-5S8sx3_uV9BhpzxoLs7_d2fe4x-geRfU-ybyUVvbr9EQj6bfJLouXrvY8Hd3wwCsjmmP5eeCMqIV-iK-A",
+                    "AZLasHo6zMrhVvjYW6PPxac6KYRZugWBv7MJISTLvsD3yeztZ-eVcxuOSbdSa4nbHfGenx78r3ok_RrZvWGfR7c8zjifNKIE3XnytSC0Asr7tV7sPw8cFeiEypAl_Fzd4M74U43Vfxt6HrgbJLalCuvQfWEAigDGORrJ8xF9cV3BnB4coNDKl5LTqaUmQhYUFptTz_fdLdVyNwHeqgKiQfcWMdbeBc-rrVwW-M277G9mSfRoCOpdwwRhHjmaiio1dsknUIsIooXaGysQkr123BAIwjWqxnwk10U8V4cFLiVGowfUN0gwAXIzZe-5RPntNNnXnj1RMLgmEJn8hfUMvzB3D8LauR3oVMMXVXKsPHQZyhJbHlqP-Pnq-Scra0p4cM0p35zkHev1hdVORAduW9zHVQVepp5LysD8u_j_jVvQZUidwqSL",
+                    "AZLasHoqO-oxrgftDkHB62SV4zKgQvxomfMsFIEl91bGQL6ui0z3mKj43_cPz-kjBlYdkBgtt4fpTnXuBvQPMi5p7ko5hWX-YR-FDeoln69RzXyp9RAS1H-qZMKdS7ouu5ldt8JIFlFH3Xp8K2vZsIgFd2Cy_vWOwIMAzNsFi9jzTTeI-2iJF6BkV-ADJM03xzGaFn7oKd1WNEQa63dVsyhfi29TOgw7FycDPMPXxeCEACjaFGXMskdyA1o-Fwg5XUxxAjgd00LvuGITWOJCgk38GDnK8nonDNZoudcAu3tykd2a-R6XdF4kNRzmH34JMdROqikcm4nfL5YjB8YwA3UQ-mErr4jLRXv1dTLYHgYfxZPD5pFHjpTsPRzCskdyKq9MGDDb-8hXNnCbI9xNa8naQbKUKf47fnC6sFZ9LBB1ekLvsALvGv0xsB1tkk_qx2zP",
+                    "AZLasHpA5l7dBctx4z99TOlUn08EGgyw4NTqsrjWK2ZVm5ES8sWbLAMGpptD_TI3kugGhwNZseYYgwgXrTwNqx6jE1cES_I4bx1iYI5GNCEd7b0ie23cZjBuFZlsn78SLgOsyVZP2GuL1VaXnW_yq3w13jkNfpbJwuG2TiuAxRE5DYqFzRS_5TrU7geHrQb6N7fwxU7zgic_LjcPpTQshb25Duuq_ZSRgsst_EnO2V8Ovz_70LGD8ibJG5zP0vTpuYDek7esk-4WJm7SlvdQ95p7oXWpdp734pyCUT4Obew_1wiXPyFwcnoMHXYPOcdWkOlIc9symS32oRdwrkvEwkJkRo6Ou1E-gIVU7tK44KiFJW6KgLXkN2eXd89Pf1Z-gZ1GUZM_DtOGDsM-CwBlOeQToON2SfYw2gSTJjp4YFfNWEiS7VzZTmT1jL8h2Wr1_qEN",
+                    "AZLasHr3N86jZgKkgqehzOrtwwVWf1XyGxJSERT8a3GEpXRY8LCsT65JJFeqjd0yiDwoz4skvLzD1LigiBp0xYEr2utvbO6AHdtUhdTmX-Ojidnn0-FYxPvHmZoDM3PRchowciVhjCG2vXp1qjS_HCQ7LdEWKUoVcrmTNGIcGn5y2TpAb_c_YJ19pNcDGUJe8F76GCazzpa0ttVd2d8iGwX7T8eERqdPiYcnr0mq_2-FH-rW53kvfyZvXGiPUe-dSWyd35xdVYAok1Aa4Jins9Qe2A_I30gAGAbrKO87nL_UhpKQ0x4AaY4iVCzm29UtGCqaKOHidrcWjGqJdtd-mqHLbu1kBEZXT9fzIjs4dL6XXts7UppP1-NohYYVBQvzZH-BHqnljg-eaF36awx33sQbOgxrChGmb9tLCBQMbglqLM20ifA",
+                    "AZLasHrm3YpyttMS2IxThQqAQEOH9KecG7is3fi1GuHccRzCw4mhKSq8aurZGvd9t6p6VrygddnByRiHm5-58FB5Aicq2Z23uTbWath828NuTHN0O2WJOh5awrYuCGw_iOG0E-gi1eDO_NhGPGjBujZ02rJtCO_6CkwvAAniCgwrLOyONWoWrkaxc8c-mmT468kmpc90rWUn78jiiPHS-scRInwTv_cf4Gba1wpEAdw8hagBAUP6JxiQpyCr0vHz3cR1zdPsN497zMvKPTUnF-jDVyWuobKpdPlhVA4TU-cLnTbCtxGmmPTTcskQhF7fl7j8wZibtiAkYL3Htwq3WdaJNi1_GltBwPX8utJIyhRw3MIVEPmuXmKaGdrCs-2pdS_pBI62pbzXrXr--oZA8FwsZwgHX2uILCDTq5DiO9tpft5oMQ",
+                    "AZLasHpq7HO4tJMokJkHSiwxkFbLxyDX-d9a_cAoKCjbPwhDa1fi_uJcL2ewwIJ8hxhMOQiOPNJ2POHsC8TDV2bryWLRYQ7RzNG6bLonnrFVW9hG6KrBZ6azxgaDym3XPyO_5dQHpg8gZ3624fjoUCccbKWEOMRtdditoRj71wI8YWWK58hdFJirgcg-FqGxn27_tn7D0oUwXo6AZtQpVhcSHL40aqnnNCXWISLfhNHlXr9adkvTu0rlM2NpiURZMhgt9upxrSHoRv8uVeBFkMX41MRrGgbADnLwDADevJ8e2xU7DeBAHjIPfNS0OySzxSn-FjA7fTfhmVsfkarix0RfurMKkAYG_P6ZDYYBZSdJMfmsNoYHFXFIxrm-bomQl6YHG6bSa1SXZaRnF7lImuZV1N7qgXTQMjk199ePs-pLtvopy-i_Km68AAvEZDGqrTjK",
+                    "AZLasHrqr1hyCMIGoTnZ52kM2fvQT5In9i2VjXPz-DqXCj0fB43mGt_QGdqrswuvoW0T9orzx-fdw8bDKDLtJV_KZrVGPWLuuOdU4MNoDWpjlNRDMAdRzSCUhySZu4nYCIWLpf96qthrMuU1YOmEkvP9aVhkDWCVO5nfO3147btGdf7lXk7DUYZJcZNqI67NC1LdORLUcrIYuk6lEoLr3dIbd8tYEA1_bf-rn9qzdJatOvrU5-9F6Ku_S0ro8gs6n7DY9kEkC51gMOimKy3eqQfhrg97rlAh5z9YLDrYq40SaRZaFfxqftLPZHeguVCwrGD0XJHg3VAvSQVnUTIRrbshRV8dLt2SqvE7L3CNUveJdbpUjPu723ukyybH2dxThCpfqRujajWAd0EID1hJziHDdc_gedRi8rITOESj4copdK3W_mY9",
+                    "AZLasHqPlL_qCS9vu88Ap8x4hNWGI_pIMSVACkkBAgOsurUksCslNMUgfsHb9OdrFFcJRqjS40fuIUeXSjB29X92ClWSQQ09WwPbtee2ZSwiRos9CE1lIgj849CUb88u2NcTocaKxLNMZJycLy_7yQLXwOeRfT1vjCvrCN8xOLcl1cnYxahiNSZ6T3NQhK6PDebgdcIljgP7VP3vOyE1rZ8BNcFgRt1CBaIdhXecHoJaCfDcRiBXhqkG_gOG7bSvkXVQQBUnKKgVlKjQtPuj2lDQccBI6axi8j_PUABr1Hpw8t1RETlSd0_0hJ9zAszjh2f_2HANHUbDAdpIwBzWGgNs0uSgaASVZMyWUx-wvbzrfXF_rscXGztJegXCiSnkWPjeRXE53Ulcdg20hqF3krELh39HdUAMHKncXimqY93tDDXHe0Ik5A8k1kdk80sw9nP2",
+                    "AZLasHqBnONsAQU8rhTGV36Zt8w89XiBRCPuRJxem8K-e-W22RT1_8ptcLkKhIpeGC9NyNcsb2C8QmaZjito8jFxJ-jAPkFIW53kOeox3hrR1t9y23wFtnNJ5tiG68Ss0a1oqAU2hXgf715th6osyV9wHSe2Hq5WnGqc-UgyrdBTqkJSoiKmZD6rP0-hw8BHZKji2VLN0cZz_fiB8pAXck9kjgBZJzDfMvOKhzl8o60er0-LPL9NUIxIEqGQEJC3ODCyby36OPD4vKtpsNzwjjwFrhSUDopy8e6rbJ3kWrUJAWKQWpxkp3C4j8e8Vx-a-ft11WJQfhYMpfXPtHlj8TdeP-HnsTryvfx8XLma6wgd_o8ABLvVhNP8Hj3KrLAiA7UMLC2XHrs9GWBULHpbbqSWPkdz_8CxTRlvu48v5tQK7unJ0Q"
+                ],
+                "review_texts": [
+                    "面不動鍾乳洞は、洞川の澄んだ空気と切り立った山々に包まれた場所にひっそりと佇んでいて、入った瞬間に温度も空気もガラッと変わる独特の世界観がある。洞内は一年を通してひんやりしていて、外がどれだけ暑くても別世界のよう。照明に照らされた鍾乳石は形も色もバラバラで、自然が長い時間をかけて作り上げた造形美がそのまま目の前に広がっている。細い通路を抜けたり、天井の低い場所で少し身をかがめたりしながら進んでいく感じが探検気分を刺激してくれる。\n特に奥に進むにつれて空気の静けさが際立ち、外の音がすっと消えて、自分の呼吸だけが響くような瞬間がある。この独特の静寂は鍾乳洞ならではで、どこか神秘的な気持ちになる。洞川の自然と相まって、ただの観光地というより“心の奥まで入ってくる体験型スポット”と言える。面不動モノレールで山上まで登り、そのまま鍾乳洞に入る流れは特に良く、外の紅葉や景色の美しさと、洞内の冷たく静かな空気のギャップが印象に残る。\n派手な演出があるわけではないけど、自然そのものの迫力がしっかり味わえて、行ってよかったと思える場所。洞川の旅を締めるにはちょうどいい“深呼吸できるスポット”やと思う。",
+                    "面不動鍾乳洞\n\n鍾乳洞内は9月末だが結構寒い。\nコースとしては10〜15分ぐらいで回れるので\n上着いるかと思ったが\nギリギリ寒くならずに出口へ着いた。\n冷え性は用意した方がよき。\n\n土曜日なので人が多く道も狭いので\nゆっくり回るのはあんまり出来なかったので\n平日に来るのが個人的には良いと思った。\n\nただ自然が作り出す鍾乳石には\nテンション上がりました。",
+                    "鍾乳洞への登り口にある無料駐車場が少し分かりにくかったですが、その後はモノレールの乗り場まで迷うことなくたどり着けました。\n程よいサイズの鍾乳洞でサクッと楽しめます。ただ、雨上がりはツルツル滑りそうで要注意かもです。\n洞川温泉から大峰山系の眺めも絶景でした～✨️\n帰りはモノレールを使わず、歩いて帰っても良いかもです。",
+                    "夏休みの平日に涼を求めて、生まれて初めての鍾乳洞へ。\n山頂の鍾乳洞へは徒歩でも行けますが、\nトロッコの乗車を強くおすすめします。\n往復をチケットを是非！\nけっこうな急勾配なので、スリルがありました。\nなんといっても町並みや山の景色が美しい。\n快晴の日は最高です。\n乗車中何度もカメラをとりました。\n\n鍾乳洞は、ライトアップがされていて\nちょっとした冒険感が味わえる幻想的な空間です。\nなにより涼しい！！出た頃には身体がすっかり冷え切ってました。\n鍾乳洞って神秘的ですね〜。\n子どもから大人まで楽しめる場所だと思います。\n行く価値はおおいにあります。\n\n素敵な一日でした。\nありがとうございました。",
+                    "面不動鍾乳洞は、まるで地底の美術館のような場所でした。入り口をくぐると、ひんやりとした空気に包まれて、一気に別世界へ。中はライトアップされていて、鍾乳石のひとつひとつが幻想的に浮かび上がります。自然が何千年もかけて作り上げた造形美に、ただただ見とれてしまいました。"
+                ]
+            }
+        ],
+        "estimated_duration_hours": 4.9,
+        "summary": "聖徳太子ゆかりの地や、美しい石仏で知られる古刹を巡り、日本の古代史と仏教文化の深さに触れる旅です。美しい風景の中で心安らぐ時間をお過ごしいただけます。車での移動と飛鳥地域での散策を組み合わせた、効率的で満足度の高いプランです。",
+        "theme": "歴史探訪と癒し"
+    }
+]
