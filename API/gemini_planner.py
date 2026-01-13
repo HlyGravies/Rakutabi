@@ -625,7 +625,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 # --- 1. CONFIG KEY ---
 try:
     # ⚠️ THAY KEY CỦA BẠN VÀO ĐÂY
-    api_key = "AIzaSyARcToEGbIkixJtCAaxSdmTYgwJu-PbJyM" 
+    api_key = "AIzaSyCHOx76pYhevTejtc2mPWetXqYcARkg1Io" 
     
     if api_key: 
         genai.configure(api_key=api_key)
@@ -698,24 +698,76 @@ def create_trip_plan_from_file(places_input_filepath: str, user_location_dict: d
         photo_lookup, review_lookup = create_lookup_maps(original_places_data)
 
         # --- PROMPT: CHỈ YÊU CẦU 1 PLAN ---
-        prompt = f"""
-        あなたはプロの旅行ガイドです。
-        ユーザーの現在地: {user_location_dict}
-        希望所要時間: "{requested_duration_text}"
+        # prompt = f"""
+        # あなたはプロの旅行ガイドです。
+        # ユーザーの現在地: {user_location_dict}
+        # 希望所要時間: "{requested_duration_text}"
         
-        以下の提供された場所データ（JSON）のみを使用して、最適な観光プランを **1つだけ** 作成してください。
+        # 以下の提供された場所データ（JSON）のみを使用して、最適な観光プランを **1つだけ** 作成してください。
 
-        【要件】
-        1. 移動順序が論理的で効率的であること。
-        2. 各場所の `place_id` を必ず含めること。
-        3. `estimated_duration_hours` は数値で出力すること（例: 4.5）。
-        4. 出力言語は **日本語** です。
-        5. `plan_title`（プラン名）、`theme`（テーマ）、`activity`（活動内容）、`info`（説明）、`summary`（概要）は魅力的で自然な日本語で記述してください。
-        """
-        # --- SCHEMA (GIỮ FORMAT ARRAY ĐỂ KHỚP CODE CŨ) ---
+        # 【要件】
+        # 1. 移動順序が論理的で効率的であること。
+        # 2. 各場所の `place_id` を必ず含めること。
+        # 3. `estimated_duration_hours` は数値で出力すること（例: 4.5）。
+        # 4. 出力言語は **日本語** です。
+        # 5. `plan_title`（プラン名）、`theme`（テーマ）、`activity`（活動内容）、`info`（説明）、`summary`（概要）は魅力的で自然な日本語で記述してください。
+        # """
+        # # --- SCHEMA (GIỮ FORMAT ARRAY ĐỂ KHỚP CODE CŨ) ---
+        # single_plan_schema = {
+        #     "type": "object",
+        #     "properties": {
+        #         "plan_title": {"type": "string"},
+        #         "theme": {"type": "string"},
+        #         "estimated_duration_hours": {"type": "number"},
+        #         "waypoints": {
+        #             "type": "array",
+        #             "items": {
+        #                 "type": "object",
+        #                 "properties": {
+        #                     "place_id": {"type": "string"}, 
+        #                     "order": {"type": "integer"},
+        #                     "name": {"type": "string"},
+        #                     "activity": {"type": "string"},
+        #                     "location": {
+        #                         "type": "object",
+        #                         "properties": {"lat": {"type": "number"}, "lng": {"type": "number"}}
+        #                     },
+        #                     "info": {"type": "string"},
+        #                     "transport_mode": {"type": "string"}
+        #                 },
+        #                 "required": ["place_id", "order", "name", "location", "info"]
+        #             }
+        #         },
+        #         "summary": {"type": "string"}
+        #     },
+        #     "required": ["plan_title", "waypoints", "estimated_duration_hours"]
+        # }
+        prompt = f"""
+            あなたはプロの旅行ガイドです。
+            ユーザーの現在地: {user_location_dict}
+            希望所要時間: "{requested_duration_text}"
+            
+            以下の提供された場所データ（JSON）のみを使用して、最適な観光プランを **1つだけ** 作成してください。
+
+            【要件】
+            1. 移動順序が論理的で効率的であること。
+            2. 各場所の `place_id` を必ず含めること。
+            3. `estimated_duration_hours` は数値で出力すること（例: 4.5）。
+            4. 出力言語は **日本語** です。
+            5. `region_name` には、このプランの全スポットが含まれる「都市名」または「主要エリア名」を記入してください（例：新宿、大阪市、京都・嵐山）。
+            6. `plan_title`、`theme`、`activity`、`info`、`summary`は魅力的で自然な日本語で記述してください。
+            """
+
         single_plan_schema = {
             "type": "object",
             "properties": {
+                # ▼▼▼ ここを追加 ▼▼▼
+                "region_name": {
+                    "type": "string", 
+                    "description": "プラン全体が含まれる主要な都市名や地域名（例: 新宿区、大阪市、嵐山エリア）"
+                },
+                # ▲▲▲ ここまで ▲▲▲
+                
                 "plan_title": {"type": "string"},
                 "theme": {"type": "string"},
                 "estimated_duration_hours": {"type": "number"},
@@ -740,9 +792,10 @@ def create_trip_plan_from_file(places_input_filepath: str, user_location_dict: d
                 },
                 "summary": {"type": "string"}
             },
-            "required": ["plan_title", "waypoints", "estimated_duration_hours"]
+            # ▼▼▼ requiredにも region_name を追加 ▼▼▼
+            "required": ["region_name", "plan_title", "waypoints", "estimated_duration_hours"]
         }
-
+        
         generation_config = {
             "response_mime_type": "application/json",
             "response_schema": {

@@ -1,0 +1,73 @@
+[
+  {
+    "weather_info": {
+      "hour": "18:00",
+      "temperature_C": 11.28,
+      "feels_like_C": 9.69,
+      "humidity_percent": 47.0,
+      "wind_speed_kmh": 26.5,
+      "weather_condition": "clouds",
+      "uv_index": 0.2
+    },
+    "summary_level": [
+      "normal"
+    ],
+    "clothing_suggestions_jp": [
+      "ウィンドブレーカー",
+      "カジュアルウェア",
+      "普通の服"
+    ],
+    "health_warnings_jp": [
+      "強風です。寒さに注意し、ウィンドブレーカーを着てください"
+    ]
+  },
+  {
+    "weather_info": {
+      "hour": "21:00",
+      "temperature_C": 8.16,
+      "feels_like_C": 4.97,
+      "humidity_percent": 44.0,
+      "wind_speed_kmh": 20.9,
+      "weather_condition": "clouds",
+      "uv_index": 0
+    },
+    "summary_level": [
+      "cold"
+    ],
+    "clothing_suggestions_jp": [
+      "ウィンドブレーカー",
+      "コート",
+      "ジャケット",
+      "マフラー",
+      "手袋"
+    ],
+    "health_warnings_jp": [
+      "強風です。寒さに注意し、ウィンドブレーカーを着てください",
+      "風邪をひく可能性があります。暖かくしてください"
+    ]
+  },
+  {
+    "weather_info": {
+      "hour": "00:00",
+      "temperature_C": 4.98,
+      "feels_like_C": 1.39,
+      "humidity_percent": 43.0,
+      "wind_speed_kmh": 17.4,
+      "weather_condition": "clear",
+      "uv_index": 0
+    },
+    "summary_level": [
+      "cold"
+    ],
+    "clothing_suggestions_jp": [
+      "コート",
+      "ジャケット",
+      "マフラー",
+      "手袋"
+    ],
+    "health_warnings_jp": [
+      "風邪のリスク注意",
+      "風邪をひく可能性があります。暖かくしてください"
+    ]
+  }
+]

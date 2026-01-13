@@ -409,6 +409,7 @@ from werkzeug.security import generate_password_hash, check_password_hash
 from flask import Flask, request, jsonify, make_response, redirect, url_for, send_from_directory
 from flask_cors import CORS
 from pathlib import Path
+import weather_ai
 
 # --- 1. CẤU HÌNH LOGGING ---
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -804,7 +805,23 @@ def serve_gemini_json(filename): return send_from_directory(os.path.join(JSON_DI
 @app.route('/json/GoogleMapAPIResponse/<path:filename>')
 def serve_maps_json(filename): return send_from_directory(os.path.join(JSON_DIR, 'GoogleMapAPIResponse'), filename)
 
+@app.route('/api/weather', methods=['GET'])
+def handle_get_weather():
+    lat = request.args.get('lat')
+    lng = request.args.get('lng')
+    
+    if not lat or not lng:
+        return jsonify({"success": False, "message": "Thiếu tọa độ"}), 400
+        
+    try:
+        # Gọi hàm từ file weather_ai.py
+        result = weather_ai.get_weather_advice(float(lat), float(lng))
+        return jsonify(result), 200
+    except Exception as e:
+        logging.error(f"Lỗi API Weather: {e}")
+        return jsonify({"success": False, "message": str(e)}), 500
 # --- 8. CHẠY SERVER ---
+
 if __name__ == '__main__':
     init_db() 
     logging.info(f"--- SERVER RUNNING @ http://127.0.0.1:5000 ---")

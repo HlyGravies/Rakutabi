@@ -1,0 +1,104 @@
+[
+    {
+        "region_name": "新宿・歌舞伎町",
+        "plan_title": "歌舞伎町で過ごす華やかな夜：美食とエンターテイメント巡り",
+        "waypoints": [
+            {
+                "place_id": "ChIJl7-0YteMGGAREJMs1a3gWKM",
+                "order": 1,
+                "name": "歌舞伎町路地裏カフェ",
+                "location": {
+                    "lat": 35.6938101,
+                    "lng": 139.7012827
+                },
+                "info": "歌舞伎町の賑わいから少し離れた落ち着いたカフェで、夜の始まりにふさわしい一杯を。会話を楽しみながら、これからの時間を計画するのに最適です。",
+                "activity": "カフェでリラックス、夜の計画を立てる",
+                "transport_mode": "walking",
+                "photo_references": [
+                    "AcnlKN3B-XbXMBUadG79XUrI-DiJu5SDC2rF-atYM3bKxj5NvlEBW9Z_5iFinWn4QmZaMepUpeHcvFVihMe6NqmEIm6P4tzI2tH8OXgbzNZUAzA2Oi2s0P9itonloPO7bROfdlZ1eVVPRFvsM1Tj017Gxf08vPry8mvIslCf02q25vbJ63dmjB_shoO4GxjefDfJ3a9MN0FQS0UDiBBNdjmJ_ODzyPiD5n41VgozJNuT6okKB45r_NfqoWLvrDkOCxuepsCa4RaG2sL2KOj_NEOAmYCOOTYFHPEFVBaLF1ROmxDKyg",
+                    "AcnlKN17WSw1AXUkdU3r26msdundxqsX6WkJpUTgGbCfnwjnhaVlhqRZ_Wybby_8pl0k_ER13cGwpaJIO7hjpJ1D1pJm5uwXTIHVag6lQp4ZsCbD36Kv6AirUDdz1pxnRZ1PAbsecGhzeNW7qy5v2UAHvXPu06nO_s0yhhfexv_Zm0mCnf7uZk-ktZJraAUwFFORRgUIeWJ5VwQbsVNfuoAL8QUxrr2uGwlaWJ2HHJGWDyHY9F1-OWCxtQn2p_tZTboaN2JxMhOd-IeQf5xvwHFUo6vOLvID9FDIhJfNChUXdadXeW74INwpMgH-i2NsEWGCIkBu_l8rLkyeXIwDbZ1An3EAfkkTv2SvLRwYHlWokiDm6PHcpsOL06F4bUtlMYI4ihg6rW6iO8YpMx9oM1tocVODF9VpIenJUmPpqTonxIjlP_JGTn6U_1GGgbtsLQ",
+                    "AcnlKN3x_vQ3PCoANs4oHdh9sac1j0lZPejaUCSNCAe0gM-6HnEGFjfZsbhpGosvpz6At3y5gDxeHu218I0y1Kz9bEutqDdcsHxz5i12RmP8uxKRKe90J_SWZSFDOb1Xp2yZt_LPKVP7TqiPH5FqKvysCjPpFUWD2dZ3ZAubPxqu_5iISg5nOjE1ACaDmFlkyr6osXTWVWRTWI5EawCAziwLawdx0a1uMJV1WMSUbrqWzICNKVh4mqWX2G20341nDG2ZVvYNgg5X712ItDAuRSFknFIzGDJYGjTKQRwVMeyzNZ5RFU30D2I1X3V4V5KetOrQ_-_pxmHDF5dfVEXenYjDO1-34TCgD2pW8XljNvqFgiwNrWTltWv3Er0F4J9I-3x39opozvnoe-VmjPi_2hHyx-floFTmyx7Ed5SmgOSey4bBBhH8Er2uyroN9p0QyA",
+                    "AcnlKN2IiHjZIF6KOoEhBps_04tSvbWNXWSCvs0itzDJK0DCOyR0v19IMZh6mCcArNj8FDxnrdg0CZZuckMoqEvI9X5JofJY5bxihL4Y53XozZXXS18i1qqXaeM6Zef6bkK2QujR29KtxPXSGd4aNtmwsTeqchDsySNmB236EQi7hVhMP6TaZmX8KvXJSTbdxF5i6xqPyIeLE7NKYbON9gWBD7TnRSRhDSnvoiSlenzoA1vffsTSHB0SQeyHMYyhKhvXyfivk3V2DND6DAnZuMIDPeCo526C1U2w-5wc806DdZSvNFeuxkU8NhIYs09aSrtmilBVTdTBd-2mpM0rLEc01GjdkPrE8n_L4mf2dOQDUtUcE0VW5di95MQe9UpRacLupjS9Ll45xQUnjmZMkq5Yy4YmJUMdzDv7tmAOfQg5b_ss0pE",
+                    "AcnlKN06poM89RIsIcxbwqHt3uTP11RdfhxmDzZb8kWBSXLyrLqkbC2Lt6JZCXJSsoV8A7uaC92tDlmSK2Nxx_JaBcKGURu0XcaBlgp7vwEwXhG-S8svVqaO9lZUaJeoenvxRoKU7ZreDiaRIHVwbUz_zQgN97wrbMWFoD3onth3lb5scMW0PGcDqckP47JxsTUDbEs-48_5RAvXdgh1ceRO18QnYfBoMu6yP0wtckyzOxLf1JGZ2nvNxgqctzmKlcjqJ-TIr0JN9-B4AU__xMbyllGLbO16K3Y1somaus9pZTySOQwd6Ikm3HJb0DFWggjgbAVB7cukx4wJSRbb2l_CRV9_Kbsr2lxYlMvNhFWBMwd2UjtrJHoD7-VRjjk5ON1o62Wp6S1OITGXR21dc_5VT5LJW85TMZYdbGzII9Fsa0H49M9SVgh7DWnPbGap7UUI",
+                    "AcnlKN1-xK93DHTMQE78v9wqcFsFDocEy0FKylFKJihNX-UECeYM45yJZqTp-nVm9B9lg-B4lVQ3dwvW_Aj3uO6J5ripcurAsFnXEnAM7ImD87DeSmU4OJq5pOf6cCqJBYpV1FtH9_v3BdTL91wxCsEe96E_QdF8ZtrZ1DSNHpXmJy8INOsBr6hox6A7D-85fOUUcfJvGDwDGMRwNHm3wPfZaFdH6lbU24rZ_YGCpo_BjbFrvJOv3LJcCCzJ6s5IAr0g7Tjwj3-rchkJWFUnLuxIrBPvj3McSWR1G8iSooCLrSqJqEtJHFv60Sb_QRM9qSuVyy4D3pnT86wJ1LPF5k6V-z1zGDmS8AHkbVBcXcZrnz3i97xZ2P6WT73IusNjZ2jNezjkK_j2mqLsr5hSyuoEkmaKOGySGHTiWzGYf6HnqoO5Vmy3vba_NeNnDTD-jaQM",
+                    "AcnlKN3jONAHjShvpjqulUuJoHerRQGYKgJZ1s1-CH3h2-m6nK5vMXp6o4J5J9jvd-Gn7ySK1zE1wdwo87trMGn4TR1IA9QmYCiTT0D86F6DlGjkaFuB1QuVLXhhK4cGr4P_ILWgUSoqcSZbn2TiuChFopgRNwpxnwJPOrRwmVQBCwGc0kfPoLTTY0v4JbvXtMJQEsKr6q1Eo7CQPMUV7pKnyko0uwhI4aXKmJv333GVDLF3UAQzL2IqwXn8ZUa_WOpN2BuHWIQ_wFnlOJwgbZLgD6URRaDxsQ7kRsu1-wrwnriyeaaTNp20Z8YGm1Z1TnF1gMYEj5OP_kYid12m7Bng1z-PZW7s77u1iNqy61cx1yh1QyNc6pohBtf7PsT951HJDZaSK6ARo_J5_bbt4xnsd4vp0CqzYnnirzIetdcK4Vybof-x",
+                    "AcnlKN0E853An0NQ71TgyGamm0o67l7gK7s6TZdeC3VPwHckIJvUIN8qgrHue9Y5aJYp_FPaOMoebL8bU5faBV-hshfFSixhaHyXw336zbsr2jfGcdJ-91754RXvkdn02tsZc03DCiAbqXiZIAX2Koakpp_ic5xkc9LMp3WKJ04GNfI7D_AiTIJw5i1LQU5sgAtkJaO10xIBbqnERPOUyYaGSKciPwOVxXFmxM99hC-RhKYbpyeJvvAQwCx-bAdy7YIr9tIaO6PsfKk06i4A2dAsIKyNGRRqflVPwk7gDYf7J6g6AJPBPn3fs-8VvL0TD1uPSgpxeg_auP9V8TCXCqtmFkYFEdtkcpYgsgmfiv8IEJ2ZFexzco3V1GaQaY2FgYxVuiAFd79ZhISDJaJaJ8iG344HTgsEZ2xnZX4iE4BYz1k",
+                    "AcnlKN1K9V5nxO0Gs5zXULOE--09EVCqWWgdZNN0KenbMYKKXkFfUWUv1M3STulNtgnA8tE3mknVvIIKtuevqew27Mc8jIU0uM09pVJcitZg8TiCz6Qqfvy9_p-5hDcAYdufIb9lLmTE99-yqDFzrRDGFbwK3zdvKiK7ROZiv869koWkJ6lEU7IdA6C0QxaqUtGw-A5ut3fJSrj3iDjTLyt0HgE2ZonV5Zaq9Gl8ixUz_Cr_pjx704ZgsD_LMOX3d9NmGK9YThC4AAtzQI1z-ClL3Y9DuG7lHEDhyrz22xOZ6TxT6-7W8if0kRkaFMaZ5M12VJCLumoWP09Ob-Vb22C4LwylYMElwNKo8QWPKzxbmjNI8GHs03rFUeFHVRAazVPgu_sBHbucV-X3iXCZXPpog7dnCBxIwtOhsSxjgP-1llVgk-o6IInMRtuMy8i93g",
+                    "AcnlKN0Gy8UCjfHYIbmpqiZFd3spPVBWnc2bkffLzhEmzhEKHjEy9CVrW8kiCSuVqkO_NOkg2eQz2Wb9XvkDmPkXoHh2gVSmVZAlTNRGDGT_6yBW61e3akcL7OFAZrCMJ8vtZYGSGhoWvMQ0TiKznmWunBAqt1zwGnQfJl-S6O9UOG1llmWMysz2SzbFGoKzih8yNCUqmQhIJZuPTucKWFs4AQBfGaSrbzxVXWsqfvpZvCNcxKlnOpIsHi3DsTR1egKCZh6gm7D0tXsnKWGKyW05zDgh9G0MHc5yx5fgoLzm5-VO68Ose5v-Ri_Shzh2UHvN19MHhTM-Nbkq9WBF9L-XxJ5S9Z7cV0nFiYRfQkpSvoOfW04t-WWnE4J1EB-fa4QpWoNToOnNi_sKfcqao0ojOsyjXI2l1dXdi4ScpXFVrTYsZpo-o32lIVqLPcWzBpYz"
+                ],
+                "review_texts": [
+                    "打ち合わせで利用☕️\nウィンナー珈琲を注文しました！\n\n15時ごろのカフェが混み合う時間帯でしたが\n待つことなくすんなり入店✨\n店内は落ち着いた雰囲気で、\n周りも打ち合わせや静かに過ごしている方が多く、\n会話もしやすい空間でした🙌\n\nゆっくり話したい時や、\n落ち着いたカフェを探している時に\n使いやすいお店だと思います😊",
+                    "店内の雰囲気やメニュー自体は悪くありませんが、\n会計時の接客対応に大きな不安を感じました。\n会計の際、合計金額の口頭での案内が一切なく、\n説明もほとんどないまま、\n指でカウンターを叩く・下向きの手振りで支払画面を求められる対応が続きました。\n\nその結果、金額を十分に確認できない状態で支払いをしてしまい、\n実際に支払いミスが発生し、修正が必要になりました。\n金額の読み上げがあれば防げた事態だと思います。\n\nまた、Wi-Fi案内を提示される際も無言で渡され、\n終始コミュニケーションが不足している印象でした。\n\n当日は帰宅後に体調不良（腹部の不快感）もありましたが、\n原因については特定できておりません。\n\n以前に利用した際はこのようなことはなかったため、\n会計時の案内方法や接客の基本について、\n改善を期待しています。",
+                    "店内は広々としていて、新宿のカフェでは穴場スポッ\nト。\nカフェインレスのコーヒーをいただきました。\n打ち合わせやティータイム利用にもおすすめ。",
+                    "とても良い雰囲気だった。\n\n喫煙ルームもあるみたいだけど、フロアが違うのか、全然禁煙席も臭いがなかった。\n\n価格は少し高めだけど、プレミアムコーヒー、アイスカフェラテ共に焙煎がしっかりしてて\nまたリピートしたいと思った！",
+                    "まさにThe喫茶店。入店してすぐに珈琲のいい香り。店員さんもにこやか(^^)\nモーニング利用なので飲み物を注文すると11時までなら、ゆで卵付きのトースセットもしくはワッフルセットのモーニングメニューが選べます。\nおすすめは珈琲でグァテマラなんちゃら（笑）と説明されましたが、実は本格的な珈琲は苦手なのでここはあえてのアールグレイでトーストセット。王道モーニングなので余計なものなし。そこがよい！トーストも厚切りでバターたっぷり。ジムの運動後でゆで卵もしっかり食べて満腹、満足。\n使われている食器もウェッジウッド、紙コップで飲むよりやっぱりいいよね〜。店内もクラシカルだし気持ちが優雅になっちゃったりします。1日の始まりでこれなら今日は1日素敵になります(^^)\nモーニング以外のケーキも美味しそうだったなぁ。"
+                ]
+            },
+            {
+                "place_id": "ChIJtYUoaNqMGGARrvdwnKiCH1M",
+                "order": 2,
+                "name": "歌舞伎町の人気ダイニングバー",
+                "location": {
+                    "lat": 35.6910992,
+                    "lng": 139.7027101
+                },
+                "info": "活気あふれる歌舞伎町の中心にある、地元でも人気のダイニングバー。美味しい料理と種類豊富なドリンクで、楽しいディナータイムを過ごしましょう。",
+                "activity": "ディナーとカクテルを楽しむ",
+                "transport_mode": "walking",
+                "photo_references": [
+                    "AcnlKN3wQyZOIa3lGxpTL2H2Qz5sgFfkAVt4aU7VzXG5lyB9kESccB9_sMW4HC2vY3rNZA3hn_g_kFbohhWJgrnyr5YUEKetG7hcVT-vOwRiSVTHIQzfXCCj5Z9Tqc33P_VPypndsHvpw9xNwiT1JO3011Tvz7mUaziQhXFa4EypbYVKEB_Rs_lIUEMibNg5uKCEl90AQiw06UB8eWrM3nzUkF3jId-rpV1jjD_Ob6kOS7pOOnurAFKHLMS-Qxk70TSQZISVg7EvFuE1-MXYU1-ZdlKo5pybIN9DFZm5yQXNesLZGQ",
+                    "AcnlKN0BmBLBpLUqCVb-xlPAsfwbT8XWXOswL_LXtghspfVbl_t79d3zex3hpxchiAd6eMyTVGthjL5j_MP1LJtucWAkqYA1TlZ5CyJrPOzXJMlxlx7DmvRX70b0FFLk5s1NUdcngsOQbzquRO9NLlgVxDHjKRegDkoyHBUaoZVazOJDVcXiTV08YOBeEC93opJBGXuWDK7nFB9sO1iUQ1AbsdPt49dGk74kKdeR4OMxAsUAst_IJJQ0RdNTnukB6Q3IXAEAOqQxk-5IzrqNm8ENvlPTNOmpkrijUY5pxsaWz6IebQ",
+                    "AcnlKN38XrZ2-c27JZHiPPky20Hxs1QrHOI2WR3JPpkC5lVDhQxzTj_BbV4-jUu25k9MJJzaKvQ1zCnPAjT-o_xLmS3ljllvG07WKEUvSg5M5QlQT50GfhQbPhmV71k7_WO5tDxnbgNZORH6qvYk16YYQ_4rUKSAItDX26i6woOv3Y5YQqPqUUdvSOnOdmPEVm6LO9yz9xCH9iNDXNQctN4R5VruoihRf2Ef5QJzAkyLHcLI8H_3icAG_Hh9ssvN2b7BRlqSgysqvTcLjnqTkcliR4Yz5qPHCJRWPm81eAuGJOaOHLQcwAugpqigilrRHKcPpxD8HaLlqLCBtHxJ7xelxzxwAqRLeedWB3Z4uSdPJFAz93YFeYReHJla6tv1MJRwTvxtHRbzhLdXCV1m0GqgM5OATaFyN34PFh9WxGVrlyyhZOa6FW04tAYPVDwLiszK",
+                    "AcnlKN2s7kjhmu35mZDR_ysOBSgUigqCezvXen57fiOw2P2TojmvNHY47GF5yCbTwiXFpck2R6MPKt21ge1GiEXEgBwT33lRC94AjgxuesJMIi_bVnR70VFLFaE_K9j44FDSBxCMIoOjq5qX1OIxDu5wovSHJKWwRHOlSTwZpnhjUfulZB3wnWa_lpm7pVlOlezaeRXtASYP9dEzZFkh_npckq_5hcMjlXsveFCrU1Z103jrxUfPtC5DCkK5olfAZDFUuVnEpPXpWxwdGmgk79fTHMbACqax5s-r4MGR3qGZ5uXlRrikqZRpVSPSt3JGCBdZHCXzyL94zwFhKluqZ0y6gOg7LiLghMQGX4kq2HM63vL0RKDAmd3g9Tum8t3kxIYPuM2EMpJI5avdh7NRo_lsfqO5JYLKERUz2y8hvoj4SLoN3wBh8u-8t_Yh9DUw5y5B",
+                    "AcnlKN2PChfc43etF2F9ikVm8pJYgVhxQAyYGfZon1vuXxteH3C3CxYLLNO0WA_etHQsr_bC9-mNreD2yar342aEp1uJkiYSx-oXXyWod5dDLZ5G03GjznWQ-4IM-H7OyrZFZ1s0dr5W6L7KmSenxZ8L9byw97f_-mJydbarcVBHtIRXbxwXHzXTybZi9sRmsWlP80wQxAWRUd1giyUbuzsFzcX6-fFBcwgYDwhvDnisYUDtaMYcO9gTWnDeBSWZzc4tk6fihZ8a4zf6BNEOkMQie7MwplVB7KoBM6KzC-WiS1tNHMKbiN3_4AF5oOsN7enKlUGGOJTp3CXE9LURWsyWMnXG_CsEGeneqwLfWSZX3n0xkq98ezachUN45PgZvnkjvjsxKcwAc4ap46kGMo8h2hgcNoVJI6RqdXJYdtmclPROFLapTE4IqfvsexagKg",
+                    "AcnlKN0WIqvZQRP_vA6ELzts8mSTIoNDF3GoQIOuw2zAtVpYisd3ZRXEVrYPI0Wr2QXVOexjg64efV9gXZPWCrjLLgXd1OER9ulWS5XOQOqNteFQyn25mJJ4lwLCUVaZ_JagYX0Lm6xfu7HN8PUD43WaVf-LKxU2PlmYHSvKAlqpR9ivuslPsUX0hgAcXbwuy5hHwQfa6TrDVXpM3Fh7-LPtL9zm_6RTu4yGDz1jD1OeukRa9THLlKZI0FupRxIlrR5N081ghaV5Hq49mt8j-8vXIyHgKY5wKsZlKIxIxxch73NlR_eBxXoY6iGG9wkk5FIHpms21RS59QstncvCa5pxBXnJlszRz5hHhRaTNuuyr7dtgRA_Ezdr2BUamPX4a-ZkKcYBoniJv-RJy8PXL_k_Iaqa3e-LPx8hu8WXE_9czN2dIMjQ-oBuk3dvdw1GOfaH",
+                    "AcnlKN0YfnRUoshaQ_IdQPbZh-2rbMM0VTJ3o8l88TnZE27zsvPubRPKf-FJsOzu5I7Z0ImdyzWGab8lkj7H5eR1KowdEUFQs3bI_8BYa88tdER6Btv3tMjRa_W-S9IdgeXxt3h3YeBtK-e1owTIl5eVZe0O-Fy1xL-X-QoIaIpCIJ-aDMwD_ERzA1GRMwgWyYkmclKgnvrLfCCWH8WhUehlJ7PntlvYvvnRJlBDZ-BSm5Mp-Yb9g6Y2x_VXdPjjfd5tDLgr0kePTk32XJyglYrQgStNDC4Gj7hTOcyxvrrdjTdJJB3pMYsO5UbMM15yQk32JCWvO2tOKDXUBcaqieyNFKEfQOtJvyKrD8PHgQdmY5IaqW0ymObuDDHnOHwAElsA0WV3VAQDCiVEMGyoK2c6gBXE9x3CEkRqpNCFR3UZB662mYavLCqLBT80lMGWBiMD",
+                    "AcnlKN3jxzmL__C_mEhJ1NZ85BO__z2SEt-l4BCO_mMh6veu9TNTiEArtTRmpn-ynklxmyXZz4-KyUkBcn--2qPMkw9E3YO4TRa9sQ5WdcydrU42vD8OAzSQECRqvH1zAl6r5l5LiRlkyShJOo1NTaPWz7XWZlpfaRCqz8HiHTheIQfbkmCQy3_2ZWklnkyy-MSseoSPRY6JuDV6243XhpoPnE0Kjxh4Tb4NO1JiXmwr8Kwo_BXyAUzIGvUtPuVfIjO-usivyTy8XtdvRj20TMFf4mvioUpwfnH-6slMpSOyplU5hJAs5fNopUDvPIwgVOyaJ3Jnyucf9TrnLn-7nUP3o7S7aWBUCqmKhMZ3nkiddI1rTA3VEARIDMVMode7MkSoGJSa8m6CE2AjhxIs8qPn5G3YITraeRe0dYUD5L9rDFbRcKEq2Y9SkrPlsM_YykVi",
+                    "AcnlKN00QSrBDWogCY2egdxkjOK9DMrz2jECZYrox8Ifg3mN1L-a44i5msf8_6KjZL0GK0c30cuJtKm_N6xC3kVoK21VNOe_hAYRrwFp3bzb6videP4iC4PFxet3WndDwyB9opxvOXdPCA-EYwzAxmPuZxjdKA14D6krhvxTRwX2nhDHAMaMGaNgbB993JMXzXm0aJQHUes-tjBbeXORWb2MW5SSUKl1t_in9jVTGd2srVfN4EkfjDzf1uoJkwakH705MJIZVOaYCCQj72JJrQZsomAUeK7NDVgV8BlJhTOIz15biVmjN1wFhiUYWzF77Tt1o8jm1j2BhXpxBr73BMdOUR828l-lCYkgLWh00yv7tI_G5OOv4N7h6Qqesh6Sx6yqp0sp94ryX4uK39b8iJZFjVDYqr8r5AQlVcIENB7rTD1gssQPwvNiniLWULEqEQ",
+                    "AcnlKN3xJbmY4v-6gK3okJPP7QrtenoCMXFapyWukmDaP9GYuBxjdMGJzdxM01cENnu5iM0jJBLQBBV1T3rvv8OBnKmz_R7uGGuOywUvzbrGMp6Wh6n2lfOJpLXGJeF5Z7BuxTUFhY0wzu9_oLe6nMIKwQXzwy3ulu7xgkOn4rioxQIUqdPfQroEbpFRjyE-fMBvsliFnzMuDYBOfgp9GNg2DxFQ4fMUekq5CfmHcWSXmKrUoSmmTbpxnHy5Adn4-lomEy3xcak-WIoAF0_IYaAjdLV2Db1xMSQWAKPTfvts16wABZoNQNA8kmYrfOJlWulZIv4R_LYuBLtS6qfw9ZV-hXalkOwNzjaCKdOmRs5LiTTN6hJyTaEmf-bPteAxLS-1xO0ybXLn4KfoYJx0jN8Pofc2s_-icJng6guPBHc39zf5ikq7oiSfakY1kpu8TM3L"
+                ],
+                "review_texts": [
+                    "YONA YONA BEER WORKS（ヨナヨナビアワークス）の新宿東口店。駅から遠くなく、美味しいビールが気軽飲めるお店だ。赤坂にあった頃はよく行っていたが、気づいたら5年ぶりぐらいの訪問。フードが7品、スタンダードなビールが6種類飲み放題がついたコースが6,000円（税込）とかなり良心的な価格帯であることが嬉しい。\nスタンダード6種類でも、ペールエールの「よなよなエール」、IPAの「インドの青鬼」、ベルジャンの「水曜日のネコ」、セゾンの「僕ビール君ビール」、少し変わった「山の上のニューイ」と「裏通りのドンダバダ」が入っているので、飽きることがない。全部飲み比べるのもいいしね。\n良いお店ですよ。",
+                    "YONA YONA BEER WORKS 新宿東口店に行ってきました。写真の通り、夏限定メニューが充実していて、特にとうもろこしのスパイシーフリットは見た目以上に香ばしく、ビールとの相性が抜群でした。外はカリッと、中は甘みがしっかり感じられて、おつまみにちょうどいい一品です。店内はクラフトビール専門店らしく、ビールチャートを見ながら好みに合わせて選べるのが楽しいポイント。スタッフさんもビールの説明が丁寧で、初心者でも安心して楽しめます。料理は全体的にビールを引き立てる味付けで、つい何杯も飲みたくなる雰囲気。新宿駅から近く、仕事帰りや友人との飲み会にも使いやすいお店だと思いました。",
+                    "ビールを美味しく、オシャレな空間で飲みたい時におすすめです。\nしかもカウンターには一人で飲んでる方もいるので、一人でも行きやすいお店なんだと思います。\n新宿駅東口改札からだと徒歩10分程度の駅近で、地下におりたところにあります。\n\nビールは飲み比べセットにもできますし、単品注文も可能。\n自分の好きな味を選べるので、どれを頼んでも美味しいです。\nつまみはソーセージやチキンがやっぱり合います。\nスパイシークリスプビザも美味しかったです。チーズがトロトロ！スパイシーでお酒がすすみます。\n\n店内の雰囲気も良くて、席はカウンター、テーブル、BOX、丸テーブルなど色んなタイプがあり、かなり広かったです。2、3人でも、大人数でも楽しめそうでした。\n是非行ってみてください。",
+                    "新宿駅東口で飲み会があり、もう一軒サクッと飲もうとお伺いしたのはこちらのお店。\nあのよなよなエールを作るヤッホーブルーイングは日本を代表するクラフトビールメーカー。\nそのヤッホーブルーイングとバルバッコアを営むワンダーテーブルが手を組んで手掛けたのがこちらのお店。\n\n駅近にあるにも関わらず、かなり広々とした店内。100席以上あるそうです。\n\nビールは常に10種類以上あり、初めて見るものも多数。\n1杯あたりのお値段はクラフトビールにしては普通かなと。\nカジュアルにワイワイ飲めるビアバー、ごちそうさまでした！\n\n▽----------------------------▽\n\n○店名: YONA YONA BEER WORKS 新宿東口店\n○食べログ評価3.56(2025/12/07時点)\n○新宿駅徒歩5分\n○予算¥5,000/1人\n○東京都新宿区新宿3-28-10 ヒューマックスパビリオン新宿東口 B1F\n○決済手段:現金、カード、QR\n○営業時間\n[月・火・水・木・金]12:00 - 23:00\n[土・日・祝日]11:30 - 23:00\n※定休日:不定休\n※禁煙\n\n△----------------------------△\n\n【予約可否】\n可能\n\n【オススメ利用シーン】\n同僚、友人\n\n【混雑状況】\n火曜日21:00時点で満席率7割ほど。\n予約なしでスムーズに入れました\n\n【注文】\n※●:ドリンク、◆:フード\n\n●正気のサタン¥600/SMALL\n●水曜日のネコ ¥700/SMALL\n◆季節野菜のエール漬けピクルス ¥600",
+                    "新宿のYONA YONA BEER WORKS、行ってきました！\nまずお店に入って驚くのが、壁一面にズラリと並んだビール缶のディスプレイ。これ、マジで圧巻です！写真映えも抜群で、入った瞬間からテンション上がります。\n肝心のビールは、さすが公式だけあって最高に美味しい。専用グラスで飲むと香りも引き立つし、泡までクリーミー。「よなよなエール」ってこんなにウマかったっけ？と感動しました。\nフードもビールに合う濃いめの味付けが多くて、ついついお酒が進んじゃいます。"
+                ]
+            },
+            {
+                "place_id": "ChIJ8YP4mvKNGGARaYfb7IOHApE",
+                "order": 3,
+                "name": "歌舞伎町ナイトライフバー",
+                "location": {
+                    "lat": 35.6983514,
+                    "lng": 139.7026051
+                },
+                "info": "歌舞伎町の夜を締めくくるのに最適な、雰囲気の良いバー。様々なジャンルの音楽が流れ、華やかなカクテルと共に非日常的な空間を体験できます。",
+                "activity": "ナイトライフを満喫し、特別な夜を過ごす",
+                "transport_mode": "walking",
+                "photo_references": [
+                    "AcnlKN1ZIsnlnXKdTqV43KSauKvcwMb-jWrDO0OjgCzVFMs3OfNDBkCXSO2mP9_5Mcq0SJ5Js2ABscFbPOKWywJMKrGqifc0EImqNi1Snui5dFmXuUcNSQba1T4BsJpwfzEIeJ6w1Xl725s4lCoVMVNzrhEUKqM9qWO4WYJtfPS7UdzewAzGV5OdH8sif3jx-GEl_635fGftu7xzy3n0-pxG-_u98n0IRnC8-SnH8IchvCZNgj08ilXpBhAvMW7_IiPBZH2_l_yldUpoDgdj6TDxIy7PBCwZ9WG7QjreyeOASlGdKQ",
+                    "AcnlKN1xGA_R6FExdpjK66U5i5IJlMkcz-rrWS3fqRCxwaaL717F4nM0pF9-TTvSVKPu1m7_XPGk5jASkoBEwBx8mSsZDpotyrwCBo2j2MgcW9suNeccI0fLqd9PBAG_4gqHs0frSDvw1eRwucof3IqlB_Pbuc3N52WAGOrkUnCMn_wcYNay_c2xKZyzXYWVIsbdAxPJwSKYEjkj4fU2KTTDPeZF0TkeBIbRCfgWEoHRQv0Y9RX35CY86IBl443CgbRqEzx5d7HQtaMKqetbZ-MQStsNWM2WIPTOYHU9pDOooP_NJ4e_c2M6CBdlX5DqYBC165sb_YHimZF-bNJe5efD32nMSurDPwadkASuNcbDphopm1hYKbnh1iaJJWtcXcFRQHwYcq5_XLc7asnspjzij_ey-xulOqNNcUhac2AJ0Jfydrk",
+                    "AcnlKN0jPAk_v7nbQyOkyox8WkBPPhEWxnxDgd63zXH_OgJWxjktUjRBgMJ16UH7K1Pq51cghYL3n0GlS7cSxFPdOZr4quiJVt7iBxA-kqEp5rgyZBRnO2yJdKJmw11V56chqzOZ3YA04ELEjnGIgDgilLT39qb9c0DBNuE-VO1KNAyM39DeTDJbL0P0qcjHp4DfRsxdS4AArQTHG-RNjHFSmF_1Ft4EK6EWKDL_NGC-XRLtNzzyK74gwG-mR1OYcfIDdflEniyL3l6zpvfQGeuROvt4F2PJZrQROrRNms1Lo4WDpeIM_zHQRyN-RyURcWgoJt050OpmW_wroqKJeec5q6CnIAMMLaMbtHoSOEoaqMvGVWUXbUm8JTytdrvn08Ta2pbCxcsZErOVEWqe6-nLXvX104NZEXq6oPw_u_084MOMYQ",
+                    "AcnlKN2CqL6WIB-_o6ny8Nt0xQKEpEW2_pB3TnrVONoCOzaL-CJ2nvxN-tACgDkkrlpDJxrWb4JG7Aak2BX_utC4fwsqhHCvxwtW9XVAhj-yWE-vA9gb0LQB7jS9rjh6TqS0m3QE8mi5cV-d8GOpeDUY-55HVxo1bSIN6PkK4DhFfpMFD5_dT6qq3g3Qvkj898pgqr7FJfxaUJy1UvSkq3S-iCff01PmHuYXvBAxd76u8mmTrxrWTpaU7LBxZSqCv1OQ1UCx9XoWDaSZitiiI1M6L2SP1msQu-aia5aAZAykcYxzFP4AhAR4g2-b074PRJIEY2-jpFhuRb84QtXdvDaboHGL3kmMzGVQb9nyo9ybWuha2_UDbztnwhQ30NkPQxCYvJ0gVSdz-xUmXsdc014xbVLBzF71T9gjJ_VojRGPFcIjBGA7mmo4tXyqju_hAQ",
+                    "AcnlKN2P-ciIW8jOcTF_GqgNj_qBRe337o3Cj2ptfZOEK7iPT6OSIb0SQoe6rFRaJJsMrrcZy18cdVO5_ssuRyR38oXe9GUMCnAbMc7O670XrwMKHuldpQJe6heQ6y-hXqnXY9HrxWcngiSTi0jY4ku6tUm3_1ph5YIgZp1O0SMPlkLtNX9f1dLdwWaKcfzIVzcFV6zM0xAUNEZltajTcF8bn06cL4n_kCjzsMvt3Uj87ouwUakh3adOsm-hIPqgw4ShVes0AFDxI4GpdGPE6TKgAdk2pnnXiyej10vp6biYpo6hvkno27yTSZeCzMKoDKmH3du_5d5bOG59nzQ82SG89cC7ZwyN33mh-jeUWR5DA3qZBlL9171og6iVhvfiaukpSpeZHC2H-SmhChkuNr5zDDe80LhBKaWonJDalHVuF2nQ586s",
+                    "AcnlKN2QfoE-Q8WRg8HybSchxPnXGaYACaKyn0l8aavLbRa1clI2bX3030hpHKVRptvOszvBGDj7XGsUnaByiToXISLpg99Q7kUVzcj409V1OwgJDdRjlhjd7DpvLJXrSOwk8mQuzbWGz6BjiN-nj_UkFgDK6625jdVB3KVzYnoRSxn6zh26_ZoNW8UyuGh8k8Ez2Qss0zwy10kP1L3VHfQKeqXgu0ZZxC2bkhnOp5oh6tr1ZGAiTLoPf0nwANswpm_6Nip8G9QyDBb9Hr4fy5r_v-2cIUdxdvikooEKLiKWerev8CgK3CAJyjcmIwR6EdfRSAw_-BO5wpCj7HE6F1QTmbQn_lEIygrWabQJRuevtflhDGhAQpTjRgN_9QW5q5GDsz5hDLt1u3a451qqAmrN3DJ71n5l_OyGTMoLypqTwvHrrA",
+                    "AcnlKN0ul29-nhQA1AmxKbFPSxPRZh7KNvzPeiiHRtRAPJ9FDe505acFuBCrb1bIiNP0gQNoIKkpuJgzgM49ICb83H-mROtFJ40QNmR_X5YMaUO25moHhDQnEPRkKUrXGcc1vCeVjTf8FXyF3el04sifbNqlTmYfh2iQr26GEAgZpNjf4ds6ONBav5Jhswce3RLWVcWiRFlJMK_0yrSwZ_li3M1vrI3TDk9T0NkJyVBkdvNL95PxrRquB9PfKeSjFV7IEADilhMSbFgpGR8WQJylG6JGNGU-ULLtAdKL69wq_AQyyyfQgdw_Rw-kO4Do0_lU28z1glO0zKwiAh_tZtSl8wc5JTl5rwEXJ4mXEwsd-_RkVmTIUh1nCAp4f0vYe_n2An8fYiEfX2d4RruCvHPjLQtOZPFOiOZdolhgsi2bNkE",
+                    "AcnlKN3-c_kMCppN1oC4f6bSgl_DqUrEgCi3M02ekWx0ZQk24jprHTKt4X1Ci2pj1ULG1LcJwEZvoiuRcqrDvEd-0cWL4VJ_np5P6Ua42JQJ705wVgYPh0xNoTDDFY_zuTqxSDmsDeMpzg1i94U_BOUROm9Yu-xlBOcRFEA4OGSe3d_qbeK4BVJljXdrfVGoQxFxEI_wiua4uMiSQp1aO0K1WFBkSdMDNNL43Yv8FjxWGTkWVIzjOH4DVKNRsnXOyS9E_fGfQ3tvvnBEMlgGsbcO3JJS5hQoekmIgcbGoRCOD6r8hgfTFAplMWhTf7wxNJgdnUxkEutX9Q2pAixkxEW6CJXiJdbdR-u6gdyR-4et2SjMwmIDFXUGjPnLZqGLzOfR3cTclLLYUTvZodf7BQFkG5CJ3gh-QePAb6GQ4-QkStNwf1gjy5VTEotuOLxJYfBP",
+                    "AcnlKN2n3ZrBPefmKZWupTFfEkzT7jTUE3-dKoubomuIIKGBtuNN6K2r4uux9ZP66lpNjCFjEqYA4qkW6DJ-5f_vx--ZBo6NFdf4O0SIlhvgndGjOAQyyXxkKqm6lRPj-iCiu0QABW5BN5RHJc_ghz3_A3a_IHluQBeJ6c5fy-CMJ6uWnEDkWV2b6Mxlx3lwMSHyE82q5EgE1bhTJaUtAkU_Xdtu6m1k9LI7PLgJEHPbRveBYdIElPbBs0_WD_Lq62eUeFEL_gQPySWfG7z9ZFqeEw7gaemoq2TzxTDAPHzH5zEN8V8Yg0Qp9NJhEp3rQ01U1Ix38LZY9VxmBgV_z_TdkeZQqMhgcOzVhghySxhzMxm8dhxMt0epNM9Nq6LD_VXV9P8EBpOTjJb4R1aFrNdLCvL9LDKkH-CNB_Lan3RYxQ4sBA",
+                    "AcnlKN04YwP8lnBu0gxa_FyK_ZvA_DAr-5_zkrpDUB-77ZAA4qGy1RQJlB5gYy5bI_4nSEP_XkXVMhU2471DcQ_O6--E5om-Uy9QgxDgdQvaATY_yXfzPgrOI6_w8X3SY6JbHFbaPKpdOEPvpwMPLU1DoIXFamx-8Z7NcxDDCh--aiy9KrOsJlwwXSeR3eInVsDCgJV9Hnn1ZUhWp2cgnmNXI7LDz6lQ7hD9Le5KanSRbzxOuQRNkHUWBazpLyakcTxeG7GwjfuPHNoH-AxMO3d_vXNrwbtKKtC6qyKlS6gzxR9gWAUfiOH-S0KX4yFAsOWKQ47pq_oAiOzE9b1MB2wR1kmVU_RSP1WjHU3m4HWKN-rIYxEVF5IqAwjgHKewmcE3HoC_pa9z7wwX_c2c8po4WrWmc97qHWaQiBPhx0-Lbkq4hdc"
+                ],
+                "review_texts": [
+                    "店員さんが話しやすいお店でした。\n入り口に看板があるビルの8階にありました。\n日本酒初心者ですと伝えると、好みを聞いて飲みやすい日本酒を選んでくださいました。男性店員さん、女性店員さん共にいらっしゃったので、女性の1人飲みも安心してできました。",
+                    "🍶 日本酒:\n'sake bar sakura'の日本酒メニューは非常に豊富で、質も高いです。特にJUYONDAIやHANAMURAはおすすめしたい逸品です。さらに、プレミアムな日本酒のセレクションも素晴らしい。\n\n🍸 焼酎:\n焼酎の種類も多く、HYAKUNENBOKUやUMENOYADO PEACHは特に印象的でした。\n\n🎉 特別おすすめ:\n無制限の日本酒オプションがあるので、日本酒が好きな方には最適です。また、プレミアム日本酒も特におすすめします。価格帯に対しての品質は抜群で、大変満足のいく経験をしました。\n\nまた訪れたいと思うお店です！",
+                    "楽しかったです！女性2人でも気軽に呑めました。\n社長や店員さんも優しかったてす。日本酒もたくさんありました。八海山が美味しかったです。",
+                    "had a blast!!!!\ngreat selection of sake, atmosphere, and company.\nお店の方も他のお客様も国際的でフレンドリーでとっても楽しかったです！23時まではカラオケもできます！",
+                    "新大久保にありながら、いろんな日本酒を楽しめるbarです！日本人も外国人もふらっと訪れて楽しめる場所🤍"
+                ]
+            }
+        ],
+        "estimated_duration_hours": 5.0,
+        "summary": "煌びやかなネオンが輝く歌舞伎町で、友人との特別な夜を演出するプランです。くつろぎのカフェから始まり、賑やかなダイニングバーで食事を楽しみ、最後はスタイリッシュなバーで歌舞伎町のナイトライフを満喫します。忘れられない楽しい時間を通じて、友情を深める素晴らしい機会となるでしょう。",
+        "theme": "歌舞伎町の賑やかな夜を満喫"
+    }
+]

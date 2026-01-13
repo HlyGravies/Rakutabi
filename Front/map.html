@@ -1,495 +1,3 @@
-<!-- <!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MiniTrip - Map Result</title> 
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
-    <style>
-        body, html { font-family: 'Inter', 'Noto Sans JP', sans-serif; height: 100%; margin: 0; overflow: hidden; }
-        
-        /* Modal Favorites */
-        .fav-panel {
-            position: fixed; top: 0; right: -350px; width: 320px; height: 100%;
-            background: white; box-shadow: -5px 0 15px rgba(0,0,0,0.1);
-            z-index: 3000; transition: right 0.3s ease-in-out;
-            display: flex; flex-direction: column;
-        }
-        .fav-panel.open { right: 0; }
-        
-        /* Lightbox */
-        .lightbox-overlay { display: none; position: fixed; z-index: 4000; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.85); backdrop-filter: blur(5px); }
-        .lightbox-content { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); max-width: 90vw; max-height: 90vh; border-radius: 12px; }
-        .lightbox-close { position: absolute; top: 20px; right: 35px; color: white; font-size: 40px; cursor: pointer; }
-        
-        ::-webkit-scrollbar { width: 8px; }
-        ::-webkit-scrollbar-track { background: #f1f1f1; }
-        ::-webkit-scrollbar-thumb { background: #c1c1c1; border-radius: 4px; }
-    </style>
-</head>
-<body class="bg-gray-50 text-gray-800">
-
-    <div class="absolute top-4 right-4 z-20">
-        <button id="favBtn" class="bg-white text-orange-600 px-4 py-2 rounded-full shadow-lg font-bold border border-orange-100 hover:bg-orange-50 flex items-center gap-2 transition transform hover:scale-105">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" /></svg>
-            お気に入り
-        </button>
-    </div>
-
-    <div id="favPanel" class="fav-panel">
-        <div class="p-4 border-b flex justify-between items-center bg-orange-50">
-            <h2 class="font-bold text-lg text-gray-800">保存したルート</h2>
-            <button id="closeFavBtn" class="text-gray-500 hover:text-red-500 text-2xl font-bold">&times;</button>
-        </div>
-        <div id="favList" class="p-4 overflow-y-auto flex-1 space-y-4 bg-gray-50">
-            <p class="text-sm text-gray-500 text-center mt-4">読み込み中...</p>
-        </div>
-    </div>
-
-    <div class="main-container flex w-full h-screen">
-        
-        <div class="left-panel w-full md:w-2/5 lg:w-1/3 h-full overflow-y-auto bg-white shadow-lg z-10 flex flex-col">
-            <div class="p-5 border-b sticky top-0 bg-white z-20 shadow-sm flex justify-between items-center">
-                <a href="/" class="inline-flex items-center px-3 py-1.5 border border-gray-300 text-sm font-medium rounded-lg text-gray-700 bg-white hover:bg-gray-50 transition">
-                    &larr; 新しい検索
-                </a>
-                <h1 id="page-title" class="font-bold text-orange-600 text-lg hidden">❤️ お気に入り一覧</h1>
-            </div>
-            
-            <div id="left-panel-content" class="flex-1">
-                <div class="flex justify-center items-center h-64">
-                    <div class="animate-spin rounded-full h-8 w-8 border-b-2 border-orange-600"></div>
-                </div>
-            </div>
-        </div>
-
-        <div class="right-column hidden md:flex flex-col flex-grow h-full bg-gray-100 p-4 space-y-4 relative">
-            <div id="weather-placeholder" class="h-32 flex-shrink-0 bg-white rounded-lg shadow-md p-5 flex flex-col justify-center">
-                <div class="flex items-center space-x-4">
-                    <div class="bg-blue-100 p-3 rounded-full">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
-                        </svg>
-                    </div>
-                    <div>
-                        <h3 class="text-lg font-semibold text-gray-700">お天気コーナー (準備中)</h3>
-                        <p class="text-sm text-gray-500">今後のアップデートで、旅行先の天気予報が表示されます。</p>
-                    </div>
-                </div>
-            </div>
-            <div class="map-container flex-grow rounded-lg shadow-lg overflow-hidden relative border border-gray-200">
-                <div id="map" class="w-full h-full"></div>
-            </div>
-        </div>
-    </div>
-
-    <div id="lightbox" class="lightbox-overlay">
-        <span class="lightbox-close">&times;</span>
-        <img class="lightbox-content" id="lightbox-img">
-    </div>
-
-    <script>
-        // --- CẤU HÌNH ---
-        const API_KEY = "AIzaSyDRZS3xlk2kHRxjMC1wxKc4y6JUxlzyJts"; 
-        const JSON_BASE_PATH = "/json/GeminiAPIResponse/";
-
-        // --- BIẾN TOÀN CỤC ---
-        let planData = []; 
-        let map; 
-        let directionsService;
-        
-        let mainRenderers = []; // Chứa các Polyline
-        let planMarkers = [];   // Chứa các Marker số
-        
-        let favOverlays = {}; 
-        let loadedJsonCache = {}; 
-        let myFavoritesSet = new Set(); 
-
-        const planColors = ['#EA580C', '#3B82F6', '#10B981', '#EC4899', '#8B5CF6']; 
-
-        // --- 1. KHỞI TẠO ---
-        async function initMap() {
-            directionsService = new google.maps.DirectionsService();
-            map = new google.maps.Map(document.getElementById("map"), {
-                zoom: 12, center: {lat: 35.6895, lng: 139.6917}, 
-                mapTypeControl: false, streetViewControl: false, fullscreenControl: false
-            });
-            
-            initLightbox();
-            setupFavUI();  
-            
-            await loadFavoritesList(false); 
-
-            const urlParams = new URLSearchParams(window.location.search);
-            if (urlParams.get('mode') === 'favorites') {
-                console.log("Mode: Favorites");
-                document.getElementById('favBtn').style.display = 'none';
-                document.getElementById('page-title').classList.remove('hidden');
-                await loadAllFavoritesData();
-            } else {
-                await loadMainData();
-            }
-        }
-
-        // --- 2. TẢI DỮ LIỆU ---
-        async function loadAllFavoritesData() {
-            try {
-                const res = await fetch('/api/favorites');
-                const data = await res.json();
-                if (!data.success || data.favorites.length === 0) {
-                    document.getElementById('left-panel-content').innerHTML = `<div class="p-10 text-center text-gray-500"><p>まだお気に入りのルートはありません。</p><a href="/" class="text-orange-600 hover:underline mt-2 block">新しいプランを作成する</a></div>`;
-                    return;
-                }
-                const promises = data.favorites.map(async (fav) => {
-                    let jsonData = loadedJsonCache[fav.file_path];
-                    if (!jsonData) {
-                        try {
-                            const r = await fetch(JSON_BASE_PATH + fav.file_path);
-                            if (!r.ok) return null;
-                            jsonData = await r.json();
-                            loadedJsonCache[fav.file_path] = jsonData;
-                        } catch (e) { return null; }
-                    }
-                    if (jsonData) {
-                        const specificPlan = jsonData.find(p => p.plan_title === fav.plan_title);
-                        if (specificPlan) {
-                            specificPlan._sourceFileName = fav.file_path;
-                            return specificPlan;
-                        }
-                    }
-                    return null;
-                });
-                const results = await Promise.all(promises);
-                planData = results.filter(p => p !== null);
-                populateLeftPanel();
-                drawMainRoutes(); 
-            } catch (e) { console.error(e); }
-        }
-
-        async function loadMainData() {
-            const urlParams = new URLSearchParams(window.location.search);
-            let jsonPath = urlParams.get('planFile');
-            if (!jsonPath) { document.getElementById('left-panel-content').innerHTML = ''; return; }
-            if (!jsonPath.includes('/')) jsonPath = JSON_BASE_PATH + jsonPath;
-
-            try {
-                const res = await fetch(jsonPath);
-                const data = await res.json();
-                planData = data;
-                const filename = jsonPath.split('/').pop();
-                loadedJsonCache[filename] = data;
-                populateLeftPanel(); 
-                drawMainRoutes();    
-            } catch (e) { console.error(e); }
-        }
-
-        // --- 3. VẼ CỘT TRÁI (ĐÃ SỬA LOGIC TOGGLE) ---
-        function populateLeftPanel() {
-            const panel = document.getElementById('left-panel-content');
-            let html = '';
-
-            planData.forEach((plan, idx) => {
-                const color = planColors[idx % planColors.length];
-                const currentFileName = plan._sourceFileName || getCurrentFilename();
-                const isFav = myFavoritesSet.has(`${currentFileName}|${plan.plan_title}`);
-                const heartClass = isFav ? "text-pink-500 bg-pink-100 hover:bg-pink-200" : "text-gray-400 hover:text-pink-500 hover:bg-pink-50";
-
-                // THAY ĐỔI:
-                // 1. Bỏ thuộc tính 'open' ở <details> -> Ban đầu đóng hết
-                // 2. Dùng sự kiện 'ontoggle' để gọi hàm xử lý hiển thị map
-                html += `
-                    <details class="group border-b border-gray-200 transition-all duration-300" 
-                             ontoggle="onRouteToggle(this, ${idx})">
-                        <summary class="p-5 cursor-pointer hover:bg-gray-50 flex justify-between items-start list-none select-none">
-                            <div class="border-l-4 pl-3 transition-colors duration-300 flex-1" style="border-color:${color}">
-                                <h2 class="font-bold text-gray-900 text-lg group-open:text-orange-700">${plan.plan_title}</h2>
-                                <p class="text-xs text-gray-500 mt-1">${plan.summary}</p>
-                            </div>
-                            
-                            <button onclick="toggleFavorite(event, '${plan.plan_title}', '${currentFileName}')" 
-                                    class="ml-2 transition p-2 rounded-full ${heartClass} shrink-0" 
-                                    title="${isFav ? 'お気に入りから削除' : 'お気に入りに保存'}">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 fill-current" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
-                            </button>
-                        </summary>
-                        <div class="bg-white p-4 space-y-6">
-                            ${plan.waypoints.map((wp, i) => `
-                                <div class="flex gap-4 text-sm relative">
-                                    <div class="flex flex-col items-center">
-                                        <div class="w-6 h-6 rounded-full flex items-center justify-center text-white text-xs font-bold shadow-sm" style="background-color:${color}">${i+1}</div>
-                                        ${i !== plan.waypoints.length - 1 ? `<div class="w-0.5 h-full bg-gray-200 my-1"></div>` : ''}
-                                    </div>
-                                    <div class="pb-2 w-full">
-                                        <span class="text-xs font-semibold text-orange-600 bg-orange-50 px-2 py-0.5 rounded-full border border-orange-100 mb-1 inline-block">${wp.activity.split(' ')[0] || 'アクティビティ'}</span>
-                                        <p class="font-bold text-gray-800 text-base">${wp.name}</p>
-                                        <p class="text-gray-600 text-xs mt-1 leading-relaxed">${wp.info}</p>
-                                        ${wp.photo_references && wp.photo_references.length > 0 ? `
-                                            <div class="flex gap-2 mt-3 overflow-x-auto pb-2 scrollbar-hide">
-                                                ${wp.photo_references.slice(0, 3).map(ref => `
-                                                    <img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=200&photoreference=${ref}&key=${API_KEY}" 
-                                                         class="w-16 h-16 object-cover rounded-md shadow-sm cursor-pointer hover:opacity-80 transition shrink-0"
-                                                         onclick="openLightbox(this.src.replace('maxwidth=200', 'maxwidth=1600'))">
-                                                `).join('')}
-                                            </div>
-                                        ` : ''}
-                                    </div>
-                                </div>
-                            `).join('')}
-                        </div>
-                    </details>
-                `;
-            });
-            panel.innerHTML = html;
-        }
-
-        // --- 4. VẼ ROUTE & MARKER (BAN ĐẦU ẨN) ---
-        function drawMainRoutes() {
-            // Reset
-            mainRenderers.forEach(r => r.setMap(null));
-            mainRenderers = [];
-            planMarkers.forEach(markerArr => markerArr.forEach(m => m.setMap(null)));
-            planMarkers = [];
-
-            planData.forEach((plan, idx) => {
-                const color = planColors[idx % planColors.length];
-                
-                // 1. TẠO ĐƯỜNG (Set map: null ban đầu)
-                const renderer = new google.maps.DirectionsRenderer({
-                    map: null, // <--- ẨN BAN ĐẦU
-                    suppressMarkers: true,
-                    polylineOptions: { strokeColor: color, strokeWeight: 6, strokeOpacity: 0.8 }
-                });
-                mainRenderers.push(renderer);
-
-                // 2. TẠO MARKER SỐ (Set map: null ban đầu)
-                const currentMarkers = [];
-                plan.waypoints.forEach((wp, i) => {
-                    const marker = new google.maps.Marker({
-                        position: wp.location,
-                        map: null, // <--- ẨN BAN ĐẦU
-                        label: { text: (i + 1).toString(), color: 'white', fontWeight: 'bold' },
-                        icon: {
-                            path: google.maps.SymbolPath.CIRCLE,
-                            scale: 14, fillColor: color, fillOpacity: 1,
-                            strokeWeight: 2, strokeColor: 'white'
-                        },
-                        zIndex: 100 + i,
-                        title: wp.name
-                    });
-                    currentMarkers.push(marker);
-                });
-                planMarkers.push(currentMarkers);
-
-                // 3. Tính toán đường đi (Tính sẵn để đó)
-                const wps = plan.waypoints;
-                if(wps.length < 2) return;
-                const waypts = wps.slice(1, -1).map(wp => ({ location: wp.location, stopover: true }));
-
-                directionsService.route({
-                    origin: wps[0].location, destination: wps[wps.length-1].location,
-                    waypoints: waypts, travelMode: google.maps.TravelMode.DRIVING 
-                }, (res, status) => {
-                    if (status === 'OK') {
-                        renderer.setDirections(res);
-                        // Không fitBounds ở đây nữa
-                    }
-                });
-            });
-        }
-
-        // --- HÀM TOGGLE MỚI: HIỆN/ẨN DỰA TRÊN DROPDOWN ---
-        window.onRouteToggle = function(detailsElement, index) {
-            const isOpen = detailsElement.open;
-            
-            // 1. Hiện/Ẩn Đường (Polyline)
-            if (mainRenderers[index]) {
-                mainRenderers[index].setMap(isOpen ? map : null);
-            }
-
-            // 2. Hiện/Ẩn Markers
-            if (planMarkers[index]) {
-                planMarkers[index].forEach(m => m.setMap(isOpen ? map : null));
-            }
-
-            // 3. Nếu MỞ -> Zoom vào route đó
-            if (isOpen && mainRenderers[index] && mainRenderers[index].getDirections()) {
-                const routeBounds = mainRenderers[index].getDirections().routes[0].bounds;
-                map.fitBounds(routeBounds);
-            } 
-            // Nếu ĐÓNG -> Không cần làm gì (tự mất đi), các route khác vẫn còn nguyên
-        };
-
-        // --- 5. FAVORITES LOGIC ---
-        function getCurrentFilename() {
-            const urlParams = new URLSearchParams(window.location.search);
-            const fullPath = urlParams.get('planFile'); 
-            if(!fullPath) return null;
-            return fullPath.split('/').pop();
-        }
-
-        window.toggleFavorite = async function(e, title, filenameOverride) {
-            e.preventDefault(); e.stopPropagation();
-            
-            const filename = filenameOverride || getCurrentFilename();
-            if(!filename) return alert("ファイルエラーが発生しました。");
-
-            const key = `${filename}|${title}`;
-            const isCurrentlyFav = myFavoritesSet.has(key);
-            const btn = e.currentTarget;
-            const apiUrl = isCurrentlyFav ? '/api/favorites/delete' : '/api/favorites/add';
-            
-            try {
-                const res = await fetch(apiUrl, {
-                    method: 'POST',
-                    headers: {'Content-Type': 'application/json'},
-                    body: JSON.stringify({ file_path: filename, plan_title: title })
-                });
-                const data = await res.json();
-
-                if(data.success) {
-                    if (isCurrentlyFav) {
-                        myFavoritesSet.delete(key);
-                        btn.className = "ml-2 transition p-2 rounded-full text-gray-400 hover:text-pink-500 hover:bg-pink-50 shrink-0";
-                        const urlParams = new URLSearchParams(window.location.search);
-                        if (urlParams.get('mode') === 'favorites') loadAllFavoritesData();
-                    } else {
-                        myFavoritesSet.add(key);
-                        btn.className = "ml-2 transition p-2 rounded-full text-pink-500 bg-pink-100 hover:bg-pink-200 shrink-0";
-                    }
-                    loadFavoritesList(true);
-                } else {
-                    alert('エラー: ' + data.message);
-                }
-            } catch(err) { console.error(err); }
-        };
-
-        window.deleteFromPanel = async function(filename, title) {
-            try {
-                const res = await fetch('/api/favorites/delete', {
-                    method: 'POST',
-                    headers: {'Content-Type': 'application/json'},
-                    body: JSON.stringify({ file_path: filename, plan_title: title })
-                });
-                const data = await res.json();
-                if(data.success) {
-                    myFavoritesSet.delete(`${filename}|${title}`);
-                    await loadFavoritesList(true);
-                    const urlParams = new URLSearchParams(window.location.search);
-                    if (urlParams.get('mode') === 'favorites') loadAllFavoritesData();
-                    else populateLeftPanel();
-                    if (favOverlays[title]) { favOverlays[title].setMap(null); delete favOverlays[title]; }
-                }
-            } catch(err) { console.error(err); }
-        };
-
-        async function loadFavoritesList(shouldRenderPanel = true) {
-            const listDiv = document.getElementById('favList');
-            try {
-                const res = await fetch('/api/favorites');
-                const data = await res.json();
-                
-                myFavoritesSet.clear();
-                if(data.success) {
-                    data.favorites.forEach(fav => {
-                        myFavoritesSet.add(`${fav.file_path}|${fav.plan_title}`);
-                    });
-                }
-
-                if (!shouldRenderPanel) return; 
-
-                if(!data.success || data.favorites.length === 0) {
-                    listDiv.innerHTML = `<p class="text-sm text-gray-400 text-center mt-4">まだ保存されたルートはありません。</p>`;
-                    return;
-                }
-
-                listDiv.innerHTML = data.favorites.map(fav => `
-                    <div class="bg-white p-4 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition group relative">
-                        <button onclick="deleteFromPanel('${fav.file_path}', '${fav.plan_title}')" class="absolute top-2 right-2 text-gray-300 hover:text-red-500 p-1 z-10">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" /></svg>
-                        </button>
-                        <div class="flex items-start gap-3">
-                            <div class="pt-1">
-                                <input type="checkbox" class="w-5 h-5 accent-pink-500 cursor-pointer rounded focus:ring-pink-500" onchange="toggleOverlayRoute(this, '${fav.file_path}', '${fav.plan_title}')">
-                            </div>
-                            <div class="flex-1 min-w-0 pr-6">
-                                <h3 class="font-bold text-sm text-gray-800 truncate" title="${fav.plan_title}">${fav.plan_title}</h3>
-                                <p class="text-xs text-gray-400 mt-0.5">${new Date(fav.created_at).toLocaleDateString()}</p>
-                                <a href="/map?planFile=${fav.file_path}&planTitle=${encodeURIComponent(fav.plan_title)}" class="text-xs text-orange-600 font-medium hover:text-orange-800 mt-2 inline-flex items-center bg-orange-50 px-2 py-1 rounded transition">このルートだけ見る &rarr;</a>
-                            </div>
-                        </div>
-                    </div>
-                `).join('');
-            } catch(err) { console.error(err); }
-        }
-
-        window.toggleOverlayRoute = async function(checkbox, filename, planTitle) {
-            if (!checkbox.checked) {
-                if (favOverlays[planTitle]) { favOverlays[planTitle].setMap(null); delete favOverlays[planTitle]; }
-                return;
-            }
-            let data = loadedJsonCache[filename];
-            if (!data) {
-                try {
-                    const res = await fetch(JSON_BASE_PATH + filename);
-                    data = await res.json();
-                    loadedJsonCache[filename] = data; 
-                } catch (e) { alert("データの読み込みに失敗しました"); checkbox.checked = false; return; }
-            }
-            const targetPlan = data.find(p => p.plan_title === planTitle);
-            if (!targetPlan) return alert("プランが見つかりません");
-
-            const renderer = new google.maps.DirectionsRenderer({
-                map: map, suppressMarkers: false,
-                polylineOptions: { strokeColor: FAV_COLOR, strokeWeight: 6, strokeOpacity: 1.0, zIndex: 999 },
-                markerOptions: { icon: { path: google.maps.SymbolPath.CIRCLE, scale: 7, fillColor: FAV_COLOR, fillOpacity: 1, strokeWeight: 2, strokeColor: 'white' } }
-            });
-
-            const wps = targetPlan.waypoints;
-            const waypts = wps.slice(1, -1).map(wp => ({ location: wp.location, stopover: true }));
-
-            directionsService.route({
-                origin: wps[0].location, destination: wps[wps.length-1].location,
-                waypoints: waypts, travelMode: google.maps.TravelMode.DRIVING
-            }, (res, status) => {
-                if (status === 'OK') {
-                    renderer.setDirections(res);
-                    favOverlays[planTitle] = renderer;
-                    const bounds = map.getBounds() || new google.maps.LatLngBounds();
-                    res.routes[0].bounds.union(bounds); map.fitBounds(bounds);
-                } else checkbox.checked = false;
-            });
-        };
-
-        function setupFavUI() {
-            const btn = document.getElementById('favBtn');
-            const panel = document.getElementById('favPanel');
-            const close = document.getElementById('closeFavBtn');
-            btn.onclick = () => {
-               window.location.href = '/map?mode=favorites';
-            };
-            close.onclick = () => panel.classList.remove('open');
-        }
-        function initLightbox() { 
-            const lb = document.getElementById('lightbox');
-            const img = document.getElementById('lightbox-img');
-            document.querySelector('.lightbox-close').onclick = () => lb.style.display = 'none';
-            lb.onclick = (e) => { if(e.target === lb) lb.style.display = 'none'; };
-            window.openLightbox = (src) => { img.src = src; lb.style.display = 'block'; }
-        }
-        function loadGoogleMapsScript() {
-            if (typeof google === 'undefined') {
-                const script = document.createElement('script');
-                script.src = `https://maps.googleapis.com/maps/api/js?key=${API_KEY}&callback=initMap&libraries=places`;
-                script.async = true;
-                document.body.appendChild(script);
-            } else initMap();
-        }
-        loadGoogleMapsScript();
-    </script>
-</body>
-</html> -->
- 
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -515,6 +23,10 @@
         .lightbox-content { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); max-width: 90vw; max-height: 90vh; border-radius: 12px; }
         .lightbox-close { position: absolute; top: 20px; right: 35px; color: white; font-size: 40px; cursor: pointer; }
         
+        /* Animation cho Weather */
+        .fade-in { animation: fadeIn 0.5s ease-in-out; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(-5px); } to { opacity: 1; transform: translateY(0); } }
+
         ::-webkit-scrollbar { width: 8px; }
         ::-webkit-scrollbar-track { background: #f1f1f1; }
         ::-webkit-scrollbar-thumb { background: #c1c1c1; border-radius: 4px; }
@@ -568,49 +80,40 @@
             </div>
         </div>
 
-        <div class="right-column hidden md:flex flex-col flex-grow h-full bg-gray-100 p-4 space-y-4 relative">
-            <div id="weather-placeholder" class="h-32 flex-shrink-0 bg-white rounded-lg shadow-md p-5 flex flex-col justify-center">
-                <div class="flex items-center space-x-4">
-                    <div class="bg-blue-100 p-3 rounded-full">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" />
-                        </svg>
-                    </div>
-                    <div>
-                        <h3 class="text-lg font-semibold text-gray-700">お天気コーナー (準備中)</h3>
-                        <p class="text-sm text-gray-500">今後のアップデートで、旅行先の天気予報が表示されます。</p>
-                    </div>
+        <div class="right-column hidden md:block w-full h-full relative bg-gray-100">
+                
+                <div class="map-container absolute inset-0 z-0">
+                    <div id="map" class="w-full h-full"></div>
                 </div>
-            </div>
-            <div class="map-container flex-grow rounded-lg shadow-lg overflow-hidden relative border border-gray-200">
-                <div id="map" class="w-full h-full"></div>
+
+                <div id="weather-placeholder" class="absolute top-4 left-4 z-10 w-auto max-w-[90%] shadow-xl transition-all duration-300">
+                    </div>
             </div>
         </div>
-    </div>
 
     <div id="lightbox" class="lightbox-overlay">
         <span class="lightbox-close">&times;</span>
         <img class="lightbox-content" id="lightbox-img">
     </div>
 
-    <script>
-        const API_KEY = "AIzaSyDvvaIASfr2Hzi3oUx5RFi6wT0bpKsCLRU"; 
+<script>
+        // --- CẤU HÌNH ---
+        const API_KEY = "AIzaSyDRZS3xlk2kHRxjMC1wxKc4y6JUxlzyJts"; 
         const JSON_BASE_PATH = "/json/GeminiAPIResponse/";
         const FAV_COLOR = '#DB2777'; 
 
+        // --- BIẾN TOÀN CỤC ---
         let planData = []; 
         let map; 
         let directionsService;
-        
         let mainRenderers = []; 
         let planMarkers = [];   
-        
         let favOverlays = {}; 
         let loadedJsonCache = {}; 
         let myFavoritesSet = new Set(); 
-
         const planColors = ['#EA580C', '#3B82F6', '#10B981', '#EC4899', '#8B5CF6']; 
 
+        // --- 1. KHỞI TẠO MAP ---
         async function initMap() {
             directionsService = new google.maps.DirectionsService();
             map = new google.maps.Map(document.getElementById("map"), {
@@ -620,13 +123,10 @@
             
             initLightbox();
             setupFavUI();  
-            
-            // Tải ID Favorites ngầm (để hiển thị trái tim đỏ)
             await loadFavoritesList(false); 
 
             const urlParams = new URLSearchParams(window.location.search);
             if (urlParams.get('mode') === 'favorites') {
-                console.log("Mode: Favorites");
                 document.getElementById('favBtn').style.display = 'none';
                 document.getElementById('page-title').classList.remove('hidden');
                 await loadAllFavoritesData();
@@ -636,6 +136,144 @@
             }
         }
 
+        // --- 2. LOGIC THỜI TIẾT (UPDATED CHO JSON MỚI) ---
+// --- 2. LOGIC WIDGET THỜI TIẾT (ĐÃ KHỚP JSON MỚI) ---
+        let isWeatherOpen = true; 
+
+        function toggleWeatherPanel() {
+            const body = document.getElementById('weather-body');
+            const icon = document.getElementById('weather-toggle-icon');
+            isWeatherOpen = !isWeatherOpen;
+            if (isWeatherOpen) {
+                body.classList.remove('hidden');
+                icon.style.transform = 'rotate(180deg)';
+            } else {
+                body.classList.add('hidden');
+                icon.style.transform = 'rotate(0deg)';
+            }
+        }
+
+        async function updateWeather(lat, lng, locationName = "現在地") {
+            const weatherContainer = document.getElementById('weather-placeholder');
+            
+            // Style Widget Nổi
+            weatherContainer.className = "bg-white/95 backdrop-blur-md rounded-2xl shadow-xl border border-white/50 overflow-hidden transition-all duration-300 flex flex-col";
+            weatherContainer.style.maxHeight = "90vh"; 
+
+            // Loading
+            weatherContainer.innerHTML = `
+                <div class="p-3 flex items-center gap-2 text-gray-500 text-sm font-bold bg-white/80">
+                    <svg class="animate-spin h-4 w-4" viewBox="0 0 24 24"><circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle><path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path></svg> 
+                    <span>AI予測中...</span>
+                </div>`;
+
+            try {
+                const res = await fetch(`/api/weather?lat=${lat}&lng=${lng}`);
+                const data = await res.json();
+
+                if (data.success && data.forecasts && data.forecasts.length > 0) {
+                    const current = data.forecasts[0]; // Giờ hiện tại (mới nhất)
+                    
+                    // --- HEADER ---
+                    let html = `
+                        <div class="p-3 bg-gradient-to-r from-orange-50 to-white flex items-center justify-between cursor-pointer hover:from-orange-100 transition border-b border-gray-100" onclick="toggleWeatherPanel()">
+                            <div class="flex items-center gap-3 overflow-hidden pr-2">
+                                <div class="bg-white p-1 rounded-full shadow-sm flex-shrink-0">
+                                    <img src="${current.icon}" class="w-8 h-8" alt="icon">
+                                </div>
+                                <div class="min-w-0">
+                                    <h3 class="text-sm font-bold text-gray-800 truncate flex items-center gap-1">
+                                        ${locationName}
+                                    </h3>
+                                    <div class="flex items-center gap-2 text-xs">
+                                        <span class="text-2xl font-black text-gray-800 leading-none">${Math.round(current.weather_info.temperature_C)}°</span>
+                                        <span class="text-orange-600 font-medium truncate">${current.weather_info.description}</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w-8 h-8 flex items-center justify-center rounded-full hover:bg-gray-100 transition">
+                                <svg id="weather-toggle-icon" class="h-5 w-5 text-gray-400 transition-transform duration-300" style="transform: rotate(${isWeatherOpen ? '180deg' : '0deg'})" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" /></svg>
+                            </div>
+                        </div>
+
+                        <div id="weather-body" class="${isWeatherOpen ? '' : 'hidden'} p-3 bg-white/60 transition-all duration-300">
+                            <div class="flex overflow-x-auto gap-3 pb-2 scrollbar-thin">`;
+
+                    // --- LOOP CÁC MỐC GIỜ ---
+                    data.forecasts.forEach(item => {
+                        // Badge Ngày
+                        let dateClass = "bg-gray-100 text-gray-500";
+                        if(item.date_label === "今日") dateClass = "bg-orange-500 text-white shadow-sm";
+                        if(item.date_label === "明日") dateClass = "bg-blue-500 text-white shadow-sm";
+
+                        // Xử lý list (Nối mảng thành chuỗi)
+                        const clothesFull = (item.clothing_suggestions_jp && item.clothing_suggestions_jp.length > 0) 
+                                            ? item.clothing_suggestions_jp.join('・') 
+                                            : "特になし";
+                        
+                        const healthFull = (item.health_warnings_jp && item.health_warnings_jp.length > 0)
+                                           ? item.health_warnings_jp.join('<br>') 
+                                           : "快適です";
+
+                        // Lấy 1 món đồ đại diện
+                        const clothesShort = (item.clothing_suggestions_jp && item.clothing_suggestions_jp.length > 0)
+                                             ? item.clothing_suggestions_jp[0] 
+                                             : '-';
+
+                        html += `
+                            <div class="flex-shrink-0 w-32 h-44 bg-white rounded-xl border border-gray-100 relative group overflow-hidden shadow-sm hover:shadow-lg transition-all transform hover:-translate-y-1">
+                                
+                                <div class="absolute inset-0 flex flex-col items-center justify-between p-2 transition-opacity duration-300 group-hover:opacity-0">
+                                    <span class="text-[10px] px-2 py-0.5 rounded-full font-bold ${dateClass}">${item.date_label}</span>
+                                    
+                                    <div class="text-center">
+                                        <span class="text-xs font-bold text-gray-400 block">${item.weather_info.hour}</span>
+                                        <img src="${item.icon}" class="w-10 h-10 mx-auto drop-shadow-sm" alt="icon">
+                                    </div>
+
+                                    <span class="text-xl font-bold text-gray-800">${Math.round(item.weather_info.temperature_C)}°</span>
+                                    
+                                    <div class="w-full text-center border-t border-dashed border-gray-100 pt-1">
+                                        <p class="text-[10px] text-orange-500 truncate font-medium">👕 ${clothesShort}</p>
+                                    </div>
+                                </div>
+
+                                <div class="absolute inset-0 bg-white/95 p-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10 overflow-y-auto scrollbar-none text-left">
+                                    <div class="mb-2 border-b border-gray-100 pb-1">
+                                        <p class="text-[9px] font-bold text-gray-400">TIME</p>
+                                        <p class="text-xs font-bold text-gray-800">${item.date_label} ${item.weather_info.hour}</p>
+                                    </div>
+                                    <div class="mb-2">
+                                        <p class="text-[9px] font-bold text-orange-500">CLOTHING</p>
+                                        <p class="text-[10px] text-gray-600 leading-tight">${clothesFull}</p>
+                                    </div>
+                                    <div>
+                                        <p class="text-[9px] font-bold text-red-500">HEALTH</p>
+                                        <p class="text-[10px] text-gray-600 leading-tight">${healthFull}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        `;
+                    });
+
+                    html += `   </div>
+                                <div class="flex justify-between items-center mt-2 px-1">
+                                    <div class="flex items-center gap-2 text-[10px] text-gray-400">
+                                        <span>☔ ${current.weather_info.humidity_percent}%</span>
+                                        <span>UV: ${current.weather_info.uv_index}</span>
+                                    </div>
+                                </div>
+                            </div>`;
+
+                    weatherContainer.innerHTML = html;
+                } else {
+                    weatherContainer.innerHTML = '<div class="p-3 text-sm text-red-500 bg-white rounded-lg">天気情報の取得に失敗しました</div>';
+                }
+            } catch (e) {
+                console.error(e);
+                weatherContainer.innerHTML = '<div class="p-3 text-sm text-red-500 bg-white rounded-lg">エラーが発生しました</div>';
+            }
+        }
         async function loadMainData() {
             const urlParams = new URLSearchParams(window.location.search);
             let jsonPath = urlParams.get('planFile');
@@ -646,11 +284,8 @@
                 const res = await fetch(jsonPath);
                 const data = await res.json();
                 
-                if (Array.isArray(data)) {
-                    planData = planData.concat(data);
-                } else {
-                    planData.push(data);
-                }
+                if (Array.isArray(data)) planData = planData.concat(data);
+                else planData.push(data);
 
                 const filename = jsonPath.split('/').pop();
                 loadedJsonCache[filename] = data; 
@@ -660,346 +295,18 @@
                 
                 setTimeout(() => {
                     const allDetails = document.querySelectorAll('details');
-                    const lastDetail = allDetails[allDetails.length - 1];
-                    if (lastDetail && !lastDetail.open) {
-                        lastDetail.open = true;
-                        window.onRouteToggle(lastDetail, allDetails.length - 1);
+                    if (allDetails.length > 0) {
+                        const firstDetail = allDetails[0];
+                        firstDetail.open = true;
+                        window.onRouteToggle(firstDetail, 0); 
                     }
-                }, 500);
+                }, 800);
 
             } catch (e) { console.error(e); }
         }
 
-        function populateLeftPanel() {
-            const panel = document.getElementById('left-panel-content');
-            let html = '';
-
-            planData.forEach((plan, idx) => {
-                const color = planColors[idx % planColors.length];
-                const currentFileName = plan._sourceFileName || getCurrentFilename();
-                const isFav = myFavoritesSet.has(`${currentFileName}|${plan.plan_title}`);
-                const heartClass = isFav ? "text-pink-500 bg-pink-100 hover:bg-pink-200" : "text-gray-400 hover:text-pink-500 hover:bg-pink-50";
-
-                html += `
-                    <details class="group border-b border-gray-200 transition-all duration-300" 
-                             ontoggle="onRouteToggle(this, ${idx})">
-                        <summary class="p-5 cursor-pointer hover:bg-gray-50 flex justify-between items-start list-none select-none">
-                            <div class="border-l-4 pl-3 transition-colors duration-300 flex-1" style="border-color:${color}">
-                                <h2 class="font-bold text-gray-900 text-lg group-open:text-orange-700">${plan.plan_title}</h2>
-                                <p class="text-xs text-gray-500 mt-1">${plan.summary || ''}</p>
-                            </div>
-                            
-                            <button onclick="toggleFavorite(event, '${plan.plan_title}', '${currentFileName}')" 
-                                    class="ml-2 transition p-2 rounded-full ${heartClass} shrink-0" 
-                                    title="${isFav ? 'お気に入りから削除' : 'お気に入りに保存'}">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 fill-current" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
-                            </button>
-                        </summary>
-                        <div class="bg-white p-4 space-y-6">
-                            ${plan.waypoints.map((wp, i) => `
-                                <div class="flex gap-4 text-sm relative">
-                                    <div class="flex flex-col items-center">
-                                        <div class="w-6 h-6 rounded-full flex items-center justify-center text-white text-xs font-bold shadow-sm" style="background-color:${color}">${i+1}</div>
-                                        ${i !== plan.waypoints.length - 1 ? `<div class="w-0.5 h-full bg-gray-200 my-1"></div>` : ''}
-                                    </div>
-                                    <div class="pb-2 w-full">
-                                        <span class="text-xs font-semibold text-orange-600 bg-orange-50 px-2 py-0.5 rounded-full border border-orange-100 mb-1 inline-block">${wp.activity ? wp.activity.split(' ')[0] : 'Activity'}</span>
-                                        <p class="font-bold text-gray-800 text-base">${wp.name}</p>
-                                        <p class="text-gray-600 text-xs mt-1 leading-relaxed">${wp.info}</p>
-                                        ${wp.photo_references && wp.photo_references.length > 0 ? `
-                                            <div class="flex gap-2 mt-3 overflow-x-auto pb-2 scrollbar-hide">
-                                                ${wp.photo_references.slice(0, 3).map(ref => `
-                                                    <img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=200&photoreference=${ref}&key=${API_KEY}" 
-                                                         class="w-16 h-16 object-cover rounded-md shadow-sm cursor-pointer hover:opacity-80 transition shrink-0"
-                                                         onclick="openLightbox(this.src.replace('maxwidth=200', 'maxwidth=1600'))">
-                                                `).join('')}
-                                            </div>
-                                        ` : ''}
-                                    </div>
-                                </div>
-                            `).join('')}
-                        </div>
-                    </details>
-                `;
-            });
-            panel.innerHTML = html;
-        }
-
-        function drawMainRoutes() {
-            mainRenderers.forEach(r => r && r.setMap(null));
-            mainRenderers = [];
-            planMarkers.forEach(markerArr => markerArr && markerArr.forEach(m => m.setMap(null)));
-            planMarkers = [];
-
-            planData.forEach((plan, idx) => {
-                const color = planColors[idx % planColors.length];
-                
-                const renderer = new google.maps.DirectionsRenderer({
-                    map: (idx === 0) ? map : null, 
-                    suppressMarkers: true,
-                    polylineOptions: { strokeColor: color, strokeWeight: 6, strokeOpacity: 0.8 }
-                });
-                mainRenderers.push(renderer);
-
-                const currentMarkers = [];
-                plan.waypoints.forEach((wp, i) => {
-                    const marker = new google.maps.Marker({
-                        position: wp.location,
-                        map: (idx === 0) ? map : null, 
-                        label: { text: (i + 1).toString(), color: 'white', fontWeight: 'bold' },
-                        icon: {
-                            path: google.maps.SymbolPath.CIRCLE,
-                            scale: 14,
-                            fillColor: color,
-                            fillOpacity: 1,
-                            strokeWeight: 2,
-                            strokeColor: 'white'
-                        },
-                        zIndex: 100 + i,
-                        title: wp.name
-                    });
-                    
-                    marker.addListener("click", () => {
-                        new google.maps.InfoWindow({
-                            content: `<div style="padding:5px"><h3 style="font-weight:bold">${wp.name}</h3><p style="font-size:12px">${wp.info}</p></div>`
-                        }).open(map, marker);
-                    });
-
-                    currentMarkers.push(marker);
-                });
-                planMarkers.push(currentMarkers);
-
-                const wps = plan.waypoints;
-                if(wps.length >= 2) {
-                    const waypts = wps.slice(1, -1).map(wp => ({ location: wp.location, stopover: true }));
-
-                    directionsService.route({
-                        origin: wps[0].location,
-                        destination: wps[wps.length-1].location,
-                        waypoints: waypts,
-                        travelMode: google.maps.TravelMode.DRIVING 
-                    }, (res, status) => {
-                        if (status === 'OK') {
-                            renderer.setDirections(res);
-                            if (idx === 0) {
-                                renderer.setMap(map);
-                                currentMarkers.forEach(m => m.setMap(map));
-                                const firstDetail = document.querySelector('details');
-                                if(firstDetail) firstDetail.open = true;
-                            }
-                        } else {
-                            console.warn("Directions request failed for plan " + idx + ": " + status);
-                        }
-                    });
-                } else if (wps.length === 1 && idx === 0) {
-                    map.panTo(wps[0].location);
-                    currentMarkers[0].setMap(map);
-                }
-            });
-        }
-
-        window.onRouteToggle = function(detailsElement, index) {
-            const isOpen = detailsElement.open;
-            if(isOpen) {
-                document.querySelectorAll('details').forEach((el, i) => {
-                    if(i !== index && el.open) el.open = false; 
-                });
-                mainRenderers.forEach(r => r && r.setMap(null));
-                planMarkers.forEach(arr => arr && arr.forEach(m => m.setMap(null)));
-            }
-            if (mainRenderers[index]) mainRenderers[index].setMap(isOpen ? map : null);
-            if (planMarkers[index]) planMarkers[index].forEach(m => m.setMap(isOpen ? map : null));
-
-            if (isOpen && mainRenderers[index] && mainRenderers[index].getDirections()) {
-                const routeBounds = mainRenderers[index].getDirections().routes[0].bounds;
-                map.fitBounds(routeBounds);
-            }
-        };
-
-        async function handleAddMorePlan() {
-            const storedInput = localStorage.getItem('last_trip_request');
-            const storedMapFile = localStorage.getItem('last_map_file');
-
-            if (!storedInput) {
-                alert("元の検索データが見つかりません。もう一度検索してください。");
-                return;
-            }
-
-            const requestData = JSON.parse(storedInput);
-            if (storedMapFile) {
-                requestData.existing_map_path = storedMapFile;
-            }
-
-            const btn = document.getElementById('btn-add-more');
-            const loading = document.getElementById('loading-more');
-            btn.classList.add('hidden');
-            loading.classList.remove('hidden');
-
-            try {
-                const res = await fetch('/api/start-job', {
-                    method: 'POST',
-                    headers: {'Content-Type': 'application/json'},
-                    body: JSON.stringify(requestData)
-                });
-                const data = await res.json();
-
-                if (data.success) {
-                    await pollForNewPlan(data.job_id);
-                } else { throw new Error(data.error); }
-            } catch (err) {
-                alert("エラー: " + err.message);
-                btn.classList.remove('hidden'); loading.classList.add('hidden');
-            }
-        }
-
-        async function pollForNewPlan(jobId) {
-            const interval = setInterval(async () => {
-                try {
-                    const res = await fetch(`/api/check-status?job_id=${jobId}`);
-                    const data = await res.json();
-                    
-                    if (data.data.status === 'complete') {
-                        clearInterval(interval);
-                        const newPlanRes = await fetch(data.data.planFile);
-                        const newPlanJson = await newPlanRes.json();
-
-                        if (Array.isArray(newPlanJson)) planData = planData.concat(newPlanJson);
-                        else planData.push(newPlanJson);
-
-                        populateLeftPanel(); 
-                        drawMainRoutes();
-
-                        setTimeout(() => {
-                            const allDetails = document.querySelectorAll('details');
-                            const lastDetail = allDetails[allDetails.length - 1];
-                            if(lastDetail) {
-                                lastDetail.open = true;
-                                window.onRouteToggle(lastDetail, allDetails.length - 1);
-                            }
-                        }, 500);
-
-                        document.getElementById('btn-add-more').classList.remove('hidden');
-                        document.getElementById('loading-more').classList.add('hidden');
-
-                    } else if (data.data.status === 'error') {
-                        clearInterval(interval);
-                        alert("作成に失敗しました。");
-                        document.getElementById('btn-add-more').classList.remove('hidden');
-                        document.getElementById('loading-more').classList.add('hidden');
-                    }
-                } catch (e) { console.error("Polling error", e); }
-            }, 3000);
-        }
-
-        function getCurrentFilename() {
-            const urlParams = new URLSearchParams(window.location.search);
-            const fullPath = urlParams.get('planFile'); 
-            if(!fullPath) return null;
-            return fullPath.split('/').pop();
-        }
-
-        window.toggleFavorite = async function(e, title, filenameOverride) {
-            e.preventDefault(); e.stopPropagation();
-            const filename = filenameOverride || getCurrentFilename();
-            if(!filename) return alert("ファイルエラーが発生しました。");
-            const key = `${filename}|${title}`;
-            const isCurrentlyFav = myFavoritesSet.has(key);
-            const btn = e.currentTarget;
-            const apiUrl = isCurrentlyFav ? '/api/favorites/delete' : '/api/favorites/add';
-            try {
-                const res = await fetch(apiUrl, {
-                    method: 'POST', headers: {'Content-Type': 'application/json'},
-                    body: JSON.stringify({ file_path: filename, plan_title: title })
-                });
-                const data = await res.json();
-                if(data.success) {
-                    if (isCurrentlyFav) {
-                        myFavoritesSet.delete(key);
-                        btn.className = "ml-2 transition p-2 rounded-full text-gray-400 hover:text-pink-500 hover:bg-pink-50 shrink-0";
-                        const urlParams = new URLSearchParams(window.location.search);
-                        if (urlParams.get('mode') === 'favorites') loadAllFavoritesData();
-                    } else {
-                        myFavoritesSet.add(key);
-                        btn.className = "ml-2 transition p-2 rounded-full text-pink-500 bg-pink-100 hover:bg-pink-200 shrink-0";
-                    }
-                    loadFavoritesList(true);
-                } else { alert('エラー: ' + data.message); }
-            } catch(err) { console.error(err); }
-        };
-
-        window.deleteFromPanel = async function(filename, title) {
-            try {
-                const res = await fetch('/api/favorites/delete', {
-                    method: 'POST', headers: {'Content-Type': 'application/json'},
-                    body: JSON.stringify({ file_path: filename, plan_title: title })
-                });
-                const data = await res.json();
-                if(data.success) {
-                    myFavoritesSet.delete(`${filename}|${title}`);
-                    await loadFavoritesList(true);
-                    const urlParams = new URLSearchParams(window.location.search);
-                    if (urlParams.get('mode') === 'favorites') loadAllFavoritesData();
-                    else populateLeftPanel();
-                    if (favOverlays[title]) { favOverlays[title].setMap(null); delete favOverlays[title]; }
-                }
-            } catch(err) { console.error(err); }
-        };
-
-        // --- HÀM LOAD DATA YÊU THÍCH ---
-        async function loadFavoritesList(shouldRenderPanel = true) {
-            const listDiv = document.getElementById('favList');
-            try {
-                const res = await fetch('/api/favorites');
-                const data = await res.json();
-                
-                myFavoritesSet.clear();
-                if(data.success) {
-                    data.favorites.forEach(fav => myFavoritesSet.add(`${fav.file_path}|${fav.plan_title}`));
-                }
-
-                // Nếu chỉ chạy ngầm (false) thì dừng tại đây, không vẽ lại Panel
-                if (!shouldRenderPanel) return;
-
-                if(!data.success || data.favorites.length === 0) {
-                    listDiv.innerHTML = `<p class="text-sm text-gray-400 text-center mt-4">まだ保存されたルートはありません。</p>`;
-                    return;
-                }
-
-                listDiv.innerHTML = data.favorites.map(fav => `
-                    <div class="bg-white p-4 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition group relative">
-                        <button onclick="deleteFromPanel('${fav.file_path}', '${fav.plan_title}')" class="absolute top-2 right-2 text-gray-300 hover:text-red-500 p-1 z-10">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" /></svg>
-                        </button>
-                        <div class="flex items-start gap-3">
-                            <div class="pt-1">
-                                <input type="checkbox" class="w-5 h-5 accent-pink-500 cursor-pointer rounded focus:ring-pink-500" onchange="toggleOverlayRoute(this, '${fav.file_path}', '${fav.plan_title}')">
-                            </div>
-                            <div class="flex-1 min-w-0 pr-6">
-                                <h3 class="font-bold text-sm text-gray-800 truncate" title="${fav.plan_title}">${fav.plan_title}</h3>
-                                <p class="text-xs text-gray-400 mt-0.5">${new Date(fav.created_at).toLocaleDateString()}</p>
-                                <a href="/map?planFile=${fav.file_path}&planTitle=${encodeURIComponent(fav.plan_title)}" class="text-xs text-orange-600 font-medium hover:text-orange-800 mt-2 inline-flex items-center bg-orange-50 px-2 py-1 rounded transition">このルートだけ見る &rarr;</a>
-                            </div>
-                        </div>
-                    </div>
-                `).join('');
-            } catch(err) { console.error(err); }
-        }
-
-        // --- SỬA LỖI Ở ĐÂY: GỌI HÀM LOAD KHI MỞ PANEL ---
-        function setupFavUI() {
-            const btn = document.getElementById('favBtn');
-            const panel = document.getElementById('favPanel');
-            const close = document.getElementById('closeFavBtn');
-            
-            btn.onclick = () => {
-                panel.classList.add('open');
-                loadFavoritesList(true); // <--- THÊM DÒNG NÀY (Bấm nút là tải lại data)
-            };
-            close.onclick = () => panel.classList.remove('open');
-        }
-
         async function loadAllFavoritesData() {
-             try {
+            try {
                 const res = await fetch('/api/favorites');
                 const data = await res.json();
                 if (!data.success || data.favorites.length === 0) {
@@ -1030,10 +337,290 @@
                 planData = results.filter(p => p !== null);
                 populateLeftPanel();
                 drawMainRoutes();
+
+                setTimeout(() => {
+                    const allDetails = document.querySelectorAll('details');
+                    if (allDetails.length > 0) {
+                        const firstDetail = allDetails[0];
+                        firstDetail.open = true;
+                        window.onRouteToggle(firstDetail, 0);
+                    }
+                }, 800);
+
             } catch (e) { console.error(e); }
         }
 
-        window.toggleOverlayRoute = async function(checkbox, filename, planTitle) {
+        // --- 4. RENDER UI CỘT TRÁI (GIỮ NGUYÊN) ---
+        function populateLeftPanel() {
+            const panel = document.getElementById('left-panel-content');
+            let html = '';
+            planData.forEach((plan, idx) => {
+                const color = planColors[idx % planColors.length];
+                const currentFileName = plan._sourceFileName || getCurrentFilename();
+                const isFav = myFavoritesSet.has(`${currentFileName}|${plan.plan_title}`);
+                const heartClass = isFav ? "text-pink-500 bg-pink-100 hover:bg-pink-200" : "text-gray-400 hover:text-pink-500 hover:bg-pink-50";
+
+                html += `
+                    <details class="group border-b border-gray-200 transition-all duration-300" 
+                             ontoggle="onRouteToggle(this, ${idx})">
+                        <summary class="p-5 cursor-pointer hover:bg-gray-50 flex justify-between items-start list-none select-none">
+                            <div class="border-l-4 pl-3 transition-colors duration-300 flex-1" style="border-color:${color}">
+                                <h2 class="font-bold text-gray-900 text-lg group-open:text-orange-700">${plan.plan_title}</h2>
+                                <p class="text-xs text-gray-500 mt-1">${plan.summary || ''}</p>
+                            </div>
+                            <button onclick="toggleFavorite(event, '${plan.plan_title}', '${currentFileName}')" 
+                                    class="ml-2 transition p-2 rounded-full ${heartClass} shrink-0" 
+                                    title="${isFav ? 'お気に入りから削除' : 'お気に入りに保存'}">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 fill-current" viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+                            </button>
+                        </summary>
+                        <div class="bg-white p-4 space-y-6">
+                            ${plan.waypoints.map((wp, i) => `
+                                <div class="flex gap-4 text-sm relative">
+                                    <div class="flex flex-col items-center">
+                                        <div class="w-6 h-6 rounded-full flex items-center justify-center text-white text-xs font-bold shadow-sm" style="background-color:${color}">${i+1}</div>
+                                        ${i !== plan.waypoints.length - 1 ? `<div class="w-0.5 h-full bg-gray-200 my-1"></div>` : ''}
+                                    </div>
+                                    <div class="pb-2 w-full">
+                                        <span class="text-xs font-semibold text-orange-600 bg-orange-50 px-2 py-0.5 rounded-full border border-orange-100 mb-1 inline-block">${wp.activity ? wp.activity : 'Activity'}</span>
+                                        <p class="font-bold text-gray-800 text-base">${wp.name}</p>
+                                        <p class="text-gray-600 text-xs mt-1 leading-relaxed">${wp.info}</p>
+                                        ${wp.photo_references && wp.photo_references.length > 0 ? `
+                                            <div class="flex gap-2 mt-3 overflow-x-auto pb-2 scrollbar-hide">
+                                                ${wp.photo_references.slice(0, 3).map(ref => `
+                                                    <img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=200&photoreference=${ref}&key=${API_KEY}" 
+                                                         class="w-16 h-16 object-cover rounded-md shadow-sm cursor-pointer hover:opacity-80 transition shrink-0"
+                                                         onclick="openLightbox(this.src.replace('maxwidth=200', 'maxwidth=1600'))">
+                                                `).join('')}
+                                            </div>
+                                        ` : ''}
+                                    </div>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </details>
+                `;
+            });
+            panel.innerHTML = html;
+        }
+
+        // --- 5. LOGIC VẼ MAP (GIỮ NGUYÊN) ---
+        function drawMainRoutes() {
+            mainRenderers.forEach(r => r && r.setMap(null));
+            mainRenderers = [];
+            planMarkers.forEach(markerArr => markerArr && markerArr.forEach(m => m.setMap(null)));
+            planMarkers = [];
+
+            planData.forEach((plan, idx) => {
+                const color = planColors[idx % planColors.length];
+                const renderer = new google.maps.DirectionsRenderer({
+                    map: null, suppressMarkers: true,
+                    polylineOptions: { strokeColor: color, strokeWeight: 6, strokeOpacity: 0.8 }
+                });
+                mainRenderers.push(renderer);
+
+                const currentMarkers = [];
+                plan.waypoints.forEach((wp, i) => {
+                    const marker = new google.maps.Marker({
+                        position: wp.location, map: null, 
+                        label: { text: (i + 1).toString(), color: 'white', fontWeight: 'bold' },
+                        icon: { path: google.maps.SymbolPath.CIRCLE, scale: 14, fillColor: color, fillOpacity: 1, strokeWeight: 2, strokeColor: 'white' },
+                        zIndex: 100 + i, title: wp.name
+                    });
+                    marker.addListener("click", () => {
+                        new google.maps.InfoWindow({
+                            content: `<div style="padding:5px"><h3 style="font-weight:bold">${wp.name}</h3><p style="font-size:12px">${wp.info}</p></div>`
+                        }).open(map, marker);
+                    });
+                    currentMarkers.push(marker);
+                });
+                planMarkers.push(currentMarkers);
+
+                const wps = plan.waypoints;
+                if(wps.length >= 2) {
+                    const waypts = wps.slice(1, -1).map(wp => ({ location: wp.location, stopover: true }));
+                    directionsService.route({
+                        origin: wps[0].location, destination: wps[wps.length-1].location,
+                        waypoints: waypts, travelMode: google.maps.TravelMode.DRIVING 
+                    }, (res, status) => {
+                        if (status === 'OK') renderer.setDirections(res);
+                    });
+                }
+            });
+        }
+
+        // --- 6. HÀM TOGGLE (QUAN TRỌNG) ---
+        window.onRouteToggle = function(detailsElement, index) {
+            const isOpen = detailsElement.open;
+            if(isOpen) {
+                document.querySelectorAll('details').forEach((el, i) => { if(i !== index && el.open) el.open = false; });
+                mainRenderers.forEach(r => r && r.setMap(null));
+                planMarkers.forEach(arr => arr && arr.forEach(m => m.setMap(null)));
+            }
+            if (mainRenderers[index]) mainRenderers[index].setMap(isOpen ? map : null);
+            if (planMarkers[index]) planMarkers[index].forEach(m => m.setMap(isOpen ? map : null));
+
+            if (isOpen && mainRenderers[index] && mainRenderers[index].getDirections()) {
+                const routeBounds = mainRenderers[index].getDirections().routes[0].bounds;
+                map.fitBounds(routeBounds);
+            }
+
+            // GỌI API THỜI TIẾT KHI MỞ
+            if (isOpen && planData[index]) {
+                const plan = planData[index];
+                if (plan.waypoints && plan.waypoints.length > 0) {
+                    const firstPoint = plan.waypoints[0];
+                    const displayLocationName = plan.region_name || firstPoint.name;
+                    updateWeather(firstPoint.location.lat, firstPoint.location.lng, displayLocationName);
+                }
+            }
+        };
+
+        // --- 7. ADD MORE & POLLING (GIỮ NGUYÊN) ---
+        async function handleAddMorePlan() {
+            const storedInput = localStorage.getItem('last_trip_request');
+            const storedMapFile = localStorage.getItem('last_map_file');
+            if (!storedInput) return alert("元の検索データが見つかりません。");
+
+            const requestData = JSON.parse(storedInput);
+            if (storedMapFile) requestData.existing_map_path = storedMapFile;
+
+            const btn = document.getElementById('btn-add-more');
+            const loading = document.getElementById('loading-more');
+            btn.classList.add('hidden'); loading.classList.remove('hidden');
+
+            try {
+                const res = await fetch('/api/start-job', {
+                    method: 'POST', headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify(requestData)
+                });
+                const data = await res.json();
+                if (data.success) await pollForNewPlan(data.job_id);
+                else throw new Error(data.error);
+            } catch (err) {
+                alert("エラー: " + err.message);
+                btn.classList.remove('hidden'); loading.classList.add('hidden');
+            }
+        }
+
+        async function pollForNewPlan(jobId) {
+            const interval = setInterval(async () => {
+                try {
+                    const res = await fetch(`/api/check-status?job_id=${jobId}`);
+                    const data = await res.json();
+                    
+                    if (data.data.status === 'complete') {
+                        clearInterval(interval);
+                        const newPlanRes = await fetch(data.data.planFile);
+                        const newPlanJson = await newPlanRes.json();
+                        if (Array.isArray(newPlanJson)) planData = planData.concat(newPlanJson);
+                        else planData.push(newPlanJson);
+
+                        populateLeftPanel(); drawMainRoutes();
+                        setTimeout(() => {
+                            const allDetails = document.querySelectorAll('details');
+                            const lastDetail = allDetails[allDetails.length - 1];
+                            if(lastDetail) {
+                                lastDetail.open = true;
+                                window.onRouteToggle(lastDetail, allDetails.length - 1);
+                            }
+                        }, 500);
+                        document.getElementById('btn-add-more').classList.remove('hidden');
+                        document.getElementById('loading-more').classList.add('hidden');
+                    } else if (data.data.status === 'error') {
+                        clearInterval(interval);
+                        alert("作成に失敗しました。");
+                        document.getElementById('btn-add-more').classList.remove('hidden');
+                        document.getElementById('loading-more').classList.add('hidden');
+                    }
+                } catch (e) { console.error(e); }
+            }, 3000);
+        }
+
+        function getCurrentFilename() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const fullPath = urlParams.get('planFile'); 
+            if(!fullPath) return null;
+            return fullPath.split('/').pop();
+        }
+
+        // --- 8. FAVORITES & UTILS (GIỮ NGUYÊN) ---
+        window.toggleFavorite = async function(e, title, filenameOverride) {
+            e.preventDefault(); e.stopPropagation();
+            const filename = filenameOverride || getCurrentFilename();
+            if(!filename) return alert("ファイルエラー");
+            const key = `${filename}|${title}`;
+            const isCurrentlyFav = myFavoritesSet.has(key);
+            const btn = e.currentTarget;
+            const apiUrl = isCurrentlyFav ? '/api/favorites/delete' : '/api/favorites/add';
+            try {
+                const res = await fetch(apiUrl, {
+                    method: 'POST', headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({ file_path: filename, plan_title: title })
+                });
+                const data = await res.json();
+                if(data.success) {
+                    if (isCurrentlyFav) {
+                        myFavoritesSet.delete(key);
+                        btn.className = "ml-2 transition p-2 rounded-full text-gray-400 hover:text-pink-500 hover:bg-pink-50 shrink-0";
+                        const urlParams = new URLSearchParams(window.location.search);
+                        if (urlParams.get('mode') === 'favorites') loadAllFavoritesData();
+                    } else {
+                        myFavoritesSet.add(key);
+                        btn.className = "ml-2 transition p-2 rounded-full text-pink-500 bg-pink-100 hover:bg-pink-200 shrink-0";
+                    }
+                    loadFavoritesList(true);
+                } else { alert('エラー: ' + data.message); }
+            } catch(err) { console.error(err); }
+        };
+
+        window.deleteFromPanel = async function(filename, title) { /* Logic xóa panel (như cũ) */
+            try {
+                const res = await fetch('/api/favorites/delete', {
+                    method: 'POST', headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({ file_path: filename, plan_title: title })
+                });
+                const data = await res.json();
+                if(data.success) {
+                    myFavoritesSet.delete(`${filename}|${title}`);
+                    await loadFavoritesList(true);
+                    const urlParams = new URLSearchParams(window.location.search);
+                    if (urlParams.get('mode') === 'favorites') loadAllFavoritesData();
+                    else populateLeftPanel();
+                    if (favOverlays[title]) { favOverlays[title].setMap(null); delete favOverlays[title]; }
+                }
+            } catch(err) { console.error(err); }
+        };
+
+        async function loadFavoritesList(shouldRenderPanel = true) { /* Logic load list (như cũ) */ 
+            const listDiv = document.getElementById('favList');
+            try {
+                const res = await fetch('/api/favorites');
+                const data = await res.json();
+                myFavoritesSet.clear();
+                if(data.success) data.favorites.forEach(fav => myFavoritesSet.add(`${fav.file_path}|${fav.plan_title}`));
+                if (!shouldRenderPanel) return;
+                if(!data.success || data.favorites.length === 0) {
+                    listDiv.innerHTML = `<p class="text-sm text-gray-400 text-center mt-4">まだ保存されたルートはありません。</p>`;
+                    return;
+                }
+                listDiv.innerHTML = data.favorites.map(fav => `
+                    <div class="bg-white p-4 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition group relative">
+                        <button onclick="deleteFromPanel('${fav.file_path}', '${fav.plan_title}')" class="absolute top-2 right-2 text-gray-300 hover:text-red-500 p-1 z-10">&times;</button>
+                        <div class="flex items-start gap-3">
+                            <div class="pt-1"><input class="w-5 h-5 accent-pink-500 cursor-pointer" onchange="toggleOverlayRoute(this, '${fav.file_path}', '${fav.plan_title}')"></div>
+                            <div class="flex-1 min-w-0 pr-6">
+                                <h3 class="font-bold text-sm text-gray-800 truncate">${fav.plan_title}</h3>
+                                <p class="text-xs text-gray-400 mt-0.5">${new Date(fav.created_at).toLocaleDateString()}</p>
+                                <a href="/map?planFile=${fav.file_path}&planTitle=${encodeURIComponent(fav.plan_title)}" class="text-xs text-orange-600 font-medium hover:text-orange-800 mt-2 inline-flex items-center">このルートだけ見る &rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+                `).join('');
+            } catch(err) { console.error(err); }
+        }
+
+        window.toggleOverlayRoute = async function(checkbox, filename, planTitle) { /* Logic overlay (như cũ) */
             if (!checkbox.checked) {
                 if (favOverlays[planTitle]) { favOverlays[planTitle].setMap(null); delete favOverlays[planTitle]; }
                 return;
@@ -1044,22 +631,18 @@
                     const res = await fetch(JSON_BASE_PATH + filename);
                     data = await res.json();
                     loadedJsonCache[filename] = data; 
-                } catch (e) { alert("データの読み込みに失敗しました"); checkbox.checked = false; return; }
+                } catch (e) { alert("データエラー"); checkbox.checked = false; return; }
             }
             const list = Array.isArray(data) ? data : [data];
             const targetPlan = list.find(p => p.plan_title === planTitle);
-            
-            if (!targetPlan) return alert("プランが見つかりません");
+            if (!targetPlan) return alert("プランなし");
 
             const renderer = new google.maps.DirectionsRenderer({
                 map: map, suppressMarkers: false,
-                polylineOptions: { strokeColor: FAV_COLOR, strokeWeight: 6, strokeOpacity: 1.0, zIndex: 999 },
-                markerOptions: { icon: { path: google.maps.SymbolPath.CIRCLE, scale: 7, fillColor: FAV_COLOR, fillOpacity: 1, strokeWeight: 2, strokeColor: 'white' } }
+                polylineOptions: { strokeColor: FAV_COLOR, strokeWeight: 6, strokeOpacity: 1.0, zIndex: 999 }
             });
-
             const wps = targetPlan.waypoints;
             const waypts = wps.slice(1, -1).map(wp => ({ location: wp.location, stopover: true }));
-
             directionsService.route({
                 origin: wps[0].location, destination: wps[wps.length-1].location,
                 waypoints: waypts, travelMode: google.maps.TravelMode.DRIVING
@@ -1073,6 +656,14 @@
             });
         };
 
+        function setupFavUI() {
+            const btn = document.getElementById('favBtn');
+            const panel = document.getElementById('favPanel');
+            const close = document.getElementById('closeFavBtn');
+            btn.onclick = () => { panel.classList.add('open'); loadFavoritesList(true); };
+            close.onclick = () => panel.classList.remove('open');
+        }
+
         function initLightbox() { 
             const lb = document.getElementById('lightbox');
             const img = document.getElementById('lightbox-img');
@@ -1080,6 +671,7 @@
             lb.onclick = (e) => { if(e.target === lb) lb.style.display = 'none'; };
             window.openLightbox = (src) => { img.src = src; lb.style.display = 'block'; }
         }
+
         function loadGoogleMapsScript() {
             if (typeof google === 'undefined') {
                 const script = document.createElement('script');
@@ -1089,6 +681,7 @@
             } else initMap();
         }
         loadGoogleMapsScript();
+
     </script>
 </body>
 </html>
