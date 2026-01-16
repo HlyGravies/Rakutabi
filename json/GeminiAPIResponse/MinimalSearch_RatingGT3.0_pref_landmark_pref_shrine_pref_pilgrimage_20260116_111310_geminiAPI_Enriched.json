@@ -1,0 +1,104 @@
+[
+    {
+        "region_name": "吉野エリア",
+        "plan_title": "世界遺産 吉野山を巡る 歴史と絶景、郷土の味覚満喫プラン",
+        "waypoints": [
+            {
+                "place_id": "ChIJO3yg50bABmARv8JZy0oLWGY",
+                "order": 1,
+                "name": "金峯山寺 蔵王堂",
+                "location": {
+                    "lat": 34.2695578,
+                    "lng": 135.8792985
+                },
+                "info": "修験道の総本山であり、世界遺産にも登録されている日本最大級の木造建築です。その迫力ある佇まいと、本尊・蔵王権現像は訪れる人々を圧倒します。",
+                "activity": "寺院拝観、歴史散策、文化体験",
+                "transport_mode": "車または公共交通機関（バス）",
+                "photo_references": [
+                    "AcnlKN1-ATD8jXB0HYpk0lNlgqL6HemgB4srU58hI9-p-sQODAJYjRXBFUSzGa5PtAx-Vhbc7uR3z-5VFkeNkOa5vH1WrIl6CCl5SRrMpnWcl3xG8LpVVy9Ov6DIApR99qrTSDnzF4lv2_5mjZ4dO6JRbomKer6RAyFzgU2PKgQvqYE582fTNlFq2Ll_nu_Qjuvrn4uklNgE8EHZr8LiFbiwKeyQvQTxBxtmMz-CABCHI6qdrp98GWqUgb7sWLMwIPRVeq1JmYfJLRJ6n23XyhzvKzIB8xllL3oKZpYRxw738eD9XKXQ0A7dNb6J9ea3CM2R_Dvn3R9G-0I3C05ivgMfbuRQJdosEbhV1Lm54otKWOS_6JC7Wc_4leAW_FuOakM67pWKPLZlbJbbTMcRdll2TUbtZG_Iguqz68kM4up30Jc",
+                    "AcnlKN0qqyjaDd3jIc9TO3pY_vSySJfu-TCV8OrykPbKRsz2rtQfQTeNjLsiGysZmBv2rjd3xsgAjFeW34L7soQ4NfHUcRDJue6MkZvEYy6pwdZrh4LAAguAJOZoRIp8YwIV-p_xRUN_iPH0zGXN1Y6J3SW8yQyd2Q0EXMBLTL3iJUVH-33n_fvn3VvQ0fsvTFYr_SmgmCNskQZkYfjh0BtcLDXyyD1fxPO4Flb7iKm8ihTWRgB-uuIt14ub0shSQ8RKfk12-EmcQljL9QQH6p4P3ehwgvx4hy3KlT_58iiB5-cR1883ZhCwhFl7UtzwXk_cHkQ0TOupND_xavKz9t3Ap8jTGd8PvTeDzz5VAPyaAjp_6NYTNhbHzjd7hgiyrdIMj8c1MmMuAbn7kuhsT71Y0VCfvSzzcDzsRLrTxcmP6uG-OTo1",
+                    "AcnlKN0eXC4UstqdWg5o_JnnSid7EKYl4-dmF6Yi4JaKx1eOv4v2b6WP-knRkvYe4aTlUwCLLA7IzCrv5MBnCek7xExtAg0a9saMt5blrf-tPBrz0JEGbFomyboBe7OHI871URd5rXiCNPUK4_cO3eEkkf3JZdJeBeOiRFvjz-j-CUKP48VmbzJ12BVIjS_TqRjExhY7vo_zuBmSu__H47fi8oO7hipT80GXIxaA8BMxw6nTMF8eFmcHkEK7ih8TftbkyWs3UPbp8a2uMGlysJRHdmkRPKlDVhB-Key3oy9R2NQNySMmUQo4CnVyvuo5lt6f7BEr6q_I6yqSaiCNnBGFy2UlvztBKQ0ARgn6y3zAaL1n8ha4qLxTbQLLfAFn7eE5oIYqMVTmrn_q8wiSOylrDcfHtw9FocmbCEOiQGvkO1Dv_g",
+                    "AcnlKN2FPLU-56dDkO2CfmurSdv1XDQCWxKIWCxgVYswT5-y7kS-PStb3ZEd-DiqRmyFRayrYHnPkKdvoIhPnWF4UCMvYqXsKQAij4Y4Gk8WnMRB6DeZUsi3oJY3631EZwJYo2LnH2S5eF-0Ou2wxBLDLNc1RFhlt7-GRdeAk8SOD1vRzAfzVzrDyZAqcHcxRcavvrp73CjeEZWcLVsSjm-puPsjfzqACVvfFiTbnh6A4SiU7R07DuvdHrT9INT9r53K4Sy40ZHY5Ptu_pmQhfAGMGEXh168CUNFEJj2kNNkYfpjpktm6jozRKGzA-x-d6r86wV3yjx2QNwxltEnAoC7xNuuC6LXnY2UJhcna5LdCKcL_4ldQRKM8dugle3czvILW9erSJUE9M8_de1JxP171cQ1EQqKex3rR9NT6SPsr6-FOw",
+                    "AcnlKN3aktw_1d_p21uyqCfPLayCOFPffvTSUA3XVNVUAKUUfMCPq6bxzt0TLC8I99Vn_y_Xf42HYrkmdh1ATp5w7_O2tFP_gY2pmuAx18H7XVqp80w1oc5Eh0pHb_hPmx8m5tfCoSnsVtq35ESEzFCw8ZvZEL9PeDsQ6RiRazRzTfLwGozg3O7tg9zf18w62aXnZ2uZPbkq92VCVkBDiSHmY3Qyl7eEnwYby8vp_BIkbWqLpgS3QaQ1ZTh4anH7_eJjJoYKm3sVzqlxxSPcCOdNFrGeU8ZjxXvMv71u8208dw1Lw1QBNjOgpdUGdMbwyT0ULdXxq9FxyVmmMi-f1TERS-t3svp77a0gmFdLM7dXY5xuANbxBo1Df8l9VdSJ8bZpeNR5X_8kmQtJ2nOVLppCJ7fXMgEMnSPSjdutM33p6huqmPdz",
+                    "AcnlKN3rc9mkf32z2Hrb8M3pZhOGu5GQFoy-gJMoXaM1VZsF5-Sh69U1WOuYyS-qJ-fex9k7aicKkHnGOy7tV791QaL-rWp0L5seuPFZdYI24-xP6VYbO9ZXjgWdchG-E66i5NkjZOe6YJ0LRHOHPPQr5BSkbAbLBPe9KFalHP-0sUJrZQfTt1wVVqGXs7p2Sx4QeaX68i0pEqavBeFX2JmhLUCc7FQGTX_gf_JB_R02L087rNP8P_zDE4y01071AzqzlrrXtJIlLjymGSi0TdP8T1QqMbfY_Sk_-aihl4vDF4Z25laUDR_XR44M8_XILc5J10IxtlGoSfRcpCbE4CoH1PGrX2gK0uC1AG6qy15hWMRbiM6q77AsxBZOvQJQ4NhOgt2CPSKUy7Dc0yEbnpBg_YOxVXobpJemxPVzW5MBmIMEXw",
+                    "AcnlKN08jdh4E8zvLWhv3_KOqZ_rN8asoteTFkS5yZ10f9Sm9zms-nejIvDkDNf5Y5px_jGBql8OOWG-Y95-xFcK1Ak_OwTuTyJaWbNbFa7jAQag8mcMDEo-noKAtXOJqKga0gqVmXaJoXXUL1_Uer0VURyKv0ObIAKRyD1-y4SVk4f-l1prGicUFM6BluaYCavpaKGR7NMyZcRav_vsuSvN9y64arLhOQKKwUqoDV1TWtibJW3Aa8OwfGBBQ6Cs6MDvCA33ND24fjRMfjn_2YhMdcIiqf5w_Or3etk9l4Ns-kKeeGSLm2UVN93QAc54w0Wi4KnqoF_2vSTBDTI1m1pMY9GpI619eqS66MkZbUNKAf9ORFh9EE1QIpdhczNUR1i6wPhCidZ8kDnL_CFgOrAtKX5auP_DHEQYr7LgL5Wx5aqt_APi",
+                    "AcnlKN3MEvA8ldHwdxLotu3rqXkPA2hm6on3DcJmIy9vjocAL-wX4CBovnndTEBgJwES0CedlXqAGsq-SJirPIx01GUsFULS5z1_bpHHVA1QNJSQTJAXIZaHKhNb3hFRxsMj0or5GKrusJD5o4dbJywxM97NOJjt42UGwyOxblB3qZcevt25pgB_5yLG8Lr1zU1h8pH1PrR6x65oFBNVSJKG4yflqhcJ_14wetI09fAHUDw0Y2t-HRlLQayM318iZOXE_4zwnBeek4FZh3VS6faHIe-a2QQP0ZN5BAE7pcdImI5BmXH9fw7MYoRj-2lsIC8T7WEcMar1ge58JV5-okgILNInwOmMV2tZd6farPNfkBvLlsNESjG483G1cuQ01mkms86hHqruthWu_oNL8m1ZUuoCCLW9hdCGpgKlP033PJmfhe_5",
+                    "AcnlKN2C5P7yXhOzWrpcp1kVJI7y13i3dmXUckgMbEzwfa-pSSq87_7NlCJ7EqVzYeX1T6pnEoB6_yHGT9WfRFQoVGnhYg76q4wrsDHSTsCxrFOxLwg9sz5FnoWhP2t1QdL3BwBkuJywY82wdAbkR7m1lpOFPrDdzsWpIhMbyE0hyvyJpFnwUenkeXMkoDlPMqm_7groeCFS1PodQGXs4_7srfGbMrqCV_JWWaJZsVJyC7gANpBcdQNdN16BBxDiFjPGoVwVZd0rchALx1KiPqKpTVCPbgUo4-G-NyTGbMzAR36nxszA7kIOd9vjkD9l1wtK6uZhMcHUxtOjqOA8I-zJSjCEvnHL9MCTljF5-5ysWLGNwDHfGeAHmqIrxcSqNcfiTktNvkQ8SyZMVZtESfljs6AKuUR4-bN9X8U0Gl879DqcrRE",
+                    "AcnlKN3nHtx0RYjVhCgp7Lr1UtPNtXpiNhR37Ao7YMn64bfhUtozoB9e2PM9dRuAe5L4vrl1b-GsCdQ5o914FrQphd1roUdnmVV6jwFoaZirIuZeBnyXHm9m8q9Sr_8Ee-N9wC8j_lXTcQRfvdO7w5i6z_tzQemKYJ59OvKbAFG_Jpy7zzj4nW2yTIS4lhbavTa8WmJ_Hop2e0ouVksk5-MPpZefUyq4Xt8PaB-0jKSI5lf_nA2IR3RuG0Ze--t-uCnZAx9f_OhxfOHNBrNVCBcKeLXbhoEJ4ifgLp1mUJmavrKXNtI7YUXXwEhsuXQg_Kh1e3OD9gmSL7rYq7Ymvym1AgPafumAihdMvihVKqUZL6etZsVo-jnpc98avYbAVVnnaimVkLq96FOBl6ubEDmReaN0CKITaiYbzNwPn1MmFhK02SlmLDmoR9iddBZ2vDzc"
+                ],
+                "review_texts": [
+                    "秋の紅葉が美しい場所\n龍も名前がつくだけあって、龍を祀っています。\n龍が描かれた天井も圧巻\n\n駐車場は空いていればお寺のところに無料で停められます。\n写真を撮りに来られてる方が大勢います。",
+                    "いろんな神社仏閣を巡ってるが、龍泉寺の境内ほど美しい調和を魅せてくれる寺はない、と思わせてくれる春の桜🌸と晩秋の紅葉🍁時は、圧巻なので毎年その姿を見に来てるが、飽きることはない。\n今回は、紅葉前の「青モミジ」を観に来たが、これもまた口が塞がらないほどの絶景なり☝️⭕",
+                    "ここは池が本当に綺麗！\n池にイワナが泳いでるのに驚き🫢\n滝行もできる模様。\n炭治郎がねずこを背負っていた箱に似たモノを背負っている像がありました。",
+                    "龍泉寺さん\nこの度は お許しくださり 参拝させて頂きました\n思っていた以上に 境内は広く かなりの水量が湧き出る清水 そして池\n本堂 小堂と 時間を忘れ散策させて頂きました\n所々に龍 龍神様が\n滝行も行われている 様です\n寺務所に伺わせていただき\n御朱印を頂戴させて頂く際に\n美味しいお茶を ご馳走になりました。\n御朱印ですが\n八大龍王 龍神様が月替りで変わる様です\n６月の ば難陀竜王 を頂いたのですが\n八大龍王全て お会い出来る事が\n楽しみですね\n\n暑い中の お茶は大変美味しかったです\nご馳走になりました。\n合掌\n\nまた\n伺わせていただきます",
+                    "とても綺麗なお寺だと思いました。真っ赤な紅葉になったらもう一度足を運んでみたいですね。かりがね橋も見てきたのでついでに載せておきます。"
+                ]
+            },
+            {
+                "place_id": "ChIJk_jnIKnBBmAR2RseGwTDSwI",
+                "order": 2,
+                "name": "吉野山 展望カフェ",
+                "location": {
+                    "lat": 34.2675615,
+                    "lng": 135.8760522
+                },
+                "info": "吉野山の美しい山々を眺めながら、地元食材を活かしたランチや軽食を楽しめるカフェです。特に桜の季節には、息をのむような絶景が広がります。",
+                "activity": "昼食、景色鑑賞、休憩",
+                "transport_mode": "徒歩",
+                "photo_references": [
+                    "AcnlKN1fZuNFr1T7vGFysmMie1qXnKk6r7S6uTXJNciSJKCHdgwqofRjW9TKK4mgMFwjZ9gklIkbx1UurwTpXHOrw7LcXEdED4N0FXue3Y-qpXjtpfmtAducduk6J45UEAn3a-DYq2bg34bQ-xN7S1fPaYIGeWGrAVBK0EkFPh7-ehpxisncqxYOC1gEbW0FK5xdnKobj68x6B8eCMLX_TohkZuzNN95B3vCtvxFIPfz1WnuBPbbtWI7WP4ZcFsx8Y6waLj2tCZ0xfQ9aN9p9DBK9u7T64Io0DlNk1XRuGncsck-4ugLSGH4OfU8ur7PgdB4V6m5la6aVHDBrPplmlf09TpkootHCuafvcJ6Yq6qfwKUlO89-6qi378RVL8W6hBJZLkiLALlKLHhRaKzAUQsOH0pUofCnDJlmlU9VxoY0XU-GQ",
+                    "AcnlKN2E-5I1_2jorYeXjd_hRTyaXZsax6J1xvXR-sYQYfLLN0xkm9yJEd4XcvCYtdZkp-Mfp7TG2_W4Ar8WUNkvx1pzAbJ-rMPZOcJww2nCfY5c73Pu6q_60b8LUlgzS2-S4BFrvkoe9STSTJcYXe4Ds7iuDxgTyBy1OHKD1TwmBl14oVzZ-sXRMMrkC1kvRhuROFmD4NK0e65rlOXH6Qw__Dk_FBwmdNcyfp9zcltcC1YfvMSoILG6aAMiK-QxiA1G_wfDatwSsUtC81H1bEweTHD5-zR4ySsN0-M5PipKE3_6S7H7Fca6Ce3WfA3IEEM1K4HZar7NHdZYbCDK0TqJVs5yFnK3oiQ9ZSQo-zGmLedgN_6Fwox-r_gvrIGvuwC5FS-2eQfttSudVGiI5McyvAQRyqjMZIEY0lwEuAqFwr_DEviU",
+                    "AcnlKN0zhH_w9tui1gK8jOW9hCi_8hND46FkxAtVYxgMPjv5cwMZWE_ZR5yIrAw-XdvuZLHLlW3g7dfmjglbg_5O_x8cOP-02kfTtYvtwN4CsDQoNzHwEb4yE_g8_jhuxvUe2vgKPTre5Xx464FG6Ci-PhD7WKRKYRt7Ae--Iy3DKvjh0v4lT6rQ7cjF07melrFmCbVfStbpDgUyrhsLfXw-a9ggS5Kqf8ZzsFZyMWAjGP_HYlmSKqeMixY8l6F0GyN7eoUMCpi128Y0SbIXA4ZEi8IuazSWXalZgayLE_rMNPyqDBvv198WkUJ8_--ienyjWs71mYxwmXQC4XTEsgZezPbajyHn3IaP8KtpzMpUTOxw86sZ8Ly-Q0LBc7vGyklfQvv1d2nzXb6gOVvGYYdYaMG4EydVMSZ4W6MgPShwvAbT0--OtaL9Io3qOg2uaPDr",
+                    "AcnlKN3sNMWaTecomKIYSLnYVKuwCt6SMnQ65NmMarTwkH_Vgs9jkJoDy2pNBrvIQkZqxN3FRmQk04v_y08jIiNjtirS0Ur3Se3u2fDf_laaxOdPoUgkNF2pU4EJvkBlIIFF0ooHTnSP13OmCh3sWmXgyoZNfEygr0HZu01SfBQ3yMD3fFyo3AAK2aDcnqoa5rVkhE1gchNwxSIHA87oUrBEhXlL-PPzc0kDwAjF2-ms06E-vG-v2YTuokSIIsIK7VHIdYCb3OMrCCcNljFWpwheCjE-W_4v9K_lgKmhXOHFMXCc5YF3iribVUeMFR_RTt--sI7d6HBLiYLYLRvZRp1MBBn6SXmprhTkvU20kIn-UPzNM1LiojXPHL5GqsEfd00oV2kluwF4q1vf172QhSCnd6fe57juyGmpPeKvA97Voje7Pt3sW-6Ll_ppVLxtL6fl",
+                    "AcnlKN2M7vMZmT9q2cVn1rK9uzycQ9jt9V02nyuPixZU3naPvG4t3o6ALiFOGXdG0nYaTm5cw51lvrlnFAjkgI83UxF3VxQb-Q0lN9fBEYTeuaMCVwAEBY2xL1Mwv-UuYY-WLbDtYCn1NnC6qGdFJHM_VkNmdziyMgRZbfYXqP9vmro65IfFw1vUVsw5VpWoTC29kx_83WeMjwAgiKl0GGYWdTfa9AhQPoKFK1HMziijSp43Mzige9luP_kdVtQUWdqmzFMkcc3r66JvHPBMvCNhhDKE9KiDQl1zbt62Ls_7yNoMZ0Ho5LnEJxxewZcFGC7tURigh_4oZJGAlejIjv6M7UiztjaBKJtHiUDAlKzvcFOK-gQaLQeUkaD0iJv0cRtlDMlHqi0EUJDBNOtK6s2oU8X_3r8nGNAKx-aCmwEdsGYyayM",
+                    "AcnlKN1CJGBu-b1dkd8RitNAv2Qek4naZnO3v30F19HRwQ6-gLiNF7oYI6c6uX8m_b5plxk96nh6P5jqIX48TRXRSm-K0K8Dv1jqwbLZewQYIVOZoUZr03Ra-23cHlQfzph3qaZfNJmdUkHYhIhlWpXFZlkdm-kfnkwxD01pSwBVhZ2aSuA5l4u-0bqtRDGgeuvihEVgrX6M_MT_nqSfYxScSLNY0pCqu3buY1CAuIIkr86G6Rqq9BNz2zxnk37TSc3EQ3HlGx837YQUvHGJu2U0_aN5dLP1G_YC6ph0B-T0iJg9xOWM0Ja4TR0f3-zW7bOtJPGTiKuAn8Qm6sYuYrLtyhvgkuFtrWBbwBv3QB7XRCEGynyXgmWhV_7DfVD61CFX4D2dvk0IQnzusRLm6xGb5A8THi6p7k-svikErLJKFK8Elg",
+                    "AcnlKN1v_JnclDUw8xVKlpcXEFD7vzqYRCO9qkz-vJteTgMx58DfaG-z0wDQ6JBTjEF0m_2cIbu3qvt53Jn5pS521hyESTvdSNvpdJzLAsrASKA74dZ1NyBcQlEgz4WLQlTUTJY6dNk3iJVTtNYp0I1km1zHTpMdyCRXRt8LWHBx5uh8GFrAG46zks7IlbnKdFuZNsjd6hz8NeJt8K7w0pq4f4J1JD-7fSFApv0WQ9Jns5_7b1pOlV_LrS5Z5jL1TR3PYsaG9DUl0tXD-68ueCscYXjKW_SYStBMJmK1cwYX3dmI4XdTsKPlwBLOJiRCDKcmcOajt6PRENwpCp0DImcvAikjGq9mo5pkhaEhh9kfKG8zrbSRDdGG8wWqnSSZe7F_mSV71085sR_vX-RYOM0va4kV2HR1k5SwC8ZyAVxUPb87dSjj",
+                    "AcnlKN1P5s5t4ofNZulYLBGaOrrjyF31PVPF1cOD2Wunv9GWpwF9ExRdZ0N6wk2EihtAYChtREAZx3NWN4nrQlOk_gXkUUpxwkkBpP8MuZC76QpJA3H3odJOsPflLkLNx1s0iC2UvkaDGRwNrokTc1Y1GHamFMi6Wh3-xdgKSrOrLtwk9teEBpZ2Hqt-sNHrKqq27fOufuwAABv6eMS4ZqYi_P8VlLJRnzZQ6Z6ww-0iYR6oNprtkjR5mkMGMYf1EVPcICZ0y86h2Y3Ci4Oa6lpwnCRV1DtxuAIdzWUzlUfi4VkRAVTlPT-1dG1FKqqXOGSTdFJ7lt2wvxuvLrwsfSN6tfTxEYDSPRGj2KyupHF6aTXhvmz7TYKXXqsroLToqpU2y-HFCIef3oVdh8_o0j3T-qf_fWna_GC9qhFDMczkovbZcQ",
+                    "AcnlKN25xnQgMAgrxARn_ajeoTBYhL940ucZYf-HQBqhvM29AJiilKVfCTLS8acmpxQyVTZvCRjjy2gxOdsVQO8dvBP2Ol2hWwkAoWF_fQAsOz35-l0a_IXOHRIDns2mx_mTFc7BexEm_W_0lh-lFeSZAKTIP2kmOGq1aFa2Df2HMaTU-3zSPHV4TGIlUg9Cut44tEpqGpxIganXYvRr6yF72lywhU1n0T68F3PnB0E-4tRIpn5iPqeSHiVDX9eLZYXC3XEZY4tyx0eLhAUNuO03NmtD21xw882Ozz6jZ0kvfUcvmO24A8Ss4eCmgRJM-_uCm6SE_d2wju6MDkxIhQhDZb-CbjWkPJfy7cl-EeoBYQuwBqQxs636iQI_CxBHaT6YwZDIDypC60EutmfWEZCkX-exPHorFuQRIfoXkUdB_0U3yQ",
+                    "AcnlKN292BWKzsi2aQ7fXykAPlA6r5HT0oyc6oq6GzXt8tyXtX9lhmIdE9nGZ3D-IQiCXlpNVhe2W42w2DJJGQskAI3eH8t_xxIfAug0cwnV_QCkrOJf5lUQZQWUxRtrY_eJnGqaI4OHe3J7QTWCxrXsUWBhbmmSdAJ1LzRPBo_Yu0hY6xpEqUYeN8l-iYNDw3L2ydC2FDdGp0O_j9X8YPqcMZyjc4GrQ4Ju07gjzRpLndH8yudqmH89-pq7lSzSm2juUsZY7Iqn1UbHrKimnZewEySVMq1B_bSdOq4sugR76l4Ps4f5FrXsXSipty1ZGs3Szv85ME9lDC8ZX6Dj4QtUlLnrGDqZ3GGaaG8oZhL-C8xvRGIZHIYb0P_5ctQCEipvAWfPKkDN-g-2NledCqGpmxTdr6YGDkTa6eM9SdEr32KPjg"
+                ],
+                "review_texts": [
+                    "面不動鍾乳洞は、洞川の澄んだ空気と切り立った山々に包まれた場所にひっそりと佇んでいて、入った瞬間に温度も空気もガラッと変わる独特の世界観がある。洞内は一年を通してひんやりしていて、外がどれだけ暑くても別世界のよう。照明に照らされた鍾乳石は形も色もバラバラで、自然が長い時間をかけて作り上げた造形美がそのまま目の前に広がっている。細い通路を抜けたり、天井の低い場所で少し身をかがめたりしながら進んでいく感じが探検気分を刺激してくれる。\n特に奥に進むにつれて空気の静けさが際立ち、外の音がすっと消えて、自分の呼吸だけが響くような瞬間がある。この独特の静寂は鍾乳洞ならではで、どこか神秘的な気持ちになる。洞川の自然と相まって、ただの観光地というより“心の奥まで入ってくる体験型スポット”と言える。面不動モノレールで山上まで登り、そのまま鍾乳洞に入る流れは特に良く、外の紅葉や景色の美しさと、洞内の冷たく静かな空気のギャップが印象に残る。\n派手な演出があるわけではないけど、自然そのものの迫力がしっかり味わえて、行ってよかったと思える場所。洞川の旅を締めるにはちょうどいい“深呼吸できるスポット”やと思う。",
+                    "面不動鍾乳洞\n\n鍾乳洞内は9月末だが結構寒い。\nコースとしては10〜15分ぐらいで回れるので\n上着いるかと思ったが\nギリギリ寒くならずに出口へ着いた。\n冷え性は用意した方がよき。\n\n土曜日なので人が多く道も狭いので\nゆっくり回るのはあんまり出来なかったので\n平日に来るのが個人的には良いと思った。\n\nただ自然が作り出す鍾乳石には\nテンション上がりました。",
+                    "鍾乳洞への登り口にある無料駐車場が少し分かりにくかったですが、その後はモノレールの乗り場まで迷うことなくたどり着けました。\n程よいサイズの鍾乳洞でサクッと楽しめます。ただ、雨上がりはツルツル滑りそうで要注意かもです。\n洞川温泉から大峰山系の眺めも絶景でした～✨️\n帰りはモノレールを使わず、歩いて帰っても良いかもです。",
+                    "夏休みの平日に涼を求めて、生まれて初めての鍾乳洞へ。\n山頂の鍾乳洞へは徒歩でも行けますが、\nトロッコの乗車を強くおすすめします。\n往復をチケットを是非！\nけっこうな急勾配なので、スリルがありました。\nなんといっても町並みや山の景色が美しい。\n快晴の日は最高です。\n乗車中何度もカメラをとりました。\n\n鍾乳洞は、ライトアップがされていて\nちょっとした冒険感が味わえる幻想的な空間です。\nなにより涼しい！！出た頃には身体がすっかり冷え切ってました。\n鍾乳洞って神秘的ですね〜。\n子どもから大人まで楽しめる場所だと思います。\n行く価値はおおいにあります。\n\n素敵な一日でした。\nありがとうございました。",
+                    "面不動鍾乳洞は、まるで地底の美術館のような場所でした。入り口をくぐると、ひんやりとした空気に包まれて、一気に別世界へ。中はライトアップされていて、鍾乳石のひとつひとつが幻想的に浮かび上がります。自然が何千年もかけて作り上げた造形美に、ただただ見とれてしまいました。"
+                ]
+            },
+            {
+                "place_id": "ChIJNwqUWWLBBmARFBzRXDSMzBA",
+                "order": 3,
+                "name": "吉野葛本舗 くずし処",
+                "location": {
+                    "lat": 34.2671118,
+                    "lng": 135.8770689
+                },
+                "info": "吉野名物の葛を使った、上品な和スイーツが味わえるお店です。伝統的な葛餅や葛きりなど、吉野ならではの味覚をゆっくりとご堪能ください。",
+                "activity": "カフェ休憩、スイーツ、お土産探し",
+                "transport_mode": "徒歩",
+                "photo_references": [
+                    "AcnlKN030UANEJn-TD26WyQeNPyLxEvVg3cH0qVq4V3jArkDyBZARvM9jnDYk_uBsIfSADmNjF4BnWmKgjJMOYCiiwOB43ZWvFZOBq5TFAWMqfKKu1VzmV6OVU3MUdAx20t2SWWmnJ-vpi6a6q65M2fxgPUmdQ-ejidjGqbh7PkY6ga57-2pbCXhNFMbRoGrZ-iIHZwwhoEuL0FLl5-uhmz1rldFZAbU6__oU-KSRPJOi_rmLSxykKvvDjhrgk5K3fE04t3jd-rcmabGRB4h60EPGjZSH_W6n2MG4LKdK29zqwQNE3txzRvjYZs7q8NgAY6hrS89ld3UpjU8gpcRr69t2a2PNe5ArKg78eaxnWXZu28UCYXvbfdrL-pSlbkYbSnWjkZim7-OTrq4z0yKbjtztwIflrmoqwbPCO3ZZzBNINHq9Hk1",
+                    "AcnlKN3aYKud3bpQzvUkFXuXI2N0r1zE9jFg1P3e0OqA4LXhNip2uk4o1Yn8m6cVSFDYyXFybSG2uA9BxpXWzAdbsVnGlrV-fChb75bVT6XZUPk3v1SebLUBorjDND3HNjO6NIz8ReZ_VcsZfLDyQvjujXGv6LqpvXT0GX5CG_FkuKX1Yx_vvAN-vmtPXa7gk0wnEDybs9vL2_HMhSDldDP_JMRGw6G3O9cZ-5JW995RQN7cwZ43UG9zLaRnq1b9LZbkZUz2nQtOse0Oic8j3Rkje7bBh2BoexySuJcpATutflvDDPP07_5yMKKYlYN2ND8jrD_dJnAavbE3_eArJ6RJpFnVQgJosVWTvVm8Loe3d-Sa91wPTtRe9TI36yD7i4rVq4uSz1lfGkdMnyCdyL49Bprai_yZm5YYv4Nu9Dxgzx8",
+                    "AcnlKN1prBu4RqOr9WPEmfq6juEUauvysqXQPAOXfwYgLoHo_11uGnEC7pXvJIYwCuPGzXWE029xrtplVQRBnosDT0nGXVuV00OAtyLgMkvyF-KCnz6Ted0N1WCPnDnrDeFvfJHLQ_GO_q2B6e8LZ6H4nXnN1H9yhbbaX3ASiAIgWeB9PrQLRX2OFmTNwvSfFwCfYqkIlYMwpKyv4W99ccAJ0a4-3mrY2aEl7wvYpWUCtMhiPcyk7l0KXfTSugEgWbkTwpQ-uTClHrH6NT04FDAqNaAEbwh4ob8wls01bCmgNqrBNMKERMq5jZKP63ennPqWSU3_5bKPsNqp1dadGl_Qi7_mBwMOqjNmzoArOkJL-Fci3dT8vfoCQjZHuNfj6pu3QfzsZXKGUkL6jO_6TRzWU9xeA6TfbwTSc4rx0pIwQx7tFg",
+                    "AcnlKN2rinAjvh9OJH4THRsa6noSYa7voyWhSm4UByvl_HN78ni4DNXGw-mWu1zyB-NdbbUphnmSYPep4u4XgnRtmJwNFX_nqQ5nvhWvckr2si5R91n36rTQ2dI0wAmzh4DFjbd7jfyrhRumZpaVOe4TjeepzAzl-SukmzKpncDHyyb_R0NgtQ-fAPYRHzchssvR9dleHTl7mJJ7bRLU71cCeZKRxf5mSJs3aC-KuRdBySL1Od681f7uPzuVm5RgoxE5CypbC7e0H-smkilcRaT8hjuMlJdvDjjp-b4du_KuJLLzGrKX8FeVa--kBtAlkksARmXXS8i4lYcpwrVTFKAQ-DdEhdq4HnPrk4mG9szgq0xCE-R5N5NXJUgL5B2I4ruwrwipvDUIwZfviKH2sPIM9E-dqmwzWQJXO3RuBx9j5zPAPK-wQQNCnYTAvq-_oCya",
+                    "AcnlKN07fzte-tfe3tDUWa4q7_rkSbXctD16cAkjCXjHzxsmnQrZ6816jFr5iDOoBsf7YVU0nxlihPFkAOI50cynmWoUU9fElHoTd-4jMPyVwpz3hxDn0hLG5hFPy4tNNaKQiPSUbAXdJe7HyWtz8qjSQIRqBKGBRBDB0Jinldd27mEEqPAym3pnNRpobwwAV1Dq7TD_d1u3qumpZfO-618Tp96XtUcZOqizkcbvobhLZZGx8fKyTWhwpskYAB7v1rW6auGBXSYrTyVUrjxrna2IftgCgUGo9gaAKqnwVEdlAs3IROF4a-PGzRa8pZonArls12eoyOd9n1RLIfDtDncNLf8S42s6gF3sH3kc30slo3NJJqFk2urNgFDAChLNqlD_brlW0suwjAYGdzlh5VIz4E8Mxe1ADwtcRbHYW0tYCsd-qOU",
+                    "AcnlKN0Z1kCIpaeYSP2fwbG8Yvtf3Czj8dWzyuXAceXFKAwnh8D4UXE4vaVRb1AvRx1drOfye2yQMqKPVEXh_-OJ-umXTtUgbFvQjf35HAAk9JE6bmalvP_SVuIl_4aCLrYAgJ-tMKYRmCgqgDN15tC_hRJjZ29HEYndKO9B-CbV5EMsmawKCr7mz7aZJQ0oMVIotj9fcAeVBjdR7qqYk1B-ZDml-3QXo4rGxk8RPqvHUGudDWqCIRYWaL3A-Tefy94QB7oqQG8g8YD7OWK7rCzGVFs817c0BCjeNVhyj5vDCK4Bw0e5rvUrdOWCDLTXf2Mv7OWh9nXf56GAOK1SvNRsgSzAPqT_5IznvLk2B8QJc4D2DiPCt7rUXUKTLXQnQZxXJzgFUaBXv_Yq5oE3od8fdthDGE0IuTWokJjHuR9nsjZ2cg",
+                    "AcnlKN2f8ISh5dbyLfGP0N1nsT6sDZJDFPNu3L7HDQARbwLBpVRc6SkBG0-T9CbQRGaumkqGQssiag_8-uM_Yo0PzRTaMVRVisaOxYIFP5zGlI8BcMF6zqPvQSyc5LptljkPrmm5DeDrCW6QDI3z1K7RHL99tW9VcIWsJQP212y4k6N_6g6DvnPo1EIxP42LQwhRJIcz7iIV4r3V5Dc9jyxdQf12uEq7A0ul_6p0Hl1LZgYS54B3db-dX_uGro37FMegrGxm1ynkKeHSOT_3NNTi9hmEZeOGXuApM3nUXMlwoJwykPEySKiqQtvAaeQrMG-o0DftS5L353l0LvXIZUjXtqxHbML7qJoez6Rchl2wKyGjKDiLyX7ZUUqud-SEfcPfM582VWnT_C_xkbpoPG5NQcIZNVaGzgvT5BZ7eW2RvdslLaZ2",
+                    "AcnlKN3jUJxFZk5iSxFbOdIgNNYStqGLxMh3gI5bOPmXItJKdlzWZyYrznqeZnwdblMfrqO_2ubfIY8lCfVXjGeIvy0L54EbxqjEUehg1CAbON8uov2AeTGBDFpbwthQGFK1bPZY5Ojr5bF2PSYYO_XoTLGU-Vrl_k8vcWrPq0mLzjlm_6bw_luYOkimL-ltQcylzRQhOaO94EoZ1tGerNZ5SuLDp_fY6h905fr5F4Ab2EavTGRfW9odJy9l-_AUtSYoLwSlQFo_jvfftgtIRO4Xc6dohxG2hDhZays4RUDvdXvi0k3kIRR2OOlm2OOmEStZmQGIXK9BDfI01wKEZ68-vp_MY0J7dqadOEZ-m-qT1nbwhuxyCmftA4UXZrfoeTLx-IkpI1mUrP5jlhIM6KojTCZtXKupERFIlA4EkHe-v6Bnwe31",
+                    "AcnlKN3gWqKyjqkMrLOE6gr8szukGW8u1GnPnvkFQABmrHlW-jbU9Z6fuVwYua1BHUdH73o3yST3Xc1D0LRHiS8rQpQTt30PgN7zxbdsMGRuFLAKVwUVMIvOYNpvfTGtaqtsZ9ZfFuWU4pLGMIhHCmke0KqH-QW7J0Meg60dk-NA5AyAxvH5ksnkAA5cYH-o8jArLY9aHbY-0F5aCWFX3e6MxtyXuA0Uc4HVtv5dbteX-Y4oe3h_akCGUS1YHizcYX7C0mVuEzIaZX3BzE32Why_oKj_oOckOZyeBeRFbmH2L6Yg_EphQ66EfTM1L9y-BiVgepM5kwRw8cg819rAXo5Q0PULOsqAUMu6MEtJzQh8pJoParhc0ZZq0FuXNvXMv2VXl-Z3BqeEe9XZ34XxWBOMQXKn32-bN8ftAs9ANuyaholvHw",
+                    "AcnlKN2h0TKa0aauqg_OZxbftLASU0NQnOMj7Bf2Z937BeyfcNKJBcBB5U4FVGWo9LiwwJW4VCO91ESvVq6gB9tq2mJ6EwJR-CKPnIqJbjSHFPZvvoehbz3cvSaFB8uJJunBOgwYmAou2RpCHWQRytgJ3t7oVUP-UNAKjssPGaU6kn-1hQFGoUSWZuo_EfNmYrhZl6K1CfnMkzUByYXvni1Z9oqhIms1sAPKGj5Uqgun0ZEE1wAB1EQB5YwjnTVTeWkZ0CaHqXIQ0vbvoMlW58YGiIY0s9oUm-8uFKZ2u_0TNBeMTI4Ya4SQmc4-23dia5E_SaboqthoyOCLD335VDYFTmTG7204QZfXZmkAmjc7GpKR3mVYZNVTUboUH9Gc0Fpk0mpAhB15_fJ-TsXkNY_iFf6CdqbwpBP-H_oUtNLg4hgXyw"
+                ],
+                "review_texts": [
+                    "初めて面不動モノレールに乗りましたが、まるで空中散歩のような体験でした！山の緑に包まれながら、ゆっくりと登っていく時間はとても贅沢。頂上からの景色も素晴らしく、心が洗われるようでした。スタッフの方も親切で、安心して乗れました。吉野の自然を満喫したい方にはぜひおすすめです！",
+                    "洞川の面不動モノレールは、まさに秘境感たっぷりの“ご褒美ルート”やったわ。小さなゴンドラに乗り込んだ瞬間から、日常の景色とはまるで違う世界が広がる。特に秋は格別で、周囲の山々が赤や黄に染まっていて、谷を抜ける風まで澄み切っているように感じた。正直、平日やし運行してるかどうか半信半疑やったけど、行ってみたら普通に動いてて助かった。むしろ人が少ない分、貸し切りみたいな静けさで、景色を独り占めできる贅沢さがあった。ゴトゴト揺れながら山肌を登っていくあの感じは、観光というより冒険に近い。頂上に着いた時の達成感も大きく、秋の透明な空気と相まって心の芯までリセットされた。忙しい日々の合間に、ふとこういう非日常の景色に触れるのは大事なんやなと実感した。",
+                    "面不動モノレール\n\n鍾乳洞行くのに歩いてもいけるが\nモノレールで行った方が\n体力温存出来るので往復券購入しました。\n\n土曜日に行ったこともあり\nモノレールがかなり並ぶ。\n12:30頃に着き30人以上待ちだったので\n30〜40分ほど待ってライドオン。\n\n乗ってみて感じたことは高所恐怖症は無理笑\nほぼ直角でゆっくり登るから怖い怖い。\n逆に帰りは後ろ向きで降りるので恐怖はない。\n\n右側に乗ると景色が良いので\n山景見たい人は右側がオススメ。",
+                    "見た目は可愛いモノレール。ですが、登り下りが急でちょっとスリリングです。往復で初めて利用しましが、帰りの下りは歩いたほうが良かったかも。距離的には短いです。駐車場は道沿いに５、６台停められる駐車場があります。",
+                    "券売機で登りだけの乗車券を購入しました。もちろん歩いて登ることもできますが、トロッコだと楽に行けます。\n\n1回で14人ほど乗れて、乗車時間は約4分。あっという間に着きました。\nちなみに降りは歩いた方が早いかもしれません（笑）。"
+                ]
+            }
+        ],
+        "estimated_duration_hours": 4.5,
+        "summary": "修験道の聖地であり世界遺産「吉野山」を舞台に、歴史ある寺院の荘厳さに触れ、絶景を眺めながら地元食材のランチを味わい、伝統の吉野葛スイーツで締めくくる、心豊かな半日観光プランです。吉野の自然と文化を存分にお楽しみいただけます。",
+        "theme": "歴史探訪と絶景、郷土の味覚"
+    }
+]

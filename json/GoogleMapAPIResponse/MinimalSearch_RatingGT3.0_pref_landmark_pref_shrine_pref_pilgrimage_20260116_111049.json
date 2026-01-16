@@ -1,0 +1,487 @@
+[
+    {
+        "place_id": "ChIJGaCwExTHBmAR4LzBRrIwHJU",
+        "location": {
+            "lat": 34.343275,
+            "lng": 135.8811955
+        },
+        "types": [
+            "establishment",
+            "point_of_interest",
+            "tourist_attraction"
+        ],
+        "rating": 4.6,
+        "user_ratings_total": 18,
+        "price_level": null,
+        "weekday_text": [
+            "月曜日: 24 時間営業",
+            "火曜日: 24 時間営業",
+            "水曜日: 24 時間営業",
+            "木曜日: 24 時間営業",
+            "金曜日: 24 時間営業",
+            "土曜日: 24 時間営業",
+            "日曜日: 24 時間営業"
+        ],
+        "photo_references": [
+            "AcnlKN0bKYkKTs2tdd2ZfFAS3TxK-37XomEhQgchNbSA0KLLUq-GnkU3WNoKX82P-Ewi95iua5R2w677QHcdmqhD4Ewwmds_mbtVy7ExLfTVpVwtxXvKTlmiXcfTdmYFyeRAlC9gZrJ0KHSd-71LHXIfCjAH9xf6_bdIRGwMwLp_gyzQUyvKCF4V5h8RmD4ohg4NISx0Gt64pTowCBnpJnDzGLEOYadp2iLM4uzvQrYcDZqLSynteg0DwaJkMF4b3AfZEAyZsRq-bRrdNKQzvLHGjdpylLXmPvme97CsvufdL_7NAnO3pZ1PUWtA0hUBvukCqfiQRWQfVicQrbAn4pnN_xt4gpFrWgGQF7ArlVzz1Z5qs42TRa_yCMwej8UaCUmiJMb0sDM4HeiNQxb6wdE7_gfmXO6uDjHmm3As-dIRQtpj6A",
+            "AcnlKN3GJqUA25v-CMhxUZLbgefTGptg7SzI2WOgA43ts5IMYOzuJBK8BA4BYzfx3WzMtzzYuJJw-nvJZsmrGbGNTaKvuqoKVTAUGtK75Mjmn1TVznVO7FjVXAUpX5vdmmMD1UziILmRzZaxD-Vq6cE2kiSX5zxItfwhmhOJ3PyWUVDPUYZYjA8lf_C-QxXhiNY4aSRKn4ItLdqq3l6x4-vNYyMTUaSMqqq5_D25xcOziKdLRurALo7fsvSES8Bs1pSN1SMmUT5HXcK0NPhCvs-Vra-1OLjopjcUojJlp9K7Ml8aXSZ6-K0TmEffg9DZJul617PugxICBRiHRYJR_UGeSLZZex7-CUfbZQElPzzMJVlNyoLaLL8MC1pLSBtgYRwhWAv3uYaD_mg5hGYIx9FJCl7-oVJvsqcgigaJjdTvEHyOKGxg",
+            "AcnlKN3gwcHUIK-1oKxjav2o82pbdxswmgOBQ-Ijg90vNn6-LB_tK9eYXyaTWZ7Ziz-gNNdwEhS8VwZJDiRFdslmea1-LofhjjSLO-zg3B_084v5nwCrFqQnLq7zkt-B0efwSobq6C5N0LNysPGJKoBpkSpycK02xLEyT6uLPTCwjOH5vFZ3RjnNKoLizPbl2QmqZ-SY1MaqDMKv1Rg4vbuNoj5rXb8NVBnLvHhGSG8yOY1vXglMkciM8SU0NvF6LQBlHMYziNOq-6gqAaydniyPVBwql1EQ3OIh7-ciMM6dlse7GcVfgkRT4rAjZvCLCA2I-qE491-OnW7oNYPAWFIqnvPAUgNy7FUe78AH__NoGLNeddvin2JsZYkxx63LgiEgG1XB7DUf35IimSBmM9NfAPHysJU9HdPW5qangH7At_VT1g",
+            "AcnlKN0Uk3vNXEycDJ_eAgLqSwaEsfIFRqLTJFaWWZREiv6VNkljtr75rKiE5QNxEPvON5HIFfH0_2xjDu_TxfLDS6jQS5BlF-Yhz8hI8Rej5SLA_SMqfIKW2rqpi7MiQVgdzUi1o53m9a1aVfDtgX8AWE8OFj1OXZZKDeJ2WggdqVvN1W76vryMiA9l9RyJXILNuF0rDgEemifqPiPjRkGBzHV-lh0ugaPzhybk9DDZgsg_HZyBy8R2kr2HJZvK9Ly5nSFeHmiubwYvnozWof-kEPNjDY4APGVBpwASDDfCV4YksRa4ekJKos_Q8aL06dibhZxborQRe2T2hd1E-G_qk9t31LaW8JeTpk15a3nrkzz3GaLqhRivRIt88MQGlGLc9CrLmxafx6KXMcTn-Y8R3zi9rsh4pPTyVQUuQ30sepv4juz4YFeyT3Zy6Twlk-TH",
+            "AcnlKN1JlGqiAt80834QY3bWNbN9yWD9Lod9RmBmLGYHDFvDQqnJXAe1SMfSRBiEUJEs-pVZKopf6zAKwMy05tsJPApbxqvvsGMoTNQW58k2f8flAtBu9KKkY5UgoMQTzNdIsB9tgywL098_TdKuH9OhAs1s_dGCZ_xyzETf1P5O8aHmjQeTaDTfrAyrqufcFUEWb-MIVkkmiQN_fPo09TbXvBMdliRmupxLlnrC5bcR7tYdJ23Y_ow6G75bcIjvwb_xDL-ls5K8IXDv4gFAyESSmS78GRCaCsjfG4_8NR87ozABmA--5RAIRA-RmecpQeYKFw1vG8oeokeLSs3O8Z3spbf0-3orFvhi0EyTfxCfjQtZxKFo9xCN66OQRwL5_drz2zbWBOkedSZexvfSQn3g6Ra7GlzO6HEJ_v7bNEnt70yY_0NP6zDgkZTBwQzb3Gwx",
+            "AcnlKN0M_yY2q88JCn81rt_qlkPlqpQmA7Dgp3NzX-a45YSJOe8fhcGiNbZ69C4bvWtTCt0cmbegXKgGGj9W_OdLqmPjKAg4at7TkMHpWuthoDyI_UkwY8E2YfroiOPDAECmVs-gwLILXosBBE5bzoVXQFEnHdoALyI9Hs2ARwIWrzTSqiNuPZBdZRHV4VVDaeGoj_RdEymUtAL9IBS_YppQ5afvKOSxk7Vk2KkEdtT4-Y2vGv_src7rHpjJQx36TbkLzjPcIzL_-m-8VTQzrK_5yVkbfwOB_pyLLcvFGC7x8KafDPsKyBo7IplXD0AjrN2z3V-14z7mDhpb_mumswlSA-Vw1kIzc8l55XAqDfkVD-k8bLmCkUX7CrXAEPjSuaPkaiIpQXuS2eRz6EytqmxdPPaS6L_nW5-pH8Blf41WzHwQEaE",
+            "AcnlKN0CycSxyXxmGJhVBHi06aPe_dQBpbuziOBRTh28rnnaxklnOQN2SF22dzKYVhkEfrR9jbKlz2A4d7iJcFiLnRHquCxTBr0jVPJRVihEA4hXISl9wVicX8u7mDkv8a9qkvef5L-rmMCl8Sgy5BpjiLNbR9en5RScVWWQu1Jq_WW82vWpCXdmQD69A0XWPgZwnugnm-OMoUdKcaXYkTzEmVCFGFvE4xdqgTtK3gQUma9c4QeWjlXB-2gZqduo-6taXcac2NzVQ7BicI11aI-b4uvxkGNVCyE5CdwhjhhvBbweDyjkOO5Wc-3dbDCRXXJFI3RA1EuAwNqA2F2TgL1qHgeMx8ATzBcmybEgG8pTJ9areJpZWxoSttChW443vzvmgliMvKUdVS9y5ulgamvJ8psOYVT9iHYslSzrE3_fX7SdPHEH4vlQup31Aklfh6S7",
+            "AcnlKN3hEUYy_7dVrBgwgVORDcdB7whmVnQqZK20AwvOZiyYu2W0XxwZYvcVLHCBHVTxmdU7uHPTUmXjEAT-O9I09qVZjN2y-1Eg3CkxHP_wqnJeTnPu-cbCrUQrFyCTMiwx772O2ykug1-v0_folsCOIyM_DOr91YrAEQbB4WSA7BBd4E6m5PEEz_VMqEYgHb2qVv1OS_WbDqYk66qR238Mrj9XF5TOBMi21Sg_BBQ6nl7ZGfpBb8OsfJbewrVhcKJnaCG7_2a6BSCr_pMKQNXuQ6IjgO7ZG3OB5Xdphre0kvlioRYk9n3Onm8B1KaDAWmyMLFkgz7KxHTlTqIBi8r6dGBMiEiZi9jFgMQZmBzRbf78fWaYqgsiQQE7kGEaYVTB0J2CgiLph-mKft-b8JYWj6Zg7RQFJH4vOnAo33XMZAYW9GEz",
+            "AcnlKN3sfj2iiyuSM_9VhCKPABB1jHOZANt-cUhc3oIkxyfn4oxDBYgg6GtttTCSvSkdPBt_EBy4KgP8jZQTiMjdv4klYdls0dV0vjHzQXLjNY04FDoUIUo0_RpYACqibmnJHG3nmqFr6x7x7bTwkOc_qMFpgzISWyz-7_3QFV8cxOQgPKEVj4_nz6lruzADbxTViCrAmLcEHRXuOkU1Uxf7MAmppKgqZPlqsr3Iilor8_JplKJEoVCuOD7yNJ8-mFo1ABp1f_gHARl4YhiyjOvpYo4s5RVMfxX_jeURYynln4_XP0KPcrf8vCHjLZj5m2cAQKMKnkUH8umh3Fpfx0uRYgbUxb_JxJXLi-TTEOm4vwWUzd7lgzz6HDe0ZT7fVmW85vzvP9tKg91WjM2xHrpdwWcGCdvMc5VjkU7yjbUHJEQ1BQ",
+            "AcnlKN2r9CdvWZpo7kRPFfyxC6EAl0VvOz1UGYgpAxP1QDJ7f-lKzZQcfv4QkmJlWw_jD_9GUQsZJkk4JfOVQP-Xuj1wWfhRxtcR0YeQIKkKSi5i5wex-_q0xXj_RUavh2aT4syjHj-zaIQa3mge-8zAZ7m8ISGnbSyQ144O5_ufep590eM3tSgk-twMIAEYYt85d2BwPAta0LT5htD3UbPVcxUFHQzbvne4CB8pYQHwb7S5jG243HiwhrOtcqaao_DFVhXOz4d-vc4s903o9QdTZJKDoROYO2gsQ53X5S6RgCvjS_Axqv7Gg45uD9ai4Ga593O7ugse2V9ahY_oeNO_i2ptQL_WomMOicKN_liSkmbJotfNsmN7bKLVrcKGr1KwDh3xmrJQwRbmlIIMZVxAEC1L_wJxU4KKUGj1Qqbp_jDms6R92wGlRfZeDbcGtA"
+        ],
+        "review_texts": [
+            "この辺りの桜はなぜかソメイヨシノ。\n体感270度くらいはぐるっと山肌にソメイヨシノが植えられていて、山の上からの景観も相まってここまで来てよかったなと思える。",
+            "2021年4月3日に訪問。桜の名所で、ちょうどこの場所(奥千本)は満開だった。逆に、下のほうは散り始めてた",
+            "観光登山にしては中々登るほうかと思います。\n父と母はかなり息が上がっていました、しかし若者や運動を日頃から行っている人はビクともしない程度です",
+            "2022/4/9 ここら辺が一番綺麗な状態の桜でした。",
+            "大河ドラマ北条殿の13人をみているので、源義経が隠れていた場所を見て鎌倉時代に思いを馳せました。\n修行門と書いてあることに気づかず登り始めてビックリ！\n心拍が異常にあがるし、足腰がつらい！\n見た目には勾配がそんなにあるように見えなかったのでつらっ！！となりました。\n2022年3月28日に訪れたので、桜はまだ開花していませんでした。\n秋も風情がありそうです。\n休み休み歩いてまわるとよいですね。\nきれいなトイレがあります。\n御朱印も書いてもらえます。"
+        ]
+    },
+    {
+        "place_id": "ChIJWWu7mBXHBmAR4zV_MZSe_NQ",
+        "location": {
+            "lat": 34.3410783,
+            "lng": 135.8822348
+        },
+        "types": [
+            "establishment",
+            "point_of_interest",
+            "tourist_attraction"
+        ],
+        "rating": 3.4,
+        "user_ratings_total": 7,
+        "price_level": null,
+        "weekday_text": [
+            "月曜日: 24 時間営業",
+            "火曜日: 24 時間営業",
+            "水曜日: 24 時間営業",
+            "木曜日: 24 時間営業",
+            "金曜日: 24 時間営業",
+            "土曜日: 24 時間営業",
+            "日曜日: 24 時間営業"
+        ],
+        "photo_references": [
+            "AcnlKN0c0hjYQ3JiCDmZyqRt521dmfT2ngbv7rJVLPD9hfAZBSNDqKlyutcxyE2r9QxK9u0elSMrcN1suQkubKQIlBWVBFjylLzROwNWL7R87_-PgqZlemfXifd84aaCz4vhg6dhrEbCAGXcj84MpzRTgrXAZZKnjerR0k1b5mn95mkpIvHNma2vauIVj06a9oncWJveD2ctuob6CTAsfjL5rnj1On9PjeITuRNDWwo1T-cc9-6teXPRR0-n8kKwGYZzKFrkLknKgrvjpZwMpLDaigQy9q4_RiwILujuIycT5JbnAYi_3xl0WSZBCk7z3aM6SRV-kOoloPIWvmk7b38uqzFKUQEuDdoYx_T4K6EBxVl3MOJFm0Q-nKhN3qaxav_FEoXGIoWj6pWHeezgNnJf8hwcXWcExx4045mYTWLXQVbB5a2q",
+            "AcnlKN3-RuWoxU3wW54BRGq5u2yHTYz9hptzfjLPEXO7A-N9q0_QE1cApx3VZlVqRmJLO5dINlxM8uDoxjzJEn9RYmFMlkgCSfnr7nDCxH1s4k-X7cN3tL0PWDtfMlmcIeqvpqQdRLNXeJfWBplSqQBdjT2O0nNwxxyNAmMHDUerKEL7IgHxGhWOJH9RcCDcq1T3On-euBwqIP66pipuQq-seRxrCwTRSY6FS_HRTPacCXGTMlXiwU0l0TvhP_wDM6wCr4EaUYsj2syo8frr0yitCQ0ecvK6qbWBZ_R7QcuY-zMZ85PNVklwY1HDp5l9Aaf9X7tNBNsN29LQ9Br-rz1BHvRo1bPnoh6Up_Xil9qIrlqvujNHwuJE8sAaMmvaVjucTa8bCJyAIvcb6-0iF-19ofzZ-hJ27UrTLmdZyEpLwFA",
+            "AcnlKN0O39gTp4oqzsYPRRBuNA3fQ3Dxf4NHhVdjcf9t5hmIOV8oNriTeg_56H8RJQSMkxA6N3H0tkzR7JW8gVflafL3-cuHOybxu6zG8Fd_JhyEcLKJpiR6p2mnc5jX0V8bAqplJ3FylciNwsO_hcOrWWluLl1JVewmRJfQSVHeQsaNEZr7kpnB_VzhinXpdNaVAtjKeUGZ8oEurXKwR-mY5sQtVz_iueEcUteEwhHHO6VeUJcU7_tDjIFxOaXmAGjXjmW-GqEzueFFYS_Imu1nEpV5_INh8qiZu8NuKnPk5dFZzeIeQ7tVFd3vSBIeXpuGF1y_j4rpzwct1WPWPWHyCacQEunkpesvqwULIgYYgZWT1eNUj1rLaOhe59PE3LFjwt2HbRlRS0HnF7Q6C_CxcFfwYIJu4n1GebQQMG6ByWVEKA",
+            "AcnlKN168NJL9rxgC-WBO3BEadSVac1aMmax0_ApZ6JdP4Z5mXWC1qOMgZ3Rz8zYinR93ODzGzuVSw3iqe3oBmZjNDpFgOOUwBnBN8y8-CWe1V_uskyfm58bkGV1VPTO3eTEBAfqyJQI60r5KAFJakmAWNzi9X2L8wsQspYP7b6Sueg4BWQpapwx7GNm1Ako70VQgiFyHClz8zDzc71kIeBEtWEqrkj1eY3nWa9Zg_hr3GTkKrIBu0_0lvtMb4GBYyfnwzGprgQyUnZNAxasq8hsxDR-ommkqECkUnORnQfJstYs5j201k_nr8XKQSb1Drfe0qcLnFJie6Y2PH8FcC-sSMyQxzw4PrcXuTq6pAbLLwj5e0g-PlRKfbNlF6FTETFjGwXfxt71d6_qjcHX_eWT-kkQbkNu_hl3XW64ZTUWoHnk5rE",
+            "AcnlKN2xNR0PhcUwpt7CakMgtQDW2g9SNGYOQuMWWrPDT_u4iPDX-rEgUR1FWRS_OnSxp2zV5SAnTv69Io-PVdk5fZh3F1DygSa9IplEaVSA3A7deBxzWEABpd9-gnHvjEo504Lx-vC7ZpuWVpsfBxYrcO-U6j9nOOzvZzywZVbb-mqWJcWHEney4vXPpkpThvc2o-eYE3v6yAI827sH-1jq9-L-kpJ5mOhIq8GVNBK_rAmbuMfoBsjWMmZt0o_tgkqmxuVEjXeR77IcNpT2l_q2I0mNm3yoJc0x0fLVu1_Vqj3MOFtalv9BgXYlqhRgCN788rKfhNrkZpwnk--cakwaPxpiw9xy2HJjQtg4wL7zM7SLP5exthlkZu1nNH3hoXl58QVbDCuH7-BLzQ3ID9JdFMVNiKfRNvi_vnCkkBKQJ9sXqA",
+            "AcnlKN0U759pDRjc2p-flC66z2xDmpHjMqcPeeVe0NJwk9SYax_9Zc4UnRBey6iJKj1Y9qG6rIasDPnmRmfwNMP7iAISyBuvIUSuVAglIBQM0mwilLsMlJZTddBVW0AXvfKJXgddy5JYT01xJtNNgcm4SxQPE6aoE_uOwkeZuSGzr_xrk4bIS5qpW0TcPoFfsWeqYedFauo3prYU-TjptA2IHeZQduroNYdtMQI966YcEctbf0TPAhptibZv4kfy6XLfY0i6uO6sARX74ZfFUEd90r1tZQhHd8mVQTfrk6I7G_xSlAVYQmGdwDfX31jDA1IsNH7QDjdUPS4KjC7vNo1QsBGHdjWliD1rVOBfFgolKNB8IU68ILnxTprHwcv6ROIrr7ZNfPXNeNrvsSILvPcgcqgJxmp_iSAPG7j9i6c3fZQSubA",
+            "AcnlKN0-Lr887Xvr9_HELGFWlGjRq9CiwBmS1k33aWGY54KFeGKNwax-I6Xf5m05KenS9zQLJfsaVUTfko55o8wwSgbgjJMs6IcdyRZmXH3ysJpaECutMh4U_VqzsZmmB8fSj1dr3BNc18cjO8HNRkKe-AABUy-xstLS4olZr3gdwCbaYY40TQZagnulbChG3xHngDlsUc3sgNg-TcRSDPOdI-INIAN8rWmbXSPeth9URiO4oFQD_zgspG2pShdOyQrxQW7cgXrPDH8Vi6Ck8U_haKZRXyiZnm4QuFfryr8gf2iZxU0uIVtOLtnwpYzVIeib7KocNZ6MfOB36E4n-idYBDf2n7bGgGY2iOHZAGQUNdZjFKs0ZKgeyqh9FGjHSLBrTobMMl-n6vv1xXmHY7NR_ecB8RdUjd8eVrxdcpBMdbVXBv76AuJBo84Q3OwIzg",
+            "AcnlKN1Ee-XO5TBm8ppXP5npXU80sqR-DicQUXDkMza-noMxgjLfyFPeu-WSsiMKSRxQCq_QcvHC2mGwdgS_quqLTnlFGe32bSDTD-Vulqu2ZEF7HbHGMabfDYNTWQSbWZfwhieX-4hdbS9YePy5yy_Y0AWQ105IFX5b_QKfYpxI04jkvYX6ObavMXOfRa3VePz_TftuEOGwXjBhMKT5wW7nhxS8W_BL5oJcOFeeUutoJw6T66JdDbjTdGI1Pcm_l4wfmLsAq-B7K7IlBSf8AdXL2Xb8D2Ii6rjIoTt6bslA4nX5W7gBewjtVYVPuRyfSA3c9x51F8AvRYRjn1v8NyYqs6xjVQc8t4J-g2jCV7A5V96WyvKMdZcreF_0unGrslqCFb1Is5teQgXB9Da_Wfk7NGfPCsaKcQ1fVu8PB8F2f9gx6A",
+            "AcnlKN0bWvvY3O1QFd3tkuf8gCHwTTD3ObkhqbvEM5JiucrxAAyqq62f0XNmbo1PO7a6IVPrx2meDgjYqBPbfi6GKHGLsg-9pDHxG1m662C6Ao7uJ1lGV-_FZbEtkjS9-5cuR9q0PMwxvtT8vACbge3CXp_MJoBt_n_RWsf_xOawXM3QLJxqtbI1nYM2OVa4Ox6bKFUTeWsC-w00QwLQIzYA_H2Vjj7CidLSTW61ZZ6-27goQgVDdPKHA70cDlLcR51h2bk4H_6vordAZ2A_qDzGysMrux-JfCA3KoO6u5TtNhYXFzJINZ2QjKzlK-FJXTkMdYk70DwrZf80Y94607QsvdLAvb_bKgMaKR4bS_QAWSPLD_DV02AP7xaimDnkw3RmHurbb7sJwLNt-RKn8N_4hiWInjK5BFhgip3sX-B3rZXMG64G",
+            "AcnlKN2BPH4bW5vUeFTDZe0wNmc1L3udQUMuyr83-AWcHHpWO7673MjgjwiFgxqAS_TjpfHVfW1xXT5z270SKcZQ9mT7CpT6UXqsq39PkStTMnCotr9mQjXF34v9WkMze9EF3pXc6fcPm5JadkFDHLfkUsR0arWgSeiIHw5z4SRTI0Fz69T0GSdNPWvVxE_KbvU48WZs50DmxC0Ux-8ZpRgNgcoq5vXarbLL8FfGOFLNJPLYc3UvCtpMgtXxQcVQtucaL08YxA5ir46RfjtmumiMeL_xWnZICzZj9wJTJSL8NE-3VCgv9dqWZVUMXLeClkVDM1M8CCJ2Zmkyy9OqiVN9tJbqbXTT9-axZu3lADnlNaOpZGLQ1lrfpHufGRsWnpRq8aiyLSQSXyUfMw110vzchzo3R8-jo_WmPjKuAYCk2fIhO-aHkOeN74Oo8DGWEHNj"
+        ],
+        "review_texts": [
+            "台風のせいか周りの杉林は切り倒されています。代わりに桜の苗木が植林されていますが、これが吉野の桜になるのには何年かかるのでしょう。",
+            "奥千本を見に行った帰り道に通る場所、桜が植林されて\n成長している以外は何もな平地です。明治時代までここに蔵王堂や多宝塔があったことは案内があっても信じられません。重機の無い時代にここから愛染明王像などを金峯山寺まで運んだ当時の人々に敬意を払います。",
+            "桜の植林を進め、開けたスペースを活用しようとしている様子。視界が開けた良い場所で木々が育ちトイレなんかが整備されれば大化けの予感。",
+            "何もない。"
+        ]
+    },
+    {
+        "place_id": "ChIJK91IMULEBmARr79S0ZJWVpc",
+        "location": {
+            "lat": 34.3056843,
+            "lng": 135.803208
+        },
+        "types": [
+            "establishment",
+            "place_of_worship",
+            "point_of_interest",
+            "tourist_attraction"
+        ],
+        "rating": 4.5,
+        "user_ratings_total": 1337,
+        "price_level": null,
+        "weekday_text": [
+            "月曜日: 9時30分～17時00分",
+            "火曜日: 9時30分～17時00分",
+            "水曜日: 9時30分～17時00分",
+            "木曜日: 9時30分～17時00分",
+            "金曜日: 9時30分～17時00分",
+            "土曜日: 9時30分～17時00分",
+            "日曜日: 9時30分～17時00分"
+        ],
+        "photo_references": [
+            "AcnlKN2_VIav89sJOSmkdZzSO6A4XzaHb7Uwn8CIVhANacGD-8kL0K0HiA2DUtL4U4m_WwUzxFMoS42w5NYwX-L0flErgkQtqAbWbqciCe8u5e6fPEAWmbIjwBi2o6DZgI2uNhmfhvjsuOwxzp0SqHlwNar0YAEhTf7UYeWzu5-HM1QPPz9Hbu9uD5dW4Fd1e2yuLeWYqia8fBMDxRFh4QTrRWgFkptRBOGOKVL3cCKDz0wVJinYBL_GZiKLj1ab2fvNA_k5jugYPh2cm874geEyH51tfcnfsHttV9HCOkunPQkdFDLdfaMFAiPeM9SrONC3LfsUDtKZfWxCqkW-V4BXJqt28IA0iwKNTpt5ol2YEGx5lfh10HBXL7rJ83lvL7Vnq9Jpq5rMyhXicBiH_-zlEeJvnGnoQhgoCwpM9e9VaNPW0w",
+            "AcnlKN0UlUntp9ZFzB0Uj-kC15BkyX8TpAiFqjFBTQTuNPHsl20kWyJDrgM-TzRzd4zmV40vWXahQquXCBwNrYefOpkVRZ5WIzXsG6CBS9N7PmG_jQjPMAuLwa5Zp6-WsIAabKvGBLuZP8r5u4atKXDB2YNAUhsBVZrtClukjJe6gpyVYBxysvubf6yY1Ay7VWvaX4pkX745-VdVvIcVN6PabZKpQnTK3lRVUxw8z_-wjLlqHVBsbYBf2H5mht44pE5NcCWKnaK5wt-v6SB4kNr53eg7Ho3V3-CShmLYjgMdsbsksdPojEifAk-zptqk0mc7QfyLs2F3Xh7HHEzoeGARJA9WHMK5M7qdX0wc73xpYNHfP23J7iZ6Xn-iH_fGMjH59oykcRc1OWOrw-LPa5Dgypv2yGu9R2g4H-1ht51iaZxWKw",
+            "AcnlKN25jNDultpzNOZoFTq6LFIK9gHMX45vVPDqz35o59FYXYhthPjpN4RA3Z1DdZx4Hs7uPaJgRrpNGxeXd73rCBWrzLQ7PsRofgAzEXhf8AMilbTNEfvqU69DBS9j8L2NqjIwDcQqcoCD8Wts1PeEusgUJC-wxNrfEAFVi4G0CO1RuMmaNCDXfRvN7aUKd0UYokZTudXNHrQB_8SZSDTe2x51Tski7ipZYmS2Ttx2MNVsNAUxGNadZj3BuIRbicOIlJfu4zeXoh-WqbCmu9HuwvMADo0Y-fbvee_IxX1iQbZUlzKJvq1QbRtypN9D0boDyx25ndCCY3VhJamRi-1tfE4QHZOeU_JSJ6SiiNDF5DKMvO7Z7vP1WbqYH4NBIv-qbk95Q-zaI5DP0dDE5alGuhPqoKVPRGrQ9Ahl8tAouUYVBQ",
+            "AcnlKN3K4Xp6QdYb3CkiZ3poozWCcBVSIKyaSFlAAthm3fh5X6v0qn5lcVEMkTNSynsaKcsRYYniWWaxcn7ZNLkXPfvQJZNcUZtYFq6tYXWzflQ-ceE8O7BIuopS7S0LgBu0DX_qn2XhgrvbRpuo2Lgjtkx7Mv3k1cQSePdKIcETZ0sOSBEFr-vzy5YwQV4pN4_9R3qGAI72cKEXOrZJyXCu7E2km9CLlf4qaQh2TFIRzZw0J4L3n5I-zeEnHyTkjuPG9dLuqSpAsk4q5FiqUloEN4L9udN-ZsYNTMhDL0S-Ue997cOE1rz0_apOwKoy3o4wtCa7nc0R6nQjsVfspuOJ9haCrjNkwZfKAleApy5g_EbhlJJ46utOQNzAN_NteHs2ioD0PyRDVjuvL52wg_cIiAtzpuIjeeFT1-ySPv4aRSOdoEc",
+            "AcnlKN0NQSAx1QxLQQfwNlm2CgL5EEjuxosWXyATHMIUEB9YajZl2aSlX38LPcfnw4MfDZ03v1AoM2CPsqfqKlSt-IrBbdImyWBNfT9KWgsT3xj6Z-cxbivBW2S3QIvxpHz0o7MFG5FBHx2gskDQMNE2ZMZG6h9fG_v63J-weci1pRxtoHsC_y2DqpIVwvI52_iTJV4FFon_2h7mUyQV4gNKP_baDy1oMjhVelWsmFcprS0J3NwzlJG0vmJexGXDY3y5UJnXeWBy_7FVgyE0ssHETHfRWf9kBm0uuI4_393o5rFI0UhxryX5WSNbPlkt9_8tUf8rmNbF-ezMUyFbJcZsU9nHtK3dlNDavVvW5P5S1M9tSqtwqNlbT7uOOoOobXjqRxAD2ZMkq3KLjZqMt5TnxFhnZY7u99IsFqaDpTeBMuXDeCg",
+            "AcnlKN1-cnjj79PnfbxSdF5OP5Myw4C-RO8YLFkPmEow35fT57EOEukvPqB4l620WpP5vUcZsP9bjxLwgSQCAIjUmGTA8ECNN95ULV50p0uyZM7CWYRQubbuvUqQtoZdXCfS14OZEvO9AC0pJclFC73jupEAEu5gaNC1r1wo6A_CzaYjw_P44s98-mODHa6kX2-hN2rFWZhF_kn94fQ2yyY4nRnCIisCpS2GDfDiFaiNkX9o-y5okzX7MUHVUIVCFt0Gdmo-DL0srZPd-c9h9N2iF7AwR-4Pg_KyL9Iw-xCjS7evkxSSiNG1jcmXjthRRj97WStBtkfPJU2r-bvByxLtIebyg-a3tyo6oHJFzUSNXlCkXjvV_1PYtFoMQvBJg_EzBwtetFqjGqL5fgaM81v5NV6ItjEiKE1dgYasMJP8bGcgkQ",
+            "AcnlKN0hDVxdbbMIsHhGJAYJspQPmGb92U1XJ74T0xJoFW3n7FMIBQkbjrF5yEuYG0P5QcnO5oyuddrwxdiZ0RoA_St8AVBhGRMYci_evCtvgYCn0qCA3uXuuP7rDbDqRowU73LRVQ9wzgF_mAfwFVg2J8sd-TZD7NXSYWPbOpgz3aAQkSJLnL-T-ALGuGqh2e1EpAFTKD029DqFrt5h8qhSK7iUwgO94GqRX_jRckz0gMjDO7Ge1WfP4STAADU33JJhH4mfgiJ29O9jnd45Yjy2UsQg9qz2Q0YgVBxIKnNSJ80lURU-_swft3n4JU1upE1skQ-gU6v3bif3j1FWmxbQUzT1290TvV_zNv1func2lia5eK_Akj-_MBLMxBOdWSVZIKTWfceK4NpN39NKCK7p6ZRUOCCGiJzoO6S3O1N549DgHAg",
+            "AcnlKN2hikg7eVtOptcr4l1qjMUo2iCOxbrbj9gR1wW6NJueN54v77YRzoeVXd7MYWdAdxZwLnQbW3_rp2RZBQUYfwTQx_byuWotiZo-8o8z0B6h50N-OazpDAP7VMWOSy1d6lkQ5URrN6v6ly2Hw_tmYpAPMtSocgt0cIUq7j9UfdcKlgjNtMGR9pb6mHV6i27tjb4Za8-1zsO6MmBnhm-L5M-hEVvOB19MRtCzV1AS8yiGBpbMYYuVhv6kPn033TUyRMc0Mr1f7H_odK5zYCzgpc4SPaokKvEElFK7FnqXxxQVcD3D73I_BvkdZf9cADWtnM0lPNlRji8gvBSQQAptUilqzu-dYWkbS3Mn2DXW-Ws_gxFyD6_1oEsoqecTcM-_ClDaWNhY_YgtMtkLZoPcKDbJUShx_eQY2w_4c3SleO1sZJlH",
+            "AcnlKN2MKlnWGzZpB4tkLteBlbloe0aW4qUem1WryVL9BzzyObTPVFLw_HitUHDlo4DU531Tf3o-d9ebtzelzfVxLUv92CYlddscl5-7JDNpB2TzHcu8TNzeybHlZLEeIGJxBmsATsgcKsbcsUGpUgk5W2FTcAf0RnsbSZ2gZDvlVPYbzBJqd5iTXZzgVd20npR5C8dnPq--LYlHYeALvJhJByzsKMww8jxmZdNuQOjYqyczXPZB8MwhyzqA6QUkwHnboKBw22f93-7pg18fHLOL5GXGCxPTa7KQ6mf7RZHGVFQfvXqdskt1tRDg2kBu-8vlM_LXM3A1ylDWHSxbxAMhRmmYqGhYSYQ-SmtXATzDQrfSYf8N9yKA-8FTrBl28apyl5W3mY56dcYKnAjq8vO8QwewsU35IudImxsoB3HQh100aNf4",
+            "AcnlKN0nubYWs7AwsXPY2ZxHrc4mf8gmYBSU51xd8MIrD4PMTnqd0pCFvozttgZblmqgryMgmInK2XYvQNp7gtI2AJLoXZEHYhQCDI18_1ad2G_-GugcKgyTTwQESj7TGewO4G91zjEchUaokJ0zGvAzKNQlq2bni_dGBtx_BbwPdqK80JDwStUAjWvUA3AWbvJW_acdr4VyuePSXepCsU616lhNiOHih9OqO2LS6rpypz32U8YD9w2jCgS294QW2rg6XLzzw_2xf3aN_kAOU9SFx0c5GTF-q9rrNwjtr3dYMKu1aodEi-3fiFjAIKUGC_0NuA8ixGYx0khloKOe0dV97bdYeDrYT_dYTMfi3vuHUdlOHqynfYTkv0cO0oKlWiuu28WtvxKwtJlNJAiyapiabqm1C9MHunRKBf6vtXW1OcD8JQ"
+        ],
+        "review_texts": [
+            "「吉野に詣るなら、まずはこの神社に詣れ」\nその言葉に導かれるように、2020年2月10日、三度目の参拝に訪れました。\n一歩足を踏み入れると、日本最古の水の神様を祀るにふさわしい、凛として清らかな空気に包まれます。\nかつては少し寂れた時期もあったと伺いましたが、現在の皆見宮司が就任されてからは、境内の隅々まで手入れが行き届き、本来の神聖な力が満ち溢れる場所へと見事に再生されています。\nこちらの象徴といえるのが、白馬と黒馬の二頭の神馬（しんめ）です。\n祈雨には黒馬、止雨には白馬を奉納したという伝説が今も息づいており、雪の残る境内で穏やかに過ごす姿を眺めていると、三度目の今回も深く心が洗われるようでした。\n一般的に雨乞いの神事は7月に行われることが多い中、ここでは古くから6月1日に本格的な神事が執り行われると伺いました。京都の限られた神社と並び、水の神様としての格式の高さを改めて感じます。\n今回は拝見できませんでしたが、画家・井上文太氏が奉納されたという「龍神の絵」も、次はぜひ拝見したいと思っています。古来の伝説と現代の芸術が融合する姿を想像するだけで、再訪が楽しみになります。\n宮司様が情熱を持って守り、再生されたこの尊い景色は、何度訪れても「始まりの場所」としての清々しさを感じさせてくれます。",
+            "丹生川上神社\n(にゅうかわかみ神社）\n水の神様 神馬の白と黒の神馬が居る日本最古の神社です。\n現在は京都の貴船神社に引き継ぎしている縁の神社だそうです。\n正面の参拝する宮から奥の神殿まで屋根の感じだと階段てしょうか、続いているようです。\n\n鳥居の横には、神馬のための牧場と馬社があり、今日は閉ざされていましたが、すき間から白馬の鼻先が少し見えました。\n本物も神馬が居る神社は珍しく、山奥ですがいつも行く道の駅の近くなので午年にお願いごとをしに参拝させていただきました。お陰で良いことが1つ叶いました。有難うございました。🙏\n投稿の動画の扉のすき間から、神馬の鼻先が見えた人は何か良いことがあるかもですよ。",
+            "26.01.02 60十年に一度の丙午の初詣なんで、神馬の白ちゃん黒ちゃんに、会いに行きました。12:30頃に到着しましたが、いっぱいで臨時駐車場に停めました。日本最古の水神を祀る社で、絵馬の起源との事。3日前にたまたま上社に参拝していましたが、お正月の初詣なので、急遽３社参りをする事になり、中社、もう一度上社にも参拝しましたが、達成感があり良かったです。",
+            "☆全国一宮神社参拝☆\n☆式内社二十二社☆\n25.12.29 奈良県下市町にある丹生川上神社三社の一つ。境内に無料の参拝者駐車場があるが4〜5台しかスペースがないので、混んでいる時は待つことになることもある。\n\n拝殿から本殿への屋根付木造階段を眺めて参拝。雨の神を祀る神社として古くから雨乞いや雨止の祈祷が行われ、絵馬の起源ともなった、雨を祈る時には黒馬、晴れを祈る時は白馬を奉納された神社。私が参拝した時には境内に白馬がいたので旅行中一度も雨にあたることはなかった。\n\n境内には丹生川に流す人形祓いもやっていた。何事も水に流すことが大切だ。",
+            "日本最古の水神様をお祀り、創建から令和7年で1350年を迎えたという、拝殿に手を合わせお参りすると、その先に藤原京・平城京・平安京・貴船神社・御神島を一線で結ぶお参りに繋がると皆見宮司よりお話を聞きました。この宮司様にひとつ質問すると、関連事項が10個は話を聞かせてくれて、学校の校長先生のような方でした。お参りした時に、拝殿の奥の山頂に続く屋根が目に付き尋ねると、拝殿の中に招いてくれ、丹生川上社の伝承など詳しく聞かせてくれます、赴任時から神社に伝わる古書を読み解きされ、内容もとても神秘的で興味深い内容です、気軽に対応してくれそうなので、皆さんもお声掛けしてみて下さい。この拝殿から続く屋根は、本殿に続く白木で造られた階(きざはし)が75段とあり、日頃は登る事は出来ません、毎年6/1の例祭の日に行われる特別登拝(近年は希望者が増え、追加の予備日も設けられているようです)でしか、本殿そばでお参りする事はできません。丹生山山頂に鎮まる本殿を拝殿内から覗き込んでも、白木の階段が伸び、神様の通り道のように見え、とても神秘的でした。丹生川上社神社三社は水神様をお祀りし、御祈祷時に馬を奉納した事から、この神社が絵馬発祥と言われているようで、境内には寄進された白馬・黒馬が飼育されています、神馬のため触る事も出来ませんが、馬のつぶらな瞳は可愛いですね。ここで龍神信仰の聖地三社のお参りも最後になりました、奈良県は山深い土地があり、水がきれいです、龍神様繋がりで、宇陀市の室生龍穴神社からお参り始め、無事結願です、日頃から水を大切にしたいと思いました、どうぞお参りください、神話の世界に入るようですよ。2026年のうま年に、境内のかわいい馬に会いに行くにもいいかもしれませんね。"
+        ]
+    },
+    {
+        "place_id": "ChIJk_jnIKnBBmAR2RseGwTDSwI",
+        "location": {
+            "lat": 34.2675615,
+            "lng": 135.8760522
+        },
+        "types": [
+            "establishment",
+            "point_of_interest",
+            "tourist_attraction"
+        ],
+        "rating": 4.2,
+        "user_ratings_total": 436,
+        "price_level": null,
+        "weekday_text": [
+            "月曜日: 9時00分～17時00分",
+            "火曜日: 9時00分～17時00分",
+            "水曜日: 定休日",
+            "木曜日: 9時00分～17時00分",
+            "金曜日: 9時00分～17時00分",
+            "土曜日: 9時00分～17時00分",
+            "日曜日: 9時00分～17時00分"
+        ],
+        "photo_references": [
+            "AcnlKN0f-1jglcIYtuIvhTbsWLjfjHXo_2fOaEC_AdUp6-w51Ktb4m5DsQ2E8G0hsapYcUEjPnP7TKvhOHFG9bmW4dyD2lsZkPFO508bWHhJ7n-n5zJxIbdk7E30xXGU_x2NY_NJuy8P7cShWl6vsVBS57haf7yQyx4KfMhGdm978T52ZckbDo4uado7q_mpbflWcfSHvWkl6QrvDAUENIozPSGdW-hHveY59vQy-deIeGvongf7l2EHxw0UsP-FtBiNPEXoP3lMgDbFhaH00u13pEvwT9giE9afJmIbZmLkeP0uZY5h-6t3qHxE5e0lZGkWBnjJQa3ZsMwubd23h7khkqO-HnZpc0qrPG7GR09wJTDbTDPgXpwOQqDuaN_fftStlZvbifA0M_EuvApMUz-2gLK3cKkS0sK6RWueiLEN7j8-AQ",
+            "AcnlKN2EIeTViuwoa8sX0bl0ViW591t3HmgbkJikF5Kc1Bkck9vxSEXSzeY2UWV6ZPwQg_CrQyKo_alvHT29n-1y4zlyT8MaqBJZG6xisVJ3RNvUtovL4yTd1VeqI3uJcKHchcb_DsxTCk_AjT9qDnY4TJcBW2r7eGYH-IC1bXSsp8bn2ZXSKf_Q3i0QgaDtpPhOJHk1via0QNaAmoeUL2gkV4RAaNvuo8h8WtsYlsoZCQTjONs3a8TiAnXZZC_nohK_4VkqnKAmrWIs4jirEWcHkdH9SzSUFAIJeQgb_eIIwz5onQHmXocbn1eThO-usFdsxn9Xc_M30yoqkj78c9HDhs7rr1alg1pQOMhir6nRtaWpeRU73sTA6-lcUX7WSpHXl6nRo7cVa-x5fZFqeXurhmADj_ITdMHeaLZuLTOKlSjcW9VQ",
+            "AcnlKN2z15K9cgX6R0DtcI8bggHNimdvsK1iegbu2W7ivWKKUrriyTh6zJgDuMlbGT3tDN2-c-4H5wm8AGv8bJMmtlRhMrML_YfXWhWvGgHCWJ9H8XiJI54B7GVfN8PxKTBfsDhuo4FFpC--lf6C7uxs6Rk9Ty9g3Xr9Z_99vRuwfhu5Wid-GM9AtJTbHXKtTz-Ba0X9GJTaGu0FSKMT8bMT3LJeYuHsyZeTrEMp_Tg8L1jPoZXs9XIm3lmboelANICG2ct5r5lgFmbI8oXzF1TmRLjYbfT5bkO85STLhk9-YZ7P5ZCFElB-0U5LlP7FB285SXUm2oKlsRFFhltHL37CQzLi_L4lGI5WLhEFEKQ5EPdK9qsdAb69COmgWF02rj8z3Uqnsw-55BSydkK1cktNh0n8AAXsID8uCCwyZ_h39z8COvKUCJlqTmGYM-iwGIGj",
+            "AcnlKN0BGM-i3FuBTEUyznM_pDQL33wPNhYbuCvqwsEF6pcR0KFw6g3rmocGLEMDSywOHrOO9GpNqx8h6azGZufcU6txyZ7vuQrdlxFo2IyRoDpaZjyah_KvaB1fN2WQCSPv7bhCsF8c9hMPU3V_wWvp1vLMzpNLkjQZbSRfcnu1hmWsM0e68VK0LUEmor8HtG4F5pb-UcJqtf1uqSfm4J2Hyd2t8stB3uCgWGINpRt7sN5OdlMFAOehEly1qSU1IXB8nBl92in7XGJxZr7NzbxDMB_9TfreIUOQ3LqZufHP-K5gO3ovTDxbZGO2kxLYuq_KNnh2Lsf9rOr-oRjmcFSM2Bqv2kjNNgi2h_p-lAfhd3FRz_qCjifwfaAQwIc5bKZEOEpBwNXaZ7y8omBskJa1Rcbj_0UkQim_jK_NvQdpH9oDB_tzwP_XyFNjHsxzAjtv",
+            "AcnlKN262xG7ad298klEpQ7sNpLUlwKwrXOeKPgttYhhH8scu5GtnUHluoOxV4ejkdFFt-Jyjlk2oHDOHNKaNHkiQ8V3EzBI_IeKDYD4Ufz9F_qaFvn7t1WvnVqdyQ9hGZvqt445wnKmcUeXqlR9jU3T2viSWOvKCI699DoWNRnmzKSLbVq8wZpPIEYU2XLebd-UulOhx7-v6MdDeLB9fKKxzSHyq2VQ2eFye_MZUsgKK93vLHJVn6XkxD8ab0CmVqvg47yHyGj0PNHO2Uxvzm6bcC86h9JUw0-8mjgcvwNQUWFzgV-pRT0LhH63S9El-g1MiAtT5TNNmpMAoPoSClYKW2GjaMgz_C3OKKmoMgjU2PO4yoOo9lOlbRsYO_RJSm6wU-a7HXTWhPe1HUCap39kaDhGpvUSW1BNkISPeHyPkjq2RyY",
+            "AcnlKN1KTrJwPWywd19Fnjn5fiemUDuSczMjqCJoAmcQVFH5G-ObeUyHe67M4rjFN6EOaOHBWkOk6OkqdzQjCk91gm9yj23WB3snFWEEaEDtUschmZ1x9Kn93y_GBaW5LXqhRcaJrxsDJiWx_MsBDn8J4E10yqHRCPA64EGJ-MEltByfRUdbJY7LiSKhvDHqFh7u3ZtS6wf3V-0Jtf0wYa8o4iO53Vm4S8zHpTM-OUXEI-kcZGnHq0u64TDv2eKPmo-ENT3_WGE7trxdpf_v0v_YpdKx6O095cxzw97pvU0WcB2jhRrysMzQM7oZ_T3L4EA4a6iV7ZWedbGXub5g0ZQ9nvVSLsKmJwMoMHFbCOBOC8XF8RH4WeBOpfAgBdXmT6VC_Hns065W7VQttT5IsnSboPQsLuivOs21aev5_zZUldQlYw",
+            "AcnlKN3-6sADXeS0pq79LfInpGO6bW4sBYC_EwJuD11Jgru8MVnqVhqGc8yfjZcCwBY1XAF1fpXAhbF8S6pDrFx7qCY4Qxkx2g2ZJWlwfBrXVxS1-1bb_3XFj6hjpgbxZjfW6xyXNQJvn8RaY7LkgTB6t0YvWuRuENys6MRVIrUUdElFKyG0hYWPo8RIvDppsqbPBmC6KjDg7GQzZpoTSxujqS1HTbgslialaKS8lv5E00a-g99VfV_0OXHwKusrTqI6NiWFOOnWsckNVAARY86yWHCtbTCQZtpe_KmO-8oa7tgQFcUhrKO670VNwU7DCHpclLdfwN-puzg9Omr_EkzIgd8H7lIfuEfg8SKl1w8OEql2kLltPHB7R-e1rH7mShEOSbiOKy1urW4paAV9YuVJdtjwFB5vbhNgSB1mPkQzvU6qFwHI",
+            "AcnlKN1Uz5X8O5BxOZKWuP9UZOwh1lI3f4EZDBcQeEXuZR06ym7-Kz8o0vQpkEUlmFVBX8xMK4LsCzjUF7UGkULl0_ZrFAq62XJs__x7FDTOr9qHRUQZ7ySH84DWifaVhfQk7TXlv0xfFM5gTn7HPCefcHwX7ZEqbwEkUSY2B7_jjL6H0d6BZoRvh9UKsEDQCuGcvov7QG4WA9EnvWfw1cmqucOVUJN4dc9iOC4T5QBPrO3AjLnxaUQjiX-ON8z4yM42t7HL-NM3kl0Abgnr3fF7o8XWM0JQnyXZtaDv2KUiawCeSkYpDhi9S9Ifm8Pm_dk-koFWfkTTLvhaLJEZzi_mMBOPIaP4xrEpK0yJpRj__xgkXoE1QeOTJG79e3yZTPVNX4WGdZFKeQfU0j_WmYeoTarbteIQEH11sqUDOrZi15Iiaw",
+            "AcnlKN1WKmaMikPYI4KuhGjaJcEoJ_wZ8lqz2rm5oLRnAhya3JDiyf0_taOjOsVllZ6f0Xwn_fGn0waciVXJm-ZYcEsTRNwyqp1sZ6cVGyG6acyPcaDiClWIrSsJqdawynaWbGhre3b7aAk2TjjcVK_Vff6ApOR4jHZ-Vuy1Eg7CvFSnH894gYpLR88k4i02canjS6JTcbEDd58PcS9pOoBVrzOH2tMVudyRnKYK_rhxozD3BjLeFX5fy1HhXaVb-0zlE-zf3qWtSyMMQWt6a7QDKy0n_amzo7iDkuqDvfmMbHKelpMUZCdHmFfrQfdtldELqXoDQDwm6iMx4hqDhXv5O5cQCv12VGG5RX-wSF6q0hkEE09rwIb3fix0D0Ai8M_CUmbTfGXlLuRnm2N5MEyxNgeAQ0KEqGHC9nfuzJudYxxcLA",
+            "AcnlKN01iEyErLuuBwjOTOLuR1gV5bhO57M7QT8ogPYnwSGEnT5GoBWAOP7B24zyNGhWL0fdUtZ2wsqqMK5fT7-_kHwf7El6xbzJRdVTVpazlxnJ5bKlYp8_vAXwskSPuMfujo98hKW0vqFy-1TGPCaVcUSEpajGrP2y_-yrrY1DNxjpk-uSYZlyZ7DSEsZKuu-C0JeIYLOne3ciwK4bpZqwX4q_8aYgm6mZeTIs9s89_lSQAQdltui2CPrQUukeoJdzf3YoIQkK-C8Y1sBAd7H24imcLdJ54FwVZxOW92HM3sKzF7SvV5mjwCEmJOJnC2LflHu2kNL2MO6x08Q8jc3wmEnm5hSid2-LxzyGTGK7cXYY5ZTgGd4csOwBIzJgPXia2_BqB3mV8ieLhAcDvmz9cgwr2tDX7PLcuYyGlULXFcBXsg"
+        ],
+        "review_texts": [
+            "面不動鍾乳洞は、洞川の澄んだ空気と切り立った山々に包まれた場所にひっそりと佇んでいて、入った瞬間に温度も空気もガラッと変わる独特の世界観がある。洞内は一年を通してひんやりしていて、外がどれだけ暑くても別世界のよう。照明に照らされた鍾乳石は形も色もバラバラで、自然が長い時間をかけて作り上げた造形美がそのまま目の前に広がっている。細い通路を抜けたり、天井の低い場所で少し身をかがめたりしながら進んでいく感じが探検気分を刺激してくれる。\n特に奥に進むにつれて空気の静けさが際立ち、外の音がすっと消えて、自分の呼吸だけが響くような瞬間がある。この独特の静寂は鍾乳洞ならではで、どこか神秘的な気持ちになる。洞川の自然と相まって、ただの観光地というより“心の奥まで入ってくる体験型スポット”と言える。面不動モノレールで山上まで登り、そのまま鍾乳洞に入る流れは特に良く、外の紅葉や景色の美しさと、洞内の冷たく静かな空気のギャップが印象に残る。\n派手な演出があるわけではないけど、自然そのものの迫力がしっかり味わえて、行ってよかったと思える場所。洞川の旅を締めるにはちょうどいい“深呼吸できるスポット”やと思う。",
+            "面不動鍾乳洞\n\n鍾乳洞内は9月末だが結構寒い。\nコースとしては10〜15分ぐらいで回れるので\n上着いるかと思ったが\nギリギリ寒くならずに出口へ着いた。\n冷え性は用意した方がよき。\n\n土曜日なので人が多く道も狭いので\nゆっくり回るのはあんまり出来なかったので\n平日に来るのが個人的には良いと思った。\n\nただ自然が作り出す鍾乳石には\nテンション上がりました。",
+            "鍾乳洞への登り口にある無料駐車場が少し分かりにくかったですが、その後はモノレールの乗り場まで迷うことなくたどり着けました。\n程よいサイズの鍾乳洞でサクッと楽しめます。ただ、雨上がりはツルツル滑りそうで要注意かもです。\n洞川温泉から大峰山系の眺めも絶景でした～✨️\n帰りはモノレールを使わず、歩いて帰っても良いかもです。",
+            "夏休みの平日に涼を求めて、生まれて初めての鍾乳洞へ。\n山頂の鍾乳洞へは徒歩でも行けますが、\nトロッコの乗車を強くおすすめします。\n往復をチケットを是非！\nけっこうな急勾配なので、スリルがありました。\nなんといっても町並みや山の景色が美しい。\n快晴の日は最高です。\n乗車中何度もカメラをとりました。\n\n鍾乳洞は、ライトアップがされていて\nちょっとした冒険感が味わえる幻想的な空間です。\nなにより涼しい！！出た頃には身体がすっかり冷え切ってました。\n鍾乳洞って神秘的ですね〜。\n子どもから大人まで楽しめる場所だと思います。\n行く価値はおおいにあります。\n\n素敵な一日でした。\nありがとうございました。",
+            "面不動鍾乳洞は、まるで地底の美術館のような場所でした。入り口をくぐると、ひんやりとした空気に包まれて、一気に別世界へ。中はライトアップされていて、鍾乳石のひとつひとつが幻想的に浮かび上がります。自然が何千年もかけて作り上げた造形美に、ただただ見とれてしまいました。"
+        ]
+    },
+    {
+        "place_id": "ChIJO3yg50bABmARv8JZy0oLWGY",
+        "location": {
+            "lat": 34.2695578,
+            "lng": 135.8792985
+        },
+        "types": [
+            "establishment",
+            "place_of_worship",
+            "point_of_interest",
+            "tourist_attraction"
+        ],
+        "rating": 4.4,
+        "user_ratings_total": 1074,
+        "price_level": null,
+        "weekday_text": [
+            "月曜日: 8時00分～17時00分",
+            "火曜日: 8時00分～17時00分",
+            "水曜日: 8時00分～17時00分",
+            "木曜日: 8時00分～17時00分",
+            "金曜日: 8時00分～17時00分",
+            "土曜日: 8時00分～17時00分",
+            "日曜日: 8時00分～17時00分"
+        ],
+        "photo_references": [
+            "AcnlKN2tSZgoXSGfxQqLt71Jb-QKEPjs6HBXbkkpbDnpsflq9xkpIhHfdQ1FmqRftkLt0TYaC0fK8fsnoiznrfIjKqk4eoCWwW2Y5LF2DMowC_D9_WnLtnn8hn6TgJU6uU6Mh6lJMlH3rzfy6DDwPKd0o5o48UIsgRxaOdd0AOBcR-N8sAWHcofS_TkROKgzVCo-8R2pDpy1rgUsEHN2324UvEAgalshlZb3vsxaCb0pMRp0gMCLcYWxBlyNvUYjPvlTTHMI443Hb7nVTZol9fha-mc7Ax4DKzxul2reyvbOT1bUoQVeb9UvW8PpeEG8brgwcHDbuGd5Fll4m__bqjbsuWfIH0pTyG6BZiBDpue1J1Fh5djh9OobnqFzTaEwmFyCdyB6IP8gO1VPovxmGcqXSqPSqHkMZSMSkQIN-cNnTck",
+            "AcnlKN3DEWgQ5OC9ui8wDtLKBU9deEu1CZQ3cu9Lc1DeHqbMxJx72NPN4n9-LrbO1npkCWC8rUyemHGQwAfMcK6l4XLRlD-tXkNi5aW6Zy1T2d4apM2BgLwN5HX8-VLf-v5r8CpPda8oAXOHLPW7NXXiWDDydXB7iEwdfcmKGzC0Akh6aCWqjqJEg6v-2WQTMowLJrr9tKPp46FfHoGsHAA6efCrbMQLOSXGW5kT_1GDbddwSPuG7x5hn5Qvp1X-hSZUx3q-AjmAD6Eu7gtwfERsWslf8kB-ug1KxCe1LM8OZUjt4nRoRTSGvLJD9MGJdoHoFI3hJct9EKWue3F7cykzuc2dIMWKCriOl36ncYK6UTTqGhhdKclEPdWQbtMjmOjcegoLvv8rsaKW-P2QtCFktIetEWBTc-odY3vxO5vSUhWUL0cB",
+            "AcnlKN2gSZYzcbEAGAPxdAgFvrDnUKpdZT86QhZD7I9jsevJ26C8bz5CQ6jZUFSqfajMgX8K_DSP_C751si36bq5I2tr7zyL6rDM8y_Y6EKzBGVas2RkuuSl0bV3QBIkzi8hJYKAOGlffNlj8l4q7UhXLujGH88ZkJABZQqWZDqIWON0XSezJcJ0DDCBy7O5jtf47Q5CFLIZYA7-CTol-Fc3jc1a5LPDEg7FAt0RgWtnFXHkSTWm03Py9wMTunv_dug63LY039jlrRDunrOVFoa6rDwY--3ENRwW4qs-KdUsoXnnmDUAjQiwMNUf1MP2kCqW08WTIp8fRxnx-JIsq3AQPVpv6l3KoV3Xo4ENRq53rQVp4Ej2DfiGHAI_TmjoMBO5rNooz5JPZCRl9akQ0N1VnxqLYPOZ4XRQp9KkL1EbXjjepw",
+            "AcnlKN3uJ4neF3vkosOg1zP7T8GFnd3RrqDH4VEYmxB-FEbqWFdGack3dwhGk6htVq0Q05zQxRvvpjLPK8hh7U-Dn1UU954dvnif9WbJHHIM_-PDyYhMcgzeY5U_sCdUoT3rhB8K3Uxgww4JBLd4wcIIyCLRR41547hLASRRmNQ_CYpA1LT1CN7PiAE3SMY5cI-2bBRvBF6GQDFNeIRbn94U6NGXhu3F90J2E5h_yDV2Ek3Tck8jc38Tg795WlhuOFub1B6sbU-icYLedRoQSH2ylV42h9kgUcY5DbaFDdmhhQZFRzk0LyQH931r1Swfs_rgqaotc0Mb9tB3zvSJjtmCNSvWoBXvXR4Kzene7eHFr9YU5FLvSLoeUgf6I0yKmHWOj0VvDiM-1sQH6aGNIwhQvmHxC5UrkvqysYJ-cw_Y8zMwRw",
+            "AcnlKN1zmWD3FuDcJRUPDlaMxwL5nmjsK7VS3icBdErS783o6qCnXksDioYmz2NIgPX2Iw954eiTaKhlp01Rxnv-35_GfhzjXvnqajwocm02TNajTh9BwO_8-dpqc_OXd2wyVylBzETYGGss5Yo1rz5vw0VeG4kkyzmlKJM8XSYxb45eLyehEikUOeaHcV8htudOjaTpsXfL8A2r9nrTAYJirldfvuOVQwGH0TWrYJxIUpZKby5Y6P4TbONYejS_id5TUcxOpH1PcBBgbvxgPJbchdcnM-V5Dv5fOeTKVlrIPMXnTx4N6JPCxR382j-bju5iDefizLn101E8Bv7Uo36Y6kuzzC0sU7G8Q4keiB8jFvbg6gW09NMn8H7fhedS1hSIpjmxt5CtAFlQv387IQWquk9rmKYdGNJpuCt9fy4P13dxIXy1",
+            "AcnlKN2_So2KhfUuyt0vAysuIGX3z_mX0FqiyWpSrKtPt2wSCq1W4gJUhcgQ5ewgPJwreEdXL7LV6fBgp0MG4OCjLKn5XL4qNvS4b54cND6Ne2BA8Xy0mJYVMDaH4VJi_6_7iTYGtq47_CjabSc1RyzdF0Zhcalhif1Egc3yIbUNfXpWgYNWhvzn8MNEjZ4oMrdvsn368nKmU4Mct9aQP7sf4ZuKfHdMb9PS98I4gg3XdqmFAab_kD4vLc1Vrs_ZAY1WW8pIGEJLihlX7lnzL6jR3eg7CYqWJ0Yoobh_7BKXhAo5l9ykKW9N5X6zZ5a8jcXgmn7zlUJlkuXRaQ--5zvZ7e7-Jy1XxKPuK8GgCbJ2aE77zCwO6evkr1hbgfSMbG0qmUkr9VqJxiuKtxNgBwGcG0DUfc6VHNtUe6b6W6vKARVNJw",
+            "AcnlKN0Yxm-VlrVms4dgHx3HBhOy6CSJVSla_z4UTrEwHE8-eH_vff_M3y0LJObOUq12WMSKXR2PygbNpK14F2FaC9s2ulqA6q9paWlIDjH6PYNV9zxWXP_xlgiFQFczqt-pxgRHfxhz_lDcku6VhRWgFEro1IbMRNk47cfckxuR52M_H60nIp54VtYUwimZOoZCpQQEHt8mqf1ldt1z0qYiL3uOEkAM9vKXYpOoc02UZZ35t_q9lDJuNtcXh3_6u-73FaCvGjobtRLyxKlC8T66WyfzoKIElwd76nRzzhEI6pBkFHmJ0aFv1iEOhIqClF-MRxX3wzKCySgWOGvFiFNkvfWhNoVJz6ttWrVPI31y8wvkNhDsIMHwlCt4gpWzuzkFkFhvQdX50tGEIQA_fI7oYa5PssGpHni8_1KZpdhM_NEr99pW",
+            "AcnlKN3r6RkYVJyoYRo8sQ0zvrCxnFNdbuiSiDDzSzVVAkPEAVkdlj-Xe3an_BP2hG4JiyXydggL-hmtymR8K60Z1Ez2RYo_9rQ_OH0cZnOb0W2UfoWuYFgkfJhbRZN6c6qp7n6hF925gLsAg0R_iyRB4vso2T46dckVHV94f1SLgTE29_qA96rJc8mquNcoXide6OsZ7ts3IV6Sgu2UGzJS5678DnDXWA83H2LvTPI24ICBp-JKVEXspPaC5G6VBl8LQh8m48DJIqTDPoIUwN1kjYtmpJzqVYBwXjW0WqNLBzSNUZ5QCssexGegDiJNUot1MR227Okazmz4wCWLUkdDn7LBs38Z6qN3Tjrba0sgSZI0n3pOwh3TMt7GhUvk6pHcXT_EVs9SWcmUV6j0QN8f8elW1hI6u2c9ioxRBKUBNnWy5XQQ",
+            "AcnlKN2-jYq-fhm9ZN14FP41uTPhgphq93rTb_bn5He-ywbbSFkRzDOO-CULNTGNjsQBXtBHDFKA7BuIa10blaIgTRRwrn5pnobfaa5LJEJreJb5rA0SKiv5JdVfk8z0ix4K-RLKsLVdS1QdIZACb_b2tKasD94f2xWEOr_l5aSoX9eeFCgnep8MkL0pbnUnCyvS7W8YeQdN8H3Uo75nC89wQ_cq8lj-cDT2No7CowDFcDOB1FUbwhoUN9P3Cc010fhsiD4hOWzAO1Rchgfb1-d5awR9mUIVB5yQtJRDGkBEzbIV2VpbGOHeOD_WQrmL_Jpewbc1cxzCrRG9UVDiBBmgcXkeK5V9VNYMcWP8CHdrhoaPs7AKDcrtezOcAehDWkshw4X8FIKHRGqybSMZxHf22xXznKsHwwtIvpexL79wahAlYVg",
+            "AcnlKN0k_xQwRNCZRR7NSBj-EJPguHDCk9PaA_VjDjlDpIuiKYzEJi9bapfcHR_BLDSfQw81jcqAb5kFmbVuZ13l6wXuRHkWCs9OrHXECXEHGqzQ18UkiJPbeKFhD3_hbyjLOGeH25rsa_ljo5PS8ry_lUqIfF0trbBJ6Xsw3omNe-WD3n4Qhusu73RhO7ALLswYZ-ctjh0-erk2DEGy-4j0NMNrOOOX-x-IreN5OytjF_Ru11QmrJ3kE7PoZnDGUew8fO8npDESpxLhlt3vAV6l7LcKR75KAcctXbIaonl-YFqUcyYRJ7sDqBlayXiL_w_JJhXHmUcRQPSfdqaON7yPQP7qRmsdgOAE9ltKOAvI3xf3lWy0kUBS5ESpD6EXvmRXjXiBQTnFNRgshAunv89HgJXH0pYAWKiQ3mFbCgLi-5PvxWf7gpn71S080vSV511A"
+        ],
+        "review_texts": [
+            "秋の紅葉が美しい場所\n龍も名前がつくだけあって、龍を祀っています。\n龍が描かれた天井も圧巻\n\n駐車場は空いていればお寺のところに無料で停められます。\n写真を撮りに来られてる方が大勢います。",
+            "いろんな神社仏閣を巡ってるが、龍泉寺の境内ほど美しい調和を魅せてくれる寺はない、と思わせてくれる春の桜🌸と晩秋の紅葉🍁時は、圧巻なので毎年その姿を見に来てるが、飽きることはない。\n今回は、紅葉前の「青モミジ」を観に来たが、これもまた口が塞がらないほどの絶景なり☝️⭕",
+            "ここは池が本当に綺麗！\n池にイワナが泳いでるのに驚き🫢\n滝行もできる模様。\n炭治郎がねずこを背負っていた箱に似たモノを背負っている像がありました。",
+            "龍泉寺さん\nこの度は お許しくださり 参拝させて頂きました\n思っていた以上に 境内は広く かなりの水量が湧き出る清水 そして池\n本堂 小堂と 時間を忘れ散策させて頂きました\n所々に龍 龍神様が\n滝行も行われている 様です\n寺務所に伺わせていただき\n御朱印を頂戴させて頂く際に\n美味しいお茶を ご馳走になりました。\n御朱印ですが\n八大龍王 龍神様が月替りで変わる様です\n６月の ば難陀竜王 を頂いたのですが\n八大龍王全て お会い出来る事が\n楽しみですね\n\n暑い中の お茶は大変美味しかったです\nご馳走になりました。\n合掌\n\nまた\n伺わせていただきます",
+            "とても綺麗なお寺だと思いました。真っ赤な紅葉になったらもう一度足を運んでみたいですね。かりがね橋も見てきたのでついでに載せておきます。"
+        ]
+    },
+    {
+        "place_id": "ChIJJwV8TxTHBmARDRlnDuyZRms",
+        "location": {
+            "lat": 34.34262,
+            "lng": 135.8818131
+        },
+        "types": [
+            "establishment",
+            "place_of_worship",
+            "point_of_interest",
+            "tourist_attraction"
+        ],
+        "rating": 4.2,
+        "user_ratings_total": 405,
+        "price_level": null,
+        "photo_references": [
+            "AcnlKN1JRT7lxUjmus3l699MONk3kLIHxoGPbqaO0cYyx3TZ6k5M9evF1RuPcVvo_BJQx_pEf17fe0XSokp-ZBicFEcobCiaNlL91q6vQU-zgMxfp2fNG6-kE7CIEyovBbRImewAF3Facl8_fPPU53pCJuQC5tgP7oK34Vzytkmts_O3jMR8nPFoa7VFbzyFdJtH4F-4OGenjMyXN35IhTacTkDSUEBe6jjJTsBJEpDXBm3RVGICeakT7xzDGBjuhsBOtPwejXCzfWS4a8rTCMLjN4zmk-KDRlN1rRz82TGwqXZs3o-9j1Qu00s5R1_JkP9Xo4NewrQoYb9zp1eSI4LIdWGU5fAPBsNR3URWaSZYmoUIoeotbJdcUFicRIONRWrr6MDXsC-NS8a1X3-a5zM2rStRn9mKdKEH6gjCdZgQ87Mw4iew",
+            "AcnlKN1pNBK2-WeOyxJKnpwzxFAAnFtXFzQQ8rrbnXg3g-IjPxh5BxS9pDnTl9gCFPjUZ0OoxSqXyTGDBMJz7Uml2Q1luKT3zuluhSB8RIvyd-TJk7XhPdgWFXjlq_GKUPWKCMehykIsOPkGms5NhCqkXnBg5d14u_taki7yvpVJ1pVFFtSteZwYzfpgb7u7J5e6J2NtDJhrMY8zxWkQA8fXmen4UXhSKIDHacc8RPwRTUBno6sw46R6wRQ2Ae_GA4AhNJZOcOT3Aq8CFJj9DlO1bNEV9YpPd90moPG4rHoB-fwVUFzo8lYZgf5IipwwcS_rpm86jT50OOoRUMvqNrmGsNlm8tvJBkC7JmfG6Np2uVKlOgPCVMOsnS2IJCwcTlqPM6KzuAZM0JfwCRiqBZP2_Z3Bt99iMaYazWg17ngJFRX8PrA",
+            "AcnlKN3Xv1OTUZyBWyXZSOYIdQ9w_4ThAbxmrN0aIr6SWQkHkd6tm4jEznM2A-JUM840-DhSOJmmBcsAIQr5dLilDXlqcsnC2qZck3652luLQcV9uRIPSIxOsbz6LXTyTrztwfAnhfr42NNTCJzG1y_vfcubxvq5lN8xebZh8gUyWSajMltc6MagCQT-iQSnaVl8upoC9-90uEENtAsRfwXTdcTs-M1dDwxgmJI2SMzyoO6uH06vW0K_pg6n2K1MoaQ3omxG9tLDJUyIoJq173TtCB5y2HBoLMVUHO7ed3rbpZLLFFkBYdtGITgV6ZTIS-Gp3V1on4cxIuZC05SaaiB1A1r6odGqqpJ_tLSV9bY79hh2qixqAPHJ970ZmM4nuNv3mMAZ9DoTqzo9o-K0Js0WdcAVSKeZNBXHmfm5ZfJA9yKrPv8z",
+            "AcnlKN1Ex79n6Oc4pDV9i0fiolGnMpcO-1lP0r55xU-4JKCWcuP5Urz8JrU-5U9SY6N-LOmBRvYBlkVzypk8wJNPgBunJH8N22gc4da513nWsvh20cD7CzAO6XJxUo0es0jOfGecYMjXF-iZkuWJjzkJfrmruAnSqnKCczQlwQo4_sr9_DJxObDDc7bFbmNfUpOxinBGwoE9sgn3W_haJiM-EofcKHm9VYjwHANEgNX4YPGi4uGgs1KiBj5zb_5I3eQH2rk03oKus3DIlnkLDl8BeXbawbzTViJOQgwqACEKbWns4aZVQXMuQrM02fQZoQ1Q8O2FUuEZdoA6qw0ozrKg9OZKBowOf928zdNVZvpBehrABpWa9wadgEFJ8dR1PmGjiwkWUrcwfrmYxoAiDYVF5uBMPlealY0sss4D-SmyXqWgc8sY",
+            "AcnlKN0YhX_mBT8dsnbhfNr9QgNpKXdzGZitu7In7kJNlB71OzDxuyCRLcxvI4L1XDi-dcFhufkzv4bfGpoXVjFzLnmwYxLmzh33ckl7CCtc4kQwl8TYR4bpp0xlfTHj8DduPQrAUwD1jewl3x5NAf_f6KpzJtBNESipOisoccvdJfZ-GzYn2vK8GRQqmu4erlAFeBCSSl8WeTxW3lIS2EyI08Anbpz-oBjx43bayyxu7THBPBSJmUJOBQA6lrzjeHCg9g-lLLQTvIu8vMVnU224l6XM1ud1gErLizL0E-U7rvxSiC-bySnEX3yoqN2OKL3ybc4-CTYM9H1FBFkEOglIKvZSF9EGG01kI8gO9Visbq6BOo_1KvOPlPdHfZR68_FYVhS3F1M6sgBT2emLUwXBm2XxpXziM3POTw2g1PzeXPfZ5kTl",
+            "AcnlKN2IzUiNkXlh4mCMphr8fsMOnevAS2R36KFh_TRfJ25FCnxhzqCH_jkh8nMbQq-1cw2a-P_cISQPhezSdNZbRv5F4tSY5nHmzYz98-Ioq1Q0fbEA07Ih6MXL8CPD_HTSR6iJ3q26jxKCaJvsSMOeY93Eg9LFGYp4qz7ENcP1CtaeOofZ2uJlDq4r8ecsC-R-bLxxrWq32jowWse--XHtlWxA8BM7bqwhWWC1p-eKoECfaQsBh8_wmYANzShfTgxXq4r-8NDL2AvvpDWuNZQHQRGsrT44S5HShqB4TEItGOJlrdhrIWwlc6iPbWKsrkTnQuHU1hJeWk7COoZ7HRQaMGa1lXwpALRXDhZarWCSGdpjR1k5AutsbRSFTSriG3ydM3MmBhdJPZOAlxQyj2vmaLmJ91W4aFDWFP3kjoGxckQ",
+            "AcnlKN0ONx_biTYFLD7Ai5-XDAk86sSGjiEXATf1p4lRWeBpg_KOBRWJks9UNF6BKu9amfCHibBjrVhtiqONHXnb_op-GsrPMx6RLGkknTyL_H5o-bUHhkbghuAOnnKdWxLhk1Jj9v2oX93DpuOIrK__J72ETKQZfFZlGPI88m_mHCSkmb1ywjmSY13x0BFCeCKTeaMyAwsnvN_EBhZ5lu8CS--Zg6UHpB7UxACBWHqdIxEOIeussTeE1p8cTGlfhCAEMcGCHpadDu2ozi6nRdZPiSqKlHEnfnnM1CdMWFR7YmWBti1zIfWXoqaIvr_opNqWYDO4ievfNBYtJkUBZPc3zz-T-JAyavmc4H3TJPr7KrvPRCLjJvuOCIRRoL5Dzx95aRqfG1UAM5zUvhoRRb2ZmLvJDvGnYmy_XzUJyUN5TbG4aw",
+            "AcnlKN1TWdTjJQVPr1RYZG1u7I-BoRWck5FPTN7wWFXa8y-JqaHaRQ-7qqJO-rMbdV5p0r2WgnGJW8_bmXZAttB8Xg9PN8GlWRtRkijWYZUFwouq3JshmdCtZ09rs3Bg0sMfr2zuHFRSq8FJVhrr6twhrpG8k07VjDCVOdNpvYRECPsIAppfUPK4N4ptw8fGt_yysxGoh3PZ0PKYREJ7hXR2LLSf2c7KMBSEp-FLGzuNxSdaPZpgKm2JJ_rwSeQhBm-kU9NVBmDDgjhAxwugV2wQRr1sx0ZM7oXdtHzgNDjHY1cRAJcnWNMBxq6cIvvobc-Nr0iIGX06yVB9paZvRTM9CCeWBf9lHTbn3SJDv8V6-d8wUzuCv_S2Mo1MgQW3WScHMKlV52wApzNmob0pd-OoCBajSTl3JMubg1EduPZuPMot3w",
+            "AcnlKN2pYxgPTdFg1W4YVOIJNmeOGrUPI5gTk_4egvKQP_wMvLJX_O0ITumX048kQghfpjZl3xBnTxORzzcm5EpV0LlzRWgXjwGpAr6zIeCf9s0acjw0c28NbZeo_HVBrjYTSgm4TAW73L2ZZnFAR6uPJQlu_Dy_Fy0qx3tQH5Nbt9AaBS5mnPsjVyU2F-8_5YUvLkweo4nyTjHKXh0S6AxSzbP10EWIEIaV4z4s75_CY4iL88UX0sNVBi1vqlJ-zc76PzLAf_2ewqxsoQn9wfn_4fsHMcVO9ijHQd_MZeugutcIHze83PtpCoJ7_l642Mb7_laGhApLLzCJTKYpsJoobGg9YNOY57gl5FbLop2rCTEamPxh2MLAxunnRuMBvO7CiqK1Pmoecjiz9jNCb76ecE750AFTRfcKxTeOcE5QhHk",
+            "AcnlKN1_ml6ozijucBwmQC9-rcfuDa4Hgf9NRweyasX2qWVE61HqwZ0SrkCzM6QT8PU0_TN766Daz05VvloeBFBw-1NASPII6MJOSTsEVxjPoZTuMnVuMquFB9QqJCPKCVPBDm_PKYQ4LabmZWxtNh3pfRVtJ_hNfql_WwGj8q64J6F2YKmUHRkzt5pokK4D7yXTsWMrPIMcRi-ZBisA4lAsd7WQSjlyXZbKCvsrBUlfO5nyNyVe1qCqaYDGZ2Gulr10AOmS6uQNwF9PgBzajedZO9NJLqMwLuMW-CzVI3kljxmndbVXnQgJZOXEh-xqR-__Dx1WJLoGSMkYvQPFd-dsKk7fzwcLajFDQCzVTHfVl6LU9EOy_uM1SHoy5_g9MNMnepGB0vIiGweNtWUF80RbGUeFVHwPLlu6UJ0ceF-kcjyRKg"
+        ],
+        "review_texts": [
+            "御朱印が頂ける神社。書置のものを郵送して頂ける。\n御朱印申し込みは吉野水分神社にて。\n世界遺産構成遺産。源義経ゆかりのかくれ塔があり見どころある神社。\nマップで見るとわかる通り、吉野山の山奥です。\n車で参拝ならば中々のテクニカルコース。\nクネクネ道で神社まで行くことになりますが、帰りは神社を挟んで反対側の一方通行の道を降りることになるのでちょっとだけ楽😙",
+            "吉野山のずっと山奥\n山の頂き付近に鎮座する神様\n歩いても行けない事はないですが体力に自信のない方は車等で行かれた方が良いと思います\nただ道が狭く季節によっては歩行者が多いので注意が必要です",
+            "GW前の週末。一縷の期待を込めて奥千本入り口の金峯神社へやって参りました！\n\n残念ながら見渡す限りの葉桜さんで、\n桜ではなく新緑の紅葉が目に痛いくらい😅。\n\nせっかく倉敷から早朝に来させて頂いたので､\nさくら観光はスッキリと諦めて､\n西行さんまで､愛犬🐶散歩🚶を愉しみました。\n\n行程1時間ほどで､まるっと一周ですが、\nこれが狭い山道で高低差が結構ありました。\n日頃から歩いていない方には正直､酷ですね。\n\n熊🐻注意の貼り紙もあり、\n山歩きが不慣れな方は行かない方が良いです👍\n\n一転､🌸や🍁のシーズンには､\n早朝からものすごい人出で賑わうとのこと。\n麓から歩くと2時間はかかる神社⛩️ですよ。\n観光パワーまさに恐るべし❗️\n\n我が家は金峯神社から車で５分ばかりの\n無料駐車場🅿️を利用させて頂きましたが､\n朝8時すぎに､うちの車しか居ませんでした。。",
+            "2025/5/18\nかなり山奥で、道がかなり細かったですが車🚘️で行くことが出来ました。\n\n駐車場🅿️は無い感じでしたが、手前に数台置けるスペースが有りそこに車を停めました。\n\nバス停付近は駐車場🅿️禁止なので気をつけて下さい❌️\n\n本殿は小さかったですが、青もみじが綺麗でした。\n\nそして、ここから先には［大峰奥駈道］と言うのが続いていて、吉野　そして、熊野まで道が続いていました😌",
+            "下千本駐車場から約2時間かかって登頂\n🌸🌸🌸桜🌸🌸🌸見物をしながらの山歩きは途中まで余裕でしたが吉野水分神社から傾斜もキツくなり、なかなかのハードでしたが達成感はかなりのものでした👍帰りは楽チンかなと思いきや、下りもまたしんどい😭人生で１回きりでいいかなと😓次行く時は早い時間帯に車で登ろうかなと🫡"
+        ]
+    },
+    {
+        "place_id": "ChIJ1UocWzLBBmARu_BaWWpZK6E",
+        "location": {
+            "lat": 34.3070016,
+            "lng": 135.8548254
+        },
+        "types": [
+            "establishment",
+            "place_of_worship",
+            "point_of_interest",
+            "tourist_attraction"
+        ],
+        "rating": 4.1,
+        "user_ratings_total": 13,
+        "price_level": null,
+        "photo_references": [
+            "AcnlKN2jNqyWc_uRVR22Gp-YqnYrLSlXyvWu12ElkagfC0PvmtK4I1gW0o_JJz9iT7M9A9JgLwY2oM87B7mZWvKw_uWaQZkIGNfEJxMOzxUdGzx2RYJiAiXf_d0duiCBDc1tPOIEsZBM3Rc4_8LOTU4_utfxsMlosylPXdMu5hKNPOyt-XPKrc_clrNxvg0nwzOl73hVEujFeaDF__YUnSf_yYgVBmPQ7o7QdhuDX0WRePmVfZA7hb8clfuivtAk6qpI6GB1oDMHk4xepCLcyGN6t23G8xxcy-bd0GCIBbFpFHerL6M_VCS7RrsaEtvt47xujvw4__U4A61XNgCN2xsIHAe8J-uCqaURfjTM9y2sskbiETbBxmHCO2Tv7aSnoT1Xfq-a2LSISitvvd5itLlThl0XMDKkSbztwFGptB2mI1anHQ",
+            "AcnlKN2mznOP-kdhv8yq3mudn3NUVWLaqf_dj90uxdXfYSDOakPse2uAvsN_D8CzWaXs3I_83FfOPmAQyOxTN-w4fSjLF0u_Nappbb2Nm_ImJw_Ce1JgMsPyIPjZnx4QzPyWuTN5BehjdNjMZEsX8i1xzUV9FJAsKuCTXl8G9mxSl2trbZlRnJ0FlAt_Ab9fQxcUVXNth3OJy1-MXsWuu5_E_HdtY54epdwTzd9y9p0IVt939o5ZgLwl_3FJpofwa-OZQh_haYGuyLbsnNb6kvWlR2C_eMdq45KBLVBr--7I-kWwYWkZ9B0jzS6fpAwAXg_a78159P4YuLqzYSQkOIrwX_h5JqfmYuFA0Zya1tCDQo4apt4VhdXtUY6KmnR3Z7CEKYlnNI9Wy13M-jnIOTGsHwpO2YvRl6qN1E8jcB88EV48Pw",
+            "AcnlKN04WSz68tbRADQYSsv81JzzEhxbnDcsKD9D7UoclOBHVAUaoWDVvsb_keqrp7ZfOKjpwVaggn1T-b5SwFkk9lWVIMYsHgWWDyf-3qwusioeind5pQpwPJMj0QkHoFOowQaF9UMl70lqFWgtlqvZwFvc1Qp5boWlNxAQX5WqFAkw7mRV42xy82wDKinHSV_N0Z9Z8skSCwwpYsqFe8Lam8TEPmbP4WtVCgCwhmjvOAedysuM1VTydhtaiFZi_Fiv42mtZZpacxBpmDYyhLfuvm_HMFjKoPIeSYvkNgIxeZwi5oh9jb8wGZwCHYd12dbb-SSVSemP6L2trpLZFogzNM9iMKdhCFep9z5oYYmTJzl5LeBnz4WmOwr6eSzCjh_fpoj6zT1HtwTPOgGABB8a5FKcccJ_JEwGwW8pV-Rp3htWJTc_",
+            "AcnlKN3K0gp9maqUjxN7ryXdVrhXQ0F259ipppou1yp7_R_0gOn7Rc6QeMb69CgdhhQfAMlrdPpJO6zImFr4Dj9rCioRVyFGjEhEwQZ09xemYtxiUmps88WdDpK-fvcbUwFMzWXY428kOu9qvZqfTV0U9Ygv9049uHLTN-oJqKfLSdl41MzcdFi-ky3UFb0ZAyveJZVztvecBY1CT9b39eflBeLcQwobOSMXdWDpS3Og0D1k4Mi4mLaCKVYU0WA-cgKD7BuWlK76m1sWA34wQsaSPLU_KLJXKwtgDjJTFA9D966ixSVxj9NMYHhuYO3dQed5QI3FY8JAZ26_p7J5Y-Qv2w4Vn5pcjReOK7sXtkr9xEH6IWiI3izNFPeCTS_19mile3SEofCtAuzFhAZnxyBMltbXWeAzNbTZBWvLZxZLWTw",
+            "AcnlKN2DWO3mumrlpxr_ZVViZ46vLeKR_meei453wpLM7d1YLrNFifEQGxx8KIKwoRUzFkaDTtw8aiFd3HkRUi-OeryWjSKMFBFl7_6MjUtxSz05ZNYId5Z8Q506QIK3RxJbDIhC6M1wVVWZaWTIubgJ1HStAJelIMo3K9zyt8GUd_RxTqi26lmGqH7RcW-ryyGVuK5RweMR-UNzG-J0XIz9JFR_-Yy1b5Wo5wRkNNSWHVxqkLBWwVx60fHI5KgJETNsT8-8SIT5UvCwR4nlXdqtL4MRs08ZP5z0jCyTYkVVfU3ayuMMd9z2jidn43-w2AGofGsBMmpFDYkNOxQg3CM9UlNWN-DmhD7_1Wh4JLQRhRAAzvXnJytDUpBAFpPwvPNDRDlJE0KHZ83IVXWbppbuSLwM--xyyfzzQE3AfHk",
+            "AcnlKN2lB-36IWqrskdoZcfqQ3vbYuEkMunhj5xYOlhIALmPKQz55sYre0KLZp6-gxISfqD0Wcm1nkkdxQHrSUzZEnAF0UoxlUaTRuCtQZgfALuLugwkq7DyPRI_MeEX3J_50icnXdaO3Z5xAzyzyJhOyqAk7FRFDrOdIQCAEHoGp-znICIFvTEjlR9lPdvn9_21thpQK7sPBgoo-tB_BdJXKOs4_qt-lJj76KfttgONr4SVLLOhZktmW2Vq9Zx5cHvn9PdqiTl7CQ41OeK7rxPLbQqHo7kO5DEuRtV1IDA5Yp92i0NiLXW2VOGVU3A4Opk3VCS7cALYx6YrQd9WfZPimIsOviR___YxN-aLeQjap-ChOX3GQ9btB-TZklWqL00LsfLkhGA3WAgA6W7YFkkRPmVMTlQVnng_CEE454-3YOEvQg",
+            "AcnlKN2VZisJckipZDTwBY2e0wnO-k7X19B7rdL6y-yrkBKrOm4vN0OlDsfz2fECQlq7fYhv7BPLpiKQvS67EYxsIQr-ZwNEWMpnMUtSKoeOwfvUiBm976aJRl4JZ5v_BbC_h2QuGeDxJgXNhhqEwtYi7ikxaoZbE1TsODIIya63KM7bgottaJ2SzvwOP7cvZ8DB9EKAYQHxh2EcV8Jx1IJTUUGYEqJqreHy-94nXLOMyGo_CLHmkrMllc23KJpNX9AqezTkz6aX58Saloxk72XTOALLeZRDzRVRMYU2Y1jvC05cTktaNSU3K8i3LnfigX-oZYHAvaAXshriLGOCUUtfdIi9UcH-9R_NxuKNzJW0FrJEMpPY3jf4hVwT2wCn_vbltJlwd1XAGEdXPETR1t7iaWxrToh6mD7ItMTNoqxYNQKHEyQZLFt1Dh5RPuFVI7u_",
+            "AcnlKN1dLYBaZOnJs9Do9vo9SOQBLau84LZqPq-8JWl3pDm849iVta3lawkl9Oa1YqIFjSEUHGLUhaAmsTD2dSk1Jwkz0q80hP29RFk8OQGylm4A6EyglKlimWDcZzruxMcRxsfbaqB6TM_mDA5L7TIu-8KAV2XXn_SoxaEZhtZ7XVP_-rCtEaMstUrd7Y4JyJsR6HZhMtDP8QaxtZdosd8eaG8DCx9c9Z05pqMZdJx_kmEAIQR3tK2_6WOJaSxg0nGyyF2Rnc5_PDBFRehz_UeJO1Ui07O27dN_WaV470OtN_Sdc5_zxeE72ty2JzxfiXQGAJwgjI72RurETDT7lpPutxhc4BrGI5EPo6TvV9ZtLzXwhSyNFpMvBAj2D5HkPja_uUGk0dNH1sEqYwkPv6OCFwsJUknp31SBrOZnBHlzZp4",
+            "AcnlKN3TaszzD-8UZcg6_WVmm1WBZ7HGm0Hq2oN7qxPosMqi78zf3G9Yssh3gvWYMct39lSOH5mzPqSfilhTCiqqsIk181w0xTbTdXZcPeygRqeQhFADlzbnX_ND7aDK20kVkdl2LKfHqQiEFgzJyPSwuUgVkdqsMS_W4Wvs4fx_dYIezXN3TP9pT4ZjrnGb0eRaQYHVRUQlKfj67-fOzymSw62tCa1eWqfnLMMIamBEg7_dVds7mVtusC2rq025p9JaJHm4dmKOVbcGQue2hb2-Lj5TSrDOAGzGSuZJzx73g08CTiAbBM0_FEIz6CPULBOWbYzcv3Cv9RY0CgPmZy2FlmsYfTQvGYvRIq6-YP1wvo3NP38fTxUltvUu8oEnPF5HZhVrncSYjZ5HjHNAqnHaE52s4QDUvShhkDm_Y_dmQcn3jCTt",
+            "AcnlKN2dn9-jqTBcmhHAT1GLtOtqnNmI11_GxxPeosQE6E0xsV52nmctaFue0RnkJdZumBz9cVntMesF4ilp8WYiUQ0hD2apdxv5GuYi5Ob9hz0cyswF3_b0eBXrNP0gzzj5XiG5gP4qqJfDF7HC1eGao_KdzCXz5tzMhOa_F0onc67ODfmDyqtRnaC58rN9ldWIyNdXklrv3ll_KhjzAgy8_8P9KG4utTirmruonbqoTu1MSAYA6ddt-zQ2D9rs5_YXbXFL2hjFFi2TU9-hSsJIpknl4dB7sWwn_maCQQVofzzLbkSi4CDEKN01vI4vPE3498DdiLL0jAZ5LJuWtE748Gj2dnzJd40n0jLxZqzy8DJeB97EIkRCkHVZhjp_BReNWtjN83Mr_pddEqb2rB1RnSWD8zJaq-YIqKdwEwwC_qweTiYz"
+        ],
+        "review_texts": [
+            "河分神社由来\n古くは祈雨祈晴の神として祀られていたが、何時の頃からか、奈良春日大社の分神を祭り始めた。村内六大字（赤滝・中戸・寺戸・脇川・堂原・御吉野）によって祀られており、明治7年までは付属の寺院「南光寺」もあった。\n杉の木が立派で、拝殿前の途中で半分に切られたものや、拝殿右後方の夫婦杉が見もの。文政年間の刻名が残る手水舎の石が良い。稲荷神のキツネさんが木製でイタチのような顔になっているのはかなり珍しいと思う。",
+            "大きな杉がが目にとまり駐車場へ入りました。神主さんはまだ来ていない様子で境内を散策、夫婦杉は樹齢600年とあります。",
+            "ちょうど道の分岐点にある神社さんでした。境内に不思議なきのこいっぱい生えてました。",
+            "地元の方に愛されているのがわかります。とても良い空間で癒されました。\n祭殿も特徴的で昔の窟信仰の面影を感じました。",
+            "今回も\n\nよくわかりませんが通りすがりです(^^♪"
+        ]
+    },
+    {
+        "place_id": "ChIJNwqUWWLBBmARFBzRXDSMzBA",
+        "location": {
+            "lat": 34.2671118,
+            "lng": 135.8770689
+        },
+        "types": [
+            "establishment",
+            "point_of_interest",
+            "tourist_attraction"
+        ],
+        "rating": 4.1,
+        "user_ratings_total": 174,
+        "price_level": null,
+        "weekday_text": [
+            "月曜日: 9時00分～16時00分",
+            "火曜日: 9時00分～16時00分",
+            "水曜日: 定休日",
+            "木曜日: 9時00分～16時00分",
+            "金曜日: 9時00分～16時00分",
+            "土曜日: 9時00分～16時00分",
+            "日曜日: 9時00分～16時00分"
+        ],
+        "photo_references": [
+            "AcnlKN27htUSEtJbzsuTCtTGebO6b_IF_TYT4WkiGN7b0FIUIVJD54mCC1u1PE4G0JmxX2gr6eN0dujFMbHkI5NhtDDijkyOZqP_ANb5nUjFxgMAKviwd1SyJWryQEUXS_iAirEvQzuXxYzuRtX623-3DHobbOM3TAv9tyqLtFGmgsMt6LK_cOkbNNARZTfrzEMnzZzyPPWFC4WnhmtAJjU-30TRJmp0yphiRlpm5bJx8mtSG9yZXCMUUldoIG-70xxtpYvQ6othv9_IIcYTv28ZGHlr1An4tiXzvwv3lPWSCoGEy4MGYBIPVlRZy7eub_Wh2dXl_7zyE2SpUpoq-xRt2D9aGmkPifCsqxcbXJJ-WZjVA7CoF2Xz5PYio4mRECWlUi7r80c38FFR3wu7HXyQu1Jzyc7topLuYNdgDRsAyXjPU5t9",
+            "AcnlKN3XiYvvD_4MqfOVGS96ci5ZExONVi2gxEIcAoBaLtHmQtrpzJg1XdlgtaNkIle0PZP9TY2k4CZd-H_eyCohrQnaUd6QoLoBr-P4LzlpDjtRn71nsdZ61Yh4Cucztx9BtpWdGQj-xBxC6ERRZ8igZDQDmPfPLq9uRcX3lY63YMWKb21_OrHxXEe-GAkJg13cTksrJ112l2_j7zaJZqF9QKnRT-t3-wcGaHla33RM1mu_mIrJVokXpyGJCDPYscMeAPa1hy5vwEnrgAVDnExIsZr-5GjNVimZnscmGS9YOppFxh8yIuizmU5q1hp20Af1xkEsSM6bOkNvz9sKGNBDItjMqldRLPh8uQanCY-0K6cmo_uLIBYQuLDy3NlKceM0oIa1_E4CIKHFG465q1nfbbZVcCXT6cl0Vym0lgQWkrY",
+            "AcnlKN0DXy5Xw8DjNiETcXAsACnsv3OKWxIkWdqVV8j2k_oL0eluR-NhdJVAlVu-5p9iwRfW3F5hJwxM7OIPuZGXU5E9rN1Wg27Yp_p9myDDrTN4FIxe61T159VI5sm6egPLoAIMWSJLVinlHPhe9lRfQ7ToelVQfy4X_HtGkALXJfREiOCUtAnMrbvg4db60F9NzG1yFqqPG0Q3lQPTCMJ8QF6QenKIUlEP9A9COM6mjnBkY9xXXaprHtgg82skUOcAG2w9D_ORKPfZ8IeV_8A3RGl31-yml4JN5bnM3RD97qka-_CSkbn_sp3IozMWeCgMbTkfy5dbdlNqQll610whKa9IZ3BKAhfdefvVtaO6aO9UNpQR6MKNUkSFXDr1Mv5-kRMOC3f8eRO4yPMN352dWMIwTVQNxw-hhliEC6yj8PTbbg",
+            "AcnlKN1feM74yGT_IHOAkAWHNfnEyuhXTnYMuaUVw4ODORM_nC1u_tewlMwdPE-sadq_RJsRtTiKBtiHm3cRMfJdqyzXDKAotXdoIDMWoNqiITWl-y8zQf6jfoSMHBt490YD88fdkBJML8WXZVSS-QAZyAnpHQNH3gETaXExOs9_7c6WiutOLIxH8Jq9Q8T-k5Q2pWAetIPRs7Dz1wHTLbNyAIGvr91Rlg2CjLWk6YGyYegzUr_4Bj8y6uHJSasrt5A9GpOZnk68xaLSmu7mZUI3uXZYv4Xa3k_AEND4Lp184iIJLX6ITbgTtsopiNU60fX0kFVRHcbUGMfuBED1gWh-UwdY6nJ39NPmz8nThrcUHkNGRTnKOf-7mCwJMokhbsJgNpTJChHqMuJUMVEg8rdK20uFM11JnLbPwM5drwBov2Yj42zKgAdfZ-jxuQmawe4v",
+            "AcnlKN27xSIax67qCZJdtg-kle29mWmfs8szPiJdsH1QwinjRlwZmXDuJnimLVuICZ2VjJXQlEZKuORS_1HAAN_m5cQ3vxeLkiymLYjcgm1d9POiZWbaNuQLTZGSFXds8f-tjsN3I7arvZhJMdJUu46gTR4szb1VSP4KTHWyyDM4mY1p3aSNiIxCwinZ1XUPfhxgyzjuu5ynrR0R1jdEfQq5U5ZzCLByDmpDur73Gn4zZfkaGAVR1zxmyyRPnhd_JyVMkVuDff5KAzb-97UtwQyJHMJ_XQ1Ett3qz7gbKVpghrH1TjhH2-9akMHOjl4iT80_BFZZhvOzQJcJynRmw3jBNHYVtfYCLZGg2lBGQuaJQ292IDWWT3p8BhHtRYTDC7VCoGor8SL24bOK2zhYFfht0GPUXGz1i_wC1NUGZEm9d_FCn_A",
+            "AcnlKN22weA9VQBlurYrHs6fvyvP_8RV-2SUDKbdOOFGeTQB2oas-BqbiUD__2z783OWR52hEcIVp53R0RH6YFhMN5r5i4CU6q-4RyVGc5HPF6zPvI0fvet-S5nQgE9u3QG0JXZ7UF7nVEJTVTQhGnUya2AnlPsAtRVkI4czTv0gjvcryPjIpmPOTd5OqAVOtfXfJtxb2_weFDO13aRt-9AgnExcw6m9gH6UgTvRQAa20fO2GF_9H2oGL6KQy5Em3y0xS43KOtEOc4tVDTm9BcjpRPSVJG1feVItleTtSNwr8RG0Z2FCByDn3ugjAplRXtm1tPp3Ir_iv8Y57ElWEekLkeX51BcO5wa5APtg-HP-qTw8SMmF0S1oWUEUGenH-oJHNC9doV3ehkK29ZeVm3jspJ5D7zxeQ6uSwetf6UxHuCm_tg",
+            "AcnlKN3EfDiaGGb9lvoLgAQHk3Q2RD8aUrP_D-SCzFu-ss_cPgfLMBmIoCQNkE7McJHkFBchgp1QHyjr8RXNyISTRME_Es8FjJF_1AHys2eWxMM1e5ZYO6fy79p1t958xpYzk-PwK0RQuAktKkjcUajyjHCNcg7fsvIXasSm-EpeDe1lHlEPapjNwMV-t0rYRT7_29OS-2fTUmaluCWV00LpKtefZ7XteS4d5q5XaDoLZtwp7nAXPvGex1q-GDfvQs2dM7Z5Q3LsN7qNYvJHgmF57tRn_y0acQd7OKRY_wLBHFh4syXoCckinp8TlnJsoVv_czGbr5bD8uIXvsrd-UQNbb1SYy5LtSEORwgO7EZqoIJ4AbqZ_UXipx_3oANZwGCKoegKeibELIr3zWo5tnq29ER1E13R9FpuLKc1RA8tbz3WG2hJ",
+            "AcnlKN0UmoSAqRTR-LJ8kewO6YmgQwxQAN7U9EJPSj7LfrNvXrQ7FdWYphBAzyuntFvnH8ec62rENbyafDihX3doMen5JoMAzQAW2vjljNnrGLrineczcoiIWF-hsSy1sSVk7PsoBx5wYfKBNSV_D6TCgWQXgArAbWx7c0km9P8YAz7oxNHFuBc-IU3ipHJjeA46HBgLv3horQkmS9pbB9dVjM4n4QK7Qsb33RRSKTMEWAMzkcV8LSN0N2WD0DMpMdP0bswt_ijBOsV0fxv_W08hGAbnp5EzbacxZpcZ8xUM3FG_VZ9qQAYnR29nhIv2gxp6m_8h9UHnhR_rOxBbFOcmtEt0TAAFbSpQwBa_b5h_bsjfNqXr_s489pwEP2oEyNtTCS9I2DB8ed6BcKocxny0UpNk5hQMDASDv2y-eez_P82Ho9k0",
+            "AcnlKN1POkyujJdPpdwrXzVB6o21ANCyplqsqpscZqDpYQROePzzcwY1xrODVABB-PKNyey3Bdr-OsroLsDkYqNFM9DjMGRO2n1T3d5IVV_ssTJbfaIvm2yfbmMJmFpqHuiPE1Oiu9qewaRyw1GGnpu7mydE9ZJqxWUpUELPB5thtpviWbDqPHGYU0Ky6jdIVT7gEFrjegALXf6Fd1eVAstkexsvhHNJh-rpLT1U5yDTRyadaC0w8oQoMnpspEB2SQeS21RmP8fpyAvdrJ8kd-bwwffNm9T3ltcMxhwQH03dl9a6AF_P4I04LUSHVZsFNKNtTrPqC_WciWELTrY3lpG4zA67SHrh1_8P8rTM_G95IOu9Gu5KngkRC6YFnjvmor6V0VFZJTFWGv-l4bmbrVouP56vzegAd_I0ElKMoqc_RRl9gQ",
+            "AcnlKN1biAS9hJwbCHtLWGuiYYGLWSMF45qXK3v2ObwRDHtf9pikBzt-RNnKUaksAE0b5ngTkYnsjIPDXQd4Hv4j_x_PFAnJ5pDEmQRVzy5W6Cj3-Ht28qS16DpjLKWatNzLIKAtOEidIkQIn_pCy2urB8qSYFUOcvJrX3NlmI0KqvcrQOoAIBtJnPsJCjP6BYClBcPW93-l2EFHwFQnjrnZllFdP7w27v_-35nBbFaYy2cWABova6ziRZfqd6FTM4lNheiwEUf74n09P1Ekz-vtkNK7DVtyuz3Jp2iWcPYAyHOj_01zK_VijsfxEaeHSCjlLvSl4URv5msoFSKBrnO6ANWS9TRQt9y2xz9_VkRC7R9vqplXPnaH1iGBqxKdMYMv6OVCdcz4BprRnHWzEC2nk9BpJLIBv3xNnWQNxGyWom0PIA"
+        ],
+        "review_texts": [
+            "初めて面不動モノレールに乗りましたが、まるで空中散歩のような体験でした！山の緑に包まれながら、ゆっくりと登っていく時間はとても贅沢。頂上からの景色も素晴らしく、心が洗われるようでした。スタッフの方も親切で、安心して乗れました。吉野の自然を満喫したい方にはぜひおすすめです！",
+            "洞川の面不動モノレールは、まさに秘境感たっぷりの“ご褒美ルート”やったわ。小さなゴンドラに乗り込んだ瞬間から、日常の景色とはまるで違う世界が広がる。特に秋は格別で、周囲の山々が赤や黄に染まっていて、谷を抜ける風まで澄み切っているように感じた。正直、平日やし運行してるかどうか半信半疑やったけど、行ってみたら普通に動いてて助かった。むしろ人が少ない分、貸し切りみたいな静けさで、景色を独り占めできる贅沢さがあった。ゴトゴト揺れながら山肌を登っていくあの感じは、観光というより冒険に近い。頂上に着いた時の達成感も大きく、秋の透明な空気と相まって心の芯までリセットされた。忙しい日々の合間に、ふとこういう非日常の景色に触れるのは大事なんやなと実感した。",
+            "面不動モノレール\n\n鍾乳洞行くのに歩いてもいけるが\nモノレールで行った方が\n体力温存出来るので往復券購入しました。\n\n土曜日に行ったこともあり\nモノレールがかなり並ぶ。\n12:30頃に着き30人以上待ちだったので\n30〜40分ほど待ってライドオン。\n\n乗ってみて感じたことは高所恐怖症は無理笑\nほぼ直角でゆっくり登るから怖い怖い。\n逆に帰りは後ろ向きで降りるので恐怖はない。\n\n右側に乗ると景色が良いので\n山景見たい人は右側がオススメ。",
+            "見た目は可愛いモノレール。ですが、登り下りが急でちょっとスリリングです。往復で初めて利用しましが、帰りの下りは歩いたほうが良かったかも。距離的には短いです。駐車場は道沿いに５、６台停められる駐車場があります。",
+            "券売機で登りだけの乗車券を購入しました。もちろん歩いて登ることもできますが、トロッコだと楽に行けます。\n\n1回で14人ほど乗れて、乗車時間は約4分。あっという間に着きました。\nちなみに降りは歩いた方が早いかもしれません（笑）。"
+        ]
+    },
+    {
+        "place_id": "ChIJG-DSUNnHBmARKgGSGCjIKBA",
+        "location": {
+            "lat": 34.338199,
+            "lng": 135.8815531
+        },
+        "types": [
+            "establishment",
+            "point_of_interest",
+            "tourist_attraction"
+        ],
+        "rating": 4.1,
+        "user_ratings_total": 88,
+        "price_level": null,
+        "photo_references": [
+            "AcnlKN2tengMcI_A-9x6hW7YfVhyYENTYQpyLOPijUpR3XmGGunOA4gS4y15oICXzVuR2Y6aeDt9myKEsTl945ddQb1l9naT7jSKPG1K1AG0CeW48hHni9U65wYyQu-2i6-UNrAsdxNQiYTzLxTPghSpHMrZvWYRcKHovHIhZ7shfx61HSF_O3bUQkbA5EbdCm12teCCnnhxAWqd4fv9E-tieynm-FBCpv1ruTufpOy5konkFiMKPMzZcfeITf00AHyeChreuTLhPmuq9a08OXYaSXbx2fFHQIjdXGx0TxtLCnzPrQrnNagFVz_daoAu95D0DKezEFd7lN1y--UPxQfnDJ8GN8dWbvjz4_0yGGsXPraFLtV1MFDz5vhaNoeKFqx__6PD67OjYg7PzMQlVmhUytQuonzhXVP7Zb3celIEXr6zQ8Z3",
+            "AcnlKN1us5vurGHa9N18bAfIcjtWdzghCaEE7yZrbZfA7u9tMKmj0FzTynEi8ZV7mBNd8EEvacg71SOweAXgZcG_Mk_rGicM1JRb65vaBNv526zG0E7QhdDxFezFcvCqhTylN0eV0t8OfgURyYZvzwqJl9Xw5vWPxZGywaNGGG95GJlZpDMVOgdaoNDpPslNe3dN8LLS4aGqBzOmZc7QR8XEL7uaNk_6kubTa1AXag8CQt4gwdOjBAU7uz0SLLS24CQdiajlloT1UGfu-BFuuGoNR4km1BOOQz3t0Jjw-pQDWI3Xcoaa7bN7xQXi4dBarwD0GT3Jk4IiyOQqYD5Zvt5hhNeHxmTcd8c73Tx96q4RKyfb89a_15EDZRFIsoXoGz9Zveh8oxOpHHherrPa6iTDpPM2mow_SUMhgdoBJJD-iEJkGg",
+            "AcnlKN3jjGWTsGOOSab2MrtvOboSP6kE-uEw4fZI0NvNoiVert69-lOKj1BN5ar1rkNVyWrpkJSLmmuFFBLGrdnpSObq-kAooC5GSK4JOAw6pkT6Fxk9aqCOg4i3SSgY1nZS0SZPiW2QzmvpxKqAhmYm0u6d10Hrb2l_SNuUNQzOqPwK4_sW76dmIt1mVQiKb5RxyRT12pXPvRaGH02ekZ1jsAsZrEcESecwZ2xSJjJFvsadLnwb5uZ5dU_SMJ7ed2gTkngm509wKoaTiNYKKcUOJl3vonLo-EQ-IpZLCSryo3zIwqqMxmxZBKTr39NwaYRa-5yciOqN-DPCayJrW1o8vYkA8o2ZGOBVbVNbvkKYBWnuuqi6uElvaolOCwvP4s3j9rh3RwiwWIYWhGljVRhul6WIE2zqaOOrK2-tdElFxv-Bnhc",
+            "AcnlKN1lTSMykBVW-L83VB6xjOu6jpUy5OLRTF-giM877IiPU4TYhHyYwrkcQPWfexMQqnH-yCzMu-QSuEjUTOKgMTYNjCdRiQDpegZaJfoqooddecN4DXm6rfndqqruBkUA5xRjoDB4H1KxBx5uLE_jVrqQTuF7CjxTAK4htk0m6IgnyRJ8MAz-5_H5mGmcIeVaQr49TRQSg4hTzZczUtL_edXuiOIIoyLtSSIH-lypvKU_DuidP8csToy3vY3yrh0b8rLMl8yebYcekQbhuFMm8SjHv4dmwsh5MInKuzJydX8_p8FNkcC31r_Ukysjt_7YouZCMP3BuRNxnjfZWSHoh68G6EE57w0QkOQWrmH4KmD_21U8KefK6l3svm5_3xJRjol43oeZU8RV4Bmt5QdS0bvq1rba1WMv9S1tKEUsjeZl9g",
+            "AcnlKN1b6Fdv80jph3fUZr3aV3xznLlhpKqsQGGR5F-W-tdl82jLZVR5yBOA089ZQ4GXWMoYPdjLOnbY6LQpJmKZevq1yUB0O03jfkuohhXPPzTqifdjzuRS0RT_FnjB2GuWxdQBS8-fUU-aKalwaGK_3n4bZ3HBoRJO8HRLuFwkGWMSgSecx7tYZnby6V0QBgwsA3L3_Pb_syOzDk0bnfIWiQ1mczZDwdUCjBzYjHS3c2FST4_l6_zQZXD36wSSUh8mYowpH3vVNMD8q7_4KHtqinxMeGFwhtNQSQyuL2BrtUDRWQX6Q4c5OO46xLkhuMG-BqB3oCjj0kccpvq-rW2LhFhS8yCbAjJwJTnMxhqTdRZw_HS0tUBP8h0663j9ZOLDD2r5FEyOy8EdQjsQkphsFZvhq7THqhtunpYES80Fx-VUeCep",
+            "AcnlKN2-B6JQyz8wesVosnMdVZdlsG5CzyNShiARBEWr8FCiXxV6P9zhQfW9X-04XjHXbOq2oaaLTXTJ3TkHOGN0vAZDjU_hL71IfGMTy2rTJxWweI6C_GJZZNXTY43RTccsoEtCR6pha13cjPBq6IUnaAkU4PsWkQZ87O34Qul3q6uSFy_qlgxZ9KnIJOI-MTiKqHAiblxPzqrgFSSDfRheMwW6rSlIUFqisCMZu5vZWJ4N_8xRutjAXyO-2wXuyzSdGhApQ8FshpKpA3R7jwUw7jU7roGPoHvad_eHNzbGFINv8JMYea7U4HJY8f6zyvx_Wfq7xW-23V-Ez79XkCNvpaJkbc9H1RLghul5YGcvNLVTiLVXKKYYE_5ZMqmf3-FsCvgx7iUZOPfjhoKbf_mWZrG3te8Bet0g35WNQchXS4cmhV7f",
+            "AcnlKN1qVQF-wliXRkiRILXP1ffCWDMD4QCBtUBaw1SPtwdc-BB9hW81IonzrU78TK2MIyaT8R2w3nVR3AnQqE0uKN_E6PkFMB5Kd3O61OWIq9dI3eWOs-ILAoikNBFxLRw_7op-xHhYwFY9nqRi73OmvDGQ-k7q310tuO-MWzz4nUVUGzG962QhhRRprOYxl7CO8z4PfAw8fk8CHzAxMgqYFJPB92DYLxb53Co1MyGHJ2RkN6o_QmvSWkNug6tne_SmyJRachDTUZ_bNTiQtCGc5vuvjz_RnvWuJwst6TLgIC3J_WC4A7_QTYDYnKBf2YV_2M_bVGZ-qah2kT-pKMHGnpOM-Q722GKWHtKIMWqZsm9iHpNlfI7-bSwyb_iYwsJcQhXwT62LDabP4Cy5SvX01IYjgDe32lQny01Age-8SE2wA5EF",
+            "AcnlKN11x9cvZMPb_Y9Tl4T3h5QsncN2J9BnySEcD_dMZJlm2CtqytnrgBZtnU9NHbayO8tisJQrDbT8DoUVW2VWn9Jt11w0e1hP4VtZF8JqX7LTfrENsYvp2xcATeGIQhTSO4fy7vDcbsrgCwEjq9fE6hBZrUNHRTQglgT48zdSvYP5M5ccxXAB2VmWSex0kyss6uG792E_buxFtikMAYc9QnvaA4tRHmxlUc4ucpeJn6pLyS2RImKc_pYcJiQaH_0p1FoEDpnYskEwJw7kf1c2BwhaNguyzHmaGMxDudmoicnr8B1s34LSIFs9C8IvmAt0ycLrEB6K_B4OWkq158e6hxjFeTJ8AjRycB8ImEZff_Xqly2vjgVorGYYXweWRRAg3p2MdUYABhKNHqkFSIh1KB_vj3e1M3ZpT0ZuSdLFRpGf-w",
+            "AcnlKN0tEtDE2yA24wheFzllMh78Pj8FU_lCq-0tqFy3vKKqiMnDjOfSTpwZAuuT6LHoiTHtbESjAXGKwB4UaxS4QSo1I8QGTV2RW4NqeIGilvxMnqA0ENRdZg8dQRWZ1bzEQtL0Tff3OgrmEa3IeFlD1n5ETqkXqf4frzzwDajQxn-CL3zRntl3bvBi64fzSzQD4_dCOlioR9yUnpTXa_v523omQIvuFo7xvYIx75p-RFKnwmEItzZOfMS0Hv-CVZzSWadh4VIeJGs6SC1A1R-HBswcPTIztFDle4MoeCrphG3Iutg08jdenXQuKocuaOMy9e2F1JXSsPxNfrtGzZLK0b1PVUj3Xo2_Cl1mBK_-jHzqHQr7N3atXANoMGTnu0KJ9y_ydOeFmGtl86ScALx9ZSbA6VtRXZjWrXHVPzbfBGY",
+            "AcnlKN2bNvJLABSoWBwBJkPU_KovSTwHQd0Unj83LPwOFb37pS6POtMmk1YTKNLQaubjyfyKR5hCWA5vMNhL5lh3vQp7yoVY7T0kCgF7tgGLYWbduyTavyTTwZ_3ayHKuRqXldBTKu-FFWXDMSoiPyFnojNPdFo6W3AftDy4I8-ERUTeIRrWxR-2GYb0PfY4EzlqxhXGd_d-EAumajT5KtkOj1RO8fOFq8YV-LvoFxWHJtiYN8b9LCueY71CNbtctEjPiQWELBVMtTm59EJm-5qIhNYk1xCJrnZFLw4HsnV5qDewJrYPlQ5ztZEhOddjLL2D5XMjM_4r3pc9hwaMtM5AYAYeiYsj3UVFW7E7uGFWTGpDXpcbGB8QANI14wuRa3uhs92Mpp3AHwaIP-M7ZXvBupiyZi1YYn2eQCayIXsXPTfVbA"
+        ],
+        "review_texts": [
+            "桜はもう終わっていましたが優しい新緑に包まれる中、奥千本まで。\n西行庵のある場所は、俗世を離れてここでゆっくりと過ごしたいと思わせるような素敵な場所でした。\nなかなか1人では行けない場所なので、一緒に行ってくれた友人に感謝です。\nまた機会があれば訪れたいです。",
+            "世界遺産国立公園吉野山奥千本。\n\n2025年4月14日、月曜日に行ってきました。\n\n奥千本まで片道徒歩2時間歩きます。\n\n美しい自然が広がっている﻿\n西行庵や金峯神社などの歴史的な見所があって最高の空気でした。\n\n1週間早ければ満開だったかなぁ？\nちょっと…葉桜チックで残念でしたが良い運動出来て、\n美味しい空気吸って満足です☆\n\nだけど…人も多くバスもロープウェイも行列で凄い人でした。\n\n帰りは下りながら〜\n柿の葉寿司や葛などの吉野の名物も味わえる﻿ので歩いた甲斐ありました♪♪♪",
+            "奥千本は今から見頃を迎えると思います。奥千本まで行くなら軽トレッキング装備で行かれることをお勧めします。特に雨上がりはケガするかも。トレッキングポールも持っていくのがよし。観光客も多いですがきちんとした山登り装備で上がってくる人も少なくないです。",
+            "世界遺産の吉野千本桜🌸\n初めて行ってきました\n2025年４月9日水曜日に行きましたが\n平日なのに、もう満員電車🈵🚃状態で\n吉野駅に着いても、バス🚌2時間待ち\nロープウェイ🚡も2時間待ちで\n待ってられないので歩いて登頂⛰️\n休み休みぶらぶらしながらでも1時間半ぐらいで行けます🚶‍♀️\n生菓子が美味しく、お土産や食べ歩きの葛餅もお手頃で良かったです🩷\nただ開花予想よりも早く葉桜になりかけていたのが少し残念でしたが楽しかった",
+            "吉野の千本桜見たくて　急に決めて　天気も曇っていましたが　土曜日に　行ってきました。\n自宅からは　ナビだと３時間くらいの所なので\n余裕かなぁと　思ってましたが　駄目でした。\n近く迄は　大体道は　空いていましたが　現場付近は　交通規制が　有るのと　車を駐車場に入れるだけで　２-３時間　かかってしまった。\n又　止めてからも　山道あるきながら　結構大変　今度行く時は　電車で行きます。　人も多かったです　流石吉野の桜🌸　堪能できました。"
+        ]
+    },
+    {
+        "place_id": "ChIJoZ0QZqDHBmARUgsxeuS6gBo",
+        "location": {
+            "lat": 34.3429444,
+            "lng": 135.8821389
+        },
+        "types": [
+            "establishment",
+            "point_of_interest",
+            "tourist_attraction"
+        ],
+        "rating": 3.6,
+        "user_ratings_total": 37,
+        "price_level": null,
+        "photo_references": [
+            "AcnlKN0ZvzDCIDJcn2ce4PNGtWwU8Ehpg1Hea4-XDhigwUzIn7lGQXRTUiWXPtLUq7wOqaB1-hl58XCmxEvZP5JPxlSvtIWmV0hrjfvKoXGEqDcZ0bDEdhez3LPnIlCqTL-7zH9s900GE27jnfkoNRlzv8yKvxt4CNtvvqv5BwP5JowGBkq6eww1vPY4v6nLBqBgxjSBrjF_dkB9YJRFHZQ3Ut6TtfYIZqOwOMY0ZVnDMrHF5Vpx2sMtVT3rK4VihyOepLkuZOtdGJ7a-kgladebqAW7CkAYSvzcytk7-oz4YhXcDYXMKTSJu8ERPTb3RRwQg7ncrlAsfwK2GQYFblzW52UVCpKxD9cq2pKP69RHQvl9l-iQ5TrIPg_4PW8cIWJropFWDJIIc4Y8zv-5zA3IWPfQVp67xzriXq8RwPOSqp0k0Q",
+            "AcnlKN3D8YABuZb6wc08MrG0bRHmsSG-WNw6bkmTw78jDYSfg_f3XDTIbN3qQBsGXBoP-2WlW5b9J0FQAHbiTVYSzVrJ58tJomPPCmaArDEexVQJvgQwjkKCGU7-AtIS886YCbkIXc1MKO9-kA6FXYf6z_EEe2zUjlkLmIAGOYrFaxj24R5BYeLwZPMuNj1c_y92UVBJFjnOlAVgPNepgfLCbKK0rCWiJRdzPmlLmPwPZ8Tazz17CgKIAYwG_5qw7PncuYmlQITIfxORdlgvDtqdNv_y9URWzjk0Yk8CP2_9SSgl7fN_erv_Ma7BL76nB9_jbfm5cDm0foCN9BxzBN9HNWJpghiLqaubKvKRc15woYDqwN1P0i3TmhKqoIzlC-7I2vBEb3njNBIOIKbWqSpKSTX1LY-D8v2QzgMNs8KXp8E1_A",
+            "AcnlKN3SEHHxe6lGggI4cHVQGs3WWKU3ljepZQ9eQvizL5u1l_vN9ck_dUuzJ_Hb4NvEPgJJQdp0aQ8mB5rqg9lBS6MnItHtII8qKtRDiewEDFYmV5yV2PBSd6Tj-JSKfE4nhLiE_AjC9QCyxS4_PpW0na1cdKHGRmTdEdZi3WGN0huVORl6xs_jHW1jYxcplTOy5LKteJwV8-8COgi5SY2Y3CsqaioBfnH6-WGhmRZHNAEcKOAqcn23yRg0y-bApZ_KW1Fzz-eaznW9VLSE49BQ0HlRCNWpbKppA_CU_RKs7Gmnq2ANsA98_q5lFSepBv7sXJ2iqDP8y8sKouaZi8lvlLw-CIEmx3_2oxJA8hKgJabguPMvoOIOUvUUF0odroWl8gNGBHarTZNxfg-_V0cd2TISEfoD9AVj3sknYhhz71YReA",
+            "AcnlKN39qGDmuvlvw8xXqvH0sRkIC6fPatuiUrNQx-ffjNEUse4Pl-y8usT_oDTaqWzmGuuAUdbG1SMqj-RdJ5m5IbAPSQm6Eqpl8BZ9sohfHD51vSwG8Kw7xvxajjWaJT4hHnP5VmKdNFNEY2qkrbj7E-EmAefPr-WdNT9br1j8dqDYhYQ1JodkmYlbPjSs7r2FRDzMZgZk_w1GDEUSpDIZLovRzpimf0WaVeHFe_Hm_IGhChHiwBylVqduW_xB1fTQiQ8UM5Qf829g89dzb0ZlkJRCxnNwEOfyiuWcChEVdvV8b9sWiaPB_1ZmQogFc1DYmBZZmzmk_ArHYJf4cdFHk8UyektZyGdFOEGj0ZSLkFCU1sJaxt8eCAEDivhNmj35Y9-cMdIplfIUZOMNB72-AG7sSfr4K4UYtALargV02UVU",
+            "AcnlKN3wQ_Vqe0m-DKT6SY7ETVaoJYDpduT2LxyIDVvjA5DlYGBD60dxj3dNCKM3T1a3SkjoqBfIZ1e8407ksXc6-UAIA1qxFSK6rBiIB-y_t3uteGT55jn4EQ18_8rokWa0hnW9-Hajwa6th1uxnc-hi5xzsoLC3xK5Xq0HtKOTFEXOMK6n69LDKFTNTSCF0aPNRgOdk7EpxH6XOtMiyZstefHhfLysozUCh58Wqn7kdSNl3sB8LOUD84GzRvQvmMYweER3vPOPQYo1qZAx6wzjlUrf_tNB8UQ--o5_JVQ-36HZKZdlQ81HTFDSo1RpS1LnMZDCq3ga1WaFf8xNghE0FK8YTp0g2pfHI5Vj-loO_zusxMqiI-CXbikqv-_5comg8jrUD798ajhIRWO1brSg-W3NLeXYwbKIB1PB6qFtXy-kuT2q",
+            "AcnlKN3jHX0aUjeBD7Qx3jm4opJsJUIFuQ5_tywHD1JeCN31nRU7Nvoz5nfpMS62UMZTCLAgPlKBqUe1OKtEHTOLmOymnF5ps0dMX9gdLcyeKQqjAFwnrNJfHS85VviO27aF53bcsIDtfLB7BJfoB_LhKTFpE4uM4xjinkN5Hvel9MdnBgnI5M4Sok-5cFZRIS3HSaMHj6PeDla0ZbJxus4OmZgUJNjWfmnKimvrnw0-5KAjtsuwc346DLLebJdwGncdTbWEjh88aTihKHRgU3qTmaf_eYh-IxFEP84N-XhybHwEtsakNtOQtgHx1mUFlckJ8qRmZL1YGQh_Ke1tfav_fLluC-cmIMKi-mobkHzWUfK8CY-c5AyfhSmxOfzUnTOK9J3Kiy3YBRgRS92XnUSfiYZMN_WO7XOttZdX5_3dIW4",
+            "AcnlKN2jVpqtMGQwCfsc09RpoV8N07gD9ujqwyomJCVwSyWvQeIFuQET-6BIrxtUMyQMT2T2UNuGM02jt8GTsHtwsmUxH55LOtE_aIV2sk77k4uFDFb_PZXvNVLcn-LXjGB7MYs8p55g2heo_KMdzisBie-V_TC1fGzfBHL77hdjF7MzD0QeDhHWClwqGVB4KNd_-EhPlq2m_CjxwHWyjk81wLCI8dV89vvgcjVtTXApvwt9xxck9_H2D_N1wsmnK1pV_--C_b2acgL5in5p6vhiED1xcQCZTlVqyRkAg6KjhnhMUxIJNOcyyGLkuPaJ4Eo-eRf3mR4zVvEqBKGjGJmJBxpQGY7ny9kXSxvx6nJ4zjN0u6BCkf8q-DxVsmy0x4F5wIoZD93u4-zI6IBPPW2Rda_qDXqvyXuspuwe69Wwpi_-LfJK",
+            "AcnlKN2mWB4grUK4VfDw7UNW7JOoZxlSzCswC7jCsiaI76SMGsgAKTNttQwt2iIGL4ooXAIAaNnLcj14dQ7qTd8L6vFYb0wag4SrA2e07rn51JlpROlwt9LhnAbJZUJ70lzLxva8hhSOQuKdv1p9X2nXexEkst5EhPZWd6-Wz0ZJkEtoezmzRsxbzsP8dg2yHjNdXjrEcoH4jP2uZTxVrgrV5I0yXn1BDO-JWHz61rlQgkDFs7PvbmfzGTGVuTMYUR3NuH72dfqlJxMYePVC6z8eU13sqGdqQ2n29-5AUE9_SPJGsLpMjWETSi0ID8qrhaJ-ZFMnCn54cyHt6r-MOVxbIfTg9hO4Xh6utmSLJdJA1qTfC_QT4LY6bZeZBOF43hresswSkjZscSc-DTcoaEBdlviScJGny_h5NKJSXvmwsFJBtg0q",
+            "AcnlKN0s-6Tk4hIZVRRJzG3pnO7L7M_GMw4qwaAa2QweJ3-3WcvNmNX8GG6mGBwd5_9-w-gdGjHUXPU6MJcD1IndfqwOQYikZ_X2BEknaNuTqClQmdbsmPeoesIpqvXt0z3IUsa71g50LhW6bGbJ9Ob9WtdqNZ6zuWj1_2K_sM0Kv0xpXE0lqhsrrvjBLsNEySJMkCqcmzlevId4iClgwDZ4iOt8JO-GVrGKAMX5iMFRnHgHUw7su7NcEH9hqumtWnhlLij3peGBTn0Cm8D3f6mLayD__Of06Dr6pQZyJoH_eNKPKFOpghHz-OSRZlaQ-LZ-C-KBIXA63V0L-cEpRBm8ZehJF9Qh913Vh5VoJKFsUTyMsMw38AfsMqvMO-6Vcw0KNh3VJ6FOXa2r4cK1uuo6KRSDGkbnlshSI3zED_KhQ2g",
+            "AcnlKN24gpF3kqOIgnQXrmrwYXnOenb93-fopIfuyW5b8Ss1JwpK-2jX2Xf5lef0IO2tKG3dXmlaut-oHg1iPFxO9kw14PSPII9QMNpADPfIi4snwragYY4d_yhEt-Wr_fUI8MkNKAJWNMnFJ7qhkc7lXS9e9CBtXC1Gerlrh_-Q0dNAGWyOxtem6mmNJ4o-cVoNzbD9Wwuai1pGJToBz-1l9GhaAZ_4fwdNBvW2_AfxNCqi6od9NgH3QmLMwd2bMFl8cwk3BmV0sMmdLJ-6W5FPq8ozoGPBRhlLfMXvOa8rlmlSYOSu03H49iXh71PRguJlGNAQBI18RzszbvZ1MVRBOWbFHkNkn3ZY_UkGHOhc2AfrgEsxs7c383BmHDtSnk4-RoobtEFJnCFMyJf-BTdbdIVNuFA2BiakH2F0D-NWSdiGHEM"
+        ],
+        "review_texts": [
+            "金峯神社階段下の社務所の横にゲートがあり、そこを降りていきますとすぐに「義経の隠れ塔」に行けます。神社にお参りした後、こちらに降りてバス停前まで戻るのがオススメです。隠れ塔はとてもしっかりした造りで、隠れるには立派すぎる気もします。北斜面で冬はとても寒く感じますが、眼下に吉野の街が見えますし、遠く音羽山などが見えます。義経は追手が来るのをいち早く見つけることができたかもしれません。すぐ下に展望台があり、その下にやや広い駐車場があります。神社の一番下の鳥居から分かれた道がここまでつながっています。ここに車を止めて逆に金峯神社に上るコースもありますが、結構きついです。",
+            "金峯神社さんにあります。\n本堂の向かって左にあります。\n軽く下った所にあります。\n鳥居をくぐり向かってください",
+            "兄の頼朝に追われここ吉野山に身を隠していました。後平泉に向かう為北陸の雨晴し海岸へ向かったそうです。12月で追加二回目6年ぶりの訪問となりました。",
+            "義経が頼朝から隠れるために身を潜めた建物。塔と名が付いているが高い建築物ではありません。\n\n造りは良いが歴史等に興味が無ければそれほど目を引くような物ではない。\n\n無料駐車場から徒歩3分程度で辿り着けるので、別の名所を巡るついでに寄るのが良いと思います。",
+            "吉野山奥千本の金峯神社の社務所の脇を下って行くとあります。山深い場所にあるので、ひっそりとした場所です。歴史探索以外にはそんなに見るべき場所でもないような・・・。"
+        ]
+    },
+    {
+        "place_id": "ChIJtZWVid_GBmARiSmPnT_JEBA",
+        "location": {
+            "lat": 34.3311382,
+            "lng": 135.8658486
+        },
+        "types": [
+            "establishment",
+            "place_of_worship",
+            "point_of_interest",
+            "tourist_attraction"
+        ],
+        "rating": 4.1,
+        "user_ratings_total": 18,
+        "price_level": null,
+        "weekday_text": [
+            "月曜日: 24 時間営業",
+            "火曜日: 24 時間営業",
+            "水曜日: 24 時間営業",
+            "木曜日: 24 時間営業",
+            "金曜日: 24 時間営業",
+            "土曜日: 24 時間営業",
+            "日曜日: 24 時間営業"
+        ],
+        "photo_references": [
+            "AcnlKN2-RNeRcYYQXxLEeqTJqSQqR1gW99qtK9DO0EdoUluk3Fa09uhGcDFLA01S1gGVo20fnepYwGlj-kuFCLJ9qQJ8c1SK1DwCv1Icv7aDTeXjFY-rdcHwe03PTC_MzoWiMFoB8jPtMHtK3RFEsly7e1HxsNNoo5lCJAkAaM2EzJTd4KR55Px1iMnxx4IzswzhCfmXqO8d0jKglnIldvwfnrexaxf_yg1nwNQmx7tj9Nobf50bbkIM5W0O0c0tA1yMsUOplqKM_b56C8Jylonw2Bmskye6-I7Z62PXZOB_Jm1aGj1cOROFhxLdHMVYgLDdktavECLLqUaWk9hm07iZbe-qNaf3uHAdIWNi9jm4yM9aHMCvh7VnX603PiEhGZZUEgUmh1TqF5fc4zYnZB--HI5WpgIazwwKQhNaujaT9EHCK71G",
+            "AcnlKN135-ABiCD_8rg9SzD-b3bxtRXPopAKyxxJNnM1tOiGXHl7Z0f_K2hw3uK_zEgu2QS0QtIg2eXiYueLdQcO0v23ltn6y3Ef39-FDfKYGhTQkPkrj51OWLiJNJLuhb9dtm5zzKSHtMgQ198eMKkOuVkc5TJe6aCpEnBSXm7qgzFHKx0FkC2UiPRacVmo55nnPouz_6rNMfyRcKj5pnwNsstm7dtA7XjuCrof_stL39_ngSWvffAGx6vQIENoJjqGa6lt98JJlwwn3Glz-PNtAXxwLjbrFVk0WD_BgWggwwrq4L6BOJAMjjZ509XbMd_O53mD-twedFkTnoOFvwSbK86IicbqlGnqIu8o6ff4YuKYlOV4ZaQoaT10mjFakleh-naUrEUneNSY7r1TfHxA8ImAT1HwjyvPjDFxWr8UYy7G8w",
+            "AcnlKN2KhbvHrYSTdyNaSdBvSA1CDdlwjOWGYXiaf1knmlW8PxR5nz1clUprAulfXUGJLJ2eRVOZqCIAzeNVZJbyy9F9nfplvGTH9NBQYfRHjRlLR_BJT66UkOLl-5XIVvoRw4GIuASKei0qbR5lfVOQUFS3act0OtLRLuKBPGu85Fx0WknI1d35Fc_PFHfOafGeUApLJH0JcjCvU-8hCuxrz47sVGbCBgtwbQka-LItIyfO4Kde3dvd8w7ZMBdclz3LDaAiZBVFwR_SmrkL2UNOK8AIGU2aD-ZVfz743WrRY2xYeN-UI4qlgmE4D-T2Zr2AzXGsLFCCI1fCiBz8mEygTmcCrbmSImoI7lD2cO-vm9oh1nuIItatS5neEABUgOfvrD-ERL8G5l3Hia1GLaIukZC4plGE0Nrsm9q9ATGtiPJNo_4",
+            "AcnlKN3Vxs6nQg7V_3geLD7APG_x-uYUpuVUeGbiGL5rCNVX3DsfxZEEG-Vd4AIHzxljPsiDttF_xHJzAbZMPosEFc4D--AdUullu9mA_9trpVFiwlVb2XbK0rcjlfN3eDX3O6SxR0P3b5eEfRsg6PEieHMfw-uYvHH68iDo9jDhej4CkH1t11N1RfIFAha9mFegPZwW4hQGvps5jmTO8QoN-4t5VQJLZEaB_1y2ApcDg8UgyMtcjbfv3mBF6CuAvcaEzuAzrDa400WrYqzqIdwogpteJHWhN-d9s9NYxZBEqCv6RuWYI2mrXiKejrEd4mJOU1eDTOR9L1BVcRfgtIWv1l0dFLPu67osdgkakC-68PfrzaPU1KqvnThiWj9DysBiFoD5xTqnf1-WqTzAWnsQNcRmz2gw0GZLmgnuqdZHEmN1keQa",
+            "AcnlKN1DaZzk1Kg4CnC_IwSmIDWzOYaG_dkXiQj8MEC9p_Jm5LfTFw54ZuQ55eOUv_f2emuE48375u5NFQDmsUGOEvP7cavZP-wMF3baOA6LjPNbdcWk8gamwk_3AcZr2UL2X6mNAdpqBkd0YzDcbJi_BwPeUrcjQBgshczASEV3WPD5kOLB5wlFLU2lo3tyFS9uMRIa_CRP_goRcTRGj0kCu37IG_Myex51_wRv-beppvddf7ehwn7rR9rcosiL522nCL8TQgFtLYXoJScvEQMe-a6b8GKX7_CPvhmsiMnaZ9NRfvl2DgPQKgFTH_ERCG_BoaweLoS2EBQpFxnvs4OsQ-VB5xfDRy258grvOIwU3RTO0YNKvv7DaRaGPIkOusvHNvA56akibLVZeYh8OTw-Ou0b6bMi1YrL1ZZvUkMCYyuQ62MS",
+            "AcnlKN1EUIcxqoe9oKMtIhsY6IekBJrgZEZGM1qjl6jr4e6BG6yzVBuJaEUEoPrKQvffYAI1BZbZvJk2_qj3Pl_kvQgy0lKGgMWSdQeqEEwtOcXkruRM9YpP3sE8d0CX0vWVm_kJcka--XOCc-yQMXDfnEQ8bnQNEPzjLf7oIrGNGZkunmpW5lc9HGE4NDtrvGBxbu-a8OQ1cXs9n4qRRPz3zgMqWqNRZAGd2qlr33H6beWvPWzsc3Wz-qPthZN8Dxt0_G4QSqTbk_22ykPw7wmoD8bVW0Fpta_n1AG3qLxv5R7XsKbaH4wPWbYoBKqhAB-leOypXC6wORsGfY288skwJcD-7YdtojektJBaKZDQHhWn89EGgAz3aAgvq2jD7icHPkksBLOTdI2BgVE1tSDzD5GWe75gqp5Gzcz9aelnhN3-uA",
+            "AcnlKN3wy3hftEthjwpKh2sp3phDODNqeFjpd8qVOtgFVntFArBd8gBit40SS1-QMaBpRV9xwEUQvByOmlIk6l_3JS2upzLh4m2ii4QVFo5P7EIIXSUKtJDsAaxrVqD4q_SV4qwfejByMmrJdR9zKPYVoCNWZA4o4xFV5o_SWA_-c_sbNJCVTrS-Ife9W_w9DfJeOlMRakz7EsnAtfd4zG_5LOng6teLesyspIF38Mojlqxsv4JS8bZzvUZD_CZ4iPrT9tNnEPg16zkC8bk76JjN6P4JXMvr9n6eQel_GtdVdDHY8c5Lxoryz_1cTRGb1exn4imjE14s_6WXLFptNWVqAW-DYfYTZFgTBR-kCxSIgyNFHUU6ZvOdwM4_zpeS7VyVqsBIwP0DmARZuD1YphRnqz-LpWYimB2F5gBA6pZkJDgo_w",
+            "AcnlKN0xLEbM_vamg6Y-SNinIIAYGQygmzeFNRCSwsgpWPqsV_-RDxRoJ7C469ARLionOhtf7F-IRc627RMmbaBUXN__imckNBhmfBWa0Bn0kyjXssmP7qHJoEFSwCToMLCGgzdI5EdJFRzT5ITOOfhugGmAnc5aPq_ljEbrMc6Nsqp7cCuGBNNLAu0tCekao8xhcXPk1CfpJu1RIiEuuoMwzVVe5yJw6k3W0kdaPWjqjfLo2KOcbLYXmx3qZ7Mjh64mEjxN9hjrVuZAElBJ-Rdmv--_qpKK8MqH-IxNMixaiX2oFHYUxRfpUVJuDNEVEv6Rn9msctcunXWiVBY_-NdO0C79lKY5qO8ahQxaHZooYKEzl9wGYPmqKAXecT-RVxx2WPj9vz3GYN-sBnVZKz_03Hu9Sda9HXd7fpAGG8BZXYZlaw",
+            "AcnlKN1vI3C3zgpmRw0W9_nCc56LbvfpL3x97kp8F7vWcoDgqW6DBsXlmWxgy-8JjSv8Q1SGcA_P-bvC0j83djiRirNGt_5FXVsryh6MN1KcRW5_IMPvrHnLyMB2sdVXDWpYmqmtVi1dSOM70G6ora_e6j5asZxCwLhXlGv6VFkxmLH44PISBZ_VDTm24R_Nx8i0mk_MKcjITpX_ctQvAKI9nMSp6eiu5IJ5ZFe_yQPR2sZKHBh7eksYEs4GoooNLsT2MDuP7vbPse6VR1TsF_ejs3oeMN2F_EyJWKM85h9CApw7quhoN5mY-P4OqNhkckIg7-HKUC4SVRg5GTkGsaHBg0X5M-xJNi__KXAplBy8bgQmoLtbkBu2KOLA4vS7Fsu4hYai7g8t6PlHOR69vzQcW-a279ubAB1aa7ukK4ftgjNLcg",
+            "AcnlKN1NnTdBorqdQImofXDwfYHcjETpI13nUx5xcpGjFrf38GKk5hSEksfNb8DqF-njgEY0jRTOF_2JJ-zlly2uJVvEdKDZevoR0f_WLcfRveYofsDpj1H6R2kq2XLAcb9g-8Morh6Onw2BadhqlVdlAmFmEAXPhu7OkT7C0y64hKRH3QYDMohocrE3SY59yKm4iMW_25jj3R6JBNdN_saFK-l8lOWdwIYvA4gBdWUlku8-uztScVe_cWrvwzr8_vbMc2KtVyLpNyuuqv9zUD1fEuZIo7fcOi2ZLoeqWemLVEWFj4EOf3d-6tWw7pJS2ZxYjt6dCYkc-qdQK_DvgT_quUOOIfnkhlANf89baceUJZ9CDujq8m8CsXe6cGmsWr6dMK1lR0xbWg5PDmIrYqp0ggpu4SPBG4h-hz2OsWk9h0_2rw"
+        ],
+        "review_texts": [
+            "吉野山見物のついでに、南へ30分ほど走った鳥住集落のこの寺に来ました。重要文化財の理源大師廟塔を見るのを楽しみに。しかし、吉野から寺に来るまでにたくさんの見所があり、あちこち立ち寄っていて到着が夕暮れとなりました。鳥住春日神社の前に車を停めて、そこから400mくらい歩いて鳳閣寺に到着です。その廟塔は鳳閣寺境内を抜けて600mほど山に分け入ったところにあります。しかしその道に入りかけた時に急に雨が降り出し薄暗くなってしまいました。結局目的の廟塔は見られずに終わりました。そのレプリカらしきものがあったので、今日はそれを拝んで退散することにしました。また来ると思います。\nこのお寺の創建は意外に古く、飛鳥時代の白鳳6年（678年）だそうです。宇多天皇の勅願によって役小角が開いたとか。そのためお寺の扉には菊と桐の紋があります。今でも修験道のお寺として信仰を集めているようで、簡易宿舎や簡易トイレなどがありました。何より私が気に入ったのは、お寺の入口の上の展望台です。黒滝村が準備してくださったようですが、夕日が沈むパノラマを見ることができて最高。奈良盆地から見る山並みとはまったく違った美しさに感動しました。",
+            "百貝岳登山の際に訪れました。\n吉野金峯神社の奥にあり、かなり南に入ったところに位置します。\n展望台があり、金剛山、葛城山、二上山の眺望が利きます。",
+            "役行者創建で、弘法大師も訪れ、聖宝(理源大師)が大蛇を退治した後、修験道場を開設。\n当山派の山伏さんの拠点だった由緒ある修験のお寺。",
+            "春日神社さんの前に車とめて歩いて伺いました。\n凄い坂なので車は無理かも！",
+            "吉野山の南　パワースポット　地蔵峠越えた百貝岳山腹　手前に色鮮やか春日神社　かなり厳しい傾斜の急な坂道　入り口には歴史感じる梵鐘　正面に本堂　参拝　境内からは遠くに見える山々　素晴らしい展望　景色　日頃のストレス解消に。帰路　地蔵堂湧き出る地蔵の水　よりパワー頂きました。"
+        ]
+    },
+    {
+        "place_id": "ChIJKf_xZsjFBmARlHdUGI7Rs5I",
+        "location": {
+            "lat": 34.3388256,
+            "lng": 135.811755
+        },
+        "types": [
+            "establishment",
+            "park",
+            "point_of_interest",
+            "tourist_attraction"
+        ],
+        "rating": 4,
+        "user_ratings_total": 112,
+        "price_level": null,
+        "weekday_text": [
+            "月曜日: 8時30分～17時15分",
+            "火曜日: 8時30分～17時15分",
+            "水曜日: 8時30分～17時15分",
+            "木曜日: 8時30分～17時15分",
+            "金曜日: 8時30分～17時15分",
+            "土曜日: 定休日",
+            "日曜日: 定休日"
+        ],
+        "photo_references": [
+            "AcnlKN0rv1p0HnuleuOEchWjLgscrfaN33a-sDViOjf72Ia8-sNkFX3vVur2-lYQmiFK4_W_WbzGQjcSJVSQPRQ-SWU_x5_TsAG23wUMcUu-Ko_i9p69wbSfjWJCLRja9-cv6s3vme0icis7_K9lqVULcKAaVCRqkLysCFPLvY_d5ISvepcErk-qGSC_iVLSFuFqiWRqZ3WgCC4QqdnWRy3LOphwQrqmt4YE9gpu8bbgD6lmz6fWlMD-lIv6b4DLsa9RCLb7ezzDVBL0EK8-_hMafW5-44WXyPYJDn2sxfl3_RJ5BcFLCCy6EuUT_lwTwBUhIN77TD6BzI_wdN86P7AK9BmAGHOx5F_5Sd5mm3RxQA292vchj3SJ4DsEXmeNaeGBY9nvX2tlcpzRrRhOM7_up7qheWdPT-2K3hEdn4SVjfZI9Q",
+            "AcnlKN3JfQQDVHnFlMDzC_lUe8ik9YG5CFxQ6ZvLQV80nQ6SkdzVJnvLpcbuOpgnbJeWXKuKCFkaLNi-2fQVmWem7VNze6XAL8WObFAp5k1cQfoTw64WeyyfRV2xyJkYpYKA1tQW8OEUILWcG9HZtQLzop6cV_rC3Yoq2QHK2Ztx1gvN-uGBSpF7eD78TU0b-55HUAvy42-ItgIr52HwBdAbtJ9sNieYEjl-Bat69yOPBVSzp7avVR1-6VRB0ICS5sgxoiLIbvFWEJhi9YS8D51hhoULdTpys7cb2yJ5EAc4AUs6AvkiCwTnAxcgGno_dIleb6uP-2cL_DbGPgVzO1kIgbLCEvRNBmLwx2s16kiP4gz12wN5fupaEI9d7i1RrtXkik9oEPQL4aBhjhTuyw9NzNODe68LE5thxtQ8eHsc5ciYAtQ",
+            "AcnlKN3KbZZr6cuDte0THCks0AXgS8M-kbuMOVDbgXjRaenAWXGmhug2ZWh5ivxeNea2y-ci6CPQ21UzHmPLZVXPtxVRoJO35PYfTr6xcTeewejW0QYX-0x3Yqj00owonxUs8ygyr96Cyv7cE5EpTODuMfaeG0GMn8aYZUB6d07dHrzSBi5Hy46uVwwsfL2Q7hyIDHzkh5HfRvB-IhNk0R9Tce6hcN7j4Pi8jQ0JoOT-Ap1W9dyKT1RXPohf_1q6JVgDAfjFrmEB3YpbTjF1nPB1r2sVvmEHmcKwUmgvQ6NgeaDG_pLrQwyyaLjTc3VAX9ZkLwn9HHr0SDiQT8otiNUnd_P3B9bxubbK8g8YWHhx73X2x0VADaFT9jnHE7j1nc6YNd8DfQAWREmD93ObrgQohKO3dFplw_ZQaH9KHQiPUa3ShQ",
+            "AcnlKN2J6PxNx2-lHAKP-CVYWz2yfw6x_K7IR8Tr2KUsqzx_Fy4yMUpCBAgiS66oha17ppExu1T9LKO7ea_q1hab6bZd9LYjCmkGIQ6yFDWKFnMyrtxJGrYxEcIgTjl5qQvofEVDW-tAsEvkc61qHDlzhQogr1bAiM5Bhd7qfMLhl6oroVGUQGb2gP7_KA9dXUeVnw-mkNVX66-FL9e7Gflyopb5Gjtxf1f8fS7U6ewRiRQUadCwC0W561eIZQs4zwadjzF0KCoi3EpYaNo1KoSUDkdH9ViuGeuuTYSQ5deBTzpStqrccQs-JcGYx9xuc20lWYigf67xB0Ig_so5TADfsxT3mpMFgXAYssoyuJpDUrUo2VsAo0_zh8SdZ_N7t7hALTjP-9Z7ydQvTxvXYIDswjh5NnWQX3AjBg38FzHHJUKN4Q",
+            "AcnlKN2eb-VIzwDZ2d48fn22nSI_JLL1JK3IuTa__cHmOZeXryK_C8pJWOsDmaBTttet4M0sp6bJsGUXfGeteqpoCYPN_j5ylIqcwR8z-wCYvHMM-vs6a51oys5BiF9JCpzirr2L4Fo20mOunOdH7YyMGFM80WpsBfD9A-QQfM5nSaYWc9hJfZjC909pNEE_sXppdqBcVM3sHOnkdupOvrlMrjaUZ4rvkoRNUUEoXbKW0VmHYK8dMvYYlHHWQt0hkvZJieIVX0bhp9Eo3caMlJ2QCU_gDwUExyM1ry7qZ7xKdmGCz9a60YvFd48vgUrjdQLWoIdLb3CF_Kp0IxuKSb1LvP50azSA2fy8yDbSMCpzN9b0ny5hC981EBQ1uCHErOyB5sW6TGuflbit2e5sjkoKRYxwVADVXW_Ei3NrE-VFWSA",
+            "AcnlKN3c5ZtcKKpJOU3Pf__0QdAedUS0Qd6yVzOO37oaCPw01-g3Y5O0CkepPCQ_M5hyGSx9ZPnwfLlrq2rU7Y-4HDWTZTTtBBi3yJcx0AImAzdIR5jkz1UjAZL_kWRmg1yVFgBSB2llTZZW2kY4vM2i_iIaD8h8wcXo0omktHkU-nWrOKw78uUcMrtk-0OLXj0BKoJiWkwJqZy3z2tOP4J98vPUrIDRFyg2y2zX-RA-aJtWNxyxm1Qcca8iAAAyAPIpmZHp2bGBvClWjxQJePNsZ9DwSFR8IfX9XI_s3vLW9pH_VT0i7aMdwqc6KySRRseEtvyHfBWAXufKuptxWqwn6zI63xiC1mLlsqxIop03pmHnN3TMHUuWKYWgJ3upw3rIYc0GJsEIbqaWYEqUDXfjoHntFVcnMigwoHoxikyFj_DUlA",
+            "AcnlKN1PRkyrI4TtmS72tih6cGDfuTg4rm04-3ZSnxyc_HfV_e_uUVV2pZy-aE3oZ_TTduYmB_inq6aV1HKV7B5G8q7w1wSvWf4ljGTf0q6QMwHJcPA_aPsjY9jAdaxLjZ15GCfDGyiFGDanKxSJ9O4Lo6M1D98rx3L2Z469bZ3GKJ2KKvzzptE176VVSpgG5I-G4yAggX5njvmXPz8CaYgRvP7EpiOkFyzhus-rvkI79-IVNBpRf4A4xu0HsXNx2iz5uSKzg3U_smsLTGpaUCEkHqdRR_51gWIwJ6nOcaaNWHGl898M4ziXYxExvOWymsRAWv5ywW01WGTSCg4oGBhCKwwhfTtBuw3iXR5xUWJYVENdnRJq3z1YTGS6Dwcx0CqVIC_CT5UQ13AaD7vM43_KRD4y6sT2Xl1C4aPkKwhFElrRHw",
+            "AcnlKN1eHdfMdLWF3VV1ZqgMS2CYJVmNfBzxT48Er5MprWhm5XKL9p-beZewv-6oazDk8UitpyENMnCw6mbNXtRHYj9pQF68hw06-lR1vP9bg7Y22kggPjFlx0CGMCoc52A2nDi0AxZfG9Gt9-tGx5B_YU1qIP_CWCnceKAlsSl_3wPf_oJRT6OLUt8ukEutj5T90YZQ_RHMksNvMZYWkrX7KzJ8ppIOx4xUYdDotTnDSXxGtQOPPNFN9p0aWJ65UbqlInHjaO0wxpcrEeLtB5lNeiQQtcAw-Xp60CEfhA0lVKFhHaUmXDPo_kiiiEAFD7MxOWDeqS-On6xdCNc_z1vjmqHHt6GxH8ld2DWhJCpx6F4G01rh9-bCNyLioN_kf_Ldac0m_spDPlmloLzdf7n0IRWg7bTn_AeMv4Hvbv7x10cRSw",
+            "AcnlKN1S9EWSbxpIJrOTuJ7Kzu0XzqVmUMHGSFAg1X5SFgAFHFCq9vIqfH9a2wQEb0_eaUjSmdAG2Az2vH7-TrJx76_wg3uosOpyTGR0vymEa2OMIZgHVYI0kNv5yOA7vCSxY3lQgMN1-sqeuBYN6ClAlY3338sUviC7EeliXuNI6F8b2Yvy_LTvxcJRPX7Ezr8LEpSJ6T-wFjykXObxk3WaCfNXl0_NmXaTJHbf4qAXU_3RkPRHtLNHRgZK6i-W4kWp9mtVMCN4v4tmrsa37Z1EnyUcJzKmD5cUt_oUASmPcws0ztuoAVRB7eNLgg_AhqDi-68yyEWzCZbqVEvWZoBNThJ2Nd7xyyWGD-lmqTqdhsQkwNvgSS3HoBKysZ2MOgAwzxkFGtEfdIjfzcC5TLDmwYGblqM9RX76SwTzzJ4CbdMD0w",
+            "AcnlKN0XoFesjuyY3hhZ4_ezvjG4JJOsMzrUGp36AgcHaSMBjmmtWEAEGpGeOqT8T_MGtdDah2GqsSkbE7RL7e-CAaldyJ4yO2-v5cmf-yMfmj0CFxWm7PBnuoTsZ2OY15N1lAlGP4PEJ0U7E3igkMKCn09-20GmNxWnHuYIoP8vAMSFXI_mF2nVY4hlhMpdLraAwUlCUWqpzid6e0jvnuK23KCxUq3QXQE-IS3wlNYWgJwQD0HpqvW82_rVGftfn5lzeiSjd_9jZ76hempAaFkukPt7ovXfv8ndDupAprz99gXr-tzYTkR8AgegiVQmrk7C2bF7IThNCCzb4RincawzxK-_6dPEqZTiXs81pzD_tDihz6aEAEEfrvXelG0ZAmvmS4L0oc9QBint_MAR5bUoU7pWA_Z_GR5abbRMI56iITEdu8P0_Wr6mqu0698qGCIw"
+        ],
+        "review_texts": [
+            "3月末に訪れたので見頃は終わっていましたが、いくつかはまだ花が残っていました。\n国道309を南下してトンネル手前を右折すれば無料駐車場🆓が見えて来ます。\n散策ルートは整備されているが、そこまで観光地化されていなく穴場感があります。\n谷間の梅畑なのでかなり高低差があるので、一周するなら体力に注意⚠️",
+            "通りすがりに梅林と書いてあったので入ってみた。細いきつい上り坂を延々と上がった。車が落ちるかと思うほどの細い道がくねくね曲がりながら続いた。転回など私の力では不可能。エンジン液温が上がるのも構わず上がるしかなかった。対向車がいたら終わりだ、もう駄目だと思ったが、平気で後ろから上がってくる車に追われて無理無理に進むと道が広くなり、普通に走って国道に出た。こっちから入ればよかった。辛い方の道はきついと書いてくれよ、南の道は太いぞと書いてくれよと強く強く思った。この写真は信用しないで欲しい。道の本当にきついところは写真どころではなかった。梅はもっともっと綺麗だった。多かった。香りもすごかった。しかしやはり写真どころではなかった。今行って現実の美しさを見て欲しい。楽な方から。いや、他の方法で来れるならその方が良い。",
+            "初めての訪問です。\nこの規模で入場料無料はすごい。\n台数は少ないですが駐車場も無料。\nのんびり梅を楽しむには丁度よい穴場ですね。",
+            "３月５日現在は、咲いている梅もありますが、見頃はもう少し先、まだまだ固い蕾の木も、多数ありでした\nでも、付近は、梅の良い香りが漂ってました\n見頃になったら、デッキテラスから見下ろす梅が、きっと物凄く綺麗だと思います\nもう暫くして、見頃になれば、もう一度行ってみたいと思います\n\n散策路を、車で上ってくるのは、道幅も非常に細く、対向は出来ないので、要注意です",
+            "3/8まだ早かったです。満開は見応えありそう。平日午後だったので静かで、それはそれでよかったです。地図で出てくる駐車場は梅林の頂上あたりです。テラスあたりまでけっこう下るので、戻ってくる時は登ることを覚悟です。駐車場がないので土日でしたらバスが良さそうです。"
+        ]
+    }
+]
