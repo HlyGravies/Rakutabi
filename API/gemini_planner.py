@@ -10,7 +10,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 # --- 1. CONFIG KEY ---
 try:
     # ⚠️ THAY KEY CỦA BẠN VÀO ĐÂY
-    api_key = "AIzaSyCwzVIlmBAFuNdW--6UgtoLQLRAR9PN4jQ" 
+    api_key = "AIzaSyBnKHuCPD8gA9SOl8_JPgH6Pc3N2UbPC9M" 
     
     if api_key: 
         genai.configure(api_key=api_key)
