@@ -1,0 +1,135 @@
+[
+    {
+        "region_name": "宇治市",
+        "plan_title": "世界遺産と歴史を巡る宇治半日散策プラン",
+        "waypoints": [
+            {
+                "place_id": "ChIJqyva4AwRAWARpAf6j5MUhGA",
+                "order": 1,
+                "name": "平等院",
+                "location": {
+                    "lat": 34.8892908,
+                    "lng": 135.8076783
+                },
+                "info": "10円硬貨のデザインにもなっている鳳凰堂で知られる世界遺産。阿弥陀堂や美しい浄土式庭園を鑑賞し、歴史と美意識に触れることができます。ミュージアムでは貴重な文化財を見学。",
+                "activity": "世界遺産巡り, 寺院鑑賞, 歴史探訪",
+                "transport_mode": "徒歩",
+                "photo_references": [
+                    "AcnlKN1_MpUpbt9VwRQ5B4xfVj1n-fRaklPRjLTc6_mI8JXHROVj2axR8_Qzofe255D63cb16mc0OhjSmBxFNfYK5cw0X7dYvtyC9r8BggBOL2wyuHRSZ46R2Nv0I5L_4jXEJvwVyxNSfhrU0BnsmVflTXBUnsmtK30fmjrJ9X-S13SwCLNzhyniqM98mjzDjgnh0W9M2Owesrmh8mn_gQZpy3L3dD5HN9ENWSwMWNWzDlRJOwUDBLFdOdJaEqfSgRf81SusO5ImJAyBdNbckXco-yDcWQ4zsYjQUl87BfE1s2AKcOrAD1o-xMMV7Z2onRUbZz0dyysnFNe--nWdDb9S3Bt8MFtbYtEH4XKzXMz1ov9Xwc8PVSMAQyqw924UjStQ0v8zLi4khXl_DyqSqGN3ipsiyn6TPVrFggFKMQJyRjpeuQ",
+                    "AcnlKN0aBuUbe4rGQG-JrSnXLEjiTDbyGIuZPYiiTVzQa88dQ-DnYEWSiOoHPEnXTKArPwtkRhZaibRX96ywxldaiEouaVEoiTkdBeSF59bfl6BEaN_VqU4FDdx8u8QMeg-2kP0iJfJtdvnCo_J8GoUaa8oU9nUcf7d0NsCiyI8SqxSO2UnPyeeR5VOHS8nAXQnqA5S-NvcHrLcdAY0ZlwoZQY4ER-Z0LpsK7x91s3idzrVOtfdCFaHzSVSd_1zpaim3hQROrM2w1ChmEbs6-5xsWgQ692daEIhBWBND_EzZA1L3pnS74SwJdelb1AaD__HySLi1Z-SNj35SdoQ25NsRFSpi6fKMJZfDTgViAVJg1YaYQwfYMi7024MHMimkggF2zjBjdvrfkuXXSaOkclOsLv5WKgIT_VSXvjZd931XHUJwspyU",
+                    "AcnlKN1r7sdsEG4Xdvkx9fPeLyCZHc4qMEkyWEgmKyNo0uqsSKtuyzlEfMcLUadzMhK9KgGOWF48yYbc1mkk4Z57b2WKxEE8n48oOj0oGjqv33zUMP6NFEB832APw5AQvUbX67uHc1POghMyolbIL7wRrcTpXCs1oaXCAEP8XlNHY9ixlhTIBdkIVZP2w9NsLDeK2nfaPMi7z01CWBWspzPrOph1fgeR_1LcvUaJ4sqCk0fXPlb_9uIbV51btxJBc_h3VnUOcv5c1k-Hy9Ugsk-rnnfZek9iamkP3n8zMOYnVsh9wBfLeQo_PFiWp4W4IXza1PsLiqElJTSlMBqeDUx5g9eysAKnSbeSDGKf-qZBcq88mMRDflmYHNEFaCuAuhb-6QBR2RmBVyG-O7yK-Vx9cUJo-ahOZ9fOWLZLWa2ONtL57omc",
+                    "AcnlKN3DtmkpfG7W7YZnGQSnXw7fKGs0t8LkPTevxH8AjpPSeG81FZ2aF8OaL8sjUpvU3dWVTEU-86UkeSKZCdN95loGptQc8wRmcJMjmwnvKPzwlrU5lPcK5VRFT4d75t2GOiD_IFpcf6WUCYb2vNQaPJ6MpYUWwuEKlCs9b_N4cvrIOqmH2yqqognEWpkbUMQ3-OjGZbLX5lOW83NlWIwrS7BHRWXMfboXTTb2blGVBK8uBJaCtJ3fPZGjFp_0ghjc4-YOm22I5gBqyyUIxCCrjyp7n0GiIH5F3xGm4xRVMhdPnzXF848SWQQ2LmyMWbn9yWY0QMWyWHb-bNLuq_C6c2AH0a9Na00k0G-bpxfD8-X6NpJttYVIegjAL0kLocioIBG00XoBML7Vqyf8komPdPbVy_1RiH7M7lfB0Z3K7DAonA",
+                    "AcnlKN1M7qk71iIJR5PoR-DiMMW9AaAVH4ognOt2Q_NOw1Ln7KtalwVZojUbAPRxC2wWLDmnN2fW77P5qqIIcrwiA2k55LJa58C2dPWzRumytjfad7mSyO5T-zemqedDX4lqTm-KpU7Jf8vVe-sy0IOwwXjz44HaoCdsy6pttOGl0EabPXpHS2oPoazlQsmrMgF4P4mb_trNxGAbly7HcQ4czu0p4HQiLIMLjiisTejRMl5_vkCfb4-A90oUJeMv9qBpM23VSIrfSTuTF2cTnRMkVX-tdLncvWe5smc6I7M6G38WZslDnLUDTTZSfxTguEvI7XC95kiJKc6OlxtiDBruAbSenHaiuz47x1ZfxWF88hyzwzcWBHSrOWe49YXbS9nE2TyJo5ZE44DC93KyRsmOhFssS18eTPT10fDGRbNOsMXy5Ag",
+                    "AcnlKN29bw-_M_sO8kWkuHXwNyVvgb0zQjNkmdw0pmABWtBANk0AhFFL-JvKBqFx8PPBuPERi8UwimQpZoSLK-tXrMRFTEKRf6C-g5phg7PRUstWTQCxY4BIkXxPmMfHpTRp-4kniK0KMf0Tg89jmN8Yv-VWbx2fcoCjN6lyMQsVhlTV1XNqlH-n910O1ZiMHQDiT3m1OImdtCvGz42Gs7dNH8TRIz_acAh88WcHn-qXWkeZScQENYKBjr1fiIAHzJplemel80V4e6DLpHVKLzh7khXD8tmDSLB4ETYBY3HdWDa5kkAWLogtA_PTnc2f4JcV3rFMMxkxKi4-cD7Ei1yW-XnYCv4_H8qhPG1PMR2kB15M3WnGPdnmS1Z9qQtCg8GNpoL0ZWPCWpNLlrpDuP8xuJqjqvLccEciK8e3b7Rhg47y9Q",
+                    "AcnlKN1Tq2PXRXeZb6BREOo0yINSgsbmA18xmxfoR4dhvkL0N2i06dWcAoCZxPxWyg55xTdALaIn_RZLQQ8HtjT3zvsVKK3QHMGPzadzljEELjOLt0zEz68AqEovB5hIOBTJBwNW2XFeuMVd-oLre5hSgVNvbF0QiBmAAZW2A5j_Nb27CWKyLEgketFI6j9iuBKFzJReULIHA9wIPddoAjsFnLyAf1ecc8B2SNLOw-ZWuXzVaFC-gME2nBfX8H4PH1rokeacPHc2BCc5mk09o8X5vJIl7Cn-e8lbwOjAdTUYWiB5u0Qtatq8mujrAag0nvma0QNRQ7P430V5JPvIwuWaXYZevjNSh2Xmx-79Oq8FhKA-PvDKEYeCrR-wmvg4fx6FmjkLFCFj8rTvQzhNHWcj_SWk-pEOdlgyjdUgfOz7Pb0mEw",
+                    "AcnlKN2IYCbXuD8XchyyN2SnbRdBaUgVvmM935SS_wy947f1sSf7DW4PW1nEINdBrd1MHdBrhjo4a-iCafw0TvqL1-Eu4JHjhylqCbv2YDqutCglnL8Ond4GoySxaCitQbQTj1Frxg8JVBpswuNOiTwoo3IJMrVQeU22XVubu1ooX73oFOXxg1UPD2250UbQIaT8RMPAAZDTb3FY2PJeMRrygCKAsWBrQYXcM-rnyYqpLzLmXatD20_YowPdBAbLu20AuYICvmXrqx4lVWJ1IGZ8FQjX3buYfCmvWecEM4I1KzgDgMehLVSzNPoaYXg-1YaVjkjtXgRRbaD1_afZA01j--vzNq3sLKnqheo4obzi2eDJH54VMDkLiHwrZpa-xpbTC9Z0b5m7emM1KAzQwFyw0vnTFfc6lOb8AcuipXUo7JCXFg",
+                    "AcnlKN1A3NE3TOH1trZi0oesI8nx4jk5MJIy64QA0hPZXTjCTAZIZ6DF5WP7r5FTPY0AN1eRNGaid0kKPwlk5PzJGqkpObRC1lW1SEKt0xZD-yDdzCW3QXTIBl_gSo7iafnFK4RJmoyAyHutpPgPvBLvQVw1jmKq74dc3gftWafEWGzJUPQW__AH_KjowE2mHvD9x4FHKEKbMEeP3XdnJmSxSHFg7ijuX6UBBnIfqlnOlFvoYBctHylbvwqSgnRI4hy6Mvi3i-dwUtBek5nxCtAKeo-YmwsVXqly-F96Fw6H2MQUxToh97pPMAUYDpclILxoI39wOTcWUYjvAItqKxAlmAfFDjN7Cjjcd8e1FE_FuOxkeDz9Vd9MrmPzRgn-lHh59Vqm_TMw8iM2vJ4cz5GWXBm1P4inlRaJ50cKBLgLCdlwHg",
+                    "AcnlKN0jgl3zJcdPh7HigslwmEogNIVZGLPQclWKT1JnmM1tIvDOkUp33CA8D5T5Q-C3K11KABdtTwLACDnVNFdAEJgD5UM70GaQHILF_xaT8pGC5TDEQkt2VMch9jvhDD_ToHMNa6EHNCrxbnjS8X7m5ly7oirvcUHNacJ85OdInvP2mW3v32IBfp1IlvIp6cS9VGEV0yI1y9NNamr5DNvGYa1ima9hTjwQRYrKcvuFHNd2N7JlmR7hDy6UMD5idB9BPKkcGnaFJ1_S98KvtQ7MwRqhYdbS4IPnldSGBEVpPinYewtG32G2MxZXljGdihXY8K7VgWVXDdhlttXNZeEf9l2smDLrYcKiuQDXNs0WypIJZwtLz8oNFpkDCL_loBlyMYyx5-xE3URTIRvmyK6yzIPUG0rqPYnDahU2oDo4TrkOnA"
+                ],
+                "review_texts": [
+                    "3年前に訪れた平等院の秋の夜間特別拝観。あれはもう、息をのむような絶景でした！\n\n​漆黒の闇に浮かび上がる鳳凰堂は、まさに「極楽浄土の宮殿」そのもの。水面に映し出された逆さ鳳凰堂は、あまりにも幻想的で、現実のものとは思えないほどの美しさでしたね。時間を忘れてただただ見入ってしまいました。\n\n​周りの紅葉が赤や黄色にライトアップされていて、鳳凰堂の荘厳な雰囲気をぐっと引き立てていたのも印象的です。昼間の落ち着いたたたずまいとは全く違う、神秘的で圧倒的な存在感。\n\n​池の周りをゆっくり散策しながら、様々な角度からその姿を眺めるのが本当に格別でした。ここは単なる観光地ではなく、心が洗われるような特別な空間。\n\n紅葉の時期に京都を訪れるなら、この夜間拝観は絶対に体験すべきですよ！あの忘れられない絶景を、ぜひ多くの方に見てほしいと思います。",
+                    "朝一番で訪問しました。観光客も少なく、風もあまり吹いていないので綺麗な景色を見ることができます。四季折々の風景が見れるように何回か訪れることができればいいなと思います。ミュージアムは知識を補充するのに役に立ちます。",
+                    "御朱印が2種類あります。それぞれ300円。\n\nまた園内に博物館があるのですが、入場料には博物館の料金も含まれてるので、なんだかお得に感じました。\n\nただし鳳凰堂（10円玉の裏側に描かれてる建物）に入るには別途300円が必要。さらに休日だと1時間くらいの待ちは覚悟する必要があります。",
+                    "25.12 大晦日の10時頃に訪ねました。近隣に観光駐車場や、コインパーキングが沢山あり、アクセス良好でした。\n\n大晦日でも沢山の観光客で溢れていました。海外からのお客さんが多い様子。\n\n快晴に恵まれ、とても素晴らしい眺めでした。\n\n平等院内部の見学を申し込み、順番が来るまで博物館を見学。館内でお土産も調達出来ました。\n\n外観のみならず内部の保存状態も素晴らしいです。園内もとても整備されていて快適に過ごすことが出来ました。",
+                    "日曜日に訪れました。\n早い時間で訪問したからか\n思ったより人は少なく感じました。\n周辺に駐車場が有りますが\nすぐに埋まってしまいますので\nやはり早めに訪問がいいかと思います。\n門前町はお茶屋さんが多いです。\n宇治茶を頂くのはどこへ行っても\nいいかなと思います。"
+                ]
+            },
+            {
+                "place_id": "ChIJkTAGBI8RAWARiKVJJB_Z6Zs",
+                "order": 2,
+                "name": "宇治橋",
+                "location": {
+                    "lat": 34.8921644,
+                    "lng": 135.8053071
+                },
+                "info": "日本三古橋の一つに数えられる、宇治川にかかる風情ある橋です。源氏物語にも登場し、歴史のロマンを感じさせます。橋の上から宇治川の雄大な景色を眺め、一息つきましょう。",
+                "activity": "景色鑑賞, 散策",
+                "transport_mode": "徒歩",
+                "photo_references": [
+                    "AcnlKN0IBGk91lgGScffc4KOWGIRQ8ra0x1urdIHGUn5smprGPbiALAXTqXMH4_x4cxNcMXcCWhbsIk8RuOZKh0gqXRMxCMVc9PbKlHc5E1x9IxFmXQTORwDTOw-xc8GYTfNvLaQSInXXb5ofhe1lXrRtw78-QWroKlw8ebfrBgzkzSctjxFRCOD9M7hri9hzaPt_c8NCpK205yFOr6MKHJqFCFGwRQ3H07kz2Q37oJRwdFd-Zle9oKZRRT26nFlPPw0IWrnRk-OVTTYiFhWnr8aqlDEbTNEdL0DltgXy_sTpXm3sboqLcqC-BK51HwyOdB3eNxk-kSSR_Xdo1FlPijPATR2n3RPJ1V43VcPoyadphtEAnlFZLGcCwqj04qH5iXDMjeDMdiK3NA-nfihcHObxOki_GFN8UEqLrclAF9nTYaaQ7Zb4QAzmU2e08bAUQ",
+                    "AcnlKN2N_hLgwLrVQauvIAhy1lIGc_ZE5Won2F-_Cg6QRIRS9rR3rnJl3IDRhqlhgwjw79W38lrA2NbR6Gg0VD-dfpes8dWr8fh-jl9CoSl28_X9wVKBEPYYzBXtLVCUBH-jdmSgrcPO0d-LDUh7q9dVJaRZEnjm34JqaSm2BIpXHnCAJW8Qaj0m5U9ivJ5cmSJu4PutXfB5xK8rKnEO6VWVB6vpr32vUfKC2ra4DE7u-txRAWmRHaCErpiJGh54ibgNZsRXVWXhot6W5XUZC_ZNjvDbK8d83-TrwizIkMXbi7v1Vh0gveI4fI3guMBTH5j4yW2DL5ZUguX9p5ek-zY699WKbxI6kXBSc4FPSFhx8iiG3t5uZPvfXHdFtqIMrHUz_SLzH1Feg4RKzHGIfMqHgm_WKlonfrLk2qPjcRgEtY18DqtsDstXYSseRwB72gi2",
+                    "AcnlKN1NPzpLwC1F1DozUpkD7yFcA1GTZt98L9g9kCOOApiwldyDM0zNsLqsdNP_kXzABXM0VCmKEiHJlpHGIc5n-Ls535EYBfBylQffKku4EUvV84NqefavDMg6kZucgnXCUr4HSQbViVcsC-sLH6JZ269aUtY7Ku5R0ldYG2gTWywOrwYTmIW7Wypg7XJsyaO58FzfS1gC-uFKttI1lkHGNbJPXIHcScH0vpy3-co0Us1nHfy9x-4QxQHLdwRnWq3znbIndrNqLOUElG2Jtr7-GbFvtJlxGnTG8WJGRIkXm3d7E04oxHyra68cJWqRkabrzJruZT35fBEqMla0ct6Phu3Y5jRm2w-UJ8NQKsjGetabSx6Mo7cMpt9tLi82Ymc21o0QNk7BebYUOJgN-hNt424rNkpgEjIiEGBGxJDLHEflYqkGMJwipZxKWVR3ZQ",
+                    "AcnlKN0qipXc800c3eBrqLux-Wv3hcwxm3L0T1Ento2auuiKO3d2rDTw42JBDo79YQE8Evpg9S0VSt8D1w89Ga21PwzsUfKUckvR805UjmZii6nfguCcS1FeB_K_WIH08uW198vhRf_d-3WfOvvcx_mmVj-mdeahawQZDWlARiAaIGLolbtj9LRcxvBum6DSj0JJ-XecgV1qCVVDvU8VWcIk6g8jFAb-OcuVCd7smTI0EZOnTcGvtSS_x-li2klig-0aAg19CPkV8zFfOycbZEYNI_6KJAXvs6QiEoFyLV9tLm7xF6J2AHoIIsup-wOBoaLutoplKsNcXcUdaxYehBUZ2E-FX6Npb9qIH0a174fy7qHn1qu0_WWEX5aMyvJ13oCAzW_ppZFBQHhcHVhpM_LLGa278iiI04CyLaghKXDgxrqUPnRc-yko0toHVZMzuQMy",
+                    "AcnlKN3gpOGgMEJjvW9mUxXlNAkw7_13hVyrST5VhjsFHNyA7Vpv0VkgXQz88CBAblSUlQIVHEj12_-qqI7qiHzlOBdnIYe9zGtn3lzQQotqVPEQYWfzRaG8hY-RiFrgv4768jBBrRCbWZWcf-l4QOx7_hNlpkDDurV6aAnEzhTjbkcjtQBAVnIovp13wM8QoRKkRzi55jMJitW34v8gcZtQB1AUiO1HE-tqqB_aXD1o2dhlwSFfHl_vFhW5jde25Wtsa10Ahknhbh6s0-w0uUnzgbyGQDVd9sn1AeJvjHoC3Kd0dPrAUvw12vfWmUf3_--KgLok6omcKTHuSc4G71dsgul4TYWs-p3zXwwKYQJmLH0QQRdwfA6BtVGoR-Y4DiHlWlwew6KgOfgKASaS1dHQx6JzoyDfmhxJ1NnEK4n_N41LeUfyh45VYj9GChKYr045",
+                    "AcnlKN0Kla56iBGSHJ7oMZGm9wePMdOW_GAQQMQ9EVlSi9eSJXEv9KU1o3KGoOK1PTF96H36n6tzn6kA7h2vfEbnRpEVbh3tNH5YIYO1UIv3wvMjdLfRNFK94WD0Cyf9xEM92L1MbufPPLHGvmhAntF--dg-RSu8IJ3GuhLCKjan9-NacnK2HhjAFdiVi6iTAVbbfL8tP8ABblW4hGdbhe-eBPIZ85k3nNPhjvu2_WYY4QaxRvIT45Z6fczYavaodySWJJmT_oLMkb2M4_CR6sm1vtBikXZLGuY7PMNQrQ-KrBoy2-8sLCWUbEB6XdJLpyuBw5l5451p2KfRC08Yq0bYD-a1QnOP28G06Exsflho9eeuhqyal2EbIeeyFTPwPT__ONVU3rxD-7o2tcL2Pf76-7COckU8JXwX4o5aQeyAeVtlByBLOU68DKabObCv0_lR",
+                    "AcnlKN3y4XSzS-iV-E8bpqesVsSoi5KYLdH28uQNAm4O_toEBDc9W6cMHQG_HgdzCszYR4jGlDdXUu9gsw9Bp4RdTN2iqv9pwe-dlFMkuJb92WqIeFhbL9crMfZoJ9-Kj2tj6-wP4vOyKmPA5mdy5f5ur2pt462ZGpgMXBfKflNek0fDvKWcUsMxMKdt_USPmtpYMUrRvA90F6SzcADOY5aisdElp6l1s2GZpwMwMo8SR0Eq8GHnvJt1bRoEKF_P-LdM-tAQWISuXL57m82odIQTllpUhGdPbdRrfFAXIay-bQ26L36uJZtJlxLGkuGHaD3-iOpXMafTSAy-dZrBE4c4pRrWcmkR4Ju5PktA8c66x19vL2CVNtGCI0R90bV4JLczUcRDHZaKpudZPcNtMm2k4ZgmBnIuUnC4rgCc5fhOKmFgGYfzV1L8tfnzj8C8nw",
+                    "AcnlKN1e1wrrOePL4EJG323eEMFRq-BEBZOlEjnC2GYSGsjdBqoyitAIQiquwAwQtGif-qyZd0z60p62nkHJFFATQaxaHIE1wrJmYQ8ZEOGC2KJtjsxVF1eur454Mb4RcluceMsgFF9IKH_yV4YbMOXF_uXfCbAmIF8PpmLobri6pJzt3RexzSmVti1ZWsWJ2V-XSOC91L4odoECrsScnOthHmfhg1GV6_TgUK2OFjFCcrQ2db2_bdQ5prVFnXrQ500xK-uo78N0NV7wOhAkQUcJLGqby1WT_FUJknwSSAsDMmg2pRB4zxrsFfuqJvN7OlwDv59ePxN0Pe-lA_3uDEArMaSR29rxuciD7wLmS4C47dbtHLtlCRJF5TpP7I3mGg8GpjTYx0LY-fV-PvVzUgQ7DFxJoajj0AmGDE-NpC8WeGDbAGLfnatbqMxf_XV3QdBl",
+                    "AcnlKN1eC6iHskrk3lk_ytpplWciXpmRyOHzvBr_s6CfsCZ3cbhvcIQoATXhABneSGVpvAkwxjoc_k08u6Jvl3hr-icZcWUWFkl3QAkITDNc2GsTUqgITYZYBVWeXTKSoIsPd0J6dJ1jm4O9xhJGsP5Sp8cb6OZoUgKhtp5c49EODuDiIaFW-DR3i_GrcZxG_UuJW1Rel2juaVlGlp-imS8EjZtNhJm8WFcDUz1p08AXe1_v4thwnDKLHbxaFh9MIt8bFR3_8aGaGljwuj-wNVFpmJsi-VPbiw5eSSAg2d6oYPfYG8wE1jXnXmU_eIVmNN-sdACDcxZWt5EHKSVqtf4Y_GxhAObbAUmUtWpZUkAAJQMp4FofCqtWv9nFkQ_arVF1SQ2Qc-s6mOKmGxxpQvpaSLrl_ZvB52OQ9KKDIMiOeV9hv8cXe4a2515e8H6B3UWg",
+                    "AcnlKN1SxK-uiJtOB8hzY02ejrCSm7ki1zYpuWDPfLELDrSXQbWYlITDs7E_jV2xPOlQOhmOP1cDzcwPBB16vTjrSwkKASPwrILBO7oFlKue_UdNUWV9v6n4uF_1o8nGhrfVBide02GDGtmUH5YCVBXliHatKLEPcC_MhR2z0ShPkjXS1CqtOQjqUXuLhr763Q2dV9ekNmyP7RPGhglupu6E1r6LrhHavBGG4PruV7l_t1KjE2kqqg76LXGu8cHsSlSOBov30spn-8eBdYSQxh8hxGfP6Dp-KHq6gl_3HRwjKmI3BqStHj2ecb2wyWl5tOa_vOI2fEnkC3p551XAFccjAI3a-AS2jyi21UJsK6J4yLnquJtIEnahcEkb71UNeaCQ8nPv0cJbyQH86mTX70D7p-EDZOg47n-lTePgRMi_1Ef2aQe5YRgYKSiVx7y4lBgM"
+                ],
+                "review_texts": [
+                    "久しぶりに宇治にお伺いし、お茶屋さんを巡っていたところ、商店街で声をかけていただきました。とても感じの良い方で、ぜひお願いすることにしました。足の悪い母と一緒だったのですが、人力車のおかげでたくさんの景色を見ることができ、とても充実した時間が過ごせました。\n実際に人力車を引いてくださったのは声をかけていただいた方とは別の方で、また爽やかなイケメンお兄さんで、母もとても楽しんでいました。川上さん、ありがとうございました！案内もわかりやすくて面白くて、また宇治にお伺いした際や、知人にお薦めするときは川上さん指名でお願いしたいなと思いました。\n素敵な時間をありがとうございました！\n嵐山ではたくさんの人力車に会いましたが、そこで乗らずに宇治に来てよかったです。今まで見たことのない宇治を楽しむことができました。",
+                    "10月27日午前中に宇治橋近くで人力車に乗車しました。\nふらっと立ち寄った時に声を掛けられ、話してて楽しい人だったので1時間コースをお願いしました。\n午前中なら興聖寺方面は人が少なくてオススメですとのことだったので興聖寺さんへ向かうことに。\n\n道中で話してもらう内容も楽しかったし、色んな所で沢山写真を撮って貰えたのも良かったです。\n\n人力車を作ってる人が日本には4人しかおらず、そのうちの1人であるとの話がとても興味深かったです。\n新しく人力車にもいつか乗ってみたい✨",
+                    "11月22日に家族4人で利用しました。担当のお兄さんが、とても優しくて、解説もしてくれたので、快適な人力車旅を楽しむことができました。\nさらに、日本に4人しかいない、人力車を作る職人さんがいました。本当に楽しかったです！！京都に来たら絶対に人力車に乗った方がいいです！！",
+                    "宇治を観光中に声をかけていただいて、歩き疲れていたこともあって利用させていただきました。自分達なら行かないような場所を案内していただいたり、一緒に観光回っていただいたり、写真も撮っていただいたりしました。とても楽しいお話や、歴史の背景がわかる話をたくさん聞かせていただき、本当に楽しくて思い出になる旅となりました。",
+                    "宇治で忍者屋さんの人力車を利用しました。車夫は山本さん。イケメンで気さくでとてもオススメの方です!　走りながらとても宇治に関する興味深く為になるお話をしてくださり、40分はあっという間でした。写真もステキな角度で撮ってくたので、一人旅だった私には思い出の写真になりました。転職して車夫になり、人力車自体も作っていているなんて、今では貴重なお仕事ですね。また乗りたいです!　次は時間を延ばして乗りたいなと思いました。ありがとうございました!"
+                ]
+            },
+            {
+                "place_id": "ChIJYfl6dXMRAWARX1-X0_AOYBE",
+                "order": 3,
+                "name": "宇治神社",
+                "location": {
+                    "lat": 34.8919274,
+                    "lng": 135.8112954
+                },
+                "info": "宇治の鎮守の神として信仰される神社。可愛らしい「みかえり兎」の絵馬が人気で、縁結びや学業成就のご利益があると言われています。美しい本殿も必見です。",
+                "activity": "神社参拝, 縁結び祈願, 歴史探訪",
+                "transport_mode": "徒歩",
+                "photo_references": [
+                    "AcnlKN1-afY1KzanYyWSBwO6MoQ_ONyBW_tgmC3ThyehkbAngn4JqO3_J6wxFOsS_6upRqVjbTjGwEkXxTxKDwUjvfqh4P6rn_SVP5RkLRGfObydTKE18QnCNPC7bvehbfqD5rnWWe7nMK_joCfgW4GUy78SvA7hS6ufki3tVBGGNQ7jKIqivSwJgqsNvVIwKo1XbMeV_HadAPUgZ6QbJAr_2fL3-ygEvId2ek0HVSl0GRveoAoEmK6YEbG8dHcDlSd7yz7txwyFGqQR9AEXnxPpnb-QcPanfD6WoFa5KNEjOLtRg17Klq0ZFH1I0oEuKJGSc6Ag6mrw7mqmg_s91zfxW-DjBJu6N1RsGcXtNfBZqDjdavT4LteSFuhMkAtg1i_nxxewKIkkc3juaEk_o_2Aty7lLAlAjmcMzSWmNNXYFG-HDzTZA6l7y8w--mN-tA",
+                    "AcnlKN3l9Sp0eAZ07ypi4FZ_XikJtLpOlTsVhz1UF1EddvhBQp17ne7ztMMk7l-7ri7_Gv7A5g7zSakwyUPZJDVBkQOi3Km3w1fBFVlsHpbyaXefiFZMcTaPOOfnCdH4PVHVUJngZkHiolFN0ebWKiWHotGXHppznbLgJS5ZniV0mxjLHmjseRhcrFOl54YeOkO3OKcnhoeQDpmoEIjngsafs3Xh-rWPcMVxVvzI_JN52ZgBzghQBcySe9JXU0fRJyrsAZ4CSXjfPXkOHNs60GoNqJ4q6ZvoT6FdPZ_THNMGBw5u2_spr2izqgErJ7hn-0l4hm403flwmoa1cMZOkyiit4vXQIyS8AhQzCHKzcY7zSPdScrbNN5197xq9oJUq6idDnqEO0OXOg8kXq_w7eNX264IeWfjiOu9dqeXYZbAP-s",
+                    "AcnlKN0SSAQPPbogiR6itxkQQtz9L4_irZV296a09PQuIPMbEsGB8Pp73ZDp4wOgBAWZJBRXzjLsrl_-KVDP60vI8Wc_wgDV1-jeovx8WUbpaI9YZy_RXnq4hVjb6oz1hkO1DwtZlTnkt_gwOSbPE2wK1R6C2YK1PPE8mW1MbUBs_1bYdvlRoe7oFkWeQBgETB1gGfntm9NbhUBPGm0QSG1l0i5tJgPAzCsJqAfF8NMJV8LWwXYjUzOAtfNHlYryIZr_QbfxlTFtxCjOH9L_C6LNPOXdpJQwi65nV2MytSR3_FqI5goyEOyw4jn2gcbmAMuNt1hRGS0IAqWakv0aGbKhx4R24C5jpZ8omHcggWAeQFGjiE2lAj_rrqsYh6f_J5X0GK1P6_wwE09Urp2dEZeloKzj3DnNg4Tm6jB-akAUf6o",
+                    "AcnlKN35Ssj-wRC-GCOPIyIuzio3o3isntaRgIUOAS1kw6KwEu_k3ckh-hREBdGBw-ACoYumbBs1Z9eKefp8GCWcDzUDaXYIAKWdp2LYfnxsGAs0ZeUwJvZjZM-Z1vBxm7c7U-A41tVP6xMNFZZbAXRJrfMVia3jtRblyXkaIADXbkij6T5fwgaihfrX-KPbKMw7_knYk4aJcVcmuLvTOkBnx5ZSBumVKPze1CW4myQGaJJo1TN_vIfJ8xLrIgGPI5AortIfr5osgQLZbLteR_7XGiRY8FJocfVun2DZekmZAImdq_4rW08zRy7CbSyTkL3_QdLB4tVW8_LDZvQTSy6FoBLPitBiAfhmEiB2XOuvkxgNL6Q79PmVBd0tYhONwaGgYnx9Tx5wRFlb2udNzdHNX0uPeQiR0yPJu8Xnw8uGq3f_SP-v",
+                    "AcnlKN1T-0c-1k1Th82MFTQF1tQP3tD_chxvQmetgwsvWl2o1uWyUxekFy6muyCvn5EbPHjgsPGyaa26C76co3o0RgSClyiNm5ib3fJSGsO_7dswHIKa6SqNjoL9x_mq6x1cKWKj8nnsJEvniSjIflO7vKrpKitN6E_winGv2QuPG1-YkwxmZp-2UHKm4k7hwp5-bIAw14Q_BDRKOBvtoM8dVdXElMJqoFeh0irJMWKt_WV5g5y8pgDqFVU72BUhM24baJa6NNCiw9UaFCqeNBZalcz6IZlwtoUi29SL5-SbmA6KHHJ6R2OcFeWuIVkgRJlQfdEAkxDYz56pulLBvJOv0NLYd6TXjsGLcpZ1qPSeTjtVTLDj9PvxdbpEsVV96PDqIuAXutRe9s-Z1x1RBMjBU4p9CC0d7xZFvxCRVmPiTuLGr3Ej",
+                    "AcnlKN18BSECSpPiCWeliOJaqw0h2Yukjg0t4iDgWWRbhTiEnF0JEGo21UAxaVDHeeLtR4BfhjsTfegYZPeHtf6yA6S0BuN-ZTLPk3aeDbkK1EAXZBIMtWlxRsL3Mn_ZozNpZRDqaMvQflhp_ZxxYeA0JMaF-MU9naZ_kQFdRjA3yJLosCE1bdG2OkOjy0UadjV_rABiNMP81nKt7UmaeYhezQPZnJpnSLtXez8vd12wn9haZJa6nu6RchAoL-Vh1BIYGb-EmVVuU9jCKdZ2IJHyzQik8vJ4QZ3Y3WPT2JevWDuSEob-w7txwZerpeNWIl3M47CF_6hPi-1v8VbSlAAlzoa9LEhEbLejD7kTTaOX1A9ixK2lwBDrF832Z_3euIOQPma44x6lPNxfI3w0w0dSCgd9m8sYx0Gr6EuNBTjAyzzDpT8",
+                    "AcnlKN1xhWURZvnVfD72wB7qeUqfw_t-UcF0Rf2WmKVeWNwSfVTP2XslWdAQeqepd7Qi_OOxY6KeBa2d8WDoyp1guLoVnes7OhlmLbg0GROpqn9X6PmKNBb1naoA2vWHO8yo-GAwPQN2S4XkddNm4VY5ptSCzFxPD2VfUJKgze76IL0TY8mN3bUoqV-k30pXA6drZGecRwa2SA8Fn6BdZuesTgH4cKU2JLz_Q8lIulv_CuwXnUVkMlkLwvUKdYNlnH0YXS_Au3StXjmQcenTncF_aABxhuvByidegapG80VBoMUDKWHbQSwx-gmZDKwCcalf64QVqb139gjdZoAp-ThijHNl-akBgCb-zsxtuR-JHq50na1fp3vN7zPmlRZXbRQ_wVSYTVKO85HgN5SLph3F3BAuBWWUbUcsfmQhnMx2KoMYYA",
+                    "AcnlKN3NQuTtOjhcZtY3pawXsNj7G6ADkXvjMVo2F6x4Oyp-C3QR-G_UZ5i8JEw1k5NiFjYWPDUxje7YgRD-dSOmWflTEe6rNe8flPl8JSXCsTT5BAE7PMlDjfsK0aRokGpfMeKJuOAtW31hxiVAijGfONHyqP-uUjV_atggTRldrq2_HKgTTDJ8l60h1ZkoefqQj-pJhZCf6w8NBWS6aCX8lUd5zGXU9DUqcikhK6H_r4s0bylywCx9iXAFvfguXlFfnDhTWWgxzRRG-GqXSyDFaPtzqXtc2O5Na9HKcq13ZEMXfPttOt3HnEiJnETQ4ScLfawVJf4SjYKQDid5Spg_gQdFpYnJKENhGse9Y6sa3gXDBPrjPc7C2nP2cyKCksj1bclp1klCenRyeWbwsjOvphx2y3OecDeCFWrD9Krilg-3nGYf",
+                    "AcnlKN0eqWODXa7ZA7Vs4Pgjn8jOv9gIKwXtsRhTl8eQdlCCPLVpXSif5p5iHE5rXkf9gFbzHCSgD3vGaTa7eoj3fF7j2reGtGejSgigwogPzYxMPUT7_swhnwUontQma51CZlCLJyhWYl5QvV9djLAh5FyP5zZaPr15b2oCDpc-7M5nF6uS8k0VnDDLSepnLJCD94NaF14kkP_AFlxvZ82Mm7vPsoH2L0hYUoFwSIAW2Vcm6n3ZWHGM0dNPHfh4C1aJuPlzzahjrzFysouW582_oRSF7n9vROzjycKqwq--BjSrFMNe2UVvMyIYSjD94tXi2TefeRNCTmE8UmbAvx0lWLKvVY8MsVMvBr5TclqxRgcm4yxmgJLuC6cN1qWXoosoCLRnY1zBsgsyYr-rtdbPrxD9hQanEjQSAphyrOmJeXLmGw8L",
+                    "AcnlKN0LKMBS83B9yc80QlDX160dkMKuqQa_A7WSMO50Nxn_oDAY-053lnY5fNtgKaRpLXL1Rpv2R9Wl7TFx7QYARjFwe_hC99sJroGmN0dKcsMMjS32N-N48cox4bVFLingqwPi7dOLjwfmXBNv384Pd0Nf5A3v3Ead78BM8yri3BIfAkzy-8-8MdyOLEoOnnPy1LR9MhwJgRpitsjkI8LdiJoI4yR5ZeE5B8JLDE8DqtkVwDSYqcPi18xdebwR3RyT913c0jr3un4sxJVW_Tlq8ysw3jnlgQsk-7MEkSg_hcy2GcSzhH9IWLLiG-60PHeOSg5P0iL6ItcSX0awIYj2C6S55MXQQR5foqs8Sn1z1-OEYqo2hWPeGIAwZcGed0Vz9krFUdBOocDtrHhgtOb1w7jCIPEu8ZDFI2Z5tbc8Y6eCFQ"
+                ],
+                "review_texts": [
+                    "​⛩️宇治上神社、時を超える静謐な美\n\n​2017年の年末に宇治上神社を訪れたのですが、本当に静かで神聖な空気に満ちていて、心が洗われるようでした。世界遺産というのも納得の、時を超えて建ち続ける力強い美しさに圧倒されました！\n\n​特に感動したのは、国宝の「本殿」です。現存する神社建築で日本最古という平安時代後期の建物だと聞き、その歴史の重みに思わず息を飲みました。「一間社流造の三殿」という珍しい造りも、じっくり拝見しました。\n\n​そして、もう一つの国宝「拝殿」の美しさもため息が出るほど。鎌倉時代前期の建築なのに、優雅な寝殿造の雰囲気が残っているんです。特に屋根の「縋破風（すがるはふ）」の形が本当に優美で、強く印象に残りました。\n\n​紅葉は終わっていましたが、静謐な境内の趣が素晴らしく、忘れられないひとときとなりました。ぜひまた季節を変えて訪れたいと思います！",
+                    "JR宇治駅から徒歩20分程度。\n2026年元旦に伺いました。\n\n向かう途中、8割程度のお店が閉まってました。\n\n藤森神社で参拝後に伺いました。\n世界遺産だから激混みを覚悟していたのですが、参拝まで並び10分程度。\n御朱印は書置きのみ。\n正月限定2種。見開きの大きさ1種。\n拝受しました。\n御朱印待ち時間なしでした。\n\n2026年 元旦",
+                    "2025年12月末に初めて訪れました。\n宇治川の対岸に鎮座する平等院の鎮守社として崇敬されている宇治上神社(本宮)。古都京都の世界文化遺産の中で一番狭い境内の神社です。\n平安時代から続き、国宝の本殿は日本最古の神社建築で 1060年に創建され、それからおよそ1000年が経ち、現代に至るまで残り続けている貴重な建物です。\nすぐ近くにある宇治神社とは対になっています。\n現代では学業成就や家内安全や武運隆昌などにご利益があるとされています。",
+                    "2026/1/11\n世界文化遺産の神社です。学業豊かな神様を祀ることでとても有名です。\n御朱印は本日は残念ながら全て書置きでした。\n\n京阪宇治駅からは徒歩10分程度、JR宇治駅からは徒歩20分程度です。\n平等院鳳凰堂からも近く、橘橋、朝霧橋を渡れば宇治神社とセットで行くことが可能です。\n近くには福寿園宇治茶工房があったりもします。",
+                    "現存する神社建築として日本最古だそうです。日本最古の神社ではありません。\n世界文化遺産に指定されてます。\n規模は小さいですが、建築が独特で拝殿を裏から覗けるのも珍しい。"
+                ]
+            },
+            {
+                "place_id": "ChIJwTrPD3gRAWARJNFuVObWHrE",
+                "order": 4,
+                "name": "宇治上神社",
+                "location": {
+                    "lat": 34.9004953,
+                    "lng": 135.8191632
+                },
+                "info": "現存する最古の神社建築として知られる世界遺産。素朴で趣のある本殿は平安時代後期に建てられたとされ、日本の建築史において非常に貴重な存在です。静かな空間で歴史を感じてください。",
+                "activity": "世界遺産巡り, 神社参拝, 歴史探訪",
+                "transport_mode": "徒歩",
+                "photo_references": [
+                    "AcnlKN0NIOh9QcqazSmdhpFmXXLixoJsnqluTCCdv1WIpLFL5y4pbYt-FA99cNftcMLE2vdcAhCmke1Tl408aMZdYeCheHdEtoSPAVNOQDzw2cLofD3C-bQbv2ZNHVc3lEY72JGXYCxdM6Gkn8vKYR7iVHTB4D_yNxMFFMu8ysiWKd0CFO7TAFz6OVSvA54-JWZPa7-I99WLETJyZmhAMsray_8R93YzZVcmvyudtKxN3-i7JhbCSwVUmGTqHggvxEX2bk6h1BLQeOK0PJwLWwJHaL8fnqZANbOLVCrPTmka49Za5ebEJyQDqUzhJm453XZD-3BI_e7hf0UlenrMgKzfNBwtHFT_UZQXp_1bhOCF9CcT9jks17UzC9s73Ti41I7eEiDtJkbqrQZPPiC06mqOzeoGHBZOYye51uSFlkLk1L9TFBwP",
+                    "AcnlKN3ZyRLUnQKP6eL4T5P1LUj80q9Yv1pZ2IFzxsJnURaGZqG1DqgrhhYfmPklGJQZA0c5pAhXOulKCw_bk-5JbN6BBYKnr4mKPzg6hsCaGGiyp32oAjfyoeA6q1hJQC9dlnRQxpiEw0Cr8FZ1-1INspaONPnMYo_exuLP661vMMlLv5OXZeaE14l7toA1xnrl8Qj25kbUArKNHXhv_lYyqMWBYDJsHxrN6lNCEou_EjsLB__ZoDBIdPsf5vczXKhIgGIeSAZJlHvDpTpK2Wlm1DMEuCeYyycErEX9h69eRJX0ZHtDYMVaZCXDmHg13AjG_nEz2Z8pI2vUVR9jibxMZvfRc2QIdsGVqBNAfJ_rFLNWNQndf39AvgcjJVF1mEyPy7Cmiqlm0GiSce8VrhNafeQicnEoOALF2DAIyzd18WPOnYA",
+                    "AcnlKN1K_4p2Xc47mvKWNbhIH__Mk3UJWH0zn0hNNyJQoz0gZauNFGW8nuo9K8zPW9cs1tyVxjcg2AN9N6pQksrS4kTaBgl7Aiy8CCymRLh6w1ZfGMzhsgWxS0gZcEKTleDjcPDggCM68FY9PqEDmC-wXYnbKF5vpkpqsxs1hVa_7i99rt7dkxWXangTZQMxuOZQ9OJiyIFqJfCSijNACRFcWUA1_4ORVyXnADkm5qnW7QLP9E5mNBzk8Wjjx4RXAJirRbM8To442bMBe4k9rhfPDuPTzmDzB_SuUpBg2ggQCeS4Y07pYIo3ALnKjOTxp0oUxEr2nDnZ3IfyIClSJ1vkBW8daWOTfwxqnCrY20rVwNZes0rK_bzqByJtVAIGt1dEEPEJ8pDpIQfQ2BEm1f6_QTbOxR3IFC9YVPusCu9KkLOJoA",
+                    "AcnlKN2grfDKv-N7QdiuUm70JXZ-UOYgczaKFKFjYYIs3QJtb127uh4CJWZctyu7V3BTHrGa9Wep9HjUIL_x43F3jNUqxoy9wMu58xZM1BFr96kojOfayAxW28GRAlOu4jMBBAp-1H5FM7l2qYnsZAnzXd3DBIF4MEnZqkskf2-jnX8eaQUhuxDlUz-0nCrzV3_agZf_3MtSD6CuJZiMw-QHNjuOdduAxOEwZizy0HY6Zeo9dARAG1f4cQm-0bTDND5rQfgD3MLz8H4MwSq1ELVVSFdNyUfGrabKfIKrfwfFXCh-bdVicK42g3YEWnZKyGmM2w0oLz7_0oqA7nPtjV-0ithvHkyfo2M47nUrxm0MtkWTWVx1Ad03WHnfTwYaiDRAxmvnWiQrI7FOxCc_9x3uQFtMn_KHiOQKGma96AbDaNM",
+                    "AcnlKN1ZiH4OqZuEpxm3pfevthEJQuiqFec4ldGSbyjp67mwdUxtP7vAQUj-XpJw9XF8gxdI9Ho76Vg01UKjwtfM4X-BSrVJWYQes-GjOKkNMMionfmFj7pDxdA6Mdkxy3f5cYLuwLQ2uZw08gzyevkJpP2GpBETh9i5BOOYR4x9s88PaAYsCYUn1KbkgZQvatYJf5DbvvVzePy97wZCFlmBwDEnEKtkHjq7S_-kSj8w_4gwM9Uu6rspplYvIsxFDwqB1mXDALiD-oOSEXS-9Yw-vjRHuNNPTmujRmkKFP5Oo9seTps6Etqhv6iIkx460qJ9dXA4h32wnXm3DwMx2puAB23fU8EjGk6EWolh315Ar54KQTxIGKXqJXB3zgybKUeHuWnvI0cTobKgK1lHvApVLM60xPVmWqmmmY1ew8Xy3ey-xcy3Yovg5MPZOpEqmJ2t",
+                    "AcnlKN2E_uCkY9g_8o12LWR0YvkSuZjfIQK2j3QKrman3KNzVYTCpE38Kd7qVxxc4dLtTpJ_ZZgwuYP5PLu4FvsVzovMFvYylJBHKtq1ZBwTprxdYncD0XL02xDYH5EoJaG3ENorWxILfatUE__GEQ2vUjg3yPttHrVaQurulPd2HJXIAOk4R402pSF_k6ugeYZnFe9vPVWyC05fNbOKZE-72JAJlU6YpEPK57-Pl7jkrhp8QqVE-OCHvygdmEBhY2nRcU8Sw1Hqh1B5TOeMvzJc9oaH-NkVjmZPcvRCXeX42zIPs4a56nEIYpFtlgol96606IkSZ_UyBTZUQBGWGJveB39m8VjvC3XRDhTj3IAJCcXpaV2SRwtVR66Ds2Gfb8benUkeJgXc4OXlc1As-dbmmqfgYybo44p-i-nW6SFz_TnRtg",
+                    "AcnlKN0k5uMKbmRlWFCLYJ8oWetWf_DOoq-o3i_J7JG27nqj8HbOw83m1XKyDQN_htVZJDQcY0AfjzDA_5sMx-HiPp68HXJTay7j2uRlhnVVrK_tpi_ru5ckrmZ8VM-mKyQC17bOS4nh9G8ecr1iW31kGpRQnrgPqP_pUb0zWjJfehrrLkdfNPemdJ3w3SeQHajU4csuC24IYtKCqn0UwBOKCGbka2Q40Y7CF1kg0pqR24HdnswHY_8fHuqb_Q99zCrY771aadgoam84KulXSj5doAGzeW3Ica_PehK0DJ1YKINXentTqvO6q9lOI6FVBo17iQLBzDOfqCvTxEFGYIxriwcUCrGFuj5J2oda8GedmHfpGxT49nUQ1E1fGwgl9KmyObCCP2xxycFeleV1bkGezU9_3djLM7XEG6vvBn4Ih4YV5PI",
+                    "AcnlKN3Gq7HBaV9Cagl7vYe19g4YSI0gkzQyQQOGU16UdIPAaAJMHBZIlWgIxidRxeDkJmBGMQNFx0sW0OjBUR5etheegD-3I_-K6h4Xwd28dyJDZ7ikVNwStQ38CpfJbYBGGFfT6q4smsPeMTOxQakjhLeZABToTdgtT7TuMgqiAdKRW9o3viLpaDCjd1YaGn8-PpospTcKHZD7NIeC5UwBND1TfYeQZOIEO-V57cudb7pFA1e9DJINRVsNkgjj1VM1Oenmw54wd1pkqv4pWLJ0GUQce35dBZOdPE508qEBMDMkEFOJiBzIf5Hkx-CGxVtiOEXt3LHYSQMSeVNB7B7XvT3XxbtrLGX42nU1xwNbrgP9Ur_k5VAp5EixNzMgUAM_MhuYbkHxVEpwRrLl-N7zebp2XISd4dffiFKuWADCYVg",
+                    "AcnlKN3pybwfTBr8HD2NY4MW7clh47XsLMkbq3tqExgUJ4PmDWpMewj7b4mEFU_fTmw5kZ2Iq3TbY-vJB7qfi4e6qewYunppTI62-3sRTiYb3sG-UaCRIkU9wughgla_3nGTuQYpFVfQ_b4Cy0P3cfBqTgZE5fjf5ivSkHawpH-LY3F4xHNyXYNgpU9ULLpE0YpwknDFjone5-LEisufBeOgATkL4AZC94TZpMrhXp7RmsTEUA4bAYUeUHH69KxEm8v4UpKoe12D8CX2j0QHw8pKpPIYa5bt-ZHm2U1Cr5XMCqZIcHqSBBetG_HapmD47L3D3mSitlDDLobwPjozKsWovBUf8L2zNc7P5iuzvA1Bt-j_a6Rf0m0OT_YVLHCqS-RTI-oz-CwfZ06ZdlBRQyjq0rGitbym40y99_nF55liln5DCIbE",
+                    "AcnlKN0x84hyRzdoWqYUdwRx6__KsA2aKp8nJnWcvoCwHySFqetr5SR6zsKJRt6JLBskPpIjinkpzHGMXtMvK0m7yiqkQMtK6clLkM5EiCJ0QL_dNLHHT_IEoy0c8SCc0TDTtNWhOgGn7mFZCqEv3vK-OsOGG8dCV53cZCu7buviyDWupmmkhMw5dFJ2-iLCFANmhqmCoVmzjbE5xrS7whyZ8D5g0SQQZk_KVfJBKKntS9E_6hml8uqlfj3q6ILovA-SSuomhdZ8AJWx5QVRuVUWSFN551oKNLd2BuCPLgdrUvfkkWIYDx4duiVaSkmN8m4Y99J5Pb_dA2GoRzrHStbj7TIENx1lYq1EegQlCOlhNWlCmiPOE82Nx2AiNb3QmAdr18bJmXUSYVdkoEjLSE-XXswj4ZT1Tkjifw0pVgHmyqMi_g"
+                ],
+                "review_texts": [
+                    "​🌸 2018年6月、三室戸寺の感動的な思い出\n\n​2018年の梅雨の時期に訪れた「あじさい寺」、三室戸寺は本当に忘れられない思い出です。境内に一歩足を踏み入れた瞬間の、目の前に広がる光景に、思わず息を飲みました。\n\n​特に感動したのは、約2万株もの紫陽花が咲き誇る広大なあじさい園です。青、紫、ピンクと鮮やかなグラデーションが織りなす様子は、まさに色彩の絨毯。雨露に濡れて一層色濃く輝くハート型の紫陽花を見つけた時のときめきは、今でも鮮明に覚えています。\n\n​本堂へと続く道も、鮮やかな花々に彩られていました。また、本堂前にある狛兎（うさぎ）や狛蛇といったユニークな石像も、ご利益がありそうで興味深かったです。\n\n​梅雨の憂鬱さを吹き飛ばしてしまうような、壮麗な花の絶景。あの時感じた感動と、心癒される景色は、またいつか必ず訪れたいと思わせてくれる最高の体験でした。",
+                    "2025.11\n三室戸寺\n所在：京都府宇治市\n駐車場：あるが有料（公式には「有」としか書いてないし有料とは書いてないので嘘はついていないことになる）\n\n収容人数：－\n席の形態：－\n注文形式：－\n支払い：入場門で前払\n所見など：寺にほぼ直結の駐車場は2時間で1000円というこの田舎っぷりにしてはなかなかの破格、そして入場料も1匹1000円というなかなかの破格帯。\n\n階段は50段あるかないかで本堂に行ける。紫陽花（あじさい）が見頃となる6月前後はそこそこ人が多いようだが紅葉時期は、あまり人が居ないという穴場的存在。しかし他の名だたる寺院などに比べればさすがに規模は劣る。\n総合的には☆3.50～3.70か。",
+                    "明星山　三室戸寺　天台宗　本尊　千手観音菩薩\n約30年ぶりに訪問した。前回の訪問は初夏だった。如何に花の寺であっても、紅葉もすでに終わり、サザンカの花が僅かに咲く程度で、他の花は全く咲いていない。しかし山の尾根、谷は花木に満ち、春の訪れを心待ちにしているようだ。綺麗な寺である。駐車場は山の下にタイムズの駐車場が見たところ三面あるが、開いているのは一面だけでもあった。しかも料金は1000円で、立地を考えると正直たかすぎる。駐車場上部から寺の参道への回転式パイプ扉があるが、寺側でロックされて、通行できす、下の公道まで下りなければならなかった。",
+                    "2025.12月末、年の瀬に訪れましたが特に見所はありませんでしたが春から夏にかけては多少見れるのかなと。入山料は過去最高値1000円…入れないところもあるので、せめてシーズンオフは半額でしょう",
+                    "繁忙期でもないのに、拝観料1人1000円の西国三十三所最高額！\n駐車場もはじめの2時間1000円！参道に近い出入り口は塞がれてるし、本堂の電気は消えてるわ、手水舎の水は干上がってるし、御朱印乾かすドライヤーも無いわ、トイレは掃除してるんか？って感じ。\nバカでかい防犯カメラはいっぱいある。\nさらに御朱印受付は15時10分まで！！終わるのはやっ！！100観音最早じゃない！？\nなにここ！"
+                ]
+            }
+        ],
+        "estimated_duration_hours": 3.0,
+        "summary": "宇治の主要な観光スポットを効率よく巡る、歴史と自然を満喫する約3時間の散策プランです。世界遺産の平等院と宇治上神社を訪れ、宇治橋からの絶景を楽しみながら、宇治の魅力を存分に体験できます。抹茶の街ならではの散策も楽しめるでしょう。",
+        "theme": "世界遺産, 歴史散策, 風景"
+    }
+]
